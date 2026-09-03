@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardware requirement</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Supported file formats</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Prerequisites</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Server installation</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Client installation</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Change license</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD extensions</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Save parts</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Save assembly</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Corporate Information</a></li>
  </ul>
 </div>
@@ -220,17 +200,27 @@
 <div class="sectionbody">
 <div class="paragraph">
 <p>When a part is imported into TruSmartCAM, the relevant sheet metal technology is
-automatically processed to the part. As part of this process, TruSmartCAM performs</p>
+automatically processed for the part. During this process, TruSmartCAM validates
+the part&#8217;s geometry, material, and manufacturability to determine whether the
+part is ready for tooling.</p>
 </div>
 <div class="paragraph">
-<p>The part state is displayed directly on the part tile, below the part name,
-indicating the current validation condition of the part.</p>
+<p>The part state is displayed on the part tile, below the part name, indicating
+the current validation status of the part.</p>
 </div>
 <div class="paragraph">
-<p>Part state types describe the different conditions a part can be in as a result
-of part-level validation checks. These states indicate issues related to the
-part&#8217;s design, material, or geometry and must be resolved before tooling can
-proceed.</p>
+<p>Part state types represent the different validation results assigned to a part.
+These states indicate issues related to the part&#8217;s design, material, or
+geometry that must be resolved before tooling can proceed.</p>
+</div>
+<div class="paragraph">
+<p>The following images show examples of the part states that may be displayed on
+the part tile after validation. Each part state indicates a specific validation
+result. The causes of each part state are described in the
+following sections.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/material.png" alt="material" width="256"></span> <span class="image"><img src="img/bendin.png" alt="Bend Infesible" width="259"></span></p>
 </div>
 </div>
 </div>
@@ -257,9 +247,6 @@ is found, the part is marked as cut infeasible.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p><span class="image"><img src="img/bendinfesible.png" alt="Bend Infesible" width="259"></span> <span class="image"><img src="img/cutinfesible.png" alt="Cut Infesible" width="254"></span></p>
-</div>
 </div>
 </div>
 <div class="sect1">
@@ -280,9 +267,6 @@ a material. In this case, the part is marked with a
 <strong>Material not assigned</strong> error.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/materialmissing.png" alt="Material Missing" width="256"></span> <span class="image"><img src="img/materialnot.png" alt="Matertial Not Assigned" width="256"></span></p>
 </div>
 </div>
 </div>
@@ -308,12 +292,6 @@ but the actual CAD file is missing, it is marked as a nascent part.</p>
 geometry or the geometry is unreadable, making it unusable for tooling.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/opencontours.png" alt="Open Contours" width="256"></span> <span class="image"><img src="img/multiple.png" alt="Multiple Outer Contours" width="256"></span><br></p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/nascent.png" alt="Nascent" width="257"></span>  <span class="image"><img src="img/geometrymissing.png" alt="Geometry Missing" width="250"></span></p>
 </div>
 </div>
 </div>

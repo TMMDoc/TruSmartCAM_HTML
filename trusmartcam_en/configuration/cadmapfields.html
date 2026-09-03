@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardware requirement</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Supported file formats</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Prerequisites</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Server installation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Client installation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Change license</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD extensions</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Save parts</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Save assembly</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../impressum.html">Corporate Information</a></li>
  </ul>
 </div>
@@ -219,45 +199,41 @@
 <div class="ulist">
 <ul>
 <li>
-<p>factory &#8594; Settings &#8594;
-Import, under Import settings section. Click Pick
-Material lookup keys.
-Select Fieldspage appears.</p>
+<p><strong>Factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Import</strong>, under <strong>Import settings</strong> section. Click <strong>Pick</strong>
+<strong>Material lookup keys</strong>.
+<strong>Select Fields</strong> page appears.</p>
 </li>
 <li>
-<p>Click Browse. Select the file <code>C:\Program
-Files\Metamation{APPNAME}\Samples\Parts\00.04.dxf</code>.</p>
+<p>Click Browse and select the required DXF file.</p>
 </li>
 <li>
 <p>Select Field populates with MAT, REV, THK information.</p>
 </li>
 <li>
-<p>Select MAT and Click OK.</p>
+<p>Select MAT and Click <strong>OK</strong>.</p>
+</li>
+<li>
+<p>The <strong>Material lookup keys</strong> field is updated with the MAT field. Similarly,
+configure the Revision and Thickness lookup keys using the REV and THK fields.</p>
+</li>
+<li>
+<p>Go to <strong>File</strong> &#8594; <strong>Open</strong> &#8594; <strong>Import parts</strong>, select the same DXF file.</p>
+</li>
+<li>
+<p>The part is imported with the Material, Thickness, and Revision values
+populated from the selected lookup keys.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Material lookup keys field updated with MAT field. Similarly do for Revision
-and Thickness keys.</p>
-</div>
-<div class="paragraph">
-<p>File &#8594; Open &#8594; Import parts, select
-the file - <code>C:\Program Files\Metamation{APPNAME}\Samples\Parts\00.04.dxf</code>.
-Part is imported with material, thickness and also revision.</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="img/05fieldmap.png" alt="Material" width="Revision and Thickness Map">
+<img src="img/mat.trumpf.png" alt="Mat.TRUMPF">
 </div>
 </div>
 <div class="paragraph">
 <p>Double click Part 00.04 and Part detail page shows those mapped field
 information from the CAD file under Misc Properties.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/06mappedfiledfromcad.png" alt="Material" width="Revision and Thickness Map">
-</div>
 </div>
 
                     </article>

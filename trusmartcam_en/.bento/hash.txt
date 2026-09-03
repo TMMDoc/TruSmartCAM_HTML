@@ -1,69 +1,69 @@
 Version=58
 APPNAME=TruSmartCAM
-BENDAPP=TecZone Fold
+BENDAPP=TecZone Bend
 BRAND=TRUMPF
 CUTAPP=TecZone Laser
 FLAVOR=TRUMPF
+FOLDAPP=TecZone Fold
 FOLDDAPP=Flux Fold
 LANGUAGE=EN
 TECNOAPP=TecZone
 TECNOAPP1=MetaCAM
 TRUMPF=
-Folders=18
-Pages=85
+Folders=16
+Pages=75
 UIXlate=False, DebugUIXlate=False, Language=EN
 
-contents.txt • 262814.062832
+contents.txt • 265803.125808
 Impressum.adoc • Corporate Information
 Index.adoc • Welcome to {APPNAME}
 Index.JFY.adoc • Welcome to {APPNAME}
-manifest.txt • 261819.021815
+manifest.txt • 265921.065926
 UserInterface.adoc • The user interface
 Workflow.adoc • Workflow
-CADExtensions\contents.txt • 262814.062829
-CADExtensions\Index.adoc • CAD extensions
-Configuration\CADMapFields.adoc • Map fields from CAD (lookup keys)
-Configuration\configureUsers.adoc • Configure users
-Configuration\contents.txt • 262814.062829
-Configuration\Index.adoc • Configuration
-Configuration\Language.adoc • Language
-Configuration\MapBendPages.adoc • Map material
-Configuration\MapCAMPages.adoc • Map CAM pages
-Configuration\SetupMachine.adoc • Add/Remove machine
-Configuration\SetupTooling.adoc • Setup tooling
-Factory\contents.txt • 262814.062830
-Factory\Customers.adoc • Customers
-Factory\edit.adoc • Edit
-Factory\Index.adoc • Factory
-Factory\routes.adoc • Routes
-Factory\sheets.adoc • Sheets
-Factory\Users.adoc • Users
-img\server.ico
-Installation\changelic.adoc • Change license
-Installation\ClientInstallation.adoc • Client installation
-Installation\contents.txt • 262814.062830
-Installation\HardwareRequirement.adoc • Hardware requirement
-Installation\importformats.adoc • Supported file formats
-Installation\index.adoc • Installation
-Installation\Prerequisites.adoc • Prerequisites
-Installation\ServerInstallation.adoc • Server installation
-Jobs\contents.txt • 262814.062830
-Jobs\Index.adoc • Jobs
-Jobs\JOBAutoPlan.adoc • Auto plan
-Jobs\JOBCreation.adoc • Create job
-Jobs\JobFilters.adoc • Job filters
-Jobs\JOBInteractPlan.adoc • Interactive nesting
-Jobs\JobPanel.adoc • Job panel
-Jobs\JOBView.adoc • Job view
-Jobs\OutDate.adoc • Out-of-date
-Jobs\Repacking.adoc • Repacking
-Jobs\TwinlineNesting.adoc • Twinline nesting
-Library\contents.txt • 262814.062831
-Library\Index.adoc • Library
-Library\SavingFilters.adoc • Saving filters
-Orders\Contents.txt
-Orders\Index.adoc • Orders
-Orders\OrdersView.adoc • Orders view
+cadextensions\contents.txt • 265821.065841
+cadextensions\Index.adoc • CAD extensions
+configuration\CADMapFields.adoc • Map fields from CAD (lookup keys)
+configuration\configureUsers.adoc • Configure users
+configuration\contents.txt • 265821.065841
+configuration\Index.adoc • Configuration
+configuration\Language.adoc • Language
+configuration\MapBendPages.adoc • Map material
+configuration\MapCAMPages.adoc • Map CAM pages
+configuration\SetupMachine.adoc • Add/Remove machine
+configuration\SetupTooling.adoc • Setup tooling
+factory\contents.txt • 265821.065841
+factory\Customers.adoc • Customers
+factory\edit.adoc • Edit
+factory\Index.adoc • Factory
+factory\routes.adoc • Routes
+factory\sheets.adoc • Sheets
+factory\Users.adoc • Users
+installation\changelic.adoc • Change license
+installation\ClientInstallation.adoc • Client installation
+installation\contents.txt • 265821.065841
+installation\HardwareRequirement.adoc • Hardware requirement
+installation\importformats.adoc • Supported file formats
+installation\index.adoc • Installation
+installation\Prerequisites.adoc • Prerequisites
+installation\ServerInstallation.adoc • Server installation
+jobs\contents.txt • 265821.065842
+jobs\Index.adoc • Jobs
+jobs\JOBAutoPlan.adoc • Auto plan
+jobs\JOBCreation.adoc • Create job
+jobs\JobFilters.adoc • Job filters
+jobs\JOBInteractPlan.adoc • Interactive nesting
+jobs\JobPanel.adoc • Job panel
+jobs\JOBView.adoc • Job view
+jobs\OutDate.adoc • Out-of-date
+jobs\Repacking.adoc • Repacking
+jobs\TwinlineNesting.adoc • Twinline nesting
+library\contents.txt • 265821.065843
+library\Index.adoc • Library
+library\SavingFilters.adoc • Saving filters
+orders\Contents.txt
+orders\Index.adoc • Orders
+orders\OrdersView.adoc • Orders view
 UIXlate\BR.txt
 UIXlate\CHS.txt
 UIXlate\CHT.txt
@@ -89,58 +89,58 @@ UIXlate\SK.txt
 UIXlate\SV.txt
 UIXlate\TH.txt
 UIXlate\TR.txt
-CADExtensions\SolidWorksAddin\contents.txt • 262814.062829
-CADExtensions\SolidWorksAddin\FactorySettings.adoc • Factory settings
-CADExtensions\SolidWorksAddin\Index.adoc • SolidWorks addin
-CADExtensions\SolidWorksAddin\InstallationSteps.adoc • Installation
-CADExtensions\SolidWorksAddin\MiscEnhancements.adoc • Misc enhancements
-CADExtensions\SolidWorksAddin\PartFeasibility.adoc • Check feasibility
-CADExtensions\SolidWorksAddin\SaveAssembly.adoc • Save assembly
-CADExtensions\SolidWorksAddin\SaveToPraxis.adoc • Save parts
-Configuration\AddMaterial\AddNew.adoc • Add new material and sheet
-Configuration\AddMaterial\contents.txt • 250602.060638
-Configuration\AddMaterial\ExportImport.adoc • Export/Import material
-Configuration\AddMaterial\Index.adoc • Material
-Configuration\AddMaterial\ReplaceMaterial.adoc • Replace material
-Factory\Settings\Bend.adoc • Bend
-Factory\Settings\contents.txt • 262814.062830
-Factory\Settings\Cut.adoc • Cut
-Factory\Settings\Environment.adoc • Environment
-Factory\Settings\Import.adoc • Import
-Factory\Settings\Index.adoc • Settings
-Factory\Settings\Job.adoc • Job
-Factory\Settings\Notification.adoc • Notifications
-Factory\Settings\Reports.adoc • Reports
-Factory\Settings\Watch.adoc • Watch
-Jobs\LayoutCommands\contents.txt • 262814.062830
-Jobs\LayoutCommands\Index.adoc • Nest management
-Jobs\LayoutCommands\LayoutPanel.adoc • Layout panel
-Jobs\LayoutCommands\NestView.adoc • Layout view
-Jobs\LayoutCommands\ReportSender.adoc • Report sender
-Jobs\RemnantManagement\AutoRemnant.adoc • Auto remnant management
-Jobs\RemnantManagement\contents.txt • 262814.062830
-Jobs\RemnantManagement\Index.adoc • Remnant management
-Jobs\RemnantManagement\ManualRemnant.adoc • Manual remnant management
-Library\LibraryView\AssemblyView.adoc • Assembly
-Library\LibraryView\Contents.txt
-Library\LibraryView\Index.adoc • Library view
-Library\LibraryView\PartView.adoc • Parts
-Library\Open\AssembliesImport.adoc • Import assemblies
-Library\Open\Contents.txt
-Library\Open\Index.adoc • Open
-Library\Open\JobImport.adoc • Import jobs
-Library\Open\OrderImport.adoc • Import orders
-Library\Open\PartImport.adoc • Import parts
-Library\PartState\contents.txt • 262814.062831
-Library\PartState\Index.adoc • Part status
-Library\PartState\PartFilters.adoc • Part filters
-Library\PartState\PartPanel.adoc • Part panel
-Library\PartState\PartValidation.adoc • Part validation
-Library\ToolingStatus\contents.txt • 262814.062831
-Library\ToolingStatus\Index.adoc • Tooling status
-Library\ToolingStatus\ToolingPanel.adoc • Tooling panel
-Library\ToolingStatus\ToolingValidation\BendTooling.adoc • Bend tooling validation
-Library\ToolingStatus\ToolingValidation\contents.txt • 262814.062831
-Library\ToolingStatus\ToolingValidation\CutTooling.adoc • Cut tooling validation
-Library\ToolingStatus\ToolingValidation\FoldTooling.adoc • Fold tooling validation
-Library\ToolingStatus\ToolingValidation\Index.adoc • Tooling validation
+cadextensions\solidworksaddin\contents.txt • 265821.065841
+cadextensions\solidworksaddin\FactorySettings.adoc • Factory settings
+cadextensions\solidworksaddin\Index.adoc • SolidWorks addin
+cadextensions\solidworksaddin\InstallationSteps.adoc • Installation
+cadextensions\solidworksaddin\MiscEnhancements.adoc • Misc enhancements
+cadextensions\solidworksaddin\PartFeasibility.adoc • Check feasibility
+cadextensions\solidworksaddin\SaveAssembly.adoc • Save assembly
+cadextensions\solidworksaddin\SaveToPraxis.adoc • Save parts
+configuration\addmaterial\AddNew.adoc • Add new material and sheet
+configuration\addmaterial\contents.txt • 265821.065841
+configuration\addmaterial\ExportImport.adoc • Export/Import material
+configuration\addmaterial\Index.adoc • Material
+configuration\addmaterial\ReplaceMaterial.adoc • Replace material
+factory\settings\Bend.adoc • Bend
+factory\settings\contents.txt • 265821.065841
+factory\settings\Cut.adoc • Cut
+factory\settings\Environment.adoc • Environment
+factory\settings\Import.adoc • Import
+factory\settings\Index.adoc • Settings
+factory\settings\Job.adoc • Job
+factory\settings\Notification.adoc • Notifications
+factory\settings\Reports.adoc • Reports
+factory\settings\Watch.adoc • Watch
+jobs\layoutcommands\contents.txt • 265821.065842
+jobs\layoutcommands\Index.adoc • Nest management
+jobs\layoutcommands\LayoutPanel.adoc • Layout panel
+jobs\layoutcommands\NestView.adoc • Layout view
+jobs\layoutcommands\ReportSender.adoc • Report sender
+jobs\remnantmanagement\AutoRemnant.adoc • Auto remnant management
+jobs\remnantmanagement\contents.txt • 265821.065842
+jobs\remnantmanagement\Index.adoc • Remnant management
+jobs\remnantmanagement\ManualRemnant.adoc • Manual remnant management
+library\libraryview\AssemblyView.adoc • Assembly
+library\libraryview\Contents.txt
+library\libraryview\Index.adoc • Library view
+library\libraryview\PartView.adoc • Parts
+library\open\AssembliesImport.adoc • Import assemblies
+library\open\Contents.txt
+library\open\Index.adoc • Open
+library\open\JobImport.adoc • Import jobs
+library\open\OrderImport.adoc • Import orders
+library\open\PartImport.adoc • Import parts
+library\partstate\contents.txt • 265821.065842
+library\partstate\Index.adoc • Part status
+library\partstate\PartFilters.adoc • Part filters
+library\partstate\PartPanel.adoc • Part panel
+library\partstate\PartValidation.adoc • Part validation
+library\toolingstatus\contents.txt • 265821.065842
+library\toolingstatus\Index.adoc • Tooling status
+library\toolingstatus\ToolingPanel.adoc • Tooling panel
+library\toolingstatus\toolingvalidation\BendTooling.adoc • Bend tooling validation
+library\toolingstatus\toolingvalidation\contents.txt • 265821.065842
+library\toolingstatus\toolingvalidation\CutTooling.adoc • Cut tooling validation
+library\toolingstatus\toolingvalidation\FoldTooling.adoc • Fold tooling validation
+library\toolingstatus\toolingvalidation\Index.adoc • Tooling validation

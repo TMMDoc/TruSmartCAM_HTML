@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardware requirement</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Supported file formats</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Prerequisites</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Server installation</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Client installation</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Change license</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD extensions</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Save parts</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Save assembly</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Corporate Information</a></li>
  </ul>
 </div>
@@ -236,6 +216,36 @@ relevant parts efficiently.</p>
 </div>
 </div>
 <div class="sect1">
+<h2 id="_state">State</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Use the <strong>State</strong> filter to search parts based on their current
+state.</p>
+</li>
+<li>
+<p>The dropdown displays all applicable states depending on the library parts
+available.</p>
+</li>
+<li>
+<p>The list of states changes dynamically according to the selected parts and
+their status.</p>
+</li>
+<li>
+<p>For example, select <strong>Material Missing</strong> to view parts in an unresolved
+material state.</p>
+<div class="imageblock">
+<div class="content">
+<img src="img/state.png" alt="State" width="990">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_status">Status</h2>
 <div class="sectionbody">
 <div class="ulist">
@@ -277,11 +287,6 @@ will display the respective parts.</p>
 </li>
 <li>
 <p>Parts with suppressed tooling on the selected machine will be displayed by clicking on the grey colored box.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/supressed.png" alt="Suppressed" width="990">
-</div>
-</div>
 </li>
 </ul>
 </div>
@@ -302,70 +307,6 @@ type (punch, gooseneck, radius, etc.) or description.</p>
 <li>
 <p>Select multiple tools and click <strong>Match all</strong> to sort the tools which use
 both the selected tools.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/bendmount.png" alt="Bend Mount" width="990">
-</div>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_used_tools">Used tools</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Filtering by <strong>Used tools</strong> works similar to filtering by
-<strong>Bend mounts</strong>.</p>
-</li>
-<li>
-<p>Tool icons are shown in proportional sizes (not exact, but relative).</p>
-</li>
-<li>
-<p>When the tooling preview is open, hovering the mouse over a tool in the
-filter list highlights that tool in the preview pane.</p>
-</li>
-<li>
-<p>Multiple tools can be selected and applied using
-<strong>Match all</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/usedtool.png" alt="Used Tool" width="912">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_state">State</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Use the <strong>State</strong> filter to search parts based on their current
-state.</p>
-</li>
-<li>
-<p>The dropdown displays all applicable states depending on the library parts
-available.</p>
-</li>
-<li>
-<p>The list of states changes dynamically according to the selected parts and
-their status.</p>
-</li>
-<li>
-<p>For example, select <strong>Material Missing</strong> to view parts in an unresolved
-material state.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/state.png" alt="State" width="990">
-</div>
-</div>
 </li>
 </ul>
 </div>
@@ -379,16 +320,13 @@ material state.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
+   <a href="#_state">State</a>
+  </li>
+  <li level="1">
    <a href="#_status">Status</a>
   </li>
   <li level="1">
    <a href="#_bend_mounts">Bend mounts</a>
-  </li>
-  <li level="1">
-   <a href="#_used_tools">Used tools</a>
-  </li>
-  <li level="1">
-   <a href="#_state">State</a>
   </li>
  </ul>
 </aside>
