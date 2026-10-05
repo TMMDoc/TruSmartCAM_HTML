@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Kortlæg materiale</title>
+  <title>Tilknyt materiale</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarekrav</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Understøttede filformater</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Forudsætninger</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Skift licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="index.html">Konfiguration</a>
    <ul>
     <li><button class="tree blank"></button><a href="setupmachine.html">Tilføj/fjern maskine</a></li>
-    <li><button class="tree blank"></button><a href="setuptooling.html">Opsæt værktøj</a></li>
+    <li><button class="tree blank"></button><a href="setuptooling.html">Opsætning af klargøring</a></li>
     <li><button class="tree blank"></button><a href="configureusers.html">Konfigurer brugere</a></li>
     <li><button class="tree blank"></button><a href="language.html">Sprog</a></li>
     <li>
@@ -48,13 +46,13 @@
      <a href="addmaterial/index.html">Materiale</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="addmaterial/addnew.html">Tilføj nyt materiale og plade</a></li>
-      <li><button class="tree blank"></button><a href="addmaterial/exportimport.html">Eksporter/Importer materiale</a></li>
+      <li><button class="tree blank"></button><a href="addmaterial/exportimport.html">Eksporter/importer materiale</a></li>
       <li><button class="tree blank"></button><a href="addmaterial/replacematerial.html">Erstat materiale</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a class="active" href="mapbendpages.html">Kortlæg materiale</a></li>
-    <li><button class="tree blank"></button><a href="mapcampages.html">Kortlæg CAM-sider</a></li>
-    <li><button class="tree blank"></button><a href="cadmapfields.html">Kortlæg felter fra CAD (opslagnøgler)</a></li>
+    <li><button class="tree blank"></button><a class="active" href="mapbendpages.html">Tilknyt materiale</a></li>
+    <li><button class="tree blank"></button><a href="mapcampages.html">Tilknyt CAM-sider</a></li>
+    <li><button class="tree blank"></button><a href="cadmapfields.html">Tilknyt felter fra CAD (opslagsnøgler)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Brugergrænsefladen</a></li>
@@ -68,9 +66,9 @@
      <a href="../library/open/index.html">Åbn</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importer dele</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importer ordrer</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importer jobs</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importer samlinger</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importer opgaver</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importer job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importer monteringer</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Biblioteksvisning</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Dele</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Samling</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
      </ul>
     </li>
     <li>
@@ -87,33 +85,33 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Dele filtre</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfiltre</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Værktøjsstatus</a>
+     <a href="../library/toolingstatus/index.html">Klargøringsstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Værktøjsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Klargøringsvalidering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Bukkeværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skæreværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Foldeværktøjsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering af bukkeklargøring</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering af skæreklargøring</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering af falsklargøring</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Værktøjspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Klargøringspanel</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Gem filtre</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Gemning af filtre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Ordrer</a>
+   <a href="../orders/index.html">Opgaver</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordrevisning</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Opgavevisning</a></li>
    </ul>
   </li>
   <li>
@@ -121,77 +119,59 @@
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Opret job</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job visning</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job panel</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Auto plan</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobvisning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobpanel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatisk planlægning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv indlejring</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Ompakning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Nest management</a>
+     <a href="../jobs/layoutcommands/index.html">Indlejringshåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout visning</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout panel</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Report sender</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layoutvisning</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportafsender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Restmaterialestyring</a>
+     <a href="../jobs/remnantmanagement/index.html">Resthåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Auto restmaterialestyring</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuel restmaterialestyring</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisk resthåndtering</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuel resthåndtering</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twin-line indlejring</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Forældet</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job filtre</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobfiltre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Ruter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plader</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Brugere</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigér</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Indstillinger</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Omgivelser</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bukning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skær</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifikationer</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Overvågning</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-udvidelser</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Gem dele</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Gem samling</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontroller gennemførlighed</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksindstillinger</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse forbedringer</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Virksomhedsoplysninger</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Firmaoplysninger</a></li>
  </ul>
 </div>
 
@@ -208,102 +188,52 @@
  </div>
  <div>/</div>
  <div>
-  <a href="mapbendpages.html">Kortlæg materiale</a>
+  <a href="mapbendpages.html">Tilknyt materiale</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Kortlæg materiale</h1>
-<div id="preamble">
-<div class="sectionbody">
+                        <h1>Tilknyt materiale</h1>
 <div class="paragraph">
-<p>Alternativt kan De direkte kortlægge materialet fra TecZone.
-Aliasser kan bruges til at anvende materialenavne, som er
-almendeligt anvendte i Deres fabrik.</p>
+<p>Alternativt kan du direkte tilknytte materialet fra TecZone.
+Aliases kan bruges til de materialenavne, der
+almindeligvis bruges i din fabrik.</p>
 </div>
+<div class="paragraph">
+<p><strong>Factory</strong> &#8594; <strong>Sheets</strong> &#8594; <strong>Map&#8230;&#8203;</strong> &#8594;
+<strong>Materials</strong>, <strong>Edit Materials</strong>-siden vises.
+Materialer og <strong>Raw materials</strong> er anført
+til venstre for at tilknytte dem til bukkematerialet (1.0036, 1.4301, AlMg3,&#8230;&#8203;) og/eller
+for at angive Aliases.</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_tilføj_bøjningsmateriale_fra_teczone">Tilføj bøjningsmateriale fra TecZone</h2>
-<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Åbn TecZone. Klik Database og Materials.</p>
+<p>Klik på Copper-materialet og vælg Cu. Materialet tildeles til alle Copper-
+råmaterialer (Copper-15, Copper-20, Copper-25, Copper-30, Copper-40).</p>
 </li>
 <li>
-<p>Tilføj Materiale og dets parametre. Luk TecZone.</p>
-</li>
-<li>
-<p>Højreklik Pmonitor i systembakken, klik Skal Flux-konfigurationen skubbes til arkivet?.</p>
-</li>
-<li>
-<p>Klik Ja for at bekræfte overførsel af TecZone konfigurationen til
-Repository.</p>
+<p>Klik på Copper-40-råmaterialet og vælg CuZn.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/03pushconfig.png" alt="Push TecZone Config Bend Material Add">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_kortlæg_materialenavn">Kortlæg materialenavn</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>fabrik &#8594; plader &#8594; Map &#8594;
-Materialer, Redigér materialer siden vises.
-Materialer og Råmaterialer er opført
-til venstre for at kortlægge mod bøjningsmaterialet (1.0036, 1.4301, AlMg3,&#8230;&#8203;) og/eller
-for at angive Aliasser.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Klik på Copper Material og vælg Cu. Materiale tildeles til alle Copper
-Raw Material (Copper-15, Copper-20, Copper-25, Copper-30, Copper-40).</p>
-</li>
-<li>
-<p>Klik Copper-40 Raw Material og vælg CuZn.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Bøjningsmateriale kortlægning mod Material eller Raw Material kan udføres.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/01bendmaterialmap.png" alt="Bend Material Map">
-</div>
-</div>
+<img src="img/mapmaterial.png" alt="Material" width="636">
 </div>
 </div>
 
                     </article>
                 </div>
                 <div id="site-toc-holder">
-                    <aside id="site-toc">
- <h3>Contents</h3>
- <ul>
-  <li level="1">
-   <a href="#_tilføj_bøjningsmateriale_fra_teczone">Tilføj bøjningsmateriale fra TecZone</a>
-  </li>
-  <li level="1">
-   <a href="#_kortlæg_materialenavn">Kortlæg materialenavn</a>
-  </li>
- </ul>
-</aside>
-
+                    <aside id="site-toc"></aside>
                 </div>
             </div>
             <nav class="pagination">
  <span class="prev"><a href="addmaterial/replacematerial.html">Erstat materiale</a></span>
- <span class="next"><a href="mapcampages.html">Kortlæg CAM-sider</a></span>
+ <span class="next"><a href="mapcampages.html">Tilknyt CAM-sider</a></span>
 </nav>
 
         </div>

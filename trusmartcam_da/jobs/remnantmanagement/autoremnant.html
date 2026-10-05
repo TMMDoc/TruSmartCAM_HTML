@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Auto restmaterialestyring</title>
+  <title>Automatisk resthåndtering</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardwarekrav</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Understøttede filformater</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Forudsætninger</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Skift licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Tilføj/fjern maskine</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Opsæt værktøj</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Opsætning af klargøring</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfigurer brugere</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Sprog</a></li>
     <li>
@@ -48,13 +46,13 @@
      <a href="../../configuration/addmaterial/index.html">Materiale</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Tilføj nyt materiale og plade</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Eksporter/Importer materiale</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Eksporter/importer materiale</a></li>
       <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Erstat materiale</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Kortlæg materiale</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Kortlæg CAM-sider</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kortlæg felter fra CAD (opslagnøgler)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Tilknyt materiale</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Tilknyt CAM-sider</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Tilknyt felter fra CAD (opslagsnøgler)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Brugergrænsefladen</a></li>
@@ -68,9 +66,9 @@
      <a href="../../library/open/index.html">Åbn</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Importer dele</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importer ordrer</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Importer jobs</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importer samlinger</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importer opgaver</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Importer job</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importer monteringer</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../../library/libraryview/index.html">Biblioteksvisning</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Dele</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Samling</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Montering</a></li>
      </ul>
     </li>
     <li>
@@ -87,33 +85,33 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Delvalidering</a></li>
       <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Dele filtre</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Delfiltre</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Værktøjsstatus</a>
+     <a href="../../library/toolingstatus/index.html">Klargøringsstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Værktøjsvalidering</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Klargøringsvalidering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Bukkeværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Skæreværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Foldeværktøjsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validering af bukkeklargøring</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validering af skæreklargøring</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validering af falsklargøring</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Værktøjspanel</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Klargøringspanel</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Gem filtre</a></li>
+    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Gemning af filtre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Ordrer</a>
+   <a href="../../orders/index.html">Opgaver</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordrevisning</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Opgavevisning</a></li>
    </ul>
   </li>
   <li>
@@ -121,77 +119,59 @@
    <a href="../index.html">Jobs</a>
    <ul>
     <li><button class="tree blank"></button><a href="../jobcreation.html">Opret job</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Job visning</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Job panel</a></li>
-    <li><button class="tree blank"></button><a href="../jobautoplan.html">Auto plan</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiv nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Jobvisning</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Jobpanel</a></li>
+    <li><button class="tree blank"></button><a href="../jobautoplan.html">Automatisk planlægning</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiv indlejring</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Ompakning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../layoutcommands/index.html">Nest management</a>
+     <a href="../layoutcommands/index.html">Indlejringshåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Layout visning</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Layout panel</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Report sender</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Layoutvisning</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Rapportafsender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Restmaterialestyring</a>
+     <a href="index.html">Resthåndtering</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="autoremnant.html">Auto restmaterialestyring</a></li>
-      <li><button class="tree blank"></button><a href="manualremnant.html">Manuel restmaterialestyring</a></li>
+      <li><button class="tree blank"></button><a class="active" href="autoremnant.html">Automatisk resthåndtering</a></li>
+      <li><button class="tree blank"></button><a href="manualremnant.html">Manuel resthåndtering</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twin-line indlejring</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Forældet</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Job filtre</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Jobfiltre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Ruter</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Plader</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Brugere</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Redigér</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Indstillinger</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Omgivelser</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bukning</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Skær</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifikationer</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Overvågning</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-udvidelser</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Gem dele</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Gem samling</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Kontroller gennemførlighed</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Fabriksindstillinger</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Diverse forbedringer</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">Virksomhedsoplysninger</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">Firmaoplysninger</a></li>
  </ul>
 </div>
 
@@ -208,42 +188,40 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Restmaterialestyring</a>
+  <a href="index.html">Resthåndtering</a>
  </div>
  <div>/</div>
  <div>
-  <a href="autoremnant.html">Auto restmaterialestyring</a>
+  <a href="autoremnant.html">Automatisk resthåndtering</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Auto restmaterialestyring</h1>
+                        <h1>Automatisk resthåndtering</h1>
 <div class="sect1">
-<h2 id="_aktiver_restmateriale">Aktiver restmateriale</h2>
+<h2 id="_aktivér_rest">Aktivér rest</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM understøtter automatiseret oprettelse af restmaterialeplader fra et
-layout under nesting. Denne funktion er kun tilgængelig med
-TecZone Laser-maskiner.</p>
+<p>TruSmartCAM understøtter automatisk oprettelse af restplader fra et layout under
+indlejring. Denne funktion er kun tilgængelig med TecZone Laser-maskiner.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Klik på <strong>fabrik</strong> → <strong>Maskiner</strong> →
-<strong>Maskinstandarder&#8230;&#8203;</strong> → <strong>Skeleton cuts</strong>.</p>
+<p>Klik på <strong>factory</strong> → <strong>Machines</strong> →
+<strong>Machine Defaults</strong> → <strong>Skeleton cuts</strong>.</p>
 </li>
 <li>
-<p>Vælg valgmuligheden <strong>Slice Sheet Skeleton</strong> &amp; <strong>Create Remainder Sheet</strong> for at
+<p>Vælg indstillingen <strong>Slice Sheet Skeleton</strong> og <strong>Create Remainder Sheet</strong> for at
 aktivere denne funktion.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Når den er aktiveret, opdeles det resterende område af en nestet plade i
-restmaterialeplader baseret på den tildelte Minimum Remainder Sheet Value i X
-&amp; Y.</p>
+<p>Når den er aktiveret, opdeles det resterende areal af en indlejret plade i
+restplader baseret på den tildelte minimumsværdi for restplade i X og Y.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -253,18 +231,18 @@ restmaterialeplader baseret på den tildelte Minimum Remainder Sheet Value i X
 </div>
 </div>
 <div class="sect1">
-<h2 id="_konfigurer_auto_restmateriale">Konfigurer auto restmateriale</h2>
+<h2 id="_konfigurer_automatisk_rest">Konfigurer automatisk rest</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Klik på <strong>fabrik</strong>
-&#8594; <strong>indstillinger</strong>
+<p>Klik på <strong>factory</strong>
+&#8594; <strong>Settings</strong>
  &#8594; <strong>Job</strong>.</p>
 </li>
 <li>
-<p>Vælg <strong>Opdatér pladebeholdning på indlejring (ikke)frigivelse</strong>
-og <strong>Styret automatisering af restlager</strong>.</p>
+<p>Vælg <strong>Update sheet inventory on nest (un)release</strong>
+og <strong>Automate remnant inventory management</strong>.</p>
 </li>
 </ul>
 </div>
@@ -276,18 +254,18 @@ og <strong>Styret automatisering af restlager</strong>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_auto_restmateriale">Auto restmateriale</h2>
+<h2 id="_automatisk_rest">Automatisk rest</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Når De nester dele, opretter TruSmartCAM automatisk en Restmaterialeplade fra det
-resterende rum, hvis det resterende pladeområde opfylder Minimum Sheet Value X
-&amp; Y.</p>
+<p>Når du indlejrer dele, opretter TruSmartCAM automatisk en restplade fra det
+resterende areal, hvis det resterende pladeareal opfylder pladens minimumsværdi i
+X og Y.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>I Job Nest-visningen vises nests, der har restmaterialeplader, med en grøn
-kantomrids og grå baggrund.</p>
+<p>I jobbets indlejringsvisning vises indlejringer, der har restplader, med en grøn
+kantstreg og grå baggrund.</p>
 </li>
 </ul>
 </div>
@@ -299,41 +277,25 @@ kantomrids og grå baggrund.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Dobbeltklik på nestet for at åbne Nest Detail-siden.
-Restmaterialepladeoplysninger vises med restmaterialepladestørrelse, mængde og
-område.</p>
+<p>Dobbeltklik på indlejringen for at åbne siden med indlejringsdetaljer.
+Oplysninger om restplade vises med restpladens størrelse, mængde og areal.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnantsheetnest.png" alt="Remnant sheet info" width="939">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Højreklik på nestet og vælg Edit for at åbne det i TecZone. Nestet viser
-skæringslinjer mellem dele og skeletskæringslinjer sammen med
-restmaterialedimensionerne indgraveret. (Materiale, Tykkelse og
-Restmaterialestørrelse).</p>
+<p>Højreklik på indlejringen, og vælg Edit for at åbne den i TecZone.
+Indlejringen viser opdelingslinjer mellem dele og opdelingslinjer for skelettet
+sammen med restens dimensioner indgraveret (materiale, tykkelse og reststørrelse).</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Restmaterialedimensionsgravningen Mark hjælper operatøren med at vælge pladen
-uden at måle, hvilket gør den nem at bruge i fremtidige nests.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnantsheetflux.png" alt="Remnant sheet in Flux" width="694">
-</div>
+<p>Indgraveringsmærket med restens dimensioner hjælper operatøren med at vælge pladen
+uden at måle, hvilket gør den nem at bruge i fremtidige indlejringer.</p>
 </div>
 <div class="paragraph">
-<p>Når De klikker på <strong>Markér fuldført&#8230;&#8203;</strong>, vises
-restmaterialepladen med en grøn fluebensmarkering, der angiver, at nestet er
-fuldført. Et delvist skygget firkantikon angiver, at restmaterialepladen er
-oprettet og opdateret i pladebeholdningen.</p>
+<p>Når du klikker på <strong>Mark Complete</strong>, vises restpladen med
+et grønt fluebensmærke, hvilket angiver, at indlejringen er fuldført. Et delvist
+skraveret firkantet ikon angiver, at restpladen er oprettet og opdateret i
+pladelageret.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -341,9 +303,9 @@ oprettet og opdateret i pladebeholdningen.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Pladedatabasen opdateres med restmaterialepladens størrelse og mængde, som
-identificeres med et asterisk (*)-symbol i slutningen af pladestørrelsen.
-Restmaterialeplader har en grøn kant.</p>
+<p>Pladedatabasen opdateres med restpladens størrelse og mængde, som identificeres
+med et stjernesymbol (*) i slutningen af pladestørrelsen. Restplader har en grøn
+kant.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -351,9 +313,9 @@ Restmaterialeplader har en grøn kant.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Auto plan eller interaktiv plan af et job betragter restmaterialeplader som høj
-prioritet i nestplanen, hvilket sikrer, at de bruges først for at holde
-produktionsgulvet frit for ubrugte restmaterialer.</p>
+<p>Automatisk planlægning eller interaktiv planlægning af et job betragter
+restplader som høj prioritet i indlejringsplanen, hvilket sikrer, at de bruges
+først for at holde produktionsgulvet fri for ubrugte rester.</p>
 </div>
 </div>
 </div>
@@ -365,13 +327,13 @@ produktionsgulvet frit for ubrugte restmaterialer.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_aktiver_restmateriale">Aktiver restmateriale</a>
+   <a href="#_aktivér_rest">Aktivér rest</a>
   </li>
   <li level="1">
-   <a href="#_konfigurer_auto_restmateriale">Konfigurer auto restmateriale</a>
+   <a href="#_konfigurer_automatisk_rest">Konfigurer automatisk rest</a>
   </li>
   <li level="1">
-   <a href="#_auto_restmateriale">Auto restmateriale</a>
+   <a href="#_automatisk_rest">Automatisk rest</a>
   </li>
  </ul>
 </aside>
@@ -379,8 +341,8 @@ produktionsgulvet frit for ubrugte restmaterialer.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Restmaterialestyring</a></span>
- <span class="next"><a href="manualremnant.html">Manuel restmaterialestyring</a></span>
+ <span class="prev"><a href="index.html">Resthåndtering</a></span>
+ <span class="next"><a href="manualremnant.html">Manuel resthåndtering</a></span>
 </nav>
 
         </div>

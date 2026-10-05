@@ -16,9 +16,10 @@ UIXlate=False, DebugUIXlate=False, Language=EN
 
 contents.txt • 265803.125808
 Impressum.adoc • Corporate Information
+impressum.JFY.adoc • Corporate Information
 Index.adoc • Welcome to {APPNAME}
 Index.JFY.adoc • Welcome to {APPNAME}
-manifest.txt • 265921.065926
+manifest.txt • 262107.012134
 UserInterface.adoc • The user interface
 Workflow.adoc • Workflow
 cadextensions\contents.txt • 265821.065841
@@ -89,6 +90,14 @@ UIXlate\SK.txt
 UIXlate\SV.txt
 UIXlate\TH.txt
 UIXlate\TR.txt
+_jfybuild\build_docbook.log
+_jfybuild\build_docx.log
+_jfybuild\build_jfy.rb
+_jfybuild\build_pdf.log
+_jfybuild\JFY_Plus_Reference_Manual.docx
+_jfybuild\JFY_Plus_Reference_Manual.pdf
+_jfybuild\master.adoc • JFY Plus Reference Manual
+_jfybuild\master.xml
 cadextensions\solidworksaddin\contents.txt • 265821.065841
 cadextensions\solidworksaddin\FactorySettings.adoc • Factory settings
 cadextensions\solidworksaddin\Index.adoc • SolidWorks addin

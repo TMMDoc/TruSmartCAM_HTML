@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Widok zamówień</title>
+  <title>Widok zleceń</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="../configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otwórz</a>
+     <a href="../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Zamówienia</a>
+   <a href="index.html">Zlecenia</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a class="active" href="ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Zadania</a>
+   <a href="../jobs/index.html">Zadania job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="../jobs/layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,24 +184,24 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Zamówienia</a>
+  <a href="index.html">Zlecenia</a>
  </div>
  <div>/</div>
  <div>
-  <a href="ordersview.html">Widok zamówień</a>
+  <a href="ordersview.html">Widok zleceń</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Widok zamówień</h1>
+                        <h1>Widok zleceń</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Opcje po prawej stronie strony Zamówienia reprezentują różne widoki zamówień w
-oparciu o ich etap przetwarzania. Wybranie widoku aktualizuje wyświetlane
-zamówienia, umożliwiając skupienie się na określonych etapach przepływu pracy.</p>
+<p>Opcje po prawej stronie strony Zlecenia reprezentują różne widoki zleceń w
+zależności od etapu ich przetwarzania. Wybór widoku aktualizuje wyświetlane
+zlecenia, umożliwiając skupienie się na określonych etapach przepływu pracy.</p>
 </div>
 </div>
 </div>
@@ -229,8 +209,8 @@ zamówienia, umożliwiając skupienie się na określonych etapach przepływu pr
 <h2 id="_ready">Ready</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wybranie widoku <strong>Ready</strong> wyświetla zamówienia, które są
-przygotowane, ale jeszcze nie zostały skonwertowane na zadania.</p>
+<p>Wybór widoku <strong>Ready</strong> wyświetla zlecenia, które są
+przygotowane, ale nie zostały jeszcze przekonwertowane na joby.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -240,10 +220,10 @@ przygotowane, ale jeszcze nie zostały skonwertowane na zadania.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Pokazuje zamówienia gotowe do utworzenia zadań.</p>
+<p>Wyświetla zlecenia gotowe do utworzenia joba.</p>
 </li>
 <li>
-<p>Przydatne do identyfikacji zamówień oczekujących na przetworzenie.</p>
+<p>Przydatne do identyfikacji zleceń oczekujących na przetworzenie.</p>
 </li>
 </ul>
 </div>
@@ -253,21 +233,16 @@ przygotowane, ale jeszcze nie zostały skonwertowane na zadania.</p>
 <h2 id="_active">Active</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wybranie widoku <strong>Active</strong> wyświetla zamówienia, które
-zostały skonwertowane na zadania i są obecnie przetwarzane.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/active.png" alt="Active" width="999">
-</div>
+<p>Wybór widoku <strong>Active</strong> wyświetla zlecenia, które zostały
+przekonwertowane na joby i są aktualnie przetwarzane.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Reprezentuje zamówienia już przeniesione do etapu Zadanie.</p>
+<p>Reprezentuje zlecenia przeniesione już do etapu Job.</p>
 </li>
 <li>
-<p>Pomaga śledzić zamówienia będące w trakcie realizacji.</p>
+<p>Pomaga śledzić zlecenia będące w trakcie realizacji.</p>
 </li>
 <li>
 <p>Przydatne do monitorowania bieżącej produkcji.</p>
@@ -280,21 +255,16 @@ zostały skonwertowane na zadania i są obecnie przetwarzane.</p>
 <h2 id="_done">Done</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wybranie widoku <strong>Done</strong> wyświetla zamówienia, które
-zakończyły przetwarzanie.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/done.png" alt="Done" width="999">
-</div>
+<p>Wybór widoku <strong>Done</strong> wyświetla zlecenia, których
+przetwarzanie zostało zakończone.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Pokazuje zamówienia, których powiązane zadania zostały zakończone.</p>
+<p>Wyświetla zlecenia, których powiązane joby zostały ukończone.</p>
 </li>
 <li>
-<p>Wskazuje, że przepływ pracy jest kompletny.</p>
+<p>Wskazuje, że przepływ pracy został zakończony.</p>
 </li>
 <li>
 <p>Przydatne do przeglądu i archiwizacji.</p>
@@ -307,8 +277,8 @@ zakończyły przetwarzanie.</p>
 <h2 id="_all">All</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wybranie widoku <strong>All</strong> wyświetla wszystkie zamówienia
-niezależnie od ich etapu.</p>
+<p>Wybór widoku <strong>All</strong> wyświetla wszystkie zlecenia niezależnie od
+ich etapu.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -318,7 +288,7 @@ niezależnie od ich etapu.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Zapewnia pełny przegląd wszystkich zamówień.</p>
+<p>Zapewnia pełny przegląd wszystkich zleceń.</p>
 </li>
 <li>
 <p>Przydatne do wyszukiwania i zarządzania na wszystkich etapach.</p>
@@ -328,20 +298,20 @@ niezależnie od ich etapu.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_pasek_stanu_zamówienia">Pasek stanu zamówienia</h2>
+<h2 id="_pasek_stanu_zlecenia">Pasek stanu zlecenia</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Pasek stanu wyświetlany pod każdym kafelkiem zamówienia wskazuje, czy zamówienie
-jest powiązane z zadaniem. Występują dwa typy:</p>
+<p>Pasek stanu wyświetlany pod każdym kafelkiem zlecenia wskazuje, czy zlecenie
+jest powiązane z jobem. Występują dwa rodzaje:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Brak paska - zamówienie nie jest przypisane do żadnego zadania.</p>
+<p>Brak paska – zlecenie nie jest przypisane do żadnego joba.</p>
 </li>
 <li>
-<p>Z paskiem - zamówienie jest częścią zadania, a pasek pokazuje odpowiedni
-status zadania wymieniony poniżej.</p>
+<p>Z paskiem – zlecenie jest częścią joba, a pasek wskazuje odpowiedni status
+joba wymieniony poniżej.</p>
 </li>
 </ul>
 </div>
@@ -352,38 +322,38 @@ status zadania wymieniony poniżej.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Status zamówienia</th>
+<th class="tableblock halign-left valign-top">Status zlecenia</th>
 <th class="tableblock halign-left valign-top">Opis</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Light Grey)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Nie gotowe</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (jasnoszary)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/readyui.png" alt="Ready" width="100"></span> (White)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Gotowe</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/readyui.png" alt="Ready" width="100"></span> (biały)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Light Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (jasnożółty)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gięcie zaplanowane</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Dark Grey)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Brakuje arkuszy blachy</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (ciemnoszary)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sheet missing</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Dark Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kolejka gięcia</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (ciemnożółty)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bending queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kolejka cięcia</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (żółty)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cutting Queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Dark Green)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Wykonano</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (ciemnozielony)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Done(Completed)</p></td>
 </tr>
 </tbody>
 </table>
@@ -409,7 +379,7 @@ status zadania wymieniony poniżej.</p>
    <a href="#_all">All</a>
   </li>
   <li level="1">
-   <a href="#_pasek_stanu_zamówienia">Pasek stanu zamówienia</a>
+   <a href="#_pasek_stanu_zlecenia">Pasek stanu zlecenia</a>
   </li>
  </ul>
 </aside>
@@ -417,8 +387,8 @@ status zadania wymieniony poniżej.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Zamówienia</a></span>
- <span class="next"><a href="../jobs/index.html">Zadania</a></span>
+ <span class="prev"><a href="index.html">Zlecenia</a></span>
+ <span class="next"><a href="../jobs/index.html">Zadania job</a></span>
 </nav>
 
         </div>

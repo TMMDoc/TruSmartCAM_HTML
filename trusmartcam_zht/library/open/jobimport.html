@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>匯入工作</title>
+  <title>匯入 job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,19 +29,17 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">硬體需求</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">支援的檔案格式</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">先決條件</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">伺服器安裝</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">用戶端安裝</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">變更授權</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">配置</a>
+   <a href="../../configuration/index.html">組態</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">新增/移除機器</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">設定工具</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">配置使用者</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">新增/移除機床</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">設定 tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">設定使用者</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">語言</a></li>
     <li>
      <button class="tree closed"></button>
@@ -54,14 +52,14 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">對應材料</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">對應 CAM 頁面</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">對應 CAD 欄位（查詢鍵）</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">從 CAD 對應欄位（查詢鍵）</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">使用者介面</a></li>
   <li><button class="tree blank"></button><a href="../../workflow.html">工作流程</a></li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">資料庫</a>
+   <a href="../index.html">庫</a>
    <ul>
     <li>
      <button class="tree open"></button>
@@ -69,13 +67,13 @@
      <ul>
       <li><button class="tree blank"></button><a href="partimport.html">匯入零件</a></li>
       <li><button class="tree blank"></button><a href="orderimport.html">匯入訂單</a></li>
-      <li><button class="tree blank"></button><a class="active" href="jobimport.html">匯入工作</a></li>
+      <li><button class="tree blank"></button><a class="active" href="jobimport.html">匯入 job</a></li>
       <li><button class="tree blank"></button><a href="assembliesimport.html">匯入組件</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../libraryview/index.html">資料庫視圖</a>
+     <a href="../libraryview/index.html">庫檢視</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../libraryview/partview.html">零件</a></li>
       <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">組件</a></li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">工具狀態</a>
+     <a href="../toolingstatus/index.html">tooling 狀態</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">工具驗證</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">tooling 驗證</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">折彎工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">切割工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">折邊工具驗證</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">折彎 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">切割 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">折疊 tooling 驗證</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">工具面板</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">儲存篩選器</a></li>
@@ -120,18 +118,18 @@
    <button class="tree closed"></button>
    <a href="../../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">建立工作</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">工作檢視</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">工作面板</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">建立 job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Job 檢視</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">自動規劃</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">互動式排版</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">重新包裝</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">互動式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">重新排料</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">排版管理</a>
+     <a href="../../jobs/layoutcommands/index.html">Nest 管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">佈局檢視</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">佈局面板</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layout 檢視</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">報告傳送器</a></li>
      </ul>
     </li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">手動餘料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">雙線排版</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">過期</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">工作篩選器</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Job 篩選器</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">工廠</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">路線</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">板材</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">使用者</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">編輯</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">客戶</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">設定</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">環境</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">匯入</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">折彎</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">切割</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">通知</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">監視</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 擴充功能</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 增益集</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">安裝</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">儲存零件</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">儲存組件</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">檢查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">工廠設定</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">其他增強功能</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">報告</a></li>
      </ul>
     </li>
    </ul>
@@ -204,7 +184,7 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">資料庫</a>
+  <a href="../index.html">庫</a>
  </div>
  <div>/</div>
  <div>
@@ -212,63 +192,55 @@
  </div>
  <div>/</div>
  <div>
-  <a href="jobimport.html">匯入工作</a>
+  <a href="jobimport.html">匯入 job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>匯入工作</h1>
+                        <h1>匯入 job</h1>
 <div class="sect1">
 <h2 id="_從_csv_或_xlsx_匯入">從 csv 或 xlsx 匯入</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>您也可以使用常見的文字格式匯入工作</p>
+<p>您也可以以常見的文字格式匯入 job</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>按一下 <strong>File &#8594; Open &#8594; 匯入套裁</strong>，出現開啟資料夾對話方塊。選擇 <code>C:\Program Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code>。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv.png" alt="CSV import" width="426">
-</div>
-</div>
+<p>點選 <strong>File &#8594; Open &#8594; Import Jobs</strong>，會出現 Open Folder
+對話方塊。選取
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
 </li>
 <li>
-<p>如果所有零件都存在於 csv 位置或查找資料夾目錄中，<strong>新套裁</strong> 視窗會出現，列出所有符合 csv 欄位的零件。</p>
+<p>若所有零件存在於 csv 位置或查詢資料夾目錄中，則會出現
+<strong>new job</strong> 視窗，列出所有符合 csv 欄位的零件。</p>
 </li>
 <li>
-<p>缺少的零件會被忽略，不會出現在 <strong>新套裁</strong> 視窗中。</p>
+<p>遺漏的零件會被忽略，且不會出現在 <strong>new job</strong> 視窗中。</p>
 </li>
 <li>
-<p>最初零件狀態為雛形。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv2.png" alt="CSV import" width="908">
-</div>
-</div>
+<p>初始時零件狀態為 Nascent。</p>
 </li>
 <li>
-<p>按一下 <strong>OK</strong>，現在零件已匯入零件資料庫。CAD 驗證、折彎和切割工具實例的工具處理已完成，可以在 <strong>Pmonitor</strong> 畫面中監控。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv3.png" alt="CSV import" width="1438">
-</div>
-</div>
+<p>點選 <strong>OK</strong>，現在零件已匯入零件庫。</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_為缺少的_cad_檔案建立一個板坏零件">為缺少的 CAD 檔案建立一個板坏零件</h3>
+<h3 id="_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</h3>
 <div class="paragraph">
-<p>當使用試算表（.csv 或 .xlsx）匯入工作時，您有時可能會有引用系統中不可用的 CAD 檔案的列。</p>
+<p>當使用試算表（.csv 或 .xlsx）匯入 job 時，有時您可能會有
+參照到系統中不可用的 CAD 檔案的列。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>要處理此問題，請轉到 <strong>工廠</strong> &#8594; <strong>設定</strong> &#8594; <strong>套裁</strong>，在 <strong>電子表格匯入</strong> 下啟用 <strong>為缺少的 CAD 檔案建立一個板坏零件</strong></p>
+<p>若要處理此情況，請前往 <strong>Factory</strong>
+ &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong>，
+ 在 <strong>Spreadsheet import settings</strong> 下啟用
+<strong>Create a blank part for the missing CAD files</strong></p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csv6.png" alt="Spreadsheet import" width="801">
@@ -278,45 +250,47 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>選擇此選項時：</p>
+<p>選取此選項時：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>如果在工作匯入期間任何列缺少 CAD 檔案，系統將自動建立空白零件以代替缺少的 CAD 檔案。</p>
+<p>若在 job 匯入期間任何列遺漏 CAD 檔案，系統會自動建立空白
+零件以取代遺漏的 CAD 檔案。</p>
 </li>
 <li>
-<p>在 <strong>新套裁</strong> 視窗中，這些缺少的零件會以黃色視覺化反白顯示，以指示關聯的 CAD 檔案缺失。</p>
-<div class="paragraph">
-<p><span class="image"><img src="img/csv4.png" alt="Edit jobs" width="578"></span></p>
-</div>
+<p>在 <strong>new job</strong> 視窗中，這些遺漏的零件會以黃色
+反白顯示，以指示相關的 CAD 檔案遺漏。</p>
 </li>
 <li>
-<p>缺少的零件仍將具有從 CSV 對應的欄位（如零件名稱、材料、厚度、數量等）。但是，其零件狀態將顯示為雛形，這意味著它只是一個空的佔位符，還沒有實際的幾何形狀。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv5.png" alt="Nascent parts" width="1110">
-</div>
-</div>
+<p>遺漏的零件仍會保有其從 CSV 對映的欄位（如零件名稱、材料、
+厚度、數量等）。不過，其零件狀態會顯示為 Nascent，意味著它只
+是一個尚無實際幾何圖形的空佔位符。</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>這確保工作匯入仍然可以進行，而不會因缺少 CAD 檔案而出現錯誤 — 您可以稍後在可用時更新或替換空白零件為正確的 CAD 檔案。</p>
+<p>這確保 job 匯入仍可進行，而不會因遺漏 CAD 檔案而發生錯誤—
+您之後可在正確的 CAD 檔案可用時更新或取代空白零件。</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_如果電子表格沒有錯誤則不要顯示新套裁對話方塊">如果電子表格沒有錯誤，則不要顯示「新套裁」對話方塊</h3>
+<h3 id="_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</h3>
 <div class="paragraph">
-<p><strong>工廠</strong> &#8594; <strong>設定</strong> &#8594; <strong>套裁</strong> → <strong>電子表格匯入</strong>→ <strong>如果電子表格沒有錯誤，則不要顯示「新套裁」對話方塊</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> → <strong>Spreadsheet import settings</strong>→
+<strong>Do not show the New Job dialog if the spreadsheet has no error</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>選擇此核取方塊時，如果試算表沒有錯誤（沒有缺少的零件、缺少的日期或無效的資料），系統會自動建立新工作而不顯示新工作對話方塊。</p>
+<p>選取此勾選方塊時，若試算表沒有錯誤（沒有遺漏零件、
+遺漏日期或無效資料），系統會自動建立新 job，而不顯示 New Job
+對話方塊。</p>
 </li>
 <li>
-<p>清除此核取方塊時，即使試算表沒有錯誤，新工作對話方塊也會始終出現以供使用者檢視和確認。</p>
+<p>清除此勾選方塊時，即使試算表沒有錯誤，New Job 對話方塊也始
+終會出現，供使用者審閱和確認。</p>
 </li>
 </ul>
 </div>
@@ -324,15 +298,19 @@
 <div class="sect2">
 <h3 id="_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</h3>
 <div class="paragraph">
-<p><strong>工廠</strong> &#8594; <strong>設定</strong> &#8594; <strong>套裁</strong>→<strong>Prefer Raw-Material column over Material + Thickness</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong>→<strong>Prefer Raw-Material column over Material + Thickness</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>選擇此核取方塊時，系統期望試算表使用原材料欄（例如 Steel-20）。這意味著材料類型和厚度應該在一個欄中組合成單一值。</p>
+<p>選取此勾選方塊時，系統預期試算表使用 Raw-Material 欄（例如
+Steel-20）。這意味著材料類型和厚度應合併在一個欄的單一值中。</p>
 </li>
 <li>
-<p>清除此核取方塊時，系統期望試算表有單獨的材料和厚度欄（例如 Steel 和 2.00）。系統會在匯入期間在內部組合它們。</p>
+<p>清除此勾選方塊時，系統預期試算表具有分開的 Material 和
+ Thickness 欄（例如 Steel 和 2.00）。系統會在匯入期間在內部將它們
+合併。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csvmaterial.png" alt="CSV Raw Material and Material+Thickness">
@@ -345,18 +323,21 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_使用_csvxlsx_監看資料夾">使用 CSV/XLSX 監看資料夾</h2>
+<h2 id="_使用_csvxlsx_監視資料夾">使用 CSV/XLSX 監視資料夾</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>在 <strong>工廠</strong> &#8594; <strong>設定</strong>&#8594; <strong>監視</strong> 中勾選 <strong>啟用「即時資料夾」</strong> 和 <strong>也監視子資料夾</strong>。</p>
+<p>在 <strong>factory</strong> &#8594; <strong>Settings</strong>&#8594;
+<strong>Watch settings</strong> 中勾選 <strong>Enable 'Live Folder'</strong>
+和 <strong>Watch sub-folders also</strong>。</p>
 </li>
 <li>
-<p>設定監看資料夾路徑（UNC 或對應的磁碟機）。</p>
+<p>設定監視資料夾路徑（UNC 或對映磁碟機）。</p>
 </li>
 <li>
-<p>在 <strong>電子表格匯入</strong> 中，勾選 <strong>從「即時資料夾」匯入電子表格</strong>。</p>
+<p>在 <strong>Spreadsheet import settings</strong> 中，勾選
+<strong>Import spreadsheet from 'Live Folder'</strong>。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/watchfolder.png" alt="Watch folder" width="702">
@@ -364,31 +345,39 @@
 </div>
 </li>
 <li>
-<p>從試算表匯入選項中選擇 <strong>匯入套裁</strong>。</p>
+<p>從 Spreadsheet Import 選項中選取 <strong>Import Jobs</strong>。</p>
 </li>
 <li>
-<p>複製 <code>C:\Program Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code> 並將其貼到監看資料夾中。</p>
+<p>複製
+<code>C:Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>
+並將其貼入監視資料夾。</p>
 </li>
 <li>
-<p>系統檢查 CSV 並嘗試自動建立工作。</p>
+<p>系統會檢查 CSV 並嘗試自動建立 job。</p>
 </li>
 <li>
-<p>如果 CAD 檔案缺失，則不會建立工作，因為找不到所需的 CAD 資料。</p>
+<p>若 CAD 檔案遺漏，則不會建立 job，因為找不到所需的 CAD 資料。</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_cad_查找目錄和遞迴_cad_搜尋_未配置">CAD 查找目錄和遞迴 CAD 搜尋 - 未配置</h3>
+<h3 id="_cad_查詢目錄與遞迴_cad_搜尋_未設定">CAD 查詢目錄與遞迴 CAD 搜尋 - 未設定</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>在 <strong>工廠</strong> &#8594; <strong>設定</strong> &#8594; <strong>套裁</strong> &#8594; <strong>電子表格匯入</strong> 中，如果未設定 <strong>CAD lookup directories</strong> 且未使用 <strong>使用遞歸 CAD 搜尋</strong>，系統不會自動搜尋 CAD 檔案。</p>
+<p>在 <strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> &#8594; <strong>Spreadsheet import settings</strong> 中，
+若未設定 <strong>CAD lookup directories</strong> 且未使用
+<strong>Use recursive CAD search</strong>，則系統不會自動搜尋
+ CAD 檔案。</p>
 </li>
 <li>
-<p>如果選擇了 <strong>為缺少的 CAD 檔案建立一個板坏零件</strong> 核取方塊，即使 CAD 檔案缺失，仍會建立工作。</p>
+<p>若選取 <strong>Create a blank part for the missing CAD files</strong>
+勾選方塊，則即使 CAD 檔案遺漏仍會建立 job。</p>
 </li>
 <li>
-<p>在這種情況下，工作中的所有零件都將建立為雛形（空白）零件 — 這意味著它們沒有幾何形狀，因為找不到 CAD 檔案。</p>
+<p>在這種情況下，job 中的所有零件都會建立為 nascent（空白）零件—
+意味著它們沒有幾何圖形，因為找不到 CAD 檔案。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/notconfigured.png" alt="Create blank parts" width="867">
@@ -399,17 +388,23 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cad_查找目錄和遞迴_cad_搜尋_已配置">CAD 查找目錄和遞迴 CAD 搜尋 - 已配置</h3>
+<h3 id="_cad_查詢目錄與遞迴_cad_搜尋_已設定">CAD 查詢目錄與遞迴 CAD 搜尋 - 已設定</h3>
 <div class="paragraph">
-<p>當在 <strong>工廠</strong> &#8594; <strong>設定</strong> &#8594; <strong>套裁</strong> &#8594; <strong>電子表格匯入</strong> 下將 <strong>CAD 查找目錄</strong> 設定為（C:\Program Files\Metamation\Praxis\Samples）並啟用 <strong>使用遞歸 CAD 搜尋</strong> 時：</p>
+<p>當 <strong>CAD lookup directories</strong> 設定為
+(C:\Program Files\TRUMPF\TMM\Praxis\Samples)
+且在 <strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong>
+&#8594; <strong>Spreadsheet import settings</strong> 下啟用
+<strong>Use recursive CAD search</strong> 時：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>系統會自動搜尋指定的資料夾及其所有子資料夾，尋找試算表中提到的所需 CAD 檔案。</p>
+<p>系統會自動搜尋所指定的資料夾及其所有子資料夾，以尋找試算表中
+提到的所需 CAD 檔案。</p>
 </li>
 <li>
-<p><strong>為缺少的 CAD 檔案建立一個板坏零件</strong> 也已啟用，因此如果仍然找不到任何 CAD 檔案，系統將建立空白零件作為佔位符。</p>
+<p>也已啟用 <strong>Create a blank part for the missing CAD files</strong>，
+因此若仍找不到任何 CAD 檔案，系統會建立空白零件作為佔位符。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/configured.png" alt="Create blank parts" width="861">
@@ -432,22 +427,22 @@
    <a href="#_從_csv_或_xlsx_匯入">從 csv 或 xlsx 匯入</a>
   </li>
   <li level="2">
-   <a href="#_為缺少的_cad_檔案建立一個板坏零件">為缺少的 CAD 檔案建立一個板坏零件</a>
+   <a href="#_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</a>
   </li>
   <li level="2">
-   <a href="#_如果電子表格沒有錯誤則不要顯示新套裁對話方塊">如果電子表格沒有錯誤，則不要顯示「新套裁」對話方塊</a>
+   <a href="#_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</a>
   </li>
   <li level="2">
    <a href="#_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</a>
   </li>
   <li level="1">
-   <a href="#_使用_csvxlsx_監看資料夾">使用 CSV/XLSX 監看資料夾</a>
+   <a href="#_使用_csvxlsx_監視資料夾">使用 CSV/XLSX 監視資料夾</a>
   </li>
   <li level="2">
-   <a href="#_cad_查找目錄和遞迴_cad_搜尋_未配置">CAD 查找目錄和遞迴 CAD 搜尋 - 未配置</a>
+   <a href="#_cad_查詢目錄與遞迴_cad_搜尋_未設定">CAD 查詢目錄與遞迴 CAD 搜尋 - 未設定</a>
   </li>
   <li level="2">
-   <a href="#_cad_查找目錄和遞迴_cad_搜尋_已配置">CAD 查找目錄和遞迴 CAD 搜尋 - 已配置</a>
+   <a href="#_cad_查詢目錄與遞迴_cad_搜尋_已設定">CAD 查詢目錄與遞迴 CAD 搜尋 - 已設定</a>
   </li>
  </ul>
 </aside>

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>工作檢視</title>
+  <title>Job 檢視</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,19 +29,17 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">硬體需求</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">支援的檔案格式</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">先決條件</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">伺服器安裝</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">用戶端安裝</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">變更授權</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../configuration/index.html">配置</a>
+   <a href="../configuration/index.html">組態</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">新增/移除機器</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">設定工具</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/configureusers.html">配置使用者</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">新增/移除機床</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">設定 tooling</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/configureusers.html">設定使用者</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">語言</a></li>
     <li>
      <button class="tree closed"></button>
@@ -54,14 +52,14 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">對應材料</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">對應 CAM 頁面</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">對應 CAD 欄位（查詢鍵）</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">從 CAD 對應欄位（查詢鍵）</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">使用者介面</a></li>
   <li><button class="tree blank"></button><a href="../workflow.html">工作流程</a></li>
   <li>
    <button class="tree closed"></button>
-   <a href="../library/index.html">資料庫</a>
+   <a href="../library/index.html">庫</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
@@ -69,13 +67,13 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">匯入零件</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">匯入訂單</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">匯入工作</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">匯入 job</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">匯入組件</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/libraryview/index.html">資料庫視圖</a>
+     <a href="../library/libraryview/index.html">庫檢視</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">零件</a></li>
       <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">組件</a></li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">工具狀態</a>
+     <a href="../library/toolingstatus/index.html">tooling 狀態</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">工具驗證</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">tooling 驗證</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">折彎工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">切割工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">折邊工具驗證</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">折彎 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">切割 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">折疊 tooling 驗證</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">工具面板</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">儲存篩選器</a></li>
@@ -120,18 +118,18 @@
    <button class="tree open"></button>
    <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">建立工作</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobview.html">工作檢視</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">工作面板</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">建立 job</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobview.html">Job 檢視</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">自動規劃</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">互動式排版</a></li>
-    <li><button class="tree blank"></button><a href="repacking.html">重新包裝</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">互動式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="repacking.html">重新排料</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">排版管理</a>
+     <a href="layoutcommands/index.html">Nest 管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">佈局檢視</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">佈局面板</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout 檢視</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">報告傳送器</a></li>
      </ul>
     </li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">手動餘料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">雙線排版</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">過期</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">工作篩選器</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Job 篩選器</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">工廠</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">路線</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">板材</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">使用者</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">編輯</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">客戶</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">設定</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">環境</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">匯入</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">折彎</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">切割</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">通知</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">監視</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD 擴充功能</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks 增益集</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">安裝</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">儲存零件</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">儲存組件</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">檢查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">工廠設定</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">其他增強功能</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">報告</a></li>
      </ul>
     </li>
    </ul>
@@ -208,18 +188,18 @@
  </div>
  <div>/</div>
  <div>
-  <a href="jobview.html">工作檢視</a>
+  <a href="jobview.html">Job 檢視</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>工作檢視</h1>
+                        <h1>Job 檢視</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>本節說明工作檢視中可用的不同檢視，包括
+<p>本節說明 Job 檢視中可用的不同檢視，包括
 Jobs、Parts、Nests、Edit、Simulate 和 Export。</p>
 </div>
 </div>
@@ -228,20 +208,19 @@ Jobs、Parts、Nests、Edit、Simulate 和 Export。</p>
 <h2 id="_jobs">Jobs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>選擇 <strong>套裁</strong> 選項會顯示軟體中目前
-設定的所有工作清單。您可以雙擊工作以查看其詳細資訊，或
-右鍵點擊以存取其他選項。</p>
+<p>選取 <strong>jobs</strong> 選項會顯示目前軟體中設定的所有 job
+清單。您可以雙擊 job 以檢視其詳細資料，或按右鍵以存取其他選項。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>工作以磁磚檢視顯示，每個工作顯示基本
-屬性，如 Job ID、Job Ref、Customer name、Total parts、Due Date、Job
-status bar 等。</p>
+<p>Job 以圖塊檢視顯示，每個 job 都會連同基本屬性顯示，例如 Job ID、
+Job Ref、客戶名稱、總零件數、交付日期、Job
+狀態列等。</p>
 </li>
 <li>
-<p>每個工作磁磚還以堆疊卡片格式顯示零件圖像。您可以
-使用滑鼠滾輪捲動瀏覽工作中的所有零件。<br></p>
+<p>每個 job 圖塊也會以堆疊卡片格式顯示零件圖像。您可以使用滑鼠滾輪
+瀏覽 job 中的所有零件。<br></p>
 </li>
 </ul>
 </div>
@@ -251,27 +230,26 @@ status bar 等。</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_工作詳細資訊">工作詳細資訊</h3>
+<h3 id="_job_詳細資料">Job 詳細資料</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>雙擊磁磚或在選擇磁磚後按 <kbd>Enter</kbd> 鍵
-切換到詳細模式。</p>
+<p>雙擊圖塊或選取圖塊後按 <kbd>Enter</kbd> 鍵，可將檢視切換至詳細模式。</p>
 </li>
 <li>
-<p>詳細資訊頁面顯示零件清單以及排版的板材
-（佈局）（如果有）。</p>
+<p>詳細資料頁面會顯示零件清單，以及 nesting 後的板材
+（layout）（如果有）。</p>
 </li>
 <li>
-<p>使用上/下箭頭鍵在詳細資訊頁面中在工作之間切換。</p>
+<p>使用上/下方向鍵在詳細資料頁面中切換 job。</p>
 </li>
 <li>
-<p>在零件堆疊上滾動滑鼠滾輪會在零件清單和佈局中
-醒目提示該零件。</p>
+<p>將滑鼠滾輪置於零件堆疊上滾動，會在零件清單和 layout 中都標示
+該零件。</p>
 </li>
 <li>
-<p>選擇佈局會醒目提示該佈局和零件清單中排版在其上的所有零件。
-醒目提示會在一分鐘後自動關閉。</p>
+<p>選取 layout 會標示該 layout 及其上 nesting 的所有零件於零件
+清單中。標示會在一分鐘後自動關閉。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/jobview2.png" alt="Job Details" width="1908">
@@ -279,29 +257,31 @@ status bar 等。</p>
 </div>
 </li>
 <li>
-<p><strong>排樣總結</strong>：</p>
+<p><strong>Nest summary</strong>：</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>零件</strong>：顯示工作中的訂單項目總數和
+<p><strong>Parts</strong>：顯示 job 中訂單項目的總數和
 總數量。</p>
 </li>
 <li>
-<p><strong>板材</strong>：顯示排版的板材總數以及
+<p><strong>Sheets</strong>：顯示 nesting 後板材的總數連同
 板材總數量。</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>工作步驟</strong>：</p>
+<p><strong>Work Steps</strong>：</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>折彎</strong>：顯示分配的機器及其要處理的訂單數量。</p>
+<p><strong>Bending</strong>：顯示所分配的機床及其待處理的訂單
+數量。</p>
 </li>
 <li>
-<p><strong>切割</strong>：顯示分配的機器及其要處理的訂單數量。</p>
+<p><strong>Cutting</strong>：顯示所分配的機床及其待處理的訂單
+數量。</p>
 </li>
 </ul>
 </div>
@@ -314,17 +294,16 @@ status bar 等。</p>
 <div class="ulist">
 <ul>
 <li>
-<p>首先，點擊螢幕左側的 <strong>Jobs</strong> 圖示，選擇您
-要編輯的工作，然後點擊螢幕右側的 <strong>edit</strong>（確保
-選擇了 Jobs 選項）。</p>
+<p>首先，點選螢幕左側的 <strong>Jobs</strong> 圖示，選取您要編輯的 job，然後
+點選螢幕右側的 <strong>edit</strong>（確保已選取 Jobs 選項）。</p>
 </li>
 <li>
-<p>或者，右鍵點擊選定的工作並點擊
-<strong>簽出檔案以進行編輯</strong> 圖示。</p>
+<p>或者，在選取的 job 上按右鍵並點選
+<strong>Check-out the document for editing</strong> 圖示。</p>
 </li>
 <li>
-<p>當您點擊 <strong>edit</strong> 時，編輯工作視窗出現。在此視窗中，您可以
-為工作設定或變更優先順序。</p>
+<p>當您點選 <strong>edit</strong> 時，會出現編輯 job 視窗。在此視窗中，您可以設定
+或變更 job 的優先順序。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/priority1.png" alt="Priority1" width="1207">
@@ -332,19 +311,19 @@ status bar 等。</p>
 </div>
 </li>
 <li>
-<p>根據工作零件優先順序，工作磁磚中的工作參考編號
-會相應地以色彩陰影。</p>
+<p>根據 job 零件的優先順序，job 圖塊中的 Job Reference 會相應地
+進行顏色陰影。</p>
 </li>
 <li>
-<p>工作零件首先按優先順序排序，然後按到期日期排序。它們也
-會根據其優先順序以色彩陰影。</p>
+<p>Job 零件首先按優先順序排序，然後再按交付日期排序。它們也會
+根據優先順序進行顏色陰影。</p>
 </li>
 <li>
-<p>排版時，<strong>Urgent</strong> 零件首先被考慮，其次是 <strong>High</strong>，然後
-是 <strong>Normal</strong>，最後 <strong>Low</strong> 優先順序零件被放置在排版板材的剩餘空間中。</p>
+<p>進行 nesting 時，<strong>Urgent</strong> 零件會優先考慮，接著是 <strong>High</strong>，然後是
+<strong>Normal</strong>，最後將 <strong>Low</strong> 優先零件放置於 nest 板材上的剩餘空間。</p>
 </li>
 <li>
-<p>排版板材也按優先順序排序並以色彩陰影。</p>
+<p>Nest 板材也會根據優先順序排序並進行顏色陰影。</p>
 </li>
 </ul>
 </div>
@@ -355,25 +334,25 @@ status bar 等。</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Job priority</th>
-<th class="tableblock halign-left valign-top">Color description</th>
+<th class="tableblock halign-left valign-top">Job 優先順序</th>
+<th class="tableblock halign-left valign-top">顏色說明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/urgent.png" alt="Urgent" width="50"></span> (Orange)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/urgent.png" alt="Urgent" width="50"></span>（橘色）</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Urgent</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span> (No color)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span>（無顏色）</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Normal</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/high.png" alt="High" width="50"></span> (Yellow)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/high.png" alt="High" width="50"></span>（黃色）</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">High</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/low.png" alt="Low" width="50"></span> (Dark Grey)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/low.png" alt="Low" width="50"></span>（深灰色）</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Low</p></td>
 </tr>
 </tbody>
@@ -389,26 +368,16 @@ status bar 等。</p>
 <div class="ulist">
 <ul>
 <li>
-<p>工作狀態欄使用色彩代碼來指示
-基於已處理或剩餘數量的工作進度或狀況。</p>
+<p>Job 狀態列使用顏色代碼來表示 job 的進度或狀況，依據已處理或
+剩餘的數量。</p>
 </li>
 <li>
-<p>工作內的零件和排版板材也以
-匹配的色彩醒目提示，以反映它們在整體 JOB 中的個別狀態。</p>
+<p>Job 中的零件和 nest 板材也會以相符的顏色標示，以反映它們在整體
+JOB 中的個別狀態。</p>
 </li>
 <li>
-<p>色彩編碼改善了追蹤，確保操作員可以輕鬆看到
-生產狀態。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/status1.png" alt="Job status" width="1114">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/status2.png" alt="Job status" width="1360">
-</div>
-</div>
+<p>顏色編碼可改善追蹤，並確保操作員能一目了然地看到生產
+狀態。</p>
 </li>
 </ul>
 </div>
@@ -419,42 +388,42 @@ status bar 等。</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Job Status</th>
-<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Job 狀態</th>
+<th class="tableblock halign-left valign-top">說明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Light Grey)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">未就緒</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span>（淺灰色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/nesting.png" alt="Nesting" width="100"></span> (Magenta)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">排樣</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/nesting.png" alt="Nesting" width="100"></span>（洋紅色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nesting</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ready.png" alt="Ready" width="100"></span> (White)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">就緒</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ready.png" alt="Ready" width="100"></span>（白色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Light Yellow)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span>（淺黃色）</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Dark Grey)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">缺少板材</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span>（深灰色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sheet missing</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Dark Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">折彎隊列</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span>（深黃色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bending queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">切割隊列</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span>（黃色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cutting Queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Dark Green)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">完成</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span>（深綠色）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Done(Completed)</p></td>
 </tr>
 </tbody>
 </table>
@@ -465,21 +434,15 @@ status bar 等。</p>
 <h2 id="_parts">Parts</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>活動零件檢視顯示目前在活動工作中正在進行的所有零件。</p>
+<p>Active Parts 檢視會顯示目前在 active job 中正在進行中的所有零件。</p>
 </div>
 <div class="paragraph">
-<p>每個零件以磁磚形式顯示，顯示關鍵詳細資訊，如零件名稱、
-尺寸、材料、厚度、數量和到期日期。也會顯示
-零件的視覺預覽。</p>
+<p>每個零件以圖塊形式表示，顯示關鍵詳細資料，例如零件名稱、
+尺寸、材料、厚度、數量和交付日期。也會顯示零件的視覺預覽。</p>
 </div>
 <div class="paragraph">
-<p>此檢視幫助使用者監控個別零件的處理狀態，並
-追蹤它們在正在進行的工作中的進度。</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activeparts.png" alt="Active">
-</div>
+<p>此檢視有助於使用者監控個別零件的處理狀態，並追蹤它們在進行中的
+job 中的進度。</p>
 </div>
 </div>
 </div>
@@ -487,20 +450,15 @@ status bar 等。</p>
 <h2 id="_nests">Nests</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>活動排版檢視顯示目前在活動工作中正在進行的所有排版。</p>
+<p>Active Nests 檢視會顯示目前在 active job 中正在進行中的所有 nest。</p>
 </div>
 <div class="paragraph">
-<p>每個排版顯示相關詳細資訊，如零件數量和
-處理狀態。也會顯示排版零件的視覺佈局。</p>
+<p>每個 nest 會連同相關詳細資料一併表示，例如零件數量和處理狀態。
+也會顯示 nesting 零件的視覺 layout。</p>
 </div>
 <div class="paragraph">
-<p>此檢視幫助使用者監控排版進度，並追蹤零件如何在
-板材上排列和處理。</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activenest.png" alt="Nest">
-</div>
+<p>此檢視有助於使用者監控 nesting 進度，並追蹤零件如何在板材上排列
+和處理。</p>
 </div>
 </div>
 </div>
@@ -508,28 +466,23 @@ status bar 等。</p>
 <h2 id="_edit">Edit</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Edit 選項允許您修改選定的項目。</p>
+<p>Edit 選項允許您修改所選取的項目。</p>
 </div>
 <div class="paragraph">
-<p>根據目前的檢視，選定的實例會被開啟以進行編輯：</p>
+<p>根據目前的檢視，所選取的實例會開啟供編輯：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>在 Jobs 檢視中，選定的工作會被開啟以進行編輯。</p>
+<p>在 Jobs 檢視中，所選取的 job 會開啟供編輯。</p>
 </li>
 <li>
-<p>在 Active Parts 檢視中，選定的零件會被開啟以進行編輯。</p>
+<p>在 Active Parts 檢視中，所選取的零件會開啟供編輯。</p>
 </li>
 <li>
-<p>在 Active Nests 檢視中，選定的排版會被開啟以進行編輯。</p>
+<p>在 Active Nests 檢視中，所選取的 nest 會開啟供編輯。</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/jobviewedit.png" alt="Edit" width="980">
-</div>
 </div>
 </div>
 </div>
@@ -537,37 +490,28 @@ status bar 等。</p>
 <h2 id="_export_csv">Export csv</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Export 選項讓您選擇工作資訊並將其匯出為 CSV 檔案。</p>
+<p>Export 選項讓您選取 job 資訊並將其匯出至 CSV 檔。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>點擊 <strong>jobs</strong> 圖示。</p>
+<p>點選 <strong>jobs</strong> 圖示。</p>
 </li>
 <li>
-<p>點擊螢幕右側的 <strong>export</strong> 選項。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport1.png" alt="Export" width="700">
-</div>
-</div>
+<p>點選螢幕右側的 <strong>export</strong> 選項。</p>
 </li>
 <li>
-<p>出現一個對話框，顯示可用欄位：</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport2.png" alt="Export CSV" width="174">
-</div>
-</div>
+<p>會出現一個對話方塊，顯示可用的欄位：</p>
 </li>
 <li>
-<p>選擇您要匯出的欄位的核取方塊。</p>
+<p>選取您要匯出的欄位的核取方塊。</p>
 </li>
 <li>
-<p>如果您想按選定的欄位對資料進行分組，請使用 <strong>Group By</strong> 選項。</p>
+<p>如果您想依選取的欄位對資料進行群組，請使用
+<strong>Group By</strong> 選項。</p>
 </li>
 <li>
-<p>點擊 Export 以產生 CSV 檔案。</p>
+<p>點選 Export 以產生 CSV 檔。</p>
 </li>
 </ul>
 </div>
@@ -578,20 +522,20 @@ status bar 等。</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>螢幕右側還有三個其他圖示，分別是
-<strong>模擬</strong>、<strong>Goto</strong> 和 <strong>返回</strong>。</p>
+<strong>Simulate</strong>、<strong>Goto</strong> 和 <strong>Back</strong>。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Simulate 將開啟選定的項目以進行更詳細的檢視。</p>
+<p>Simulate 會開啟所選取的項目以進行更詳細的檢視。</p>
 </li>
 <li>
-<p>Goto 將切換焦點並顯示選定的零件或排版。</p>
+<p>Goto 會將焦點切換並顯示在所選取的零件或 nest 上。</p>
 </li>
 <li>
-<p>Back 將從您目前所在的位置往上返回一級，例如
-在模擬中點擊 <strong>返回</strong> 將帶您返回到
-主工作，從工作將帶您返回到主工作顯示。</p>
+<p>Back 會從您目前所在的位置往回一層，例如在模擬過程中
+點選 <strong>Back</strong> 會將您帶回主 job，從 job 則會將您帶回
+主 jobs 顯示。</p>
 </li>
 </ul>
 </div>
@@ -608,7 +552,7 @@ status bar 等。</p>
    <a href="#_jobs">Jobs</a>
   </li>
   <li level="2">
-   <a href="#_工作詳細資訊">工作詳細資訊</a>
+   <a href="#_job_詳細資料">Job 詳細資料</a>
   </li>
   <li level="2">
    <a href="#_優先順序">優先順序</a>
@@ -637,8 +581,8 @@ status bar 等。</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobcreation.html">建立工作</a></span>
- <span class="next"><a href="jobpanel.html">工作面板</a></span>
+ <span class="prev"><a href="jobcreation.html">建立 job</a></span>
+ <span class="next"><a href="jobpanel.html">Job 面板</a></span>
 </nav>
 
         </div>

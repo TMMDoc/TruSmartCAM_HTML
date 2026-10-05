@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Asettelunäkymä</title>
+  <title>Sijoittelunäkymä</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Avaa</a>
+     <a href="../../library/open/index.html">Avaaminen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../../library/libraryview/index.html">Kirjastonäkymä</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../../library/partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Työkalutila</a>
+     <a href="../../library/toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Sisäkkäisyyden hallinta</a>
+     <a href="index.html">Nestauksen hallinta</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a href="layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a class="active" href="nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a href="layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../remnantmanagement/index.html">Jäännösarkkien hallinta</a>
+     <a href="../remnantmanagement/index.html">Jäännöslevyjen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../remnantmanagement/autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../remnantmanagement/autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -208,22 +188,22 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Sisäkkäisyyden hallinta</a>
+  <a href="index.html">Nestauksen hallinta</a>
  </div>
  <div>/</div>
  <div>
-  <a href="nestview.html">Asettelunäkymä</a>
+  <a href="nestview.html">Sijoittelunäkymä</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Asettelunäkymä</h1>
+                        <h1>Sijoittelunäkymä</h1>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>nests</strong> -vaihtoehdon valitseminen näyttää luettelon kaikista tällä hetkellä valitun työn sisäkkäisyyksistä.</p>
+<p><strong>nests</strong> -vaihtoehdon valitseminen näyttää luettelon kaikista tällä hetkellä valitun työn nestauksista.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/nest1.png" alt="Layouts window" width="1183">
@@ -231,58 +211,53 @@
 </div>
 </li>
 <li>
-<p>Kaksoisnapsauta sisäkkäisyyttä nähdäksesi kyseisen sisäkkäisyyden yksityiskohtaisen jaottelun.</p>
+<p>Kaksoisnapsauta nestausta nähdäksesi kyseisen nestauksen yksityiskohtaisen erittelyn.</p>
 </li>
 <li>
-<p>Sisäkkäisyyden jaottelu näyttää:</p>
+<p>Nestauksen erittely näyttää:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Sisäkkäisyydessä käytetyt osat.</p>
+<p>Nestauksessa käytetyt osat.</p>
 </li>
 <li>
-<p>Yksityiskohtaiset tiedot, kuten käytetty materiaali, sykliaika ja muut mittarit.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/nest2.png" alt="Layout info" width="998">
-</div>
-</div>
+<p>Yksityiskohtaiset tiedot, kuten käytetyn materiaalin, kiertoajan ja muut mittarit.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Voit vierittää eri sisäkkäisyyksien läpi ja napsauttaa mitä tahansa osaa suorittaaksesi samat toiminnot, jotka ovat saatavilla Osat-alueella.</p>
+<p>Voit selata eri nestauksia ja napsauttaa mitä tahansa osaa suorittaaksesi samat toiminnot, jotka ovat käytettävissä Osat-alueella.</p>
 </li>
 <li>
-<p>Hiiren oikealla painikkeella napsautus sisäkkäisyydessä tuo esiin <strong>Layout</strong>-paneelin.</p>
+<p>Nestauksen napsauttaminen hiiren oikealla painikkeella tuo esiin <strong>Layout</strong>-paneelin.</p>
 <div class="paragraph">
 <p><span class="image"><img src="img/nest3.png" alt="Layout panel" width="1370"></span></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Lähetä koneeseen&#8230;&#8203;</strong> vapauttaa sisäkkäisyyden tuotantoon
-koneille, jolloin sisäkkäisyysvaihtoehto muuttuu Recall from Machine -vaihtoehdoksi.</p>
+<p><strong>Send to Machine&#8230;&#8203;</strong> vapauttaa nestauksen tuotantoon
+koneille, jolloin nestausvaihtoehto muuttuu muotoon Recall from Machine.</p>
 </li>
 <li>
-<p><strong>Lisää osia&#8230;&#8203;</strong> mahdollistaa lisäosien lisäämisen
-sisäkkäisyyteen.</p>
+<p><strong>Add Parts&#8230;&#8203;</strong> mahdollistaa lisäosien lisäämisen
+nestaukseen.</p>
 </li>
 <li>
-<p><strong>Mukauta/tiivistä&#8230;&#8203;</strong> mahdollistaa erämuutoksen materiaaleihin tai
-sisäkkäisyydessä käytettyihin koneisiin.</p>
+<p><strong>Adapt/Compact&#8230;&#8203;</strong> mahdollistaa nestauksessa käytettyjen
+materiaalien tai koneiden erämuutokset.</p>
 </li>
 <li>
-<p><strong>Vaihda LTT-taulukkoa&#8230;&#8203;</strong> mahdollistaa erilaisen lasertekniikan käytön
-valitulle materiaalille ja paksuudelle sisäkkäisyydessä.</p>
+<p><strong>Change LTT&#8230;&#8203;</strong> mahdollistaa eri laserteknologian
+käyttämisen nestauksen valitulle materiaalille ja paksuudelle.</p>
 </li>
 <li>
-<p><strong>Jaa sijoittelut&#8230;&#8203;</strong> mahdollistaa sisäkkäisyyden, jossa on
-useita toistoja, jakamisen uudeksi sisäkkäisyydeksi.</p>
+<p><strong>Split Layouts&#8230;&#8203;</strong> mahdollistaa useita toistoja sisältävän
+nestauksen jakamisen uuteen nestaukseen.</p>
 </li>
 <li>
-<p><strong>Nimeä uudelleen&#8230;&#8203;</strong> mahdollistaa sisäkkäisyyden nimeämisen uudelleen.</p>
+<p><strong>Rename&#8230;&#8203;</strong> mahdollistaa nestauksen nimeämisen uudelleen.</p>
 </li>
 </ul>
 </div>
@@ -297,8 +272,8 @@ useita toistoja, jakamisen uudeksi sisäkkäisyydeksi.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Sisäkkäisyyden hallinta</a></span>
- <span class="next"><a href="layoutpanel.html">Asettelupaneeli</a></span>
+ <span class="prev"><a href="index.html">Nestauksen hallinta</a></span>
+ <span class="next"><a href="layoutpanel.html">Sijoittelupaneeli</a></span>
 </nav>
 
         </div>

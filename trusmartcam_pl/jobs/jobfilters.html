@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Filtry zadań</title>
+  <title>Filtry zadań job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="../configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otwórz</a>
+     <a href="../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Zamówienia</a>
+   <a href="../orders/index.html">Zlecenia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Zadania</a>
+   <a href="index.html">Zadania job</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,29 +184,24 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Zadania</a>
+  <a href="index.html">Zadania job</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobfilters.html">Filtry zadań</a>
+  <a href="jobfilters.html">Filtry zadań job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Filtry zadań</h1>
+                        <h1>Filtry zadań job</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Filtry strony zadań pomagają lokalizować zadania, aktywne części i zagnieżdżenia poprzez
-wyświetlanie tylko elementów spełniających wybrane warunki. Ułatwiają one znajdowanie, sortowanie i
-zarządzanie zadaniami lub częściami, zwiększając ogólną efektywność w przepływie pracy.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/filter.png" alt="Filter" width="726">
-</div>
+<p>Filtry strony zadań job pomagają zlokalizować zadania job, aktywne części oraz nesty, wyświetlając
+tylko elementy pasujące do wybranych warunków. Upraszczają znajdowanie, sortowanie oraz
+zarządzanie zadaniami job lub częściami, poprawiając ogólną wydajność workflow.</p>
 </div>
 </div>
 </div>
@@ -234,20 +209,20 @@ zarządzanie zadaniami lub częściami, zwiększając ogólną efektywność w p
 <h2 id="_przykłady_dostępnych_filtrów">Przykłady dostępnych filtrów</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_kolejność_i_wymagane">Kolejność i Wymagane</h3>
+<h3 id="_priority_i_due_on">Priority i Due on</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Filtr <strong>Kolejność</strong> umożliwia wyszukiwanie i wyświetlanie części lub zadań na podstawie
-ich przypisanego priorytetu (<strong>Pilny</strong>, <strong>Wysoki</strong>, <strong>Niski</strong>, <strong>Normalny</strong>).</p>
+<p>Filtr <strong>Priority</strong> umożliwia wyszukiwanie i wyświetlanie części lub zadań job na podstawie
+ich przypisanego priorytetu (<strong>Urgent</strong>, <strong>High</strong>, <strong>Low</strong>, <strong>Normal</strong>).</p>
 </li>
 <li>
-<p>Po wybraniu określonego poziomu priorytetu zaznaczane są tylko części o tym
-określonym priorytecie lub wyświetlane w wynikach.</p>
+<p>Po wybraniu określonego poziomu priorytetu tylko części o tym
+określonym priorytecie zostaną podświetlone lub pokazane w wynikach.</p>
 </li>
 <li>
-<p>Na przykład, jeśli wybierzesz priorytet <strong>Wysoki</strong>, system
-wyfiltruje i oznaczy tylko części oznaczone jako Wysoki Priorytet na zagnieżdżeniu.</p>
+<p>Na przykład, jeśli wybierzesz priorytet <strong>High</strong>, system przefiltruje i
+podświetli tylko części oznaczone jako High Priority na neście.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/priority.png" alt="Priority" width="1307">
@@ -255,27 +230,23 @@ wyfiltruje i oznaczy tylko części oznaczone jako Wysoki Priorytet na zagnieżd
 </div>
 </li>
 <li>
-<p>Filtr <strong>Wymagane</strong> umożliwia wyszukiwanie i wyświetlanie części lub
-zadań według ich przypisanych dat.</p>
+<p>Filtr <strong>Due on</strong> umożliwia wyszukiwanie i wyświetlanie części lub
+zadań job na podstawie ich przypisanych dat.</p>
 </li>
 <li>
-<p>Po wybraniu określonej daty dostawy zaznaczane są tylko części o tej konkretnej dacie dostawy
-lub wyświetlane w wynikach.</p>
+<p>Po wybraniu określonego terminu realizacji tylko części z tym określonym
+terminem realizacji zostaną podświetlone lub pokazane w wynikach.</p>
 </li>
 <li>
-<p>Oprócz predefiniowanych filtrów daty dostawy, takich jak <strong>Dzisiaj</strong>,
-<strong>Wczoraj</strong>, <strong>Jutro</strong> itp., możesz również
-wprowadzić niestandardowe wartości/zakresy dat w formacie <strong>yymmdd</strong> w polu wyszukiwania.</p>
+<p>Oprócz predefiniowanych filtrów terminu realizacji, takich jak <strong>Today</strong>,
+<strong>Yesterday</strong>, <strong>Tomorrow</strong> itp., możesz również
+wpisać niestandardowe wartości/zakresy dat w formacie <strong>yymmdd</strong> w polu
+wyszukiwania.</p>
 </li>
 <li>
-<p>Możesz także używać wyrażeń z operatorami nierówności (&lt;, &lt;=, &gt;, &gt;=, =)
-następującymi po wartości daty. Przykład: &gt;=250901 wyszukuje wszystkie elementy, które
-uprawniają w dniu 1 września 2025 lub później.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/dueon.png" alt="Due On" width="1121">
-</div>
-</div>
+<p>Możesz również używać wyrażeń z operatorami nierówności (&lt;, &lt;=, &gt;, &gt;=, =),
+po których następuje wartość daty. Przykład: &gt;=250901 wyszukałoby wszystkie elementy, których
+termin realizacji przypada 1 września 2025 r. lub później.</p>
 </li>
 </ul>
 </div>
@@ -286,8 +257,8 @@ uprawniają w dniu 1 września 2025 lub później.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Jeśli lista filtrów zakrywa zawartość wyszukiwania, możesz ją uczynić przezroczystą
-za pomocą polecenia <strong>Przełącz przezroczystość|*Kliknięcie prawym przyciskiem myszy</strong>*
+Jeśli lista filtrów zasłania treść wyszukiwania, możesz uczynić ją przezroczystą
+za pomocą polecenia <strong>Toggle opacity</strong>
 <span class="image"><img src="img/toggleopacity.png" alt="Toggle Opacity" width="15"></span>.
 </td>
 </tr>
@@ -295,62 +266,52 @@ za pomocą polecenia <strong>Przełącz przezroczystość|*Kliknięcie prawym pr
 </div>
 </div>
 <div class="sect2">
-<h3 id="_nazwa_detalu_layout_name">Nazwa detalu/ Layout name</h3>
+<h3 id="_part_name_layout_name">Part name/ Layout name</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Filtr <strong>Nazwa detalu</strong> jest dostępny na stronie zadań i zagnieżdżeń.</p>
+<p>Filtr <strong>Part name</strong> będzie dostępny na stronie zadań job i nestu.</p>
 </li>
 <li>
-<p>Podczas wpisywania nazwy części wyświetlana jest lista sugestii, aby pomóc w szybkim wybraniu
-właściwej części.</p>
+<p>Podczas wpisywania nazwy części wyświetlana jest lista sugestii, która pomaga szybko
+wybrać właściwą część.</p>
 </li>
 <li>
-<p>Wybranie jednego lub więcej elementów z listy sugestii ogranicza wyniki wyszukiwania
-do tylko wybranych części.</p>
+<p>Wybranie jednego lub więcej elementów z listy sugestii zawęża wyniki
+wyszukiwania tylko do wybranych części.</p>
 </li>
 <li>
-<p>Na stronie Zadań to zachowanie jest rozszerzone o nazwy układów, umożliwiając
-użytkownikom wyszukiwanie według nazwy części lub nazwy układu.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/partname.png" alt="Part Name" width="1453">
-</div>
-</div>
+<p>Na stronie zadań job to zachowanie jest rozszerzone o nazwy układów, umożliwiając
+użytkownikom wyszukiwanie zarówno według nazwy części, jak i nazwy układu.</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_resztka">Resztka</h3>
+<h3 id="_remnant">Remnant</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Użyj filtru <strong>Resztka</strong>, aby wyszukać układy na podstawie dostępności resztki.</p>
+<p>Użyj filtra <strong>Remnant</strong>, aby wyszukać układy na podstawie dostępności resztek.</p>
 </li>
 <li>
-<p>Lista rozwijana pokazuje następujące opcje:</p>
+<p>Rozwijana lista wyświetla następujące opcje:</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Brak resztek</strong> - pokazuje układy, w których nie utworzono resztki.</p>
+<p><strong>No Remnant</strong> - wyświetla układy, dla których nie utworzono żadnej resztki.</p>
 </li>
 <li>
-<p><strong>Istnieje</strong> - pokazuje układy, w których resztka już istnieje.</p>
+<p><strong>Exists</strong> - wyświetla układy, dla których resztka już istnieje.</p>
 </li>
 <li>
-<p><strong>Dodano</strong> - pokazuje układy, w których dodano nową resztkę.</p>
+<p><strong>Added</strong> - wyświetla układy, dla których dodano nową resztkę.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Pomaga w efektywnym identyfikowaniu i zarządzaniu pozostałymi materiałami arkuszy.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnant.png" alt="Remnant" width="990">
-</div>
-</div>
+<p>Pomaga efektywnie identyfikować i zarządzać pozostałymi materiałami arkuszowymi.</p>
 </li>
 </ul>
 </div>
@@ -368,13 +329,13 @@ użytkownikom wyszukiwanie według nazwy części lub nazwy układu.</p>
    <a href="#_przykłady_dostępnych_filtrów">Przykłady dostępnych filtrów</a>
   </li>
   <li level="2">
-   <a href="#_kolejność_i_wymagane">Kolejność i Wymagane</a>
+   <a href="#_priority_i_due_on">Priority i Due on</a>
   </li>
   <li level="2">
-   <a href="#_nazwa_detalu_layout_name">Nazwa detalu/ Layout name</a>
+   <a href="#_part_name_layout_name">Part name/ Layout name</a>
   </li>
   <li level="2">
-   <a href="#_resztka">Resztka</a>
+   <a href="#_remnant">Remnant</a>
   </li>
  </ul>
 </aside>
@@ -382,7 +343,7 @@ użytkownikom wyszukiwanie według nazwy części lub nazwy układu.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="outdate.html">Przestarzałe</a></span>
+ <span class="prev"><a href="outdate.html">Nieaktualne</a></span>
  <span class="next"><a href="../factory/index.html">Fabryka</a></span>
 </nav>
 

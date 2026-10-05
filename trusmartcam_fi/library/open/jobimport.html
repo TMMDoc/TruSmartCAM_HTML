@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Töiden tuonti</title>
+  <title>Import jobs</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Avaa</a>
+     <a href="index.html">Avaaminen</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a href="orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a href="partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a href="orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../libraryview/index.html">Kirjastonäkymä</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Työkalutila</a>
+     <a href="../toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Sisäkkäisyyden hallinta</a>
+     <a href="../../jobs/layoutcommands/index.html">Nestauksen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Jäännösarkkien hallinta</a>
+     <a href="../../jobs/remnantmanagement/index.html">Jäännöslevyjen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -208,77 +188,61 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Avaa</a>
+  <a href="index.html">Avaaminen</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobimport.html">Töiden tuonti</a>
+  <a href="jobimport.html">Import jobs</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Töiden tuonti</h1>
+                        <h1>Import jobs</h1>
 <div class="sect1">
 <h2 id="_tuonti_csv_tai_xlsx_tiedostosta">Tuonti CSV- tai XLSX-tiedostosta</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Voit myös tuoda töitä yleisillä tekstimuodoilla</p>
+<p>Voit my\u00f6s tuoda t\u00f6it\u00e4 yleisiss\u00e4 tekstimuodoissa</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta <strong>File &#8594; Open &#8594; Tuo työt</strong>, Avaa kansio
--ikkuna ilmestyy. Valitse <code>C:\Program
-Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv.png" alt="CSV import" width="426">
-</div>
-</div>
+<p>Napsauta <strong>File &#8594; Open &#8594; Import Jobs</strong>, jolloin Open
+Folder -valintaikkuna tulee n\u00e4kyviin. Valitse
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
 </li>
 <li>
-<p>Jos kaikki osat ovat olemassa csv-sijainnissa tai hakukansion hakemistoissa,
-<strong>uusi työ</strong> -ikkuna ilmestyy luettelemalla kaikki csv-kenttiä
-vastaavat osat.</p>
+<p>Jos kaikki osat ovat olemassa CSV-sijainnissa tai hakukansioissa,
+<strong>new job</strong> -ikkuna tulee n\u00e4kyviin ja luettelee kaikki osat,
+jotka vastaavat CSV-kentti\u00e4.</p>
 </li>
 <li>
-<p>Puuttuvat osat ohitetaan eivätkä ne näy <strong>uusi työ</strong> -ikkunassa.</p>
+<p>Puuttuvat osat ohitetaan eiv\u00e4tk\u00e4 ne n\u00e4y <strong>new job</strong> -ikkunassa.</p>
 </li>
 <li>
 <p>Aluksi osan tila on Nascent.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv2.png" alt="CSV import" width="908">
-</div>
-</div>
 </li>
 <li>
-<p>Napsauta <strong>OK</strong>, nyt osat tuodaan osakirjastoon. CAD-
-validointi, taivutus- ja leikkaustyökaluinstanssin työkalutus suoritetaan, jota voidaan
-seurata <strong>Pmonitor</strong>-näytössä.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv3.png" alt="CSV import" width="1438">
-</div>
-</div>
+<p>Napsauta <strong>OK</strong> , jolloin osat tuodaan osakirjastoon.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_luo_tyhjä_osa_puuttuvien_cad_tiedostojen_tilalle">Luo tyhjä osa puuttuvien CAD-tiedostojen tilalle</h3>
+<h3 id="_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</h3>
 <div class="paragraph">
-<p>Kun tuot töitä käyttämällä laskentataulukkoa (.csv tai .xlsx), sinulla voi joskus olla
-rivejä, jotka viittaavat CAD-tiedostoihin, jotka eivät ole saatavilla järjestelmässä.</p>
+<p>Kun t\u00f6it\u00e4 tuodaan taulukkotiedostolla (.csv tai .xlsx), sinulla voi joskus olla
+rivej\u00e4, jotka viittaavat CAD-tiedostoihin, jotka eiv\u00e4t ole k\u00e4ytett\u00e4viss\u00e4
+j\u00e4rjestelm\u00e4ss\u00e4.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Tämän käsittelemiseksi siirry kohtaan <strong>tehdas</strong>
- &#8594; <strong>Asetukset</strong> &#8594; <strong>Työ</strong>,
- kohdassa <strong>Laskentataulukon tuonti</strong> ota käyttöön
-<strong>Luo tyhjä osa puuttuvien CAD-tiedostojen tilalle</strong></p>
+<p>K\u00e4sittele t\u00e4m\u00e4 siirtym\u00e4ll\u00e4 kohtaan <strong>Factory</strong>
+ &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong> ja ota
+ <strong>Spreadsheet import settings</strong> -kohdassa k\u00e4ytt\u00f6\u00f6n
+<strong>Create a blank part for the missing CAD files</strong></p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csv6.png" alt="Spreadsheet import" width="801">
@@ -288,57 +252,50 @@ rivejä, jotka viittaavat CAD-tiedostoihin, jotka eivät ole saatavilla järjest
 </ul>
 </div>
 <div class="paragraph">
-<p>Kun tämä vaihtoehto on valittuna:</p>
+<p>Kun t\u00e4m\u00e4 vaihtoehto on valittu:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Jos CAD-tiedosto puuttuu miltä tahansa riviltä työn tuonnin aikana, järjestelmä
-luo automaattisesti tyhjän osan puuttuvan CAD-tiedoston tilalle.</p>
+<p>Jos jonkin rivin CAD-tiedosto puuttuu ty\u00f6n tuonnin aikana, j\u00e4rjestelm\u00e4 luo
+automaattisesti tyhj\u00e4n osan puuttuvan CAD-tiedoston tilalle.</p>
 </li>
 <li>
-<p><strong>uusi työ</strong> -ikkunassa nämä puuttuvat osat on visuaalisesti
-korostettu keltaisella osoittamaan, että liittyvä CAD-tiedosto puuttuu.</p>
-<div class="paragraph">
-<p><span class="image"><img src="img/csv4.png" alt="Edit jobs" width="578"></span></p>
-</div>
+<p><strong>new job</strong> -ikkunassa n\u00e4m\u00e4 puuttuvat osat korostetaan
+visuaalisesti keltaisella osoittamaan, ett\u00e4 liittyv\u00e4 CAD-tiedosto puuttuu.</p>
 </li>
 <li>
-<p>Puuttuvalla osalla on edelleen sen kartoitetut kentät (kuten osan nimi, materiaali,
-paksuus, määrä jne.) CSV-tiedostosta. Sen osan tila näytetään kuitenkin
-Nascentina, mikä tarkoittaa, että se on vain tyhjä paikkamerkki ilman varsinaista geometriaa
-vielä.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv5.png" alt="Nascent parts" width="1110">
-</div>
-</div>
+<p>Puuttuvalla osalla on edelleen sen m\u00e4\u00e4ritetyt kent\u00e4t (kuten osan nimi,
+materiaali, paksuus, m\u00e4\u00e4r\u00e4 jne.) CSV-tiedostosta. Sen osan tila n\u00e4ytet\u00e4\u00e4n
+kuitenkin nimell\u00e4 Nascent, mik\u00e4 tarkoittaa, ett\u00e4 se on vain tyhj\u00e4 paikkamerkki
+ilman todellista geometriaa.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Tämä varmistaa, että työn tuonti voi silti jatkua ilman virheitä, jotka johtuvat
-puuttuvista CAD-tiedostoista — voit myöhemmin päivittää tai korvata tyhjän osan
+<p>T\u00e4m\u00e4 varmistaa, ett\u00e4 ty\u00f6n tuonti voi silti jatkua ilman virheit\u00e4 puuttuvien
+CAD-tiedostojen vuoksi \u2014 voit my\u00f6hemmin p\u00e4ivitt\u00e4\u00e4 tai korvata tyhj\u00e4n osan
 oikealla CAD-tiedostolla, kun se tulee saataville.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_älä_näytä_valintaikkunaa_uusi_työ_jos_laskentataulukossa_ei_ole_virheitä">Älä näytä valintaikkunaa 'Uusi työ", jos laskentataulukossa ei ole virheitä</h3>
+<h3 id="_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</h3>
 <div class="paragraph">
-<p><strong>tehdas</strong> &#8594; <strong>Asetukset</strong> &#8594;
-<strong>Työ</strong> → <strong>Laskentataulukon tuonti</strong>→
-<strong>Älä näytä valintaikkunaa 'Uusi työ", jos laskentataulukossa ei ole virheitä</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> \u2192 <strong>Spreadsheet import settings</strong>\u2192
+<strong>Do not show the New Job dialog if the spreadsheet has no error</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Kun tämä valintaruutu on valittuna, järjestelmä luo automaattisesti uuden työn näyttämättä
-uuden työn ikkunaa, jos laskentataulukossa ei ole virheitä (ei puuttuvia osia,
-puuttuvia päivämääriä tai virheellisiä tietoja).</p>
+<p>Kun t\u00e4m\u00e4 valintaruutu on valittu, j\u00e4rjestelm\u00e4 luo uuden ty\u00f6n automaattisesti
+n\u00e4ytt\u00e4m\u00e4tt\u00e4 New Job -valintaikkunaa, jos taulukkotiedostossa ei ole virheit\u00e4
+(ei puuttuvia osia, puuttuvia p\u00e4iv\u00e4m\u00e4\u00e4ri\u00e4 tai virheellisi\u00e4 tietoja).</p>
 </li>
 <li>
-<p>Kun tämän valintaruudun valinta poistetaan, uuden työn ikkuna ilmestyy aina käyttäjän tarkistusta
-ja vahvistusta varten, vaikka laskentataulukossa ei olisi virheitä.</p>
+<p>Kun t\u00e4m\u00e4 valintaruutu on tyhj\u00e4, New Job -valintaikkuna tulee aina n\u00e4kyviin
+k\u00e4ytt\u00e4j\u00e4n tarkistusta ja vahvistusta varten, vaikka taulukkotiedostossa ei
+olisi virheit\u00e4.</p>
 </li>
 </ul>
 </div>
@@ -346,20 +303,22 @@ ja vahvistusta varten, vaikka laskentataulukossa ei olisi virheitä.</p>
 <div class="sect2">
 <h3 id="_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</h3>
 <div class="paragraph">
-<p><strong>tehdas</strong> &#8594; <strong>Asetukset</strong> &#8594;
-<strong>Työ</strong>→<strong>Prefer Raw-Material column over Material + Thickness</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong>\u2192*Prefer Raw-Material column over Material + Thickness*</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Kun tämä valintaruutu on valittuna, järjestelmä odottaa laskentataulukon käyttävän
-raaka-ainesaraketta (esimerkiksi Steel-20). Tämä tarkoittaa, että materiaalityyppi ja
-paksuus tulisi yhdistää yhdeksi arvoksi yhdessä sarakkeessa.</p>
+<p>Kun t\u00e4m\u00e4 valintaruutu on valittu, j\u00e4rjestelm\u00e4 olettaa, ett\u00e4
+taulukkotiedostossa k\u00e4ytet\u00e4\u00e4n Raw-Material-saraketta (esimerkiksi Steel-20).
+T\u00e4m\u00e4 tarkoittaa, ett\u00e4 materiaalityyppi ja paksuus tulee yhdist\u00e4\u00e4 yhteen arvoon
+yhdess\u00e4 sarakkeessa.</p>
 </li>
 <li>
-<p>Kun tämän valintaruudun valinta poistetaan, järjestelmä odottaa laskentataulukon sisältävän
-erilliset sarakkeet materiaalille ja paksuudelle (esimerkiksi Steel ja 2.00).
-Järjestelmä yhdistää ne sisäisesti tuonnin aikana.</p>
+<p>Kun t\u00e4m\u00e4 valintaruutu on tyhj\u00e4, j\u00e4rjestelm\u00e4 olettaa, ett\u00e4
+taulukkotiedostossa on erilliset sarakkeet materiaalille ja paksuudelle
+(esimerkiksi Steel ja 2.00). J\u00e4rjestelm\u00e4 yhdist\u00e4\u00e4 ne sis\u00e4isesti tuonnin
+aikana.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csvmaterial.png" alt="CSV Raw Material and Material+Thickness">
@@ -372,21 +331,21 @@ Järjestelmä yhdistää ne sisäisesti tuonnin aikana.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_kansion_seuranta_käyttäen_csvxlsx">Kansion seuranta käyttäen CSV/XLSX</h2>
+<h2 id="_valvottava_kansio_csvxlsx_tiedostoilla">Valvottava kansio CSV/XLSX-tiedostoilla</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Kohdassa <strong>tehdas</strong> &#8594; <strong>Asetukset</strong>&#8594;
-<strong>Valvontatoiminto</strong> valitse <strong>Aktivoi 'Live-kansio'</strong>
-ja <strong>Valvo myös alikansioita</strong>.</p>
+<p>Kohdassa <strong>factory</strong> &#8594; <strong>Settings</strong>&#8594;
+<strong>Watch settings</strong> valitse <strong>Enable 'Live Folder'</strong>
+ja <strong>Watch sub-folders also</strong>.</p>
 </li>
 <li>
-<p>Aseta seurattavan kansion polku (UNC tai kartoitettu asema).</p>
+<p>Aseta valvottavan kansion polku (UNC tai yhdistetty asema).</p>
 </li>
 <li>
-<p>Kohdassa <strong>Laskentataulukon tuonti</strong> valitse
-<strong>Tuo laskentataulukko 'Live-kansiosta'</strong>.</p>
+<p>Valitse <strong>Spreadsheet import settings</strong> -kohdassa
+<strong>Import spreadsheet from 'Live Folder'</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/watchfolder.png" alt="Watch folder" width="702">
@@ -394,38 +353,41 @@ ja <strong>Valvo myös alikansioita</strong>.</p>
 </div>
 </li>
 <li>
-<p>Valitse <strong>Tuo työt</strong> laskentataulukon tuontiasetuksista.</p>
+<p>Valitse <strong>Import Jobs</strong> Spreadsheet Import -vaihtoehdoista.</p>
 </li>
 <li>
-<p>Kopioi <code>C:\Program Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code> ja liitä se
-seurattavaan kansioon.</p>
+<p>Kopioi
+<code>C:Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>
+ja liit\u00e4 se valvottavaan kansioon.</p>
 </li>
 <li>
-<p>Järjestelmä tarkistaa CSV-tiedoston ja yrittää luoda työn automaattisesti.</p>
+<p>J\u00e4rjestelm\u00e4 tarkistaa CSV-tiedoston ja yritt\u00e4\u00e4 luoda ty\u00f6n automaattisesti.</p>
 </li>
 <li>
-<p>Jos CAD-tiedosto puuttuu, työtä ei luoda, koska vaadittua CAD-dataa ei löydy.</p>
+<p>Jos CAD-tiedosto puuttuu, ty\u00f6t\u00e4 ei luoda, koska tarvittavia CAD-tietoja ei
+l\u00f6ydy.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_cad_hakuhakemisto_ja_rekursiivinen_cad_haku_ei_määritetty">CAD-hakuhakemisto ja rekursiivinen CAD-haku - ei määritetty</h3>
+<h3 id="_cad_hakukansio_ja_rekursiivinen_cad_haku_u2013_ei_mu00e4u00e4ritetty">CAD-hakukansio ja rekursiivinen CAD-haku \u2013 ei m\u00e4\u00e4ritetty</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Kohdassa <strong>tehdas</strong> &#8594; <strong>Asetukset</strong> &#8594;
-<strong>Työ</strong> &#8594; <strong>Laskentataulukon tuonti</strong>,
-jos <strong>CAD lookup directories</strong> -kohtaa ei ole asetettu ja
-<strong>Käytä rekursiivista CAD-hakua</strong> -kohtaa ei käytetä, järjestelmä
-ei etsi CAD-tiedostoja automaattisesti.</p>
+<p>Kohdassa <strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> &#8594; <strong>Spreadsheet import settings</strong>,
+jos <strong>CAD lookup directories</strong> -kohtaa ei ole
+asetettu eik\u00e4 <strong>Use recursive CAD search</strong> -kohtaa
+k\u00e4ytet\u00e4, j\u00e4rjestelm\u00e4 ei etsi CAD-tiedostoja automaattisesti.</p>
 </li>
 <li>
-<p>Jos <strong>Luo tyhjä osa puuttuvien CAD-tiedostojen tilalle</strong> -valintaruutu on
-valittuna, työ luodaan silti, vaikka CAD-tiedostot puuttuisivat.</p>
+<p>Jos <strong>Create a blank part for the missing CAD files</strong>
+-valintaruutu on valittu, ty\u00f6 luodaan silti, vaikka CAD-tiedostot puuttuisivat.</p>
 </li>
 <li>
-<p>Tässä tapauksessa kaikki työn osat luodaan syntyvinä (tyhjinä) osina —
-eli niillä ei ole geometriaa, koska CAD-tiedostoja ei löytynyt.</p>
+<p>T\u00e4ss\u00e4 tapauksessa kaikki ty\u00f6n osat luodaan alustavina (tyhjin\u00e4) osina \u2014
+mik\u00e4 tarkoittaa, ett\u00e4 niill\u00e4 ei ole geometriaa, koska CAD-tiedostoja ei
+l\u00f6ytynyt.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/notconfigured.png" alt="Create blank parts" width="867">
@@ -436,24 +398,25 @@ eli niillä ei ole geometriaa, koska CAD-tiedostoja ei löytynyt.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cad_hakuhakemisto_ja_rekursiivinen_cad_haku_määritetty">CAD-hakuhakemisto ja rekursiivinen CAD-haku - määritetty</h3>
+<h3 id="_cad_hakukansio_ja_rekursiivinen_cad_haku_u2013_mu00e4u00e4ritetty">CAD-hakukansio ja rekursiivinen CAD-haku \u2013 m\u00e4\u00e4ritetty</h3>
 <div class="paragraph">
-<p>Kun <strong>CAD-hakujen hakemistot</strong> on asetettu
-(C:\Program Files\Metamation\Praxis\Samples) ja
-<strong>Käytä rekursiivista CAD-hakua</strong> on käytössä kohdassa
-<strong>tehdas</strong> &#8594; <strong>Asetukset</strong> &#8594; <strong>Työ</strong>
-&#8594; <strong>Laskentataulukon tuonti</strong>:</p>
+<p>Kun <strong>CAD lookup directories</strong> on asetettu
+arvoon
+(C:\Program Files\TRUMPF\TMM\Praxis\Samples)
+ja <strong>Use recursive CAD search</strong> on otettu k\u00e4ytt\u00f6\u00f6n
+kohdassa <strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> &#8594; <strong>Spreadsheet import settings</strong>:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Järjestelmä etsii automaattisesti määritetystä kansiosta ja kaikista sen alikansioista
-laskentataulukossa mainitut vaaditut CAD-tiedostot.</p>
+<p>J\u00e4rjestelm\u00e4 etsii automaattisesti m\u00e4\u00e4ritetyst\u00e4 kansiosta ja kaikista sen
+alikansioista taulukkotiedostossa mainitut tarvittavat CAD-tiedostot.</p>
 </li>
 <li>
-<p><strong>Luo tyhjä osa puuttuvien CAD-tiedostojen tilalle</strong> on
-myös käytössä, joten jos mitään CAD-tiedostoa ei vieläkään löydy, järjestelmä luo
-tyhjän osan paikkamerkiksi.</p>
+<p><strong>Create a blank part for the missing CAD files</strong> on
+my\u00f6s otettu k\u00e4ytt\u00f6\u00f6n, joten jos jokin CAD-tiedosto ei viel\u00e4\u00e4n l\u00f6ydy,
+j\u00e4rjestelm\u00e4 luo tyhj\u00e4n osan paikkamerkiksi.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/configured.png" alt="Create blank parts" width="861">
@@ -476,22 +439,22 @@ tyhjän osan paikkamerkiksi.</p>
    <a href="#_tuonti_csv_tai_xlsx_tiedostosta">Tuonti CSV- tai XLSX-tiedostosta</a>
   </li>
   <li level="2">
-   <a href="#_luo_tyhjä_osa_puuttuvien_cad_tiedostojen_tilalle">Luo tyhjä osa puuttuvien CAD-tiedostojen tilalle</a>
+   <a href="#_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</a>
   </li>
   <li level="2">
-   <a href="#_älä_näytä_valintaikkunaa_uusi_työ_jos_laskentataulukossa_ei_ole_virheitä">Älä näytä valintaikkunaa 'Uusi työ", jos laskentataulukossa ei ole virheitä</a>
+   <a href="#_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</a>
   </li>
   <li level="2">
    <a href="#_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</a>
   </li>
   <li level="1">
-   <a href="#_kansion_seuranta_käyttäen_csvxlsx">Kansion seuranta käyttäen CSV/XLSX</a>
+   <a href="#_valvottava_kansio_csvxlsx_tiedostoilla">Valvottava kansio CSV/XLSX-tiedostoilla</a>
   </li>
   <li level="2">
-   <a href="#_cad_hakuhakemisto_ja_rekursiivinen_cad_haku_ei_määritetty">CAD-hakuhakemisto ja rekursiivinen CAD-haku - ei määritetty</a>
+   <a href="#_cad_hakukansio_ja_rekursiivinen_cad_haku_u2013_ei_mu00e4u00e4ritetty">CAD-hakukansio ja rekursiivinen CAD-haku \u2013 ei m\u00e4\u00e4ritetty</a>
   </li>
   <li level="2">
-   <a href="#_cad_hakuhakemisto_ja_rekursiivinen_cad_haku_määritetty">CAD-hakuhakemisto ja rekursiivinen CAD-haku - määritetty</a>
+   <a href="#_cad_hakukansio_ja_rekursiivinen_cad_haku_u2013_mu00e4u00e4ritetty">CAD-hakukansio ja rekursiivinen CAD-haku \u2013 m\u00e4\u00e4ritetty</a>
   </li>
  </ul>
 </aside>
@@ -499,8 +462,8 @@ tyhjän osan paikkamerkiksi.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="orderimport.html">Tilausten tuonti</a></span>
- <span class="next"><a href="assembliesimport.html">Kokoonpanojen tuonti</a></span>
+ <span class="prev"><a href="orderimport.html">Import orders</a></span>
+ <span class="next"><a href="assembliesimport.html">Import assemblies</a></span>
 </nav>
 
         </div>

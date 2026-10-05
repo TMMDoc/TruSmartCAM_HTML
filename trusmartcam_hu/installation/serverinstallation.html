@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Szervertelepítés</title>
+  <title>Kiszolgálótelepítés</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,17 +22,15 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../index.html">Üdvözöljük a TruSmartCAM rendszerben</a></li>
+  <li><button class="tree blank"></button><a href="../index.html">Üdvözli a TruSmartCAM</a></li>
   <li>
    <button class="tree open"></button>
    <a href="index.html">Telepítés</a>
    <ul>
     <li><button class="tree blank"></button><a href="hardwarerequirement.html">Hardverkövetelmények</a></li>
     <li><button class="tree blank"></button><a href="importformats.html">Támogatott fájlformátumok</a></li>
-    <li><button class="tree blank"></button><a href="prerequisites.html">Előfeltételek</a></li>
-    <li><button class="tree blank"></button><a class="active" href="serverinstallation.html">Szervertelepítés</a></li>
+    <li><button class="tree blank"></button><a class="active" href="serverinstallation.html">Kiszolgálótelepítés</a></li>
     <li><button class="tree blank"></button><a href="clientinstallation.html">Klienstelepítés</a></li>
-    <li><button class="tree blank"></button><a href="changelic.html">Licenc módosítása</a></li>
    </ul>
   </li>
   <li>
@@ -40,20 +38,20 @@
    <a href="../configuration/index.html">Konfiguráció</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Gép hozzáadása/eltávolítása</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Szerszámozás beállítása</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Felszerszámozás konfigurálása</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Felhasználók konfigurálása</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Nyelv</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../configuration/addmaterial/index.html">Anyag</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Új anyag és lemez hozzáadása</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Új anyag és lemeztábla hozzáadása</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Anyag exportálása/importálása</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Anyag cseréje</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Anyag leképezése</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM oldalak leképezése</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM-oldalak leképezése</a></li>
     <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mezők leképezése CAD-ből (keresési kulcsok)</a></li>
    </ul>
   </li>
@@ -68,9 +66,9 @@
      <a href="../library/open/index.html">Megnyitás</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Alkatrészek importálása</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Rendelések importálása</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Munkák importálása</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Összeszerelések importálása</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Megrendelések importálása</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Feladatok importálása</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Részegységek importálása</a></li>
      </ul>
     </li>
     <li>
@@ -78,32 +76,32 @@
      <a href="../library/libraryview/index.html">Könyvtár nézet</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Alkatrészek</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Összeszerelés</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Részegység</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Alkatrész állapot</a>
+     <a href="../library/partstate/index.html">Alkatrész állapota</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Alkatrész validálás</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Alkatrész ellenőrzése</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Alkatrész panel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Alkatrész szűrők</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Alkatrészszűrők</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Szerszámozási állapot</a>
+     <a href="../library/toolingstatus/index.html">Felszerszámozás állapota</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Szerszámozás validálás</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Felszerszámozás ellenőrzése</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Hajlítási szerszámozás validálás</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Vágási szerszámozás validálás</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Hajtogatási szerszámozás validálás</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Hajlítási felszerszámozás ellenőrzése</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Vágási felszerszámozás ellenőrzése</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Falcolási felszerszámozás ellenőrzése</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Szerszámozási panel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Felszerszámozási panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Szűrők mentése</a></li>
@@ -111,27 +109,27 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Rendelések</a>
+   <a href="../orders/index.html">Megrendelések</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Rendelések nézet</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Megrendelések nézet</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Munkák</a>
+   <a href="../jobs/index.html">Feladatok</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Munka létrehozása</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Munkanézet</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Munkapanel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Feladat létrehozása</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Feladatok nézet</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Feladat panel</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatikus tervezés</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktív fészkelés</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktív táblásítás</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Újracsomagolás</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Fészekkezelés</a>
+     <a href="../jobs/layoutcommands/index.html">Táblaterv-kezelés</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Elrendezésnézet</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Elrendezéspanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Elrendezés nézet</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Elrendezés panel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Jelentésküldő</a></li>
      </ul>
     </li>
@@ -140,12 +138,12 @@
      <a href="../jobs/remnantmanagement/index.html">Maradékkezelés</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatikus maradékkezelés</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuális maradékkezelés</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Kézi maradékkezelés</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Ikervonalas fészkelés</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twin-line táblásítás</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Elavult</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Munka szűrők</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Feladatszűrők</a></li>
    </ul>
   </li>
   <li>
@@ -153,7 +151,7 @@
    <a href="../factory/index.html">Gyár</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../factory/routes.html">Útvonalak</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Lapok</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Lemeztáblák</a></li>
     <li><button class="tree blank"></button><a href="../factory/users.html">Felhasználók</a></li>
     <li><button class="tree blank"></button><a href="../factory/edit.html">Szerkesztés</a></li>
     <li><button class="tree blank"></button><a href="../factory/customers.html">Ügyfelek</a></li>
@@ -166,32 +164,14 @@
       <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Hajlítás</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Vágás</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Értesítések</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Figyelés</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Munkarendelés</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Megtekintés</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Feladat</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Jelentések</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD bővítmények</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks bővítmény</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Telepítés</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Alkatrészek mentése</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Szerelvény mentése</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Megvalósíthatóság ellenőrzése</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Gyártási beállítások</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Egyéb fejlesztések</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Vállalati információk</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Céginformáció</a></li>
  </ul>
 </div>
 
@@ -208,18 +188,19 @@
  </div>
  <div>/</div>
  <div>
-  <a href="serverinstallation.html">Szervertelepítés</a>
+  <a href="serverinstallation.html">Kiszolgálótelepítés</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Szervertelepítés</h1>
+                        <h1>Kiszolgálótelepítés</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Kövesse az utasításokat az TruSmartCAM szervertelepítés telepítéséhez az SQL-lel együtt.</p>
+<p>Kövesse az utasításokat a TruSmartCAM kiszolgáló SQL-lel együtt történő
+telepítéséhez.</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -228,10 +209,9 @@
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-<div class="title">Rendszergazdai jogok</div>
+<div class="title">Rendszergazdai jogosultságok</div>
 <div class="paragraph">
-<p><strong>Ennek a telepítésnek a végrehajtásához a felhasználónak rendszergazdai
-jogosultságokkal kell rendelkeznie.</strong></p>
+<p><strong>A telepítés végrehajtásához a felhasználónak rendszergazdai jogosultságokkal kell rendelkeznie.</strong></p>
 </div>
 </td>
 </tr>
@@ -240,7 +220,7 @@ jogosultságokkal kell rendelkeznie.</strong></p>
 <div class="ulist">
 <ul>
 <li>
-<p>Hajtsa végre a <strong>Setup.TruSmartCAM.&lt;version&gt;.exe</strong> fájlt a telepítés megkezdéséhez.</p>
+<p>Futtassa a <strong>Setup.TruSmartCAM.&lt;version&gt;.exe</strong> fájlt a telepítés megkezdéséhez.</p>
 </li>
 </ul>
 </div>
@@ -259,14 +239,14 @@ A verzió egy szám.
 <div class="ulist">
 <ul>
 <li>
-<p>Olvassa el a licencszerződést és válassza az <strong>I accept the agreement</strong> lehetőséget,
-majd kattintson az Következő gombra.</p>
+<p>Olvassa el a licencszerződést, válassza az <strong>I accept the agreement</strong>
+lehetőséget, majd kattintson a <strong>Next</strong> gombra.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s02praxislicenseagreement.png" alt="Praxis License Agreement">
+<img src="img/s02praxislicenseagreement.png" alt="Praxis licencszerződés">
 </div>
 </div>
 </div>
@@ -277,17 +257,15 @@ majd kattintson az Következő gombra.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Adja meg a telepítési könyvtárat vagy fogadja el az alapértelmezett telepítési
-helyet <code>C:\Program Files\Metamation\Praxis</code> és kattintson az Következő gombra.</p>
+<p>Adja meg a telepítési könyvtárat, vagy fogadja el az alapértelmezett telepítési helyet (<code>C:\Program Files\TRUMPF\TMM\Praxis</code>), majd kattintson a <strong>Next</strong> gombra.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>C:\Program Files\Metamation\Praxis</code> - A telepítési mappa a következő
-mappákat fogja tartalmazni: Bin, MetaCAM, Samples és Tracker.</p>
+<p><code>C:\Program Files\TRUMPF\TMM\Praxis</code> - A telepítési mappa a következő
+mappákat tartalmazza: Bin, MetaCAM, Samples és Tracker.</p>
 </li>
 <li>
-<p><code>C:\Program Data\Metamation</code> - Az adatmappa a következő mappákat fogja
-tartalmazni: TruSmartCAM, TecZone és MetaCAM.</p>
+<p><code>C:\ProgramData\TRUMPF\TMM\Praxis</code> - Az adatmappa a következő mappákat tartalmazza: TruSmartCAM, TecZone és MetaCAM.</p>
 </li>
 </ul>
 </div>
@@ -296,13 +274,13 @@ tartalmazni: TruSmartCAM, TecZone és MetaCAM.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s03installationpath.png" alt="Installation Path">
+<img src="img/s03installationpath.png" alt="Telepítési útvonal">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_2_lépés_komponensek_kiválasztása">2. lépés: Komponensek kiválasztása</h2>
+<h2 id="_2_lépés_összetevők_kiválasztása">2. lépés: Összetevők kiválasztása</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all fit-content">
 <colgroup>
@@ -312,13 +290,13 @@ tartalmazni: TruSmartCAM, TecZone és MetaCAM.</p>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Telepítés típusa</th>
-<th class="tableblock halign-left valign-top">Komponensek</th>
+<th class="tableblock halign-left valign-top">Összetevők</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Full</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Szerver + Asztali kliens + Motor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kiszolgáló + Asztali kliens + Engine</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Client</p></td>
@@ -326,37 +304,37 @@ tartalmazni: TruSmartCAM, TecZone és MetaCAM.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Szerver + Asztali kliens</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kiszolgáló + Asztali kliens</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Station</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kiválasztja az összes állomás terminált, mint TecZone, MetaCAM, RightAngle (hajlításvezérlő),
-Vulcan (lézer gépvezérlő)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Az összes állomásterminált kiválasztja, például: TecZone, MetaCAM, RightAngle (hajlításvezérlő),
+Vulcan (lézergép-vezérlő)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Custom</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Felhasználói választás szerint.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A felhasználó választása szerint választ.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="ulist">
 <ul>
 <li>
-<p>Válassza a Teljes telepítést. Válassza ki a <strong>Code Senders</strong> és <strong>Bend Code Senders</strong>
-lehetőségeket az TruSmartCAM eszközökből. Most a telepítés típusa <strong>Egyedi</strong>-ra
-változik. Kattintson az Következő gombra.</p>
+<p>Válassza a Full telepítést. Válassza ki a <strong>Code Senders</strong> és <strong>Bend Code Senders</strong> elemeket a
+TruSmartCAM Tools közül. A telepítés típusa most <strong>Custom</strong> értékre változik. Kattintson a
+<strong>Next</strong> gombra.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s04serverinstallation.png" alt="Server Installation">
+<img src="img/s04serverinstallation.png" alt="Kiszolgálótelepítés">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_3_lépés_sql_server_telepítésének_kiválasztása">3. lépés: SQL Server telepítésének kiválasztása</h2>
+<h2 id="_3_lépés_az_sql_server_telepítésének_kiválasztása">3. lépés: Az SQL Server telepítésének kiválasztása</h2>
 <div class="sectionbody">
 <div class="admonitionblock important">
 <table>
@@ -366,10 +344,11 @@ változik. Kattintson az Következő gombra.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Az SQL Express 2022 telepítés csak az TruSmartCAM szerverhez szükséges. Ez az
-opció nem érhető el a kliens és szinkronizálási telepítésekhez. Ez az első
-alkalommal be van jelölve és telepítve, és utána figyelmen kívül hagyható. Ha
-már telepítve van SQL az TruSmartCAM szerveren, a felhasználó kihagyhatja a 3. lépést.</p>
+<p>Az SQL Express 2022 telepítésére csak a TruSmartCAM kiszolgálóhoz van szükség. Ez a
+lehetőség a kliens- és szinkronizálási telepítéseknél nem érhető el. Ez az első
+alkalommal be van kapcsolva és telepítésre kerül, azt követően figyelmen kívül
+hagyható. Ha az SQL már telepítve van a TruSmartCAM kiszolgálón, a felhasználó
+kihagyhatja a 3. lépést.</p>
 </div>
 </td>
 </tr>
@@ -378,42 +357,41 @@ már telepítve van SQL az TruSmartCAM szerveren, a felhasználó kihagyhatja a 
 <div class="ulist">
 <ul>
 <li>
-<p>A További feladatok kiválasztásánál: Kattintson az <strong>Install SQL Express</strong>
-lehetőségre és kattintson az Következő gombra.</p>
+<p>A Select Additional Tasks lapon: kattintson az <strong>Install SQL Express</strong>
+lehetőségre, majd kattintson a Next gombra.</p>
 </li>
 <li>
-<p>A Telepítésre kész oldalon: Összefoglalás az összes telepítési funkcióról és
-kattintson az Install gombra.</p>
+<p>A Ready to Install lapon: összegzi az összes telepítési funkciót, majd kattintson
+az Install gombra.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s05sqlinstall.png" alt="Install SQL">
+<img src="img/s05sqlinstall.png" alt="SQL telepítése">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_4_lépés_sql_server_telepítése">4. lépés: SQL Server telepítése</h2>
+<h2 id="_4_lépés_az_sql_server_telepítése">4. lépés: Az SQL Server telepítése</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Miután az TruSmartCAM komponensek telepítve vannak, a telepítő folytatja az SQL
-szerver telepítését. Fogadja el a licencszerződést a folytatáshoz és telepítse
-az SQL expresst az alapértelmezett opciókkal.</p>
+<p>A TruSmartCAM összetevők telepítése után a telepítő folytatja az SQL Server
+telepítését. Fogadja el a licencszerződést a folytatáshoz, és telepítse az SQL
+Expresst az alapértelmezett beállításokkal.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s06sqlserver.png" alt="SQLServer Install">
+<img src="img/s06sqlserver.png" alt="SQL Server telepítése">
 </div>
 </div>
 <div class="paragraph">
-<p>Miután a telepítés befejeződött, kattintson a Close gombra és fejezze be a
-telepítést.</p>
+<p>A telepítés befejezése után kattintson a Close gombra, és fejezze be a telepítést.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s07sqlservercomplete.png" alt="SQL Server Complete">
+<img src="img/s07sqlservercomplete.png" alt="SQL Server kész">
 </div>
 </div>
 <div class="admonitionblock note">
@@ -436,13 +414,12 @@ A Windows verziójától függően az SQL telepítés bezárása újraindítást
 <div class="ulist">
 <ul>
 <li>
-<p>Az SQL telepítés után, ha a rendszer nem indul újra, akkor jelölje be a
-<strong>Launch TruSmartCAM</strong> jelölőnégyzetet és kattintson a <strong>Finish</strong> gombra.</p>
+<p>Az SQL telepítése után, ha a rendszer nem indul újra, jelölje be a <strong>Launch TruSmartCAM</strong>
+jelölőnégyzetet, majd kattintson a <strong>Finish</strong> gombra.</p>
 </li>
 <li>
-<p>Ha a rendszer újraindul, akkor indítsa el az TruSmartCAM parancsikon ikont az
-asztalon, vagy írja be az TruSmartCAM-t a Windows Start programba és <strong>Futtassa
-rendszergazdaként</strong>.</p>
+<p>Ha a rendszer újraindul, indítsa el a TruSmartCAM parancsikont az asztalon, vagy
+írja be a TruSmartCAM nevet a Windows Start menübe, és válassza a <strong>Run as administrator</strong> lehetőséget.</p>
 </li>
 </ul>
 </div>
@@ -453,35 +430,36 @@ rendszergazdaként</strong>.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-<em>Szervertelepítés</em>: TruSmartCAM és TruSmartCAM licenc parancsikon ikonok
-elérhetők az asztalon. + <em>Kliens/SYNC telepítés</em>: Csak TruSmartCAM parancsikon
-ikon érhető el az asztalon.
+<em>Kiszolgálótelepítés</em>: a TruSmartCAM és a TruSmartCAM License parancsikonok
+elérhetők az asztalon.<br>
+<em>Kliens/SYNC telepítés</em>: csak a TruSmartCAM parancsikon
+érhető el az asztalon.
 </td>
 </tr>
 </table>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s08launchpraxis.png" alt="Launch TruSmartCAM">
+<img src="img/s08launchpraxis.png" alt="A TruSmartCAM indítása">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_6_lépés_licenc_regisztráció">6. lépés: Licenc regisztráció</h2>
+<h2 id="_6_lépés_licencregisztráció">6. lépés: Licencregisztráció</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>A <em>Serial Number</em> mezőbe írja be a Trumpf Metamation szolgáltatási csapat
-által biztosított <em>TruSmartCAM sorszámkulcsot</em>. Írja be a <strong>&lt;Cégnév&gt;</strong>-et a
+<p>A <em>Serial Number</em> mezőbe írja be a Trumpf Metamation szervizcsapata által
+megadott <em>TruSmartCAM sorozatkulcsot</em>. Írja be a <strong>&lt;Company Name&gt;</strong> értéket a
 "Registered to" mezőbe és az e-mail címet. Kattintson az <strong>OK</strong> gombra.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s09praxisregister.png" alt="TruSmartCAM Register">
+<img src="img/s09praxisregister.png" alt="A TruSmartCAM regisztrálása">
 </div>
 </div>
 <div class="admonitionblock tip">
@@ -492,12 +470,11 @@ ikon érhető el az asztalon.
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Abban az esetben, ha a hálózati tűzfal blokkolja a licenc regisztrációt vagy
-nincs internet az TruSmartCAM szerver PC-n, akkor az TruSmartCAM licenc offline
-aktiválással történik. E-mailezze a <strong><em>Prax.request</em></strong> fájlt a
-<em>C:\ProgramData\Metamation\Praxis</em> mappából a Trumpf Metamation szolgáltatási
-csapatnak. A Trumpf Metamation csapat biztosítja a <strong><em>Prax.lock</em></strong> fájlt, amelyet
-ebbe a mappába kell elhelyezni.</p>
+<p>Ha a hálózati tűzfal blokkolja a licencregisztrációt, vagy nincs internet a
+TruSmartCAM kiszolgáló PC-n, akkor a TruSmartCAM licenc offline aktiválással történik. Küldje el
+e-mailben a <strong><em>Prax.request</em></strong> fájlt a <em>C:\ProgramData\TRUMPF\TMM\Praxis</em> mappából a Trumpf
+Metamation szervizcsapatának. A Trumpf Metamation csapata biztosítja a <strong><em>Prax.lock</em></strong>
+fájlt, amelyet ebbe a mappába kell helyezni.</p>
 </div>
 </td>
 </tr>
@@ -511,115 +488,115 @@ ebbe a mappába kell elhelyezni.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Írja be az adatbázis nevét és állítsa be az adattárolási helyet. Jelölje be
-az Használja az SQL szervert jelölőnégyzetet és válassza ki az SQL
-szerver nevét az adatbázishoz való csatlakozáshoz. Kattintson az <strong>OK</strong> gombra.</p>
+<p>Írja be az adatbázis nevét, és állítsa be az adattárolási helyet. Jelölje be a
+<strong>Use SQL Server</strong> jelölőnégyzetet, és válassza ki az SQL Server
+nevét az adatbázishoz való csatlakozáshoz. Kattintson az <strong>OK</strong> gombra.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s10usedatabase.png" alt="Use Database">
+<img src="img/s10usedatabase.png" alt="Adatbázis használata">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Az TruSmartCAM asztali kliens megnyílik, megjelenítve a <strong>Database Connection
-Succeeded</strong> üzenetet az alsó részen.</p>
+<p>A TruSmartCAM asztali kliens megnyílik, és az alsó részen a <strong>Database Connection Succeeded</strong>
+üzenetet jeleníti meg.</p>
 </li>
 <li>
-<p>Az TruSmartCAM, TecZone és MetaCAM konfigurációs fájlok létrejöttek
-alapértelmezett konfigurációs gépekkel vagy az TruSmartCAM licencgépek szerint.
-Ugyanez a konfiguráció kerül megosztásra az összes TruSmartCAM klienssel.</p>
+<p>A TruSmartCAM, TecZone és MetaCAM konfigurációs fájlok az alapértelmezett konfigurációs
+gépekkel vagy a TruSmartCAM licencgépekkel jöttek létre. Ugyanaz a konfiguráció lesz megosztva
+az összes TruSmartCAM kliens között.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s11databaseconnectionsuccess.png" alt="Database Connection Success">
+<img src="img/s11databaseconnectionsuccess.png" alt="Sikeres adatbázis-kapcsolat">
 </div>
 </div>
 <div class="paragraph">
-<p>Az üdvözlő képernyő a Windows felhasználó bejelentkezési nevével jelenik meg
-TruSmartCAM bejelentkezésként és névként. Az első TruSmartCAM felhasználót
-<strong>Rendszergazda telephelye</strong>-nak tekintik. Adja meg az e-mail címet és a
-jelszót. Kattintson az <strong>OK</strong> gombra.</p>
+<p>Az üdvözlőképernyő a Windows felhasználói bejelentkezési nevet jeleníti meg a TruSmartCAM
+bejelentkezési neveként és neveként. Az első TruSmartCAM felhasználó <strong>Site Admin</strong>
+jogosultságúnak számít. Adja meg az e-mail címet és a jelszót. Kattintson az <strong>OK</strong> gombra
+.</p>
 </div>
 <div class="paragraph">
-<p>Jelölje be az <strong>Emlékezzen rám</strong> jelölőnégyzetet a bejelentkezési
-adatok következő alkalomra való mentéséhez. Az <strong>Emlékezzen rám</strong>
-jelölőnégyzet törlése bejelentkezési és jelszó párbeszédpanelt fog megjeleníteni,
-amikor az TruSmartCAM alkalmazást elindítják.</p>
+<p>Jelölje be az <strong>Remember me</strong>
+jelölőnégyzetet a bejelentkezési adatok legközelebbi mentéséhez.
+Az <strong>Remember me</strong> jelölőnégyzet törlése esetén a TruSmartCAM alkalmazás
+minden indításakor megjelenik a bejelentkezési és jelszó párbeszédpanel.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s12welcomepraxis.png" alt="Welcome TruSmartCAM">
+<img src="img/s12welcomepraxis.png" alt="Üdvözli a TruSmartCAM">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_8_lépés_trusmartcam_bejelentkezés">8. lépés: TruSmartCAM bejelentkezés</h2>
+<h2 id="_8_lépés_bejelentkezés_a_trusmartcam_alkalmazásba">8. lépés: Bejelentkezés a TruSmartCAM alkalmazásba</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Zárja be az TruSmartCAM-t és nyissa meg újra. A rendszer felszólítja az
-TruSmartCAM bejelentkezési adatok megadására.</p>
+<p>Zárja be a TruSmartCAM alkalmazást, majd nyissa meg újra. A rendszer kéri a TruSmartCAM
+bejelentkezési adatainak megadását.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/signprompt.png" alt="Sign Prompt" width="450">
+<img src="img/signprompt.png" alt="Bejelentkezési kérés" width="450">
 </div>
 </div>
 </li>
 <li>
-<p>A bejelentkezett felhasználónév megjelenik a felhasználó ikon mellett az
-TruSmartCAM alkalmazás fejlécében.</p>
+<p>A bejelentkezett felhasználónév a TruSmartCAM alkalmazás fejlécében a felhasználó ikon
+mellett jelenik meg.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/userid.png" alt="User ID" width="228">
+<img src="img/userid.png" alt="Felhasználói azonosító" width="228">
 </div>
 </div>
 </li>
 <li>
-<p>Amikor a felhasználó ikon fölé viszi az egeret, a rendszer megjeleníti:</p>
+<p>Amikor a felhasználó ikon fölé viszi az egérmutatót, a rendszer a következőket jeleníti meg:</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/hover.png" alt="Hover" width="108">
+<img src="img/hover.png" alt="Rámutatás" width="108">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>A felhasználói szerepkör (például: Programozó, Admin).</p>
+<p>A felhasználó szerepköre (például: Programmer, Admin).</p>
 </li>
 <li>
-<p>Kijelentkezési parancsikon: <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>L</kbd></span>.</p>
+<p>Kijelentkezési gyorsbillentyű: <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>L</kbd></span>.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>A felhasználó ikonra kattintva megnyílik egy menü, amely lehetővé teszi:</p>
+<p>A felhasználó ikonra kattintva megnyílik egy menü, amely lehetővé teszi a következőket:</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/information.png" alt="Information" width="160">
+<img src="img/information.png" alt="Információ" width="160">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Információ szerkesztése&#8230;&#8203;</strong> - Profil részleteinek frissítése.</p>
+<p><strong>Edit information&#8230;&#8203;</strong> - A profiladatok frissítése.</p>
 </li>
 <li>
-<p><strong>Jelszó módosítása&#8230;&#8203;</strong> - Fiók jelszavának módosítása.</p>
+<p><strong>Change password&#8230;&#8203;</strong> - A fiók jelszavának módosítása.</p>
 </li>
 <li>
-<p><strong>Kijelentkezés</strong> - Kijelentkezés az alkalmazásból.</p>
+<p><strong>Sign out</strong> - Kijelentkezés az alkalmazásból.</p>
 </li>
 <li>
-<p><strong>Mégse</strong> - Menü bezárása módosítások nélkül.</p>
+<p><strong>Cancel</strong> - A menü bezárása módosítások nélkül.</p>
 </li>
 </ul>
 </div>
@@ -629,54 +606,49 @@ TruSmartCAM alkalmazás fejlécében.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_9_lépés_gyári_gépi_konfiguráció">9. lépés: Gyári gépi konfiguráció</h2>
+<h2 id="_9_lépés_gyári_gépkonfiguráció">9. lépés: Gyári gépkonfiguráció</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM licenc [Minden gép engedélyezi a licenc bitet]: Az alapértelmezett
-TruSmartCAM gép és anyag a gyári konfigurációnak tekintendő.</p>
+<p>TruSmartCAM licenc [Az összes gépet engedélyező licencbit]: az alapértelmezett TruSmartCAM gép
+és anyag számít gyári konfigurációnak.</p>
 </li>
 <li>
-<p>TruSmartCAM licenc [Nincs demó és néhány gép bit engedélyezve]: Ezek a néhány
-gép és az alapértelmezett anyag a gyári konfigurációnak tekintendő.</p>
+<p>TruSmartCAM licenc [Nincs demó, és csak néhány gépbit engedélyezve]: az a néhány gép és az
+alapértelmezett anyag számít gyári konfigurációnak.</p>
 </li>
 <li>
-<p>(Open &#8594; Import) egy új alkatrészt a <code>C:\Program
-Files\Metamation\Praxis\Samples\Parts</code> mappából és ellenőrizze, hogy az
-alkatrész sikeresen importálásra került-e.</p>
+<p>(Open &#8594; Import) importáljon egy új alkatrészt a
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Parts</code>
+mappából, és ellenőrizze, hogy az alkatrész sikeresen importálódott-e.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s14praxiswelcomescreen.png" alt="Praxis Welcome screen">
+<img src="img/s14praxiswelcomescreen.png" alt="Praxis üdvözlőképernyő">
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_1_megjegyzés_trusmartcam_monitor">1. megjegyzés: TruSmartCAM Monitor</h2>
-<div class="sectionbody">
+<div class="ulist">
+<div class="title">1. megjegyzés: TruSmartCAM Monitor</div>
+<ul>
+<li>
+<p>TruSmartCAM Monitor Engine-telepítéssel (Site admin jogosultságok):</p>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM Monitor motor telepítéssel (oldal admin jogok):</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Az TruSmartCAM Monitor motorral a hely admin TruSmartCAM jogokkal a következő
-opciókat fogja tartalmazni:</p>
+<p>A TruSmartCAM Monitor Engine-nel és Site Admin TruSmartCAM jogosultságokkal a következő
+lehetőségekkel rendelkezik:</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Az TruSmartCAM konfiguráció, TecZone, MetaCAM konfiguráció továbbítása
-minden TruSmartCAM klienshez. Emellett jogosultság van új TruSmartCAM felhasználói
-bejelentkezés létrehozására.</p>
+<p>A TruSmartCAM, TecZone, MetaCAM konfiguráció leküldése az összes TruSmartCAM
+kliensre. Jogosultsága van új TruSmartCAM felhasználói bejelentkezés létrehozására is.</p>
 </li>
 <li>
-<p>Az Ágensek megjelenítése megjeleníti az automatizálási feladat elvégzésére
-elérhető összes motort, amely az TruSmartCAM licenc szerint van.</p>
+<p>A Show Agents megjeleníti az automatizálási feladatokhoz rendelkezésre álló összes
+engine-t, amely a TruSmartCAM licenchez tartozik.</p>
 </li>
 </ol>
 </div>
@@ -688,31 +660,31 @@ elérhető összes motort, amely az TruSmartCAM licenc szerint van.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s15pmonitor.png" alt="Praxis Monitor Status">
+<img src="img/s15pmonitor.png" alt="Praxis Monitor állapota">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM Monitor motor telepítés nélkül (oldal admin jogok):</p>
+<p>TruSmartCAM Monitor Engine-telepítés nélkül (Site admin jogosultságok):</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s16pmonitorwithoutengine.png" alt="Praxis Monitor without Engine">
+<img src="img/s16pmonitorwithoutengine.png" alt="Praxis Monitor Engine nélkül">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM Monitor motor telepítés nélkül (nem oldal admin jogok):</p>
+<p>TruSmartCAM Monitor Engine-telepítés nélkül (nem Site Admin jogosultságok):</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s17pmonitorwithprogrammerlogin.png" alt="Praxis with Progrmmer login">
+<img src="img/s17pmonitorwithprogrammerlogin.png" alt="Praxis programozói bejelentkezéssel">
 </div>
 </div>
 <div class="admonitionblock important">
@@ -723,93 +695,42 @@ elérhető összes motort, amely az TruSmartCAM licenc szerint van.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Az TruSmartCAM alkalmazást futtató PC-nek telepítve kell lennie az motor
-TruSmartCAM komponensnek [szerver PC vagy bármely kliens telepítés]. A motor
-TruSmartCAM komponens telepített PC-nek 24x7 futnia kell az összes automatizálási
-feladat elvégzéséhez.</p>
+<p>A TruSmartCAM alkalmazást futtató PC-n telepítve kell lennie az Engine TruSmartCAM összetevőnek
+[a kiszolgáló PC-n vagy bármely kliens telepítésében]. Az Engine TruSmartCAM összetevővel telepített PC-nek
+a nap 24 órájában, a hét minden napján futnia kell az összes automatizálási feladat elvégzéséhez.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_2_megjegyzés_lock_tracker">2. megjegyzés: Lock Tracker</h2>
-<div class="sectionbody">
 <div class="ulist">
+<div class="title">2. megjegyzés: OpenGL</div>
 <ul>
 <li>
-<p>Kattintson az <strong>TruSmartCAM License</strong> parancsikonra, amely elérhető az TruSmartCAM
-szerver asztalán. Alternatívaként nyissa meg a <a href="http://localhost:7171/metamation/locktrack" class="bare">http://localhost:7171/metamation/locktrack</a>
-URL-t bármely webböngészőben.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Ez megnyitja a Lock Tracker modult, amely licenc információkat, TruSmartCAM
-aktuális munkamenet információkat és naplót tartalmaz.</p>
-</div>
-<div class="paragraph">
-<p>LockTracker HOME oldal: Ez megjeleníti az TruSmartCAM sorszámot, sorszám lejárati
-információt és elérhető sorszám bitek információit.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/s18locktrack01.png" alt="Lock Track License Home page">
-</div>
-</div>
-<div class="paragraph">
-<p>LockTracker SESSIONS oldal: Aktuális TruSmartCAM szerverhez csatlakoztatott
-információk, mint TruSmartCAM asztali kliens PC, PMonitor, PEngine állapot.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/s19locktrack02.png" alt="Lock Track Session information">
-</div>
-</div>
-<div class="paragraph">
-<p>LockTracker LOGs oldal: TruSmartCAM kliens indítás és kijelentkezés | Pmonitor
-indítás és PEngine csatlakozás/lecsatlakozás állapot stb., megtekinthető ezen a
-naplók oldalon.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/s20locktrack03.png" alt="Praxis Monitor Status">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_3_megjegyzés_opengl">3. megjegyzés: OpenGL</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Az TruSmartCAM alkalmazás megnyitásakor azonnal bezárul, és a pmonitor sem
-jelenik meg a tálcán.</p>
+<p>A TruSmartCAM alkalmazás megnyitáskor azonnal bezárul, és a pmonitor sem jelenik meg a tálcán.</p>
 </li>
 <li>
-<p>Ez OpenGL problémát jelez.</p>
+<p>Ez OpenGL-problémát jelez.</p>
 </li>
 <li>
-<p>Másik mód ennek megerősítésére: Nyissa meg a C:\Program
-Files\Metamation\Praxis\Bin\Flux.exe fájlt, amely hibaüzenetet jelenít meg az
-OpenGL problémáról.</p>
+<p>Ennek ellenőrzésének másik módja: nyissa meg a
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Parts</code>
+fájlt, amely hibaüzenetet jelenít meg az OpenGL-problémáról.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s21opengl.png" alt="OpenGL Issue">
+<img src="img/s21opengl.png" alt="OpenGL-probléma">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Frissítse a <em>C:\ProgramData\Metamation\Praxis\Prax.ini</em> fájlt, az options
-szakaszban a <strong>GLVersion=1</strong> opcióval, hogy az TruSmartCAM alkalmazás sikeresen
-megnyíljon.</p>
+<p>Frissítse a
+<em>C:\ProgramData\TRUMPF\TMM\Praxis\Prax.ini</em>
+fájl options szakaszát a
+<strong>GLVersion=1</strong> beállítással, hogy a TruSmartCAM alkalmazás sikeresen megnyíljon.</p>
 </li>
 </ul>
 </div>
@@ -832,37 +753,28 @@ GLVersion=1.0</code></pre>
    <a href="#_1_lépés_telepítési_hely">1. lépés: Telepítési hely</a>
   </li>
   <li level="1">
-   <a href="#_2_lépés_komponensek_kiválasztása">2. lépés: Komponensek kiválasztása</a>
+   <a href="#_2_lépés_összetevők_kiválasztása">2. lépés: Összetevők kiválasztása</a>
   </li>
   <li level="1">
-   <a href="#_3_lépés_sql_server_telepítésének_kiválasztása">3. lépés: SQL Server telepítésének kiválasztása</a>
+   <a href="#_3_lépés_az_sql_server_telepítésének_kiválasztása">3. lépés: Az SQL Server telepítésének kiválasztása</a>
   </li>
   <li level="1">
-   <a href="#_4_lépés_sql_server_telepítése">4. lépés: SQL Server telepítése</a>
+   <a href="#_4_lépés_az_sql_server_telepítése">4. lépés: Az SQL Server telepítése</a>
   </li>
   <li level="1">
    <a href="#_5_lépés_windows_asztali_parancsikonok">5. lépés: Windows asztali parancsikonok</a>
   </li>
   <li level="1">
-   <a href="#_6_lépés_licenc_regisztráció">6. lépés: Licenc regisztráció</a>
+   <a href="#_6_lépés_licencregisztráció">6. lépés: Licencregisztráció</a>
   </li>
   <li level="1">
    <a href="#_7_lépés_kezdeti_egyszeri_konfiguráció">7. lépés: Kezdeti egyszeri konfiguráció</a>
   </li>
   <li level="1">
-   <a href="#_8_lépés_trusmartcam_bejelentkezés">8. lépés: TruSmartCAM bejelentkezés</a>
+   <a href="#_8_lépés_bejelentkezés_a_trusmartcam_alkalmazásba">8. lépés: Bejelentkezés a TruSmartCAM alkalmazásba</a>
   </li>
   <li level="1">
-   <a href="#_9_lépés_gyári_gépi_konfiguráció">9. lépés: Gyári gépi konfiguráció</a>
-  </li>
-  <li level="1">
-   <a href="#_1_megjegyzés_trusmartcam_monitor">1. megjegyzés: TruSmartCAM Monitor</a>
-  </li>
-  <li level="1">
-   <a href="#_2_megjegyzés_lock_tracker">2. megjegyzés: Lock Tracker</a>
-  </li>
-  <li level="1">
-   <a href="#_3_megjegyzés_opengl">3. megjegyzés: OpenGL</a>
+   <a href="#_9_lépés_gyári_gépkonfiguráció">9. lépés: Gyári gépkonfiguráció</a>
   </li>
  </ul>
 </aside>
@@ -870,7 +782,7 @@ GLVersion=1.0</code></pre>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="prerequisites.html">Előfeltételek</a></span>
+ <span class="prev"><a href="importformats.html">Támogatott fájlformátumok</a></span>
  <span class="next"><a href="clientinstallation.html">Klienstelepítés</a></span>
 </nav>
 

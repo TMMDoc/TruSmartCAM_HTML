@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Gereedschap instellen</title>
+  <title>Tooling instellen</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarevereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Ondersteunde bestandsformaten</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Vereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallatie</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallatie</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Licentie wijzigen</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="index.html">Configuratie</a>
    <ul>
     <li><button class="tree blank"></button><a href="setupmachine.html">Machine toevoegen/verwijderen</a></li>
-    <li><button class="tree blank"></button><a class="active" href="setuptooling.html">Gereedschap instellen</a></li>
+    <li><button class="tree blank"></button><a class="active" href="setuptooling.html">Tooling instellen</a></li>
     <li><button class="tree blank"></button><a href="configureusers.html">Gebruikers configureren</a></li>
     <li><button class="tree blank"></button><a href="language.html">Taal</a></li>
     <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="mapbendpages.html">Materiaal toewijzen</a></li>
     <li><button class="tree blank"></button><a href="mapcampages.html">CAM-pagina's toewijzen</a></li>
-    <li><button class="tree blank"></button><a href="cadmapfields.html">Velden uit CAD toewijzen (zoeksleutels)</a></li>
+    <li><button class="tree blank"></button><a href="cadmapfields.html">Velden toewijzen vanuit CAD (opzoeksleutels)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">De gebruikersinterface</a></li>
@@ -70,7 +68,7 @@
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Onderdelen importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Orders importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Jobs importeren</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Assemblages importeren</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Samenstellingen importeren</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Bibliotheekweergave</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Onderdelen</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Samenstelling</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Gereedschapsstatus</a>
+     <a href="../library/toolingstatus/index.html">Toolingstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Gereedschapsvalidatie</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Toolingvalidatie</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buiggereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijgereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buigtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Gereedschapspaneel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Toolingpaneel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Filters opslaan</a></li>
@@ -113,7 +111,7 @@
    <button class="tree closed"></button>
    <a href="../orders/index.html">Orders</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Orders weergave</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordersweergave</a></li>
    </ul>
   </li>
   <li>
@@ -121,72 +119,54 @@
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Job aanmaken</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job weergave</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job paneel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobweergave</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobpaneel</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatisch plannen</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interactief nesten</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/repacking.html">Opnieuw verpakken</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/repacking.html">Herverpakken</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../jobs/layoutcommands/index.html">Nestbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout weergave</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout paneel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Lay-outweergave</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Lay-outpaneel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportverzender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Restmateriaal beheer</a>
+     <a href="../jobs/remnantmanagement/index.html">Restantbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisch restmateriaal beheer</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Handmatig restmateriaal beheer</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisch restantbeheer</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Handmatig restantbeheer</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesten</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Verouderd</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job filters</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobfilters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabriek</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Platen</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Gebruikers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Bewerken</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Klanten</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Instellingen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Omgeving</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importeren</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Buigen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Snijden</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Meldingen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bewaken</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD extensies</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installatie</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Onderdelen opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Assemblage opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Haalbaarheid controleren</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabrieksinstellingen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse verbeteringen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporten</a></li>
      </ul>
     </li>
    </ul>
@@ -208,27 +188,27 @@
  </div>
  <div>/</div>
  <div>
-  <a href="setuptooling.html">Gereedschap instellen</a>
+  <a href="setuptooling.html">Tooling instellen</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Gereedschap instellen</h1>
+                        <h1>Tooling instellen</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Alle berekeningen van benodigde geometrie-aanpassing evenals nesting en buig
-technologie van TruSmartCAM zijn gebaseerd op de state-of-the-art technologiemodules
-TecZone Fold en TecZone Laser. Om het hoogste niveau van precisie te bereiken moeten alle
-details van uw fysieke machines worden geconfigureerd.</p>
+<p>Alle berekeningen van de benodigde geometrie-aanpassing evenals de nest- en
+buigtechnologie van TruSmartCAM zijn gebaseerd op de geavanceerde
+technologiemodules TecZone Bend en TecZone Laser. Om het hoogste niveau van precisie te
+bereiken, moeten alle details van uw fysieke machines worden geconfigureerd.</p>
 </div>
 <div class="paragraph">
-<p>Vooral bij buigtechnologie moeten alle bestaande gereedschappen bekend zijn bij het
-offline systeem. Alle gereedschappen voor de machines worden geconfigureerd in de
-TruSmartCAM Factory dialoog, maar zijn analoog aan de dialoog van de technologiemodules
-TecZone Fold en TecZone Laser.</p>
+<p>Vooral in de buigtechnologie moet het offline systeem alle bestaande
+gereedschappen kennen. Alle tooling voor de machines wordt geconfigureerd in het
+dialoogvenster TruSmartCAM Factory, maar dit is analoog aan het dialoogvenster van
+de technologiemodules TecZone Bend en TecZone Laser.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -237,7 +217,7 @@ TecZone Fold en TecZone Laser.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-Raadpleeg de TecZone handleidingen om uw systeem te configureren.
+Raadpleeg de TecZone-handleidingen om uw systeem te configureren.
 </td>
 </tr>
 </table>
@@ -248,28 +228,30 @@ Raadpleeg de TecZone handleidingen om uw systeem te configureren.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_catalogus_opties">Catalogus opties</h2>
+<h2 id="_catalogusopties">Catalogusopties</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Door te klikken op de Catalog drop-down wordt eerst een lijst weergegeven van catalogi met gereedschappen
-die al actief zijn, samen met een lijst voor eventuele aangepaste gereedschappen en de
-mogelijkheid om een andere catalogus te installeren door te klikken op de Toevoegen knop.</p>
+<p>Als u op de vervolgkeuzelijst Catalog klikt, worden eerst alle catalogi met
+gereedschappen weergegeven die al actief zijn, samen met een overzicht van
+eventuele aangepaste gereedschappen en de mogelijkheid om een andere catalogus
+te installeren door op de knop <strong>&lt;Add&gt;&#8230;&#8203;</strong> te klikken.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="img/toolcatalouge.png" alt="toolcatalouge"></span></p>
 </div>
 <div class="paragraph">
-<p>Door te klikken op een catalogus in de beschikbare lijst wordt deze geïnstalleerd.</p>
+<p>Als u vervolgens op een catalogus in de beschikbare lijst klikt, wordt deze
+geïnstalleerd.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_verzameling">Verzameling</h2>
+<h2 id="_collectie">Collectie</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Bend Tool Inventory ondersteunt ook de optie om aangepaste verzameling(en) van
-gereedschappen te maken die specifiek kunnen zijn voor een bepaalde klant of kruiscatalogus waarbij meerdere
-catalogi in gebruik zijn</p>
+<p>De Bend Tool Inventory ondersteunt ook de optie om aangepaste collectie(s) van
+gereedschappen te maken, bijvoorbeeld voor een specifieke klant of
+catalogusoverschrijdend wanneer meerdere catalogi in gebruik zijn.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -278,7 +260,7 @@ catalogi in gebruik zijn</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Raadpleeg de TecZone Fold handleiding voor meer informatie
+Raadpleeg de TecZone Bend-handleiding voor meer informatie
 </td>
 </tr>
 </table>
@@ -293,10 +275,10 @@ Raadpleeg de TecZone Fold handleiding voor meer informatie
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_catalogus_opties">Catalogus opties</a>
+   <a href="#_catalogusopties">Catalogusopties</a>
   </li>
   <li level="1">
-   <a href="#_verzameling">Verzameling</a>
+   <a href="#_collectie">Collectie</a>
   </li>
  </ul>
 </aside>

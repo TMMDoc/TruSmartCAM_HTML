@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../../img/praxis-icon.png">
-  <title>工装验证</title>
+  <title>tooling 验证</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../../installation/hardwarerequirement.html">硬件要求</a></li>
     <li><button class="tree blank"></button><a href="../../../installation/importformats.html">支持的文件格式</a></li>
-    <li><button class="tree blank"></button><a href="../../../installation/prerequisites.html">先决条件</a></li>
-    <li><button class="tree blank"></button><a href="../../../installation/serverinstallation.html">Server installation</a></li>
+    <li><button class="tree blank"></button><a href="../../../installation/serverinstallation.html">服务器安装</a></li>
     <li><button class="tree blank"></button><a href="../../../installation/clientinstallation.html">客户端安装</a></li>
-    <li><button class="tree blank"></button><a href="../../../installation/changelic.html">更改许可证</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../../configuration/index.html">配置</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../../configuration/setupmachine.html">添加/删除设备</a></li>
-    <li><button class="tree blank"></button><a href="../../../configuration/setuptooling.html">设置工具</a></li>
+    <li><button class="tree blank"></button><a href="../../../configuration/setupmachine.html">添加/移除机床</a></li>
+    <li><button class="tree blank"></button><a href="../../../configuration/setuptooling.html">设置 tooling</a></li>
     <li><button class="tree blank"></button><a href="../../../configuration/configureusers.html">配置用户</a></li>
     <li><button class="tree blank"></button><a href="../../../configuration/language.html">语言</a></li>
     <li>
@@ -58,7 +56,7 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../../userinterface.html">用户界面</a></li>
-  <li><button class="tree blank"></button><a href="../../../workflow.html">工作流程</a></li>
+  <li><button class="tree blank"></button><a href="../../../workflow.html">工作流</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../../index.html">库</a>
@@ -69,7 +67,7 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../open/partimport.html">导入零件</a></li>
       <li><button class="tree blank"></button><a href="../../open/orderimport.html">导入订单</a></li>
-      <li><button class="tree blank"></button><a href="../../open/jobimport.html">导入作业</a></li>
+      <li><button class="tree blank"></button><a href="../../open/jobimport.html">导入 job</a></li>
       <li><button class="tree blank"></button><a href="../../open/assembliesimport.html">导入装配体</a></li>
      </ul>
     </li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="../index.html">工装状态</a>
+     <a href="../index.html">tooling 状态</a>
      <ul>
       <li>
        <button class="tree open"></button>
-       <a class="active" href="index.html">工装验证</a>
+       <a class="active" href="index.html">tooling 验证</a>
        <ul>
-        <li><button class="tree blank"></button><a href="bendtooling.html">折弯工装验证</a></li>
-        <li><button class="tree blank"></button><a href="cuttooling.html">切割工装验证</a></li>
-        <li><button class="tree blank"></button><a href="foldtooling.html">折边工装验证</a></li>
+        <li><button class="tree blank"></button><a href="bendtooling.html">折弯 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="cuttooling.html">切割 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="foldtooling.html">折叠 tooling 验证</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingpanel.html">工装面板</a></li>
+      <li><button class="tree blank"></button><a href="../toolingpanel.html">tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../savingfilters.html">保存筛选器</a></li>
@@ -118,20 +116,20 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../../jobs/index.html">作业</a>
+   <a href="../../../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../../jobs/jobcreation.html">创建作业</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobview.html">作业视图</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobpanel.html">作业面板</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobcreation.html">创建job</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobview.html">Job 视图</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="../../../jobs/jobautoplan.html">自动规划</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobinteractplan.html">交互式排样</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/repacking.html">重新打包</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobinteractplan.html">交互式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/repacking.html">重新排料</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../../jobs/layoutcommands/index.html">排样管理</a>
+     <a href="../../../jobs/layoutcommands/index.html">Nest 管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/nestview.html">布局视图</a></li>
-      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/layoutpanel.html">布局面板</a></li>
+      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/nestview.html">Layout 视图</a></li>
+      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/reportsender.html">报告发送器</a></li>
      </ul>
     </li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../../../jobs/remnantmanagement/manualremnant.html">手动余料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../../jobs/twinlinenesting.html">双线排样</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../../../jobs/outdate.html">过期</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobfilters.html">作业过滤器</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobfilters.html">Job 筛选器</a></li>
    </ul>
   </li>
   <li>
@@ -167,31 +165,13 @@
       <li><button class="tree blank"></button><a href="../../../factory/settings/cut.html">切割</a></li>
       <li><button class="tree blank"></button><a href="../../../factory/settings/notification.html">通知</a></li>
       <li><button class="tree blank"></button><a href="../../../factory/settings/watch.html">监视</a></li>
-      <li><button class="tree blank"></button><a href="../../../factory/settings/job.html">作业</a></li>
+      <li><button class="tree blank"></button><a href="../../../factory/settings/job.html">Job</a></li>
       <li><button class="tree blank"></button><a href="../../../factory/settings/reports.html">报告</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../../cadextensions/index.html">CAD 扩展</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../../cadextensions/solidworksaddin/index.html">SolidWorks 插件</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/installationsteps.html">安装</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/savetopraxis.html">保存零件</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/saveassembly.html">保存装配体</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/partfeasibility.html">检查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/factorysettings.html">工厂设置</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/miscenhancements.html">其他增强功能</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../../impressum.html">公司信息</a></li>
+  <li><button class="tree blank"></button><a href="../../../impressum.html">企业信息</a></li>
  </ul>
 </div>
 
@@ -208,73 +188,69 @@
  </div>
  <div>/</div>
  <div>
-  <a href="../index.html">工装状态</a>
+  <a href="../index.html">tooling 状态</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">工装验证</a>
+  <a href="index.html">tooling 验证</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>工装验证</h1>
+                        <h1>tooling 验证</h1>
 <div class="paragraph">
-<p>本节介绍如何在 TruSmartCAM 中访问和修改零件的工装信息。</p>
+<p>本节介绍如何访问和修改 TruSmartCAM 中零件的 tooling 信息。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>右键单击任何零件磁贴以打开零件面板并访问工装选项。</p>
+<p>右键单击任意零件磁贴即可打开零件面板并访问 tooling 选项。</p>
+</li>
+</ul>
+</div>
 <div class="imageblock">
 <div class="content">
-<img src="img/tooling.png" alt="Tooling" width="511">
+<img src="img/toolingvali.png" alt="ToolingVali" width="500">
 </div>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>单击 <strong>Toolings</strong> 可切换到第一个可用的 tooled 实例。</p>
 </li>
 <li>
-<p>点击 <strong>装备</strong> 切换到第一个可用的工装实例。</p>
+<p>或者，直接单击某个 tooled 实例，即可查看机床详细信息和 tooling 选项。</p>
 </li>
 <li>
-<p>或者，直接点击工装实例以查看机床详细信息和工装选项。</p>
+<p>使用 <span class="image"><img src="img/document.png" alt="View" width="18"></span> 可
+<strong>Open in read-only mode for viewing</strong>。</p>
 </li>
 <li>
-<p>使用 <span class="image"><img src="img/document.png" alt="View" width="18"></span> <strong>以只读模式打开查看</strong>。</p>
+<p>使用 <span class="image"><img src="img/edit.png" alt="Edit" width="18"></span> 可
+<strong>Check-out the document for editing</strong>。</p>
 </li>
 <li>
-<p>使用 <span class="image"><img src="img/edit.png" alt="Edit" width="18"></span> <strong>签出文件以供编辑</strong>。</p>
+<p>所选的 tooled 实例会在 TecZone 或 MetaCAM 中打开。</p>
 </li>
 <li>
-<p>所选工装实例在 TecZone 或 MetaCAM 中打开。</p>
+<p>执行手动 tooling 检查并进行必要的更改。</p>
 </li>
 <li>
-<p>执行手动工装检查并进行必要的更改。</p>
+<p>当您尝试保存时，会出现 <strong>Unsaved Changes</strong> 对话框，提示您确认所做的编辑。</p>
 </li>
 <li>
-<p>当您尝试保存时，<strong>Unsaved Changes</strong> 对话框会提示您确认编辑。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/unsave.png" alt="Unsave" width="368">
-</div>
-</div>
+<p>单击 <strong>Yes</strong> 继续保存。</p>
 </li>
 <li>
-<p>点击 <strong>Yes</strong> 继续保存。</p>
+<p>保存后，系统会再次执行 tooling 验证。</p>
 </li>
 <li>
-<p>系统在保存后再次执行工装验证。</p>
+<p>如果没有错误，则会出现将更改保存到 TruSmartCAM 的选项。</p>
 </li>
 <li>
-<p>如果没有错误，将出现保存更改到 TruSmartCAM 的选项。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/save.png" alt="Save" width="436">
-</div>
-</div>
-</li>
-<li>
-<p>如果发现工装错误，会显示错误消息：</p>
+<p>如果发现 tooling 错误，则会显示错误消息：</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/errorsave.png" alt="Error Save" width="436">
@@ -282,10 +258,10 @@
 </div>
 </li>
 <li>
-<p>保存后，零件的工装状态会在零件库中更新。</p>
+<p>保存后，零件的 tooling 状态会在零件库中更新。</p>
 </li>
 <li>
-<p>工装实例上的绿色表示它已签入。</p>
+<p>tooled 实例上的绿色表示其已签入。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/checkedout.png" alt="Checkout" width="256">
@@ -293,10 +269,11 @@
 </div>
 </li>
 <li>
-<p>工装实例作者更新为最后编辑它的人。</p>
+<p>Tooled 实例作者会更新为最后一个编辑它的人。</p>
 </li>
 <li>
-<p><strong>用户已编辑</strong> 字段指示工装实例是否已手动修改。当用户签出实例并进行任何更改时，此字段在保存时会自动设置为 Yes。</p>
+<p><strong>User-edited</strong> 字段指示 tooled 实例是否已被手动
+修改。当用户检出实例并进行任何更改时，保存时此字段会自动设置为“是”。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/useredit.png" alt="User edit" width="379">
@@ -304,18 +281,16 @@
 </div>
 </li>
 <li>
-<p>如果零件当前正在编辑，其磁贴上会显示一个用户图标。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/checkout.png" alt="check" width="265">
-</div>
-</div>
+<p>如果某个零件正在被编辑，其磁贴上会出现一个用户图标。</p>
 </li>
 <li>
-<p>将鼠标悬停在磁贴上会显示谁签出了它以及签出的时间。</p>
+<p>将鼠标悬停在磁贴上会显示检出它的人以及检出时间。</p>
 </li>
 <li>
-<p>在零件被签出时，<span class="image"><img src="img/edit.png" alt="Edit" width="18"></span> <strong>签出文件以供编辑</strong> 选项对同一工装实例被禁用，并且 <span class="image"><img src="img/canceledit.png" alt="Cancel" width="18"></span> <strong>取消签出</strong> 选项被启用。</p>
+<p>当零件处于检出状态时，同一 tooled 实例的 <span class="image"><img src="img/edit.png" alt="Edit" width="18"></span>
+<strong>Check-out the document for editing</strong> 选项会被禁用，
+而 <span class="image"><img src="img/canceledit.png" alt="Cancel" width="18"></span>
+<strong>Cancel Check-out</strong> 选项会变为启用。</p>
 </li>
 </ul>
 </div>
@@ -327,8 +302,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="../index.html">工装状态</a></span>
- <span class="next"><a href="bendtooling.html">折弯工装验证</a></span>
+ <span class="prev"><a href="../index.html">tooling 状态</a></span>
+ <span class="next"><a href="bendtooling.html">折弯 tooling 验证</a></span>
 </nav>
 
         </div>

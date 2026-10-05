@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Job panel</title>
+  <title>Jobpanel</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarekrav</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Understøttede filformater</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Forudsætninger</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Skift licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Tilføj/fjern maskine</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Opsæt værktøj</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Opsætning af klargøring</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurer brugere</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Sprog</a></li>
     <li>
@@ -48,13 +46,13 @@
      <a href="../configuration/addmaterial/index.html">Materiale</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Tilføj nyt materiale og plade</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksporter/Importer materiale</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksporter/importer materiale</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Erstat materiale</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Kortlæg materiale</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Kortlæg CAM-sider</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Kortlæg felter fra CAD (opslagnøgler)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Tilknyt materiale</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Tilknyt CAM-sider</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Tilknyt felter fra CAD (opslagsnøgler)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Brugergrænsefladen</a></li>
@@ -68,9 +66,9 @@
      <a href="../library/open/index.html">Åbn</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importer dele</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importer ordrer</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importer jobs</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importer samlinger</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importer opgaver</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importer job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importer monteringer</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Biblioteksvisning</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Dele</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Samling</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
      </ul>
     </li>
     <li>
@@ -87,33 +85,33 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Dele filtre</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfiltre</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Værktøjsstatus</a>
+     <a href="../library/toolingstatus/index.html">Klargøringsstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Værktøjsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Klargøringsvalidering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Bukkeværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skæreværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Foldeværktøjsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering af bukkeklargøring</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering af skæreklargøring</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering af falsklargøring</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Værktøjspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Klargøringspanel</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Gem filtre</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Gemning af filtre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Ordrer</a>
+   <a href="../orders/index.html">Opgaver</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordrevisning</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Opgavevisning</a></li>
    </ul>
   </li>
   <li>
@@ -121,77 +119,59 @@
    <a href="index.html">Jobs</a>
    <ul>
     <li><button class="tree blank"></button><a href="jobcreation.html">Opret job</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Job visning</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobpanel.html">Job panel</a></li>
-    <li><button class="tree blank"></button><a href="jobautoplan.html">Auto plan</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktiv nesting</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Jobvisning</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobpanel.html">Jobpanel</a></li>
+    <li><button class="tree blank"></button><a href="jobautoplan.html">Automatisk planlægning</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktiv indlejring</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Ompakning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Nest management</a>
+     <a href="layoutcommands/index.html">Indlejringshåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout visning</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout panel</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Report sender</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layoutvisning</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Rapportafsender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="remnantmanagement/index.html">Restmaterialestyring</a>
+     <a href="remnantmanagement/index.html">Resthåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Auto restmaterialestyring</a></li>
-      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuel restmaterialestyring</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatisk resthåndtering</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuel resthåndtering</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twin-line indlejring</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Forældet</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Job filtre</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Jobfiltre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Ruter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plader</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Brugere</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigér</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Indstillinger</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Omgivelser</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bukning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skær</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifikationer</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Overvågning</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-udvidelser</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Gem dele</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Gem samling</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontroller gennemførlighed</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksindstillinger</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse forbedringer</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Virksomhedsoplysninger</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Firmaoplysninger</a></li>
  </ul>
 </div>
 
@@ -208,21 +188,21 @@
  </div>
  <div>/</div>
  <div>
-  <a href="jobpanel.html">Job panel</a>
+  <a href="jobpanel.html">Jobpanel</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Job panel</h1>
+                        <h1>Jobpanel</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Dette afsnit forklarer jobrelaterede handlinger såsom
-<strong>Export outputs</strong>, <strong>Nulstil job&#8230;&#8203;</strong>,
-<strong>Markér fuldført&#8230;&#8203;</strong>, <strong>Eksportér job&#8230;&#8203;</strong>
-og andre valgmuligheder, der bruges til at administrere jobforekomster.</p>
+<p>Dette afsnit forklarer jobrelaterede handlinger som
+<strong>Export outputs</strong>, <strong>Reset job&#8230;&#8203;</strong>,
+<strong>Mark complete&#8230;&#8203;</strong>, <strong>Export job&#8230;&#8203;</strong>
+og andre muligheder, der bruges til at administrere jobinstanser.</p>
 </div>
 <table class="tableblock frame-none grid-none fit-content">
 <colgroup>
@@ -244,7 +224,7 @@ og andre valgmuligheder, der bruges til at administrere jobforekomster.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Åbn i skrivebeskyttet tilstand til visning</strong><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
 Åbner det valgte job i skrivebeskyttet tilstand.</p></td>
 </tr>
 <tr>
@@ -254,52 +234,46 @@ Aktiverer redigering af det valgte job.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Slet</strong><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
 Sletter det valgte job.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Se rapport</strong><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>View Report</strong><br>
 Åbner produktionsrapporten for det valgte job.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/exportui.png" alt="Export" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksportér udgange</strong><br>
-Eksporterer de maskineklare outputfiler (NC-filer og rapporter) genereret
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Export Outputs</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eksporterer de maskinklare outputfiler (NC-filer og rapporter), der genereres
 for det valgte job.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/planui.png" alt="Plan" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Plan job</strong><br>
-Genererer nestede layouts for delene i det valgte job.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Plan Job&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Genererer indlejrede layouts for delene i det valgte job.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/resetui.png" alt="Reset" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Nulstil job&#8230;&#8203;</strong><br>
-Fjerner alle genererede layouts for jobbet og nulstiller dets dele til den
-planbare tilstand.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Reset Job&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fjerner alle genererede layouts for jobbet og nulstiller dets dele til
+den planlægbare tilstand.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/markui.png" alt="Mark" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Markér fuldført&#8230;&#8203;</strong><br>
-Markerer jobbet og alle dets nests som fuldført efter produktion.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Mark Complete&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Markerer jobbet og alle dets indlejringer som færdige efter produktion.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/jobui.png" alt="Job" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksportér job&#8230;&#8203;</strong><br>
-Eksporterer det komplette job som en pakke, der kan genbruges eller
-importeres til et andet system.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Export Job&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eksporterer det komplette job som en pakke, der kan genbruges eller importeres til
+et andet system.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Forr</strong> / <strong>Næste</strong> / <strong>Layout</strong><br>
-Navigerer til det forrige eller næste layout inden for det valgte job.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Prev</strong> / <strong>Next</strong> / <strong>Layout</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navigerer til det forrige eller næste layout inden for det valgte job.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-Brug disse filtre til at se andre jobs, der deler samme materiale, kunde,
-leveringsdato eller prioritet.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sortér og filtrér</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Brug disse filtre til at se andre job, der deler
+<strong>Same Customer</strong>,
+<strong>Same Part</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -309,38 +283,28 @@ leveringsdato eller prioritet.</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_eksportér_udgange">Eksportér udgange</h2>
+<h2 id="_export_outputs">Export outputs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Vælg det påkrævede job.</p>
+<p>Vælg det ønskede job.</p>
 </li>
 <li>
-<p>Klik på <strong>Eksportér udgange</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput.png" alt="Export outputs dialog" width="585">
-</div>
-</div>
+<p>Klik på <strong>Export outputs</strong>.</p>
 </li>
 <li>
-<p>Dette eksporterer de maskineklare outputfiler genereret for det valgte
+<p>Dette eksporterer de maskinklare outputfiler, der genereres for det valgte
 job.</p>
 </li>
 <li>
-<p>Export Outputs kan gemmes enten på standardplaceringen konfigureret i
-<strong>Fabriksindstillinger</strong> eller på en brugerdefineret placering ved
-at bruge <strong>Brows&#8230;&#8203;</strong>.</p>
+<p>Export Outputs kan gemmes enten til standardplaceringen konfigureret i
+<strong>Factory Settings</strong> eller til en brugerdefineret placering ved hjælp af
+<strong>Browse&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Den eksporterer kun maskinoutputfiler (såsom NC og rapporter) for
+<p>Den eksporterer kun maskinoutputfiler (som NC og rapporter) for
 jobbet.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/output.png" alt="Exported output files" width="725">
-</div>
-</div>
 </li>
 <li>
 <p>Disse filer bruges direkte til produktion og kan sendes til
@@ -351,130 +315,100 @@ maskinen.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_nulstil_job">Nulstil job&#8230;&#8203;</h2>
+<h2 id="_reset_job">Reset job&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Nulstiller det valgte job ved at fjerne alle genererede layouts og gøre delene
 tilgængelige for planlægning igen.</p>
 </div>
 <div class="paragraph">
-<p>For at nulstille et job:</p>
+<p>Sådan nulstiller du et job:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Højreklik på jobbet og vælg <strong>Nulstil job&#8230;&#8203;</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/resetjob1.png" alt="Reset job" width="820">
-</div>
-</div>
+<p>Højreklik på jobbet og vælg <strong>Reset job&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Dette sletter alle eksisterende nestede layouts for det valgte job og
-nulstiller alle dets dele til den planbare tilstand.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/resetjob2.png" alt="Reset job" width="820">
-</div>
-</div>
+<p>Dette sletter alle eksisterende indlejrede layouts for det valgte job og nulstiller
+alle dets dele til den planlægbare tilstand.</p>
 </li>
 <li>
-<p>Hvis layoutsene indeholder dele fra andre jobs, nulstilles disse dele også.</p>
+<p>Hvis layoutene indeholder dele fra andre job, nulstilles disse dele også.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_eksportér_job">Eksportér job&#8230;&#8203;</h2>
+<h2 id="_export_job">Export job&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Vælg det påkrævede job.</p>
+<p>Vælg det ønskede job.</p>
 </li>
 <li>
-<p>Klik på <strong>Eksportér job&#8230;&#8203;</strong>.</p>
+<p>Klik på <strong>Export job&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Denne valgmulighed eksporterer det komplette job som en pakke, der kan
-genbruges eller importeres til et andet system.</p>
+<p>Denne mulighed eksporterer det komplette job som en pakke, der kan genbruges eller
+importeres til et andet system.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/outputview.png" alt="Output view" width="785">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>De eksporterede data inkluderer alle oplysninger, der kræves for at genskabe
-jobbet:</p>
+<p>De eksporterede data inkluderer al information, der kræves for at genskabe jobbet:</p>
 <div class="ulist">
 <ul>
 <li>
 <p>Deldetaljer og mængder (CSV-filer).</p>
 </li>
 <li>
-<p>Layout- og nestingdata (CSV / FXYLT-filer).</p>
+<p>Layout- og indlejringsdata (CSV / FXYLT-filer).</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>De eksporterede filer gemmes som en jobmappe på den konfigurerede
-eksportplacering.</p>
+<p>De eksporterede filer gemmes som en jobmappe på den konfigurerede eksport-
+placering.</p>
 </li>
 <li>
-<p>Denne valgmulighed bruges til at overføre, dele eller sikkerhedskopiere hele
-jobbet.</p>
+<p>Denne mulighed bruges til overførsel, deling eller sikkerhedskopiering af hele jobbet.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_markér_fuldført">Markér fuldført&#8230;&#8203;</h2>
+<h2 id="_mark_complete">Mark complete&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Når jobbet er behandlet på maskinen, åbnes Job panelet og vælges
-<strong>Markér fuldført&#8230;&#8203;</strong>.</p>
+<p>Når jobbet er behandlet på maskinen, åbn Jobpanelet og vælg
+<strong>Mark complete&#8230;&#8203;</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/mark.png" alt="Mark complete dialog" width="845">
-</div>
-</div>
+<li>
+<p>Når et job markeres som færdigt:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Når et job markeres som fuldført:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Alle nests under jobbet markeres som fuldført.</p>
+<p>Alle indlejringer under jobbet markeres som færdige.</p>
 </li>
 <li>
-<p>Jobbet gøres gråt, flyttes til slutningen af listen og vises med en
-grøn fluebensmarkering.</p>
+<p>Jobbet gråtones, flyttes til slutningen af listen og vises med et
+grønt fluebensmærke.</p>
 </li>
 <li>
 <p>Alle layouts under jobbet fjernes fra listen over aktive layouts.</p>
 </li>
 <li>
-<p>Del- og jobstatusser opdateres, og behandlede mængder flyttes til den
-fuldførte tilstand.</p>
+<p>Del- og jobstatusser opdateres, og behandlede mængder flyttes til
+den færdige tilstand.</p>
 </li>
 <li>
 <p>Outputfiler for alle layouts i jobbet fjernes fra maskinens
-outputplacering for at undgå duplikeret brug.</p>
+outputplacering for at undgå dobbelt brug.</p>
 </li>
 </ul>
 </div>
@@ -491,16 +425,16 @@ outputplacering for at undgå duplikeret brug.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_eksportér_udgange">Eksportér udgange</a>
+   <a href="#_export_outputs">Export outputs</a>
   </li>
   <li level="1">
-   <a href="#_nulstil_job">Nulstil job&#8230;&#8203;</a>
+   <a href="#_reset_job">Reset job&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_eksportér_job">Eksportér job&#8230;&#8203;</a>
+   <a href="#_export_job">Export job&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_markér_fuldført">Markér fuldført&#8230;&#8203;</a>
+   <a href="#_mark_complete">Mark complete&#8230;&#8203;</a>
   </li>
  </ul>
 </aside>
@@ -508,8 +442,8 @@ outputplacering for at undgå duplikeret brug.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobview.html">Job visning</a></span>
- <span class="next"><a href="jobautoplan.html">Auto plan</a></span>
+ <span class="prev"><a href="jobview.html">Jobvisning</a></span>
+ <span class="next"><a href="jobautoplan.html">Automatisk planlægning</a></span>
 </nav>
 
         </div>

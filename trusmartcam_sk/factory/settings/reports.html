@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Reports</title>
+  <title>Nastavenia reportov</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,47 +29,45 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardvérové požiadavky</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Podporované formáty súborov</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Predpoklady</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Inštalácia servera</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Inštalácia klienta</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Zmena licencie</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">Konfigurácia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Pridať/Odstrániť stroj</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Nastavenie náradia</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Pridanie/odstránenie stroja</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Nastavenie tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfigurácia používateľov</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Jazyk</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../configuration/addmaterial/index.html">Materiál</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Pridať nový materiál a hárok</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import materiálu</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Nahradiť materiál</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Pridanie nového materiálu a tabule</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/import materiálu</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Nahradenie materiálu</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mapovanie materiálu</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapovanie CAM stránok</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie klúče)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapovanie strán CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie kľúče)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../userinterface.html">Používateľské rozhranie</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Pracovný postup</a></li>
+  <li><button class="tree blank"></button><a href="../../userinterface.html">PoužívateĻské rozhranie</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../library/index.html">Knižnica</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Otvoriť</a>
+     <a href="../../library/open/index.html">Otvorenie</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Import dielov</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Import objednávok</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import úloh</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import úloh job</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Import zostáv</a></li>
      </ul>
     </li>
@@ -78,7 +76,7 @@
      <a href="../../library/libraryview/index.html">Zobrazenie knižnice</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Diely</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Zostavy</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Zostava</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Stav obrábania</a>
+     <a href="../../library/toolingstatus/index.html">Stav tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validácia obrábania</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validácia tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validácia ohýbacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validácia rezacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validácia skladacieho obrábania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validácia tooling ohýbania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validácia tooling rezania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validácia tooling skladania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panel obrábania</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Ukladanie filtrov</a></li>
@@ -118,80 +116,62 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Práce</a>
+   <a href="../../jobs/index.html">Úlohy job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Vytvorenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Zobrazenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Panel práce</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Vytvorenie úlohy job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Zobrazenie úloh job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Panel úlohy job</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automatické plánovanie</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktívne ukladanie</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktívny nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Prebaľovanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Správa hniezd</a>
+     <a href="../../jobs/layoutcommands/index.html">Správa nestov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Zobrazenie rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Panel rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Odosielateľ správ</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Zobrazenie rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Panel rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Odosielanie reportov</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/remnantmanagement/index.html">Správa zvyškov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatická správa zvyškov</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuálna správa zvyškov</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatické zvyšky</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuálne zvyšky</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Dvojlinové ukladanie</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Zastaralé</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtre prác</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Neaktuálne</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtre úloh job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Factory</a>
+   <a href="../index.html">Továreň</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../routes.html">Trasy</a></li>
+    <li><button class="tree blank"></button><a href="../sheets.html">Tabule</a></li>
+    <li><button class="tree blank"></button><a href="../users.html">Používatelia</a></li>
+    <li><button class="tree blank"></button><a href="../edit.html">Úprava</a></li>
+    <li><button class="tree blank"></button><a href="../customers.html">Zákazníci</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Settings</a>
+     <a href="index.html">Nastavenia</a>
      <ul>
-      <li><button class="tree blank"></button><a href="environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="job.html">Job</a></li>
-      <li><button class="tree blank"></button><a class="active" href="reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="environment.html">Nastavenia prostredia</a></li>
+      <li><button class="tree blank"></button><a href="import.html">Nastavenia importu</a></li>
+      <li><button class="tree blank"></button><a href="bend.html">Nastavenia ohýbania</a></li>
+      <li><button class="tree blank"></button><a href="cut.html">Nastavenia rezania</a></li>
+      <li><button class="tree blank"></button><a href="notification.html">Oznámenia</a></li>
+      <li><button class="tree blank"></button><a href="watch.html">Nastavenia sledovania</a></li>
+      <li><button class="tree blank"></button><a href="job.html">Nastavenia úloh job</a></li>
+      <li><button class="tree blank"></button><a class="active" href="reports.html">Nastavenia reportov</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD rozšírenia</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Inštalácia</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Uložiť diely</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Uložiť zostavu</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Skontrolovať uskutočniteľnosť</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Nastavenia továrne</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Rôzne vylepšenia</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">Informácie o spoločnosti</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">Firemné informácie</a></li>
  </ul>
 </div>
 
@@ -204,22 +184,22 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Factory</a>
+  <a href="../index.html">Továreň</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Settings</a>
+  <a href="index.html">Nastavenia</a>
  </div>
  <div>/</div>
  <div>
-  <a href="reports.html">Reports</a>
+  <a href="reports.html">Nastavenia reportov</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Reports</h1>
+                        <h1>Nastavenia reportov</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="imageblock">
@@ -230,62 +210,61 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_nastavenia_správy">Nastavenia správy</h2>
+<h2 id="_report_settings">Report settings</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Cieľ ukladania správy</strong> - Použite túto možnosť na určenie
-umiestnenia na uloženie správ.</p>
+<p><strong>Report destination</strong> - Túto možnosť použite na
+zadanie umiestnenia na uloženie reportov.</p>
 </div>
 <div class="paragraph">
-<p><strong>Formát výstupu správy</strong> - Určuje formát správy
-počas exportu (PDF alebo HTML).</p>
+<p><strong>Report Output Format</strong> - Určuje formát reportu pri exporte
+(PDF alebo HTML).</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_nastavenia_správy_ozákazke">Nastavenia správy o zákazke</h2>
+<h2 id="_job_report_settings">Job report settings</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Zahrnúť obrázky rozmiestnenia do správy</strong> - Povoľte toto
-nastavenie na zahrnutie obrázkov rozložení v správe.</p>
+<p><strong>Include layout images in the report</strong> - Toto nastavenie
+zapnite, ak chcete zahrnúť obrázky rozložení do reportu.</p>
 </div>
 <div class="paragraph">
-<p><strong>Zahrnúť obrázky dielca do správy</strong> - Povoľte toto nastavenie
-na zahrnutie obrázkov častí v správe.</p>
+<p><strong>Include part images in the report</strong> - Toto nastavenie
+zapnite, ak chcete zahrnúť obrázky dielov do reportu.</p>
 </div>
 <div class="paragraph">
-<p><strong>Zahrnúť správy o rozmiestnení do správy o zákazke</strong> - Povoľte toto
-nastavenie na prepojenie na správy rozložení v rámci správy úlohy.</p>
+<p><strong>Include layout reports in the job report</strong> - Toto
+nastavenie zapnite, ak chcete prepojiť reporty rozložení v rámci reportu jobu.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_nastavenia_správy_oštítkoch">Nastavenia správy o štítkoch</h2>
+<h2 id="_label_report_settings">Label report settings</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Povoliť správy o štítkoch</strong> - Povoľte toto nastavenie, aby sa umožnilo
-generovanie štítkov buď z úlohy alebo rozloženia, kde kliknutie pravým tlačidlom
-a výber Export Layouts alebo Send to Machine v uvedenom poradí zobrazí
-možnosť zobraziť správu štítka.</p>
+<p><strong>Enable label reports</strong> - Toto nastavenie zapnite, ak
+chcete povoliť generovanie štítkov buď z jobu, alebo z rozloženia, kde kliknutím
+pravým tlačidlom a výberom Export Layouts, resp. Send to Machine sa zobrazí
+možnosť zobraziť report štítkov.</p>
 </div>
 <div class="paragraph">
-<p><strong>Veľkosť štítka (š x v)</strong> - Určuje šírku a výšku
-štítka v milimetroch. Tieto hodnoty definujú fyzické rozmery
-generovaného štítka.</p>
+<p><strong>Label size (W x H)</strong> - Určuje šírku a výšku štítka
+v milimetroch. Tieto hodnoty definujú fyzické rozmery generovaného štítka.</p>
 </div>
 <div class="paragraph">
-<p><strong>QR kód</strong> - Definuje dátové pole, ktoré sa má zakódovať do
-QR kódu na štítku. Rozbaľovací zoznam zahŕňa Part Name, Part Order a
-None. Hodnota vybraného poľa sa zobrazí ako QR kód.</p>
+<p><strong>QR code field</strong> - Definuje dátové pole, ktoré sa má
+zakódovať do QR kódu na štítku. Rozbaľovací zoznam obsahuje Part Name, Part Order
+a None. Hodnota vybratého poľa sa zobrazí ako QR kód.</p>
 </div>
 <div class="paragraph">
-<p><strong>Čiarový kód</strong> - Definuje dátové pole, ktoré sa má zakódovať
-do čiarového kódu na štítku. Rozbaľovací zoznam zahŕňa Part Name, Part
-Order a None. Hodnota vybraného poľa sa zobrazí ako čiarový kód.</p>
+<p><strong>Barcode field</strong> - Definuje dátové pole, ktoré sa má
+zakódovať do čiarového kódu na štítku. Rozbaľovací zoznam obsahuje Part Name,
+Part Order a None. Hodnota vybratého poľa sa zobrazí ako čiarový kód.</p>
 </div>
 <div class="paragraph">
-<p><strong>Zahrnúť obrázky dielca do správy</strong> - Keď je povolené, zahŕňa obrázok časti
-v generovanom štítkovej správe.</p>
+<p><strong>Show part image</strong> - Keď je zapnuté, zahrnie obrázok dielu
+do generovaného reportu štítkov.</p>
 </div>
 </div>
 </div>
@@ -297,13 +276,13 @@ v generovanom štítkovej správe.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_nastavenia_správy">Nastavenia správy</a>
+   <a href="#_report_settings">Report settings</a>
   </li>
   <li level="1">
-   <a href="#_nastavenia_správy_ozákazke">Nastavenia správy o zákazke</a>
+   <a href="#_job_report_settings">Job report settings</a>
   </li>
   <li level="1">
-   <a href="#_nastavenia_správy_oštítkoch">Nastavenia správy o štítkoch</a>
+   <a href="#_label_report_settings">Label report settings</a>
   </li>
  </ul>
 </aside>
@@ -311,8 +290,8 @@ v generovanom štítkovej správe.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="job.html">Job</a></span>
- <span class="next"><a href="../../cadextensions/index.html">CAD rozšírenia</a></span>
+ <span class="prev"><a href="job.html">Nastavenia úloh job</a></span>
+ <span class="next"><a href="../../impressum.html">Firemné informácie</a></span>
 </nav>
 
         </div>

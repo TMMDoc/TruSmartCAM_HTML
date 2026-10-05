@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>重新打包</title>
+  <title>重新排料</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">硬件要求</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">支持的文件格式</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">先决条件</a></li>
-    <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Server installation</a></li>
+    <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">服务器安装</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">客户端安装</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">更改许可证</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">配置</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">添加/删除设备</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">设置工具</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">添加/移除机床</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">设置 tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">配置用户</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">语言</a></li>
     <li>
@@ -58,7 +56,7 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">用户界面</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">工作流程</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">工作流</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">库</a>
@@ -69,7 +67,7 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">导入零件</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">导入订单</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">导入作业</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">导入 job</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">导入装配体</a></li>
      </ul>
     </li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">工装状态</a>
+     <a href="../library/toolingstatus/index.html">tooling 状态</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">工装验证</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">tooling 验证</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">折弯工装验证</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">切割工装验证</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">折边工装验证</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">折弯 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">切割 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">折叠 tooling 验证</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">工装面板</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">保存筛选器</a></li>
@@ -118,20 +116,20 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">作业</a>
+   <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">创建作业</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">作业视图</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">作业面板</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">创建job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Job 视图</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">自动规划</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">交互式排样</a></li>
-    <li><button class="tree blank"></button><a class="active" href="repacking.html">重新打包</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">交互式 nesting</a></li>
+    <li><button class="tree blank"></button><a class="active" href="repacking.html">重新排料</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">排样管理</a>
+     <a href="layoutcommands/index.html">Nest 管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">布局视图</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">布局面板</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout 视图</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">报告发送器</a></li>
      </ul>
     </li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">手动余料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">双线排样</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">过期</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">作业过滤器</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Job 筛选器</a></li>
    </ul>
   </li>
   <li>
@@ -167,31 +165,13 @@
       <li><button class="tree blank"></button><a href="../factory/settings/cut.html">切割</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/notification.html">通知</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/watch.html">监视</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">作业</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/reports.html">报告</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD 扩展</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks 插件</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">安装</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">保存零件</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">保存装配体</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">检查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">工厂设置</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">其他增强功能</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">公司信息</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">企业信息</a></li>
  </ul>
 </div>
 
@@ -204,48 +184,51 @@
   </button>
  </div>
  <div>
-  <a href="index.html">作业</a>
+  <a href="index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="repacking.html">重新打包</a>
+  <a href="repacking.html">重新排料</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>重新打包</h1>
+                        <h1>重新排料</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM 没有单独的重新打包模块。相反，重新打包通过作业级别选项进行处理，这为如何组合零件提供了灵活性。</p>
+<p>TruSmartCAM 没有单独的重新排料模块。相反，重新排料是通过 job 级别的选项来处理的，这些选项为零件的组合方式提供了灵活性。</p>
 </div>
 <div class="paragraph">
-<p>有三种方式可以进行重新打包。</p>
+<p>重新排料可以通过三种方式完成。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>使用 <strong>混合多个套料的零件</strong> 进行重新打包。</p>
+<p>使用 <strong>Mix parts from multiple Jobs</strong> 进行重新排料。</p>
 </li>
 <li>
-<p>使用 <strong>添加零件…</strong> 交互式向导进行手动重新打包。</p>
+<p>使用 <strong>Add Parts</strong> 交互式向导进行手动重新排料。</p>
 </li>
 <li>
-<p>使用 TecZone 进行手动重新打包。</p>
+<p>使用 TecZone 进行手动重新排料。</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_使用_混合多个套料的零件_进行重新打包">使用 混合多个套料的零件 进行重新打包</h2>
+<h2 id="_使用_mix_parts_from_multiple_jobs_进行重新排料">使用 mix parts from multiple Jobs 进行重新排料</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>要启用此选项，请转到 <strong>出厂</strong> &#8594; <strong>设置</strong> &#8594; <strong>套料</strong> &#8594; <strong>排样设置</strong> &#8594; <strong>混合多个套料的零件</strong>。</p>
+<p>要启用此选项，请转到 <strong>factory</strong> &#8594;
+<strong>settings</strong> &#8594; <strong>Job</strong> &#8594;
+<strong>Nest settings</strong> &#8594;
+<strong>Mix parts from multiple Jobs</strong>。</p>
 </li>
 </ul>
 </div>
@@ -257,17 +240,17 @@
 <div class="ulist">
 <ul>
 <li>
-<p>启用后，此选项允许在自动排样或交互式排样期间将来自不同作业的零件分组在一起，从而产生组合打包或排样。</p>
+<p>启用后，此选项允许在自动 nesting 或交互式 nesting 期间将来自不同 job 的零件组合在一起，从而实现组合排料或 nesting。</p>
 </li>
 <li>
 <p>例如：</p>
 <div class="ulist">
 <ul>
 <li>
-<p>作业-1 有 1 个零件，作业-2 有 1 个零件。</p>
+<p>Job-1 有 1 个零件，Job-2 有 1 个零件。</p>
 </li>
 <li>
-<p>启用 <strong>混合多个套料的零件</strong> 后，TruSmartCAM 可以将这 2 个零件重新打包到单个优化的排样中。</p>
+<p>启用 <strong>Mix parts from multiple Jobs</strong> 后，TruSmartCAM 可以将这 2 个零件重新排料为单个优化的 nest。</p>
 </li>
 </ul>
 </div>
@@ -280,25 +263,25 @@
 <div class="ulist">
 <ul>
 <li>
-<p>如果没有此选项，每个作业的零件在排样/打包期间保持分离，具有不同的布局名称。</p>
+<p>如果不使用此选项，来自每个 job 的零件在 nesting/排料期间会保持分离，并使用不同的 layout 名称。</p>
 </li>
 <li>
-<p>也可以在不启用此选项的情况下手动执行重新打包。</p>
+<p>也可以在不启用此选项的情况下手动执行重新排料。</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_使用添加零件交互式向导进行手动重新打包">使用添加零件交互式向导进行手动重新打包</h2>
+<h2 id="_使用添加零件交互式向导进行手动重新排料">使用添加零件交互式向导进行手动重新排料</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>从布局视图中，选择要重新打包的零件。</p>
+<p>在 layout 视图中，选择要重新排料的零件。</p>
 </li>
 <li>
-<p>右键单击零件，然后从布局面板中选择 <strong>添加零件…</strong>。</p>
+<p>右键单击零件，然后从 layout 面板中选择 <strong>Add Parts&#8230;&#8203;</strong>。</p>
 </li>
 </ul>
 </div>
@@ -310,10 +293,10 @@
 <div class="ulist">
 <ul>
 <li>
-<p>按照向导中的提示完成重新打包过程。</p>
+<p>按照向导中的提示完成重新排料过程。</p>
 </li>
 <li>
-<p>选择 <strong>显示其他套料零件</strong> 并将它们添加到当前作业。</p>
+<p>选择 <strong>Show other job parts</strong> 并将它们添加到当前 job。</p>
 </li>
 </ul>
 </div>
@@ -325,7 +308,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>查看更改并确认重新打包。</p>
+<p>检查更改并确认重新排料。</p>
 </li>
 </ul>
 </div>
@@ -340,12 +323,12 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_使用_teczone_进行手动重新打包">使用 TecZone 进行手动重新打包</h2>
+<h2 id="_使用_teczone_进行手动重新排料">使用 TecZone 进行手动重新排料</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>通过单击 <span class="image"><img src="img/editicon.png" alt="Edit" width="18"></span> 打开 TecZone。</p>
+<p>通过单击  <span class="image"><img src="img/editicon.png" alt="Edit" width="18"></span> 打开 TecZone。</p>
 </li>
 </ul>
 </div>
@@ -357,7 +340,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>在 TecZone 界面中，单击添加。</p>
+<p>在 TecZone 界面中，单击 Add。</p>
 </li>
 </ul>
 </div>
@@ -369,7 +352,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>将显示一个新窗口，您可以在其中选择要重新打包的零件。单击 <strong>显示…</strong> 然后选择 <strong>其他套料零件</strong>。做出选择后，单击 <strong>选中</strong>。</p>
+<p>出现一个新窗口，您可以在其中选择要重新排料的零件。单击 <strong>Show&#8230;&#8203;</strong>，然后选择 <strong>Other job parts</strong>。做出选择后，单击 <strong>Pick</strong>。</p>
 </li>
 </ul>
 </div>
@@ -381,24 +364,12 @@
 <div class="ulist">
 <ul>
 <li>
-<p>将显示一个新窗口，您可以在其中定义零件需要重新打包的位置。</p>
+<p>出现一个新窗口，您可以在其中定义零件需要重新排料的位置。</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/selection.png" alt="Selection" width="408">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>单击 <strong>将更改保存到 Praxis</strong>，重新打包的布局将在 TruSmartCAM 中可用。</p>
+<p>单击 <strong>Save changes to TruSmartCAM</strong>，重新排料后的 layout 将在 TruSmartCAM 中可用。</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/fluxrepack1.png" alt="Flux Repack1" width="410"></span> <span class="image"><img src="img/fluxrepack2.png" alt="Flux Repack2" width="418"></span></p>
 </div>
 </div>
 </div>
@@ -410,13 +381,13 @@
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_使用_混合多个套料的零件_进行重新打包">使用 混合多个套料的零件 进行重新打包</a>
+   <a href="#_使用_mix_parts_from_multiple_jobs_进行重新排料">使用 mix parts from multiple Jobs 进行重新排料</a>
   </li>
   <li level="1">
-   <a href="#_使用添加零件交互式向导进行手动重新打包">使用添加零件交互式向导进行手动重新打包</a>
+   <a href="#_使用添加零件交互式向导进行手动重新排料">使用添加零件交互式向导进行手动重新排料</a>
   </li>
   <li level="1">
-   <a href="#_使用_teczone_进行手动重新打包">使用 TecZone 进行手动重新打包</a>
+   <a href="#_使用_teczone_进行手动重新排料">使用 TecZone 进行手动重新排料</a>
   </li>
  </ul>
 </aside>
@@ -424,8 +395,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobinteractplan.html">交互式排样</a></span>
- <span class="next"><a href="layoutcommands/index.html">排样管理</a></span>
+ <span class="prev"><a href="jobinteractplan.html">交互式 nesting</a></span>
+ <span class="next"><a href="layoutcommands/index.html">Nest 管理</a></span>
 </nav>
 
         </div>

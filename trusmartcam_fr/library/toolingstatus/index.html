@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Statut de l'outillage</title>
+  <title>État de l'outillage</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -27,12 +27,10 @@
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Installation</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Configuration matérielle requise</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Exigences matérielles</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Formats de fichiers pris en charge</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Prérequis</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Installation du serveur</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Installation du client</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Changer de licence</a></li>
    </ul>
   </li>
   <li>
@@ -40,21 +38,21 @@
    <a href="../../configuration/index.html">Configuration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Ajouter/Supprimer une machine</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Configuration de l'outillage</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Configurer l'outillage</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configurer les utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Langue</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Matériau</a>
+     <a href="../../configuration/addmaterial/index.html">Matière</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Ajouter un nouveau matériau et une feuille</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Exporter/Importer le matériau</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Remplacer le matériau</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Ajouter une nouvelle matière et une tôle</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Exporter/Importer une matière</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Remplacer une matière</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Associer le matériau</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Associer les pages CAM</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Associer les champs depuis CAD (clés de recherche)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Cartographier la matière</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Cartographier les pages CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Cartographier les champs depuis CAD (clés de recherche)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">L'interface utilisateur</a></li>
@@ -68,71 +66,71 @@
      <a href="../open/index.html">Ouvrir</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../open/partimport.html">Importer des pièces</a></li>
-      <li><button class="tree blank"></button><a href="../open/orderimport.html">Importer des commandes</a></li>
+      <li><button class="tree blank"></button><a href="../open/orderimport.html">Importer des ordres</a></li>
       <li><button class="tree blank"></button><a href="../open/jobimport.html">Importer des tâches</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importer des assemblages</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importer des modules</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../libraryview/index.html">Vue de bibliothèque</a>
+     <a href="../libraryview/index.html">Vue de la bibliothèque</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../libraryview/partview.html">Pièces</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Module</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Statut de la pièce</a>
+     <a href="../partstate/index.html">État de la pièce</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Validation de pi\u00e8ce</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Panneau de pièces</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Filtres de pièces</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Validation des pièces</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Panneau de la pièce</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Filtres de pièce</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a class="active" href="index.html">Statut de l'outillage</a>
+     <a class="active" href="index.html">État de l'outillage</a>
      <ul>
       <li>
        <button class="tree closed"></button>
-       <a href="toolingvalidation/index.html">Validation d'outillage</a>
+       <a href="toolingvalidation/index.html">Validation de l'outillage</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="toolingvalidation/bendtooling.html">Validation d'outillage de pliage</a></li>
-        <li><button class="tree blank"></button><a href="toolingvalidation/cuttooling.html">Validation d'outillage de découpe</a></li>
-        <li><button class="tree blank"></button><a href="toolingvalidation/foldtooling.html">Validation d'outillage de pliure</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/bendtooling.html">Validation de l'outillage de pliage</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/cuttooling.html">Validation de l'outillage de coupe</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/foldtooling.html">Validation de l'outillage de pliage</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="toolingpanel.html">Panneau d'outillage</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Enregistrer les filtres</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">Enregistrement des filtres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Commandes</a>
+   <a href="../../orders/index.html">Ordres</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Vue des commandes</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Vue des ordres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Travaux</a>
+   <a href="../../jobs/index.html">Tâches</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Créer un travail</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Vue du travail</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Panneau de travail</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Créer une tâche</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Vue des tâches</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Panneau des tâches</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Planification automatique</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Imbrication interactive</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Réemballage</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Réempaquetage</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Gestion de l'imbrication</a>
+     <a href="../../jobs/layoutcommands/index.html">Gestion des imbrications</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Vue de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Panneau de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Expéditeur de rapport</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Vue de configuration</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Panneau de configuration</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Envoi de rapports</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Gestion manuelle des chutes</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Imbrication en ligne double</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Imbrication Twinline</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Obsolète</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtres de travail</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtres de tâches</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Usine</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Feuilles</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Tôles</a></li>
     <li><button class="tree blank"></button><a href="../../factory/users.html">Utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../../factory/edit.html">Modifier</a></li>
     <li><button class="tree blank"></button><a href="../../factory/customers.html">Clients</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Paramètres</a>
+     <a href="../../factory/settings/index.html">Réglages</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environnement</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importation</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Pliage</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Découpe</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Coupe</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Surveillance</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Tâche</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">Extensions CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">Extension SolidWorks</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Enregistrer les pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Enregistrer l'assemblage</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Vérifier la faisabilité</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Paramètres de l'usine</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Améliorations diverses</a></li>
      </ul>
     </li>
    </ul>
@@ -208,26 +188,30 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Statut de l'outillage</a>
+  <a href="index.html">État de l'outillage</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Statut de l'outillage</h1>
+                        <h1>État de l'outillage</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Dans TruSmartCAM, chaque mosaïque de pièce indique visuellement le statut d&#8217;outillage de cette pièce pour toutes les machines disponibles. Cela aide les utilisateurs à voir rapidement pour quelles machines une pièce est outillée, et si l&#8217;outillage est prêt, nécessite une révision ou est manquant.</p>
+<p>Dans TruSmartCAM, chaque vignette de pièce indique visuellement le statut
+d&#8217;outillage de cette pièce pour toutes les machines disponibles. Cela aide les
+utilisateurs à voir rapidement pour quelles machines une pièce est outillée, et
+si l&#8217;outillage est prêt, nécessite un examen ou est manquant.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Le statut de l&#8217;outillage est affiché directement sur la mosaïque de pièce à l&#8217;aide d&#8217;icônes et d&#8217;indicateurs de couleur.</p>
+<p>Le statut d&#8217;outillage est affiché directement sur la vignette de la pièce à
+l&#8217;aide d&#8217;icônes et d&#8217;indicateurs de couleur.</p>
 </li>
 <li>
-<p>Chaque icône représente une technologie de machine (par exemple, Poinçonnage, Laser).</p>
+<p>Chaque icône représente une technologie de machine (par exemple, Bend, Laser).</p>
 </li>
 <li>
 <p>La couleur de l&#8217;icône indique le statut d&#8217;outillage actuel pour cette machine.</p>
@@ -235,12 +219,11 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>Le tableau ci-dessous explique la signification de chaque icône et couleur, aidant les utilisateurs à interpréter le statut d&#8217;outillage avec précision.</p>
+<p>Le tableau ci-dessous explique la signification de chaque icône et couleur, ce
+qui aide les utilisateurs à interpréter le statut d&#8217;outillage avec précision.</p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="img/toolingstatus.png" alt="Tooling status" width="265">
-</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/tooling.png" alt="Tooling status" width="256"></span></p>
 </div>
 <table class="tableblock frame-all grid-all fit-content">
 <colgroup>
@@ -259,16 +242,12 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Machine de découpe laser</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/punchgood.png" alt="Punch OK" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Machine de poinçonnage</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendgood.png" alt="Bend OK" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Press brake</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Presse plieuse</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/foldgood.png" alt="Fold OK" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Panel bender</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plieuse de panneaux</p></td>
 </tr>
 </tbody>
 </table>
@@ -279,121 +258,92 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Tooling status</th>
+<th class="tableblock halign-left valign-top">Statut d&#8217;outillage</th>
 <th class="tableblock halign-left valign-top">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/lasergood.png" alt="Laser OK" width="18"></span> <span class="image"><img src="img/bendgood.png" alt="Bend OK" width="18"></span> <span class="image"><img src="img/foldgood.png" alt="Fold OK" width="18"></span> <span class="image"><img src="img/punchgood.png" alt="Punch OK" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tooling is ok</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/lasergood.png" alt="Laser OK" width="18"></span> <span class="image"><img src="img/bendgood.png" alt="Bend OK" width="18"></span> <span class="image"><img src="img/foldgood.png" alt="Fold OK" width="18"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L&#8217;outillage est correct</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/laserwarning.png" alt="Laser Warning" width="18"></span> <span class="image"><img src="img/bendwarning.png" alt="Bend Warning" width="18"></span> <span class="image"><img src="img/foldwarning.png" alt="Fold Warning" width="18"></span> <span class="image"><img src="img/punchwarning.png" alt="Punch Warning" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tooling has warnings</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/laserwarning.png" alt="Laser Warning" width="18"></span> <span class="image"><img src="img/bendwarning.png" alt="Bend Warning" width="18"></span> <span class="image"><img src="img/foldwarning.png" alt="Fold Warning" width="18"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L&#8217;outillage comporte des avertissements</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/lasererror.png" alt="Laser Error" width="18"></span> <span class="image"><img src="img/benderror.png" alt="Bend Error" width="18"></span> <span class="image"><img src="img/folderror.png" alt="Fold Error" width="18"></span> <span class="image"><img src="img/puncherror.png" alt="Punch Error" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tooling has errors</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/lasererror.png" alt="Laser Error" width="18"></span> <span class="image"><img src="img/benderror.png" alt="Bend Error" width="18"></span> <span class="image"><img src="img/folderror.png" alt="Fold Error" width="18"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L&#8217;outillage comporte des erreurs</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/lasermissing.png" alt="Laser Missing" width="18"></span> <span class="image"><img src="img/bendmissing.png" alt="Bend Missing" width="18"></span> <span class="image"><img src="img/foldmissing.png" alt="Fold Missing" width="18"></span> <span class="image"><img src="img/punchmissing.png" alt="Punch Missing" width="18"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tooling not available</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/lasermissing.png" alt="Laser Missing" width="18"></span> <span class="image"><img src="img/bendmissing.png" alt="Bend Missing" width="18"></span> <span class="image"><img src="img/foldmissing.png" alt="Fold Missing" width="18"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Outillage non disponible</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tooling_errors">Tooling errors</h2>
+<h2 id="_erreurs_doutillage">Erreurs d&#8217;outillage</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A CAM (Computer-Aided Manufacturing) error occurs during the tooling ors
-manufacturing preparation stage. These errors arise due to issues like tool
-collisions, missing tooling, or invalid cutting conditions.</p>
+<p>Une erreur CAM (Computer-Aided Manufacturing) se produit lors de l&#8217;étape
+d&#8217;outillage ou de préparation de la fabrication. Ces erreurs proviennent de
+problèmes tels que des collisions d&#8217;outils, un outillage manquant ou des
+conditions de coupe invalides.</p>
+</div>
+<div class="paragraph">
+<p>L&#8217;image suivante montre des exemples des états d&#8217;erreur d&#8217;outillage qui peuvent
+être affichés sur la vignette de la pièce lors de l&#8217;outillage. Les sections
+suivantes décrivent chaque erreur d&#8217;outillage et sa cause.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/collision.png" alt="Collision" width="240"></span></p>
 </div>
 <div class="sect2">
-<h3 id="_bend_tooling_errors">Bend tooling errors</h3>
+<h3 id="_erreurs_doutillage_de_pliage">Erreurs d&#8217;outillage de pliage</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Collisions détectées</strong> and
- <strong>Erreur de préhenseur à pince</strong> : The bending setup causes tool or gripper collisions during
-simulation.</p>
+<p><strong>Collisions detected</strong> et
+ <strong>Gripper error</strong> : La configuration de pliage provoque des
+collisions d&#8217;outils ou de pinces lors de la simulation.</p>
 </li>
-</ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/collisiondetected.png" alt="Collision Detected" width="256"></span> <span class="image"><img src="img/grippererror.png" alt="Gripper Error" width="256"></span></p>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p><strong>Erreur de surintensité</strong> and
-<strong>Bride trop étroite ou trou trop proche</strong> :
-The bend tools are overloaded, or holes are located too close to
-the bend line, which may damage the part or tools.</p>
+<p><strong>Tool Overload</strong> et
+<strong>Narrow flange or hole too close</strong> :
+Les outils de pliage sont surchargés, ou les trous sont situés trop près de la
+ligne de pliage, ce qui peut endommager la pièce ou les outils.</p>
 </li>
-</ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/overloaderror.png" alt="Overload Error" width="256"></span> <span class="image"><img src="img/narrowflange.png" alt="Narrow Flange" width="256"></span></p>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p><strong>Examen nécessaire</strong> and
-<strong>Courte plage de poinçonnage/vé</strong> :  The tooling setup needs manual
-inspection, or the selected die/punch span is smaller than required for the
-part.</p>
+<p><strong>Needs review</strong> et
+<strong>Short Punch/Die span</strong> :  La configuration de l&#8217;outillage
+nécessite une inspection manuelle, ou la portée de matrice/poinçon sélectionnée
+est inférieure à celle requise pour la pièce.</p>
 </li>
-</ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/needsreview.png" alt="Needs Review" width="256"></span> <span class="image"><img src="img/baseflat.png" alt="Base Flat" width="256"></span></p>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p><strong>Outillage non attribué</strong>, <strong>Mauvaise butée arrière</strong>, or
-<strong>Part too big for this machine</strong> : Required bending tools are
-not available, backgauge is not configured properly, or the part is too large
-for the selected machine.</p>
+<p><strong>Tool Missing</strong>, <strong>Poor backguage</strong> ou
+<strong>Part too big for this machine</strong> : Les outils de pliage requis
+ne sont pas disponibles, la butée arrière n&#8217;est pas configurée correctement, ou
+la pièce est trop grande pour la machine sélectionnée.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/toolmissing.png" alt="Tool Missing" width="256"></span>  <span class="image"><img src="img/poorbackgauge.png" alt="Poor Backgauge" width="256"></span> <span class="image"><img src="img/partbig.png" alt="Part Too Big" width="256"></span></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cut_tooling_errors">Cut tooling errors</h3>
+<h3 id="_erreurs_doutillage_de_coupe">Erreurs d&#8217;outillage de coupe</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Condition de coupe manquante</strong> : The cutting condition is
-not mapped for the raw material, so cutting cannot be performed.</p>
+<p><strong>Missing cutting condition</strong> : La condition de coupe
+n&#8217;est pas associée à la matière brute, la coupe ne peut donc pas être effectuée.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/cuttingcondition.png" alt="Cutting Condition" width="256">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p><strong>Contours sans outils ou outils partiels</strong> : Some shapes or
-edges are missed or only partly covered during the tooling process, making the
-part incomplete for cutting.</p>
+<p><strong>Untooled or partially tooled contours</strong> : Certaines formes
+ou arêtes sont omises ou seulement partiellement couvertes lors du processus
+d&#8217;outillage, ce qui rend la pièce incomplète pour la coupe.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/untooled.png" alt="Untooled" width="256">
-</div>
 </div>
 </div>
 </div>
@@ -406,13 +356,13 @@ part incomplete for cutting.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_tooling_errors">Tooling errors</a>
+   <a href="#_erreurs_doutillage">Erreurs d&#8217;outillage</a>
   </li>
   <li level="2">
-   <a href="#_bend_tooling_errors">Bend tooling errors</a>
+   <a href="#_erreurs_doutillage_de_pliage">Erreurs d&#8217;outillage de pliage</a>
   </li>
   <li level="2">
-   <a href="#_cut_tooling_errors">Cut tooling errors</a>
+   <a href="#_erreurs_doutillage_de_coupe">Erreurs d&#8217;outillage de coupe</a>
   </li>
  </ul>
 </aside>
@@ -420,8 +370,8 @@ part incomplete for cutting.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="../partstate/partfilters.html">Filtres de pièces</a></span>
- <span class="next"><a href="toolingvalidation/index.html">Validation d'outillage</a></span>
+ <span class="prev"><a href="../partstate/partfilters.html">Filtres de pièce</a></span>
+ <span class="next"><a href="toolingvalidation/index.html">Validation de l'outillage</a></span>
 </nav>
 
         </div>

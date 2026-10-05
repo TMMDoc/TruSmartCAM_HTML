@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Zamówienia</title>
+  <title>Zlecenia</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="../configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otwórz</a>
+     <a href="../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a class="active" href="index.html">Zamówienia</a>
+   <a class="active" href="index.html">Zlecenia</a>
    <ul>
-    <li><button class="tree blank"></button><a href="ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Zadania</a>
+   <a href="../jobs/index.html">Zadania job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="../jobs/layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,26 +184,26 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Zamówienia</a>
+  <a href="index.html">Zlecenia</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Zamówienia</h1>
+                        <h1>Zlecenia</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Zamówienie definiuje, jakie części mają zostać wyprodukowane, w jakiej ilości
-i do kiedy. Steruje planowaniem i realizacją produkcji w TruSmartCAM. Zamówienia
-można tworzyć lub importować przy użyciu różnych metod, a następnie można je
-konwertować na zadania w celu planowania produkcji.</p>
+<p>Zlecenie definiuje, jakie części mają zostać wyprodukowane, w jakiej ilości i w
+jakim terminie. Steruje ono planowaniem i realizacją produkcji w TruSmartCAM.
+Zlecenia można tworzyć lub importować różnymi metodami, a następnie konwertować
+na joby na potrzeby planowania produkcji.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_panel_zamówień">Panel zamówień</h2>
+<h2 id="_panel_zleceń">Panel zleceń</h2>
 <div class="sectionbody">
 <table class="tableblock frame-none grid-none fit-content">
 <colgroup>
@@ -245,59 +225,51 @@ konwertować na zadania w celu planowania produkcji.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="22"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Otwórz w trybie tylko do odczytu do przeglądania</strong><br>
-Otwiera wybrane zamówienie w trybie tylko do odczytu.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Otwiera wybrane zlecenie w trybie tylko do odczytu.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="22"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Umożliwia edycję wybranego zamówienia.</p></td>
+Umożliwia edycję wybranego zlecenia.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="22"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Usuń</strong><br>
-Usuwa wybrane zamówienie.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+Usuwa wybrane zlecenie.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/new.png" alt="New" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Nowe…</strong><br>
-Konwertuje zamówienie na zadanie, złożenie lub inne zamówienie.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>New&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Konwertuje zlecenie na job, zespół lub inne zlecenie.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/assigncustomer.png" alt="Assign Customer" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Przypisz klienta</strong><br>
-Przypisuje klienta do zamówienia.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Assign Customer&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Przypisuje klienta do zlecenia.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/setdue.png" alt="Due Date" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ustaw datę wymagalności…</strong><br>
-Ustawia termin realizacji zamówienia.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Set Due Date&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ustawia termin realizacji zlecenia.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/priority.png" alt="Priority" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kolejność</strong><br>
-Określa poziom priorytetu zamówienia.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Priority</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Określa poziom priorytetu zlecenia. Dostępne opcje to
+<strong>Normal</strong>, <strong>Low</strong>, <strong>High</strong> oraz <strong>Urgent</strong>.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/partorder.png" alt="Part Order" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Zlecenie dotyczące detali</strong><br>
-Określa identyfikator referencyjny przypisany do części w ramach zamówienia.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Part Order</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Określa identyfikator referencyjny przypisany do części w ramach zlecenia.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/quantity.png" alt="Quantity" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Liczba</strong><br>
-Określa liczbę części lub instancji w zamówieniu.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Quantity</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Określa liczbę części lub instancji w zleceniu.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Poprz.</strong> / <strong>Dalej</strong> / <strong>Detal</strong><br>
-Umożliwia nawigację do poprzedniej lub następnej części w ramach zamówienia.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Prev</strong> / <strong>Next</strong> / <strong>Part</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Przechodzi do poprzedniej lub następnej części w ramach zlecenia.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/filters.png" alt="Filters" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sortowanie i filtrowanie</strong><br>
-Użyj tych filtrów, aby wyświetlić inne zamówienia mające ten sam materiał,
-klienta, termin realizacji lub priorytet.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sortowanie i filtrowanie</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Użyj tych filtrów, aby wyświetlić inne zlecenia mające <strong>Same Material</strong>, <strong>Same Customer</strong>, <strong>Same Due Date</strong> lub <strong>Same Priority</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -307,22 +279,17 @@ klienta, termin realizacji lub priorytet.</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_edycja_zamówień">Edycja zamówień</h2>
+<h2 id="_edycja_zleceń">Edycja zleceń</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wybierz jedno lub więcej zamówień i kliknij prawym przyciskiem myszy, aby
-zmodyfikować wspólne szczegóły zamówienia, takie jak ilość, termin realizacji,
-priorytet i informacje o kliencie.</p>
+<p>Zaznacz jedno lub więcej zleceń i kliknij prawym przyciskiem myszy, aby
+zmodyfikować wspólne szczegóły zlecenia, takie jak ilość, termin realizacji,
+priorytet oraz informacje o kliencie.</p>
 </div>
 <div class="paragraph">
-<p>Jeśli wiele wybranych zamówień wymaga różnych wartości, użyj opcji
-<strong>Check-out for Editing</strong>, aby edytować każde zamówienie
-indywidualnie zgodnie z wymaganiami.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/editorder.png" alt="Edit" width="618">
-</div>
+<p>Jeśli wiele zaznaczonych zleceń wymaga różnych wartości, użyj opcji
+<strong>Check-out for Editing</strong>, aby edytować każde zlecenie indywidualnie
+zgodnie z potrzebami.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -330,9 +297,9 @@ indywidualnie zgodnie z wymaganiami.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Wszelkie aktualizacje wprowadzone do zamówień są natychmiast stosowane w bazie
-danych. Użyj polecenia <strong>Usuń</strong>, aby usunąć zamówienia z
-biblioteki zamówień.</p>
+<p>Wszelkie zmiany wprowadzone w zleceniach są natychmiast zapisywane w bazie
+danych. Użyj polecenia <strong>Delete</strong>, aby usunąć zlecenia z biblioteki
+zleceń.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -341,8 +308,8 @@ biblioteki zamówień.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Polecenie Delete usuwa tylko zamówienia. Części powiązane z odpowiednimi
-zamówieniami nie są usuwane z biblioteki części.
+Polecenie Delete usuwa wyłącznie zlecenia. Części powiązane z
+poszczególnymi zleceniami nie są usuwane z biblioteki części.
 </td>
 </tr>
 </table>
@@ -350,13 +317,13 @@ zamówieniami nie są usuwane z biblioteki części.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_planowanie_zamówień">Planowanie zamówień</h2>
+<h2 id="_planowanie_zleceń">Planowanie zleceń</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wybierz jedno lub więcej zamówień, kliknij prawym przyciskiem myszy i kliknij
-<strong>Nowe…</strong> &#8594; <strong>Zadanie</strong>, aby skonwertować wybrane zamówienia
-na zadania. Użyj opcji Sortowanie i Filtrowanie, aby pogrupować odpowiednie
-zamówienia przed utworzeniem zadań.</p>
+<p>Zaznacz jedno lub więcej zleceń, kliknij prawym przyciskiem myszy, a następnie
+kliknij <strong>New&#8230;&#8203;</strong> &#8594; <strong>Job</strong>, aby przekonwertować zaznaczone
+zlecenia na joby. Użyj opcji sortowania i filtrowania, aby pogrupować
+odpowiednie zlecenia przed utworzeniem joba.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -364,29 +331,24 @@ zamówienia przed utworzeniem zadań.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Po skonwertowaniu zamówień na zadanie:</p>
+<p>Po przekonwertowaniu zleceń na job:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Zadanie jest przenoszone na stronę Zadania</p>
+<p>Job zostaje przeniesiony na stronę Joby</p>
 </li>
 <li>
-<p>Zamówienia są usuwane z listy Zamówienia</p>
+<p>Zlecenia zostają usunięte z listy Zlecenia</p>
 </li>
 <li>
-<p>Standardowy przepływ pracy planowania zadań może być następnie używany do
-planowania produkcji i zagnieżdżania</p>
+<p>Można wówczas zastosować standardowy przepływ planowania joba na potrzeby
+planowania produkcji i nestingu</p>
 </li>
 </ul>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="img/orderplan.png" alt="Order Plan" width="884">
-</div>
-</div>
 <div class="paragraph">
-<p>Aby uzyskać więcej informacji na temat przepływu pracy planowania zadań, zobacz
+<p>Więcej informacji na temat przepływu planowania jobów znajduje się w
 <a href="../jobs/jobautoplan.html">Auto Plan</a></p>
 </div>
 </div>
@@ -397,22 +359,13 @@ planowania produkcji i zagnieżdżania</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Jeśli zadanie zawierające zamówienia zostanie usunięte, powiązane zamówienia
-są automatycznie przenoszone z powrotem na stronę Zamówienia gotowe, chyba że
-zadanie lub część zostały oznaczone jako Ukończone.</p>
+<p>W przypadku usunięcia joba zawierającego zlecenia powiązane zlecenia są
+automatycznie przenoszone z powrotem na stronę Orders Ready, chyba że job lub
+część zostały oznaczone jako Completed.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/addinfo.png" alt="Add" width="999">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Zamówienia można dodawać do istniejącego zadania lub usuwać z niego za
-pośrednictwem okna <strong>Edycja zadania</strong> zgodnie z wymaganiami produkcji.</p>
+<p>Zlecenia można dodawać do istniejącego joba lub z niego usuwać za pomocą okna
+<strong>Edit Job</strong> w zależności od wymagań produkcyjnych.</p>
 </li>
 </ul>
 </div>
@@ -426,13 +379,13 @@ pośrednictwem okna <strong>Edycja zadania</strong> zgodnie z wymaganiami produk
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_panel_zamówień">Panel zamówień</a>
+   <a href="#_panel_zleceń">Panel zleceń</a>
   </li>
   <li level="1">
-   <a href="#_edycja_zamówień">Edycja zamówień</a>
+   <a href="#_edycja_zleceń">Edycja zleceń</a>
   </li>
   <li level="1">
-   <a href="#_planowanie_zamówień">Planowanie zamówień</a>
+   <a href="#_planowanie_zleceń">Planowanie zleceń</a>
   </li>
   <li level="1">
    <a href="#_informacje_dodatkowe">Informacje dodatkowe</a>
@@ -444,7 +397,7 @@ pośrednictwem okna <strong>Edycja zadania</strong> zgodnie z wymaganiami produk
             </div>
             <nav class="pagination">
  <span class="prev"><a href="../library/savingfilters.html">Zapisywanie filtrów</a></span>
- <span class="next"><a href="ordersview.html">Widok zamówień</a></span>
+ <span class="next"><a href="ordersview.html">Widok zleceń</a></span>
 </nav>
 
         </div>

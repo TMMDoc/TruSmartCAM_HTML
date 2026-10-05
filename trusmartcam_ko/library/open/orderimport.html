@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Import orders</title>
+  <title>오더 가져오기</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,17 +29,15 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">하드웨어 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">지원되는 파일 형식</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">사전 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">서버 설치</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">클라이언트 설치</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">라이선스 변경</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">구성</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">기계 추가/제거</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">머신 추가/제거</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">툴링 설정</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">사용자 구성</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">언어</a></li>
@@ -54,85 +52,85 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">재료 매핑</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM 페이지 매핑</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑 (조회 키)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑(조회 키)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">사용자 인터페이스</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로우</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로</a></li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Library</a>
+   <a href="../index.html">라이브러리</a>
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Open</a>
+     <a href="index.html">열기</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a class="active" href="orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a href="jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="partimport.html">부품 가져오기</a></li>
+      <li><button class="tree blank"></button><a class="active" href="orderimport.html">오더 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="jobimport.html">작업 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="assembliesimport.html">어셈블리 가져오기</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../libraryview/index.html">Library view</a>
+     <a href="../libraryview/index.html">라이브러리 보기</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">부품</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">어셈블리</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Part status</a>
+     <a href="../partstate/index.html">부품 상태</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">부품 검증</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">부품 패널</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">부품 필터</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Tooling status</a>
+     <a href="../toolingstatus/index.html">툴링 상태</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">툴링 검증</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">밴딩 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">절단 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">폴딩 툴링 검증</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">툴링 패널</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">필터 저장</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">주문</a>
+   <a href="../../orders/index.html">오더</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">주문 보기</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">오더 보기</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Jobs</a>
+   <a href="../../jobs/index.html">작업</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">작업 생성</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">작업 보기</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">작업 패널</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">자동 계획</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">대화형 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재포장</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재패킹</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/layoutcommands/index.html">네스트 관리</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">레이아웃 보기</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">레이아웃 패널</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">보고서 발신자</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">리포트 전송기</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">수동 잔재 관리</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">트윈라인 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">구식</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline 네스팅</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">오래된 항목</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">작업 필터</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">팩토리</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">루트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">시트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">사용자</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">편집</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">고객</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">설정</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 확장 기능</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 추가 기능</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">설치</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">부품 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">어셈블리 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">실행 가능성 확인</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">공장 설정</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">기타 개선 사항</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">환경</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">밴딩</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">절단</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">알림</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">감시</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">작업</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">리포트</a></li>
      </ul>
     </li>
    </ul>
@@ -204,72 +184,61 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Library</a>
+  <a href="../index.html">라이브러리</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Open</a>
+  <a href="index.html">열기</a>
  </div>
  <div>/</div>
  <div>
-  <a href="orderimport.html">Import orders</a>
+  <a href="orderimport.html">오더 가져오기</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Import orders</h1>
+                        <h1>오더 가져오기</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>다음 방법을 사용하여 주문을 생성하거나 가져올 수 있습니다:</p>
+<p>오더는 다음 방법을 사용하여 생성하거나 가져올 수 있습니다:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>스프레드시트 파일에서 주문 가져오기.</p>
+<p>스프레드시트 파일에서 오더 가져오기.</p>
 </li>
 <li>
-<p>watch 설정을 통해 자동으로 주문 가져오기.</p>
+<p>watch 설정을 통해 자동으로 오더 가져오기.</p>
 </li>
 <li>
-<p>부품 라이브러리의 기존 부품에서 주문 생성.</p>
+<p>part library 의 기존 부품에서 오더 생성.</p>
 </li>
 <li>
-<p>어셈블리 정적 네스트에서 주문 생성.</p>
+<p>assembly static nest 에서 오더 생성.</p>
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_스프레드시트에서_주문_가져오기">스프레드시트에서 주문 가져오기</h2>
+<h2 id="_스프레드시트에서_오더_가져오기">스프레드시트에서 오더 가져오기</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>열기</strong> &#8594;
-<strong>Import _Orders&#8230;&#8203;</strong> 로 이동합니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/orders.png" alt="Orders" width="259">
-</div>
-</div>
+<p><strong>Open</strong> &#8594; <strong>Import Orders&#8230;&#8203;</strong> 로 이동합니다.</p>
 </li>
 <li>
-<p>지원되는 스프레드시트 형식에는 CSV, XLSX 및 XML이 포함됩니다.</p>
+<p>지원되는 스프레드시트 형식에는 CSV, XLSX 및 XML 이 포함됩니다.</p>
 </li>
 <li>
-<p>필요한 스프레드시트 파일을 선택하고 <strong>열기</strong> 을 클릭합니다.</p>
+<p>필요한 스프레드시트 파일을 선택하고 <strong>Open</strong> 을 클릭합니다.</p>
 </li>
 <li>
-<p>가져오기 프로세스는 Job/Assembly 가져오기 워크플로우와 유사합니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importorder.png" alt="Import Order" width="591">
-</div>
-</div>
+<p>가져오기 프로세스는 Job/Assembly 가져오기 워크플로와 유사합니다.</p>
 </li>
 </ul>
 </div>
@@ -280,7 +249,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-스프레드시트를 Orders 페이지로 직접 드래그 앤 드롭하여 주문을 가져올 수도 있습니다.
+스프레드시트를 Orders 페이지로 직접 끌어다 놓아 오더를 가져올 수도 있습니다.
 </td>
 </tr>
 </table>
@@ -288,25 +257,24 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_watch_설정을_사용하여_주문_가져오기">watch 설정을 사용하여 주문 가져오기</h2>
+<h2 id="_감시_설정을_사용하여_오더_가져오기">감시 설정을 사용하여 오더 가져오기</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>감시 설정</strong> 에서
-<strong>'라이브 폴더&#8217;에서 스프레드시트 가져오기</strong> 옵션을 활성화합니다.</p>
+<p><strong>Watch settings</strong> 에서 <strong>Import spreadsheet from 'Live Folder'</strong> 옵션을 활성화합니다.</p>
 </li>
 <li>
-<p><strong>스프레드시트 가져오기 옵션</strong> 에서 <strong>오더들 가져오기</strong> 를 선택합니다.</p>
+<p><strong>Spreadsheet import option</strong> 에서 <strong>Import Orders</strong> 를 선택합니다.</p>
 </li>
 <li>
-<p>주문을 가져올 폴더 위치를 구성합니다.</p>
+<p>오더를 가져올 폴더 위치를 구성합니다.</p>
 </li>
 <li>
 <p>시스템은 구성된 폴더를 지속적으로 모니터링합니다.</p>
 </li>
 <li>
-<p>새로 추가된 스프레드시트 파일은 자동으로 Orders로 가져옵니다.</p>
+<p>새로 추가된 스프레드시트 파일이 자동으로 Orders 로 가져와집니다.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/spreadsheetorder.png" alt="Spreadsheet Order" width="715">
@@ -322,9 +290,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-자세한 구성 단계는
-<a href="../../factory/settings/watch.html">Watch settings</a>
-문서를 참조하십시오.
+자세한 구성 단계는 <a href="../../factory/settings/watch.html">감시 설정</a> 설명서를 참조하십시오.
 </td>
 </tr>
 </table>
@@ -332,70 +298,48 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_부품_라이브러리에서_주문_생성">부품 라이브러리에서 주문 생성</h2>
+<h2 id="_부품_라이브러리에서_오더_생성">부품 라이브러리에서 오더 생성</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Part Library에서 필요한 부품을 선택합니다.</p>
+<p>Part Library 에서 필요한 부품을 선택합니다.</p>
 </li>
 <li>
-<p>마우스 오른쪽 버튼을 클릭하고 <strong>새로 만들기&#8230;&#8203;</strong> &#8594; <strong>오더</strong> 를 선택하여
-<strong>새 오더들</strong> 대화 상자를 엽니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/partorder.png" alt="Part Order" width="617">
-</div>
-</div>
+<p>마우스 오른쪽 버튼을 클릭하고 <strong>New&#8230;&#8203;</strong> &#8594; <strong>Order</strong> 를 선택하여 <strong>New Orders</strong> 대화 상자를 엽니다.</p>
 </li>
 <li>
-<p>수량, 마감일 및 우선 순위와 같은 필요한 세부 정보를 입력합니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/orderwindow.png" alt="Order Window" width="570">
-</div>
-</div>
+<p>수량, 납기일 및 우선순위와 같은 필요한 세부 정보를 입력합니다.</p>
 </li>
 <li>
-<p><strong>OK</strong> 를 클릭하여 주문을 생성합니다.</p>
+<p><strong>OK</strong> 를 클릭하여 오더를 생성합니다.</p>
 </li>
 <li>
 <p>시스템이 자동으로 Orders 페이지로 전환됩니다.</p>
 </li>
 <li>
-<p>생성된 주문은 작업 생성을 위해 Orders Ready 페이지에 표시됩니다.</p>
+<p>생성된 오더는 작업 생성을 위해 Orders Ready 페이지에 표시됩니다.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_어셈블리에서_주문_생성">어셈블리에서 주문 생성</h2>
+<h2 id="_어셈블리에서_오더_생성">어셈블리에서 오더 생성</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>필요한 Assembly를 마우스 오른쪽 버튼으로 클릭합니다.</p>
+<p>필요한 Assembly 를 마우스 오른쪽 버튼으로 클릭합니다.</p>
 </li>
 <li>
-<p><strong>새로 만들기&#8230;&#8203;</strong> &#8594; <strong>오더</strong> 를 선택하여
-<strong>새 오더들</strong> 대화 상자를 엽니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/rooforder.png" alt="Roof Order" width="561">
-</div>
-</div>
+<p><strong>New&#8230;&#8203;</strong> &#8594; <strong>Order</strong> 를 선택하여 <strong>New Orders</strong> 대화 상자를 엽니다.</p>
 </li>
 <li>
-<p>필요한 <strong>조립품 수량</strong> 를 입력합니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/assemblyorder.png" alt="Assembly Order" width="367">
-</div>
-</div>
+<p>필요한 <strong>Assembly count</strong> 를 입력합니다.</p>
 </li>
 <li>
-<p><strong>OK</strong> 를 클릭하여 주문을 생성합니다.</p>
+<p><strong>OK</strong> 를 클릭하여 오더를 생성합니다.</p>
 </li>
 </ul>
 </div>
@@ -409,16 +353,16 @@
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_스프레드시트에서_주문_가져오기">스프레드시트에서 주문 가져오기</a>
+   <a href="#_스프레드시트에서_오더_가져오기">스프레드시트에서 오더 가져오기</a>
   </li>
   <li level="1">
-   <a href="#_watch_설정을_사용하여_주문_가져오기">watch 설정을 사용하여 주문 가져오기</a>
+   <a href="#_감시_설정을_사용하여_오더_가져오기">감시 설정을 사용하여 오더 가져오기</a>
   </li>
   <li level="1">
-   <a href="#_부품_라이브러리에서_주문_생성">부품 라이브러리에서 주문 생성</a>
+   <a href="#_부품_라이브러리에서_오더_생성">부품 라이브러리에서 오더 생성</a>
   </li>
   <li level="1">
-   <a href="#_어셈블리에서_주문_생성">어셈블리에서 주문 생성</a>
+   <a href="#_어셈블리에서_오더_생성">어셈블리에서 오더 생성</a>
   </li>
  </ul>
 </aside>
@@ -426,8 +370,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="partimport.html">Import parts</a></span>
- <span class="next"><a href="jobimport.html">Import jobs</a></span>
+ <span class="prev"><a href="partimport.html">부품 가져오기</a></span>
+ <span class="next"><a href="jobimport.html">작업 가져오기</a></span>
 </nav>
 
         </div>

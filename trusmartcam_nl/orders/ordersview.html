@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Orders weergave</title>
+  <title>Ordersweergave</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarevereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Ondersteunde bestandsformaten</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Vereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallatie</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallatie</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Licentie wijzigen</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Configuratie</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Machine toevoegen/verwijderen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Gereedschap instellen</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Tooling instellen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Gebruikers configureren</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Taal</a></li>
     <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Materiaal toewijzen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM-pagina's toewijzen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Velden uit CAD toewijzen (zoeksleutels)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Velden toewijzen vanuit CAD (opzoeksleutels)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">De gebruikersinterface</a></li>
@@ -70,7 +68,7 @@
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Onderdelen importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Orders importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Jobs importeren</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Assemblages importeren</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Samenstellingen importeren</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Bibliotheekweergave</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Onderdelen</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Samenstelling</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Gereedschapsstatus</a>
+     <a href="../library/toolingstatus/index.html">Toolingstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Gereedschapsvalidatie</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Toolingvalidatie</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buiggereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijgereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buigtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Gereedschapspaneel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Toolingpaneel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Filters opslaan</a></li>
@@ -113,7 +111,7 @@
    <button class="tree open"></button>
    <a href="index.html">Orders</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="ordersview.html">Orders weergave</a></li>
+    <li><button class="tree blank"></button><a class="active" href="ordersview.html">Ordersweergave</a></li>
    </ul>
   </li>
   <li>
@@ -121,72 +119,54 @@
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Job aanmaken</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job weergave</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job paneel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobweergave</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobpaneel</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatisch plannen</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interactief nesten</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/repacking.html">Opnieuw verpakken</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/repacking.html">Herverpakken</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../jobs/layoutcommands/index.html">Nestbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout weergave</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout paneel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Lay-outweergave</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Lay-outpaneel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportverzender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Restmateriaal beheer</a>
+     <a href="../jobs/remnantmanagement/index.html">Restantbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisch restmateriaal beheer</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Handmatig restmateriaal beheer</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisch restantbeheer</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Handmatig restantbeheer</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesten</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Verouderd</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job filters</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobfilters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabriek</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Platen</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Gebruikers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Bewerken</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Klanten</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Instellingen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Omgeving</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importeren</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Buigen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Snijden</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Meldingen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bewaken</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD extensies</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installatie</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Onderdelen opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Assemblage opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Haalbaarheid controleren</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabrieksinstellingen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse verbeteringen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporten</a></li>
      </ul>
     </li>
    </ul>
@@ -208,21 +188,20 @@
  </div>
  <div>/</div>
  <div>
-  <a href="ordersview.html">Orders weergave</a>
+  <a href="ordersview.html">Ordersweergave</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Orders weergave</h1>
+                        <h1>Ordersweergave</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>De opties aan de rechterkant van de Orders-pagina vertegenwoordigen
-verschillende weergaven van orders op basis van hun verwerkingsfase. Het
-selecteren van een weergave werkt de weergegeven orders bij, zodat u zich kunt
-concentreren op specifieke fasen van de workflow.</p>
+<p>De opties aan de rechterkant van de pagina Orders vertegenwoordigen verschillende weergaven van
+orders op basis van hun verwerkingsfase. Als u een weergave selecteert, worden de weergegeven
+orders bijgewerkt, zodat u zich kunt richten op specifieke fasen van de workflow.</p>
 </div>
 </div>
 </div>
@@ -230,8 +209,8 @@ concentreren op specifieke fasen van de workflow.</p>
 <h2 id="_ready">Ready</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Het selecteren van de weergave <strong>Ready</strong> toont orders die
-zijn voorbereid maar nog niet zijn geconverteerd naar jobs.</p>
+<p>Als u de weergave <strong>Ready</strong> selecteert, worden orders weergegeven die voorbereid
+zijn maar nog niet omgezet in jobs.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -241,10 +220,10 @@ zijn voorbereid maar nog niet zijn geconverteerd naar jobs.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Toont orders die klaar zijn voor het aanmaken van jobs.</p>
+<p>Toont orders die klaar zijn voor het aanmaken van een job.</p>
 </li>
 <li>
-<p>Handig voor het identificeren van orders die wachten op verwerking.</p>
+<p>Handig voor het identificeren van orders die in afwachting van verwerking zijn.</p>
 </li>
 </ul>
 </div>
@@ -254,18 +233,13 @@ zijn voorbereid maar nog niet zijn geconverteerd naar jobs.</p>
 <h2 id="_active">Active</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Het selecteren van de weergave <strong>Active</strong> toont orders die
-zijn geconverteerd naar jobs en momenteel worden verwerkt.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/active.png" alt="Active" width="999">
-</div>
+<p>Als u de weergave <strong>Active</strong> selecteert, worden orders weergegeven die zijn
+omgezet in jobs en momenteel worden verwerkt.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Vertegenwoordigt orders die al zijn verplaatst naar de Job-fase.</p>
+<p>Vertegenwoordigt orders die al naar de jobfase zijn verplaatst.</p>
 </li>
 <li>
 <p>Helpt bij het volgen van orders die in uitvoering zijn.</p>
@@ -281,24 +255,19 @@ zijn geconverteerd naar jobs en momenteel worden verwerkt.</p>
 <h2 id="_done">Done</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Het selecteren van de weergave <strong>Done</strong> toont orders die
-de verwerking hebben voltooid.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/done.png" alt="Done" width="999">
-</div>
+<p>Als u de weergave <strong>Done</strong> selecteert, worden orders weergegeven die de
+verwerking hebben voltooid.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Toont orders waarvan de bijbehorende jobs zijn afgerond.</p>
+<p>Toont orders waarvan de bijbehorende jobs zijn voltooid.</p>
 </li>
 <li>
 <p>Geeft aan dat de workflow is voltooid.</p>
 </li>
 <li>
-<p>Handig voor beoordeling en registratie.</p>
+<p>Handig voor beoordeling en archivering.</p>
 </li>
 </ul>
 </div>
@@ -308,8 +277,8 @@ de verwerking hebben voltooid.</p>
 <h2 id="_all">All</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Het selecteren van de weergave <strong>All</strong> toont alle orders
-ongeacht hun fase.</p>
+<p>Als u de weergave <strong>All</strong> selecteert, worden alle orders weergegeven ongeacht
+hun fase.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -322,27 +291,27 @@ ongeacht hun fase.</p>
 <p>Biedt een volledig overzicht van alle orders.</p>
 </li>
 <li>
-<p>Handig voor zoeken en beheren in alle fasen.</p>
+<p>Handig voor zoeken en beheren over alle fasen heen.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_order_statusbalk">Order statusbalk</h2>
+<h2 id="_orderstatusbalk">Orderstatusbalk</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>De statusbalk die onder elke ordertegel wordt weergegeven, geeft aan of de
-order is gekoppeld aan een job. Er zijn twee typen:</p>
+<p>De statusbalk onder elke ordertegel geeft aan of de order is
+gekoppeld aan een job. Er zijn twee typen:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Geen balk - de order is niet toegewezen aan een job.</p>
+<p>Geen balk - de order is niet aan een job toegewezen.</p>
 </li>
 <li>
-<p>Met balk - de order maakt deel uit van een job, en de balk toont de
-respectieve job-status zoals hieronder vermeld.</p>
+<p>Met balk - de order maakt deel uit van een job, en de balk toont de betreffende
+jobstatus zoals hieronder vermeld.</p>
 </li>
 </ul>
 </div>
@@ -353,38 +322,38 @@ respectieve job-status zoals hieronder vermeld.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Order Status</th>
+<th class="tableblock halign-left valign-top">Orderstatus</th>
 <th class="tableblock halign-left valign-top">Beschrijving</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Light Grey)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Niet gereed</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Lichtgrijs)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/readyui.png" alt="Ready" width="100"></span> (White)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Gereed</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/readyui.png" alt="Ready" width="100"></span> (Wit)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Light Yellow)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Lichtgeel)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Dark Grey)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Plaat ontbreekt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Donkergrijs)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sheet missing</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Dark Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Buigwachtrij</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Donkergeel)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bending queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Yellow)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Snijwachtrij</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Geel)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cutting Queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Dark Green)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Voltooid</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Donkergroen)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Done(Completed)</p></td>
 </tr>
 </tbody>
 </table>
@@ -410,7 +379,7 @@ respectieve job-status zoals hieronder vermeld.</p>
    <a href="#_all">All</a>
   </li>
   <li level="1">
-   <a href="#_order_statusbalk">Order statusbalk</a>
+   <a href="#_orderstatusbalk">Orderstatusbalk</a>
   </li>
  </ul>
 </aside>

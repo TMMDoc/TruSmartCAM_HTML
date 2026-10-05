@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Opnieuw verpakken</title>
+  <title>Herverpakken</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarevereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Ondersteunde bestandsformaten</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Vereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallatie</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallatie</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Licentie wijzigen</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Configuratie</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Machine toevoegen/verwijderen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Gereedschap instellen</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Tooling instellen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Gebruikers configureren</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Taal</a></li>
     <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Materiaal toewijzen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM-pagina's toewijzen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Velden uit CAD toewijzen (zoeksleutels)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Velden toewijzen vanuit CAD (opzoeksleutels)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">De gebruikersinterface</a></li>
@@ -70,7 +68,7 @@
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Onderdelen importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Orders importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Jobs importeren</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Assemblages importeren</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Samenstellingen importeren</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Bibliotheekweergave</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Onderdelen</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Samenstelling</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Gereedschapsstatus</a>
+     <a href="../library/toolingstatus/index.html">Toolingstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Gereedschapsvalidatie</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Toolingvalidatie</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buiggereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijgereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buigtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Gereedschapspaneel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Toolingpaneel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Filters opslaan</a></li>
@@ -113,7 +111,7 @@
    <button class="tree closed"></button>
    <a href="../orders/index.html">Orders</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Orders weergave</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordersweergave</a></li>
    </ul>
   </li>
   <li>
@@ -121,72 +119,54 @@
    <a href="index.html">Jobs</a>
    <ul>
     <li><button class="tree blank"></button><a href="jobcreation.html">Job aanmaken</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Job weergave</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Job paneel</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Jobweergave</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Jobpaneel</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Automatisch plannen</a></li>
     <li><button class="tree blank"></button><a href="jobinteractplan.html">Interactief nesten</a></li>
-    <li><button class="tree blank"></button><a class="active" href="repacking.html">Opnieuw verpakken</a></li>
+    <li><button class="tree blank"></button><a class="active" href="repacking.html">Herverpakken</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="layoutcommands/index.html">Nestbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout weergave</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout paneel</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Lay-outweergave</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Lay-outpaneel</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Rapportverzender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="remnantmanagement/index.html">Restmateriaal beheer</a>
+     <a href="remnantmanagement/index.html">Restantbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatisch restmateriaal beheer</a></li>
-      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Handmatig restmateriaal beheer</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatisch restantbeheer</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Handmatig restantbeheer</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesten</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Verouderd</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Job filters</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Jobfilters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabriek</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Platen</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Gebruikers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Bewerken</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Klanten</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Instellingen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Omgeving</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importeren</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Buigen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Snijden</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Meldingen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bewaken</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD extensies</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installatie</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Onderdelen opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Assemblage opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Haalbaarheid controleren</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabrieksinstellingen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse verbeteringen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporten</a></li>
      </ul>
     </li>
    </ul>
@@ -208,50 +188,50 @@
  </div>
  <div>/</div>
  <div>
-  <a href="repacking.html">Opnieuw verpakken</a>
+  <a href="repacking.html">Herverpakken</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Opnieuw verpakken</h1>
+                        <h1>Herverpakken</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM heeft geen aparte Repacking module. In plaats daarvan wordt opnieuw verpakken
-afgehandeld via opties op jobniveau die flexibiliteit bieden in hoe onderdelen worden
-gecombineerd.</p>
+<p>TruSmartCAM heeft geen afzonderlijke module voor herverpakken. In plaats daarvan
+wordt herverpakken afgehandeld via opties op jobniveau die flexibiliteit bieden
+in de manier waarop onderdelen worden gecombineerd.</p>
 </div>
 <div class="paragraph">
-<p>Er zijn drie manieren waarop opnieuw verpakken kan worden uitgevoerd.</p>
+<p>Er zijn drie manieren om te herverpakken.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Opnieuw verpakken met
-<strong>Stukken van meerdere jobs mengen</strong>.</p>
+<p>Herverpakken met
+<strong>Mix parts from multiple Jobs</strong>.</p>
 </li>
 <li>
-<p>Handmatig Opnieuw Verpakken met de <strong>Stukken toevoegen…</strong> Interactieve Wizard.</p>
+<p>Handmatig herverpakken met de interactieve wizard <strong>Add Parts</strong>.</p>
 </li>
 <li>
-<p>Handmatig Opnieuw Verpakken met TecZone.</p>
+<p>Handmatig herverpakken met TecZone.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_opnieuw_verpakken_met_stukken_van_meerdere_jobs_mengen">Opnieuw verpakken met Stukken van meerdere jobs mengen</h2>
+<h2 id="_herverpakken_met_mix_parts_from_multiple_jobs">Herverpakken met mix parts from multiple Jobs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Om deze optie in te schakelen gaat u naar <strong>fabriek</strong> &#8594;
-<strong>instellingen</strong> &#8594; <strong>Job</strong> &#8594;
-<strong>Nestingsinstellingen</strong> &#8594;
-<strong>Stukken van meerdere jobs mengen</strong>.</p>
+<p>Om deze optie in te schakelen gaat u naar <strong>factory</strong> &#8594;
+<strong>settings</strong> &#8594; <strong>Job</strong> &#8594;
+<strong>Nest settings</strong> &#8594;
+<strong>Mix parts from multiple Jobs</strong>.</p>
 </li>
 </ul>
 </div>
@@ -263,9 +243,9 @@ gecombineerd.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Wanneer ingeschakeld, maakt deze optie het mogelijk dat onderdelen van verschillende jobs worden gegroepeerd
-tijdens automatisch nesten of interactief nesten, wat resulteert in een gecombineerde
-verpakking of nesten.</p>
+<p>Wanneer deze optie is ingeschakeld, kunnen onderdelen uit verschillende jobs
+tijdens automatisch nesten of interactief nesten worden gegroepeerd, wat
+resulteert in een gecombineerde verpakking of nesting.</p>
 </li>
 <li>
 <p>Bijvoorbeeld:</p>
@@ -275,8 +255,9 @@ verpakking of nesten.</p>
 <p>Job-1 heeft 1 onderdeel, Job-2 heeft 1 onderdeel.</p>
 </li>
 <li>
-<p>Met <strong>Stukken van meerdere jobs mengen</strong>
-ingeschakeld, kan TruSmartCAM deze 2 onderdelen opnieuw verpakken in een enkel geoptimaliseerd nest.</p>
+<p>Wanneer <strong>Mix parts from multiple Jobs</strong>
+is ingeschakeld, kan TruSmartCAM deze 2 onderdelen herverpakken tot één
+geoptimaliseerd nest.</p>
 </li>
 </ul>
 </div>
@@ -289,27 +270,28 @@ ingeschakeld, kan TruSmartCAM deze 2 onderdelen opnieuw verpakken in een enkel g
 <div class="ulist">
 <ul>
 <li>
-<p>Zonder deze optie blijven onderdelen van elke job gescheiden tijdens
-nesten/verpakken met verschillende layoutnamen.</p>
+<p>Zonder deze optie blijven onderdelen uit elke job tijdens het nesten/verpakken
+gescheiden met verschillende lay-outnamen.</p>
 </li>
 <li>
-<p>Opnieuw verpakken kan ook handmatig worden uitgevoerd zonder deze optie in te schakelen.</p>
+<p>Herverpakken kan ook handmatig worden uitgevoerd zonder deze optie in te
+schakelen.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_handmatig_opnieuw_verpakken_met_add_parts_interactieve_wizard">Handmatig opnieuw verpakken met add parts interactieve wizard</h2>
+<h2 id="_handmatig_herverpakken_met_de_interactieve_wizard_add_parts">Handmatig herverpakken met de interactieve wizard Add Parts</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Selecteer vanuit de layoutweergave de onderdelen die u opnieuw wilt verpakken.</p>
+<p>Selecteer in de lay-outweergave de onderdelen die u wilt herverpakken.</p>
 </li>
 <li>
-<p>Klik met de rechtermuisknop op het onderdeel en kies <strong>Stukken toevoegen…</strong> uit het
-layoutpaneel.</p>
+<p>Klik met de rechtermuisknop op het onderdeel en kies <strong>Add Parts&#8230;&#8203;</strong>
+in het lay-outpaneel.</p>
 </li>
 </ul>
 </div>
@@ -321,10 +303,10 @@ layoutpaneel.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Volg de aanwijzingen in de wizard om het opnieuw verpakken te voltooien.</p>
+<p>Volg de aanwijzingen in de wizard om het herverpakproces te voltooien.</p>
 </li>
 <li>
-<p>Kies <strong>Andere jobstukken weergeven</strong> en voeg ze toe aan de
+<p>Kies <strong>Show other job parts</strong> en voeg ze toe aan de
 huidige job.</p>
 </li>
 </ul>
@@ -337,7 +319,7 @@ huidige job.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Controleer de wijzigingen en bevestig het opnieuw verpakken.</p>
+<p>Beoordeel de wijzigingen en bevestig het herverpakken.</p>
 </li>
 </ul>
 </div>
@@ -347,17 +329,17 @@ huidige job.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Voor meer details zie  <a href="./layoutcommands/layoutpanel.html#add-parts">Add Parts</a>.</p>
+<p>Zie voor meer informatie <a href="./layoutcommands/layoutpanel.html#add-parts">Add Parts</a>.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_handmatig_opnieuw_verpakken_met_teczone">Handmatig opnieuw verpakken met TecZone</h2>
+<h2 id="_handmatig_herverpakken_met_teczone">Handmatig herverpakken met TecZone</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Open de TecZone door te klikken op  <span class="image"><img src="img/editicon.png" alt="Edit" width="18"></span>.</p>
+<p>Open TecZone door te klikken op <span class="image"><img src="img/editicon.png" alt="Edit" width="18"></span>.</p>
 </li>
 </ul>
 </div>
@@ -369,7 +351,7 @@ huidige job.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Klik in de TecZone interface op Add.</p>
+<p>Klik in de TecZone-interface op Add.</p>
 </li>
 </ul>
 </div>
@@ -381,9 +363,10 @@ huidige job.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Een nieuw venster verschijnt waar u de onderdelen kunt selecteren die opnieuw moeten worden verpakt. Klik op
-<strong>Weergeven…</strong> en selecteer vervolgens <strong>Andere jobstukken</strong>.
-Na uw selectie te hebben gemaakt, klikt u op <strong>_Ophalen</strong>.</p>
+<p>Er verschijnt een nieuw venster waarin u de onderdelen kunt selecteren die
+moeten worden herverpakt. Klik op <strong>Show&#8230;&#8203;</strong> en selecteer vervolgens
+<strong>Other job parts</strong>. Klik na uw selectie op
+<strong>Pick</strong>.</p>
 </li>
 </ul>
 </div>
@@ -395,25 +378,14 @@ Na uw selectie te hebben gemaakt, klikt u op <strong>_Ophalen</strong>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Een nieuw venster verschijnt waar u kunt definiëren waar het onderdeel opnieuw moet worden verpakt.</p>
+<p>Er verschijnt een nieuw venster waarin u kunt bepalen waar het onderdeel moet
+worden herverpakt.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/selection.png" alt="Selection" width="408">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Klik op <strong>Wijzigingen opslaan in Praxis</strong> en
-de opnieuw verpakte layout zal beschikbaar zijn in TruSmartCAM.</p>
+<p>Klik op <strong>Save changes to TruSmartCAM</strong> en de
+herverpakte lay-out is beschikbaar in TruSmartCAM.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/fluxrepack1.png" alt="Flux Repack1" width="410"></span> <span class="image"><img src="img/fluxrepack2.png" alt="Flux Repack2" width="418"></span></p>
 </div>
 </div>
 </div>
@@ -425,13 +397,13 @@ de opnieuw verpakte layout zal beschikbaar zijn in TruSmartCAM.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_opnieuw_verpakken_met_stukken_van_meerdere_jobs_mengen">Opnieuw verpakken met Stukken van meerdere jobs mengen</a>
+   <a href="#_herverpakken_met_mix_parts_from_multiple_jobs">Herverpakken met mix parts from multiple Jobs</a>
   </li>
   <li level="1">
-   <a href="#_handmatig_opnieuw_verpakken_met_add_parts_interactieve_wizard">Handmatig opnieuw verpakken met add parts interactieve wizard</a>
+   <a href="#_handmatig_herverpakken_met_de_interactieve_wizard_add_parts">Handmatig herverpakken met de interactieve wizard Add Parts</a>
   </li>
   <li level="1">
-   <a href="#_handmatig_opnieuw_verpakken_met_teczone">Handmatig opnieuw verpakken met TecZone</a>
+   <a href="#_handmatig_herverpakken_met_teczone">Handmatig herverpakken met TecZone</a>
   </li>
  </ul>
 </aside>

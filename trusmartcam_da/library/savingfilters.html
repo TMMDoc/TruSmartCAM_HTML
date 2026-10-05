@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Gem filtre</title>
+  <title>Gemning af filtre</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarekrav</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Understøttede filformater</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Forudsætninger</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Skift licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Tilføj/fjern maskine</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Opsæt værktøj</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Opsætning af klargøring</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurer brugere</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Sprog</a></li>
     <li>
@@ -48,13 +46,13 @@
      <a href="../configuration/addmaterial/index.html">Materiale</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Tilføj nyt materiale og plade</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksporter/Importer materiale</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksporter/importer materiale</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Erstat materiale</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Kortlæg materiale</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Kortlæg CAM-sider</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Kortlæg felter fra CAD (opslagnøgler)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Tilknyt materiale</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Tilknyt CAM-sider</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Tilknyt felter fra CAD (opslagsnøgler)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Brugergrænsefladen</a></li>
@@ -68,9 +66,9 @@
      <a href="open/index.html">Åbn</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="open/partimport.html">Importer dele</a></li>
-      <li><button class="tree blank"></button><a href="open/orderimport.html">Importer ordrer</a></li>
-      <li><button class="tree blank"></button><a href="open/jobimport.html">Importer jobs</a></li>
-      <li><button class="tree blank"></button><a href="open/assembliesimport.html">Importer samlinger</a></li>
+      <li><button class="tree blank"></button><a href="open/orderimport.html">Importer opgaver</a></li>
+      <li><button class="tree blank"></button><a href="open/jobimport.html">Importer job</a></li>
+      <li><button class="tree blank"></button><a href="open/assembliesimport.html">Importer monteringer</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="libraryview/index.html">Biblioteksvisning</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="libraryview/partview.html">Dele</a></li>
-      <li><button class="tree blank"></button><a href="libraryview/assemblyview.html">Samling</a></li>
+      <li><button class="tree blank"></button><a href="libraryview/assemblyview.html">Montering</a></li>
      </ul>
     </li>
     <li>
@@ -87,33 +85,33 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="partstate/partvalidation.html">Delvalidering</a></li>
       <li><button class="tree blank"></button><a href="partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="partstate/partfilters.html">Dele filtre</a></li>
+      <li><button class="tree blank"></button><a href="partstate/partfilters.html">Delfiltre</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="toolingstatus/index.html">Værktøjsstatus</a>
+     <a href="toolingstatus/index.html">Klargøringsstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="toolingstatus/toolingvalidation/index.html">Værktøjsvalidering</a>
+       <a href="toolingstatus/toolingvalidation/index.html">Klargøringsvalidering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="toolingstatus/toolingvalidation/bendtooling.html">Bukkeværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="toolingstatus/toolingvalidation/cuttooling.html">Skæreværktøjsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="toolingstatus/toolingvalidation/foldtooling.html">Foldeværktøjsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="toolingstatus/toolingvalidation/bendtooling.html">Validering af bukkeklargøring</a></li>
+        <li><button class="tree blank"></button><a href="toolingstatus/toolingvalidation/cuttooling.html">Validering af skæreklargøring</a></li>
+        <li><button class="tree blank"></button><a href="toolingstatus/toolingvalidation/foldtooling.html">Validering af falsklargøring</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="toolingstatus/toolingpanel.html">Værktøjspanel</a></li>
+      <li><button class="tree blank"></button><a href="toolingstatus/toolingpanel.html">Klargøringspanel</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a class="active" href="savingfilters.html">Gem filtre</a></li>
+    <li><button class="tree blank"></button><a class="active" href="savingfilters.html">Gemning af filtre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Ordrer</a>
+   <a href="../orders/index.html">Opgaver</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordrevisning</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Opgavevisning</a></li>
    </ul>
   </li>
   <li>
@@ -121,77 +119,59 @@
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Opret job</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job visning</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job panel</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Auto plan</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobvisning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobpanel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatisk planlægning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv indlejring</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Ompakning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Nest management</a>
+     <a href="../jobs/layoutcommands/index.html">Indlejringshåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout visning</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout panel</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Report sender</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layoutvisning</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportafsender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Restmaterialestyring</a>
+     <a href="../jobs/remnantmanagement/index.html">Resthåndtering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Auto restmaterialestyring</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuel restmaterialestyring</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisk resthåndtering</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuel resthåndtering</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twin-line indlejring</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Forældet</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job filtre</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobfiltre</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Ruter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plader</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Brugere</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigér</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Indstillinger</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Omgivelser</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bukning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skær</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifikationer</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Overvågning</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-udvidelser</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Gem dele</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Gem samling</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontroller gennemførlighed</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksindstillinger</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse forbedringer</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Virksomhedsoplysninger</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Firmaoplysninger</a></li>
  </ul>
 </div>
 
@@ -208,27 +188,27 @@
  </div>
  <div>/</div>
  <div>
-  <a href="savingfilters.html">Gem filtre</a>
+  <a href="savingfilters.html">Gemning af filtre</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Gem filtre</h1>
+                        <h1>Gemning af filtre</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Gemte filtre giver Dem mulighed for at genbruge hyppigt anvendte kriterier i Dele, Jobs
-og Layouts, hvilket strømliner Deres arbejdsgang. Hvert modul leveres med standardfiltre,
-men yderligere filterlister kan oprettes af Site Admins eller
-Programmører efter behov. Genbrug af gemte filtre sparer tid og hjælper med at opretholde
+<p>Gemte filtre giver dig mulighed for at genbruge ofte anvendte kriterier i Parts, Jobs
+og Layouts, hvilket strømliner din arbejdsgang. Hvert modul kommer med standard-
+filtre, men yderligere filterlister kan oprettes af Site Admins eller
+Programmers efter behov. Genbrug af gemte filtre sparer tid og hjælper med at bevare
 konsistens på tværs af søgninger.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Klik på <span class="image"><img src="img/menu.png" alt="menu" width="20"></span> ikonet for at se standardfiltrene.</p>
+<p>Klik på <span class="image"><img src="img/menu.png" alt="menu" width="20"></span>-ikonet for at se standardfiltrene.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/before.png" alt="Before" width="215">
@@ -245,7 +225,7 @@ konsistens på tværs af søgninger.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Klik på <span class="image"><img src="img/ficon.png" alt="ficon" width="20"></span> ikonet, vælg et filteremne.</p>
+<p>Klik på <span class="image"><img src="img/ficon.png" alt="ficon" width="20"></span>-ikonet, vælg et vilkårligt filterelement.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/selectfilter.png" alt="Select Filter" width="431">
@@ -253,7 +233,7 @@ konsistens på tværs af søgninger.</p>
 </div>
 </li>
 <li>
-<p>Fra rullemenuen for det valgte filteremne skal De vælge en indstilling. En markering
+<p>Fra rullemenuen for det valgte filterelement, vælg en mulighed. Et flueben
 vil vises ved siden af den valgte betingelse.</p>
 <div class="imageblock">
 <div class="content">
@@ -262,26 +242,16 @@ vil vises ved siden af den valgte betingelse.</p>
 </div>
 </li>
 <li>
-<p>For at anvende betingelsen skal De klikke på <span class="image"><img src="img/ficon.png" alt="ficon" width="20"></span> ikonet og derefter vælge
-<strong>Tilføj betingelse (Ctrl+PLUS)]</strong>. De kan gentage dette
+<p>For at anvende betingelsen, klik på <span class="image"><img src="img/ficon.png" alt="ficon" width="20"></span>-ikonet og vælg derefter
+<strong>Add Condition <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>+</kbd></span></strong>. Du kan gentage dette
 trin for at tilføje flere betingelser.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addcondition.png" alt="Add Condition" width="447">
-</div>
-</div>
 </li>
 <li>
-<p>For at gemme disse valgte filtre med betingelser skal De klikke på
-<strong>Gem filter&#8230;&#8203; (Ctrl+S)]</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/savefilter1.png" alt="Save Filter" width="561">
-</div>
-</div>
+<p>For at gemme disse valgte filtre med betingelser, klik på
+<strong>Save Filter&#8230;&#8203; <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>S</kbd></span></strong>.</p>
 </li>
 <li>
-<p>Indtast navnet og klik derefter på <strong>_Gem</strong>.</p>
+<p>Angiv navnet og klik derefter på <strong>Save</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/savedialoge.png" alt="Save Dialog" width="300">
@@ -289,12 +259,12 @@ trin for at tilføje flere betingelser.</p>
 </div>
 </li>
 <li>
-<p>Fra <strong>Gem filter</strong> dialogen kan De også slette alle
+<p>Fra <strong>Save Filter</strong>-dialogen kan du også slette eventuelle
 tidligere gemte filtre.</p>
 </li>
 <li>
-<p>Disse filtre vil blive gemt i standardfilterlisten. Her
-er <strong>Materiale</strong> gemt i standardlisten.</p>
+<p>Disse filtre gemmes i standardfilterlisten. Her
+gemmes <strong>Material</strong> til standardlisten.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/after.png" alt="After" width="179">
@@ -310,9 +280,9 @@ er <strong>Materiale</strong> gemt i standardlisten.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Filtre oprettet af SiteAdmin &amp; Admin deles på tværs af alle brugere.
-Filtre oprettet af Programmør &amp; Operatør deles kun med Programmør-
-og Operatør-brugerroller.
+Filtre oprettet af SiteAdmin og Admin deles på tværs af alle brugere.
+Filtre oprettet af Programmer og Operator deles kun med brugerrollerne Programmers
+og Operators.
 </td>
 </tr>
 </table>
@@ -342,26 +312,26 @@ og Operatør-brugerroller.
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Clear Selection</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/clear.png" alt="Clear" width="16"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>X</kbd></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Fravælger alle valgte muligheder og opdaterer filteremnevisningen.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fravælger alle valgte valg og opdaterer visningen af filterelementer.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Select Highlighted</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/checked.png" alt="Highlighted" width="16"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>A</kbd></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vælger alle fremhævede muligheder. Denne kommando forbliver deaktiveret, hvis emne-
-fremhævning ikke er relevant for det valgte felt.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vælger alle fremhævede valg. Denne kommando forbliver deaktiveret, hvis element-
+fremhævning ikke er anvendelig for det valgte felt.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Match All</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/and.png" alt="Match All" width="16"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><kbd>&amp;</kbd></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Viser kun emner, der opfylder alle valgte betingelser.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Viser kun elementer, der opfylder alle valgte betingelser.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Pin In/Out Menu</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/pin-out.png" alt="Pin out" width="16"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Down/Up</kbd></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Når fastgjort forbliver rullemenuen åben, selv når det aktuelle fokus flyttes
+<td class="tableblock halign-left valign-top"><p class="tableblock">Når fastgjort, forbliver rullemenuen åben, selv når det aktuelle fokus flyttes
 til et andet vindue.</p></td>
 </tr>
 <tr>
@@ -393,8 +363,8 @@ til et andet vindue.</p></td>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="toolingstatus/toolingpanel.html">Værktøjspanel</a></span>
- <span class="next"><a href="../orders/index.html">Ordrer</a></span>
+ <span class="prev"><a href="toolingstatus/toolingpanel.html">Klargøringspanel</a></span>
+ <span class="next"><a href="../orders/index.html">Opgaver</a></span>
 </nav>
 
         </div>

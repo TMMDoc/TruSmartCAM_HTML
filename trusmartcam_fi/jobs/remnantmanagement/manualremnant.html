@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Manuaalinen jäännösarkkien hallinta</title>
+  <title>Manuaalinen jäännöslevyjen hallinta</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Avaa</a>
+     <a href="../../library/open/index.html">Avaaminen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../../library/libraryview/index.html">Kirjastonäkymä</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../../library/partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Työkalutila</a>
+     <a href="../../library/toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../layoutcommands/index.html">Sisäkkäisyyden hallinta</a>
+     <a href="../layoutcommands/index.html">Nestauksen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Jäännösarkkien hallinta</a>
+     <a href="index.html">Jäännöslevyjen hallinta</a>
      <ul>
-      <li><button class="tree blank"></button><a href="autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a class="active" href="manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a class="active" href="manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -208,29 +188,29 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Jäännösarkkien hallinta</a>
+  <a href="index.html">Jäännöslevyjen hallinta</a>
  </div>
  <div>/</div>
  <div>
-  <a href="manualremnant.html">Manuaalinen jäännösarkkien hallinta</a>
+  <a href="manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Manuaalinen jäännösarkkien hallinta</h1>
+                        <h1>Manuaalinen jäännöslevyjen hallinta</h1>
 <div class="sect1">
-<h2 id="_määritä_manuaalinen_jäännösarkki">Määritä manuaalinen jäännösarkki</h2>
+<h2 id="_määritä_manuaalinen_jäännöslevy">Määritä manuaalinen jäännöslevy</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta <strong>tehdas</strong> &#8594; <strong>asetukset</strong> &#8594;
-<strong>Työ</strong>.</p>
+<p>Napsauta <strong>Factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong>.</p>
 </li>
 <li>
-<p>Valitse <strong>Päivitä levyvarasto nestauksen vapautuksen (vapautuksen poistamisen) jälkeen</strong>.</p>
+<p>Valitse <strong>Update sheet inventory on nest (un)release</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/manualremnant.png" alt="Update sheet inventory" width="736">
@@ -240,24 +220,25 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>Tämä varmistaa, että jäännöksä seurataan ja päivitetään arkkivarastossa
-aina kun sisäkkäisyys on valmistunut tai vapautettu.</p>
+<p>Tämä varmistaa, että jäännökset seurataan ja päivitetään levyvarastoon aina, kun
+nestaus valmistuu tai vapautetaan.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_manuaalinen_jäännösarkki_työstä">Manuaalinen jäännösarkki työstä</h2>
+<h2 id="_manuaalinen_jäännöslevy_työstä">Manuaalinen jäännöslevy työstä</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta hiiren oikealla painikkeella valmiiksi merkittyä asettelua (asettelu vihreällä valintamerkillä).</p>
+<p>Napsauta valmiiksi merkittyä sijoittelua (sijoittelu, jossa on vihreä
+rastimerkki) hiiren oikealla painikkeella.</p>
 </li>
 <li>
-<p>Napsauta <strong>Lisää jäännöslevyihin&#8230;&#8203;</strong> -vaihtoehtoa.</p>
+<p>Napsauta <strong>Adds to Remnants</strong> -vaihtoehtoa.</p>
 </li>
 <li>
-<p>Nyt jäännösarkki lisätään manuaalisesti arkkitietokantaan.</p>
+<p>Nyt jäännöslevy lisätään manuaalisesti levytietokantaan.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/manualremnantjob.png" alt="Add to remnant" width="725">
@@ -269,20 +250,20 @@ aina kun sisäkkäisyys on valmistunut tai vapautettu.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_manuaalinen_jäännösarkki_työn_sisäkkäisyydestä">Manuaalinen jäännösarkki työn sisäkkäisyydestä</h2>
+<h2 id="_manuaalinen_jäännöslevy_työn_nestauksesta">Manuaalinen jäännöslevy työn nestauksesta</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Vaihda <strong>Työ</strong> &#8594; Sisäkkäisyydet-sivulle. Käytä <strong>Suodattimet</strong>
-ja valitse <strong>Tila</strong>.</p>
+<p>Siirry kohtaan <strong>JOB</strong> &#8594; Nests-sivu. Käytä
+<strong>Filters</strong> ja valitse <strong>State</strong>.</p>
 </li>
 <li>
-<p>Valitse Valmistunut näyttääksesi kaikki valmiit asettelut.</p>
+<p>Valitse Completed näyttääksesi kaikki valmiit sijoittelut.</p>
 </li>
 <li>
-<p>Napsauta hiiren oikealla painikkeella asettelua, jolle manuaalinen jäännösarkki on luotava, ja napsauta
-<strong>Lisää jäännöslevyihin&#8230;&#8203;</strong>.</p>
+<p>Napsauta hiiren oikealla painikkeella sijoittelua, jolle manuaalinen
+jäännös on luotava, ja napsauta <strong>Adds to Remnants</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/manualremnest.png" alt="Search by state" width="1137">
@@ -294,31 +275,26 @@ ja valitse <strong>Tila</strong>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_poista_jäännösarkit">Poista jäännösarkit</h2>
+<h2 id="_poista_jäännökset">Poista jäännökset</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Jos manuaalisesti luotu jäännösarkki on vaurioitunut tai kadonnut, voit poistaa sen
-arkkivarastosta poistamatta sitä suoraan.</p>
+<p>Jos manuaalisesti luotu jäännöslevy vahingoittuu tai katoaa, voit poistaa sen
+levyvarastosta poistamatta sitä suoraan.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta hiiren oikealla painikkeella jäännösarkkia, jonka haluat poistaa.</p>
+<p>Napsauta hiiren oikealla painikkeella jäännöslevyä, jonka haluat poistaa.</p>
 </li>
 <li>
-<p>Napsauta <strong>Poista jäännöslevyistä&#8230;&#8203;</strong> -vaihtoehtoa.</p>
+<p>Napsauta <strong>Remove from Remnants&#8230;&#8203;</strong> -vaihtoehtoa.</p>
 </li>
 <li>
-<p>Jäännösarkki poistetaan arkkitietokannasta.</p>
+<p>Jäännöslevy poistetaan levytietokannasta.</p>
 </li>
 <li>
-<p>Osittain varjostettu neliökuvake, joka osoittaa, että jäännösarkki on
-luotu, tyhjennetään myös, kun jäännös poistetaan.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/removeremnant.png" alt="Remove from Remnants" width="743">
-</div>
-</div>
+<p>Osittain varjostettu neliökuvake, joka osoittaa jäännöslevyn luomisen,
+tyhjennetään myös, kun jäännös poistetaan.</p>
 </li>
 </ul>
 </div>
@@ -329,8 +305,9 @@ luotu, tyhjennetään myös, kun jäännös poistetaan.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Jäännösarkkeja (luotu automaattisesti/manuaalisesti) käytetään korkealla prioriteetilla
-automaattisen sisäkkäisyyssuunnitelman tai interaktiivisen sisäkkäisyyssuunnitelman aikana.
+Jäännöslevyjä (luotu automaattisesti tai manuaalisesti) käytetään
+korkealla prioriteetilla automaattisen nestaussuunnitelman tai interaktiivisen
+nestaussuunnitelman aikana.
 </td>
 </tr>
 </table>
@@ -345,16 +322,16 @@ automaattisen sisäkkäisyyssuunnitelman tai interaktiivisen sisäkkäisyyssuunn
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_määritä_manuaalinen_jäännösarkki">Määritä manuaalinen jäännösarkki</a>
+   <a href="#_määritä_manuaalinen_jäännöslevy">Määritä manuaalinen jäännöslevy</a>
   </li>
   <li level="1">
-   <a href="#_manuaalinen_jäännösarkki_työstä">Manuaalinen jäännösarkki työstä</a>
+   <a href="#_manuaalinen_jäännöslevy_työstä">Manuaalinen jäännöslevy työstä</a>
   </li>
   <li level="1">
-   <a href="#_manuaalinen_jäännösarkki_työn_sisäkkäisyydestä">Manuaalinen jäännösarkki työn sisäkkäisyydestä</a>
+   <a href="#_manuaalinen_jäännöslevy_työn_nestauksesta">Manuaalinen jäännöslevy työn nestauksesta</a>
   </li>
   <li level="1">
-   <a href="#_poista_jäännösarkit">Poista jäännösarkit</a>
+   <a href="#_poista_jäännökset">Poista jäännökset</a>
   </li>
  </ul>
 </aside>
@@ -362,8 +339,8 @@ automaattisen sisäkkäisyyssuunnitelman tai interaktiivisen sisäkkäisyyssuunn
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="autoremnant.html">Automaattinen jäännösarkkien hallinta</a></span>
- <span class="next"><a href="../twinlinenesting.html">Twinline-sisäkkäisyys</a></span>
+ <span class="prev"><a href="autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></span>
+ <span class="next"><a href="../twinlinenesting.html">TwinLine-nestaus</a></span>
 </nav>
 
         </div>

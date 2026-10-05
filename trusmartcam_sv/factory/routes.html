@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Routes</title>
+  <title>Rutter</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../library/open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Biblioteksvy</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Delstatus</a>
+     <a href="../library/partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Verktygsstatus</a>
+     <a href="../library/toolingstatus/index.html">Tooling-status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Ordrar</a>
+   <a href="../orders/index.html">Order</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Jobb</a>
+   <a href="../jobs/index.html">Job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Häckhantering</a>
+     <a href="../jobs/layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Resthantering</a>
+     <a href="../jobs/remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Factory</a>
+   <a href="index.html">Fabrik</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a class="active" href="routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="settings/index.html">Settings</a>
+     <a href="settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -204,24 +184,24 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Factory</a>
+  <a href="index.html">Fabrik</a>
  </div>
  <div>/</div>
  <div>
-  <a href="routes.html">Routes</a>
+  <a href="routes.html">Rutter</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Routes</h1>
+                        <h1>Rutter</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Baserat på er licens kommer TruSmartCAM att ha en standarduppsättning av CAM-maskiner och
-routingkonfigurationer. Ni kan anpassa dessa konfigurationer för att passa era
-specifika tillverkningsarbetsflöden.</p>
+<p>Baserat på din licens kommer TruSmartCAM att ha en standarduppsättning av CAM-maskiner och
+ruttkonfigurationer. Du kan anpassa dessa konfigurationer så att de passar dina
+specifika tillverkningsflöden.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -229,43 +209,39 @@ specifika tillverkningsarbetsflöden.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>På routes-sidan representeras maskiner som bearbetningsstationer, var och en
+<p>På ruttsidan representeras maskiner som bearbetningsstationer, var och en
 identifierad med en bild och ett namn.</p>
 </div>
 <div class="paragraph">
-<p>Routes kopplar samman stationerna och visar de möjliga arbetsflödesvägar en del kan
-följa från start till slut. Ni kan visa stationsegenskaper genom att hålla muspekaren över en
+<p>Rutter förbinder stationerna och visar de möjliga arbetsflödesvägar en detalj kan
+följa från början till slut. Du kan visa stationsegenskaper genom att hålla muspekaren över en
 station.</p>
 </div>
 <div class="paragraph">
-<p>Att klicka på en station öppnar en panel med detaljerad information om den
-stationen, inklusive dess namn, typ och tillgänglighetsstatus.</p>
+<p>När du klickar på en station öppnas en panel med detaljerad information om den
+stationen, inklusive namn, typ och tillgänglighetsstatus.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>För att redigera stationstillgänglighet, klicka på stationen och
-växla kryssrutan <strong>_Aktiverad</strong> i panelen.</p>
+<p>För att redigera stationens tillgänglighet, klicka på stationen och
+växla kryssrutan <strong>Enabled</strong> i panelen.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_exportimport_routing_configurations">Export/Import routing configurations</h2>
+<h2 id="_exporteraimportera_ruttkonfigurationer">Exportera/importera ruttkonfigurationer</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Funktionen <strong>Export/Import</strong> låter användare spara sina nuvarande routingkonfigurationer och tillämpa dem på andra projekt eller instanser.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/export.png" alt="Export" width="335">
-</div>
+<p>Funktionen <strong>Export/Import</strong> låter användare spara sina aktuella
+ruttkonfigurationer och tillämpa dem på andra projekt eller instanser.</p>
 </div>
 <div class="sect2">
-<h3 id="_export_cad_routes">Export CAD routes</h3>
+<h3 id="_exportera_cad_rutter">Exportera CAD-rutter</h3>
 <div class="paragraph">
-<p>Klicka på <strong>Export CAD routes&#8230;&#8203;</strong> för att spara alla nuvarande route condition-regler till en CSV-fil.</p>
+<p>Klicka på <strong>Export CAD routes&#8230;&#8203;</strong> för att spara alla aktuella ruttvillkorsregler till en CSV-fil.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -273,18 +249,18 @@ växla kryssrutan <strong>_Aktiverad</strong> i panelen.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>CSV-filen listar material och deras routingvillkor.
-Kolumner representerar maskinnamn och villkor (t.ex. Material, SpecialTool, HasBend, MaxBendLength).
-Ett värde på 1 indikerar routing till en maskin; en tom cell innebär ingen routing.</p>
+<p>CSV-filen listar material och deras ruttvillkor.
+Kolumnerna representerar maskinnamn och villkor (t.ex. Material, SpecialTool, HasBend, MaxBendLength).
+Värdet 1 anger routing till en maskin; en tom cell betyder ingen routing.</p>
 </div>
 <div class="paragraph">
-<p>Ni kan modifiera denna CSV-fil och återimportera den till systemet.</p>
+<p>Du kan ändra denna CSV-fil och återimportera den till systemet.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_import_cad_routes">Import CAD routes</h3>
+<h3 id="_importera_cad_rutter">Importera CAD-rutter</h3>
 <div class="paragraph">
-<p>Använd <strong>Import CAD routes&#8230;&#8203;</strong> för att tillämpa en modifierad CSV-fil.</p>
+<p>Använd <strong>Import CAD routes&#8230;&#8203;</strong> för att tillämpa en ändrad CSV-fil.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -293,13 +269,13 @@ Ett värde på 1 indikerar routing till en maskin; en tom cell innebär ingen ro
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Innan import, kör <strong>Reset CAD routes</strong> för att rensa befintliga konfigurationer.
+Innan du importerar, kör <strong>Reset CAD routes</strong> för att rensa befintliga konfigurationer.
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Systemet läser filen och uppdaterar route conditions. Regler kan inkludera
+<p>Systemet läser filen och uppdaterar ruttvillkor. Regler kan innehålla
 villkor som HasBend och MaxBendLength.</p>
 </div>
 <div class="imageblock">
@@ -308,32 +284,23 @@ villkor som HasBend och MaxBendLength.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Om <code>HasBend = 1</code>, gäller regeln för delar med bockningar.<br>
-Om <code>MaxBendLength =1</code>, begränsar regeln ytterligare baserat på delens längsta bockningslängd.</p>
+<p>Om <code>HasBend = 1</code> gäller regeln för detaljer med bockningar.<br>
+Om <code>MaxBendLength =1</code> begränsar regeln ytterligare baserat på detaljens längsta bockningslängd.</p>
 </div>
 <div class="paragraph">
 <div class="title">Exempel 1</div>
-<p>Del 00.13 har en längsta bockning på 500 mm. Den matchar första regeln, så TBC-5030-V2 utesluts.</p>
+<p>Detalj 00.13 har en längsta bockning på 500 mm. Den matchar den första regeln, så TBC-5030-V2 exkluderas.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="img/supressed.png" alt="Suppressed" width="580">
 </div>
 </div>
-<div class="paragraph">
-<div class="title">Exempel 2</div>
-<p>Del 00.20 har en längsta bockning på 600 mm. Den matchar inte första regeln och följer andra regeln, routing till alla maskiner.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/notsupressed.png" alt="Not Suppressed" width="573">
-</div>
-</div>
 </div>
 <div class="sect2">
-<h3 id="_reset_cad_routes">Reset CAD routes</h3>
+<h3 id="_återställ_cad_rutter">Återställ CAD-rutter</h3>
 <div class="paragraph">
-<p>Använd <strong>Reset CAD routes</strong> för att rensa alla befintliga konfigurationer innan import av en ny CSV-fil.</p>
+<p>Använd <strong>Reset CAD routes</strong> för att rensa alla befintliga konfigurationer innan du importerar en ny CSV.</p>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -342,7 +309,7 @@ Om <code>MaxBendLength =1</code>, begränsar regeln ytterligare baserat på dele
 <i class="fa icon-warning" title="Warning"></i>
 </td>
 <td class="content">
-Om ni importerar utan att återställa kan gamla regler komma i konflikt med nya.
+Om du importerar utan att återställa kan gamla regler komma i konflikt med nya.
 </td>
 </tr>
 </table>
@@ -358,16 +325,16 @@ Om ni importerar utan att återställa kan gamla regler komma i konflikt med nya
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_exportimport_routing_configurations">Export/Import routing configurations</a>
+   <a href="#_exporteraimportera_ruttkonfigurationer">Exportera/importera ruttkonfigurationer</a>
   </li>
   <li level="2">
-   <a href="#_export_cad_routes">Export CAD routes</a>
+   <a href="#_exportera_cad_rutter">Exportera CAD-rutter</a>
   </li>
   <li level="2">
-   <a href="#_import_cad_routes">Import CAD routes</a>
+   <a href="#_importera_cad_rutter">Importera CAD-rutter</a>
   </li>
   <li level="2">
-   <a href="#_reset_cad_routes">Reset CAD routes</a>
+   <a href="#_återställ_cad_rutter">Återställ CAD-rutter</a>
   </li>
  </ul>
 </aside>
@@ -375,8 +342,8 @@ Om ni importerar utan att återställa kan gamla regler komma i konflikt med nya
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Factory</a></span>
- <span class="next"><a href="sheets.html">Sheets</a></span>
+ <span class="prev"><a href="index.html">Fabrik</a></span>
+ <span class="next"><a href="sheets.html">Plåtar</a></span>
 </nav>
 
         </div>

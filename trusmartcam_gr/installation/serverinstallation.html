@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Εγκατάσταση Server</title>
+  <title>Εγκατάσταση διακομιστή</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../index.html">Καλώς ήρθατε στο TruSmartCAM</a></li>
+  <li><button class="tree blank"></button><a href="../index.html">Καλώς ορίσατε στο TruSmartCAM</a></li>
   <li>
    <button class="tree open"></button>
    <a href="index.html">Εγκατάσταση</a>
    <ul>
     <li><button class="tree blank"></button><a href="hardwarerequirement.html">Απαιτήσεις υλικού</a></li>
     <li><button class="tree blank"></button><a href="importformats.html">Υποστηριζόμενες μορφές αρχείων</a></li>
-    <li><button class="tree blank"></button><a href="prerequisites.html">Προαπαιτούμενα</a></li>
-    <li><button class="tree blank"></button><a class="active" href="serverinstallation.html">Εγκατάσταση Server</a></li>
-    <li><button class="tree blank"></button><a href="clientinstallation.html">Εγκατάσταση Client</a></li>
-    <li><button class="tree blank"></button><a href="changelic.html">Αλλαγή άδειας χρήσης</a></li>
+    <li><button class="tree blank"></button><a class="active" href="serverinstallation.html">Εγκατάσταση διακομιστή</a></li>
+    <li><button class="tree blank"></button><a href="clientinstallation.html">Εγκατάσταση πελάτη</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../configuration/index.html">Ρύθμιση Παραμέτρων</a>
+   <a href="../configuration/index.html">Διαμόρφωση</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Προσθήκη/Αφαίρεση μηχανής</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Ρύθμιση εργαλείων</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Διαμόρφωση εξοπλισμού</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Διαμόρφωση χρηστών</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Γλώσσα</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../configuration/addmaterial/index.html">Υλικό</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Προσθήκη νέου υλικού και φύλλου</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Προσθήκη νέου υλικού και μεταλλικής πλάκας</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Εξαγωγή/Εισαγωγή υλικού</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Αντικατάσταση υλικού</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Αντιστοίχιση υλικού</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Αντιστοίχιση σελίδων CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Αντιστοίχιση πεδίων από CAD (κλειδιά αναζήτησης)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Χαρτογράφηση υλικού</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Χαρτογράφηση σελίδων CAM</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Χαρτογράφηση πεδίων από CAD (κλειδιά αναζήτησης)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Η διεπαφή χρήστη</a></li>
@@ -65,45 +63,45 @@
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Open</a>
+     <a href="../library/open/index.html">Άνοιγμα</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Εισαγωγή parts</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Εισαγωγή εξαρτημάτων</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Εισαγωγή παραγγελιών</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Εισαγωγή jobs</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Εισαγωγή εργασιών</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Εισαγωγή συγκροτημάτων</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Προβολή βιβλιοθήκης</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Εξαρτήματα</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Συγκρότημα</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Κατάσταση part</a>
+     <a href="../library/partstate/index.html">Κατάσταση εξαρτήματος</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Επικύρωση part</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Πίνακας part</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Φίλτρα part</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Επικύρωση εξαρτήματος</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Πίνακας εξαρτήματος</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Φίλτρα εξαρτημάτων</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Κατάσταση tooling</a>
+     <a href="../library/toolingstatus/index.html">Κατάσταση εξοπλισμού</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Επικύρωση tooling</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Επικύρωση εξοπλισμού</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Επικύρωση bend tooling</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Επικύρωση cut tooling</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Επικύρωση fold tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Επικύρωση εξοπλισμού κάμψης</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Επικύρωση εξοπλισμού κοπής</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Επικύρωση εξοπλισμού δίπλωσης</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Πίνακας tooling</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Πίνακας εξοπλισμού</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Αποθήκευση φίλτρων</a></li>
@@ -121,18 +119,18 @@
    <a href="../jobs/index.html">Εργασίες</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Δημιουργία εργασίας</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Προβολή εργασίας</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Πίνακας εργασίας</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Προβολή εργασιών</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Πίνακας εργασιών</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Αυτόματος σχεδιασμός</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Διαδραστική τοποθέτηση</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Διαδραστική κατανομή</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Επανασυσκευασία</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Διαχείριση τοποθέτησης</a>
+     <a href="../jobs/layoutcommands/index.html">Διαχείριση κατανομών</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Προβολή διάταξης</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Πίνακας διάταξης</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Αποστολέας αναφοράς</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Αποστολή αναφορών</a></li>
      </ul>
     </li>
     <li>
@@ -143,55 +141,37 @@
       <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Χειροκίνητη διαχείριση υπολειμμάτων</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Τοποθέτηση διπλής γραμμής</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Μη ενημερωμένο</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Φίλτρα εργασίας</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Κατανομή διπλής γραμμής</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Παρωχημένο</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Φίλτρα εργασιών</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Εργοστάσιο</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Διαδρομές</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Μεταλλικές πλάκες</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Χρήστες</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Επεξεργασία</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Πελάτες</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Ρυθμίσεις</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Περιβάλλον</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Εισαγωγή</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Κάμψη</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Κοπή</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ειδοποιήσεις</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Επιτήρηση</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Εργασία</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Αναφορές</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Επεκτάσεις CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Εγκατάσταση</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Αποθήκευση εξαρτημάτων</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Αποθήκευση συναρμολόγησης</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Έλεγχος σκοπιμότητας</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ρυθμίσεις εργοστασίου</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Διάφορες βελτιώσεις</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Εταιρικές πληροφορίες</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Πληροφορίες εταιρείας</a></li>
  </ul>
 </div>
 
@@ -208,18 +188,18 @@
  </div>
  <div>/</div>
  <div>
-  <a href="serverinstallation.html">Εγκατάσταση Server</a>
+  <a href="serverinstallation.html">Εγκατάσταση διακομιστή</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Εγκατάσταση Server</h1>
+                        <h1>Εγκατάσταση διακομιστή</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ακολουθήστε τις οδηγίες για να εγκαταστήσετε τον TruSmartCAM Server μαζί με το
+<p>Ακολουθήστε τις οδηγίες για να εγκαταστήσετε τον διακομιστή TruSmartCAM μαζί με
 SQL.</p>
 </div>
 <div class="admonitionblock important">
@@ -229,9 +209,9 @@ SQL.</p>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-<div class="title">Δικαιώματα Διαχειριστή</div>
+<div class="title">Δικαιώματα διαχειριστή</div>
 <div class="paragraph">
-<p><strong>Για την εκτέλεση αυτής της εγκατάστασης, ο χρήστης πρέπει να έχει δικαιώματα διαχειριστή.</strong></p>
+<p><strong>Για την εκτέλεση αυτής της εγκατάστασης, ο χρήστης πρέπει να διαθέτει δικαιώματα διαχειριστή.</strong></p>
 </div>
 </td>
 </tr>
@@ -251,7 +231,7 @@ SQL.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Το Version είναι ένας αριθμός.
+Η έκδοση είναι ένας αριθμός.
 </td>
 </tr>
 </table>
@@ -259,36 +239,33 @@ SQL.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Διαβάστε τη συμφωνία άδειας χρήσης και επιλέξτε <strong>I accept the agreement</strong> και στη συνέχεια Κάντε κλικ στο
-Επόμενο
-.</p>
+<p>Διαβάστε τη σύμβαση άδειας χρήσης και επιλέξτε <strong>I accept the agreement</strong> και στη συνέχεια κάντε κλικ
+στο <strong>Next</strong>.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s02praxislicenseagreement.png" alt="Praxis License Agreement">
+<img src="img/s02praxislicenseagreement.png" alt="Σύμβαση άδειας χρήσης Praxis">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_1_τοποθεσία_εγκατάστασης">Βήμα 1 : Τοποθεσία Εγκατάστασης</h2>
+<h2 id="_βήμα_1_θέση_εγκατάστασης">Βήμα 1 : Θέση εγκατάστασης</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Αναφέρετε τον κατάλογο εγκατάστασης ή αποδεχτείτε την προεπιλογή εγκατάστασης
-<code>C:\Program Files\Metamation\Praxis</code> και κάντε κλικ στο Επόμενο.</p>
+<p>Ορίστε τον κατάλογο εγκατάστασης ή αποδεχτείτε την προεπιλεγμένη θέση εγκατάστασης <code>C:\Program Files\TRUMPF\TMM\Praxis</code> και κάντε κλικ στο <strong>Next</strong>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>C:\Program Files\Metamation\Praxis</code> - Ο φάκελος εγκατάστασης θα έχει τους ακόλουθους
+<p><code>C:\Program Files\TRUMPF\TMM\Praxis</code> - Ο φάκελος εγκατάστασης θα περιέχει τους εξής
 φακέλους : Bin, MetaCAM, Samples και Tracker.</p>
 </li>
 <li>
-<p><code>C:\Program Data\Metamation</code> - Ο φάκελος δεδομένων θα έχει τους ακόλουθους φακέλους :
-TruSmartCAM, TecZone και MetaCAM.</p>
+<p><code>C:\ProgramData\TRUMPF\TMM\Praxis</code> - Ο φάκελος δεδομένων θα περιέχει τους εξής φακέλους : TruSmartCAM, TecZone και MetaCAM.</p>
 </li>
 </ul>
 </div>
@@ -297,13 +274,13 @@ TruSmartCAM, TecZone και MetaCAM.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s03installationpath.png" alt="Installation Path">
+<img src="img/s03installationpath.png" alt="Διαδρομή εγκατάστασης">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_2_επιλογή_στοιχείων">Βήμα 2 : Επιλογή Στοιχείων</h2>
+<h2 id="_βήμα_2_επιλογή_στοιχείων">Βήμα 2 : Επιλογή στοιχείων</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all fit-content">
 <colgroup>
@@ -312,7 +289,7 @@ TruSmartCAM, TecZone και MetaCAM.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Τύπος Εγκατάστασης</th>
+<th class="tableblock halign-left valign-top">Τύπος εγκατάστασης</th>
 <th class="tableblock halign-left valign-top">Στοιχεία</th>
 </tr>
 </thead>
@@ -331,12 +308,12 @@ TruSmartCAM, TecZone και MetaCAM.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Station</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Επιλέγει όλα τα Stations Terminal όπως TecZone, MetaCAM, RightAngle(Bend Controller),
+<td class="tableblock halign-left valign-top"><p class="tableblock">Επιλέγει όλα τα τερματικά σταθμών όπως TecZone, MetaCAM, RightAngle(Bend Controller),
 Vulcan(Laser Machine Controller)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Custom</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Επιλέγεται από την επιλογή του χρήστη.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Επιλέγει με βάση την επιλογή του χρήστη.</p></td>
 </tr>
 </tbody>
 </table>
@@ -344,20 +321,20 @@ Vulcan(Laser Machine Controller)</p></td>
 <ul>
 <li>
 <p>Επιλέξτε Full Installation. Επιλέξτε <strong>Code Senders</strong> και <strong>Bend Code Senders</strong> από τα
-TruSmartCAM Tools. Τώρα ο Τύπος Εγκατάστασης αλλάζει σε <strong>Προσαρμοσμένο</strong>. Κάντε κλικ στο
-Επόμενο.</p>
+Εργαλεία TruSmartCAM. Τώρα ο τύπος εγκατάστασης αλλάζει σε <strong>Custom</strong>. Κάντε κλικ στο
+<strong>Next</strong>.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s04serverinstallation.png" alt="Server Installation">
+<img src="img/s04serverinstallation.png" alt="Εγκατάσταση διακομιστή">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_3_επιλογή_εγκατάστασης_sql_server">Βήμα 3 : Επιλογή Εγκατάστασης SQL Server</h2>
+<h2 id="_βήμα_3_επιλογή_εγκατάστασης_sql_server">Βήμα 3 : Επιλογή εγκατάστασης SQL Server</h2>
 <div class="sectionbody">
 <div class="admonitionblock important">
 <table>
@@ -367,10 +344,10 @@ TruSmartCAM Tools. Τώρα ο Τύπος Εγκατάστασης αλλάζε�
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Η εγκατάσταση του SQL Express 2022 απαιτείται μόνο για τον TruSmartCAM Server.  Αυτή η
-επιλογή δεν είναι διαθέσιμη για εγκαταστάσεις Client και Sync.  Επίσης αυτό είναι
-Επιλεγμένο και εγκαθίσταται για πρώτη φορά και μπορεί να αγνοηθεί στη συνέχεια. Εάν
-έχει ήδη εγκατασταθεί το SQL στον TruSmartCAM server, ο χρήστης μπορεί να αγνοήσει το Βήμα 3.</p>
+<p>Η εγκατάσταση SQL Express 2022 χρειάζεται μόνο για τον διακομιστή TruSmartCAM. Αυτή η
+επιλογή δεν είναι διαθέσιμη για τις εγκαταστάσεις Πελάτη και Sync. Επίσης, είναι
+ενεργοποιημένη και εγκαθίσταται την πρώτη φορά και μπορεί να αγνοηθεί έκτοτε. Εάν
+το SQL είναι ήδη εγκατεστημένο στον διακομιστή TruSmartCAM, ο χρήστης μπορεί να αγνοήσει το Βήμα 3.</p>
 </div>
 </td>
 </tr>
@@ -379,17 +356,17 @@ TruSmartCAM Tools. Τώρα ο Τύπος Εγκατάστασης αλλάζε�
 <div class="ulist">
 <ul>
 <li>
-<p>Στο Select Additional Tasks : Κάντε κλικ στο <strong>Install SQL Express</strong> και Κάντε κλικ στο
-Επόμενο.</p>
+<p>Στο Select Additional Tasks : Κάντε κλικ στο <strong>Install SQL Express</strong> και κάντε κλικ
+Next.</p>
 </li>
 <li>
-<p>Στο Ready to Install : Συνοψίστε όλες τις λειτουργίες εγκατάστασης και Κάντε κλικ στο Install.</p>
+<p>Στο Ready to Install : Συνοψίστε όλα τα χαρακτηριστικά εγκατάστασης και κάντε κλικ στο Install.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s05sqlinstall.png" alt="Install SQL">
+<img src="img/s05sqlinstall.png" alt="Εγκατάσταση SQL">
 </div>
 </div>
 </div>
@@ -398,21 +375,21 @@ TruSmartCAM Tools. Τώρα ο Τύπος Εγκατάστασης αλλάζε�
 <h2 id="_βήμα_4_εγκατάσταση_sql_server">Βήμα 4 : Εγκατάσταση SQL Server</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Μόλις εγκατασταθούν τα στοιχεία του TruSmartCAM, ο installer προχωρά στην εγκατάσταση του SQL
-server. Αποδεχτείτε τη Συμφωνία Άδειας Χρήσης για να συνεχίσετε και εγκαταστήστε το SQL
-express με τις προεπιλεγμένες επιλογές.</p>
+<p>Μόλις εγκατασταθούν τα στοιχεία TruSmartCAM, το πρόγραμμα εγκατάστασης συνεχίζει με την
+εγκατάσταση του SQL server. Αποδεχτείτε τη σύμβαση άδειας χρήσης για να συνεχίσετε και
+εγκαταστήστε το SQL express με τις προεπιλεγμένες επιλογές.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s06sqlserver.png" alt="SQLServer Install">
+<img src="img/s06sqlserver.png" alt="Εγκατάσταση SQL Server">
 </div>
 </div>
 <div class="paragraph">
-<p>Μόλις ολοκληρωθεί η εγκατάσταση, Κάντε κλικ στο Close και ολοκληρώστε την εγκατάσταση.</p>
+<p>Μόλις ολοκληρωθεί η εγκατάσταση, κάντε κλικ στο Close και ολοκληρώστε την εγκατάσταση.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s07sqlservercomplete.png" alt="SQL Server Complete">
+<img src="img/s07sqlservercomplete.png" alt="Ολοκλήρωση SQL Server">
 </div>
 </div>
 <div class="admonitionblock note">
@@ -422,8 +399,8 @@ express με τις προεπιλεγμένες επιλογές.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Ανάλογα με την έκδοση των Windows, το κλείσιμο της εγκατάστασης του SQL μπορεί να ζητήσει
-επανεκκίνηση.
+Ανάλογα με την έκδοση των Windows, το κλείσιμο της εγκατάστασης SQL μπορεί να
+ζητήσει επανεκκίνηση.
 </td>
 </tr>
 </table>
@@ -431,17 +408,17 @@ express με τις προεπιλεγμένες επιλογές.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_5_συντομεύσεις_στην_επιφάνεια_εργασίας_των_windows">Βήμα 5 : Συντομεύσεις στην Επιφάνεια Εργασίας των Windows</h2>
+<h2 id="_βήμα_5_συντομεύσεις_επιφάνειας_εργασίας_windows">Βήμα 5 : Συντομεύσεις επιφάνειας εργασίας Windows</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Μετά την εγκατάσταση του SQL, εάν το Σύστημα δεν επανεκκινηθεί, τότε επιλέξτε το πλαίσιο ελέγχου <strong>Launch TruSmartCAM</strong>
-και Κάντε κλικ στο <strong>Finish</strong>.</p>
+<p>Μετά την εγκατάσταση SQL, εάν το σύστημα δεν επανεκκινηθεί, τότε επιλέξτε το πλαίσιο ελέγχου <strong>Launch TruSmartCAM</strong>
+και κάντε κλικ στο <strong>Finish</strong>.</p>
 </li>
 <li>
-<p>Εάν το Σύστημα επανεκκινηθεί, τότε Εκκινήστε το εικονίδιο συντόμευσης TruSmartCAM στην Επιφάνεια Εργασίας ή πληκτρολογήστε
-TruSmartCAM στο Windows Start Program και <strong>Εκτελέστε ως διαχειριστής</strong>.</p>
+<p>Εάν το σύστημα επανεκκινηθεί, τότε εκκινήστε το εικονίδιο συντόμευσης TruSmartCAM στην επιφάνεια εργασίας ή πληκτρολογήστε
+TruSmartCAM στο μενού Έναρξη των Windows και επιλέξτε <strong>Run as administrator</strong>.</p>
 </li>
 </ul>
 </div>
@@ -452,35 +429,36 @@ TruSmartCAM στο Windows Start Program και <strong>Εκτελέστε ως 
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-<em>Εγκατάσταση Server</em> : Τα εικονίδια συντόμευσης TruSmartCAM και TruSmartCAM License είναι
-διαθέσιμα στην Επιφάνεια Εργασίας. + <em>Εγκατάσταση Client/SYNC</em> : Μόνο το εικονίδιο συντόμευσης TruSmartCAM
-είναι διαθέσιμο στην Επιφάνεια Εργασίας.
+<em>Εγκατάσταση διακομιστή</em> : Τα εικονίδια συντόμευσης TruSmartCAM και TruSmartCAM License είναι
+διαθέσιμα στην επιφάνεια εργασίας.<br>
+<em>Εγκατάσταση Πελάτη/SYNC</em> : Μόνο το εικονίδιο συντόμευσης TruSmartCAM
+είναι διαθέσιμο στην επιφάνεια εργασίας.
 </td>
 </tr>
 </table>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s08launchpraxis.png" alt="Launch TruSmartCAM">
+<img src="img/s08launchpraxis.png" alt="Εκκίνηση TruSmartCAM">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_6_εγγραφή_άδειας_χρήσης">Βήμα 6 : Εγγραφή Άδειας Χρήσης</h2>
+<h2 id="_βήμα_6_καταχώρηση_άδειας_χρήσης">Βήμα 6 : Καταχώρηση άδειας χρήσης</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Στο πεδίο <em>Serial Number</em>, πληκτρολογήστε το <em>κλειδί Serial του TruSmartCAM</em> που παρέχεται από την Trumpf
-Metamation Service Team. Πληκτρολογήστε το <strong>&lt;Όνομα Εταιρείας&gt;</strong> στο πεδίο "Registered to" και το
-E-Mail. Κάντε κλικ στο <strong>OK</strong>.</p>
+<p>Στο πεδίο <em>Serial Number</em>, πληκτρολογήστε το <em>TruSmartCAM Serial key</em> που παρέχεται από την ομάδα
+υπηρεσιών Trumpf Metamation. Πληκτρολογήστε <strong>&lt;Company Name&gt;</strong> στο πεδίο "Registered to" και
+το E-Mail. Κάντε κλικ στο <strong>OK</strong>.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s09praxisregister.png" alt="TruSmartCAM Register">
+<img src="img/s09praxisregister.png" alt="Καταχώρηση TruSmartCAM">
 </div>
 </div>
 <div class="admonitionblock tip">
@@ -491,11 +469,11 @@ E-Mail. Κάντε κλικ στο <strong>OK</strong>.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Σε περίπτωση που το τείχος προστασίας Δικτύου αποκλείει την εγγραφή της άδειας χρήσης ή Δεν υπάρχει internet στον
-TruSmartCAM Server PC, τότε η άδεια χρήσης του TruSmartCAM γίνεται με Offline ενεργοποίηση. Στείλτε με email
-το <strong><em>Prax.request</em></strong> από τον φάκελο <em>C:\ProgramData\Metamation\Praxis</em> στην Trumpf
-Metamation Service Team. Η Trumpf Metamation Team θα παράσχει το <strong><em>Prax.lock</em></strong>
-που πρέπει να τοποθετηθεί σε αυτόν τον φάκελο.</p>
+<p>Σε περίπτωση που το τείχος προστασίας του δικτύου μπλοκάρει την καταχώρηση της άδειας χρήσης ή δεν υπάρχει διαδίκτυο στο
+PC του διακομιστή TruSmartCAM, τότε η άδεια χρήσης TruSmartCAM ενεργοποιείται με εκτός σύνδεσης ενεργοποίηση. Στείλτε με email
+το <strong><em>Prax.request</em></strong> από τον φάκελο <em>C:\ProgramData\TRUMPF\TMM\Praxis</em> στην ομάδα υπηρεσιών Trumpf
+Metamation. Η ομάδα Trumpf Metamation θα παρέχει το <strong><em>Prax.lock</em></strong>
+το οποίο πρέπει να τοποθετηθεί σε αυτόν τον φάκελο.</p>
 </div>
 </td>
 </tr>
@@ -504,55 +482,55 @@ Metamation Service Team. Η Trumpf Metamation Team θα παράσχει το <s
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_7_αρχική_εφάπαξ_διαμόρφωση">Βήμα 7 : Αρχική εφάπαξ Διαμόρφωση</h2>
+<h2 id="_βήμα_7_αρχική_εφάπαξ_διαμόρφωση">Βήμα 7 : Αρχική εφάπαξ διαμόρφωση</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Πληκτρολογήστε το Όνομα Βάσης Δεδομένων και Ορίστε την Τοποθεσία Αποθήκευσης Δεδομένων. Επιλέξτε το
-πλαίσιο ελέγχου Χρήση διακομιστή SQL και επιλέξτε το όνομα του SQL server
-για να συνδεθείτε στη Βάση Δεδομένων. Κάντε κλικ στο <strong>OK</strong>.</p>
+<p>Πληκτρολογήστε το όνομα της βάσης δεδομένων και ορίστε τη θέση αποθήκευσης δεδομένων. Επιλέξτε
+το πλαίσιο ελέγχου <strong>Use SQL Server</strong> και επιλέξτε το όνομα του SQL server
+για να συνδεθείτε στη βάση δεδομένων. Κάντε κλικ στο <strong>OK</strong>.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s10usedatabase.png" alt="Use Database">
+<img src="img/s10usedatabase.png" alt="Χρήση βάσης δεδομένων">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Ο TruSmartCAM Desktop Client ανοίγει εμφανίζοντας <strong>Database Connection Succeeded</strong> στο
+<p>Ο πελάτης TruSmartCAM Desktop ανοίγει εμφανίζοντας <strong>Database Connection Succeeded</strong> στο
 κάτω μέρος.</p>
 </li>
 <li>
-<p>Τα αρχεία διαμόρφωσης του TruSmartCAM, TecZone και MetaCAM δημιουργήθηκαν με προεπιλεγμένα μηχανήματα config
-ή έναντι μηχανημάτων άδειας TruSmartCAM. Το ίδιο config θα κοινοποιείται
-σε όλους τους TruSmartCAM Clients.</p>
+<p>Τα αρχεία διαμόρφωσης TruSmartCAM, TecZone και MetaCAM δημιουργήθηκαν με προεπιλεγμένες
+μηχανές διαμόρφωσης ή σύμφωνα με τις μηχανές της άδειας χρήσης TruSmartCAM. Η ίδια διαμόρφωση θα κοινοποιηθεί
+σε όλους τους πελάτες TruSmartCAM.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s11databaseconnectionsuccess.png" alt="Database Connection Success">
+<img src="img/s11databaseconnectionsuccess.png" alt="Επιτυχής σύνδεση βάσης δεδομένων">
 </div>
 </div>
 <div class="paragraph">
-<p>Η οθόνη καλωσορίσματος εμφανίζεται με το Windows User LoginName ως TruSmartCAM Login και Name.
-Ο πρώτος Χρήστης TruSmartCAM θεωρείται <strong>Διαχειριστής ιστότοπου</strong>. Παράσχετε Email και
-Password. Κάντε κλικ στο <strong>OK</strong>
+<p>Η οθόνη καλωσορίσματος εμφανίζεται με το LoginName του χρήστη Windows ως όνομα σύνδεσης και όνομα TruSmartCAM.
+Ο πρώτος χρήστης TruSmartCAM θεωρείται <strong>Site Admin</strong>. Δώστε Email και
+κωδικό πρόσβασης. Κάντε κλικ στο <strong>OK</strong>
 .</p>
 </div>
 <div class="paragraph">
-<p>Επιλέξτε το πλαίσιο ελέγχου <strong>Απομνημόνευση στοιχείων</strong>
+<p>Επιλέξτε το πλαίσιο ελέγχου <strong>Remember me</strong>
 για να αποθηκεύσετε τα διαπιστευτήρια σύνδεσης για την επόμενη φορά.
-Η εκκαθάριση του πλαισίου ελέγχου <strong>Απομνημόνευση στοιχείων</strong> θα ζητά διάλογο σύνδεσης και
-κωδικού πρόσβασης κάθε φορά που εκκινείται η εφαρμογή TruSmartCAM.</p>
+Η απενεργοποίηση του πλαισίου ελέγχου <strong>Remember me</strong> θα ζητάει το παράθυρο διαλόγου
+σύνδεσης και κωδικού πρόσβασης κάθε φορά που εκκινείται η εφαρμογή TruSmartCAM.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s12welcomepraxis.png" alt="Welcome TruSmartCAM">
+<img src="img/s12welcomepraxis.png" alt="Καλώς ορίσατε στο TruSmartCAM">
 </div>
 </div>
 </div>
@@ -563,34 +541,34 @@ Password. Κάντε κλικ στο <strong>OK</strong>
 <div class="ulist">
 <ul>
 <li>
-<p>Κλείστε το TruSmartCAM και ανοίξτε το ξανά. Το σύστημα σας ζητά να εισαγάγετε τα διαπιστευτήρια
-σύνδεσης του TruSmartCAM.</p>
+<p>Κλείστε το TruSmartCAM και ανοίξτε το ξανά. Το σύστημα σας ζητάει να εισαγάγετε τα διαπιστευτήρια
+σύνδεσης στο TruSmartCAM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/signprompt.png" alt="Sign Prompt" width="450">
+<img src="img/signprompt.png" alt="Μήνυμα σύνδεσης" width="450">
 </div>
 </div>
 </li>
 <li>
-<p>Το όνομα χρήστη που συνδέθηκε εμφανίζεται δίπλα στο εικονίδιο χρήστη στην κεφαλίδα της εφαρμογής
+<p>Το όνομα χρήστη που έχει συνδεθεί εμφανίζεται δίπλα στο εικονίδιο χρήστη στην κεφαλίδα της εφαρμογής
 TruSmartCAM.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/userid.png" alt="User ID" width="228">
+<img src="img/userid.png" alt="Ταυτότητα χρήστη" width="228">
 </div>
 </div>
 </li>
 <li>
-<p>Όταν τοποθετείτε το δείκτη πάνω από το εικονίδιο χρήστη, το σύστημα εμφανίζει:</p>
+<p>Όταν τοποθετήσετε τον δείκτη πάνω από το εικονίδιο χρήστη, το σύστημα εμφανίζει:</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/hover.png" alt="Hover" width="108">
+<img src="img/hover.png" alt="Αιώρηση" width="108">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Τον ρόλο χρήστη (για παράδειγμα: Programmer, Admin).</p>
+<p>Τον ρόλο του χρήστη (για παράδειγμα: Programmer, Admin).</p>
 </li>
 <li>
 <p>Μια συντόμευση για αποσύνδεση: <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>L</kbd></span>.</p>
@@ -602,22 +580,23 @@ TruSmartCAM.</p>
 <p>Κάνοντας κλικ στο εικονίδιο χρήστη ανοίγει ένα μενού που σας επιτρέπει να:</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/information.png" alt="Information" width="160">
+<img src="img/information.png" alt="Πληροφορίες" width="160">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Επεξεργασία πληροφοριών&#8230;&#8203;</strong> - Ενημερώστε τα στοιχεία του προφίλ σας.</p>
+<p><strong>Edit information&#8230;&#8203;</strong> - Να ενημερώσετε τα στοιχεία του προφίλ σας.</p>
 </li>
 <li>
-<p><strong>Αλλαγή κωδικού πρόσβασης&#8230;&#8203;</strong> - Αλλάξτε τον κωδικό πρόσβασης του λογαριασμού σας.</p>
+<p><strong>Change password&#8230;&#8203;</strong> - Να αλλάξετε τον κωδικό πρόσβασης
+του λογαριασμού σας.</p>
 </li>
 <li>
-<p><strong>Αποσύνδεση</strong> - Αποσυνδεθείτε από την εφαρμογή.</p>
+<p><strong>Sign out</strong> - Να αποσυνδεθείτε από την εφαρμογή.</p>
 </li>
 <li>
-<p><strong>Διακοπή</strong> - Κλείστε το μενού χωρίς να κάνετε αλλαγές.</p>
+<p><strong>Cancel</strong> - Να κλείσετε το μενού χωρίς να κάνετε καμία αλλαγή.</p>
 </li>
 </ul>
 </div>
@@ -627,53 +606,49 @@ TruSmartCAM.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_βήμα_9_διαμόρφωση_μηχανημάτων_εργοστασίου">Βήμα 9 : Διαμόρφωση Μηχανημάτων Εργοστασίου</h2>
+<h2 id="_βήμα_9_διαμόρφωση_μηχανών_εργοστασίου">Βήμα 9 : Διαμόρφωση μηχανών Εργοστασίου</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Άδεια TruSmartCAM [Όλα τα μηχανήματα ενεργοποιούν το bit άδειας] : Το προεπιλεγμένο Μηχάνημα TruSmartCAM
-και το Υλικό θεωρούνται ως Διαμόρφωση Εργοστασίου.</p>
+<p>TruSmartCAM License [All machines enables license bit] : Οι προεπιλεγμένες μηχανές και υλικά TruSmartCAM
+θεωρούνται ως Διαμόρφωση Εργοστασίου.</p>
 </li>
 <li>
-<p>Άδεια TruSmartCAM [Χωρίς demo και λίγα bit μηχανημάτων ενεργοποιημένα] : Αυτά τα Λίγα μηχανήματα και το
-προεπιλεγμένο Υλικό θεωρούνται ως Διαμόρφωση Εργοστασίου.</p>
+<p>TruSmartCAM License [No demo and few machine bit enabled] : Αυτές οι λίγες μηχανές και
+το προεπιλεγμένο υλικό θεωρούνται ως Διαμόρφωση Εργοστασίου.</p>
 </li>
 <li>
-<p>(Open &#8594; Import) ένα νέο Εξάρτημα από το <code>C:\Program
-Files\Metamation\Praxis\Samples\Parts</code> και επαληθεύστε εάν το Εξάρτημα εισάγεται
-με επιτυχία.</p>
+<p>(Open &#8594; Import) ένα νέο εξάρτημα από το
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Parts</code>
+και επαληθεύστε εάν το εξάρτημα εισάχθηκε επιτυχώς.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s14praxiswelcomescreen.png" alt="Praxis Welcome screen">
+<img src="img/s14praxiswelcomescreen.png" alt="Οθόνη καλωσορίσματος Praxis">
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_σημείωση_1_trusmartcam_monitor">Σημείωση 1 : TruSmartCAM Monitor</h2>
-<div class="sectionbody">
+<div class="ulist">
+<div class="title">Σημείωση 1 : TruSmartCAM Monitor</div>
+<ul>
+<li>
+<p>TruSmartCAM Monitor με εγκατάσταση Engine (δικαιώματα site admin):</p>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM Monitor με Εγκατάσταση Engine (δικαιώματα Site admin):</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Το TruSmartCAM Monitor με Engine μαζί με δικαιώματα TruSmartCAM Site Admin θα έχει
-τις ακόλουθες επιλογές:</p>
+<p>Το TruSmartCAM Monitor με Engine μαζί με δικαιώματα Site Admin TruSmartCAM θα έχει τις
+ακόλουθες επιλογές:</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Ώθηση διαμόρφωσης TruSmartCAM, διαμόρφωσης TecZone, MetaCAM σε όλους τους TruSmartCAM
-Clients. Επίσης έχει δικαιώματα για δημιουργία Νέας Σύνδεσης Χρήστη TruSmartCAM.</p>
+<p>Διανομή της διαμόρφωσης TruSmartCAM, TecZone, MetaCAM σε όλους τους πελάτες TruSmartCAM.
+Έχει επίσης δικαιώματα για τη δημιουργία νέας σύνδεσης χρήστη TruSmartCAM.</p>
 </li>
 <li>
-<p>Το Show Agents θα δείξει το σύνολο των διαθέσιμων engine για εκτέλεση εργασίας αυτοματισμού που
-είναι έναντι της Άδειας TruSmartCAM.</p>
+<p>Το Show Agents θα εμφανίσει τον συνολικό διαθέσιμο engine για την εκτέλεση εργασιών
+αυτοματισμού σύμφωνα με την άδεια χρήσης TruSmartCAM.</p>
 </li>
 </ol>
 </div>
@@ -685,31 +660,31 @@ Clients. Επίσης έχει δικαιώματα για δημιουργία 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s15pmonitor.png" alt="Praxis Monitor Status">
+<img src="img/s15pmonitor.png" alt="Κατάσταση Praxis Monitor">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM Monitor χωρίς Εγκατάσταση Engine (δικαιώματα Site admin):</p>
+<p>TruSmartCAM Monitor χωρίς εγκατάσταση Engine (δικαιώματα site admin):</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s16pmonitorwithoutengine.png" alt="Praxis Monitor without Engine">
+<img src="img/s16pmonitorwithoutengine.png" alt="Praxis Monitor χωρίς Engine">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM Monitor χωρίς Εγκατάσταση Engine (Δικαιώματα χωρίς Site Admin):</p>
+<p>TruSmartCAM Monitor χωρίς εγκατάσταση Engine (χωρίς δικαιώματα site admin):</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s17pmonitorwithprogrammerlogin.png" alt="Praxis with Progrmmer login">
+<img src="img/s17pmonitorwithprogrammerlogin.png" alt="Praxis με σύνδεση προγραμματιστή">
 </div>
 </div>
 <div class="admonitionblock important">
@@ -720,90 +695,43 @@ Clients. Επίσης έχει δικαιώματα για δημιουργία 
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Ο υπολογιστής που εκτελεί την εφαρμογή TruSmartCAM πρέπει να έχει εγκατεστημένο το στοιχείο Engine TruSmartCAM
-[Server PC ή σε οποιαδήποτε εγκατάσταση Client]. Ο υπολογιστής που έχει εγκατεστημένο το στοιχείο Engine TruSmartCAM
-πρέπει να εκτελείται 24x7 για να εκτελούνται όλες οι εργασίες αυτοματισμού.</p>
+<p>Το PC που εκτελεί την εφαρμογή TruSmartCAM πρέπει να έχει εγκατεστημένο το στοιχείο Engine TruSmartCAM
+[Server PC ή σε οποιαδήποτε εγκατάσταση Πελάτη]. Το PC με εγκατεστημένο το στοιχείο Engine TruSmartCAM
+πρέπει να λειτουργεί 24x7 για να εκτελεί όλες τις εργασίες αυτοματισμού.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_σημείωση_2_lock_tracker">Σημείωση 2 : Lock Tracker</h2>
-<div class="sectionbody">
 <div class="ulist">
+<div class="title">Σημείωση 2 : OpenGL</div>
 <ul>
 <li>
-<p>Κάντε κλικ στη συντόμευση <strong>TruSmartCAM License</strong> που είναι διαθέσιμη στην Επιφάνεια Εργασίας του TruSmartCAM Server.
-Εναλλακτικά, ανοίξτε τη διεύθυνση url <a href="http://localhost:7171/metamation/locktrack" class="bare">http://localhost:7171/metamation/locktrack</a> σε οποιοδήποτε πρόγραμμα
-περιήγησης web.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Αυτό θα ανοίξει τη μονάδα Lock Tracker που έχει πληροφορίες Άδειας χρήσης, πληροφορίες τρέχουσας συνεδρίας TruSmartCAM και
-Log.</p>
-</div>
-<div class="paragraph">
-<p>LockTracker HOME Page : Αυτό δείχνει τον Αριθμό Serial του TruSmartCAM, πληροφορίες Λήξης Serial
-και πληροφορίες διαθέσιμων bits Serial.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/s18locktrack01.png" alt="Lock Track License Home page">
-</div>
-</div>
-<div class="paragraph">
-<p>LockTracker SESSIONS Page : Πληροφορίες σύνδεσης τρέχοντος TruSmartCAM Server όπως
-TruSmartCAM Desktop client PC, PMonitor, κατάσταση PEngine.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/s19locktrack02.png" alt="Lock Track Session information">
-</div>
-</div>
-<div class="paragraph">
-<p>LockTracker LOGs Page : Έναρξη client TruSmartCAM και αποσύνδεση | Έναρξη Pmonitor και
-κατάσταση σύνδεσης/αποσύνδεσης PEngine κ.λπ., μπορούν να προβληθούν σε αυτήν τη σελίδα Logs.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/s20locktrack03.png" alt="Praxis Monitor Status">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_σημείωση_3_opengl">Σημείωση 3 : OpenGL</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Η εφαρμογή TruSmartCAM κατά το άνοιγμα κλείνει αμέσως και επίσης
-το pmonitor δεν εμφανίζεται στη γραμμή εργασιών.</p>
+<p>Η εφαρμογή TruSmartCAM κατά το άνοιγμα κλείνει αμέσως και επίσης το pmonitor δεν εμφανίζεται
+στη γραμμή εργασιών.</p>
 </li>
 <li>
-<p>Αυτό αντιπροσωπεύει πρόβλημα OpenGL.</p>
+<p>Αυτό αντιπροσωπεύει ζήτημα OpenGl.</p>
 </li>
 <li>
-<p>Ένας άλλος τρόπος για να το επιβεβαιώσετε: Ανοίξτε το C:\Program
-Files\Metamation\Praxis\Bin\Flux.exe που εμφανίζει διάλογο σφάλματος σχετικά με το
-πρόβλημα OpenGL.</p>
+<p>Ένας άλλος τρόπος για να το επιβεβαιώσετε: Ανοίξτε το
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Parts</code>
+το οποίο εμφανίζει παράθυρο διαλόγου σφάλματος σχετικά με το ζήτημα OpenGL.</p>
 </li>
 </ul>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/s21opengl.png" alt="OpenGL Issue">
+<img src="img/s21opengl.png" alt="Ζήτημα OpenGL">
 </div>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Ενημερώστε το <em>C:\ProgramData\Metamation\Praxis\Prax.ini</em>, ενότητα options με
-<strong>GLVersion=1</strong> για να ανοίξει η εφαρμογή TruSmartCAM με επιτυχία.</p>
+<p>Ενημερώστε το
+<em>C:\ProgramData\TRUMPF\TMM\Praxis\Prax.ini</em>
+, την ενότητα options με
+<strong>GLVersion=1</strong> ώστε η εφαρμογή TruSmartCAM να ανοίγει επιτυχώς.</p>
 </li>
 </ul>
 </div>
@@ -823,40 +751,31 @@ GLVersion=1.0</code></pre>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_βήμα_1_τοποθεσία_εγκατάστασης">Βήμα 1 : Τοποθεσία Εγκατάστασης</a>
+   <a href="#_βήμα_1_θέση_εγκατάστασης">Βήμα 1 : Θέση εγκατάστασης</a>
   </li>
   <li level="1">
-   <a href="#_βήμα_2_επιλογή_στοιχείων">Βήμα 2 : Επιλογή Στοιχείων</a>
+   <a href="#_βήμα_2_επιλογή_στοιχείων">Βήμα 2 : Επιλογή στοιχείων</a>
   </li>
   <li level="1">
-   <a href="#_βήμα_3_επιλογή_εγκατάστασης_sql_server">Βήμα 3 : Επιλογή Εγκατάστασης SQL Server</a>
+   <a href="#_βήμα_3_επιλογή_εγκατάστασης_sql_server">Βήμα 3 : Επιλογή εγκατάστασης SQL Server</a>
   </li>
   <li level="1">
    <a href="#_βήμα_4_εγκατάσταση_sql_server">Βήμα 4 : Εγκατάσταση SQL Server</a>
   </li>
   <li level="1">
-   <a href="#_βήμα_5_συντομεύσεις_στην_επιφάνεια_εργασίας_των_windows">Βήμα 5 : Συντομεύσεις στην Επιφάνεια Εργασίας των Windows</a>
+   <a href="#_βήμα_5_συντομεύσεις_επιφάνειας_εργασίας_windows">Βήμα 5 : Συντομεύσεις επιφάνειας εργασίας Windows</a>
   </li>
   <li level="1">
-   <a href="#_βήμα_6_εγγραφή_άδειας_χρήσης">Βήμα 6 : Εγγραφή Άδειας Χρήσης</a>
+   <a href="#_βήμα_6_καταχώρηση_άδειας_χρήσης">Βήμα 6 : Καταχώρηση άδειας χρήσης</a>
   </li>
   <li level="1">
-   <a href="#_βήμα_7_αρχική_εφάπαξ_διαμόρφωση">Βήμα 7 : Αρχική εφάπαξ Διαμόρφωση</a>
+   <a href="#_βήμα_7_αρχική_εφάπαξ_διαμόρφωση">Βήμα 7 : Αρχική εφάπαξ διαμόρφωση</a>
   </li>
   <li level="1">
    <a href="#_βήμα_8_σύνδεση_στο_trusmartcam">Βήμα 8 : Σύνδεση στο TruSmartCAM</a>
   </li>
   <li level="1">
-   <a href="#_βήμα_9_διαμόρφωση_μηχανημάτων_εργοστασίου">Βήμα 9 : Διαμόρφωση Μηχανημάτων Εργοστασίου</a>
-  </li>
-  <li level="1">
-   <a href="#_σημείωση_1_trusmartcam_monitor">Σημείωση 1 : TruSmartCAM Monitor</a>
-  </li>
-  <li level="1">
-   <a href="#_σημείωση_2_lock_tracker">Σημείωση 2 : Lock Tracker</a>
-  </li>
-  <li level="1">
-   <a href="#_σημείωση_3_opengl">Σημείωση 3 : OpenGL</a>
+   <a href="#_βήμα_9_διαμόρφωση_μηχανών_εργοστασίου">Βήμα 9 : Διαμόρφωση μηχανών Εργοστασίου</a>
   </li>
  </ul>
 </aside>
@@ -864,8 +783,8 @@ GLVersion=1.0</code></pre>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="prerequisites.html">Προαπαιτούμενα</a></span>
- <span class="next"><a href="clientinstallation.html">Εγκατάσταση Client</a></span>
+ <span class="prev"><a href="importformats.html">Υποστηριζόμενες μορφές αρχείων</a></span>
+ <span class="next"><a href="clientinstallation.html">Εγκατάσταση πελάτη</a></span>
 </nav>
 
         </div>

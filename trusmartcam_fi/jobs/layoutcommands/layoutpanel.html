@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Asettelupaneeli</title>
+  <title>Sijoittelupaneeli</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Avaa</a>
+     <a href="../../library/open/index.html">Avaaminen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../../library/libraryview/index.html">Kirjastonäkymä</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../../library/partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Työkalutila</a>
+     <a href="../../library/toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Sisäkkäisyyden hallinta</a>
+     <a href="index.html">Nestauksen hallinta</a>
      <ul>
-      <li><button class="tree blank"></button><a href="nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a href="nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../remnantmanagement/index.html">Jäännösarkkien hallinta</a>
+     <a href="../remnantmanagement/index.html">Jäännöslevyjen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../remnantmanagement/autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../remnantmanagement/autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -208,28 +188,29 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Sisäkkäisyyden hallinta</a>
+  <a href="index.html">Nestauksen hallinta</a>
  </div>
  <div>/</div>
  <div>
-  <a href="layoutpanel.html">Asettelupaneeli</a>
+  <a href="layoutpanel.html">Sijoittelupaneeli</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Asettelupaneeli</h1>
+                        <h1>Sijoittelupaneeli</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Tämä osio selittää asetteluun liittyviä toimintoja, kuten
-<strong>Lähetä koneeseen&#8230;&#8203;</strong>,
-<strong>Nouda koneesta&#8230;&#8203;</strong>,
-<strong>Vie tulostetiedot</strong>,
-<strong>Merkitse valmiiksi&#8230;&#8203;</strong>, <strong>Lisää osia&#8230;&#8203;</strong>,
-<strong>Mukauta/tiivistä&#8230;&#8203;</strong>,
-<strong>Jaa sijoittelut&#8230;&#8203;</strong> ja muita vaihtoehtoja, joita käytetään asetteluinstanssien hallintaan.</p>
+<p>Tässä osiossa kuvataan sijoitteluun liittyviä toimintoja, kuten
+<strong>Send to machine</strong>,
+<strong>Recall from machine</strong>,
+<strong>Export outputs</strong>,
+<strong>Mark complete</strong>, <strong>Add parts&#8230;&#8203;</strong>,
+<strong>Adapt/Compact&#8230;&#8203;</strong>,
+<strong>Split layout</strong> ja muita vaihtoehtoja, joita käytetään
+sijoitteluinstanssien hallintaan.</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -251,68 +232,63 @@
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Avaaminen kirjoitussuojatussa tilassa katselua varten</strong><br>
-Avaa valitun asettelun vain luku -tilassa.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Avaa valitun sijoittelun vain luku -tilassa.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Mahdollistaa valitun asettelun muokkaamisen.</p></td>
+Ottaa käyttöön valitun sijoittelun muokkauksen.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Poista</strong><br>
-Poistaa valitun asettelun.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+Poistaa valitun sijoittelun.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Näytä raportti</strong><br>
-Avaa standardiasetteluraportin ja etikettikohtaisen raportin valitulle
-asettelulle.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>View Report</strong><br>
+Avaa vakiomuotoisen sijoitteluraportin ja tarrakohtaisen raportin valitulle
+sijoittelulle.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sendui.png" alt="Send" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lähetä koneeseen&#8230;&#8203;</strong><br>
-Lähettää valitun asettelun koneelle ja vie tulostiedostot
-(fxlyt, NC, raportti, csv) työn tulosteen sijaintiin.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Send to Machine&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lähettää valitun sijoittelun koneelle ja vie tulostiedostot
+(fxlyt, NC, raportti, csv) työn tulostesijaintiin.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/addui.png" alt="Add" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Lisää osia&#8230;&#8203;</strong><br>
-Lisää lisää osia huonosti pakattuun asetteluun käyttämällä asettelun uudelleenpakkausohjattua toimintoa.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Add Parts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lisää osia huonosti pakattuun sijoitteluun sijoittelun uudelleenpakkauksen
+ohjatun toiminnon avulla.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/adaptui.png" alt="Adapt" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Mukauta/tiivistä&#8230;&#8203;</strong><br>
-Sijoittaa valitun asettelun uudelleen sisäkkäin tiivistääkseen osat ja vapauttaakseen käyttökelpoista aluetta.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Adapt/Compact&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nestaa valitun sijoittelun uudelleen tiivistääkseen osat ja vapauttaakseen
+käytettävissä olevaa aluetta.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/changeui.png" alt="Change" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Vaihda LTT-taulukkoa&#8230;&#8203;</strong><br>
-Vaihtaa valitulle asettelulle määritetyn arkin.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Change LTT&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vaihtaa valitulle sijoittelulle osoitetun levyn.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/splitui.png" alt="Split"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Jaa sijoittelut&#8230;&#8203;</strong><br>
-Jakaa valitun asettelun kahteen tai useampaan erilliseen asetteluun.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Split Layouts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jakaa valitun sijoittelun kahteen tai useampaan erilliseen sijoitteluun.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/renameui.png" alt="RenameUi" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Rename layout&#8230;&#8203;</strong><br>
-Nimeää valitun asettelun uudelleen.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Rename&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nimeää valitun sijoittelun uudelleen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Työ</strong> / <strong>Edellinen</strong> / <strong>Seuraava</strong> / <strong>Osat</strong><br>
-Siirtyy ylös ylätason työhön, edelliseen tai seuraavaan asetteluun valitussa
-työssä tai alas asettelussa oleviin osiin.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Job</strong> / <strong>Prev</strong> / <strong>Next</strong> / <strong>Parts</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Siirtyy ylös päätyöhön, valitun työn edelliseen tai seuraavaan sijoitteluun
+tai alas sijoittelun sisältämiin osiin.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-Käytä näitä suodattimia nähdäksesi muita asetteluita, joilla on sama attribuutti kuin
-valitulla asettelulla: Sama kone, Sama materiaali, Sama LTT, Sama prioriteetti,
-Sama tila, Sama arkki, Sama osa, Sama jäännösarkki-tila tai Sama valssaussuunta.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Käytä näitä suodattimia nähdäksesi muut sijoittelut, joilla on sama attribuutti
+kuin valitulla sijoittelulla: <strong>Same Machine</strong>, <strong>Same Material</strong>,
+<strong>Same LTT</strong>, <strong>Same Priority</strong>,
+<strong>Same State</strong>, <strong>Same Sheet</strong>, <strong>Same Part</strong>, <strong>Same Remnant State</strong> tai <strong>Same Rolling Direction</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -322,31 +298,26 @@ Sama tila, Sama arkki, Sama osa, Sama jäännösarkki-tila tai Sama valssaussuun
 </div>
 </div>
 <div class="sect1">
-<h2 id="send-to-machine">Lähetä koneeseen&#8230;&#8203;</h2>
+<h2 id="send-to-machine">Send to machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Kun sisäkkäisyys on valmis (täytetty tai kiireellisesti tarvittu), voit lähettää sen
-koneelle.</p>
+<p>Kun nestaus on valmis (täytetty tai kiireellisesti tarvittu), voit lähettää
+sen koneelle.</p>
 </li>
 <li>
-<p>Napsauta sisäkkäisyyttä hiiren oikealla painikkeella ja valitse <strong>Lähetä koneeseen&#8230;&#8203;</strong>.</p>
+<p>Napsauta nestausta hiiren oikealla painikkeella ja valitse
+<strong>Send to machine&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Kansio luodaan automaattisesti sisäkkäisyyden mukaan nimettynä.</p>
+<p>Kansio luodaan automaattisesti, ja se nimetään nestauksen mukaan.</p>
 </li>
 <li>
-<p>Tulostiedostot (fxlyt, NC, raportti, csv) viedään TYÖN
-tulosteen sijaintiin.</p>
+<p>Tulostiedostot (fxlyt, NC, raportti, csv) vietään työn tulostesijaintiin.</p>
 </li>
 <li>
-<p>Koneelle lähetetyt sisäkkäisyydet näytetään sinisellä valintamerkillä.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/sendtomachine.png" alt="Send to machines" width="1180">
-</div>
-</div>
+<p>Koneelle lähetetyt nestaukset näytetään sinisellä rastimerkillä.</p>
 </li>
 </ul>
 </div>
@@ -357,7 +328,7 @@ tulosteen sijaintiin.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Kun ne on vapautettu, näitä sisäkkäisyyksiä ei enää yritetä uudelleen uudelleenpakkausta varten.
+Vapautettuja nestauksia ei enää yritetä uudelleenpakata.
 </td>
 </tr>
 </table>
@@ -365,19 +336,20 @@ Kun ne on vapautettu, näitä sisäkkäisyyksiä ei enää yritetä uudelleen uu
 </div>
 </div>
 <div class="sect1">
-<h2 id="_nouda_koneesta">Nouda koneesta&#8230;&#8203;</h2>
+<h2 id="_recall_from_machine">Recall from machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Jos tuloste tarvitsee validointia tai päivitystä (esimerkiksi lisäosien lisääminen):</p>
+<p>Jos tulos vaatii vahvistusta tai päivitystä (esimerkiksi lisäosien
+lisäämistä):</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta hiiren oikealla painikkeella vietyä asettelua.</p>
+<p>Napsauta vietyä sijoittelua hiiren oikealla painikkeella.</p>
 </li>
 <li>
-<p>Valitse <strong>Nouda koneesta&#8230;&#8203;</strong>.</p>
+<p>Valitse <strong>Recall from machine&#8230;&#8203;</strong>.</p>
 </li>
 </ul>
 </div>
@@ -386,44 +358,31 @@ Kun ne on vapautettu, näitä sisäkkäisyyksiä ei enää yritetä uudelleen uu
 <p>Tulostiedostot ja kansio (fxlyt, NC, raportti, csv) poistetaan.</p>
 </li>
 <li>
-<p>Sisäkkäisyydestä tulee jälleen muokattava.</p>
+<p>Nestaus muuttuu jälleen muokattavaksi.</p>
 </li>
 <li>
-<p>Voit tehdä muutoksia ja lähettää sen koneelle uudelleen.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/recallfrommachine.png" alt="Recall from machines" width="1153">
-</div>
-</div>
+<p>Voit tehdä muutoksia ja lähettää sen jälleen koneelle.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_vie_tulostetiedot">Vie tulostetiedot</h2>
+<h2 id="_export_outputs">Export outputs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta hiiren oikealla painikkeella mitä tahansa asettelua (sisäkkäisyyttä), joka on lähetetty koneelle ja napsauta
-<strong>Vie tulostetiedot</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput1.png" alt="Export outputs" width="447">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Vie tulosteet -vaihtoehto vie NC-, raportti- ja asettelutiedostot
-vastaaviin koneen tulosteen kansioihin.</p>
+<p>Napsauta mitä tahansa koneelle lähetettyä sijoittelua (nestausta) hiiren
+oikealla painikkeella ja napsauta <strong>Export outputs</strong>.</p>
 </li>
 <li>
-<p>Tämä vaihtoehto luo NC-tiedoston uudelleen asettelun nykyisillä yksikköasetuksilla.</p>
+<p>Export Outputs -vaihtoehto vie NC-, raportti- ja sijoittelutiedostot
+vastaaviin koneen tulostekansioihin.</p>
+</li>
+<li>
+<p>Tämä vaihtoehto luo NC-tiedoston uudelleen sijoittelun nykyisillä
+yksikköasetuksilla.</p>
 </li>
 </ul>
 </div>
@@ -434,8 +393,8 @@ vastaaviin koneen tulosteen kansioihin.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Vie tulosteet -vaihtoehto ei ole saatavilla asetteluille, jotka on merkitty valmiiksi ja
-asetteluille, jotka odottavat jonossa uudelleenpakausta.
+Export Outputs ei ole käytettävissä sijoitteluille, jotka ovat Completed,
+eikä sijoitteluille, jotka odottavat jonossa uudelleenpakkausta.
 </td>
 </tr>
 </table>
@@ -448,34 +407,30 @@ asetteluille, jotka odottavat jonossa uudelleenpakausta.
 <div class="ulist">
 <ul>
 <li>
-<p>Kun sisäkkäisyys on käsitelty koneessa, napsauta sisäkkäisyyttä hiiren oikealla painikkeella ja
-valitse <strong>Merkitse valmiiksi&#8230;&#8203;</strong>.</p>
+<p>Kun nestaus on käsitelty koneella, napsauta nestausta hiiren oikealla
+painikkeella ja valitse <strong>Mark complete&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Voit valita useita sisäkkäisyyksiä ja merkitä ne valmiiksi samalla kertaa.</p>
+<p>Voit valita useita nestauksia ja merkitä ne valmiiksi samanaikaisesti.</p>
 </li>
 <li>
-<p>Kun sisäkkäisyys merkitään valmiiksi:</p>
+<p>Kun nestaus merkitään valmiiksi:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Se näkyy harmaana, siirretään listan loppuun ja näytetään vihreällä valintamerkillä.</p>
+<p>Se himmennetään, siirretään luettelon loppuun ja näytetään vihreällä
+rastimerkillä.</p>
 </li>
 <li>
-<p>Asettelu poistetaan aktiivisten asetteluiden luettelosta.</p>
+<p>Sijoittelu poistetaan aktiivisten sijoittelujen luettelosta.</p>
 </li>
 <li>
-<p>Osa- ja työtilat päivitetään, ja käsitellyt määrät siirtyvät
-valmiiseen tilaan.</p>
+<p>Osan ja työn tilat päivitetään, ja käsitellyt määrät siirtyvät valmiiseen
+tilaan.</p>
 </li>
 <li>
-<p>Kyseisen asettelun tulostiedostot poistetaan koneen tulosteen
-sijainnista kaksinkertaisen käytön välttämiseksi.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/markcomplete1.png" alt="Mark complete" width="1101">
-</div>
-</div>
+<p>Kyseisen sijoittelun tulostiedostot poistetaan koneen tulostesijainnista
+kaksinkertaisen käytön välttämiseksi.</p>
 </li>
 </ul>
 </div>
@@ -485,7 +440,7 @@ sijainnista kaksinkertaisen käytön välttämiseksi.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="add-parts">Lisää osia&#8230;&#8203;</h2>
+<h2 id="add-parts">Add parts&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
@@ -495,14 +450,16 @@ sijainnista kaksinkertaisen käytön välttämiseksi.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Käytä tätä vaihtoehtoa lisätäksesi lisää osia suhteellisen huonosti pakattuun asetteluun. Kuten
-interaktiivinen sisäkkäisyys, tämä on ohjattu vaihtoehto ja sitä voidaan käyttää
-yhdellä tai useilla asetteluilla samanaikaisesti.</p>
+<p>Käytä tätä vaihtoehtoa lisätäksesi osia suhteellisen huonosti pakattuun
+sijoitteluun. Kuten interaktiivinen nestaus, tämä on ohjatun toiminnon avulla
+toimiva vaihtoehto, ja sitä voidaan käyttää yhteen tai useampaan sijoitteluun
+samanaikaisesti.</p>
 </li>
 <li>
-<p>TruSmartCAM asentaa asettelun uudelleenpakkausohjatun toiminnon päätyöalueelle,
-kun tätä vaihtoehtoa käytetään. Pidä <kbd>Ctrl</kbd>-näppäintä painettuna ja valitse yksi tai useampi
-osa, joka pakataan asetteluun/asetteluihin ja paina <strong>Seuraava</strong>.</p>
+<p>TruSmartCAM liittää sijoittelun uudelleenpakkauksen ohjatun toiminnon
+päätyöalueelle, kun tätä vaihtoehtoa käytetään. Pidä <kbd>Ctrl</kbd>-näppäintä
+pohjassa ja valitse yksi tai useampi sijoitteluun pakattava osa ja paina
+<strong>Next</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/addpart2.png" alt="Part selection" width="2200">
@@ -510,41 +467,32 @@ osa, joka pakataan asetteluun/asetteluihin ja paina <strong>Seuraava</strong>.</
 </div>
 </li>
 <li>
-<p>Valitut osat näytetään seuraavassa vaiheessa muokattavan
-määräsarakkeen kanssa. Päivitä osan määrät tarvittaessa
-<strong>Update Qty</strong> -kentässä. Napsauta <strong>Seuraava</strong> jatkaaksesi sisäkkäisyyteen. Huomaa, että
-määriä voidaan vain lisätä, ei vähentää.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart3.png" alt="Update quantity" width="2200">
-</div>
-</div>
+<p>Valitut osat näytetään seuraavassa vaiheessa muokattavalla määräsarakkeella.
+Päivitä osien määrät tarvittaessa <strong>Update Qty</strong> -kentässä. Napsauta
+<strong>Next</strong> jatkaaksesi nestaukseen. Huomaa, että määriä voidaan vain
+lisätä, ei vähentää.</p>
 </li>
 <li>
-<p>Kaikki asettelut sijoitetaan erikseen sisäkkäin, ja sisäkkäisyystulokset näytetään
-niihin sijoitettujen uusien pakattujen osien kanssa. Asettelun valitseminen näyttää kaikki
-olemassa olevat asetteluosat. Tulos hylätään automaattisesti, jos uutta osaa ei ole
-sijoitettu uudelleenpakkauksen aikana. Asettelu, jossa on useita kopioita, voi johtaa
-erilaisiin malleihin uudelleenpakkauksen jälkeen.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart4.png" alt="Repack result" width="2200">
-</div>
-</div>
+<p>Kaikki sijoittelut nestataan erikseen, ja nestatut tulokset näytetään
+vastikään pakatuilla osilla niihin sijoitettuina. Sijoittelun valitseminen
+näyttää kaikki olemassa olevat sijoittelun osat. Tulos hylätään automaattisesti,
+jos uutta osaa ei sijoiteta uudelleenpakkauksen aikana. Useita kopioita
+sisältävä sijoittelu voi tuottaa erilaisia kuvioita uudelleenpakkauksen
+jälkeen.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="adapt-compact">Mukauta/tiivistä&#8230;&#8203;</h2>
+<h2 id="adapt-compact">Adapt/Compact&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Tätä ohjattua komentoa voidaan käyttää mukauttamaan asettelu yhdeltä
-koneelta toiselle, kun alkuperäinen kone on pois käytöstä tai kun koneen
-työmäärää on tasapainotettava.</p>
+<p>Tätä ohjattuun toimintoon perustuvaa komentoa voidaan käyttää sijoittelun
+mukauttamiseen koneelta toiselle, kun alkuperäinen kone on poissa käytöstä tai
+kun koneen työkuormaa on tasapainotettava.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt1.png" alt="Adapt compact" width="737">
@@ -552,24 +500,24 @@ työmäärää on tasapainotettava.</p>
 </div>
 </li>
 <li>
-<p>Sitä voidaan käyttää, kun suunniteltu arkki on loppunut varastosta ja asettelu
-on suunniteltava uudelleen toiselle saatavilla olevalle arkille.</p>
+<p>Sitä voidaan käyttää, kun suunniteltu levy on loppunut varastosta ja
+sijoittelu on suunniteltava uudelleen toiselle käytettävissä olevalle levylle.</p>
 </li>
 <li>
-<p>Voit yhdistää pienemmille arkeille pakattuja asetteluita suuremmille arkeille käyttääksesi
-materiaalia tehokkaammin.</p>
+<p>Voit yhdistää pienemmille levyille pakatut sijoittelut suuremmille levyille
+materiaalin käyttämiseksi tehokkaammin.</p>
 </li>
 <li>
-<p>Voit jakaa suuremmille arkeille pakattuja asetteluita pienemmille arkeille, jos suuria
-arkkivarastoja ei ole saatavilla.</p>
+<p>Voit jakaa suuremmille levyille pakatut sijoittelut pienemmille levyille, jos
+suuria levyvarastoja ei ole käytettävissä.</p>
 </li>
 <li>
-<p>Voit parantaa useiden asetteluiden (jopa
-eri koneilta) pakkaustehokkuutta yhdistämällä ne yhteen.</p>
+<p>Voit parantaa useiden sijoittelujen (jopa eri koneilta) pakkaustehokkuutta
+yhdistämällä ne yhteen.</p>
 </li>
 <li>
-<p>Käyttääksesi sitä, valitse yksi tai useampi asettelu ja napsauta
-<strong>Mukauta/tiivistä&#8230;&#8203;</strong> avataksesi ohjatun toiminnon työalueella.</p>
+<p>Käyttääksesi sitä valitse yksi tai useampi sijoittelu ja napsauta
+<strong>Adapt/Compact&#8230;&#8203;</strong> avataksesi ohjatun toiminnon työalueelle.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt2.png" alt="Layouts window" width="1902">
@@ -577,28 +525,19 @@ eri koneilta) pakkaustehokkuutta yhdistämällä ne yhteen.</p>
 </div>
 </li>
 <li>
-<p>Vasen paneeli näyttää kaikki valitut asettelut ja Osat-paneeli näyttää asettelun
-osat.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt3.png" alt="Layouts window" width="1910">
-</div>
-</div>
+<p>Vasen ruutu näyttää kaikki valitut sijoittelut ja Parts-ruutu näyttää
+sijoittelun osat.</p>
 </li>
 <li>
-<p>Valitse kohdekone ja arkkimateriaali, napsauta sitten
-<strong>Seuraava</strong> suorittaaksesi uudelleensisäkkäisyyden.</p>
+<p>Valitse kohdekone ja levymateriaali ja napsauta sitten
+<strong>next</strong> suorittaaksesi uudelleennestauksen.</p>
 </li>
 <li>
-<p>Uudet sisäkkäisyystulokset näytetään tulospaneelissa.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt4.png" alt="Layouts window" width="1901">
-</div>
-</div>
+<p>Uudet nestaustulokset näytetään tulosruudussa.</p>
 </li>
 <li>
-<p>Napsauta <strong>Seuraava</strong> tallentaaksesi mukautetun tai tiivistetyn asettelun.</p>
+<p>Napsauta <strong>next</strong> tallentaaksesi mukautetun tai tiivistetyn
+sijoittelun.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt5.png" alt="Layouts window" width="1902">
@@ -610,40 +549,39 @@ osat.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_asettelun_jakaminen">Asettelun jakaminen</h2>
+<h2 id="_sijoittelun_jakaminen">Sijoittelun jakaminen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Jaa sijoittelut&#8230;&#8203;</strong> -vaihtoehto mahdollistaa
-olemassa olevan asettelun jakamisen useisiin asetteluihin muokkaamalla määriä
-ilman, että työkaluja tai sisäkkäisyyttä tarvitsee tehdä uudelleen.</p>
+<p><strong>Split layouts&#8230;&#8203;</strong> -vaihtoehdon avulla voit jakaa olemassa
+olevan sijoittelun useaan sijoitteluun muuttamalla määriä ilman, että työstöjä
+tai nestausta tarvitsee tehdä uudelleen.</p>
 </div>
 <div class="paragraph">
-<p>Tämä ominaisuus on erityisen hyödyllinen seuraavissa
-skenaarioissa:</p>
+<p>Tämä ominaisuus on erityisen hyödyllinen seuraavissa tilanteissa:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Kun sinun on tuotettava osa kokonaismäärästä välittömästi samalla kun
-ajoitat jäljellä olevan määrän myöhempään tuotantoon.</p>
+<p>Kun sinun on tuotettava osa kokonaismäärästä välittömästi ja aikataulutettava
+jäljellä oleva määrä myöhempää tuotantoa varten.</p>
 </li>
 <li>
-<p>Kun tuotantovaatimukset on jaettava useiden vuorojen tai
-päivien välillä työnkulun ja resurssien käytön optimoimiseksi.</p>
+<p>Kun tuotantovaatimukset on jaettava useille vuoroille tai päiville
+työnkulun ja resurssien käytön optimoimiseksi.</p>
 </li>
 <li>
-<p>Kun tietty kone on väliaikaisesti poissa käytöstä tai varattuna, ja sinun on
-säädettävä asettelua nykyisten tuotantorajoitusten mukaisesti.</p>
+<p>Kun tietty kone on tilapäisesti poissa käytöstä tai varattu, ja sinun on
+säädettävä sijoittelua nykyisten tuotantorajoitusten mukaan.</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>Jaa asettelu suorittamalla seuraavat vaiheet:</p>
+<p>Jakaaksesi sijoittelun suorita seuraavat vaiheet:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Valitse Asettelut-näkymässä tarvittava asettelu.</p>
+<p>Valitse Layouts-näkymästä haluttu sijoittelu.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/splitlayout.png" alt="Split layout" width="264">
@@ -651,15 +589,10 @@ säädettävä asettelua nykyisten tuotantorajoitusten mukaisesti.</p>
 </div>
 </li>
 <li>
-<p>Napsauta <strong>Jaa sijoittelut&#8230;&#8203;</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/layoutpanel.png" alt="Layout panel" width="155">
-</div>
-</div>
+<p>Napsauta <strong>Split layouts&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Syötä tarvittava arvo kenttään <strong>Uusia kopioita</strong>.</p>
+<p>Anna vaadittu arvo kohdassa <strong>New Copies</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/newcopies.png" alt="New copies" width="389">
@@ -677,7 +610,7 @@ säädettävä asettelua nykyisten tuotantorajoitusten mukaisesti.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Valittu asettelu on nyt jaettu kahteen asetteluun säädettävillä määrillä.</p>
+<p>Valittu sijoittelu on nyt jaettu kahteen sijoitteluun säädetyillä määrillä.</p>
 </div>
 </div>
 </div>
@@ -689,25 +622,25 @@ säädettävä asettelua nykyisten tuotantorajoitusten mukaisesti.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#send-to-machine">Lähetä koneeseen&#8230;&#8203;</a>
+   <a href="#send-to-machine">Send to machine</a>
   </li>
   <li level="1">
-   <a href="#_nouda_koneesta">Nouda koneesta&#8230;&#8203;</a>
+   <a href="#_recall_from_machine">Recall from machine</a>
   </li>
   <li level="1">
-   <a href="#_vie_tulostetiedot">Vie tulostetiedot</a>
+   <a href="#_export_outputs">Export outputs</a>
   </li>
   <li level="1">
    <a href="#mark-complete">Merkitse valmiiksi</a>
   </li>
   <li level="1">
-   <a href="#add-parts">Lisää osia&#8230;&#8203;</a>
+   <a href="#add-parts">Add parts&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#adapt-compact">Mukauta/tiivistä&#8230;&#8203;</a>
+   <a href="#adapt-compact">Adapt/Compact&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_asettelun_jakaminen">Asettelun jakaminen</a>
+   <a href="#_sijoittelun_jakaminen">Sijoittelun jakaminen</a>
   </li>
  </ul>
 </aside>
@@ -715,8 +648,8 @@ säädettävä asettelua nykyisten tuotantorajoitusten mukaisesti.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="nestview.html">Asettelunäkymä</a></span>
- <span class="next"><a href="reportsender.html">Raportin lähettäjä</a></span>
+ <span class="prev"><a href="nestview.html">Sijoittelunäkymä</a></span>
+ <span class="next"><a href="reportsender.html">Report sender</a></span>
 </nav>
 
         </div>

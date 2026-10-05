@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Tilausten tuonti</title>
+  <title>Import orders</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Avaa</a>
+     <a href="index.html">Avaaminen</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a class="active" href="orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a href="jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a href="partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a class="active" href="orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a href="jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../libraryview/index.html">Kirjastonäkymä</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Työkalutila</a>
+     <a href="../toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Sisäkkäisyyden hallinta</a>
+     <a href="../../jobs/layoutcommands/index.html">Nestauksen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Jäännösarkkien hallinta</a>
+     <a href="../../jobs/remnantmanagement/index.html">Jäännöslevyjen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -208,68 +188,58 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Avaa</a>
+  <a href="index.html">Avaaminen</a>
  </div>
  <div>/</div>
  <div>
-  <a href="orderimport.html">Tilausten tuonti</a>
+  <a href="orderimport.html">Import orders</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Tilausten tuonti</h1>
+                        <h1>Import orders</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Tilauksia voidaan luoda tai tuoda käyttämällä seuraavia menetelmiä:</p>
+<p>Ty\u00f6teht\u00e4vi\u00e4 voidaan luoda tai tuoda seuraavilla menetelmill\u00e4:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Tilausten tuonti laskentataulukkotiedostoista.</p>
+<p>Ty\u00f6teht\u00e4vien tuonti taulukkotiedostoista.</p>
 </li>
 <li>
-<p>Tilausten automaattinen tuonti seuranta-asetusten kautta.</p>
+<p>Ty\u00f6teht\u00e4vien automaattinen tuonti valvonta-asetusten kautta.</p>
 </li>
 <li>
-<p>Tilausten luominen osakirjaston olemassa olevista osista.</p>
+<p>Ty\u00f6teht\u00e4vien luonti osakirjaston olemassa olevista osista.</p>
 </li>
 <li>
-<p>Tilausten luominen kokoonpanon staattisista pesistä.</p>
+<p>Ty\u00f6teht\u00e4vien luonti rakenneryhmien staattisista nestauksista.</p>
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tilausten_tuonti_laskentataulukosta">Tilausten tuonti laskentataulukosta</h2>
+<h2 id="_tyu00f6tehtu00e4vien_tuonti_taulukkotiedostosta">Ty\u00f6teht\u00e4vien tuonti taulukkotiedostosta</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Siirry kohtaan <strong>avaa</strong> &#8594;
-<strong>Tuo työtehtävät&#8230;&#8203;</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/orders.png" alt="Orders" width="259">
-</div>
-</div>
+<p>Siirry kohtaan <strong>Open</strong> &#8594;
+<strong>Import Orders&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Tuetut laskentataulukkomuodot sisältävät CSV, XLSX ja XML.</p>
+<p>Tuetut taulukkotiedostomuodot ovat CSV, XLSX ja XML.</p>
 </li>
 <li>
-<p>Valitse tarvittava laskentataulukkotiedosto ja napsauta <strong>avaa</strong>.</p>
+<p>Valitse haluttu taulukkotiedosto ja napsauta <strong>Open</strong>.</p>
 </li>
 <li>
-<p>Tuontiprosessi on samanlainen kuin työn/kokoonpanon tuonnin työnkulku.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importorder.png" alt="Import Order" width="591">
-</div>
-</div>
+<p>Tuontiprosessi on samanlainen kuin ty\u00f6n/rakenneryhm\u00e4n tuonnin ty\u00f6nkulku.</p>
 </li>
 </ul>
 </div>
@@ -280,8 +250,8 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Voit myös suoraan vetää ja pudottaa laskentataulukon tilaukset-sivulle
-tuodaksesi tilauksia.
+Voit my\u00f6s ved\u00e4t\u00e4 ja pudottaa taulukkotiedoston suoraan
+Ty\u00f6teht\u00e4v\u00e4t-sivulle tuodaksesi ty\u00f6teht\u00e4vi\u00e4.
 </td>
 </tr>
 </table>
@@ -289,27 +259,27 @@ tuodaksesi tilauksia.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tilausten_tuonti_käyttäen_seuranta_asetuksia">Tilausten tuonti käyttäen seuranta-asetuksia</h2>
+<h2 id="_tyu00f6tehtu00e4vien_tuonti_valvonta_asetuksilla">Ty\u00f6teht\u00e4vien tuonti valvonta-asetuksilla</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Ota käyttöön
-<strong>Tuo laskentataulukko 'Live-kansiosta'</strong> -vaihtoehto
-<strong>Valvontatoiminnon asetukset</strong> -kohdassa.</p>
+<p>Ota k\u00e4ytt\u00f6\u00f6n
+<strong>Import spreadsheet from 'Live Folder'</strong>
+-vaihtoehto kohdassa <strong>Watch settings</strong>.</p>
 </li>
 <li>
-<p>Valitse <strong>Tuo työtehtävät</strong>
-<strong>Laskentataulukoiden tuonnin valinnainen asetus</strong> -kohdassa.</p>
+<p>Valitse <strong>Import Orders</strong> kohdassa
+<strong>Spreadsheet import option</strong>.</p>
 </li>
 <li>
-<p>Määritä kansion sijainti, josta tilaukset tulee tuoda.</p>
+<p>M\u00e4\u00e4rit\u00e4 kansion sijainti, josta ty\u00f6teht\u00e4v\u00e4t tuodaan.</p>
 </li>
 <li>
-<p>Järjestelmä seuraa jatkuvasti määritettyä kansiota.</p>
+<p>J\u00e4rjestelm\u00e4 valvoo m\u00e4\u00e4ritetty\u00e4 kansiota jatkuvasti.</p>
 </li>
 <li>
-<p>Uudet lisätyt laskentataulukkotiedostot tuodaan automaattisesti tilauksiin.</p>
+<p>Uudet lis\u00e4tyt taulukkotiedostot tuodaan automaattisesti ty\u00f6teht\u00e4viin.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/spreadsheetorder.png" alt="Spreadsheet Order" width="715">
@@ -325,9 +295,9 @@ tuodaksesi tilauksia.
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Yksityiskohtaiset määritysvaiheet löytyvät
+Yksityiskohtaiset m\u00e4\u00e4ritysvaiheet ovat
 <a href="../../factory/settings/watch.html">Watch settings</a>
--dokumentaatiosta.
+-dokumentaatiossa.
 </td>
 </tr>
 </table>
@@ -335,70 +305,50 @@ Yksityiskohtaiset määritysvaiheet löytyvät
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tilausten_luominen_osakirjastosta">Tilausten luominen osakirjastosta</h2>
+<h2 id="_tyu00f6tehtu00e4vien_luonti_osakirjastosta">Ty\u00f6teht\u00e4vien luonti osakirjastosta</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Valitse tarvittavat osat osakirjastosta.</p>
+<p>Valitse halutut osat osakirjastosta.</p>
 </li>
 <li>
-<p>Napsauta hiiren kakkospainikkeella ja valitse <strong>Uusi&#8230;&#8203;</strong> &#8594; <strong>Työtehtävä</strong> avataksesi
-<strong>Uudet työtehtävät</strong> -ikkunan.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/partorder.png" alt="Part Order" width="617">
-</div>
-</div>
+<p>Napsauta hiiren kakkospainikkeella ja valitse <strong>New&#8230;&#8203;</strong> &#8594;
+<strong>Order</strong> avataksesi <strong>New Orders</strong> -valintaikkunan.</p>
 </li>
 <li>
-<p>Syötä tarvittavat tiedot, kuten määrä, eräpäivä ja prioriteetti.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/orderwindow.png" alt="Order Window" width="570">
-</div>
-</div>
+<p>Anna tarvittavat tiedot, kuten m\u00e4\u00e4r\u00e4, m\u00e4\u00e4r\u00e4p\u00e4iv\u00e4 ja prioriteetti.</p>
 </li>
 <li>
-<p>Napsauta <strong>OK</strong> luodaksesi tilaukset.</p>
+<p>Napsauta <strong>OK</strong> luodaksesi ty\u00f6teht\u00e4v\u00e4t.</p>
 </li>
 <li>
-<p>Järjestelmä vaihtaa automaattisesti tilaukset-sivulle.</p>
+<p>J\u00e4rjestelm\u00e4 siirtyy automaattisesti Ty\u00f6teht\u00e4v\u00e4t-sivulle.</p>
 </li>
 <li>
-<p>Luodut tilaukset näytetään tilausten valmis -sivulla työn luomista varten.</p>
+<p>Luodut ty\u00f6teht\u00e4v\u00e4t n\u00e4ytet\u00e4\u00e4n Orders Ready -sivulla ty\u00f6n luontia varten.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tilausten_luominen_kokoonpanosta">Tilausten luominen kokoonpanosta</h2>
+<h2 id="_tyu00f6tehtu00e4vien_luonti_rakenneryhmu00e4stu00e4">Ty\u00f6teht\u00e4vien luonti rakenneryhm\u00e4st\u00e4</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta hiiren kakkospainikkeella tarvittavaa kokoonpanoa.</p>
+<p>Napsauta haluttua rakenneryhm\u00e4\u00e4 hiiren kakkospainikkeella.</p>
 </li>
 <li>
-<p>Valitse <strong>Uusi&#8230;&#8203;</strong> &#8594; <strong>Työtehtävä</strong> avataksesi
-<strong>Uudet työtehtävät</strong> -ikkunan.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/rooforder.png" alt="Roof Order" width="561">
-</div>
-</div>
+<p>Valitse <strong>New&#8230;&#8203;</strong> &#8594; <strong>Order</strong> avataksesi
+<strong>New Orders</strong> -valintaikkunan.</p>
 </li>
 <li>
-<p>Syötä tarvittava <strong>Rakenneryhmien määrä</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/assemblyorder.png" alt="Assembly Order" width="367">
-</div>
-</div>
+<p>Anna tarvittava <strong>Assembly count</strong>.</p>
 </li>
 <li>
-<p>Napsauta <strong>OK</strong> luodaksesi tilaukset.</p>
+<p>Napsauta <strong>OK</strong> luodaksesi ty\u00f6teht\u00e4v\u00e4t.</p>
 </li>
 </ul>
 </div>
@@ -412,16 +362,16 @@ Yksityiskohtaiset määritysvaiheet löytyvät
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_tilausten_tuonti_laskentataulukosta">Tilausten tuonti laskentataulukosta</a>
+   <a href="#_tyu00f6tehtu00e4vien_tuonti_taulukkotiedostosta">Ty\u00f6teht\u00e4vien tuonti taulukkotiedostosta</a>
   </li>
   <li level="1">
-   <a href="#_tilausten_tuonti_käyttäen_seuranta_asetuksia">Tilausten tuonti käyttäen seuranta-asetuksia</a>
+   <a href="#_tyu00f6tehtu00e4vien_tuonti_valvonta_asetuksilla">Ty\u00f6teht\u00e4vien tuonti valvonta-asetuksilla</a>
   </li>
   <li level="1">
-   <a href="#_tilausten_luominen_osakirjastosta">Tilausten luominen osakirjastosta</a>
+   <a href="#_tyu00f6tehtu00e4vien_luonti_osakirjastosta">Ty\u00f6teht\u00e4vien luonti osakirjastosta</a>
   </li>
   <li level="1">
-   <a href="#_tilausten_luominen_kokoonpanosta">Tilausten luominen kokoonpanosta</a>
+   <a href="#_tyu00f6tehtu00e4vien_luonti_rakenneryhmu00e4stu00e4">Ty\u00f6teht\u00e4vien luonti rakenneryhm\u00e4st\u00e4</a>
   </li>
  </ul>
 </aside>
@@ -429,8 +379,8 @@ Yksityiskohtaiset määritysvaiheet löytyvät
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="partimport.html">Osien tuonti</a></span>
- <span class="next"><a href="jobimport.html">Töiden tuonti</a></span>
+ <span class="prev"><a href="partimport.html">Import parts</a></span>
+ <span class="next"><a href="jobimport.html">Import jobs</a></span>
 </nav>
 
         </div>

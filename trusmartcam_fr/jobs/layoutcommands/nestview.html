@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Vue de mise en page</title>
+  <title>Vue de configuration</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -27,12 +27,10 @@
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Installation</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Configuration matérielle requise</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Exigences matérielles</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Formats de fichiers pris en charge</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Prérequis</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Installation du serveur</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Installation du client</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Changer de licence</a></li>
    </ul>
   </li>
   <li>
@@ -40,21 +38,21 @@
    <a href="../../configuration/index.html">Configuration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Ajouter/Supprimer une machine</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Configuration de l'outillage</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Configurer l'outillage</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configurer les utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Langue</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Matériau</a>
+     <a href="../../configuration/addmaterial/index.html">Matière</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Ajouter un nouveau matériau et une feuille</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Exporter/Importer le matériau</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Remplacer le matériau</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Ajouter une nouvelle matière et une tôle</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Exporter/Importer une matière</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Remplacer une matière</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Associer le matériau</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Associer les pages CAM</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Associer les champs depuis CAD (clés de recherche)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Cartographier la matière</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Cartographier les pages CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Cartographier les champs depuis CAD (clés de recherche)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">L'interface utilisateur</a></li>
@@ -68,71 +66,71 @@
      <a href="../../library/open/index.html">Ouvrir</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Importer des pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importer des commandes</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importer des ordres</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Importer des tâches</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importer des assemblages</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importer des modules</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/libraryview/index.html">Vue de bibliothèque</a>
+     <a href="../../library/libraryview/index.html">Vue de la bibliothèque</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Module</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/partstate/index.html">Statut de la pièce</a>
+     <a href="../../library/partstate/index.html">État de la pièce</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Validation de pi\u00e8ce</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Panneau de pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Filtres de pièces</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Validation des pièces</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Panneau de la pièce</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Filtres de pièce</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Statut de l'outillage</a>
+     <a href="../../library/toolingstatus/index.html">État de l'outillage</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validation d'outillage</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validation de l'outillage</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validation d'outillage de pliage</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validation d'outillage de découpe</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validation d'outillage de pliure</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validation de l'outillage de pliage</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validation de l'outillage de coupe</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validation de l'outillage de pliage</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panneau d'outillage</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Enregistrer les filtres</a></li>
+    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Enregistrement des filtres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Commandes</a>
+   <a href="../../orders/index.html">Ordres</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Vue des commandes</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Vue des ordres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Travaux</a>
+   <a href="../index.html">Tâches</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">Créer un travail</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Vue du travail</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Panneau de travail</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">Créer une tâche</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Vue des tâches</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Panneau des tâches</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Planification automatique</a></li>
     <li><button class="tree blank"></button><a href="../jobinteractplan.html">Imbrication interactive</a></li>
-    <li><button class="tree blank"></button><a href="../repacking.html">Réemballage</a></li>
+    <li><button class="tree blank"></button><a href="../repacking.html">Réempaquetage</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Gestion de l'imbrication</a>
+     <a href="index.html">Gestion des imbrications</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="nestview.html">Vue de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="layoutpanel.html">Panneau de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="reportsender.html">Expéditeur de rapport</a></li>
+      <li><button class="tree blank"></button><a class="active" href="nestview.html">Vue de configuration</a></li>
+      <li><button class="tree blank"></button><a href="layoutpanel.html">Panneau de configuration</a></li>
+      <li><button class="tree blank"></button><a href="reportsender.html">Envoi de rapports</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Gestion manuelle des chutes</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Imbrication en ligne double</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Imbrication Twinline</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Obsolète</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtres de travail</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtres de tâches</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Usine</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Feuilles</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Tôles</a></li>
     <li><button class="tree blank"></button><a href="../../factory/users.html">Utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../../factory/edit.html">Modifier</a></li>
     <li><button class="tree blank"></button><a href="../../factory/customers.html">Clients</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Paramètres</a>
+     <a href="../../factory/settings/index.html">Réglages</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environnement</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importation</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Pliage</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Découpe</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Coupe</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Surveillance</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Tâche</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">Extensions CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">Extension SolidWorks</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Enregistrer les pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Enregistrer l'assemblage</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Vérifier la faisabilité</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Paramètres de l'usine</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Améliorations diverses</a></li>
      </ul>
     </li>
    </ul>
@@ -204,26 +184,27 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Travaux</a>
+  <a href="../index.html">Tâches</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Gestion de l'imbrication</a>
+  <a href="index.html">Gestion des imbrications</a>
  </div>
  <div>/</div>
  <div>
-  <a href="nestview.html">Vue de mise en page</a>
+  <a href="nestview.html">Vue de configuration</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Vue de mise en page</h1>
+                        <h1>Vue de configuration</h1>
 <div class="ulist">
 <ul>
 <li>
-<p>La sélection de l&#8217;option <strong>nests</strong> affiche une liste de toutes les imbrications dans le travail actuellement sélectionné.</p>
+<p>La sélection de l&#8217;option <strong>nests</strong> affiche la liste de toutes les imbrications de
+la tâche actuellement sélectionnée.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/nest1.png" alt="Layouts window" width="1183">
@@ -231,7 +212,8 @@
 </div>
 </li>
 <li>
-<p>Double-cliquez sur une imbrication pour voir une répartition détaillée de cette imbrication.</p>
+<p>Double-cliquez sur une imbrication pour afficher une répartition détaillée de
+cette imbrication.</p>
 </li>
 <li>
 <p>La répartition de l&#8217;imbrication affiche :</p>
@@ -241,43 +223,47 @@
 <p>Les pièces utilisées dans l&#8217;imbrication.</p>
 </li>
 <li>
-<p>Des informations détaillées telles que le matériau utilisé, le temps de cycle et d&#8217;autres métriques.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/nest2.png" alt="Layout info" width="998">
-</div>
-</div>
+<p>Des informations détaillées telles que la matière utilisée, le temps de
+cycle et d&#8217;autres métriques.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Vous pouvez faire défiler différentes imbrications et cliquer sur n&#8217;importe quelle pièce pour effectuer les mêmes actions disponibles dans la zone Pièces.</p>
+<p>Vous pouvez parcourir les différentes imbrications et cliquer sur n&#8217;importe
+quelle pièce pour effectuer les mêmes actions que celles disponibles dans la
+zone Parts.</p>
 </li>
 <li>
-<p>Un clic droit sur une imbrication fera apparaître le panneau <strong>Layout</strong>.</p>
+<p>Un clic droit sur une imbrication ouvre le panneau <strong>Layout</strong>.</p>
 <div class="paragraph">
 <p><span class="image"><img src="img/nest3.png" alt="Layout panel" width="1370"></span></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Envoi vers machine&#8230;&#8203;</strong> libérera l&#8217;imbrication pour la production sur les machines, à ce moment l&#8217;option d&#8217;imbrication changera en Recall from Machine.</p>
+<p><strong>Send to Machine&#8230;&#8203;</strong> libère l&#8217;imbrication pour la
+production sur les machines, après quoi l&#8217;option d&#8217;imbrication passe à Recall
+from Machine.</p>
 </li>
 <li>
-<p><strong>Ajout de pièces&#8230;&#8203;</strong> permettra d&#8217;ajouter des pièces supplémentaires à l&#8217;imbrication.</p>
+<p><strong>Add Parts&#8230;&#8203;</strong> permet d&#8217;ajouter des pièces supplémentaires
+à l&#8217;imbrication.</p>
 </li>
 <li>
-<p><strong>Adaptation/compactage&#8230;&#8203;</strong> permettra de modifier par lot les matériaux ou les machines utilisés dans l&#8217;imbrication.</p>
+<p><strong>Adapt/Compact&#8230;&#8203;</strong> permet de modifier par lot les matières
+ou les machines utilisées dans l&#8217;imbrication.</p>
 </li>
 <li>
-<p><strong>Modifier LTT&#8230;&#8203;</strong> permettra d&#8217;appliquer une technologie laser différente pour le matériau et l&#8217;épaisseur sélectionnés dans l&#8217;imbrication.</p>
+<p><strong>Change LTT&#8230;&#8203;</strong> permet d&#8217;appliquer une technologie laser
+différente pour la matière et l&#8217;épaisseur sélectionnées dans l&#8217;imbrication.</p>
 </li>
 <li>
-<p><strong>Diviser les configurations&#8230;&#8203;</strong> permettra de prendre une imbrication qui a plusieurs répétitions dans une nouvelle imbrication.</p>
+<p><strong>Split Layouts&#8230;&#8203;</strong> permet de transformer une imbrication
+comportant plusieurs répétitions en une nouvelle imbrication.</p>
 </li>
 <li>
-<p><strong>Renommer&#8230;&#8203;</strong> permettra de renommer l&#8217;imbrication.</p>
+<p><strong>Rename&#8230;&#8203;</strong> permet de renommer l&#8217;imbrication.</p>
 </li>
 </ul>
 </div>
@@ -292,8 +278,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Gestion de l'imbrication</a></span>
- <span class="next"><a href="layoutpanel.html">Panneau de mise en page</a></span>
+ <span class="prev"><a href="index.html">Gestion des imbrications</a></span>
+ <span class="next"><a href="layoutpanel.html">Panneau de configuration</a></span>
 </nav>
 
         </div>

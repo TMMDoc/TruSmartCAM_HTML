@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Osien tuonti</title>
+  <title>Import parts</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Avaa</a>
+     <a href="index.html">Avaaminen</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a href="orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a href="jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a class="active" href="partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a href="orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a href="jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../libraryview/index.html">Kirjastonäkymä</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Työkalutila</a>
+     <a href="../toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Sisäkkäisyyden hallinta</a>
+     <a href="../../jobs/layoutcommands/index.html">Nestauksen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Jäännösarkkien hallinta</a>
+     <a href="../../jobs/remnantmanagement/index.html">Jäännöslevyjen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -208,23 +188,24 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Avaa</a>
+  <a href="index.html">Avaaminen</a>
  </div>
  <div>/</div>
  <div>
-  <a href="partimport.html">Osien tuonti</a>
+  <a href="partimport.html">Import parts</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Osien tuonti</h1>
+                        <h1>Import parts</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ennen osien tuontia varmista, että tiedostomuodot ovat yhteensopivia TruSmartCAM-sovelluksen kanssa.
-Katso lisätietoja kohdasta <a href="../../installation/importformats.html">supported file formats</a>.</p>
+<p>Ennen osien tuontia varmista, ett\u00e4 tiedostomuodot ovat yhteensopivia
+TruSmartCAM-sovelluksen kanssa. Lis\u00e4tietoja on kohdassa
+<a href="../../installation/importformats.html">supported file formats</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -233,8 +214,8 @@ Katso lisätietoja kohdasta <a href="../../installation/importformats.html">supp
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Jos materiaalia ja paksuutta ei ole kartoitettu osaan tuonnin jälkeen, määritä
-materiaali käyttäen osapaneelia.
+Jos materiaalia ja paksuutta ei ole m\u00e4\u00e4ritetty osalle tuonnin j\u00e4lkeen,
+m\u00e4\u00e4rit\u00e4 materiaali osapaneelin avulla.
 </td>
 </tr>
 </table>
@@ -242,10 +223,10 @@ materiaali käyttäen osapaneelia.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tuontimenetelmät">Tuontimenetelmät</h2>
+<h2 id="_tuontimenetelmu00e4t">Tuontimenetelm\u00e4t</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>On olemassa kolme menetelmää osien tuontiin osakirjastoon:</p>
+<p>Osia voi tuoda osakirjastoon kolmella menetelm\u00e4ll\u00e4:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -253,68 +234,61 @@ materiaali käyttäen osapaneelia.
 <p>Tuonti tiedoston kautta</p>
 </li>
 <li>
-<p>Vedä ja pudota</p>
+<p>Ved\u00e4 ja pudota</p>
 </li>
 <li>
-<p>Kansion seuranta</p>
+<p>Valvottava kansio</p>
 </li>
 </ol>
 </div>
 <div class="sect2">
 <h3 id="_tuonti_tiedoston_kautta">Tuonti tiedoston kautta</h3>
 <div class="paragraph">
-<p>2D- tai 3D-osatiedosto voidaan tuoda osakirjastoon käyttämällä
-<strong>Tuo osat</strong> -vaihtoehtoa.</p>
+<p>2D- tai 3D-osatiedosto voidaan tuoda osakirjastoon
+<strong>Import parts&#8230;&#8203;</strong> -vaihtoehdolla.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta <strong>avaa</strong> -kuvakkeita komentorivistä ja valitse
-<strong>Tuo osat</strong> -vaihtoehto.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importpart.png" alt="Import part" width="337">
-</div>
-</div>
+<p>Napsauta <strong>open</strong> -kuvakkeita komentopalkista ja valitse
+<strong>Import parts&#8230;&#8203;</strong> -vaihtoehto.</p>
 </li>
 <li>
-<p><strong>Open</strong>-ikkuna ilmestyy — valitse mikä tahansa CAD-tiedosto (2D tai 3D).</p>
+<p><strong>Open</strong>-valintaikkuna tulee n\u00e4kyviin \u2014 valitse mik\u00e4 tahansa CAD-tiedosto (2D
+tai 3D).</p>
 </li>
 <li>
-<p>Esikatselu valitusta CAD-tiedostosta näytetään.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/sideview.png" alt="Part preview" width="1233">
-</div>
-</div>
+<p>Valitusta CAD-tiedostosta n\u00e4ytet\u00e4\u00e4n esikatselu.</p>
 </li>
 <li>
-<p>Valitse tarvittava osa ja napsauta <strong>Open</strong>.</p>
+<p>Valitse haluttu osa ja napsauta <strong>Open</strong>.</p>
 </li>
 <li>
-<p>Järjestelmä työkaluttaa osan automaattisesti kaikille saatavilla oleville koneille päivitetyllä työkalutilalla.</p>
+<p>J\u00e4rjestelm\u00e4 ty\u00f6st\u00e4\u00e4 osan automaattisesti kaikille k\u00e4ytett\u00e4viss\u00e4 oleville
+koneille p\u00e4ivitetyll\u00e4 ty\u00f6st\u00f6jen tilalla.</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_vedä_ja_pudota">Vedä ja pudota</h3>
+<h3 id="_vedu00e4_ja_pudota">Ved\u00e4 ja pudota</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Vedä ja pudota osatiedosto suoraan TruSmartCAM-osakirjastoon.</p>
+<p>Ved\u00e4 ja pudota osatiedosto suoraan TruSmartCAM-osakirjastoon.</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_kansion_seuranta">Kansion seuranta</h3>
+<h3 id="_valvottava_kansio">Valvottava kansio</h3>
 <div class="paragraph">
-<p>Seuranta-asetukset mahdollistavat kansion seurannan uusien tiedostojen varalta ja automaattisen tuonnin
-osakirjastoon.</p>
+<p>Valvonta-asetusten avulla voit valvoa kansiota uusien tiedostojen varalta ja
+tuoda ne automaattisesti osakirjastoon.</p>
 </div>
 <div class="paragraph">
-<p>Määritystä varten katso <a href="../../factory/settings/watch.html">Watch settings</a> -sivu.</p>
+<p>Katso m\u00e4\u00e4ritysohjeet sivulta
+<a href="../../factory/settings/watch.html">Watch settings</a>.</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -326,15 +300,16 @@ osakirjastoon.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Käytä UNC (Universal Naming Convention) -polkua <code>\\192.168.1.11\&lt;Folder path&gt;</code> tai
-kartoitettua asemaa <code>M:\&lt;Folder Path&gt;</code>.</p>
+<p>K\u00e4yt\u00e4 UNC-polkua (Universal Naming Convention) <code>\\\\192.168.1.11\\&lt;Folder path&gt;</code>
+tai yhdistetty\u00e4 asemaa <code>M:\\&lt;Folder Path&gt;</code>.</p>
 </li>
 <li>
-<p>Moottoria ajavan tietokoneen on oltava luku-/kirjoitusoikeuksin tähän kansioon.</p>
+<p>Engine-tietokoneella (Engine-running PC) on oltava luku-/kirjoitusoikeus
+t\u00e4h\u00e4n kansioon.</p>
 </li>
 <li>
-<p>Älä käytä paikallista polkua kuten <code>C:\&lt;Folder Path&gt;</code>, koska seuranta-palvelu
-etsii tiedostoja moottoritietokoneelta — ei paikalliselta tietokoneelta.</p>
+<p>\u00c4l\u00e4 k\u00e4yt\u00e4 paikallista polkua, kuten <code>C:\\&lt;Folder Path&gt;</code>, koska valvontapalvelu
+etsii tiedostoja Engine-tietokoneelta \u2014 ei paikalliselta tietokoneelta.</p>
 </li>
 </ul>
 </div>
@@ -351,21 +326,22 @@ etsii tiedostoja moottoritietokoneelta — ei paikalliselta tietokoneelta.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="import-configuration">Tuonnin määritys</h2>
+<h2 id="import-configuration">Tuontiasetukset</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_käytä_geometrioiden_vertailua_saman_cad_revision_yhteydessä">Käytä geometrioiden vertailua saman CAD-revision yhteydessä</h3>
+<h3 id="_use_geometry_comparison_on_same_cad_revision">Use geometry comparison on same CAD revision</h3>
 <div class="paragraph">
-<p>Tuotaessa osaa, jolla on sama CAD-revisio, TruSmartCAM voi verrata
-CAD-tiedoston geometriaa olemassa olevaan osaan.</p>
+<p>Kun tuodaan osa samalla CAD-revisiolla, TruSmartCAM voi verrata CAD-tiedoston
+geometriaa olemassa olevaan osaan.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Tämän käyttöönottamiseksi määritä <strong>Revisioiden haun näppäimet</strong> (esimerkiksi
-REV) kohdassa <strong>tehdas</strong> → <strong>asetukset</strong>
-→<strong>Tuonti/vienti</strong>. Ota sitten käyttöön
-<strong>Käytä geometrioiden vertailua saman CAD-revision yhteydessä</strong> -vaihtoehto.</p>
+<p>Ota t\u00e4m\u00e4 k\u00e4ytt\u00f6\u00f6n m\u00e4\u00e4ritt\u00e4m\u00e4ll\u00e4 <strong>Revision lookup keys</strong>
+(esimerkiksi REV) kohdassa <strong>factory</strong> \u2192
+<strong>settings</strong> \u2192*Import*. Ota sitten k\u00e4ytt\u00f6\u00f6n
+<strong>Use geometry comparison on same CAD revision</strong>
+-vaihtoehto.</p>
 </li>
 </ul>
 </div>
@@ -380,7 +356,7 @@ REV) kohdassa <strong>tehdas</strong> → <strong>asetukset</strong>
 </td>
 <td class="content">
 Geometrian vertailu samalla CAD-revisiolla toimii vain, kun
-<strong>Revisioiden haun näppäimet</strong> on määritetty.
+<strong>Revision lookup keys</strong> on m\u00e4\u00e4ritetty.
 </td>
 </tr>
 </table>
@@ -388,34 +364,26 @@ Geometrian vertailu samalla CAD-revisiolla toimii vain, kun
 <div class="ulist">
 <ul>
 <li>
-<p>Tuo nyt osa osakirjastoon tietyllä revisiolla (esimerkiksi
-Revision 1).</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/partcomparison.png" alt="Part Comparison" width="263">
-</div>
-</div>
+<p>Tuo nyt osa osakirjastoon tietyll\u00e4 revisiolla (esimerkiksi Revision 1).</p>
 </li>
 <li>
 <p>Sama osa tuodaan uudelleen samalla revisioarvolla.</p>
 </li>
 <li>
-<p>TruSmartCAM vertaa uudelleen tuodun CAD-tiedoston geometriaa olemassa
-olevaan osaan.</p>
+<p>TruSmartCAM vertaa juuri tuodun CAD-tiedoston geometriaa olemassa olevaan osaan.</p>
 </li>
 <li>
-<p>Jos geometriaero havaitaan, TruSmartCAM näyttää kehotteen kysyen, haluatko:</p>
+<p>Jos geometriaero havaitaan, TruSmartCAM n\u00e4ytt\u00e4\u00e4 kehotteen, jossa kysyt\u00e4\u00e4n,
+haluatko:</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Korvaa</strong> korvata olemassa olevan osan uudella geometrialla, pitäen saman revision
-arvon.</p>
+<p><strong>Replace</strong> korvata olemassa olevan osan uudella geometrialla
+s\u00e4ilytt\u00e4en saman revisioarvon.</p>
 </li>
 <li>
-<p><strong>Ohita</strong> ohittaa tuonnin, säilyttäen olemassa olevan osan ja sen geometrian.</p>
-<div class="paragraph">
-<p><span class="image"><img src="img/comparison.png" alt="Comparison" width="435"></span></p>
-</div>
+<p><strong>Skip</strong> ohittaa tuonnin s\u00e4ilytt\u00e4en olemassa olevan osan ja sen
+geometrian.</p>
 </li>
 </ul>
 </div>
@@ -423,12 +391,12 @@ arvon.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Tämä mahdollistaa käyttäjien päivittää osan geometrian muuttamatta revisioarvoa,
-säilyttäen silti hallinnan siitä, korvatako olemassa olevat osat.</p>
+<p>T\u00e4m\u00e4n avulla k\u00e4ytt\u00e4j\u00e4t voivat p\u00e4ivitt\u00e4\u00e4 osan geometrian muuttamatta
+revisioarvoa ja samalla hallita, korvataanko olemassa olevat osat.</p>
 </div>
 <div class="paragraph">
-<p>Tuodut osat lisätään automaattisesti kirjastoon jatkokäyttöä varten. Lisätietoja
-on kohdassa <a href="../../library/index.html">Library</a>.</p>
+<p>Tuodut osat lis\u00e4t\u00e4\u00e4n automaattisesti kirjastoon my\u00f6hemp\u00e4\u00e4 k\u00e4ytt\u00f6\u00e4 varten.
+Lis\u00e4tietoja on kohdassa <a href="../../library/index.html">Library</a>.</p>
 </div>
 </div>
 </div>
@@ -441,22 +409,22 @@ on kohdassa <a href="../../library/index.html">Library</a>.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_tuontimenetelmät">Tuontimenetelmät</a>
+   <a href="#_tuontimenetelmu00e4t">Tuontimenetelm\u00e4t</a>
   </li>
   <li level="2">
    <a href="#_tuonti_tiedoston_kautta">Tuonti tiedoston kautta</a>
   </li>
   <li level="2">
-   <a href="#_vedä_ja_pudota">Vedä ja pudota</a>
+   <a href="#_vedu00e4_ja_pudota">Ved\u00e4 ja pudota</a>
   </li>
   <li level="2">
-   <a href="#_kansion_seuranta">Kansion seuranta</a>
+   <a href="#_valvottava_kansio">Valvottava kansio</a>
   </li>
   <li level="1">
-   <a href="#import-configuration">Tuonnin määritys</a>
+   <a href="#import-configuration">Tuontiasetukset</a>
   </li>
   <li level="2">
-   <a href="#_käytä_geometrioiden_vertailua_saman_cad_revision_yhteydessä">Käytä geometrioiden vertailua saman CAD-revision yhteydessä</a>
+   <a href="#_use_geometry_comparison_on_same_cad_revision">Use geometry comparison on same CAD revision</a>
   </li>
  </ul>
 </aside>
@@ -464,8 +432,8 @@ on kohdassa <a href="../../library/index.html">Library</a>.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Avaa</a></span>
- <span class="next"><a href="orderimport.html">Tilausten tuonti</a></span>
+ <span class="prev"><a href="index.html">Avaaminen</a></span>
+ <span class="next"><a href="orderimport.html">Import orders</a></span>
 </nav>
 
         </div>

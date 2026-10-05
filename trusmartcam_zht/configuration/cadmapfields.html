@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>對應 CAD 欄位（查詢鍵）</title>
+  <title>從 CAD 對應欄位（查詢鍵）</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,19 +29,17 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">硬體需求</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">支援的檔案格式</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">先決條件</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">伺服器安裝</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">用戶端安裝</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">變更授權</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">配置</a>
+   <a href="index.html">組態</a>
    <ul>
-    <li><button class="tree blank"></button><a href="setupmachine.html">新增/移除機器</a></li>
-    <li><button class="tree blank"></button><a href="setuptooling.html">設定工具</a></li>
-    <li><button class="tree blank"></button><a href="configureusers.html">配置使用者</a></li>
+    <li><button class="tree blank"></button><a href="setupmachine.html">新增/移除機床</a></li>
+    <li><button class="tree blank"></button><a href="setuptooling.html">設定 tooling</a></li>
+    <li><button class="tree blank"></button><a href="configureusers.html">設定使用者</a></li>
     <li><button class="tree blank"></button><a href="language.html">語言</a></li>
     <li>
      <button class="tree closed"></button>
@@ -54,14 +52,14 @@
     </li>
     <li><button class="tree blank"></button><a href="mapbendpages.html">對應材料</a></li>
     <li><button class="tree blank"></button><a href="mapcampages.html">對應 CAM 頁面</a></li>
-    <li><button class="tree blank"></button><a class="active" href="cadmapfields.html">對應 CAD 欄位（查詢鍵）</a></li>
+    <li><button class="tree blank"></button><a class="active" href="cadmapfields.html">從 CAD 對應欄位（查詢鍵）</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">使用者介面</a></li>
   <li><button class="tree blank"></button><a href="../workflow.html">工作流程</a></li>
   <li>
    <button class="tree closed"></button>
-   <a href="../library/index.html">資料庫</a>
+   <a href="../library/index.html">庫</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
@@ -69,13 +67,13 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">匯入零件</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">匯入訂單</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">匯入工作</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">匯入 job</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">匯入組件</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/libraryview/index.html">資料庫視圖</a>
+     <a href="../library/libraryview/index.html">庫檢視</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">零件</a></li>
       <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">組件</a></li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">工具狀態</a>
+     <a href="../library/toolingstatus/index.html">tooling 狀態</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">工具驗證</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">tooling 驗證</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">折彎工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">切割工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">折邊工具驗證</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">折彎 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">切割 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">折疊 tooling 驗證</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">工具面板</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">儲存篩選器</a></li>
@@ -120,18 +118,18 @@
    <button class="tree closed"></button>
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">建立工作</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">工作檢視</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">工作面板</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">建立 job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job 檢視</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">自動規劃</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">互動式排版</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/repacking.html">重新包裝</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">互動式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/repacking.html">重新排料</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">排版管理</a>
+     <a href="../jobs/layoutcommands/index.html">Nest 管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">佈局檢視</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">佈局面板</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout 檢視</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">報告傳送器</a></li>
      </ul>
     </li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">手動餘料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">雙線排版</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">過期</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">工作篩選器</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job 篩選器</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">工廠</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">路線</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">板材</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">使用者</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">編輯</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">客戶</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">設定</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">環境</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">匯入</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">折彎</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">切割</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">通知</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">監視</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD 擴充功能</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks 增益集</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">安裝</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">儲存零件</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">儲存組件</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">檢查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">工廠設定</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">其他增強功能</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">報告</a></li>
      </ul>
     </li>
    </ul>
@@ -204,58 +184,53 @@
   </button>
  </div>
  <div>
-  <a href="index.html">配置</a>
+  <a href="index.html">組態</a>
  </div>
  <div>/</div>
  <div>
-  <a href="cadmapfields.html">對應 CAD 欄位（查詢鍵）</a>
+  <a href="cadmapfields.html">從 CAD 對應欄位（查詢鍵）</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>對應 CAD 欄位（查詢鍵）</h1>
+                        <h1>從 CAD 對應欄位（查詢鍵）</h1>
 <div class="ulist">
 <ul>
 <li>
-<p>工廠 &#8594; 設定 &#8594;
-匯入，在 匯入設定 區段下。點選 拾取…
-材料查找鍵。
-_選擇字段 頁面出現。</p>
+<p><strong>Factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Import</strong>，在 <strong>Import settings</strong> 區段下。點擊 <strong>Pick</strong>
+<strong>Material lookup keys</strong>。
+會出現 <strong>Select Fields</strong> 頁面。</p>
 </li>
 <li>
-<p>點選 瀏覽…。選擇檔案 <code>C:\Program
-Files\Metamation{APPNAME}\Samples\Parts\00.04.dxf</code>。</p>
+<p>點擊 Browse 並選取所需的 DXF 檔案。</p>
 </li>
 <li>
-<p>Select Field 填入 MAT、REV、THK 資訊。</p>
+<p>Select Field 會填入 MAT、REV、THK 資訊。</p>
 </li>
 <li>
-<p>選擇 MAT 並點選 確定。</p>
+<p>選取 MAT 並點擊 <strong>OK</strong>。</p>
+</li>
+<li>
+<p><strong>Material lookup keys</strong> 欄位會以 MAT 欄位更新。同樣地，使用 REV 和 THK 欄位組態 Revision 和 Thickness 查詢鍵。</p>
+</li>
+<li>
+<p>前往 <strong>File</strong> &#8594; <strong>Open</strong> &#8594; <strong>Import parts</strong>，選取相同的 DXF 檔案。</p>
+</li>
+<li>
+<p>零件匯入時會從選取的查詢鍵填入 Material、Thickness 和 Revision 值。</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Material lookup keys 欄位已更新為 MAT 欄位。Revision 和 Thickness 鍵的操作方式相同。</p>
-</div>
-<div class="paragraph">
-<p>檔案 &#8594; _打開… &#8594; 匯入零件，選擇
-檔案 - <code>C:\Program Files\Metamation{APPNAME}\Samples\Parts\00.04.dxf</code>。
-零件已匯入材料、厚度和版本。</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="img/05fieldmap.png" alt="Material" width="Revision and Thickness Map">
+<img src="img/mat.png" alt="Mat">
 </div>
 </div>
 <div class="paragraph">
-<p>雙擊 Part 00.04，零件詳細資訊頁面將在 雜項 特性 下顯示從 CAD 檔案對應的欄位資訊。</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/06mappedfiledfromcad.png" alt="Material" width="Revision and Thickness Map">
-</div>
+<p>雙擊 Part 00.04，零件詳情頁面會在 Misc Properties 下顯示從 CAD 檔案對應的欄位資訊。</p>
 </div>
 
                     </article>

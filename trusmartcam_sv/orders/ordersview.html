@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Ordervyer</title>
+  <title>Ordervy</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../library/open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Biblioteksvy</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Delstatus</a>
+     <a href="../library/partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Verktygsstatus</a>
+     <a href="../library/toolingstatus/index.html">Tooling-status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Ordrar</a>
+   <a href="index.html">Order</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a class="active" href="ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Jobb</a>
+   <a href="../jobs/index.html">Job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Häckhantering</a>
+     <a href="../jobs/layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Resthantering</a>
+     <a href="../jobs/remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -204,24 +184,24 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Ordrar</a>
+  <a href="index.html">Order</a>
  </div>
  <div>/</div>
  <div>
-  <a href="ordersview.html">Ordervyer</a>
+  <a href="ordersview.html">Ordervy</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Ordervyer</h1>
+                        <h1>Ordervy</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Alternativen på höger sida av sidan Ordrar representerar olika vyer av ordrar
-baserat på deras bearbetningsstadium. När ni väljer en vy uppdateras de visade
-ordrarna, vilket gör att ni kan fokusera på specifika stadier av arbetsflödet.</p>
+<p>Alternativen på höger sida av sidan Orders representerar olika vyer av order
+baserat på deras bearbetningssteg. När du väljer en vy uppdateras de visade
+orderna, så att du kan fokusera på specifika steg i arbetsflödet.</p>
 </div>
 </div>
 </div>
@@ -229,8 +209,8 @@ ordrarna, vilket gör att ni kan fokusera på specifika stadier av arbetsflödet
 <h2 id="_ready">Ready</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>När ni väljer vyn <strong>Ready</strong> visas ordrar som är förberedda
-men ännu inte konverterade till jobb.</p>
+<p>När du väljer vyn <strong>Ready</strong> visas order som är förberedda
+men ännu inte konverterade till job.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -240,10 +220,10 @@ men ännu inte konverterade till jobb.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Visar ordrar som är klara för att skapa jobb.</p>
+<p>Visar order som är redo att skapa job av.</p>
 </li>
 <li>
-<p>Användbart för att identifiera ordrar som väntar på bearbetning.</p>
+<p>Användbart för att identifiera order som väntar på bearbetning.</p>
 </li>
 </ul>
 </div>
@@ -253,21 +233,16 @@ men ännu inte konverterade till jobb.</p>
 <h2 id="_active">Active</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>När ni väljer vyn <strong>Active</strong> visas ordrar som har
-konverterats till jobb och som för närvarande bearbetas.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/active.png" alt="Active" width="999">
-</div>
+<p>När du väljer vyn <strong>Active</strong> visas order som har
+konverterats till job och som för närvarande bearbetas.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Representerar ordrar som redan flyttats till jobbstadiet.</p>
+<p>Representerar order som redan flyttats till jobbsteget.</p>
 </li>
 <li>
-<p>Hjälper till att spåra ordrar som är under genomförande.</p>
+<p>Hjälper till att spåra order som är under genomförande.</p>
 </li>
 <li>
 <p>Användbart för att övervaka pågående produktion.</p>
@@ -280,21 +255,16 @@ konverterats till jobb och som för närvarande bearbetas.</p>
 <h2 id="_done">Done</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>När ni väljer vyn <strong>Done</strong> visas ordrar som har
-sluttänts bearbetningen.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/done.png" alt="Done" width="999">
-</div>
+<p>När du väljer vyn <strong>Done</strong> visas order som har
+slutfört bearbetningen.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Visar ordrar vars associerade jobb är klara.</p>
+<p>Visar order vars tillhörande job är slutförda.</p>
 </li>
 <li>
-<p>Indikerar att arbetsflödet är slutfört.</p>
+<p>Anger att arbetsflödet är klart.</p>
 </li>
 <li>
 <p>Användbart för granskning och dokumentation.</p>
@@ -307,8 +277,8 @@ sluttänts bearbetningen.</p>
 <h2 id="_all">All</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>När ni väljer vyn <strong>All</strong> visas alla ordrar oavsett
-deras stadium.</p>
+<p>När du väljer vyn <strong>All</strong> visas alla order oavsett
+steg.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -318,10 +288,10 @@ deras stadium.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Ger en fullständig överblick över alla ordrar.</p>
+<p>Ger en fullständig översikt över alla order.</p>
 </li>
 <li>
-<p>Användbart för att söka och hantera över alla stadier.</p>
+<p>Användbart för sökning och hantering över alla steg.</p>
 </li>
 </ul>
 </div>
@@ -331,16 +301,16 @@ deras stadium.</p>
 <h2 id="_orderstatusfält">Orderstatusfält</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Statusfältet som visas under varje orderbricka indikerar om ordern är länkad
-till ett jobb. Det finns två typer:</p>
+<p>Statusfältet som visas under varje orderpanel anger om ordern är
+kopplad till ett job. Det finns två typer:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Inget fält - ordern är inte tilldelad något jobb.</p>
+<p>Inget fält - ordern är inte tilldelad något job.</p>
 </li>
 <li>
-<p>Med fält - ordern är en del av ett jobb, och fältet visar respektive
+<p>Med fält - ordern är en del av ett job, och fältet visar respektive
 jobbstatus enligt listan nedan.</p>
 </li>
 </ul>
@@ -358,32 +328,32 @@ jobbstatus enligt listan nedan.</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Ljusgrå)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Inte klar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Light Grey)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/readyui.png" alt="Ready" width="100"></span> (Vit)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/readyui.png" alt="Ready" width="100"></span> (White)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ready</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Ljusgul)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Light Yellow)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Mörkgrå)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Plåt saknas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Dark Grey)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sheet missing</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Mörkgul)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Bockningskö</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Dark Yellow)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bending queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Gul)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Skärkö</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Yellow)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cutting Queue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Mörkgrön)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Dark Green)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Done(Completed)</p></td>
 </tr>
 </tbody>
 </table>
@@ -417,8 +387,8 @@ jobbstatus enligt listan nedan.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Ordrar</a></span>
- <span class="next"><a href="../jobs/index.html">Jobb</a></span>
+ <span class="prev"><a href="index.html">Order</a></span>
+ <span class="next"><a href="../jobs/index.html">Job</a></span>
 </nav>
 
         </div>

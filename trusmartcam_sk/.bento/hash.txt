@@ -1,69 +1,70 @@
 Version=58
 APPNAME=TruSmartCAM
-BENDAPP=TecZone Fold
+BENDAPP=TecZone Bend
 BRAND=TRUMPF
 CUTAPP=TecZone Laser
 FLAVOR=TRUMPF
+FOLDAPP=TecZone Fold
 FOLDDAPP=Flux Fold
-LANGUAGE=SK
+LANGUAGE=EN
 TECNOAPP=TecZone
 TECNOAPP1=MetaCAM
 TRUMPF=
-Folders=18
-Pages=85
-UIXlate=True, DebugUIXlate=False, Language=SK
+Folders=16
+Pages=75
+UIXlate=False, DebugUIXlate=False, Language=EN
 
-contents.txt • 262814.062832
-Impressum.adoc • Informácie o spoločnosti
+contents.txt • 265803.125808
+Impressum.adoc • Firemné informácie
+impressum.JFY.adoc • Firemné informácie
 Index.adoc • Vitajte v {APPNAME}
 Index.JFY.adoc • Vitajte v {APPNAME}
-manifest.txt • 263322.043316
-UserInterface.adoc • Používateľské rozhranie
-Workflow.adoc • Pracovný postup
-CADExtensions\contents.txt • 262814.062829
-CADExtensions\Index.adoc • CAD rozšírenia
-Configuration\CADMapFields.adoc • Mapovanie polí z CAD (vyhľadávacie klúče)
-Configuration\configureUsers.adoc • Konfigurácia používateľov
-Configuration\contents.txt • 262814.062829
-Configuration\Index.adoc • Konfigurácia
-Configuration\Language.adoc • Jazyk
-Configuration\MapBendPages.adoc • Mapovanie materiálu
-Configuration\MapCAMPages.adoc • Mapovanie CAM stránok
-Configuration\SetupMachine.adoc • Pridať/Odstrániť stroj
-Configuration\SetupTooling.adoc • Nastavenie náradia
-Factory\contents.txt • 262814.062830
-Factory\Customers.adoc • Customers
-Factory\edit.adoc • Edit
-Factory\Index.adoc • Factory
-Factory\routes.adoc • Routes
-Factory\sheets.adoc • Sheets
-Factory\Users.adoc • Users
-img\server.ico
-Installation\changelic.adoc • Zmena licencie
-Installation\ClientInstallation.adoc • Inštalácia klienta
-Installation\contents.txt • 262814.062830
-Installation\HardwareRequirement.adoc • Hardvérové požiadavky
-Installation\importformats.adoc • Podporované formáty súborov
-Installation\index.adoc • Inštalácia
-Installation\Prerequisites.adoc • Predpoklady
-Installation\ServerInstallation.adoc • Inštalácia servera
-Jobs\contents.txt • 262814.062830
-Jobs\Index.adoc • Práce
-Jobs\JOBAutoPlan.adoc • Automatické plánovanie
-Jobs\JOBCreation.adoc • Vytvorenie práce
-Jobs\JobFilters.adoc • Filtre prác
-Jobs\JOBInteractPlan.adoc • Interaktívne ukladanie
-Jobs\JobPanel.adoc • Panel práce
-Jobs\JOBView.adoc • Zobrazenie práce
-Jobs\OutDate.adoc • Zastaralé
-Jobs\Repacking.adoc • Prebaľovanie
-Jobs\TwinlineNesting.adoc • Dvojlinové ukladanie
-Library\contents.txt • 262814.062831
-Library\Index.adoc • Knižnica
-Library\SavingFilters.adoc • Ukladanie filtrov
-Orders\Contents.txt
-Orders\Index.adoc • Objednávky
-Orders\OrdersView.adoc • Zobrazenie objednávok
+manifest.txt • 261429.081407
+UserInterface.adoc • PoužívateĻské rozhranie
+Workflow.adoc • Workflow
+cadextensions\contents.txt • 265821.065841
+cadextensions\Index.adoc • CAD extensions
+configuration\CADMapFields.adoc • Mapovanie polí z CAD (vyhľadávacie kľúče)
+configuration\configureUsers.adoc • Konfigurácia používateľov
+configuration\contents.txt • 265821.065841
+configuration\Index.adoc • Konfigurácia
+configuration\Language.adoc • Jazyk
+configuration\MapBendPages.adoc • Mapovanie materiálu
+configuration\MapCAMPages.adoc • Mapovanie strán CAM
+configuration\SetupMachine.adoc • Pridanie/odstránenie stroja
+configuration\SetupTooling.adoc • Nastavenie tooling
+factory\contents.txt • 265821.065841
+factory\Customers.adoc • Zákazníci
+factory\edit.adoc • Úprava
+factory\Index.adoc • Továreň
+factory\routes.adoc • Trasy
+factory\sheets.adoc • Tabule
+factory\Users.adoc • Používatelia
+installation\changelic.adoc • Zmena licencie
+installation\ClientInstallation.adoc • Inštalácia klienta
+installation\contents.txt • 265821.065841
+installation\HardwareRequirement.adoc • Hardvérové požiadavky
+installation\importformats.adoc • Podporované formáty súborov
+installation\index.adoc • Inštalácia
+installation\Prerequisites.adoc • Predpoklady
+installation\ServerInstallation.adoc • Inštalácia servera
+jobs\contents.txt • 265821.065842
+jobs\Index.adoc • Úlohy job
+jobs\JOBAutoPlan.adoc • Automatické plánovanie
+jobs\JOBCreation.adoc • Vytvorenie úlohy job
+jobs\JobFilters.adoc • Filtre úloh job
+jobs\JOBInteractPlan.adoc • Interaktívny nesting
+jobs\JobPanel.adoc • Panel úlohy job
+jobs\JOBView.adoc • Zobrazenie úloh job
+jobs\OutDate.adoc • Neaktuálne
+jobs\Repacking.adoc • Prebaľovanie
+jobs\TwinlineNesting.adoc • Nesting Twinline
+library\contents.txt • 265821.065843
+library\Index.adoc • Knižnica
+library\SavingFilters.adoc • Ukladanie filtrov
+orders\Contents.txt
+orders\Index.adoc • Objednávky
+orders\OrdersView.adoc • Zobrazenie objednávok
 UIXlate\BR.txt
 UIXlate\CHS.txt
 UIXlate\CHT.txt
@@ -89,58 +90,66 @@ UIXlate\SK.txt
 UIXlate\SV.txt
 UIXlate\TH.txt
 UIXlate\TR.txt
-CADExtensions\SolidWorksAddin\contents.txt • 262814.062829
-CADExtensions\SolidWorksAddin\FactorySettings.adoc • Nastavenia továrne
-CADExtensions\SolidWorksAddin\Index.adoc • SolidWorks addin
-CADExtensions\SolidWorksAddin\InstallationSteps.adoc • Inštalácia
-CADExtensions\SolidWorksAddin\MiscEnhancements.adoc • Rôzne vylepšenia
-CADExtensions\SolidWorksAddin\PartFeasibility.adoc • Skontrolovať uskutočniteľnosť
-CADExtensions\SolidWorksAddin\SaveAssembly.adoc • Uložiť zostavu
-CADExtensions\SolidWorksAddin\SaveToPraxis.adoc • Uložiť diely
-Configuration\AddMaterial\AddNew.adoc • Pridať nový materiál a hárok
-Configuration\AddMaterial\contents.txt • 250602.060638
-Configuration\AddMaterial\ExportImport.adoc • Export/Import materiálu
-Configuration\AddMaterial\Index.adoc • Materiál
-Configuration\AddMaterial\ReplaceMaterial.adoc • Nahradiť materiál
-Factory\Settings\Bend.adoc • Bend
-Factory\Settings\contents.txt • 262814.062830
-Factory\Settings\Cut.adoc • Cut
-Factory\Settings\Environment.adoc • Environment
-Factory\Settings\Import.adoc • Import
-Factory\Settings\Index.adoc • Settings
-Factory\Settings\Job.adoc • Job
-Factory\Settings\Notification.adoc • Notifications
-Factory\Settings\Reports.adoc • Reports
-Factory\Settings\Watch.adoc • Watch
-Jobs\LayoutCommands\contents.txt • 262814.062830
-Jobs\LayoutCommands\Index.adoc • Správa hniezd
-Jobs\LayoutCommands\LayoutPanel.adoc • Panel rozvrhnutia
-Jobs\LayoutCommands\NestView.adoc • Zobrazenie rozvrhnutia
-Jobs\LayoutCommands\ReportSender.adoc • Odosielateľ správ
-Jobs\RemnantManagement\AutoRemnant.adoc • Automatická správa zvyškov
-Jobs\RemnantManagement\contents.txt • 262814.062830
-Jobs\RemnantManagement\Index.adoc • Správa zvyškov
-Jobs\RemnantManagement\ManualRemnant.adoc • Manuálna správa zvyškov
-Library\LibraryView\AssemblyView.adoc • Zostavy
-Library\LibraryView\Contents.txt
-Library\LibraryView\Index.adoc • Zobrazenie knižnice
-Library\LibraryView\PartView.adoc • Diely
-Library\Open\AssembliesImport.adoc • Import zostáv
-Library\Open\Contents.txt
-Library\Open\Index.adoc • Otvoriť
-Library\Open\JobImport.adoc • Import úloh
-Library\Open\OrderImport.adoc • Import objednávok
-Library\Open\PartImport.adoc • Import dielov
-Library\PartState\contents.txt • 262814.062831
-Library\PartState\Index.adoc • Stav dielu
-Library\PartState\PartFilters.adoc • Filtre dielov
-Library\PartState\PartPanel.adoc • Panel dielu
-Library\PartState\PartValidation.adoc • Validácia dielu
-Library\ToolingStatus\contents.txt • 262814.062831
-Library\ToolingStatus\Index.adoc • Stav obrábania
-Library\ToolingStatus\ToolingPanel.adoc • Panel obrábania
-Library\ToolingStatus\ToolingValidation\BendTooling.adoc • Validácia ohýbacieho obrábania
-Library\ToolingStatus\ToolingValidation\contents.txt • 262814.062831
-Library\ToolingStatus\ToolingValidation\CutTooling.adoc • Validácia rezacieho obrábania
-Library\ToolingStatus\ToolingValidation\FoldTooling.adoc • Validácia skladacieho obrábania
-Library\ToolingStatus\ToolingValidation\Index.adoc • Validácia obrábania
+_jfybuild\build_docbook.log
+_jfybuild\build_docx.log
+_jfybuild\build_jfy.rb
+_jfybuild\build_pdf.log
+_jfybuild\JFY_Plus_Reference_Manual.docx
+_jfybuild\JFY_Plus_Reference_Manual.pdf
+_jfybuild\master.adoc • JFY Plus Reference Manual
+_jfybuild\master.xml
+cadextensions\solidworksaddin\contents.txt • 265821.065841
+cadextensions\solidworksaddin\FactorySettings.adoc • Factory settings
+cadextensions\solidworksaddin\Index.adoc • SolidWorks addin
+cadextensions\solidworksaddin\InstallationSteps.adoc • Installation
+cadextensions\solidworksaddin\MiscEnhancements.adoc • Misc enhancements
+cadextensions\solidworksaddin\PartFeasibility.adoc • Check feasibility
+cadextensions\solidworksaddin\SaveAssembly.adoc • Save assembly
+cadextensions\solidworksaddin\SaveToPraxis.adoc • Save parts
+configuration\addmaterial\AddNew.adoc • Pridanie nového materiálu a tabule
+configuration\addmaterial\contents.txt • 265821.065841
+configuration\addmaterial\ExportImport.adoc • Export/import materiálu
+configuration\addmaterial\Index.adoc • Materiál
+configuration\addmaterial\ReplaceMaterial.adoc • Nahradenie materiálu
+factory\settings\Bend.adoc • Nastavenia ohýbania
+factory\settings\contents.txt • 265821.065841
+factory\settings\Cut.adoc • Nastavenia rezania
+factory\settings\Environment.adoc • Nastavenia prostredia
+factory\settings\Import.adoc • Nastavenia importu
+factory\settings\Index.adoc • Nastavenia
+factory\settings\Job.adoc • Nastavenia úloh job
+factory\settings\Notification.adoc • Oznámenia
+factory\settings\Reports.adoc • Nastavenia reportov
+factory\settings\Watch.adoc • Nastavenia sledovania
+jobs\layoutcommands\contents.txt • 265821.065842
+jobs\layoutcommands\Index.adoc • Správa nestov
+jobs\layoutcommands\LayoutPanel.adoc • Panel rozloženia
+jobs\layoutcommands\NestView.adoc • Zobrazenie rozloženia
+jobs\layoutcommands\ReportSender.adoc • Odosielanie reportov
+jobs\remnantmanagement\AutoRemnant.adoc • Automatické zvyšky
+jobs\remnantmanagement\contents.txt • 265821.065842
+jobs\remnantmanagement\Index.adoc • Správa zvyškov
+jobs\remnantmanagement\ManualRemnant.adoc • Manuálne zvyšky
+library\libraryview\AssemblyView.adoc • Zostava
+library\libraryview\Contents.txt
+library\libraryview\Index.adoc • Zobrazenie knižnice
+library\libraryview\PartView.adoc • Diely
+library\open\AssembliesImport.adoc • Import zostáv
+library\open\Contents.txt
+library\open\Index.adoc • Otvorenie
+library\open\JobImport.adoc • Import úloh job
+library\open\OrderImport.adoc • Import objednávok
+library\open\PartImport.adoc • Import dielov
+library\partstate\contents.txt • 265821.065842
+library\partstate\Index.adoc • Stav dielu
+library\partstate\PartFilters.adoc • Filtre dielov
+library\partstate\PartPanel.adoc • Panel dielu
+library\partstate\PartValidation.adoc • Validácia dielu
+library\toolingstatus\contents.txt • 265821.065842
+library\toolingstatus\Index.adoc • Stav tooling
+library\toolingstatus\ToolingPanel.adoc • Panel tooling
+library\toolingstatus\toolingvalidation\BendTooling.adoc • Validácia tooling ohýbania
+library\toolingstatus\toolingvalidation\contents.txt • 265821.065842
+library\toolingstatus\toolingvalidation\CutTooling.adoc • Validácia tooling rezania
+library\toolingstatus\toolingvalidation\FoldTooling.adoc • Validácia tooling skladania
+library\toolingstatus\toolingvalidation\Index.adoc • Validácia tooling

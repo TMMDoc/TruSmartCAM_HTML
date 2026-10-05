@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Filtros de tarefa</title>
+  <title>Filtros de job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Requisitos de hardware</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Formatos de arquivo suportados</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Pré-requisitos</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalação do servidor</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalação do cliente</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Alterar licença</a></li>
    </ul>
   </li>
   <li>
@@ -54,22 +52,22 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapear material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mapear páginas CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de consulta)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de pesquisa)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">A interface do usuário</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Fluxo de trabalho</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteca</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Abrir</a>
+     <a href="../library/open/index.html">Open</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importar peças</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importar pedidos</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar tarefas</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar jobs</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importar montagens</a></li>
      </ul>
     </li>
@@ -77,8 +75,8 @@
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Visualização da biblioteca</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Peças</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montagem</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,7 +84,7 @@
      <a href="../library/partstate/index.html">Status da peça</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Validação de peça</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel de peça</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel da peça</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Filtros de peça</a></li>
      </ul>
     </li>
@@ -96,17 +94,17 @@
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação de ferramental</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação do ferramental</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação de ferramental de dobra</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação de ferramental de corte</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação de ferramental de dobra de painel</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação do ferramental de dobra</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação do ferramental de corte</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação do ferramental de fold</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Painel de ferramental</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvando filtros</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvar filtros</a></li>
    </ul>
   </li>
   <li>
@@ -118,21 +116,21 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Tarefas</a>
+   <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Criar tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Visualização de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Painel de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobautoplan.html">Plano automático</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Criar job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Visualização de job</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Painel de job</a></li>
+    <li><button class="tree blank"></button><a href="jobautoplan.html">Auto plan</a></li>
     <li><button class="tree blank"></button><a href="jobinteractplan.html">Nesting interativo</a></li>
-    <li><button class="tree blank"></button><a href="repacking.html">Reempacotamento</a></li>
+    <li><button class="tree blank"></button><a href="repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Gerenciamento de nesting</a>
+     <a href="layoutcommands/index.html">Gerenciamento de nest</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Visualização de layout</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Painel de layout</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Envio de relatório</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
@@ -143,32 +141,32 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Gerenciamento manual de retalhos</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Nesting twin-line</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Desatualizado</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobfilters.html">Filtros de tarefa</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobfilters.html">Filtros de job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Fábrica</a>
+   <a href="../factory/index.html">Factory</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Rotas</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Chapas</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
     <li><button class="tree blank"></button><a href="../factory/users.html">Usuários</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Editar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
     <li><button class="tree blank"></button><a href="../factory/customers.html">Clientes</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Configurações</a>
+     <a href="../factory/settings/index.html">Settings</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ambiente</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importação</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Dobra</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Corte</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notificações</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Relatórios</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
      </ul>
     </li>
    </ul>
@@ -181,17 +179,17 @@
      <button class="tree closed"></button>
      <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalação</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Salvar peças</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Salvar montagem</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Verificar viabilidade</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Melhorias diversas</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Informações Corporativas</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Informações corporativas</a></li>
  </ul>
 </div>
 
@@ -204,51 +202,45 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Tarefas</a>
+  <a href="index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobfilters.html">Filtros de tarefa</a>
+  <a href="jobfilters.html">Filtros de job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Filtros de tarefa</h1>
+                        <h1>Filtros de job</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Os filtros da página Tarefa ajudam a localizar Tarefas, Peças Ativas e Nestings exibindo
-apenas itens que correspondem às condições selecionadas. Eles simplificam a busca,
-classificação e gerenciamento de tarefas ou peças, melhorando a eficiência geral no
-fluxo de trabalho.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/filter.png" alt="Filter" width="726">
-</div>
+<p>Os filtros da página Job ajudam você a localizar Jobs, Active Parts e Nests exibindo
+apenas os itens que correspondem às condições selecionadas. Eles simplificam a localização, a ordenação e o
+gerenciamento de jobs ou peças, melhorando a eficiência geral no fluxo de trabalho.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_exemplos_de_filtros_disponíveis">Exemplos de filtros disponíveis</h2>
+<h2 id="_exemplos_dos_filtros_disponíveis">Exemplos dos filtros disponíveis</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_prioridade_e_vence_em">Prioridade e Vence em</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>O filtro <strong>Prioridade</strong> permite pesquisar e exibir peças ou tarefas com base
-na prioridade atribuída (<strong>Urgente</strong>, <strong>Alto</strong>, <strong>Baixo</strong>, <strong>Normal</strong>).</p>
+<p>O filtro <strong>Prioridade</strong> permite pesquisar e exibir peças ou jobs com base em
+sua prioridade atribuída (<strong>Urgente</strong>, <strong>Alto</strong>, <strong>Baixo</strong>, <strong>Normal</strong>).</p>
 </li>
 <li>
-<p>Quando você seleciona um nível de prioridade específico, apenas as peças com essa
+<p>Ao selecionar um nível de prioridade específico, apenas as peças com essa
 prioridade específica serão destacadas ou exibidas nos resultados.</p>
 </li>
 <li>
-<p>Por exemplo, se você escolher Prioridade <strong>Alto</strong>, o sistema filtrará e
-destacará apenas as peças marcadas como Alta Prioridade no nesting.</p>
+<p>Por exemplo, se você escolher a prioridade <strong>Alto</strong>, o sistema filtrará e
+destacará apenas as peças marcadas como High Priority no nest.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/priority.png" alt="Priority" width="1307">
@@ -256,28 +248,23 @@ destacará apenas as peças marcadas como Alta Prioridade no nesting.</p>
 </div>
 </li>
 <li>
-<p>O filtro <strong>Vence em</strong> permite pesquisar e exibir peças ou tarefas com base
-nas datas atribuídas.</p>
+<p>O filtro <strong>Vence em</strong> permite pesquisar e exibir peças ou
+jobs em suas datas atribuídas.</p>
 </li>
 <li>
-<p>Quando você seleciona uma data de entrega específica, apenas as peças com essa data
-de entrega específica serão destacadas ou exibidas nos resultados.</p>
+<p>Ao selecionar uma data de vencimento específica, apenas as peças com essa data de vencimento
+específica serão destacadas ou exibidas nos resultados.</p>
 </li>
 <li>
-<p>Além dos filtros de data de entrega pré-definidos como <strong>Hoje</strong>,
+<p>Além dos filtros de data de vencimento predefinidos, como <strong>Hoje</strong>,
 <strong>Ontem</strong>, <strong>Amanhã</strong> etc., você também pode
-inserir valores/intervalos de datas personalizados no formato <strong>yymmdd</strong> na caixa de
-texto de pesquisa.</p>
+digitar valores/intervalos de data personalizados no formato <strong>yymmdd</strong> na caixa de texto de
+pesquisa.</p>
 </li>
 <li>
 <p>Você também pode usar expressões com operadores de desigualdade (&lt;, &lt;=, &gt;, &gt;=, =)
-seguidos do valor da data. Exemplo: &gt;=250901 pesquisaria todos os itens com data de
-entrega em ou após 1º de setembro de 2025.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/dueon.png" alt="Due On" width="1121">
-</div>
-</div>
+seguidos pelo valor da data. Exemplo: &gt;=250901 pesquisaria todos os itens que
+vencem em ou após 1º de setembro de 2025.</p>
 </li>
 </ul>
 </div>
@@ -288,8 +275,8 @@ entrega em ou após 1º de setembro de 2025.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Se a lista de filtros ocultar o conteúdo de pesquisa, você pode torná-la
-transparente usando o comando <strong>Alternar a opacidade|*Clique direito com o mouse</strong>*
+Se a lista de filtros ocultar o conteúdo da pesquisa, você pode torná-la transparente
+usando o comando <strong>Alternar a opacidade|*Clique direito com o mouse</strong>*
 <span class="image"><img src="img/toggleopacity.png" alt="Toggle Opacity" width="15"></span>.
 </td>
 </tr>
@@ -301,24 +288,19 @@ transparente usando o comando <strong>Alternar a opacidade|*Clique direito com o
 <div class="ulist">
 <ul>
 <li>
-<p>O filtro <strong>Nome da peça</strong> estará disponível nas páginas de tarefas e nesting.</p>
+<p>O filtro <strong>Nome da peça</strong> estará disponível nas páginas jobs e nest.</p>
 </li>
 <li>
-<p>Conforme você digita o nome da peça, uma lista de sugestões é exibida para ajudar a
-selecionar a peça correta rapidamente.</p>
+<p>À medida que você digita o nome da peça, uma lista de sugestões é exibida para ajudar a selecionar a
+peça correta rapidamente.</p>
 </li>
 <li>
-<p>Selecionar um ou mais itens da lista de sugestões restringe os resultados da pesquisa
-apenas às peças selecionadas.</p>
+<p>Selecionar um ou mais itens da lista de sugestões restringe os resultados da
+pesquisa apenas às peças selecionadas.</p>
 </li>
 <li>
-<p>Na página Jobs, esse comportamento é estendido para incluir Nomes de Layout,
-permitindo que os usuários pesquisem por nome da peça ou nome do layout.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/partname.png" alt="Part Name" width="1453">
-</div>
-</div>
+<p>Na página Jobs, esse comportamento é estendido para incluir Layout Names, permitindo
+que os usuários pesquisem por nome de peça ou nome de layout.</p>
 </li>
 </ul>
 </div>
@@ -335,24 +317,19 @@ permitindo que os usuários pesquisem por nome da peça ou nome do layout.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Sem restante</strong> - lista layouts onde nenhum retalho foi criado.</p>
+<p><strong>Sem restante</strong> - lista os layouts onde nenhum retalho é criado.</p>
 </li>
 <li>
-<p><strong>Existe</strong> - lista layouts onde um retalho já existe.</p>
+<p><strong>Existe</strong> - lista os layouts onde um retalho já existe.</p>
 </li>
 <li>
-<p><strong>Adicionado</strong> - lista layouts onde um novo retalho foi adicionado.</p>
+<p><strong>Adicionado</strong> - lista os layouts onde um novo retalho é adicionado.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Ajuda a identificar e gerenciar materiais de chapa restantes de forma eficiente.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnant.png" alt="Remnant" width="990">
-</div>
-</div>
+<p>Ajuda a identificar e gerenciar os materiais de chapa restantes de forma eficiente.</p>
 </li>
 </ul>
 </div>
@@ -367,7 +344,7 @@ permitindo que os usuários pesquisem por nome da peça ou nome do layout.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_exemplos_de_filtros_disponíveis">Exemplos de filtros disponíveis</a>
+   <a href="#_exemplos_dos_filtros_disponíveis">Exemplos dos filtros disponíveis</a>
   </li>
   <li level="2">
    <a href="#_prioridade_e_vence_em">Prioridade e Vence em</a>
@@ -385,7 +362,7 @@ permitindo que os usuários pesquisem por nome da peça ou nome do layout.</p>
             </div>
             <nav class="pagination">
  <span class="prev"><a href="outdate.html">Desatualizado</a></span>
- <span class="next"><a href="../factory/index.html">Fábrica</a></span>
+ <span class="next"><a href="../factory/index.html">Factory</a></span>
 </nav>
 
         </div>

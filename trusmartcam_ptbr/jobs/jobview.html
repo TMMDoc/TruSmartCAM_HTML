@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Visualização de tarefa</title>
+  <title>Visualização de job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Requisitos de hardware</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Formatos de arquivo suportados</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Pré-requisitos</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalação do servidor</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalação do cliente</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Alterar licença</a></li>
    </ul>
   </li>
   <li>
@@ -54,22 +52,22 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapear material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mapear páginas CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de consulta)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de pesquisa)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">A interface do usuário</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Fluxo de trabalho</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteca</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Abrir</a>
+     <a href="../library/open/index.html">Open</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importar peças</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importar pedidos</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar tarefas</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar jobs</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importar montagens</a></li>
      </ul>
     </li>
@@ -77,8 +75,8 @@
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Visualização da biblioteca</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Peças</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montagem</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,7 +84,7 @@
      <a href="../library/partstate/index.html">Status da peça</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Validação de peça</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel de peça</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel da peça</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Filtros de peça</a></li>
      </ul>
     </li>
@@ -96,17 +94,17 @@
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação de ferramental</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação do ferramental</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação de ferramental de dobra</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação de ferramental de corte</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação de ferramental de dobra de painel</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação do ferramental de dobra</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação do ferramental de corte</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação do ferramental de fold</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Painel de ferramental</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvando filtros</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvar filtros</a></li>
    </ul>
   </li>
   <li>
@@ -118,21 +116,21 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Tarefas</a>
+   <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Criar tarefa</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobview.html">Visualização de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Painel de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobautoplan.html">Plano automático</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Criar job</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobview.html">Visualização de job</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Painel de job</a></li>
+    <li><button class="tree blank"></button><a href="jobautoplan.html">Auto plan</a></li>
     <li><button class="tree blank"></button><a href="jobinteractplan.html">Nesting interativo</a></li>
-    <li><button class="tree blank"></button><a href="repacking.html">Reempacotamento</a></li>
+    <li><button class="tree blank"></button><a href="repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Gerenciamento de nesting</a>
+     <a href="layoutcommands/index.html">Gerenciamento de nest</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Visualização de layout</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Painel de layout</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Envio de relatório</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
@@ -143,32 +141,32 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Gerenciamento manual de retalhos</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Nesting twin-line</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Desatualizado</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Filtros de tarefa</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Filtros de job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Fábrica</a>
+   <a href="../factory/index.html">Factory</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Rotas</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Chapas</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
     <li><button class="tree blank"></button><a href="../factory/users.html">Usuários</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Editar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
     <li><button class="tree blank"></button><a href="../factory/customers.html">Clientes</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Configurações</a>
+     <a href="../factory/settings/index.html">Settings</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ambiente</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importação</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Dobra</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Corte</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notificações</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Relatórios</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
      </ul>
     </li>
    </ul>
@@ -181,17 +179,17 @@
      <button class="tree closed"></button>
      <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalação</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Salvar peças</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Salvar montagem</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Verificar viabilidade</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Melhorias diversas</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Informações Corporativas</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Informações corporativas</a></li>
  </ul>
 </div>
 
@@ -204,23 +202,23 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Tarefas</a>
+  <a href="index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobview.html">Visualização de tarefa</a>
+  <a href="jobview.html">Visualização de job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Visualização de tarefa</h1>
+                        <h1>Visualização de job</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Esta seção explica as diferentes visualizações disponíveis na visualização de Tarefa,
-incluindo Jobs, Parts, Nests, Edit, Simulate e Export.</p>
+<p>Esta seção explica as diferentes visualizações disponíveis na visualização de Job, incluindo
+Jobs, Parts, Nests, Edit, Simulate e Export.</p>
 </div>
 </div>
 </div>
@@ -228,20 +226,20 @@ incluindo Jobs, Parts, Nests, Edit, Simulate e Export.</p>
 <h2 id="_jobs">Jobs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Selecionar a opção <strong>tarefas</strong> exibe uma lista de todas as tarefas atualmente
-configurados no software. Você pode clicar duas vezes em uma tarefa para ver seus detalhes
-ou clicar com o botão direito para acessar opções adicionais.</p>
+<p>Selecionar a opção <strong>tarefas</strong> exibe uma lista de todos os jobs atualmente
+configurados no software. Você pode clicar duas vezes em um job para ver seus detalhes ou
+clicar com o botão direito para acessar opções adicionais.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Tarefas são exibidas em visualização de tiles, onde cada tarefa é exibida com propriedades
-básicas como Job ID, Job Ref, nome do Cliente, Total de peças, Data de Entrega, barra
-de status da Tarefa, etc.</p>
+<p>Os jobs são exibidos na visualização de blocos, onde cada job é exibido com propriedades
+básicas como Job ID, Job Ref, nome do cliente, Total parts, Due Date, barra de status
+do job etc.</p>
 </li>
 <li>
-<p>Cada tile de tarefa também exibe imagens de peças em formato de cartões empilhados. Você
-pode percorrer todas as peças em uma tarefa usando a roda do mouse.<br></p>
+<p>Cada bloco de job também exibe imagens de peças em um formato de cartão empilhado. Você pode
+percorrer todas as peças de um job usando a roda do mouse.<br></p>
 </li>
 </ul>
 </div>
@@ -251,28 +249,27 @@ pode percorrer todas as peças em uma tarefa usando a roda do mouse.<br></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_detalhes_da_tarefa">Detalhes da tarefa</h3>
+<h3 id="_detalhes_do_job">Detalhes do job</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Clicar duas vezes em um tile ou pressionar a tecla <kbd>Enter</kbd> após selecionar um
-tile alterna a visualização para o Modo de Detalhes.</p>
+<p>Clicar duas vezes em um bloco ou pressionar a tecla <kbd>Enter</kbd> após selecionar um bloco
+alterna a visualização para o Detail Mode.</p>
 </li>
 <li>
-<p>A página de detalhes exibe a lista de peças juntamente com as chapas aninhadas
+<p>A página de detalhes exibe a lista de peças junto com as chapas aninhadas
 (layouts), se houver.</p>
 </li>
 <li>
-<p>Use as teclas de seta para cima/para baixo para alternar entre tarefas na página de
-detalhes.</p>
+<p>Use as teclas de seta para cima/baixo para alternar entre os jobs na página de detalhes.</p>
 </li>
 <li>
-<p>Rolar a roda do mouse sobre a pilha de peças destaca a peça tanto na lista de peças
-quanto nos layouts.</p>
+<p>Rolar a roda do mouse sobre a pilha de peças destaca a peça tanto na
+lista de peças quanto nos layouts.</p>
 </li>
 <li>
-<p>Selecionar um layout destaca o layout e todas as peças aninhadas nele na lista de
-peças. Os destaques são desativados automaticamente após um minuto.</p>
+<p>Selecionar um layout destaca o layout e todas as peças aninhadas nele na
+lista de peças. Os destaques são desativados automaticamente após um minuto.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/jobview2.png" alt="Job Details" width="1908">
@@ -284,12 +281,12 @@ peças. Os destaques são desativados automaticamente após um minuto.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Peças</strong>: Exibe o número total de itens do pedido e a quantidade
-total na tarefa.</p>
+<p><strong>Peças</strong>: Exibe o número total de itens de pedido e a
+quantidade total no job.</p>
 </li>
 <li>
-<p><strong>chapas</strong>: Exibe o número total de chapas aninhadas juntamente com
-a quantidade total de chapas.</p>
+<p><strong>chapas</strong>: Exibe o número total de chapas aninhadas junto
+com a quantidade total de chapas.</p>
 </li>
 </ul>
 </div>
@@ -299,12 +296,12 @@ a quantidade total de chapas.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Dobra</strong>: Mostra a máquina atribuída e a quantidade do pedido a
-ser processada.</p>
+<p><strong>Dobra</strong>: Mostra a máquina atribuída e sua quantidade de pedido
+a ser processada.</p>
 </li>
 <li>
-<p><strong>Corte</strong>: Mostra a máquina atribuída e a quantidade do pedido a ser
-processada.</p>
+<p><strong>Corte</strong>: Mostra a máquina atribuída e sua quantidade de pedido
+a ser processada.</p>
 </li>
 </ul>
 </div>
@@ -317,17 +314,17 @@ processada.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Primeiro, clique no ícone <strong>Jobs</strong> no lado esquerdo da tela, selecione a tarefa que
-deseja editar e clique em <strong>edit</strong> no lado direito da tela (certifique-se de que a opção
-Jobs esteja selecionada).</p>
+<p>Primeiro, clique no ícone <strong>Jobs</strong> no lado esquerdo da tela, selecione o job que
+deseja editar e, em seguida, clique em <strong>edit</strong> no lado direito da tela (certifique-se
+de que a opção Jobs esteja selecionada).</p>
 </li>
 <li>
-<p>Alternativamente, clique com o botão direito na tarefa selecionada e clique no ícone
+<p>Como alternativa, clique com o botão direito no job selecionado e clique no ícone
 <strong>Fazer check-out do documento para edição</strong>.</p>
 </li>
 <li>
-<p>Quando você clica em <strong>edit</strong>, a janela de edição da tarefa é exibida. Nesta janela, você
-pode definir ou alterar a prioridade da tarefa.</p>
+<p>Ao clicar em <strong>edit</strong>, a janela de edição do job aparece. Nesta janela, você pode definir
+ou alterar a prioridade do job.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/priority1.png" alt="Priority1" width="1207">
@@ -335,20 +332,20 @@ pode definir ou alterar a prioridade da tarefa.</p>
 </div>
 </li>
 <li>
-<p>Com base na prioridade da peça da tarefa, a Referência da tarefa no tile da tarefa é
-colorida de acordo.</p>
+<p>Com base na prioridade das peças do job, a Reference do job no bloco do job é
+sombreada com cor de acordo.</p>
 </li>
 <li>
-<p>As peças da Tarefa são classificadas primeiro por prioridade e depois por data de
-entrega. Elas também são coloridas de acordo com sua prioridade.</p>
+<p>As peças do job são ordenadas primeiro por prioridade e depois por data de vencimento. Elas também são
+sombreadas com cor de acordo com sua prioridade.</p>
 </li>
 <li>
-<p>Durante o nesting, peças <strong>Urgent</strong> são consideradas primeiro, seguidas por <strong>High</strong>,
-depois <strong>Normal</strong> e finalmente peças de prioridade <strong>Low</strong> são colocadas no espaço
-restante nas chapas de nesting.</p>
+<p>Durante o nesting, as peças <strong>Urgent</strong> são consideradas primeiro, seguidas por <strong>High</strong>, depois
+<strong>Normal</strong> e, finalmente, as peças de prioridade <strong>Low</strong> são colocadas no espaço restante nas
+chapas de nest.</p>
 </li>
 <li>
-<p>As chapas de nesting também são classificadas e coloridas de acordo com a prioridade.</p>
+<p>As chapas de nest também são ordenadas e sombreadas com cor de acordo com a prioridade.</p>
 </li>
 </ul>
 </div>
@@ -359,26 +356,26 @@ restante nas chapas de nesting.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Prioridade da tarefa</th>
+<th class="tableblock halign-left valign-top">Prioridade do job</th>
 <th class="tableblock halign-left valign-top">Descrição da cor</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/urgent.png" alt="Urgent" width="50"></span> (Laranja)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Urgente</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/urgent.png" alt="Urgent" width="50"></span> (Orange)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Urgent</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span> (Sem cor)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span> (No color)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Normal</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/high.png" alt="High" width="50"></span> (Amarelo)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Alta</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/high.png" alt="High" width="50"></span> (Yellow)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">High</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/low.png" alt="Low" width="50"></span> (Cinza escuro)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Baixa</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/low.png" alt="Low" width="50"></span> (Dark Grey)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Low</p></td>
 </tr>
 </tbody>
 </table>
@@ -393,26 +390,16 @@ restante nas chapas de nesting.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>A barra de status da Tarefa usa códigos de cores para indicar o progresso ou condição
-da tarefa com base na quantidade processada ou restante.</p>
+<p>A barra de status do job usa códigos de cores para indicar o progresso ou a condição do
+job com base na quantidade processada ou restante.</p>
 </li>
 <li>
-<p>As peças dentro da tarefa e as chapas de nesting também são destacadas com cores
-correspondentes para refletir seu status individual dentro da TAREFA geral.</p>
+<p>As peças dentro do job e as chapas de nest também são destacadas com
+cores correspondentes para refletir seu status individual dentro do JOB geral.</p>
 </li>
 <li>
-<p>A codificação por cores melhora o rastreamento e garante que os operadores possam
-ver facilmente o status de produção rapidamente.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/status1.png" alt="Job status" width="1114">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/status2.png" alt="Job status" width="1360">
-</div>
-</div>
+<p>A codificação por cores melhora o rastreamento e garante que os operadores possam ver facilmente o
+status da produção rapidamente.</p>
 </li>
 </ul>
 </div>
@@ -423,13 +410,13 @@ ver facilmente o status de produção rapidamente.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Status da Tarefa</th>
+<th class="tableblock halign-left valign-top">Status do job</th>
 <th class="tableblock halign-left valign-top">Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Cinza claro)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Light Grey)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Não está pronto</p></td>
 </tr>
 <tr>
@@ -437,27 +424,27 @@ ver facilmente o status de produção rapidamente.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nesting</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ready.png" alt="Ready" width="100"></span> (Branco)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ready.png" alt="Ready" width="100"></span> (White)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pronto</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Amarelo claro)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Light Yellow)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Cinza escuro)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Dark Grey)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Chapa em falta</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Amarelo escuro)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Dark Yellow)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Fila de dobra</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Amarelo)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Yellow)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Fila de corte</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Verde escuro)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Dark Green)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Feito</p></td>
 </tr>
 </tbody>
@@ -466,52 +453,42 @@ ver facilmente o status de produção rapidamente.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_peças">Peças</h2>
+<h2 id="_parts">Parts</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A visualização Active Parts exibe todas as peças que estão atualmente em progresso
-dentro das tarefas ativas.</p>
+<p>A visualização Active Parts exibe todas as peças que estão em andamento no momento dentro de
+jobs ativos.</p>
 </div>
 <div class="paragraph">
-<p>Cada peça é representada como um tile mostrando detalhes principais como nome da peça,
-dimensões, material, espessura, quantidade e data de entrega. Uma pré-visualização
-visual da peça também é exibida.</p>
+<p>Cada peça é representada como um bloco mostrando detalhes importantes, como nome da peça,
+dimensões, material, espessura, quantidade e data de vencimento. Uma prévia visual da
+peça também é exibida.</p>
 </div>
 <div class="paragraph">
-<p>Esta visualização ajuda os usuários a monitorar o status de processamento de peças
-individuais e rastrear seu progresso nas tarefas em andamento.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activeparts.png" alt="Active">
-</div>
+<p>Esta visualização ajuda os usuários a monitorar o status de processamento de peças individuais e
+rastrear seu progresso ao longo dos jobs em andamento.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_nestings">Nestings</h2>
+<h2 id="_nests">Nests</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A visualização Active Nests exibe todos os nestings que estão atualmente em progresso
-dentro das tarefas ativas.</p>
+<p>A visualização Active Nests exibe todos os nests que estão em andamento no momento dentro de
+jobs ativos.</p>
 </div>
 <div class="paragraph">
-<p>Cada nesting é representado com detalhes relevantes como número de peças e status de
-processamento. Um layout visual das peças aninhadas também é exibido.</p>
+<p>Cada nest é representado com detalhes relevantes, como número de peças e
+status de processamento. Um layout visual das peças aninhadas também é exibido.</p>
 </div>
 <div class="paragraph">
-<p>Esta visualização ajuda os usuários a monitorar o progresso do nesting e rastrear como
-as peças são organizadas e processadas nas chapas.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activenest.png" alt="Nest">
-</div>
+<p>Esta visualização ajuda os usuários a monitorar o progresso do nesting e rastrear como as peças são organizadas
+e processadas nas chapas.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_editar">Editar</h2>
+<h2 id="_edit">Edit</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A opção Edit permite modificar o item selecionado.</p>
@@ -522,28 +499,23 @@ as peças são organizadas e processadas nas chapas.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Na visualização Jobs, a tarefa selecionada é aberta para edição.</p>
+<p>Na visualização Jobs, o job selecionado é aberto para edição.</p>
 </li>
 <li>
 <p>Na visualização Active Parts, a peça selecionada é aberta para edição.</p>
 </li>
 <li>
-<p>Na visualização Active Nests, o nesting selecionado é aberto para edição.</p>
+<p>Na visualização Active Nests, o nest selecionado é aberto para edição.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/jobviewedit.png" alt="Edit" width="980">
-</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_exportar_csv">Exportar csv</h2>
+<h2 id="_export_csv">Export csv</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A opção Export permite selecionar informações da tarefa e exportá-las para um arquivo CSV.</p>
+<p>A opção Export permite selecionar informações do job e exportá-las para um arquivo CSV.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -552,26 +524,16 @@ as peças são organizadas e processadas nas chapas.</p>
 </li>
 <li>
 <p>Clique na opção <strong>export</strong> no lado direito da tela.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport1.png" alt="Export" width="700">
-</div>
-</div>
 </li>
 <li>
 <p>Uma caixa de diálogo aparece mostrando os campos disponíveis:</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport2.png" alt="Export CSV" width="174">
-</div>
-</div>
 </li>
 <li>
 <p>Marque as caixas de seleção dos campos que deseja exportar.</p>
 </li>
 <li>
-<p>Use a opção <strong>Group By</strong> se quiser agrupar os dados por um campo
-selecionado.</p>
+<p>Use a opção <strong>Group By</strong> se quiser agrupar os dados por um
+campo selecionado.</p>
 </li>
 <li>
 <p>Clique em Export para gerar o arquivo CSV.</p>
@@ -584,7 +546,7 @@ selecionado.</p>
 <h2 id="_informações_adicionais">Informações adicionais</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Existem também três ícones adicionais no lado direito da tela que são
+<p>Há também três ícones adicionais no lado direito da tela, que são
 <strong>simular</strong>, <strong>Goto</strong> e <strong>voltar</strong>.</p>
 </div>
 <div class="ulist">
@@ -593,12 +555,13 @@ selecionado.</p>
 <p>Simulate abrirá o item selecionado para uma visualização mais detalhada.</p>
 </li>
 <li>
-<p>Goto alternará o foco e exibirá a peça ou o nesting que está selecionado.</p>
+<p>Goto alternará o foco e a exibição para a peça ou o nest que está
+selecionado.</p>
 </li>
 <li>
-<p>Back voltará um nível de onde você está atualmente, por exemplo clicar em
-<strong>voltar</strong> enquanto está na simulação o levará de volta à tarefa principal e
-de uma tarefa o levará de volta à exibição principal de tarefas.</p>
+<p>Back voltará um nível de onde você está atualmente, por exemplo,
+clicar em <strong>voltar</strong> durante a simulação o levará de volta ao
+job principal e, de um job, o levará de volta à exibição principal de jobs.</p>
 </li>
 </ul>
 </div>
@@ -615,7 +578,7 @@ de uma tarefa o levará de volta à exibição principal de tarefas.</p>
    <a href="#_jobs">Jobs</a>
   </li>
   <li level="2">
-   <a href="#_detalhes_da_tarefa">Detalhes da tarefa</a>
+   <a href="#_detalhes_do_job">Detalhes do job</a>
   </li>
   <li level="2">
    <a href="#_prioridade">Prioridade</a>
@@ -624,16 +587,16 @@ de uma tarefa o levará de volta à exibição principal de tarefas.</p>
    <a href="#_status">Status</a>
   </li>
   <li level="1">
-   <a href="#_peças">Peças</a>
+   <a href="#_parts">Parts</a>
   </li>
   <li level="1">
-   <a href="#_nestings">Nestings</a>
+   <a href="#_nests">Nests</a>
   </li>
   <li level="1">
-   <a href="#_editar">Editar</a>
+   <a href="#_edit">Edit</a>
   </li>
   <li level="1">
-   <a href="#_exportar_csv">Exportar csv</a>
+   <a href="#_export_csv">Export csv</a>
   </li>
   <li level="1">
    <a href="#_informações_adicionais">Informações adicionais</a>
@@ -644,8 +607,8 @@ de uma tarefa o levará de volta à exibição principal de tarefas.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobcreation.html">Criar tarefa</a></span>
- <span class="next"><a href="jobpanel.html">Painel de tarefa</a></span>
+ <span class="prev"><a href="jobcreation.html">Criar job</a></span>
+ <span class="next"><a href="jobpanel.html">Painel de job</a></span>
 </nav>
 
         </div>

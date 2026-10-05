@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="img/praxis-icon.png">
-  <title>Przepływ pracy</title>
+  <title>Workflow</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a class="active" href="workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a class="active" href="workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="library/open/index.html">Otwórz</a>
+     <a href="library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="orders/index.html">Zamówienia</a>
+   <a href="orders/index.html">Zlecenia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="orders/ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="orders/ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="jobs/index.html">Zadania</a>
+   <a href="jobs/index.html">Zadania job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="jobs/jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="jobs/jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="jobs/repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="jobs/layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="jobs/layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="jobs/layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="jobs/layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="jobs/remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="jobs/twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="jobs/outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="jobs/outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,22 +184,22 @@
   </button>
  </div>
  <div>
-  <a href="workflow.html">Przepływ pracy</a>
+  <a href="workflow.html">Workflow</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Przepływ pracy</h1>
+                        <h1>Workflow</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM to system wykonawczy produkcji, który zarządza i optymalizuje procesy
-produkcji blach. Przepływ pracy w TruSmartCAM składa się z serii
-kroków, które należy wykonać, aby ukończyć określone zadanie lub proces. Możesz dostosować
-przepływ pracy do różnych procesów produkcyjnych i dostosować go do swoich
-konkretnych potrzeb. Przepływ pracy w TruSmartCAM zazwyczaj obejmuje
+<p>TruSmartCAM to system realizacji produkcji (Manufacturing Execution System), który
+zarządza procesami produkcji wyrobów z blachy i optymalizuje je. Workflow w
+TruSmartCAM składa się z serii kroków, które wykonuje się, aby zrealizować określone
+zadanie lub proces. Workflow można dostosować do różnych procesów produkcyjnych i
+dopasować do konkretnych potrzeb. Workflow w TruSmartCAM zazwyczaj obejmuje
 następujące kroki:</p>
 </div>
 </div>
@@ -228,20 +208,20 @@ następujące kroki:</p>
 <h2 id="_1_konfiguracja_systemu">1. Konfiguracja systemu</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Skonfiguruj TruSmartCAM tak, aby odpowiadał Twojemu środowisku produkcyjnemu. Ten fundamentalny
+<p>Skonfiguruj TruSmartCAM zgodnie ze swoim środowiskiem produkcyjnym. Ten podstawowy
 krok obejmuje definiowanie maszyn wraz z ich możliwościami i parametrami, dodawanie
-dostępnych materiałów i zakresów grubości, konfigurowanie bibliotek narzędzi z
-stemplami i matrycami, tworzenie arkuszy konfiguracji dla różnych konfiguracji maszyn
-oraz zarządzanie kontami użytkowników z odpowiednimi uprawnieniami. Prawidłowo skonfigurowany
-system zapewnia dokładne przetwarzanie i zapobiega błędom na późniejszych etapach. Ta
-konfiguracja jest zwykle wykonywana raz podczas wstępnego wdrożenia, z okresowymi
-aktualizacjami w miarę rozwoju Twojej fabryki.</p>
+dostępnych materiałów i zakresów grubości, konfigurowanie bibliotek tooling ze
+stemplami i matrycami, tworzenie setup sheet dla różnych konfiguracji maszyn
+oraz zarządzanie kontami użytkowników z odpowiednimi uprawnieniami. Prawidłowo
+skonfigurowany system zapewnia dokładne przetwarzanie i zapobiega błędom na
+późniejszych etapach. Ta konfiguracja jest zazwyczaj wykonywana jednorazowo podczas
+wstępnego wdrożenia, z okresowymi aktualizacjami w miarę rozwoju fabryki.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="configuration/setupmachine.html">Add/Remove
-machine</a>, <a href="configuration/addmaterial/index.html">Material</a>,
-<a href="factory/sheets.html">Sheets</a>, <a href="configuration/setuptooling.html">Setup
-tooling</a> i <a href="configuration/configureusers.html">Configure users</a>.</p>
+<p>Więcej informacji znajduje się w <a href="configuration/setupmachine.html">Dodawanie/usuwanie
+maszyny</a>, <a href="configuration/addmaterial/index.html">Materiał</a>,
+<a href="factory/sheets.html">Arkusze</a>, <a href="configuration/setuptooling.html">Konfiguracja
+tooling</a> oraz <a href="configuration/configureusers.html">Konfiguracja użytkowników</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -254,16 +234,17 @@ tooling</a> i <a href="configuration/configureusers.html">Configure users</a>.</
 <h2 id="_2_dodawanie_części_do_biblioteki">2. Dodawanie części do biblioteki</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Zaimportuj części CAD 2D lub 3D do biblioteki części, używając obsługiwanych formatów takich jak
-DXF, DWG lub STEP. Podczas importu TruSmartCAM automatycznie analizuje
-geometrię części, weryfikuje wykonalność produkcyjną, przypisuje wymaganą technologię
-blach (laser, dziurkowanie lub kombinacja) i generuje miniatury podglądu.
-Zaimportowane części pojawiają się jako kafelki w widoku biblioteki, gdzie kodowane kolorami ikony
-wskazują stan części, typ technologii, wymagania materiałowe i wszelkie wykryte
-problemy. Ten system wizualny umożliwia szybką ocenę gotowości części na pierwszy rzut oka.</p>
+<p>Zaimportuj części CAD 2D lub 3D do biblioteki części przy użyciu obsługiwanych
+formatów, takich jak pliki DXF, DWG lub STEP. Podczas importu TruSmartCAM
+automatycznie analizuje geometrię części, weryfikuje wykonalność produkcyjną,
+przypisuje wymaganą technologię obróbki blachy (laser, wykrawanie lub kombinację)
+oraz generuje miniatury podglądu. Zaimportowane części pojawiają się jako kafelki
+w widoku biblioteki, gdzie oznaczone kolorami ikony wskazują status części, typ
+technologii, wymagania materiałowe oraz wszelkie wykryte problemy. Ten system
+wizualny pozwala na szybką ocenę gotowości części na pierwszy rzut oka.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="library/index.html">Library</a>.</p>
+<p>Więcej informacji znajduje się w <a href="library/index.html">Biblioteka</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -273,20 +254,21 @@ problemy. Ten system wizualny umożliwia szybką ocenę gotowości części na p
 </div>
 </div>
 <div class="sect1">
-<h2 id="_3_weryfikacja_części_i_narzędzi">3. Weryfikacja części i narzędzi</h2>
+<h2 id="_3_weryfikacja_części_i_tooling">3. Weryfikacja części i tooling</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Sprawdź każdą zaimportowaną część pod kątem potencjalnych problemów produkcyjnych. Zweryfikuj, że
-geometria części jest prawidłowa i wykonalna, przypisania narzędzi są poprawne i
-dostępne, wybory materiału i grubości odpowiadają zapasowi oraz sekwencje gięcia
-są prawidłowo zdefiniowane dla części formowanych. Jeśli zostaną wykryte problemy, otwórz
-część w TecZone, aby zmodyfikować geometrię, ponownie przypisać lub zoptymalizować narzędzia,
-dostosować parametry przetwarzania lub poprawić specyfikacje materiałowe. Rozwiązanie problemów na
-tym etapie zapobiega opóźnieniom produkcyjnym i zmniejsza straty podczas produkcji.</p>
+<p>Sprawdź każdą zaimportowaną część pod kątem potencjalnych problemów produkcyjnych.
+Upewnij się, że geometria części jest prawidłowa i wykonalna, przypisania tooling
+są poprawne i dostępne, wybór materiału i grubości odpowiada zapasom magazynowym,
+a sekwencje gięcia są prawidłowo zdefiniowane dla części formowanych. W przypadku
+wykrycia problemów otwórz część w TecZone, aby zmodyfikować geometrię, ponownie
+przypisać lub zoptymalizować tooling, dostosować parametry przetwarzania lub
+poprawić specyfikacje materiałów. Rozwiązanie problemów na tym etapie zapobiega
+opóźnieniom produkcji i ogranicza ilość odpadów podczas wytwarzania.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="library/partstate/index.html">Part state</a>
-i <a href="library/toolingstatus/index.html">Tooling status</a>.</p>
+<p>Więcej informacji znajduje się w <a href="library/partstate/index.html">Status części</a>
+oraz <a href="library/toolingstatus/index.html">Status tooling</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -296,20 +278,21 @@ i <a href="library/toolingstatus/index.html">Tooling status</a>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_4_organizowanie_części_w_zadania">4. Organizowanie części w zadania</h2>
+<h2 id="_4_organizowanie_części_w_zadania_job">4. Organizowanie części w zadania job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Pogrupuj zweryfikowane części w zadania na podstawie wymagań produkcyjnych. Zadanie
-reprezentuje logiczną jednostkę produkcyjną, która może obejmować części z pojedynczego
-zamówienia klienta, części dzielące wspólne materiały i grubość, części z
-podobnymi terminami dostawy lub kombinację opartą na Twojej strategii produkcyjnej.
-Zadania zapewniają kontener do planowania, umożliwiają przetwarzanie wsadowe powiązanych części,
-umożliwiają efektywne wykorzystanie materiału poprzez zagnieżdżanie i upraszczają śledzenie
-oraz raportowanie. Zadania mogą być tworzone ręcznie poprzez wybór części lub
-automatycznie na podstawie wstępnie zdefiniowanych reguł i filtrów.</p>
+<p>Grupuj zweryfikowane części w zadania job na podstawie wymagań produkcyjnych. Zadanie
+job reprezentuje logiczną jednostkę produkcyjną, która może obejmować części z
+pojedynczego zlecenia klienta, części współdzielące wspólne materiały i grubość,
+części o zbliżonych terminach dostawy lub kombinację opartą na Twojej strategii
+produkcji. Zadania job stanowią kontener do planowania, umożliwiają wsadowe
+przetwarzanie powiązanych części, zapewniają efektywne wykorzystanie materiału
+dzięki nestingowi oraz upraszczają śledzenie i raportowanie. Zadania job można
+tworzyć ręcznie, wybierając części, lub automatycznie na podstawie wcześniej
+zdefiniowanych reguł i filtrów.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="jobs/index.html">Jobs</a>.</p>
+<p>Więcej informacji znajduje się w <a href="jobs/index.html">Zadania job</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -319,18 +302,20 @@ automatycznie na podstawie wstępnie zdefiniowanych reguł i filtrów.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_5_planowanie_zadań_na_maszyny_produkcyjne">5. Planowanie zadań na maszyny produkcyjne</h2>
+<h2 id="_5_planowanie_zadań_job_na_maszyny_produkcyjne">5. Planowanie zadań job na maszyny produkcyjne</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Po utworzeniu zadania przypisz je do odpowiedniej maszyny produkcyjnej. Rozważ
-możliwości maszyny, w tym obsługiwane technologie (laser, dziurkowanie, wieżowe),
-pojemność materiału i grubości, dostępne narzędzia oraz bieżące obciążenie. Jeśli
-istnieje wiele odpowiednich maszyn, wybierz na podstawie priorytetu produkcyjnego, dostępności maszyny, wymagań konfiguracji lub optymalizacji kosztów. Przypisanie może być
-ręczne dla elastyczności lub automatyczne na podstawie wstępnie skonfigurowanych reguł i algorytmów
+<p>Po utworzeniu zadania job przypisz je do odpowiedniej maszyny produkcyjnej. Weź
+pod uwagę możliwości maszyny, w tym obsługiwane technologie (laser, wykrawanie,
+głowica rewolwerowa), pojemność materiałową i grubościową, dostępny tooling oraz
+bieżące obciążenie. Jeśli istnieje wiele odpowiednich maszyn, wybierz na podstawie
+priorytetu produkcji, dostępności maszyny, wymagań konfiguracyjnych lub
+optymalizacji kosztów. Przypisanie może być ręczne dla elastyczności lub
+automatyczne na podstawie wstępnie skonfigurowanych reguł i algorytmów
 harmonogramowania maszyn.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="jobs/jobautoplan.html">Plan job</a>.</p>
+<p>Więcej informacji znajduje się w <a href="jobs/jobautoplan.html">Planowanie zadania job</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -340,16 +325,17 @@ harmonogramowania maszyn.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_6_wydawanie_nc_dla_zadań">6. Wydawanie NC dla zadań</h2>
+<h2 id="_6_zwalnianie_nc_dla_zadań_job">6. Zwalnianie NC dla zadań job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Na tym etapie generowane są układy cięcia. Możesz nadal edytować układy i dodawać
-technologie cięcia do układu za pomocą TecZone. Następnie wyeksportuj dane wyjściowe NC
-i przenieś je do sterownika maszyny lub wyznaczonej lokalizacji sieciowej. Zadanie jest następnie blokowane, aby zapobiec dalszym modyfikacjom, a jego
-status jest aktualizowany do "Released" w celu śledzenia produkcji.</p>
+<p>Na tym etapie generowane są układy cięcia. Układy można nadal edytować i dodawać
+do nich technologie cięcia za pomocą TecZone. Następnie wyeksportuj wyjście NC
+i prześlij je do sterownika maszyny lub wyznaczonej lokalizacji sieciowej. Zadanie
+job jest wtedy blokowane, aby zapobiec dalszym modyfikacjom, a jego status jest
+aktualizowany na „Released” na potrzeby śledzenia produkcji.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="jobs/layoutcommands/layoutpanel.html#send-to-machine">Send/Recall NC</a>.</p>
+<p>Więcej informacji znajduje się w <a href="jobs/layoutcommands/layoutpanel.html#send-to-machine">Wysyłanie/wycofywanie NC</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -359,20 +345,20 @@ status jest aktualizowany do "Released" w celu śledzenia produkcji.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_7_zakończenie_produkcji_i_finalizacja_zadań">7. Zakończenie produkcji i finalizacja zadań</h2>
+<h2 id="_7_zakończenie_produkcji_i_finalizacja_zadań_job">7. Zakończenie produkcji i finalizacja zadań job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wykonaj wydane zadanie na przypisanej maszynie. Podczas produkcji
-operator maszyny postępuje zgodnie z programem NC, weryfikuje jakość części podczas cięcia,
-zarządza załadunkiem i rozładunkiem materiału oraz zajmuje się wszelkimi alarmami maszyny lub
-problemami. Po zakończeniu produkcji oznacz poszczególne części lub całe zadanie
-jako ukończone w TruSmartCAM. Ten ostatni krok aktualizuje zapisy magazynowe, rejestruje
-rzeczywisty czas produkcji i zużycie materiału, archiwizuje dane zadania do raportowania i
-analizy oraz zamyka cykl przepływu pracy.</p>
+<p>Wykonaj zwolnione zadanie job na przypisanej maszynie. Podczas produkcji operator
+maszyny postępuje zgodnie z programem NC, weryfikuje jakość części podczas cięcia,
+zarządza załadunkiem i rozładunkiem materiału oraz reaguje na wszelkie alarmy lub
+problemy maszyny. Po zakończeniu produkcji oznacz poszczególne części lub całe
+zadanie job jako ukończone w TruSmartCAM. Ten ostatni krok aktualizuje rekordy
+magazynowe, rejestruje rzeczywisty czas produkcji i zużycie materiału, archiwizuje
+dane zadania job na potrzeby raportowania i analizy oraz zamyka cykl workflow.</p>
 </div>
 <div class="paragraph">
-<p>Więcej informacji znajduje się w <a href="jobs/layoutcommands/layoutpanel.html#mark-complete">Mark
-complete</a>.</p>
+<p>Więcej informacji znajduje się w <a href="jobs/layoutcommands/layoutpanel.html#mark-complete">Oznaczanie
+jako ukończone</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -395,19 +381,19 @@ complete</a>.</p>
    <a href="#_2_dodawanie_części_do_biblioteki">2. Dodawanie części do biblioteki</a>
   </li>
   <li level="1">
-   <a href="#_3_weryfikacja_części_i_narzędzi">3. Weryfikacja części i narzędzi</a>
+   <a href="#_3_weryfikacja_części_i_tooling">3. Weryfikacja części i tooling</a>
   </li>
   <li level="1">
-   <a href="#_4_organizowanie_części_w_zadania">4. Organizowanie części w zadania</a>
+   <a href="#_4_organizowanie_części_w_zadania_job">4. Organizowanie części w zadania job</a>
   </li>
   <li level="1">
-   <a href="#_5_planowanie_zadań_na_maszyny_produkcyjne">5. Planowanie zadań na maszyny produkcyjne</a>
+   <a href="#_5_planowanie_zadań_job_na_maszyny_produkcyjne">5. Planowanie zadań job na maszyny produkcyjne</a>
   </li>
   <li level="1">
-   <a href="#_6_wydawanie_nc_dla_zadań">6. Wydawanie NC dla zadań</a>
+   <a href="#_6_zwalnianie_nc_dla_zadań_job">6. Zwalnianie NC dla zadań job</a>
   </li>
   <li level="1">
-   <a href="#_7_zakończenie_produkcji_i_finalizacja_zadań">7. Zakończenie produkcji i finalizacja zadań</a>
+   <a href="#_7_zakończenie_produkcji_i_finalizacja_zadań_job">7. Zakończenie produkcji i finalizacja zadań job</a>
   </li>
  </ul>
 </aside>

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="img/praxis-icon.png">
-  <title>Pracovný postup</title>
+  <title>Workflow</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,47 +29,45 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="installation/hardwarerequirement.html">Hardvérové požiadavky</a></li>
     <li><button class="tree blank"></button><a href="installation/importformats.html">Podporované formáty súborov</a></li>
-    <li><button class="tree blank"></button><a href="installation/prerequisites.html">Predpoklady</a></li>
     <li><button class="tree blank"></button><a href="installation/serverinstallation.html">Inštalácia servera</a></li>
     <li><button class="tree blank"></button><a href="installation/clientinstallation.html">Inštalácia klienta</a></li>
-    <li><button class="tree blank"></button><a href="installation/changelic.html">Zmena licencie</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="configuration/index.html">Konfigurácia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="configuration/setupmachine.html">Pridať/Odstrániť stroj</a></li>
-    <li><button class="tree blank"></button><a href="configuration/setuptooling.html">Nastavenie náradia</a></li>
+    <li><button class="tree blank"></button><a href="configuration/setupmachine.html">Pridanie/odstránenie stroja</a></li>
+    <li><button class="tree blank"></button><a href="configuration/setuptooling.html">Nastavenie tooling</a></li>
     <li><button class="tree blank"></button><a href="configuration/configureusers.html">Konfigurácia používateľov</a></li>
     <li><button class="tree blank"></button><a href="configuration/language.html">Jazyk</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="configuration/addmaterial/index.html">Materiál</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="configuration/addmaterial/addnew.html">Pridať nový materiál a hárok</a></li>
-      <li><button class="tree blank"></button><a href="configuration/addmaterial/exportimport.html">Export/Import materiálu</a></li>
-      <li><button class="tree blank"></button><a href="configuration/addmaterial/replacematerial.html">Nahradiť materiál</a></li>
+      <li><button class="tree blank"></button><a href="configuration/addmaterial/addnew.html">Pridanie nového materiálu a tabule</a></li>
+      <li><button class="tree blank"></button><a href="configuration/addmaterial/exportimport.html">Export/import materiálu</a></li>
+      <li><button class="tree blank"></button><a href="configuration/addmaterial/replacematerial.html">Nahradenie materiálu</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="configuration/mapbendpages.html">Mapovanie materiálu</a></li>
-    <li><button class="tree blank"></button><a href="configuration/mapcampages.html">Mapovanie CAM stránok</a></li>
-    <li><button class="tree blank"></button><a href="configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie klúče)</a></li>
+    <li><button class="tree blank"></button><a href="configuration/mapcampages.html">Mapovanie strán CAM</a></li>
+    <li><button class="tree blank"></button><a href="configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie kľúče)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="userinterface.html">Používateľské rozhranie</a></li>
-  <li><button class="tree blank"></button><a class="active" href="workflow.html">Pracovný postup</a></li>
+  <li><button class="tree blank"></button><a href="userinterface.html">PoužívateĻské rozhranie</a></li>
+  <li><button class="tree blank"></button><a class="active" href="workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="library/index.html">Knižnica</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="library/open/index.html">Otvoriť</a>
+     <a href="library/open/index.html">Otvorenie</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="library/open/partimport.html">Import dielov</a></li>
       <li><button class="tree blank"></button><a href="library/open/orderimport.html">Import objednávok</a></li>
-      <li><button class="tree blank"></button><a href="library/open/jobimport.html">Import úloh</a></li>
+      <li><button class="tree blank"></button><a href="library/open/jobimport.html">Import úloh job</a></li>
       <li><button class="tree blank"></button><a href="library/open/assembliesimport.html">Import zostáv</a></li>
      </ul>
     </li>
@@ -78,7 +76,7 @@
      <a href="library/libraryview/index.html">Zobrazenie knižnice</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="library/libraryview/partview.html">Diely</a></li>
-      <li><button class="tree blank"></button><a href="library/libraryview/assemblyview.html">Zostavy</a></li>
+      <li><button class="tree blank"></button><a href="library/libraryview/assemblyview.html">Zostava</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="library/toolingstatus/index.html">Stav obrábania</a>
+     <a href="library/toolingstatus/index.html">Stav tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="library/toolingstatus/toolingvalidation/index.html">Validácia obrábania</a>
+       <a href="library/toolingstatus/toolingvalidation/index.html">Validácia tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/bendtooling.html">Validácia ohýbacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/cuttooling.html">Validácia rezacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/foldtooling.html">Validácia skladacieho obrábania</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/bendtooling.html">Validácia tooling ohýbania</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/cuttooling.html">Validácia tooling rezania</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/foldtooling.html">Validácia tooling skladania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="library/toolingstatus/toolingpanel.html">Panel obrábania</a></li>
+      <li><button class="tree blank"></button><a href="library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="library/savingfilters.html">Ukladanie filtrov</a></li>
@@ -118,80 +116,62 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="jobs/index.html">Práce</a>
+   <a href="jobs/index.html">Úlohy job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="jobs/jobcreation.html">Vytvorenie práce</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobview.html">Zobrazenie práce</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobpanel.html">Panel práce</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobcreation.html">Vytvorenie úlohy job</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobview.html">Zobrazenie úloh job</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobpanel.html">Panel úlohy job</a></li>
     <li><button class="tree blank"></button><a href="jobs/jobautoplan.html">Automatické plánovanie</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobinteractplan.html">Interaktívne ukladanie</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobinteractplan.html">Interaktívny nesting</a></li>
     <li><button class="tree blank"></button><a href="jobs/repacking.html">Prebaľovanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="jobs/layoutcommands/index.html">Správa hniezd</a>
+     <a href="jobs/layoutcommands/index.html">Správa nestov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/nestview.html">Zobrazenie rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/layoutpanel.html">Panel rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/reportsender.html">Odosielateľ správ</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/nestview.html">Zobrazenie rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/layoutpanel.html">Panel rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/reportsender.html">Odosielanie reportov</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="jobs/remnantmanagement/index.html">Správa zvyškov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/autoremnant.html">Automatická správa zvyškov</a></li>
-      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/manualremnant.html">Manuálna správa zvyškov</a></li>
+      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/autoremnant.html">Automatické zvyšky</a></li>
+      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/manualremnant.html">Manuálne zvyšky</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="jobs/twinlinenesting.html">Dvojlinové ukladanie</a></li>
-    <li><button class="tree blank"></button><a href="jobs/outdate.html">Zastaralé</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobfilters.html">Filtre prác</a></li>
+    <li><button class="tree blank"></button><a href="jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="jobs/outdate.html">Neaktuálne</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobfilters.html">Filtre úloh job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="factory/index.html">Factory</a>
+   <a href="factory/index.html">Továreň</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="factory/routes.html">Trasy</a></li>
+    <li><button class="tree blank"></button><a href="factory/sheets.html">Tabule</a></li>
+    <li><button class="tree blank"></button><a href="factory/users.html">Používatelia</a></li>
+    <li><button class="tree blank"></button><a href="factory/edit.html">Úprava</a></li>
+    <li><button class="tree blank"></button><a href="factory/customers.html">Zákazníci</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="factory/settings/index.html">Settings</a>
+     <a href="factory/settings/index.html">Nastavenia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/environment.html">Nastavenia prostredia</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/import.html">Nastavenia importu</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/bend.html">Nastavenia ohýbania</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/cut.html">Nastavenia rezania</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/notification.html">Oznámenia</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/watch.html">Nastavenia sledovania</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/job.html">Nastavenia úloh job</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/reports.html">Nastavenia reportov</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="cadextensions/index.html">CAD rozšírenia</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/installationsteps.html">Inštalácia</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/savetopraxis.html">Uložiť diely</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/saveassembly.html">Uložiť zostavu</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/partfeasibility.html">Skontrolovať uskutočniteľnosť</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/factorysettings.html">Nastavenia továrne</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/miscenhancements.html">Rôzne vylepšenia</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="impressum.html">Informácie o spoločnosti</a></li>
+  <li><button class="tree blank"></button><a href="impressum.html">Firemné informácie</a></li>
  </ul>
 </div>
 
@@ -204,23 +184,22 @@
   </button>
  </div>
  <div>
-  <a href="workflow.html">Pracovný postup</a>
+  <a href="workflow.html">Workflow</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Pracovný postup</h1>
+                        <h1>Workflow</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM je systém riadenia výroby, ktorý spravuje a optimalizuje procesy
-výroby plechu. Pracovný postup v TruSmartCAM pozostáva zo série
-krokov, ktoré vykonáte na dokončenie konkrétnej úlohy alebo procesu. Môžete prispôsobiť
-pracovný postup tak, aby vyhovoval rôznym výrobným procesom a prispôsobil sa vašim
-špecifickým potrebám. Pracovný postup v TruSmartCAM zvyčajne zahŕňa
-nasledujúce kroky:</p>
+<p>TruSmartCAM je systém riadenia výroby (Manufacturing Execution System), ktorý
+spravuje a optimalizuje procesy výroby z plechu. Workflow v TruSmartCAM pozostáva
+zo série krokov, ktoré vykonávate na dokončenie konkrétnej úlohy alebo procesu.
+Workflow možno prispôsobiť rôznym výrobným procesom a upraviť podľa vašich
+špecifických potrieb. Workflow v TruSmartCAM zvyčajne zahŕňa nasledujúce kroky:</p>
 </div>
 </div>
 </div>
@@ -228,20 +207,20 @@ nasledujúce kroky:</p>
 <h2 id="_1_konfigurácia_systému">1. Konfigurácia systému</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Nakonfigurujte TruSmartCAM tak, aby zodpovedal vášmu výrobnému prostrediu. Tento základný
-krok zahŕňa definovanie strojov s ich schopnosťami a parametrami, pridávanie
-dostupných materiálov a rozsahov hrúbok, konfiguráciu knižníc nástrojového vybavenia s
-raznicami a matricami, vytváranie nastavovacích hárkov pre rôzne konfigurácie strojov
-a správu používateľských účtov s príslušnými oprávneniami. Správne nakonfigurovaný
-systém zabezpečuje presné zpracovanie a predchádza chybám v neskorších fázach. Toto
-nastavenie sa zvyčajne vykonáva raz počas počiatočného nasadenia, s periodickými
-aktualizáciami podľa vývoja vašej továrne.</p>
+<p>Nakonfigurujte TruSmartCAM tak, aby zodpovedal vašemu výrobnému prostrediu. Tento
+základný krok zahŕňa definovanie strojov s ich schopnosťami a parametrami,
+pridanie dostupných materiálov a rozsahov hrúbky, konfiguráciu knižníc tooling
+s razníkmi a matricami, vytvorenie setup sheet pre rôzne konfigurácie strojov a
+správu používateĻských kont s príslušnými oprávneniami. Správne nakonfigurovaný
+systém zaisťuje presné spracovanie a predchádza chybám v neskôrších fázach.
+Táto konfigurácia sa zvyčajne vykonáva raz počas počiatočného nasadenia,
+s pravidelnými aktualizáciami, ako sa vaša továreň vyvíja.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="configuration/setupmachine.html">Add/Remove
-machine</a>, <a href="configuration/addmaterial/index.html">Material</a>,
-<a href="factory/sheets.html">Sheets</a>, <a href="configuration/setuptooling.html">Setup
-tooling</a> a <a href="configuration/configureusers.html">Configure users</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="configuration/setupmachine.html">Pridanie/odstránenie
+stroja</a>, <a href="configuration/addmaterial/index.html">Materiál</a>,
+<a href="factory/sheets.html">Tabule</a>, <a href="configuration/setuptooling.html">Nastavenie
+tooling</a> a <a href="configuration/configureusers.html">Konfigurácia používateĻov</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -254,17 +233,17 @@ tooling</a> a <a href="configuration/configureusers.html">Configure users</a>.</
 <h2 id="_2_pridanie_dielov_do_knižnice">2. Pridanie dielov do knižnice</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Importujte 2D alebo 3D CAD diely do knižnice dielov pomocou podporovaných formátov, ako sú
-DXF, DWG alebo STEP súbory. Počas importu TruSmartCAM automaticky analyzuje
-geometriu dielu, overuje vyrobiteľnosť, priradí požadovanú technológiu plechu
-(laser, razenie alebo kombináciu) a generuje náhľadové miniatúry.
-Importované diely sa zobrazujú ako dlaždice v zobrazení knižnice, kde farebne kódované ikony
-ukazujú stav dielu, typ technológie, požiadavky na materiál a akékoľvek zistené
-problemy. Tento vizuálny systém umožňuje rýchle posúdenie pripravenosti dielu na prvý
-pohľad.</p>
+<p>Importujte 2D alebo 3D CAD diely do knižnice dielov pomocou podporovaných
+formátov, ako sú súbory DXF, DWG alebo STEP. Počas importu TruSmartCAM automaticky
+analyzuje geometriu dielu, overuje vyrobačnosť, priradzuje požadovanú technológiu
+spracovania plechu (laser, razenie alebo kombináciu) a generuje náhĻadové
+miniatúry. Importované diely sa zobrazujú ako dlaždice v zobrazení knižnice, kde
+farebne odlíšené ikony označujú stav dielu, typ technológie, požiadavky na
+materiál a všetky zistené problémy. Tento vizuálny systém umožňuje rýchle
+posúdenie pripravenosti dielu na prvý pohĻad.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="library/index.html">Library</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="library/index.html">Knižnica</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -274,20 +253,20 @@ pohľad.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_3_overenie_dielov_a_nástrojového_vybavenia">3. Overenie dielov a nástrojového vybavenia</h2>
+<h2 id="_3_overenie_dielov_a_tooling">3. Overenie dielov a tooling</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Skontrolujte každý importovaný diel kvôli potenciálnym výrobným problémom. Overte, že
-geometria dielu je platná a vyrobiteľná, priradenia nástrojového vybavenia sú správne a
-dostupné, výber materiálu a hrúbky zodpovedá inventáru a ohýbacie
-sekvecie sú správne definované pre tvarované diely. Ak sú zistené problémy, otvorte
-diel v TecZone, aby ste upravili geometriu, znovu priradili alebo optimalizovali nástrojové vybavenie, upravili
-parametre spracovania alebo opravili špecifikácie materiálu. Riešenie problémov v
-tejto fáze zabraňuje oneskoreniam výroby a znižuje odpad počas výroby.</p>
+<p>Skontrolujte každý importovaný diel pre prípadné výrobné problémy. Overte, že
+geometria dielu je platná a vyrobiteĻná, priradenia tooling sú správne a dostupné,
+výber materiálu a hrúbky zodpovedá zásobám a sekvencie ohýbania sú správne
+definované pre tvarované diely. Ak sa zistía problémy, otvorte diel v TecZone
+a upravte geometriu, znovu priraďte alebo optimalizujte tooling, upravte
+parametre spracovania alebo opravte špecifikácie materiálu. Vyriešenie problémov
+v tejto fáze predchádza omeškaniam výroby a znižuje množstvo odpadu počas výroby.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="library/partstate/index.html">Part state</a>
-a <a href="library/toolingstatus/index.html">Tooling status</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="library/partstate/index.html">Stav dielu</a>
+a <a href="library/toolingstatus/index.html">Stav tooling</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -297,20 +276,20 @@ a <a href="library/toolingstatus/index.html">Tooling status</a>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_4_organizovanie_dielov_do_pracovných_úloh">4. Organizovanie dielov do pracovných úloh</h2>
+<h2 id="_4_usporiadanie_dielov_do_úloh_job">4. Usporiadanie dielov do úloh job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Zoskupte overené diely do pracovných úloh na základe výrobných požiadaviek. Pracovná úloha
+<p>Zoskupte overené diely do úloh job na základe výrobných požiadaviek. Úloha job
 predstavuje logickú výrobnú jednotku, ktorá môže zahŕňať diely z jednej
-zákazníckej objednávky, diely zdieľajúce spoločné materiály a hrúbku, diely s
-podobnými termínmi dodania alebo kombináciu založenú na vašej výrobnej stratégii.
-Pracovné úlohy poskytujú kontajner na plánovanie, umožňujú dávkové spracovanie súvisiacich dielov,
-umožňujú efektívne využitie materiálu prostredníctvom vkladania a zjednodušujú sledovanie
-a vykazovanie. Pracovné úlohy možno vytvoriť manuálne výberom dielov alebo
-automaticky na základe vopred definovaných pravidiel a filtrov.</p>
+objednávky zákazníka, diely zdieĻajúce spoločné materiály a hrúbku, diely
+s podobnými termínmi dodania alebo kombináciu podľa vašej výrobnej stratégie.
+Úlohy job poskytujú kontajner na plánovanie, umožňujú dávkové spracovanie
+súvisiacich dielov, umožňujú efektívne využitie materiálu prostredníctvom
+nestingu a zjednodušujú sledovanie a reportovanie. Úlohy job možno vytvoriť ručne
+výberom dielov alebo automaticky na základe preddefinovaných pravidiel a filtrov.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="jobs/index.html">Jobs</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="jobs/index.html">Úlohy job</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -320,19 +299,19 @@ automaticky na základe vopred definovaných pravidiel a filtrov.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_5_plánovanie_pracovných_úloh_na_výrobné_stroje">5. Plánovanie pracovných úloh na výrobné stroje</h2>
+<h2 id="_5_plánovanie_úloh_job_na_výrobné_stroje">5. Plánovanie úloh job na výrobné stroje</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Po vytvorení pracovnej úlohy ju priraďte k príslušnému výrobnému stroju. Zvážte
-schopnosti stroja vrátane podporovaných technológií (laser, razenie, vežový lis),
-kapacitu materiálu a hrúbky, dostupné nástrojové vybavenie a aktuálne zaťaženie. Ak
-existuje viacero vhodných strojov, vyberte na základe výrobnej priority, dostupnosti stroja,
-požiadaviek na nastavenie alebo optimalizácie nákladov. Priradenie môže byť
-manuálne pre flexibilitu alebo automatické na základe vopred nakonfigurovaných pravidiel a algoritmov
-plánovania strojov.</p>
+<p>Po vytvorení úlohy job ju priraďte k vhodnému výrobnému stroju. Zvážte schopnosti
+stroja vrátane podporovaných technológií (laser, razenie, revolverová hlava),
+kapacity materiálu a hrúbky, dostupného tooling a aktuálneho zaťaženia. Ak
+existuje viacero vhodných strojov, vyberte na základe priority výroby, dostupnosti
+stroja, požiadaviek na nastavenie alebo optimalizácie nákladov. Priradenie môže byť
+ručné pre flexibilitu alebo automatické na základe vopred nakonfigurovaných
+pravidiel a algoritmov plánovania strojov.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="jobs/jobautoplan.html">Plan job</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="jobs/jobautoplan.html">Plánovanie úlohy job</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -342,17 +321,17 @@ plánovania strojov.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_6_uvoľnenie_nc_pre_pracovné_úlohy">6. Uvoľnenie NC pre pracovné úlohy</h2>
+<h2 id="_6_uvoļenie_nc_pre_úlohy_job">6. UvoĻenie NC pre úlohy job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>V tejto fáze sa generujú rozloženia rezania. Stále môžete upravovať rozloženia a pridávať
-rezacie technológie do rozloženia pomocou TecZone. Následne exportujte NC
-výstup a preveďte ho do riadiaceho systému stroja alebo do určeného sieťového
-umiestnenia. Pracovná úloha sa potom uzamkne, aby sa zabránilo ďalším úpravám, a jej
-stav sa aktualizuje na "Uvoľnené" pre sledovanie výroby.</p>
+<p>V tejto fáze sa generujú rozloženia rezu. Rozloženia môžete ešte upravovať a
+pridávať do rozloženia technológie rezania pomocou TecZone. Následne
+exportujte výstup NC a preneste ho do riadiacej jednotky stroja alebo do určeného
+sieťového umiestnenia. Úloha job sa potom uzamkne, aby sa zabránilo ďalším
+úpravám, a jej stav sa aktualizuje na „Released“ na sledovanie výroby.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="jobs/layoutcommands/layoutpanel.html#send-to-machine">Send/Recall NC</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="jobs/layoutcommands/layoutpanel.html#send-to-machine">Odoslanie/vyvolanie NC</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -362,20 +341,20 @@ stav sa aktualizuje na "Uvoľnené" pre sledovanie výroby.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_7_dokončenie_výroby_a_finalizácia_pracovných_úloh">7. Dokončenie výroby a finalizácia pracovných úloh</h2>
+<h2 id="_7_dokončenie_výroby_a_finalizácia_úloh_job">7. Dokončenie výroby a finalizácia úloh job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Vykonajte uvoľnenú pracovnú úlohu na priradenom stroji. Počas výroby
-operátor stroja postupuje podľa NC programu, overuje kvalitu dielov počas rezania,
-spravuje nakladanie a vykladanie materiálu a rieši akékoľvek alarmy alebo
-problemy stroja. Po dokončení výroby označte jednotlivé diely alebo celú pracovnú úlohu
-ako dokončenú v TruSmartCAM. Tento posledný krok aktualizuje záznamy inventára, zaznamená
-skutočný výrobný čas a použitie materiálu, archivuje údaje pracovnej úlohy na vykazovanie a
-analýzu a dokončuje cyklus pracovného postupu.</p>
+<p>Spustite uvoĺnenú úlohu job na priradeném stroji. Počas výroby operátor stroja
+postupuje podľa NC programu, overuje kvalitu dielu počas rezania, spravuje
+nakladanie a vykladanie materiálu a rieši všetky alarmy alebo problémy stroja.
+Po dokončení výroby označte jednotlivé diely alebo celú úlohu job ako dokončenú
+v TruSmartCAM. Tento posledný krok aktualizuje záznamy zásob, zaznamenáva skutočný
+čas výroby a spotrebu materiálu, archivuje dáta úlohy job na reportovanie a
+analýzu a dokončuje cyklus workflow.</p>
 </div>
 <div class="paragraph">
-<p>Pre viac informácií pozrite <a href="jobs/layoutcommands/layoutpanel.html#mark-complete">Mark
-complete</a>.</p>
+<p>Ďalšie informácie nájdete v časti <a href="jobs/layoutcommands/layoutpanel.html#mark-complete">Označenie
+ako dokončené</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -398,19 +377,19 @@ complete</a>.</p>
    <a href="#_2_pridanie_dielov_do_knižnice">2. Pridanie dielov do knižnice</a>
   </li>
   <li level="1">
-   <a href="#_3_overenie_dielov_a_nástrojového_vybavenia">3. Overenie dielov a nástrojového vybavenia</a>
+   <a href="#_3_overenie_dielov_a_tooling">3. Overenie dielov a tooling</a>
   </li>
   <li level="1">
-   <a href="#_4_organizovanie_dielov_do_pracovných_úloh">4. Organizovanie dielov do pracovných úloh</a>
+   <a href="#_4_usporiadanie_dielov_do_úloh_job">4. Usporiadanie dielov do úloh job</a>
   </li>
   <li level="1">
-   <a href="#_5_plánovanie_pracovných_úloh_na_výrobné_stroje">5. Plánovanie pracovných úloh na výrobné stroje</a>
+   <a href="#_5_plánovanie_úloh_job_na_výrobné_stroje">5. Plánovanie úloh job na výrobné stroje</a>
   </li>
   <li level="1">
-   <a href="#_6_uvoľnenie_nc_pre_pracovné_úlohy">6. Uvoľnenie NC pre pracovné úlohy</a>
+   <a href="#_6_uvoļenie_nc_pre_úlohy_job">6. UvoĻenie NC pre úlohy job</a>
   </li>
   <li level="1">
-   <a href="#_7_dokončenie_výroby_a_finalizácia_pracovných_úloh">7. Dokončenie výroby a finalizácia pracovných úloh</a>
+   <a href="#_7_dokončenie_výroby_a_finalizácia_úloh_job">7. Dokončenie výroby a finalizácia úloh job</a>
   </li>
  </ul>
 </aside>
@@ -418,7 +397,7 @@ complete</a>.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="userinterface.html">Používateľské rozhranie</a></span>
+ <span class="prev"><a href="userinterface.html">PoužívateĻské rozhranie</a></span>
  <span class="next"><a href="library/index.html">Knižnica</a></span>
 </nav>
 

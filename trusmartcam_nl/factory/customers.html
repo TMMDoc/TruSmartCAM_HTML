@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Customers</title>
+  <title>Klanten</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwarevereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Ondersteunde bestandsformaten</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Vereisten</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallatie</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallatie</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Licentie wijzigen</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Configuratie</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Machine toevoegen/verwijderen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Gereedschap instellen</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Tooling instellen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Gebruikers configureren</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Taal</a></li>
     <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Materiaal toewijzen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM-pagina's toewijzen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Velden uit CAD toewijzen (zoeksleutels)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Velden toewijzen vanuit CAD (opzoeksleutels)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">De gebruikersinterface</a></li>
@@ -70,7 +68,7 @@
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Onderdelen importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Orders importeren</a></li>
       <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Jobs importeren</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Assemblages importeren</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Samenstellingen importeren</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Bibliotheekweergave</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Onderdelen</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Samenstelling</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Gereedschapsstatus</a>
+     <a href="../library/toolingstatus/index.html">Toolingstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Gereedschapsvalidatie</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Toolingvalidatie</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buiggereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijgereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Buigtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Snijtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Gereedschapspaneel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Toolingpaneel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Filters opslaan</a></li>
@@ -113,7 +111,7 @@
    <button class="tree closed"></button>
    <a href="../orders/index.html">Orders</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Orders weergave</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordersweergave</a></li>
    </ul>
   </li>
   <li>
@@ -121,72 +119,54 @@
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Job aanmaken</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job weergave</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job paneel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobweergave</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobpaneel</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatisch plannen</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interactief nesten</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/repacking.html">Opnieuw verpakken</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/repacking.html">Herverpakken</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../jobs/layoutcommands/index.html">Nestbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout weergave</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout paneel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Lay-outweergave</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Lay-outpaneel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportverzender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Restmateriaal beheer</a>
+     <a href="../jobs/remnantmanagement/index.html">Restantbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisch restmateriaal beheer</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Handmatig restmateriaal beheer</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisch restantbeheer</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Handmatig restantbeheer</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesten</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Verouderd</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job filters</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobfilters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Factory</a>
+   <a href="index.html">Fabriek</a>
    <ul>
     <li><button class="tree blank"></button><a href="routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a class="active" href="customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="sheets.html">Platen</a></li>
+    <li><button class="tree blank"></button><a href="users.html">Gebruikers</a></li>
+    <li><button class="tree blank"></button><a href="edit.html">Bewerken</a></li>
+    <li><button class="tree blank"></button><a class="active" href="customers.html">Klanten</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="settings/index.html">Settings</a>
+     <a href="settings/index.html">Instellingen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="settings/environment.html">Omgeving</a></li>
+      <li><button class="tree blank"></button><a href="settings/import.html">Importeren</a></li>
+      <li><button class="tree blank"></button><a href="settings/bend.html">Buigen</a></li>
+      <li><button class="tree blank"></button><a href="settings/cut.html">Snijden</a></li>
+      <li><button class="tree blank"></button><a href="settings/notification.html">Meldingen</a></li>
+      <li><button class="tree blank"></button><a href="settings/watch.html">Bewaken</a></li>
       <li><button class="tree blank"></button><a href="settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD extensies</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installatie</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Onderdelen opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Assemblage opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Haalbaarheid controleren</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabrieksinstellingen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse verbeteringen</a></li>
+      <li><button class="tree blank"></button><a href="settings/reports.html">Rapporten</a></li>
      </ul>
     </li>
    </ul>
@@ -204,31 +184,31 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Factory</a>
+  <a href="index.html">Fabriek</a>
  </div>
  <div>/</div>
  <div>
-  <a href="customers.html">Customers</a>
+  <a href="customers.html">Klanten</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Customers</h1>
+                        <h1>Klanten</h1>
 <div class="paragraph">
-<p>De Customers-pagina stelt u in staat om alle klantrecords binnen het systeem te beheren.
-U kunt nieuwe klanten toevoegen, bestaande gegevens bijwerken en klanten verwijderen die
-niet langer vereist zijn.</p>
+<p>Op de pagina Klanten kunt u alle klantgegevens binnen het systeem beheren.
+U kunt nieuwe klanten toevoegen, bestaande gegevens bijwerken en klanten
+verwijderen die niet langer nodig zijn.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Klik op <strong>fabriek</strong> &#8594; <strong>Klanten</strong>.</p>
+<p>Klik op <strong>factory</strong> &#8594; <strong>Customers</strong>.</p>
 </li>
 <li>
-<p>Om een nieuwe klant aan te maken, klikt u op <strong>_Nieuwe toevoegen…</strong> en verstrekt u de vereiste
-informatie. Het veld Name is verplicht en moet uniek zijn, wat betekent dat geen twee
+<p>Om een nieuwe klant aan te maken, klikt u op <strong>Add New&#8230;&#8203;</strong> en geeft u de vereiste
+informatie op. Het veld Naam is verplicht en moet uniek zijn, wat betekent dat geen twee
 klanten dezelfde naam kunnen hebben. Andere velden zijn optioneel.</p>
 <div class="imageblock">
 <div class="content">
@@ -238,11 +218,11 @@ klanten dezelfde naam kunnen hebben. Andere velden zijn optioneel.</p>
 </li>
 <li>
 <p>Om de gegevens van een klant bij te werken, klikt u met de rechtermuisknop op de klant en selecteert u
-<strong>Informatie bewerken…</strong>. Alle velden behalve Name kunnen worden gewijzigd.</p>
+<strong>Edit information</strong>. Alle velden behalve de Naam kunnen worden gewijzigd.</p>
 </li>
 <li>
 <p>Om een klant te verwijderen, klikt u met de rechtermuisknop op de klant en selecteert u
-<strong>Wissen</strong>.</p>
+<strong>Delete&#8230;&#8203;</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/customer1.png" alt="Customer1" width="688">
@@ -258,7 +238,7 @@ klanten dezelfde naam kunnen hebben. Andere velden zijn optioneel.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Verwijdering is alleen mogelijk als de klant niet is gekoppeld aan een Part of Job. Anders wordt de verwijderoptie uitgeschakeld.
+Verwijderen is alleen mogelijk als de klant niet gekoppeld is aan een onderdeel of job. Anders is de verwijderoptie uitgeschakeld.
 </td>
 </tr>
 </table>
@@ -271,8 +251,8 @@ Verwijdering is alleen mogelijk als de klant niet is gekoppeld aan een Part of J
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="edit.html">Edit</a></span>
- <span class="next"><a href="settings/index.html">Settings</a></span>
+ <span class="prev"><a href="edit.html">Bewerken</a></span>
+ <span class="next"><a href="settings/index.html">Instellingen</a></span>
 </nav>
 
         </div>

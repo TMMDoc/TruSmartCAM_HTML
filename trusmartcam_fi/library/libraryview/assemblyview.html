@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Kokoonpano</title>
+  <title>Assembly</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-järjestelmään</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">Tervetuloa TruSmartCAM-ohjelmaan</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Asennus</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Laitteistovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Tuetut tiedostomuodot</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Ennakkovaatimukset</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Palvelimen asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakkaan asennus</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lisenssin vaihto</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Asiakasohjelman asennus</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">Konfigurointi</a>
+   <a href="../../configuration/index.html">Määritykset</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Koneen lisääminen/poistaminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Työkalujen asetukset</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Käyttäjien määrittäminen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/language.html">Kieli</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Add/Remove machine</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Setup tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configure users</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/language.html">Language</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Materiaali</a>
+     <a href="../../configuration/addmaterial/index.html">Material</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Uuden materiaalin ja arkin lisääminen</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Materiaalin vienti/tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Materiaalin korvaaminen</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Add new material and sheet</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import material</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Replace material</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaalin kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-sivujen kartoitus</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Kenttien kartoitus CAD:sta (hakuavaimet)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Map material</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Map CAM pages</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Map fields from CAD (lookup keys)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Käyttöliittymä</a></li>
@@ -65,20 +63,20 @@
    <ul>
     <li>
      <button class="tree closed"></button>
-     <a href="../open/index.html">Avaa</a>
+     <a href="../open/index.html">Avaaminen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../open/partimport.html">Osien tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../open/orderimport.html">Tilausten tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../open/jobimport.html">Töiden tuonti</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Kokoonpanojen tuonti</a></li>
+      <li><button class="tree blank"></button><a href="../open/partimport.html">Import parts</a></li>
+      <li><button class="tree blank"></button><a href="../open/orderimport.html">Import orders</a></li>
+      <li><button class="tree blank"></button><a href="../open/jobimport.html">Import jobs</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Import assemblies</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
      <a href="index.html">Kirjastonäkymä</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partview.html">Osat</a></li>
-      <li><button class="tree blank"></button><a class="active" href="assemblyview.html">Kokoonpano</a></li>
+      <li><button class="tree blank"></button><a href="partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a class="active" href="assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,24 +84,24 @@
      <a href="../partstate/index.html">Osan tila</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Osan validointi</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Osapaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Osasuodattimet</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Työkalutila</a>
+     <a href="../toolingstatus/index.html">Tooling status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Työkalutuksen validointi</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyökalun validointi</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Paneelitaivutuksen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Taivutustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Leikkaustyöstöjen validointi</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Taittotyöstöjen validointi</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Työkalutuspaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Suodattimien tallentaminen</a></li>
@@ -111,9 +109,9 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Tilaukset</a>
+   <a href="../../orders/index.html">Työtehtävät</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Tilausnäkymät</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Työtehtävänäkymä</a></li>
    </ul>
   </li>
   <li>
@@ -124,28 +122,28 @@
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Työnäkymä</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Työpaneeli</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automaattinen suunnittelu</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiivinen nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Uudelleenpakkaus</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Sisäkkäisyyden hallinta</a>
+     <a href="../../jobs/layoutcommands/index.html">Nestauksen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Asettelunäkymä</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Asettelupaneeli</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Raportin lähettäjä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Sijoittelunäkymä</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Sijoittelupaneeli</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Jäännösarkkien hallinta</a>
+     <a href="../../jobs/remnantmanagement/index.html">Jäännöslevyjen hallinta</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännösarkkien hallinta</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännösarkkien hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automaattinen jäännöslevyjen hallinta</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuaalinen jäännöslevyjen hallinta</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline-sisäkkäisyys</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">TwinLine-nestaus</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Vanhentunut</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työsuodattimet</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Työn suodattimet</a></li>
    </ul>
   </li>
   <li>
@@ -173,24 +171,6 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-laajennukset</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Asennus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Tallenna osat</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Tallenna kokoonpano</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Tarkista toteutettavuus</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Tehtaan asetukset</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Muut parannukset</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
   <li><button class="tree blank"></button><a href="../../impressum.html">Yritystiedot</a></li>
  </ul>
 </div>
@@ -212,37 +192,38 @@
  </div>
  <div>/</div>
  <div>
-  <a href="assemblyview.html">Kokoonpano</a>
+  <a href="assemblyview.html">Assembly</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Kokoonpano</h1>
+                        <h1>Assembly</h1>
 <div class="sect1">
-<h2 id="_staattisten_pesien_luominen_kokoonpanosta">Staattisten pesien luominen kokoonpanosta</h2>
+<h2 id="_staattisten_nestausten_luonti_rakenneryhmu00e4stu00e4">Staattisten nestausten luonti rakenneryhm\u00e4st\u00e4</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Staattiset pesät voidaan luoda kokoonpanolle käyttäen interaktiivista
-pesimävelhoa.
-Nämä pesät ovat kiinteitä asetteluita, jotka liittyvät vain valittuun kokoonpanoon.</p>
+<p>Rakenneryhm\u00e4lle voidaan luoda staattisia nestauksia interaktiivisella
+nestausvelholla.
+N\u00e4m\u00e4 nestaukset ovat kiinte\u00e4t sijoittelut, jotka liittyv\u00e4t vain valittuun
+rakenneryhm\u00e4\u00e4n.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Vaihda <strong>rak.ryhmät</strong> -näkymään.</p>
+<p>Vaihda <strong>assys</strong> -n\u00e4kym\u00e4\u00e4n.</p>
 </li>
 <li>
-<p>Napsauta hiiren kakkospainikkeella vaadittavaa kokoonpanoa ja valitse
-<strong>Luo nestaukset&#8230;&#8203;</strong>.</p>
+<p>Napsauta haluttua rakenneryhm\u00e4\u00e4 hiiren kakkospainikkeella ja valitse
+<strong>Create Nests&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Interaktiivinen pesimävelho avautuu.</p>
+<p>Interaktiivinen nestausvelho avautuu.</p>
 </li>
 <li>
-<p>Oletusarvoisesti interaktiivinen pesimävelho vaihtaa
-<strong>Valitse kone ja materiaali</strong> -sivulle.</p>
+<p>Oletuksena interaktiivinen nestausvelho vaihtaa
+<strong>Select Machine &amp; Material</strong> -sivulle.</p>
 </li>
 </ul>
 </div>
@@ -254,39 +235,40 @@ Nämä pesät ovat kiinteitä asetteluita, jotka liittyvät vain valittuun kokoo
 <div class="ulist">
 <ul>
 <li>
-<p>Koneet näytetään väripalkeilla, jotka osoittavat käytettävissä olevan tuotantokuorman:</p>
+<p>Koneet n\u00e4ytet\u00e4\u00e4n v\u00e4ripalkeilla, jotka osoittavat k\u00e4ytett\u00e4viss\u00e4 olevan
+tuotantokuormituksen:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Vihreä palkki: Aikataulutetut tunnit</p>
+<p>Vihre\u00e4 palkki: Aikataulutetut tunnit</p>
 </li>
 <li>
-<p>Harmaa palkki: Käytettävissä olevat tunnit (8 tunnin työvuorosta)</p>
+<p>Harmaa palkki: K\u00e4ytett\u00e4viss\u00e4 olevat tunnit (8 tunnin ty\u00f6vuorosta)</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Kunkin koneen alla valitut osat on ryhmitelty niiden raaka-aineen mukaan
-(Osia/Kokonaismäärä).</p>
+<p>Kunkin koneen alla valitut osat ryhmitell\u00e4\u00e4n raakamateriaalinsa mukaan
+(osat/kokonaism\u00e4\u00e4r\u00e4).</p>
 </li>
 <li>
-<p>Jos osalla ei ole voimassa olevaa työkaluratkaisua koneelle, kyseinen osa ja
-materiaali ohitetaan tietyn koneen käsittelyssä.</p>
+<p>Jos osalla ei ole kelvollista ty\u00f6st\u00f6ratkaisua koneelle, kyseinen osa ja
+materiaali ohitetaan kyseisen koneen k\u00e4sittelyss\u00e4.</p>
 </li>
 <li>
-<p>Jos raaka-aine valitaan yhdelle koneelle, se ei ole käytettävissä muille
+<p>Jos raakamateriaali valitaan yhdelle koneelle, se ei ole k\u00e4ytett\u00e4viss\u00e4 muille
 koneille.</p>
 </li>
 <li>
-<p>Kun konepesäsuunnitelma on asetettu, valitse haluamasi levy ja
-ohita levyn parametrit, kuten <strong>Prioriteetti</strong>,
-<strong>Määrä</strong>, <strong>Levyn reunukset</strong> jne.</p>
+<p>Kun konenestaussuunnitelma on asetettu, valitse haluttu levy ja ohita
+levyparametrit, kuten <strong>Priority</strong>,
+<strong>Quantity</strong>, <strong>Margins</strong> jne.</p>
 </li>
 <li>
-<p>Voit suodattaa levyjä näyttämään <strong>Kaikki levyt</strong>,
-<strong>Standardilevyt</strong> tai
-<strong>Jäännöslevyt</strong>. Napsauta <strong>Seuraava</strong>.</p>
+<p>Voit suodattaa levyt n\u00e4ytt\u00e4m\u00e4\u00e4n <strong>All Sheets</strong>,
+<strong>Standard Sheets</strong> tai
+<strong>Remnant Sheets</strong>. Napsauta <strong>next</strong>.</p>
 </li>
 </ul>
 </div>
@@ -297,8 +279,8 @@ ohita levyn parametrit, kuten <strong>Prioriteetti</strong>,
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Määriä ei ole mahdollista lisätä tässä vaiheessa. Voit joko pitää saman
-määrän kuin levyvaraston määrä tai vähentää sitä ja tarkistaa pesimätulokset.
+T\u00e4ss\u00e4 vaiheessa m\u00e4\u00e4ri\u00e4 ei voi lis\u00e4t\u00e4. Voit joko pit\u00e4\u00e4 saman kuin levyn
+varastom\u00e4\u00e4r\u00e4 tai v\u00e4hent\u00e4\u00e4 sit\u00e4 ja tarkistaa nestaustulokset.
 </td>
 </tr>
 </table>
@@ -306,24 +288,17 @@ määrän kuin levyvaraston määrä tai vähentää sitä ja tarkistaa pesimät
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Päivitä määrä</strong> ilmestyy interaktiivisen pesimäsuunnitelman ikkunaan.</p>
+<p><strong>Update Qty</strong> tulee n\u00e4kyviin interaktiivisen
+nestaussuunnitelman ikkunassa.</p>
 </li>
 <li>
-<p>Oletusarvoisesti <strong>Poimi kaikki (F5)</strong> sisällyttää kaikki osat
-pesimään, tai voit manuaalisesti valita prioriteettiosat ja säätää osamääriä.
-Napsauta <strong>Seuraava</strong>.</p>
+<p>Oletuksena <strong>Pick All (F5)</strong> sis\u00e4llytt\u00e4\u00e4 kaikki osat
+nestaukseen, tai voit valita prioriteettiosat manuaalisesti ja s\u00e4\u00e4t\u00e4\u00e4 osien
+m\u00e4\u00e4ri\u00e4. Napsauta <strong>next</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/assemblyquantity.png" alt="Update quantity">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Pesimä alkaa ja levyyn pesityt osat päivitetään sinisellä tilamerkinnällä.</p>
+<p>Nestaus alkaa, ja levylle nestatut osat p\u00e4ivitet\u00e4\u00e4n sinisell\u00e4
+tilav\u00e4rill\u00e4.</p>
 </li>
 </ul>
 </div>
@@ -335,27 +310,27 @@ Napsauta <strong>Seuraava</strong>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Koneen tuotantokuorma päivittyy pesimätuloksen perusteella.</p>
+<p>Koneen tuotantokuormitus p\u00e4ivittyy nestaustuloksen perusteella.</p>
 </li>
 <li>
-<p>Jos jotkut osat jäävät pesimättä, viesti
-<strong>Jotkin osat jäävät nestaamatta.</strong> ilmestyy - nämä osat pysyvät
-alkuperäisessä työssä.</p>
+<p>Jos jotkin osat j\u00e4\u00e4v\u00e4t nestaamatta, viesti
+<strong>Some parts remain unnested</strong> tulee n\u00e4kyviin \u2014 n\u00e4m\u00e4 osat
+j\u00e4\u00e4v\u00e4t alkuper\u00e4iseen ty\u00f6h\u00f6n.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Osa voi jäädä pesimättä, jos sopivaa levyä ei ole saatavilla.</p>
+<p>Osa voi j\u00e4\u00e4d\u00e4 nestaamatta, jos sopivaa levy\u00e4 ei ole k\u00e4ytett\u00e4viss\u00e4.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Staattisia pesiä voidaan muokata sisällyttämään pesimättömiä osia:</p>
+<p>Staattisia nestauksia voidaan muokata sis\u00e4llytt\u00e4m\u00e4\u00e4n nestaamattomat osat:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Valitse asettelu, johon haluat lisätä pesimättömiä osia, ja tarkista se
-muokkausta varten.</p>
+<p>Valitse sijoittelu, johon haluat lis\u00e4t\u00e4 nestaamattomat osat, ja tarkista se
+ulos muokkausta varten.</p>
 </li>
 </ul>
 </div>
@@ -370,9 +345,9 @@ muokkausta varten.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>TecZone avautuu. Napsauta <strong>Poimi</strong> tai
-<strong>Poimi kaikki</strong> valitaksesi pesimättömät osat
-pääkokoonpanosta.</p>
+<p>TecZone avautuu. Napsauta <strong>Pick</strong> tai
+<strong>Pick All</strong> valitaksesi nestaamattomat osat
+p\u00e4\u00e4rakenneryhm\u00e4st\u00e4.</p>
 </li>
 </ul>
 </div>
@@ -384,7 +359,7 @@ pääkokoonpanosta.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Järjestä osa asettelussa tarpeen mukaan.</p>
+<p>J\u00e4rjest\u00e4 osa sijoitteluun tarpeen mukaan.</p>
 </li>
 </ul>
 </div>
@@ -396,8 +371,8 @@ pääkokoonpanosta.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Luodut pesät nimetään automaattisesti pääkokoonpanon mukaan helppoa
-tunnistamista varten.</p>
+<p>Luodut nestaukset nimet\u00e4\u00e4n automaattisesti p\u00e4\u00e4rakenneryhm\u00e4n mukaan helpon
+tunnistamisen vuoksi.</p>
 </li>
 </ul>
 </div>
@@ -408,9 +383,10 @@ tunnistamista varten.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Staattiset pesät eivät voi sisältää osia muista kokoonpanoista. Sekoitettujen
-kokoonpanopesien salliminen estäisi yhden kokoonpanon vapauttamisen ilman muiden
-vapauttamista, joten sekoittaminen on kielletty suunnittelun mukaan.
+Staattiset nestaukset eiv\u00e4t voi sis\u00e4lt\u00e4\u00e4 osia muista rakenneryhmist\u00e4.
+Sekoitettujen rakenneryhm\u00e4nestausten salliminen est\u00e4isi yhden rakenneryhm\u00e4n
+vapauttamisen vapauttamatta muita, joten sekoittaminen on estetty
+suunnittelullisesti.
 </td>
 </tr>
 </table>
@@ -418,30 +394,30 @@ vapauttamista, joten sekoittaminen on kielletty suunnittelun mukaan.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_muut_kuin_levymetallikomponentit">Muut kuin levymetallikomponentit</h2>
+<h2 id="_muut_kuin_levytyu00f6komponentit">Muut kuin levyty\u00f6komponentit</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Kun kokoonpano tuodaan, levymetallosat poimitaan ja lisätään
-osakirjaston kokoonpanoihin.</p>
+<p>Kun rakenneryhm\u00e4 tuodaan, levyty\u00f6osat eristet\u00e4\u00e4n ja lis\u00e4t\u00e4\u00e4n
+rakenneryhmiin osakirjastossa.</p>
 </li>
 <li>
-<p>Muut kuin levymetallikomponentit erotetaan ja lisätään
-<strong>Komponentit</strong> -osioon.</p>
+<p>Muut kuin levyty\u00f6komponentit erotetaan ja lis\u00e4t\u00e4\u00e4n kohtaan
+<strong>Components</strong>.</p>
 </li>
 <li>
-<p>Kokoonpano lisätään kokoonpanokirjastoon ja sen BOM
-(Bill of Materials) sisältää sekä osia että komponentteja.</p>
+<p>Rakenneryhm\u00e4 lis\u00e4t\u00e4\u00e4n rakenneryhm\u00e4kirjastoon, ja sen osaluettelo (BOM,
+Bill of Materials) sis\u00e4lt\u00e4\u00e4 sek\u00e4 osat ett\u00e4 komponentit.</p>
 </li>
 <li>
-<p>Jos osa on jo tuotu levymetalliosana, järjestelmä päivittää
-olemassa olevan merkinnän ja poistaa kaksoiskappaleet osakirjastosta.</p>
+<p>Jos osa on jo tuotu levyty\u00f6osana, j\u00e4rjestelm\u00e4 p\u00e4ivitt\u00e4\u00e4 olemassa olevan
+merkinn\u00e4n ja poistaa kaksoiskappaleet osakirjastosta.</p>
 </li>
 <li>
-<p>Kokoonpanon valitseminen näyttää sekä osat että komponentit, komponenttien
-määrät näkyvät komponentin kuvan alla (valittu kokoonpanon komponenttimäärä
-ja kokonaiskomponenttimäärä).</p>
+<p>Rakenneryhm\u00e4n valitseminen n\u00e4ytt\u00e4\u00e4 sek\u00e4 osat ett\u00e4 komponentit, ja
+komponenttien m\u00e4\u00e4r\u00e4t n\u00e4ytet\u00e4\u00e4n komponenttikuvan alla (valitun rakenneryhm\u00e4n
+komponenttim\u00e4\u00e4r\u00e4 ja komponenttien kokonaism\u00e4\u00e4r\u00e4).</p>
 </li>
 </ul>
 </div>
@@ -453,27 +429,28 @@ ja kokonaiskomponenttimäärä).</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Komponenttien työkaluvihjeet näyttävät nimen, materiaalin ja koon.
-Komponentit jätetään pois tuotannosta - niitä ei pesitä, eikä komponenteille
-luoda levyjä.</p>
+<p>Komponenttien ty\u00f6kaluvihjeet n\u00e4ytt\u00e4v\u00e4t nimen, materiaalin ja koon.
+Komponentit j\u00e4tet\u00e4\u00e4n pois tuotannon aikana \u2014 niit\u00e4 ei nestata, eik\u00e4
+komponenteille luoda levyj\u00e4.</p>
 </li>
 <li>
-<p>Esimerkkikokoonpanot ja komponentit ovat saatavilla osoitteessa:
-C:\Program Files\Metamation\Praxis\Samples\Assys\Components, joita voidaan
-käyttää komponentin tuonnin ja kokoonpanotyönkulkujen testaamiseen.</p>
+<p>Esimerkkirakenneryhm\u00e4t ja -komponentit ovat saatavilla osoitteessa:
+C:\Program Files\TRUMPF\TMM\Praxis\Samples\Assys\Components,
+joita voidaan k\u00e4ytt\u00e4\u00e4 komponenttien tuonnin ja rakenneryhm\u00e4ty\u00f6nkulkujen
+testaamiseen.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_työn_luominen_kokoonpanosta">Työn luominen kokoonpanosta</h2>
+<h2 id="_tyu00f6n_luonti_rakenneryhmu00e4stu00e4">Ty\u00f6n luonti rakenneryhm\u00e4st\u00e4</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Napsauta hiiren kakkospainikkeella kokoonpanoa, napsauta <strong>Uusi&#8230;&#8203;</strong> ja sitten
-<strong>Työ</strong>.</p>
+<p>Napsauta rakenneryhm\u00e4\u00e4 hiiren kakkospainikkeella, napsauta <strong>New&#8230;&#8203;</strong>
+ja sitten <strong>Job</strong>.</p>
 </li>
 </ul>
 </div>
@@ -485,8 +462,9 @@ käyttää komponentin tuonnin ja kokoonpanotyönkulkujen testaamiseen.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Aseta uuden työn ikkunassa kokoonpanomäärä, napsauta <strong>OK</strong> ja
-päivitä sitten työn tiedot (kuten eräpäivä ja prioriteetti) tarpeen mukaan.</p>
+<p>Aseta New Job -valintaikkunassa rakenneryhm\u00e4m\u00e4\u00e4r\u00e4, napsauta <strong>OK</strong>
+ja p\u00e4ivit\u00e4 sitten ty\u00f6n tiedot (kuten m\u00e4\u00e4r\u00e4p\u00e4iv\u00e4 ja prioriteetti) tarpeen
+mukaan.</p>
 </li>
 </ul>
 </div>
@@ -498,9 +476,9 @@ päivitä sitten työn tiedot (kuten eräpäivä ja prioriteetti) tarpeen mukaan
 <div class="ulist">
 <ul>
 <li>
-<p>Järjestelmä luo työn kokoonpanosta ja kopioi staattiset pesät
-työn pesiksi päivittäen levymäärät. Kopioidut pesät saavat etuliitteen,
-joka on työn tunniste.</p>
+<p>J\u00e4rjestelm\u00e4 luo ty\u00f6n rakenneryhm\u00e4st\u00e4 ja kopioi staattiset nestaukset
+ty\u00f6nestauksiksi p\u00e4ivitt\u00e4en levym\u00e4\u00e4r\u00e4t. Kopioidut nestaukset saavat etuliitteeksi
+ty\u00f6n tunnuksen.</p>
 </li>
 </ul>
 </div>
@@ -512,15 +490,15 @@ joka on työn tunniste.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Työn pesiä voidaan muokata tai poistaa vaikuttamatta alkuperäisiin
-staattisiin pesiin.</p>
+<p>Ty\u00f6nestauksia voidaan muokata tai poistaa vaikuttamatta alkuper\u00e4isiin
+staattisiin nestauksiin.</p>
 </li>
 <li>
-<p>Työn pesät voidaan pakata uudelleen käyttämällä <strong>Mukauta/tiivistä&#8230;&#8203;</strong> tai
-<strong>Lisää osia&#8230;&#8203;</strong>.</p>
+<p>Ty\u00f6nestaukset voidaan pakata uudelleen komennoilla
+<strong>Adapt/Compact&#8230;&#8203;</strong> tai <strong>Add parts&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Yksityiskohtaiset vaiheet löytyvät osoitteesta
+<p>Yksityiskohtaiset vaiheet ovat kohdissa
 <a href="../../jobs/layoutcommands/layoutpanel.html#adapt-compact">Adapt/Compact</a> ja
 <a href="../../jobs/layoutcommands/layoutpanel.html#add-parts">Add parts</a>.</p>
 </li>
@@ -534,15 +512,16 @@ staattisiin pesiin.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Jos osa ei näy pesässä, tarkista pesän muokkausikkuna - voit
-lisätä pesimättömiä osia manuaalisesti.</p>
+<p>Jos osa ei n\u00e4y nestauksessa, tarkista nestauksen muokkausvalintaikkuna \u2014 voit
+lis\u00e4t\u00e4 nestaamattomat osat manuaalisesti.</p>
 </div>
 <div class="paragraph">
-<p>Käytä tallennettuja hakuja ja suodattimia löytääksesi nopeasti osia useiden kokoonpanojen välillä.</p>
+<p>K\u00e4yt\u00e4 tallennettuja hakuja ja suodattimia l\u00f6yt\u00e4\u00e4ksesi osat nopeasti useista
+rakenneryhmist\u00e4.</p>
 </div>
 <div class="paragraph">
-<p>Käytä selkeitä, kuvaavia kokoonpano- ja pesänimiä välttääksesi sekaannusta
-kopioitaessa pesiä töihin.</p>
+<p>K\u00e4yt\u00e4 selkeit\u00e4, kuvaavia rakenneryhm\u00e4- ja nestausnimi\u00e4 v\u00e4ltt\u00e4\u00e4ksesi
+sekaannusta, kun kopioit nestauksia t\u00f6ihin.</p>
 </div>
 </td>
 </tr>
@@ -558,13 +537,13 @@ kopioitaessa pesiä töihin.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_staattisten_pesien_luominen_kokoonpanosta">Staattisten pesien luominen kokoonpanosta</a>
+   <a href="#_staattisten_nestausten_luonti_rakenneryhmu00e4stu00e4">Staattisten nestausten luonti rakenneryhm\u00e4st\u00e4</a>
   </li>
   <li level="1">
-   <a href="#_muut_kuin_levymetallikomponentit">Muut kuin levymetallikomponentit</a>
+   <a href="#_muut_kuin_levytyu00f6komponentit">Muut kuin levyty\u00f6komponentit</a>
   </li>
   <li level="1">
-   <a href="#_työn_luominen_kokoonpanosta">Työn luominen kokoonpanosta</a>
+   <a href="#_tyu00f6n_luonti_rakenneryhmu00e4stu00e4">Ty\u00f6n luonti rakenneryhm\u00e4st\u00e4</a>
   </li>
  </ul>
 </aside>
@@ -572,7 +551,7 @@ kopioitaessa pesiä töihin.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="partview.html">Osat</a></span>
+ <span class="prev"><a href="partview.html">Parts</a></span>
  <span class="next"><a href="../partstate/index.html">Osan tila</a></span>
 </nav>
 

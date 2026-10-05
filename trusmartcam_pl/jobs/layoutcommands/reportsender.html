@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Nadawca raportów</title>
+  <title>Wysyłanie raportów</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="../../configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Otwórz</a>
+     <a href="../../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Zamówienia</a>
+   <a href="../../orders/index.html">Zlecenia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Zadania</a>
+   <a href="../index.html">Zadania job</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Zarządzanie układem</a>
+     <a href="index.html">Zarządzanie nestami</a>
      <ul>
       <li><button class="tree blank"></button><a href="nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a class="active" href="reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a class="active" href="reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="../outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,38 +184,38 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Zadania</a>
+  <a href="../index.html">Zadania job</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Zarządzanie układem</a>
+  <a href="index.html">Zarządzanie nestami</a>
  </div>
  <div>/</div>
  <div>
-  <a href="reportsender.html">Nadawca raportów</a>
+  <a href="reportsender.html">Wysyłanie raportów</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Nadawca raportów</h1>
+                        <h1>Wysyłanie raportów</h1>
 <div class="ulist">
 <ul>
 <li>
-<p>Domyślnie, gdy zagnieżdżenie jest wysyłane na maszynę, wszystkie pliki wyjściowe (NC, raport
-i CSV) są zapisywane w folderze o nazwie zagnieżdżenia.</p>
+<p>Domyślnie, gdy nest jest wysyłany do maszyny, wszystkie pliki wyjściowe (NC, Report
+oraz CSV) są zapisywane w folderze o nazwie nestu.</p>
 </li>
 <li>
-<p>Zamiast wysyłać wszystkie wyjścia do folderu zagnieżdżenia, możesz eksportować pliki NC, Raportu
-i CSV do określonych folderów za pomocą Nadawcy raportów.</p>
+<p>Zamiast wysyłać wszystkie dane wyjściowe do folderu nestu, możesz eksportować pliki NC, Report
+oraz CSV do określonych folderów za pomocą Report Sender.</p>
 </li>
 <li>
-<p>Aby to skonfigurować, przejdź do <strong>fabryka</strong> →
-<strong>ścieżki</strong> → <strong>Code sender</strong> i wybierz <strong>ReportSender</strong>.</p>
+<p>Aby to skonfigurować, przejdź do <strong>Factory</strong> →
+<strong>routes</strong> → <strong>Code sender</strong> i wybierz <strong>ReportSender</strong>.</p>
 </li>
 <li>
-<p>Ustaw foldery docelowe dla plików NC, plików raportów i plików CSV.</p>
+<p>Ustaw foldery docelowe dla plików NC, plików Report oraz plików CSV.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/reportsender1.png" alt="Report sender" width="522">
@@ -243,22 +223,18 @@ i CSV do określonych folderów za pomocą Nadawcy raportów.</p>
 </div>
 </li>
 <li>
-<p>Gdy dla zagnieżdżenia wykonywana jest operacja <strong>Wyślij do maszyny…</strong>, pliki NC,
-Raportu i CSV są eksportowane do skonfigurowanych folderów zamiast do
-domyślnego folderu zagnieżdżenia.</p>
+<p>Gdy dla nestu wykonano <strong>Send to Machine&#8230;&#8203;</strong>, pliki NC,
+Report oraz CSV są eksportowane do skonfigurowanych folderów zamiast do
+domyślnego folderu nestu.</p>
 </li>
 <li>
-<p>Gdy dla zagnieżdżenia wykonywana jest operacja <strong>Przywołaj z maszyny…</strong>, odpowiednie
-pliki NC, Raportu i CSV są usuwane ze skonfigurowanych folderów docelowych Nadawcy raportów.</p>
+<p>Gdy dla nestu wykonano <strong>Recall from Machine&#8230;&#8203;</strong>,
+odpowiednie pliki NC, Report oraz CSV są usuwane ze skonfigurowanych folderów
+docelowych Report Sender.</p>
 </li>
 <li>
-<p>Zapewnia to, że w folderach wyjściowych pozostają tylko ważne pliki i ułatwia
+<p>Zapewnia to, że w folderach wyjściowych pozostają tylko prawidłowe pliki i ułatwia
 zarządzanie wyeksportowanymi plikami.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/reportsender2.png" alt="Report sender location" width="531">
-</div>
-</div>
 </li>
 </ul>
 </div>

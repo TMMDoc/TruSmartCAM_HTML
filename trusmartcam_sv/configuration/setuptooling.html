@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Ställ in verktyg</title>
+  <title>Konfigurera tooling</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="index.html">Konfiguration</a>
    <ul>
     <li><button class="tree blank"></button><a href="setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a class="active" href="setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a class="active" href="setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../library/open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Biblioteksvy</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Delstatus</a>
+     <a href="../library/partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Verktygsstatus</a>
+     <a href="../library/toolingstatus/index.html">Tooling-status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Ordrar</a>
+   <a href="../orders/index.html">Order</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Jobb</a>
+   <a href="../jobs/index.html">Job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Häckhantering</a>
+     <a href="../jobs/layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Resthantering</a>
+     <a href="../jobs/remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -208,27 +188,27 @@
  </div>
  <div>/</div>
  <div>
-  <a href="setuptooling.html">Ställ in verktyg</a>
+  <a href="setuptooling.html">Konfigurera tooling</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Ställ in verktyg</h1>
+                        <h1>Konfigurera tooling</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Alla beräkningar av nödvändig geometrianpassning samt nästnings- och böjteknik
-i TruSmartCAM baseras på den senaste teknologimodulerna
-TecZone Fold och TecZone Laser. För att uppnå högsta precisionsnivå måste alla
-detaljer om era fysiska maskiner konfigureras.</p>
+<p>Alla beräkningar av nödvändig geometrianpassning samt nesting- och bocknings-
+teknik i TruSmartCAM baseras på de toppmoderna teknikmodulerna
+TecZone Bend och TecZone Laser. För att uppnå högsta möjliga precision måste alla
+detaljer om dina fysiska maskiner konfigureras.</p>
 </div>
 <div class="paragraph">
-<p>Särskilt inom böjteknik måste alla befintliga verktyg vara kända för
-offline-systemet. All verktygsutrustning för maskinerna kommer att konfigureras i
-TruSmartCAM Factory-dialogen men är analog med dialogen för teknologimodulerna
-TecZone Fold och TecZone Laser.</p>
+<p>Särskilt inom bockningsteknik måste alla befintliga verktyg vara kända för
+offline-systemet. All tooling för maskinerna konfigureras i
+dialogrutan TruSmartCAM Factory men är analog med dialogrutan för teknikmodulerna
+TecZone Bend och TecZone Laser.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -237,7 +217,7 @@ TecZone Fold och TecZone Laser.</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-Vänligen se TecZone-manualerna för att konfigurera ert system.
+Se manualerna för TecZone för att konfigurera ditt system.
 </td>
 </tr>
 </table>
@@ -251,15 +231,15 @@ Vänligen se TecZone-manualerna för att konfigurera ert system.
 <h2 id="_katalogalternativ">Katalogalternativ</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Att klicka på Catalog-rullgardinsmenyn kommer först att lista eventuella verktygskatalog som
-redan är aktiva tillsammans med en lista över eventuella anpassade verktyg och
-möjligheten att installera en annan katalog genom att klicka på knappen Lägg till.</p>
+<p>När du klickar på rullgardinsmenyn Katalog listas först alla verktygskataloger
+som redan är aktiva tillsammans med en lista över eventuella anpassade verktyg och
+möjligheten att installera en annan katalog genom att klicka på knappen <strong>&lt;Add&gt;&#8230;&#8203;</strong>.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="img/toolcatalouge.png" alt="toolcatalouge"></span></p>
 </div>
 <div class="paragraph">
-<p>Att klicka på någon katalog i den tillgängliga listan kommer att installera den.</p>
+<p>När du klickar på en katalog i listan över tillgängliga kataloger installeras den.</p>
 </div>
 </div>
 </div>
@@ -267,9 +247,9 @@ möjligheten att installera en annan katalog genom att klicka på knappen Lägg 
 <h2 id="_samling">Samling</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Bend Tool Inventory stöder även alternativet att skapa anpassade samlingar av
-verktyg som kan vara för en specifik kund eller korskatalog där flera
-kataloger används</p>
+<p>Bend Tool Inventory har även stöd för att skapa anpassade samling(ar) av
+verktyg som kan gälla en specifik kund eller vara katalogövergripande där flera
+kataloger används.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -278,7 +258,7 @@ kataloger används</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Se TecZone Fold-manualen för mer information
+Se manualen för TecZone Bend för mer information
 </td>
 </tr>
 </table>

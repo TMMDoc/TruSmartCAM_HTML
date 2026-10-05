@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Import orders</title>
+  <title>オーダーのインポート</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,26 +22,24 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../../index.html">TruSmartCAMへようこそ</a></li>
+  <li><button class="tree blank"></button><a href="../../index.html">TruSmartCAM へようこそ</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../installation/index.html">インストール</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">ハードウェア要件</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">サポートされているファイル形式</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">前提条件</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">サーバーインストール</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">クライアントインストール</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">ライセンスの変更</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">サーバーのインストール</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">クライアントのインストール</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">設定</a>
+   <a href="../../configuration/index.html">構成</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">機械の追加/削除</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">工具設定</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">ユーザー設定</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">マシンの追加/削除</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">ツーリングのセットアップ</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">ユーザーの構成</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">言語</a></li>
     <li>
      <button class="tree closed"></button>
@@ -53,67 +51,67 @@
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">材料のマッピング</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAMページのマッピング</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CADからのフィールドマッピング（検索キー）</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM ページのマッピング</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD からのフィールドのマッピング（検索キー）</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../userinterface.html">ユーザーインターフェース</a></li>
+  <li><button class="tree blank"></button><a href="../../userinterface.html">ユーザーインターフェイス</a></li>
   <li><button class="tree blank"></button><a href="../../workflow.html">ワークフロー</a></li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Library</a>
+   <a href="../index.html">ライブラリ</a>
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Open</a>
+     <a href="index.html">開く</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a class="active" href="orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a href="jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="partimport.html">部品のインポート</a></li>
+      <li><button class="tree blank"></button><a class="active" href="orderimport.html">オーダーのインポート</a></li>
+      <li><button class="tree blank"></button><a href="jobimport.html">ジョブのインポート</a></li>
+      <li><button class="tree blank"></button><a href="assembliesimport.html">アセンブリのインポート</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../libraryview/index.html">Library view</a>
+     <a href="../libraryview/index.html">ライブラリビュー</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">部品</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">アセンブリ</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Part status</a>
+     <a href="../partstate/index.html">部品ステータス</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">パートパネル</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">部品の検証</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">部品パネル</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">部品フィルター</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Tooling status</a>
+     <a href="../toolingstatus/index.html">ツーリングステータス</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">ツーリングの検証</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">曲げツーリングの検証</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">切断ツーリングの検証</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">折り曲げツーリングの検証</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">ツーリングパネル</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">フィルターの保存</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">注文</a>
+   <a href="../../orders/index.html">オーダー</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">注文ビュー</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">オーダービュー</a></li>
    </ul>
   </li>
   <li>
@@ -123,34 +121,34 @@
     <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">ジョブの作成</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">ジョブビュー</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">ジョブパネル</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">自動計画</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">インタラクティブネスティング</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">リパッキング</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Auto plan</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interactive nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/layoutcommands/index.html">ネスト管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">レイアウトビュー</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">レイアウトパネル</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">レポート送信者</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layout view</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layout panel</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">端材管理</a>
+     <a href="../../jobs/remnantmanagement/index.html">残材管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">自動端材管理</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">手動端材管理</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Auto remnant management</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manual remnant management</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">ツインラインネスティング</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">期限切れ</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">ジョブフィルター</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Out-of-date</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Job filters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">ファクトリー</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
     <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
@@ -173,25 +171,7 @@
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD拡張機能</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">インストール</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">パーツの保存</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">アセンブリの保存</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">実行可能性の確認</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">工場設定</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">その他の機能強化</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">企業情報</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">会社情報</a></li>
  </ul>
 </div>
 
@@ -204,26 +184,26 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Library</a>
+  <a href="../index.html">ライブラリ</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Open</a>
+  <a href="index.html">開く</a>
  </div>
  <div>/</div>
  <div>
-  <a href="orderimport.html">Import orders</a>
+  <a href="orderimport.html">オーダーのインポート</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Import orders</h1>
+                        <h1>オーダーのインポート</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>オーダーは、次の方法を使用して作成またはインポートできます：</p>
+<p>オーダーは、次の方法で作成またはインポートできます。</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -231,44 +211,35 @@
 <p>スプレッドシートファイルからオーダーをインポートする。</p>
 </li>
 <li>
-<p>監視設定を通じてオーダーを自動的にインポートする。</p>
+<p>監視設定を介してオーダーを自動的にインポートする。</p>
 </li>
 <li>
-<p>パートライブラリの既存のパーツからオーダーを作成する。</p>
+<p>部品ライブラリ内の既存の部品からオーダーを作成する。</p>
 </li>
 <li>
-<p>アセンブリ静的ネストからオーダーを作成する。</p>
+<p>アセンブリの静的ネストからオーダーを作成する。</p>
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_スプレッドシートからオーダーをインポート">スプレッドシートからオーダーをインポート</h2>
+<h2 id="_スプレッドシートからオーダーをインポートする">スプレッドシートからオーダーをインポートする</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>開く</strong> &#8594; *オーダーのインポート…*に移動します。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/orders.png" alt="Orders" width="259">
-</div>
-</div>
+<p><strong>Open</strong> &#8594;
+<strong>Import Orders&#8230;&#8203;</strong> に移動します。</p>
 </li>
 <li>
-<p>サポートされているスプレッドシート形式には、CSV、XLSX、XMLが含まれます。</p>
+<p>サポートされるスプレッドシート形式には、CSV、XLSX、XML があります。</p>
 </li>
 <li>
-<p>必要なスプレッドシートファイルを選択し、*開く*をクリックします。</p>
+<p>必要なスプレッドシートファイルを選択して <strong>Open</strong> をクリックします。</p>
 </li>
 <li>
-<p>インポートプロセスは、Job/Assemblyインポートワークフローと同様です。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importorder.png" alt="Import Order" width="591">
-</div>
-</div>
+<p>インポートプロセスは Job/Assembly のインポートワークフローと同様です。</p>
 </li>
 </ul>
 </div>
@@ -279,7 +250,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-スプレッドシートをOrdersページに直接ドラッグアンドドロップしてオーダーをインポートすることもできます。
+スプレッドシートを Orders ページに直接ドラッグアンドドロップしてオーダーをインポートすることもできます。
 </td>
 </tr>
 </table>
@@ -287,24 +258,24 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_監視設定を使用してオーダーをインポート">監視設定を使用してオーダーをインポート</h2>
+<h2 id="_監視設定を使用してオーダーをインポートする">監視設定を使用してオーダーをインポートする</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>*設定を見る*で*スプレッドシートを「ライブフォルダ」からインポートする*オプションを有効にします。</p>
+<p><strong>Watch settings</strong> で <strong>Import spreadsheet from 'Live Folder'</strong> オプションを有効にします。</p>
 </li>
 <li>
-<p>*スプレッドシートのインポートオプション*で*オーダーのインポート*を選択します。</p>
+<p><strong>Spreadsheet import option</strong> で <strong>Import Orders</strong> を選択します。</p>
 </li>
 <li>
-<p>オーダーをインポートするフォルダーの場所を設定します。</p>
+<p>オーダーをインポートするフォルダーの場所を構成します。</p>
 </li>
 <li>
-<p>システムは設定されたフォルダーを継続的に監視します。</p>
+<p>システムは、構成されたフォルダーを継続的に監視します。</p>
 </li>
 <li>
-<p>新しく追加されたスプレッドシートファイルは、自動的にOrdersにインポートされます。</p>
+<p>新しく追加されたスプレッドシートファイルは、自動的に Orders にインポートされます。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/spreadsheetorder.png" alt="Spreadsheet Order" width="715">
@@ -320,7 +291,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-詳細な設定手順については、<a href="../../factory/settings/watch.html">Watch settings</a>ドキュメントを参照してください。
+詳細な構成手順については、<a href="../../factory/settings/watch.html">Watch settings</a> のドキュメントを参照してください。
 </td>
 </tr>
 </table>
@@ -328,44 +299,34 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_パートライブラリからオーダーを作成">パートライブラリからオーダーを作成</h2>
+<h2 id="_部品ライブラリからオーダーを作成する">部品ライブラリからオーダーを作成する</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>パートライブラリから必要なパーツを選択します。</p>
+<p>部品ライブラリから必要な部品を選択します。</p>
 </li>
 <li>
-<p>右クリックして*新規…* &#8594; *オーダー*を選択し、*新規オーダー*ダイアログを開きます。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/partorder.png" alt="Part Order" width="617">
-</div>
-</div>
+<p>右クリックして <strong>New&#8230;&#8203;</strong> &#8594; <strong>Order</strong> を選択し、<strong>New Orders</strong> ダイアログを開きます。</p>
 </li>
 <li>
-<p>数量、期限、優先度などの必要な詳細を入力します。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/orderwindow.png" alt="Order Window" width="570">
-</div>
-</div>
+<p>数量、納期、優先度などの必要な詳細を入力します。</p>
 </li>
 <li>
-<p>*OK*をクリックしてオーダーを作成します。</p>
+<p><strong>OK</strong> をクリックしてオーダーを作成します。</p>
 </li>
 <li>
-<p>システムは自動的にOrdersページに切り替わります。</p>
+<p>システムは自動的に Orders ページに切り替わります。</p>
 </li>
 <li>
-<p>作成されたオーダーは、ジョブ作成用のOrders Readyページに表示されます。</p>
+<p>作成されたオーダーは、ジョブ作成のために Orders Ready ページに表示されます。</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_アセンブリからオーダーを作成">アセンブリからオーダーを作成</h2>
+<h2 id="_アセンブリからオーダーを作成する">アセンブリからオーダーを作成する</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -373,23 +334,13 @@
 <p>必要なアセンブリを右クリックします。</p>
 </li>
 <li>
-<p><strong>新規…</strong> &#8594; *オーダー*を選択して、*新規オーダー*ダイアログを開きます。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/rooforder.png" alt="Roof Order" width="561">
-</div>
-</div>
+<p><strong>New&#8230;&#8203;</strong> &#8594; <strong>Order</strong> を選択し、<strong>New Orders</strong> ダイアログを開きます。</p>
 </li>
 <li>
-<p>必要な*アセンブリー数*を入力します。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/assemblyorder.png" alt="Assembly Order" width="367">
-</div>
-</div>
+<p>必要な <strong>Assembly count</strong> を入力します。</p>
 </li>
 <li>
-<p>*OK*をクリックしてオーダーを作成します。</p>
+<p><strong>OK</strong> をクリックしてオーダーを作成します。</p>
 </li>
 </ul>
 </div>
@@ -403,16 +354,16 @@
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_スプレッドシートからオーダーをインポート">スプレッドシートからオーダーをインポート</a>
+   <a href="#_スプレッドシートからオーダーをインポートする">スプレッドシートからオーダーをインポートする</a>
   </li>
   <li level="1">
-   <a href="#_監視設定を使用してオーダーをインポート">監視設定を使用してオーダーをインポート</a>
+   <a href="#_監視設定を使用してオーダーをインポートする">監視設定を使用してオーダーをインポートする</a>
   </li>
   <li level="1">
-   <a href="#_パートライブラリからオーダーを作成">パートライブラリからオーダーを作成</a>
+   <a href="#_部品ライブラリからオーダーを作成する">部品ライブラリからオーダーを作成する</a>
   </li>
   <li level="1">
-   <a href="#_アセンブリからオーダーを作成">アセンブリからオーダーを作成</a>
+   <a href="#_アセンブリからオーダーを作成する">アセンブリからオーダーを作成する</a>
   </li>
  </ul>
 </aside>
@@ -420,8 +371,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="partimport.html">Import parts</a></span>
- <span class="next"><a href="jobimport.html">Import jobs</a></span>
+ <span class="prev"><a href="partimport.html">部品のインポート</a></span>
+ <span class="next"><a href="jobimport.html">ジョブのインポート</a></span>
 </nav>
 
         </div>

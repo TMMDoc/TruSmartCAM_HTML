@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="img/praxis-icon.png">
-  <title>ขั้นตอนการทำงาน</title>
+  <title>Workflow</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -27,12 +27,10 @@
    <button class="tree closed"></button>
    <a href="installation/index.html">การติดตั้ง</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="installation/hardwarerequirement.html">ข้อกำหนดฮาร์ดแวร์</a></li>
+    <li><button class="tree blank"></button><a href="installation/hardwarerequirement.html">ข้อกำหนดด้านฮาร์ดแวร์</a></li>
     <li><button class="tree blank"></button><a href="installation/importformats.html">รูปแบบไฟล์ที่รองรับ</a></li>
-    <li><button class="tree blank"></button><a href="installation/prerequisites.html">ข้อกำหนดเบื้องต้น</a></li>
-    <li><button class="tree blank"></button><a href="installation/serverinstallation.html">การติดตั้ง Server</a></li>
-    <li><button class="tree blank"></button><a href="installation/clientinstallation.html">การติดตั้ง Client</a></li>
-    <li><button class="tree blank"></button><a href="installation/changelic.html">เปลี่ยนใบอนุญาต</a></li>
+    <li><button class="tree blank"></button><a href="installation/serverinstallation.html">การติดตั้งเซิร์ฟเวอร์</a></li>
+    <li><button class="tree blank"></button><a href="installation/clientinstallation.html">การติดตั้งไคลเอนต์</a></li>
    </ul>
   </li>
   <li>
@@ -40,112 +38,112 @@
    <a href="configuration/index.html">การกำหนดค่า</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="configuration/setupmachine.html">เพิ่ม/ลบเครื่องจักร</a></li>
-    <li><button class="tree blank"></button><a href="configuration/setuptooling.html">ตั้งค่าเครื่องมือ</a></li>
+    <li><button class="tree blank"></button><a href="configuration/setuptooling.html">ตั้งค่า tooling</a></li>
     <li><button class="tree blank"></button><a href="configuration/configureusers.html">กำหนดค่าผู้ใช้</a></li>
     <li><button class="tree blank"></button><a href="configuration/language.html">ภาษา</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="configuration/addmaterial/index.html">วัสดุ</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="configuration/addmaterial/addnew.html">เพิ่มวัสดุและแผ่นวัสดุใหม่</a></li>
+      <li><button class="tree blank"></button><a href="configuration/addmaterial/addnew.html">เพิ่มวัสดุและแผ่นใหม่</a></li>
       <li><button class="tree blank"></button><a href="configuration/addmaterial/exportimport.html">ส่งออก/นำเข้าวัสดุ</a></li>
       <li><button class="tree blank"></button><a href="configuration/addmaterial/replacematerial.html">แทนที่วัสดุ</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="configuration/mapbendpages.html">จับคู่วัสดุ</a></li>
-    <li><button class="tree blank"></button><a href="configuration/mapcampages.html">จับคู่หน้า CAM</a></li>
-    <li><button class="tree blank"></button><a href="configuration/cadmapfields.html">จับคู่ฟิลด์จาก CAD (คีย์การค้นหา)</a></li>
+    <li><button class="tree blank"></button><a href="configuration/mapbendpages.html">แมปวัสดุ</a></li>
+    <li><button class="tree blank"></button><a href="configuration/mapcampages.html">แมปหน้า CAM</a></li>
+    <li><button class="tree blank"></button><a href="configuration/cadmapfields.html">แมปฟิลด์จาก CAD (lookup keys)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="userinterface.html">อินเทอร์เฟซผู้ใช้งาน</a></li>
-  <li><button class="tree blank"></button><a class="active" href="workflow.html">ขั้นตอนการทำงาน</a></li>
+  <li><button class="tree blank"></button><a href="userinterface.html">อินเทอร์เฟซผู้ใช้</a></li>
+  <li><button class="tree blank"></button><a class="active" href="workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
-   <a href="library/index.html">Library</a>
+   <a href="library/index.html">ไลบรารี</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="library/open/index.html">Open</a>
+     <a href="library/open/index.html">เปิด</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="library/open/partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a href="library/open/orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a href="library/open/jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="library/open/assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="library/open/partimport.html">นำเข้าชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="library/open/orderimport.html">นำเข้าออเดอร์</a></li>
+      <li><button class="tree blank"></button><a href="library/open/jobimport.html">นำเข้า job</a></li>
+      <li><button class="tree blank"></button><a href="library/open/assembliesimport.html">นำเข้าชุดประกอบ</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="library/libraryview/index.html">Library view</a>
+     <a href="library/libraryview/index.html">มุมมองไลบรารี</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="library/libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="library/libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="library/libraryview/partview.html">ชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="library/libraryview/assemblyview.html">ชุดประกอบ</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="library/partstate/index.html">Part status</a>
+     <a href="library/partstate/index.html">สถานะชิ้นงาน</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="library/partstate/partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="library/partstate/partpanel.html">Part panel</a></li>
-      <li><button class="tree blank"></button><a href="library/partstate/partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="library/partstate/partvalidation.html">การตรวจสอบความถูกต้องชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="library/partstate/partpanel.html">แผงชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="library/partstate/partfilters.html">ตัวกรองชิ้นงาน</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="library/toolingstatus/index.html">Tooling status</a>
+     <a href="library/toolingstatus/index.html">สถานะ tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="library/toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="library/toolingstatus/toolingvalidation/index.html">การตรวจสอบความถูกต้อง tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/bendtooling.html">การตรวจสอบความถูกต้อง tooling การดัด</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/cuttooling.html">การตรวจสอบความถูกต้อง tooling การตัด</a></li>
+        <li><button class="tree blank"></button><a href="library/toolingstatus/toolingvalidation/foldtooling.html">การตรวจสอบความถูกต้อง tooling การพับ</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="library/toolingstatus/toolingpanel.html">แผงเครื่องมือ</a></li>
+      <li><button class="tree blank"></button><a href="library/toolingstatus/toolingpanel.html">แผง tooling</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="library/savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="library/savingfilters.html">การบันทึกตัวกรอง</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="orders/index.html">คำสั่งซื้อ</a>
+   <a href="orders/index.html">ออเดอร์</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="orders/ordersview.html">มุมมองคำสั่งซื้อ</a></li>
+    <li><button class="tree blank"></button><a href="orders/ordersview.html">มุมมองออเดอร์</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="jobs/index.html">งาน</a>
+   <a href="jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="jobs/jobcreation.html">สร้างงาน</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobview.html">มุมมองงาน</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobpanel.html">แผงงาน</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobcreation.html">สร้าง job</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobview.html">มุมมอง job</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobpanel.html">แผง job</a></li>
     <li><button class="tree blank"></button><a href="jobs/jobautoplan.html">วางแผนอัตโนมัติ</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobinteractplan.html">การจัดเรียงแบบโต้ตอบ</a></li>
-    <li><button class="tree blank"></button><a href="jobs/repacking.html">การบรรจุใหม่</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobinteractplan.html">nesting แบบโต้ตอบ</a></li>
+    <li><button class="tree blank"></button><a href="jobs/repacking.html">การจัดเรียงใหม่</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="jobs/layoutcommands/index.html">การจัดการการจัดเรียง</a>
+     <a href="jobs/layoutcommands/index.html">การจัดการ nest</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/nestview.html">มุมมองเลย์เอาต์</a></li>
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/layoutpanel.html">แผงเลย์เอาต์</a></li>
-      <li><button class="tree blank"></button><a href="jobs/layoutcommands/reportsender.html">ผู้ส่งรายงาน</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/nestview.html">มุมมอง layout</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/layoutpanel.html">แผง layout</a></li>
+      <li><button class="tree blank"></button><a href="jobs/layoutcommands/reportsender.html">ตัวส่งรายงาน</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="jobs/remnantmanagement/index.html">การจัดการวัสดุเหลือใช้</a>
+     <a href="jobs/remnantmanagement/index.html">การจัดการเศษวัสดุ</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/autoremnant.html">การจัดการวัสดุเหลือใช้อัตโนมัติ</a></li>
-      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/manualremnant.html">การจัดการวัสดุเหลือใช้ด้วยตนเอง</a></li>
+      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/autoremnant.html">การจัดการเศษวัสดุอัตโนมัติ</a></li>
+      <li><button class="tree blank"></button><a href="jobs/remnantmanagement/manualremnant.html">การจัดการเศษวัสดุด้วยตนเอง</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="jobs/twinlinenesting.html">การจัดเรียงแบบเส้นคู่</a></li>
-    <li><button class="tree blank"></button><a href="jobs/outdate.html">ล้าสมัย</a></li>
-    <li><button class="tree blank"></button><a href="jobs/jobfilters.html">ตัวกรองงาน</a></li>
+    <li><button class="tree blank"></button><a href="jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="jobs/outdate.html">เกินกำหนด</a></li>
+    <li><button class="tree blank"></button><a href="jobs/jobfilters.html">ตัวกรอง job</a></li>
    </ul>
   </li>
   <li>
@@ -153,7 +151,7 @@
    <a href="factory/index.html">โรงงาน</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="factory/routes.html">เส้นทาง</a></li>
-    <li><button class="tree blank"></button><a href="factory/sheets.html">แผ่นวัสดุ</a></li>
+    <li><button class="tree blank"></button><a href="factory/sheets.html">แผ่น</a></li>
     <li><button class="tree blank"></button><a href="factory/users.html">ผู้ใช้</a></li>
     <li><button class="tree blank"></button><a href="factory/edit.html">แก้ไข</a></li>
     <li><button class="tree blank"></button><a href="factory/customers.html">ลูกค้า</a></li>
@@ -163,35 +161,17 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="factory/settings/environment.html">สภาพแวดล้อม</a></li>
       <li><button class="tree blank"></button><a href="factory/settings/import.html">นำเข้า</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/bend.html">การงอ</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/bend.html">การดัด</a></li>
       <li><button class="tree blank"></button><a href="factory/settings/cut.html">การตัด</a></li>
       <li><button class="tree blank"></button><a href="factory/settings/notification.html">การแจ้งเตือน</a></li>
       <li><button class="tree blank"></button><a href="factory/settings/watch.html">เฝ้าดู</a></li>
-      <li><button class="tree blank"></button><a href="factory/settings/job.html">งาน</a></li>
+      <li><button class="tree blank"></button><a href="factory/settings/job.html">Job</a></li>
       <li><button class="tree blank"></button><a href="factory/settings/reports.html">รายงาน</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="cadextensions/index.html">ส่วนขยาย CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/installationsteps.html">การติดตั้ง</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/savetopraxis.html">บันทึกชิ้นส่วน</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/saveassembly.html">บันทึกแอสเซมบลี</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/partfeasibility.html">ตรวจสอบความเป็นไปได้</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/factorysettings.html">การตั้งค่าโรงงาน</a></li>
-      <li><button class="tree blank"></button><a href="cadextensions/solidworksaddin/miscenhancements.html">การปรับปรุงอื่นๆ</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="impressum.html">ข้อมูลองค์กร</a></li>
+  <li><button class="tree blank"></button><a href="impressum.html">ข้อมูลบริษัท</a></li>
  </ul>
 </div>
 
@@ -204,18 +184,23 @@
   </button>
  </div>
  <div>
-  <a href="workflow.html">ขั้นตอนการทำงาน</a>
+  <a href="workflow.html">Workflow</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>ขั้นตอนการทำงาน</h1>
+                        <h1>Workflow</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM เป็นระบบบริหารการผลิต (Manufacturing Execution System) ที่จัดการและปรับปรุงกระบวนการผลิตแผ่นโลหะ ขั้นตอนการทำงานใน TruSmartCAM ประกอบด้วยชุดขั้นตอนที่คุณปฏิบัติตามเพื่อทำงานหรือกระบวนการเฉพาะให้เสร็จสมบูรณ์ คุณสามารถปรับแต่งขั้นตอนการทำงานให้เหมาะสมกับกระบวนการผลิตต่างๆ และดัดแปลงให้ตรงกับความต้องการเฉพาะของคุณ ขั้นตอนการทำงานใน TruSmartCAM โดยทั่วไปประกอบด้วยขั้นตอนต่อไปนี้:</p>
+<p>TruSmartCAM คือ Manufacturing Execution System ที่จัดการและปรับกระบวนการผลิต
+งานโลหะแผ่นให้เหมาะสมที่สุด workflow ใน TruSmartCAM ประกอบด้วยลำดับขั้นตอน
+ที่คุณปฏิบัติตามเพื่อทำงานหรือกระบวนการเฉพาะให้เสร็จสมบูรณ์ คุณสามารถปรับแต่ง
+workflow ให้เหมาะกับกระบวนการผลิตต่าง ๆ และปรับให้เข้ากับความต้องการเฉพาะของคุณ
+ได้ โดยทั่วไป workflow ใน TruSmartCAM ประกอบด้วยขั้นตอน
+ดังต่อไปนี้:</p>
 </div>
 </div>
 </div>
@@ -223,7 +208,14 @@
 <h2 id="_1_กำหนดค่าระบบ">1. กำหนดค่าระบบ</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>กำหนดค่า TruSmartCAM ให้ตรงกับสภาพแวดล้อมการผลิตของคุณ ขั้นตอนพื้นฐานนี้รวมถึงการกำหนดเครื่องจักรพร้อมความสามารถและพารามิเตอร์ การเพิ่มวัสดุที่มีอยู่และช่วงความหนา การกำหนดค่าไลบรารีเครื่องมือด้วยหัวเจาะและแม่พิมพ์ การสร้างแผ่นงานตั้งค่าสำหรับการกำหนดค่าเครื่องจักรต่างๆ และการจัดการบัญชีผู้ใช้งานด้วยสิทธิ์ที่เหมาะสม ระบบที่กำหนดค่าอย่างถูกต้องจะช่วยให้มั่นใจในการประมวลผลที่แม่นยำและป้องกันข้อผิดพลาดในขั้นตอนต่อไป การตั้งค่านี้โดยทั่วไปจะดำเนินการครั้งเดียวในระหว่างการติดตั้งเริ่มต้น พร้อมการอัปเดตเป็นระยะเมื่อโรงงานของคุณมีการพัฒนา</p>
+<p>กำหนดค่า TruSmartCAM ให้ตรงกับสภาพแวดล้อมการผลิตของคุณ ขั้นตอนพื้นฐานนี้
+รวมถึงการกำหนดเครื่องจักรพร้อมความสามารถและพารามิเตอร์ การเพิ่ม
+วัสดุที่มีอยู่และช่วงความหนา การกำหนดค่าไลบรารี tooling ด้วย
+พันช์และดาย การสร้างชีตการตั้งค่าสำหรับการกำหนดค่าเครื่องจักรต่าง ๆ
+และการจัดการบัญชีผู้ใช้ด้วยสิทธิ์ที่เหมาะสม ระบบที่กำหนดค่าอย่างถูกต้อง
+จะช่วยให้การประมวลผลแม่นยำและป้องกันข้อผิดพลาดในขั้นตอนหลัง ๆ การ
+ตั้งค่านี้มักดำเนินการเพียงครั้งเดียวในระหว่างการปรับใช้เริ่มต้น และอัปเดต
+เป็นระยะเมื่อโรงงานของคุณพัฒนาขึ้น</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="configuration/setupmachine.html">Add/Remove
@@ -242,8 +234,13 @@ tooling</a> และ <a href="configuration/configureusers.html">Configure user
 <h2 id="_2_เพิ่มชิ้นงานเข้าสู่ไลบรารี">2. เพิ่มชิ้นงานเข้าสู่ไลบรารี</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>นำเข้าชิ้นงาน CAD แบบ 2D หรือ 3D เข้าสู่ไลบรารีชิ้นงานโดยใช้รูปแบบที่รองรับเช่น
-DXF, DWG หรือไฟล์ STEP ในระหว่างการนำเข้า TruSmartCAM จะวิเคราะห์รูปทรงเรขาคณิตของชิ้นงานโดยอัตโนมัติ ตรวจสอบความสามารถในการผลิต กำหนดเทคโนโลยีแผ่นโลหะที่ต้องการ (เลเซอร์ หัวเจาะ หรือการผสมกัน) และสร้างภาพขนาดย่อตัวอย่าง ชิ้นงานที่นำเข้าจะแสดงเป็นไทล์ในมุมมองไลบรารี โดยไอคอนที่แสดงสีจะบ่งบอกสถานะชิ้นงาน ประเภทเทคโนโลยี ความต้องการวัสดุ และปัญหาที่ตรวจพบ ระบบภาพนี้ช่วยให้สามารถประเมินความพร้อมของชิ้นงานได้อย่างรวดเร็วในแวบเดียว</p>
+<p>นำเข้าชิ้นงาน CAD แบบ 2D หรือ 3D เข้าสู่ไลบรารีชิ้นงานโดยใช้รูปแบบที่รองรับ เช่น
+ไฟล์ DXF, DWG หรือ STEP ในระหว่างการนำเข้า TruSmartCAM จะวิเคราะห์
+เรขาคณิตของชิ้นงานโดยอัตโนมัติ ตรวจสอบความสามารถในการผลิต กำหนด
+เทคโนโลยีงานโลหะแผ่นที่จำเป็น (เลเซอร์ พันช์ หรือแบบผสม) และสร้างภาพตัวอย่างขนาดย่อ
+ชิ้นงานที่นำเข้าจะปรากฏเป็นไทล์ในมุมมองไลบรารี ซึ่งไอคอนที่แบ่งด้วยรหัสสี
+จะบ่งบอกสถานะชิ้นงาน ประเภทเทคโนโลยี ความต้องการวัสดุ และปัญหาที่ตรวจพบ
+ระบบภาพนี้ช่วยให้ประเมินความพร้อมของชิ้นงานได้อย่างรวดเร็วในพริบตา</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="library/index.html">Library</a></p>
@@ -256,10 +253,16 @@ DXF, DWG หรือไฟล์ STEP ในระหว่างการน�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_3_ตรวจสอบชิ้นงานและการติดตั้งเครื่องมือ">3. ตรวจสอบชิ้นงานและการติดตั้งเครื่องมือ</h2>
+<h2 id="_3_ตรวจสอบชิ้นงานและ_tooling">3. ตรวจสอบชิ้นงานและ tooling</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>ตรวจสอบชิ้นงานที่นำเข้าแต่ละชิ้นเพื่อหาปัญหาที่อาจเกิดขึ้นในการผลิต ตรวจสอบว่ารูปทรงเรขาคณิตของชิ้นงานถูกต้องและสามารถผลิตได้ การกำหนดเครื่องมือถูกต้องและพร้อมใช้งาน การเลือกวัสดุและความหนาตรงกับสต็อก และลำดับการดัดโลหะได้รับการกำหนดอย่างถูกต้องสำหรับชิ้นงานที่มีการขึ้นรูป หากตรวจพบปัญหา ให้เปิดชิ้นงานใน TecZone เพื่อแก้ไขรูปทรงเรขาคณิต กำหนดใหม่หรือปรับปรุงเครื่องมือ ปรับพารามิเตอร์การประมวลผล หรือแก้ไขข้อมูลจำเพาะของวัสดุ การแก้ไขปัญหาในขั้นตอนนี้จะช่วยป้องกันความล่าช้าในการผลิตและลดของเสียในระหว่างการผลิต</p>
+<p>ตรวจทานชิ้นงานที่นำเข้าแต่ละชิ้นเพื่อหาปัญหาการผลิตที่อาจเกิดขึ้น ตรวจสอบว่า
+เรขาคณิตของชิ้นงานถูกต้องและสามารถผลิตได้ การกำหนด tooling ถูกต้องและ
+มีอยู่ การเลือกวัสดุและความหนาตรงกับสินค้าคงคลัง และลำดับ
+การดัดถูกกำหนดอย่างเหมาะสมสำหรับชิ้นงานที่ขึ้นรูป หากตรวจพบปัญหา ให้เปิด
+ชิ้นงานใน TecZone เพื่อแก้ไขเรขาคณิต กำหนดใหม่หรือปรับ tooling ให้เหมาะสม ปรับ
+พารามิเตอร์การประมวลผล หรือแก้ไขข้อกำหนดวัสดุ การแก้ปัญหาใน
+ขั้นตอนนี้จะช่วยป้องกันความล่าช้าในการผลิตและลดของเสียในระหว่างการผลิต</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="library/partstate/index.html">Part state</a>
@@ -273,10 +276,17 @@ DXF, DWG หรือไฟล์ STEP ในระหว่างการน�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_4_จัดระเบียบชิ้นงานเป็นงาน">4. จัดระเบียบชิ้นงานเป็นงาน</h2>
+<h2 id="_4_จัดระเบียบชิ้นงานเข้าเป็น_job">4. จัดระเบียบชิ้นงานเข้าเป็น job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>จัดกลุ่มชิ้นงานที่ตรวจสอบแล้วเป็นงานตามข้อกำหนดการผลิต งานหมายถึงหน่วยการผลิตเชิงตรรกะที่อาจรวมชิ้นงานจากคำสั่งซื้อของลูกค้าเดียว ชิ้นงานที่ใช้วัสดุและความหนาร่วมกัน ชิ้นงานที่มีกำหนดส่งมอบใกล้เคียงกัน หรือการผสมกันตามกลยุทธ์การผลิตของคุณ งานให้คอนเทนเนอร์สำหรับการวางแผน อนุญาตให้ประมวลผลชิ้นงานที่เกี่ยวข้องเป็นกลุ่ม ช่วยให้การใช้ประโยชน์จากวัสดุมีประสิทธิภาพผ่านการซ้อน และทำให้การติดตามและรายงานง่ายขึ้น สามารถสร้างงานด้วยตนเองโดยการเลือกชิ้นงาน หรือสร้างอัตโนมัติตามกฎและตัวกรองที่กำหนดไว้ล่วงหน้า</p>
+<p>จัดกลุ่มชิ้นงานที่ตรวจสอบแล้วเข้าเป็น job ตามความต้องการในการผลิต job หนึ่ง
+แสดงถึงหน่วยการผลิตเชิงตรรกะที่อาจรวมถึงชิ้นงานจาก
+ออเดอร์ของลูกค้ารายเดียว ชิ้นงานที่ใช้วัสดุและความหนาร่วมกัน ชิ้นงานที่มี
+กำหนดส่งมอบใกล้เคียงกัน หรือแบบผสมตามกลยุทธ์การผลิตของคุณ
+job เป็นตัวรองรับสำหรับการวางแผน อนุญาตให้ประมวลผลชิ้นงานที่เกี่ยวข้องเป็นชุด
+ช่วยให้ใช้วัสดุอย่างมีประสิทธิภาพผ่าน nesting และทำให้การติดตาม
+และการรายงานง่ายขึ้น job สามารถสร้างได้ด้วยตนเองโดยการเลือกชิ้นงาน หรือ
+สร้างโดยอัตโนมัติตามกฎและตัวกรองที่กำหนดไว้ล่วงหน้า</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="jobs/index.html">Jobs</a></p>
@@ -289,10 +299,16 @@ DXF, DWG หรือไฟล์ STEP ในระหว่างการน�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_5_วางแผนงานไปยังเครื่องจักรผลิต">5. วางแผนงานไปยังเครื่องจักรผลิต</h2>
+<h2 id="_5_วางแผน_job_ไปยังเครื่องจักรการผลิต">5. วางแผน job ไปยังเครื่องจักรการผลิต</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>เมื่อสร้างงานแล้ว ให้กำหนดไปยังเครื่องจักรผลิตที่เหมาะสม พิจารณาความสามารถของเครื่องจักรรวมถึงเทคโนโลยีที่รองรับ (เลเซอร์ หัวเจาะ หอหมุน) ความจุวัสดุและความหนา เครื่องมือที่มีอยู่ และภาระงานปัจจุบัน หากมีเครื่องจักรที่เหมาะสมหลายเครื่อง ให้เลือกตามลำดับความสำคัญของการผลิต ความพร้อมของเครื่องจักร ข้อกำหนดการตั้งค่า หรือการปรับปรุงต้นทุน การกำหนดสามารถทำด้วยตนเองเพื่อความยืดหยุ่นหรือแบบอัตโนมัติตามกฎที่กำหนดค่าไว้ล่วงหน้าและอัลกอริธึมการกำหนดเวลาเครื่องจักร</p>
+<p>เมื่อสร้าง job แล้ว ให้กำหนด job นั้นไปยังเครื่องจักรการผลิตที่เหมาะสม พิจารณา
+ความสามารถของเครื่องจักร รวมถึงเทคโนโลยีที่รองรับ (เลเซอร์ พันช์ turret)
+ความจุวัสดุและความหนา tooling ที่มีอยู่ และปริมาณงานปัจจุบัน หาก
+มีเครื่องจักรที่เหมาะสมหลายเครื่อง ให้เลือกตามลำดับความสำคัญของการผลิต ความ
+พร้อมของเครื่องจักร ข้อกำหนดการตั้งค่า หรือการปรับต้นทุนให้เหมาะสม การกำหนดสามารถ
+ทำด้วยตนเองเพื่อความยืดหยุ่น หรือทำโดยอัตโนมัติตามกฎที่กำหนดไว้ล่วงหน้าและ
+อัลกอริทึมการจัดตารางเวลาเครื่องจักร</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="jobs/jobautoplan.html">Plan job</a></p>
@@ -305,10 +321,14 @@ DXF, DWG หรือไฟล์ STEP ในระหว่างการน�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_6_ปล่อย_nc_สำหรับงาน">6. ปล่อย NC สำหรับงาน</h2>
+<h2 id="_6_ปล่อย_nc_สำหรับ_job">6. ปล่อย NC สำหรับ job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>ในขั้นตอนนี้ จะมีการสร้างเลย์เอาต์การตัด คุณยังสามารถแก้ไขเลย์เอาต์และเพิ่มเทคโนโลยีการตัดในเลย์เอาต์โดยใช้ TecZone หลังจากนั้น ส่งออกเอาต์พุต NC และถ่ายโอนไปยังตัวควบคุมเครื่องจักรหรือตำแหน่งเครือข่ายที่กำหนด งานจะถูกล็อกเพื่อป้องกันการแก้ไขเพิ่มเติม และสถานะจะถูกอัปเดตเป็น "Released" สำหรับการติดตามการผลิต</p>
+<p>ในขั้นตอนนี้ layout การตัดจะถูกสร้างขึ้น คุณยังสามารถแก้ไข layout และเพิ่ม
+เทคโนโลยีการตัดลงใน layout ได้โดยใช้ TecZone หลังจากนั้น ให้ส่งออกเอาต์พุต NC
+และถ่ายโอนไปยังตัวควบคุมเครื่องจักรหรือตำแหน่งเครือข่าย
+ที่กำหนด จากนั้น job จะถูกล็อกเพื่อป้องกันการแก้ไขเพิ่มเติม และ
+สถานะจะถูกอัปเดตเป็น "Released" สำหรับการติดตามการผลิต</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="jobs/layoutcommands/layoutpanel.html#send-to-machine">Send/Recall NC</a></p>
@@ -321,10 +341,16 @@ DXF, DWG หรือไฟล์ STEP ในระหว่างการน�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_7_ทำการผลิตให้เสร็จสมบูรณ์และสรุปงาน">7. ทำการผลิตให้เสร็จสมบูรณ์และสรุปงาน</h2>
+<h2 id="_7_ทำการผลิตให้เสร็จสมบูรณ์และปิด_job">7. ทำการผลิตให้เสร็จสมบูรณ์และปิด job</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>ดำเนินการผลิตงานที่ปล่อยแล้วบนเครื่องจักรที่กำหนด ในระหว่างการผลิต ผู้ควบคุมเครื่องจักรจะปฏิบัติตามโปรแกรม NC ตรวจสอบคุณภาพชิ้นงานในระหว่างการตัด จัดการการโหลดและขนถ่ายวัสดุ และแก้ไขปัญหาหรือแจ้งเตือนของเครื่องจักรใดๆ หลังจากการผลิตเสร็จสิ้น ให้ทำเครื่องหมายชิ้นงานแต่ละชิ้นหรืองานทั้งหมดว่าเสร็จสมบูรณ์ใน TruSmartCAM ขั้นตอนสุดท้ายนี้จะอัปเดตบันทึกสต็อก บันทึกเวลาการผลิตจริงและการใช้วัสดุ เก็บข้อมูลงานสำหรับการรายงานและวิเคราะห์ และทำวงจรขั้นตอนการทำงานให้เสร็จสมบูรณ์</p>
+<p>ดำเนินการ job ที่ปล่อยแล้วบนเครื่องจักรที่กำหนด ในระหว่างการผลิต
+ผู้ควบคุมเครื่องจักรจะปฏิบัติตามโปรแกรม NC ตรวจสอบคุณภาพชิ้นงานในระหว่างการตัด
+จัดการการโหลดและการนำวัสดุออก และแก้ไขสัญญาณเตือนหรือปัญหาของเครื่องจักร
+เมื่อการผลิตเสร็จสิ้น ให้ทำเครื่องหมายชิ้นงานแต่ละชิ้นหรือทั้ง job
+ว่าเสร็จสมบูรณ์ใน TruSmartCAM ขั้นตอนสุดท้ายนี้จะอัปเดตบันทึกสินค้าคงคลัง บันทึก
+เวลาการผลิตจริงและการใช้วัสดุ จัดเก็บข้อมูล job สำหรับการรายงานและ
+การวิเคราะห์ และทำให้วงจร workflow เสร็จสมบูรณ์</p>
 </div>
 <div class="paragraph">
 <p>สำหรับข้อมูลเพิ่มเติม ดูที่ <a href="jobs/layoutcommands/layoutpanel.html#mark-complete">Mark
@@ -351,19 +377,19 @@ complete</a></p>
    <a href="#_2_เพิ่มชิ้นงานเข้าสู่ไลบรารี">2. เพิ่มชิ้นงานเข้าสู่ไลบรารี</a>
   </li>
   <li level="1">
-   <a href="#_3_ตรวจสอบชิ้นงานและการติดตั้งเครื่องมือ">3. ตรวจสอบชิ้นงานและการติดตั้งเครื่องมือ</a>
+   <a href="#_3_ตรวจสอบชิ้นงานและ_tooling">3. ตรวจสอบชิ้นงานและ tooling</a>
   </li>
   <li level="1">
-   <a href="#_4_จัดระเบียบชิ้นงานเป็นงาน">4. จัดระเบียบชิ้นงานเป็นงาน</a>
+   <a href="#_4_จัดระเบียบชิ้นงานเข้าเป็น_job">4. จัดระเบียบชิ้นงานเข้าเป็น job</a>
   </li>
   <li level="1">
-   <a href="#_5_วางแผนงานไปยังเครื่องจักรผลิต">5. วางแผนงานไปยังเครื่องจักรผลิต</a>
+   <a href="#_5_วางแผน_job_ไปยังเครื่องจักรการผลิต">5. วางแผน job ไปยังเครื่องจักรการผลิต</a>
   </li>
   <li level="1">
-   <a href="#_6_ปล่อย_nc_สำหรับงาน">6. ปล่อย NC สำหรับงาน</a>
+   <a href="#_6_ปล่อย_nc_สำหรับ_job">6. ปล่อย NC สำหรับ job</a>
   </li>
   <li level="1">
-   <a href="#_7_ทำการผลิตให้เสร็จสมบูรณ์และสรุปงาน">7. ทำการผลิตให้เสร็จสมบูรณ์และสรุปงาน</a>
+   <a href="#_7_ทำการผลิตให้เสร็จสมบูรณ์และปิด_job">7. ทำการผลิตให้เสร็จสมบูรณ์และปิด job</a>
   </li>
  </ul>
 </aside>
@@ -371,8 +397,8 @@ complete</a></p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="userinterface.html">อินเทอร์เฟซผู้ใช้งาน</a></span>
- <span class="next"><a href="library/index.html">Library</a></span>
+ <span class="prev"><a href="userinterface.html">อินเทอร์เฟซผู้ใช้</a></span>
+ <span class="next"><a href="library/index.html">ไลบรารี</a></span>
 </nav>
 
         </div>

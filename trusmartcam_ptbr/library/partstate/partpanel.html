@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Painel de peça</title>
+  <title>Painel da peça</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Requisitos de hardware</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Formatos de arquivo suportados</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Pré-requisitos</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Instalação do servidor</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Instalação do cliente</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Alterar licença</a></li>
    </ul>
   </li>
   <li>
@@ -54,22 +52,22 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mapear material</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapear páginas CAM</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapear campos do CAD (chaves de consulta)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapear campos do CAD (chaves de pesquisa)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">A interface do usuário</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Fluxo de trabalho</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../index.html">Biblioteca</a>
    <ul>
     <li>
      <button class="tree closed"></button>
-     <a href="../open/index.html">Abrir</a>
+     <a href="../open/index.html">Open</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../open/partimport.html">Importar peças</a></li>
       <li><button class="tree blank"></button><a href="../open/orderimport.html">Importar pedidos</a></li>
-      <li><button class="tree blank"></button><a href="../open/jobimport.html">Importar tarefas</a></li>
+      <li><button class="tree blank"></button><a href="../open/jobimport.html">Importar jobs</a></li>
       <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importar montagens</a></li>
      </ul>
     </li>
@@ -77,8 +75,8 @@
      <button class="tree closed"></button>
      <a href="../libraryview/index.html">Visualização da biblioteca</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Peças</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Montagem</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,7 +84,7 @@
      <a href="index.html">Status da peça</a>
      <ul>
       <li><button class="tree blank"></button><a href="partvalidation.html">Validação de peça</a></li>
-      <li><button class="tree blank"></button><a class="active" href="partpanel.html">Painel de peça</a></li>
+      <li><button class="tree blank"></button><a class="active" href="partpanel.html">Painel da peça</a></li>
       <li><button class="tree blank"></button><a href="partfilters.html">Filtros de peça</a></li>
      </ul>
     </li>
@@ -96,17 +94,17 @@
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Validação de ferramental</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Validação do ferramental</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validação de ferramental de dobra</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validação de ferramental de corte</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validação de ferramental de dobra de painel</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validação do ferramental de dobra</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validação do ferramental de corte</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validação do ferramental de fold</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Painel de ferramental</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Salvando filtros</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">Salvar filtros</a></li>
    </ul>
   </li>
   <li>
@@ -118,21 +116,21 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Tarefas</a>
+   <a href="../../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Criar tarefa</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Visualização de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Painel de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Plano automático</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Criar job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Visualização de job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Painel de job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Auto plan</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Nesting interativo</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Reempacotamento</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Gerenciamento de nesting</a>
+     <a href="../../jobs/layoutcommands/index.html">Gerenciamento de nest</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Visualização de layout</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Painel de layout</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Envio de relatório</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
@@ -143,32 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Gerenciamento manual de retalhos</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Nesting twin-line</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Desatualizado</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtros de tarefa</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtros de job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Fábrica</a>
+   <a href="../../factory/index.html">Factory</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Rotas</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Chapas</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
     <li><button class="tree blank"></button><a href="../../factory/users.html">Usuários</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Editar</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
     <li><button class="tree blank"></button><a href="../../factory/customers.html">Clientes</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Configurações</a>
+     <a href="../../factory/settings/index.html">Settings</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Ambiente</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importação</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Dobra</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Corte</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notificações</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Relatórios</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
      </ul>
     </li>
    </ul>
@@ -181,17 +179,17 @@
      <button class="tree closed"></button>
      <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Instalação</a></li>
+      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
       <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Salvar peças</a></li>
       <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Salvar montagem</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Verificar viabilidade</a></li>
+      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
       <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Melhorias diversas</a></li>
+      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">Informações Corporativas</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">Informações corporativas</a></li>
  </ul>
 </div>
 
@@ -212,21 +210,21 @@
  </div>
  <div>/</div>
  <div>
-  <a href="partpanel.html">Painel de peça</a>
+  <a href="partpanel.html">Painel da peça</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Painel de peça</h1>
+                        <h1>Painel da peça</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Esta seção explica ações relacionadas a peças como
+<p>Esta seção explica as ações relacionadas à peça, como
 <strong>Reimportar&#8230;&#8203;</strong>, <strong>Reavaliar ferramental&#8230;&#8203;</strong>,
-<strong>Renomear&#8230;&#8203;</strong>, <strong>Exportar saídas</strong>, etc.,
-usadas para gerenciar instâncias de peças.</p>
+<strong>Renomear&#8230;&#8203;</strong>, <strong>Exportar saídas</strong> etc.,
+usadas para gerenciar instâncias de peça.</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -249,7 +247,7 @@ usadas para gerenciar instâncias de peças.</p>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Abrir em modo somente leitura para visualização</strong><br>
-Abre a peça selecionada em modo somente leitura.</p></td>
+Abre a peça selecionada no modo somente leitura.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
@@ -262,56 +260,44 @@ Habilita a edição da peça selecionada.</p></td>
 Exclui a peça selecionada.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/newui.png" alt="Read-only" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Novo&#8230;&#8203;</strong><br>
-A peça selecionada pode ser convertida em um novo pedido, tarefa ou montagem.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Novo&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A peça selecionada pode ser convertida em um novo pedido, job ou montagem.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/exportui.png" alt="Export" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Exportar saídas</strong><br>
-Exporta a saída da peça para o destino configurado.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Exportar saídas</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exporta a saída da peça para o destino configurado.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/importui.png" alt="Import" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Reimportar&#8230;&#8203;</strong><br>
-Permite importar a peça selecionada novamente.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Reimportar&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Permite importar a peça selecionada novamente.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/toolui.png" alt="Retool" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Reavaliar ferramental&#8230;&#8203;</strong><br>
-Permite reprocessar a peça selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Reavaliar ferramental&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Permite reprocessar a peça selecionada.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/renameui.png" alt="Rename" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Renomear&#8230;&#8203;</strong><br>
-Para alterar o nome da peça selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Renomear&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Para alterar o nome da peça selecionada.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/materialui.png" alt="Material" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Atribuir material&#8230;&#8203;</strong><br>
-Especifica o material associado à peça selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Atribuir material&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Especifica o material associado à peça selecionada.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/customerui.png" alt="Customer" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Atribuir cliente&#8230;&#8203;</strong><br>
-Especifica o cliente associado à peça selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Atribuir cliente&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Especifica o cliente associado à peça selecionada.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/rollingui.png" alt="Rolling" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sentido de laminação</strong><br>
-Define a orientação (horizontal ou vertical) ao longo da qual o material é laminado.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sentido de laminação</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Define a orientação ao longo da qual o material é laminado. As opções disponíveis são <strong>Nenhum</strong>, <strong>Horizontal</strong> e <strong>Vertical</strong>.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anterior</strong> / <strong>Próximo</strong> / <strong>Ferramentais</strong><br>
-Navega para a peça ou ferramental anterior ou próximo.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Anterior</strong> / <strong>Próximo</strong> / <strong>Ferramentais</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navega para a peça ou ferramental anterior ou seguinte.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sortui.png" alt="Filters" width="160"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Classificar e filtrar</strong><br>
-Use estes filtros para visualizar outras peças que compartilham o mesmo atributo da
-peça selecionada: Same Material, Same Customer, Same Bend count ou
-Same State.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Use esses filtros para visualizar outras peças que compartilham o mesmo atributo da peça selecionada: <strong>Mesmo material</strong>, <strong>Mesmo cliente</strong>, <strong>Mesma quantidade de dobras</strong> ou <strong>Mesmo estado</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -328,28 +314,19 @@ Same State.</p></td>
 <li>
 <p>Clique com o botão direito em qualquer peça e clique em <strong>Reimportar&#8230;&#8203;</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/reimport.png" alt="Re-import" width="503">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Todas as instâncias de ferramental da peça selecionada em todas as máquinas são
-limpas, incluindo instâncias com ferramental automático e manual.</p>
+<p>Todas as instâncias de ferramental da peça selecionada em todas as máquinas são limpas, incluindo
+as instâncias com ferramental automático e manual.</p>
 </li>
 <li>
-<p>Arquivos de saída existentes (CAD, Dobra e Corte) são removidos.</p>
+<p>Os arquivos de saída existentes (CAD, Bend e Cut) são removidos.</p>
 </li>
 <li>
-<p>As peças são reimportadas e uma nova validação CAD e ferramental são aplicados para
+<p>As peças são reimportadas, e uma nova validação de CAD e ferramental é aplicada para
 todas as máquinas.</p>
 </li>
 <li>
-<p>Novos arquivos de saída são criados com base no resultado de ferramental atualizado.</p>
+<p>Novos arquivos de saída são criados com base no resultado atualizado do ferramental.</p>
 </li>
 </ul>
 </div>
@@ -363,29 +340,19 @@ todas as máquinas.</p>
 <li>
 <p>Clique com o botão direito em qualquer peça e clique em <strong>Reavaliar ferramental&#8230;&#8203;</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/retool.png" alt="Re-tool" width="504">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Todas as máquinas são marcadas por padrão e agrupadas como Laser, Punch, Panel e
-Press brake.</p>
+<p>Todas as máquinas são marcadas por padrão e agrupadas como Laser, Punch, Panel
+e Press brake.</p>
 </li>
 <li>
-<p>Clique em <strong>OK</strong> para prosseguir. Isso remove as instâncias com ferramental
-automático e manual para as máquinas selecionadas e exclui os arquivos de saída
-relacionados.</p>
+<p>Clique em <strong>OK</strong> para prosseguir. Isso remove as instâncias com ferramental automático e manual
+para as máquinas selecionadas, e exclui os arquivos de saída relacionados.</p>
 </li>
 <li>
 <p>Quando a caixa de seleção <strong>Manter saídas existentes</strong> está
-marcada, apenas peças cujas saídas foram removidas anteriormente serão reprocessadas,
-as outras saídas permanecem intactas. Se desmarcada, todos os arquivos de saída para as
-máquinas selecionadas são removidos e regenerados durante o reprocessamento.</p>
+selecionada, apenas as peças cujas saídas foram removidas anteriormente serão retooladas,
+as outras saídas permanecem intactas. Se desmarcada, todos os arquivos de saída das máquinas
+selecionadas são removidos e regenerados durante o retooling.</p>
 </li>
 </ul>
 </div>
@@ -399,12 +366,12 @@ máquinas selecionadas são removidos e regenerados durante o reprocessamento.</
 <div class="ulist">
 <ul>
 <li>
-<p>Se as configurações CAM foram alteradas para qualquer máquina, selecione essa máquina
-e faça Re-tool nas peças.</p>
+<p>Se as configurações de CAM forem alteradas para qualquer máquina, selecione essa máquina e faça o Re-tool das
+peças.</p>
 </li>
 <li>
-<p>Se uma ferramenta (LTT, punch ou bend) foi alterada ou está ausente, atualize a
-máquina e faça Re-tool apenas nas peças afetadas.</p>
+<p>Se uma ferramenta (LTT, punch ou bend) for alterada ou estiver ausente, atualize a máquina e
+faça o Re-tool apenas das peças afetadas.</p>
 </li>
 </ul>
 </div>
@@ -418,48 +385,30 @@ máquina e faça Re-tool apenas nas peças afetadas.</p>
 <h2 id="_renomear">Renomear&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Esta seção explica como renomear uma ou múltiplas peças no TruSmartCAM.</p>
+<p>Esta seção explica como renomear uma ou várias peças no TruSmartCAM.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>Clique com o botão direito na peça e clique em <strong>Renomear&#8230;&#8203;</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/rename1.png" alt="Rename1" width="503">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Um diálogo de confirmação de renomeação aparece mostrando o nome atual da peça.</p>
+<p>Um diálogo de confirmação de renomeação aparece exibindo o nome atual da peça.</p>
 </li>
 <li>
-<p>Insira o novo nome e clique no ícone de marca <strong>✓</strong> para confirmar, ou clique no
+<p>Insira o novo nome e clique no ícone de marca de seleção <strong>✓</strong> para confirmar, ou clique no
 ícone de cruz <strong>✗</strong> para cancelar a operação de renomeação.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/rename2.png" alt="Rename2" width="451">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Para renomear múltiplas peças, selecione todas as peças necessárias, depois clique
-com o botão direito em qualquer uma delas e clique em <strong>Renomear&#8230;&#8203;</strong>.</p>
+<p>Para renomear várias peças, selecione todas as peças necessárias, depois clique com o botão direito
+em qualquer uma delas e clique em <strong>Renomear&#8230;&#8203;</strong>.</p>
 </li>
 <li>
 <p>Um diálogo de confirmação aparece com o número total de peças selecionadas.</p>
 </li>
 <li>
-<p>Para cada peça, insira o novo nome e clique no ícone de marca <strong>✓</strong> para confirmar
-uma por uma.</p>
+<p>Para cada peça, insira o novo nome e clique no ícone de marca de seleção <strong>✓</strong> para
+confirmar uma por uma.</p>
 </li>
 <li>
 <p>Se alguma peça foi selecionada por engano, clique no ícone de cruz <strong>✗</strong> para cancelar.
@@ -476,27 +425,13 @@ Alternativamente, você pode clicar com o botão direito na peça e clicar em
 <div class="paragraph">
 <p>Esta opção exporta a saída da peça para o destino configurado em
 <strong>Ajustes de fábrica</strong>. (Consulte
-<a href="../../factory/settings/bend.html">Configurações de Dobra</a> e
-<a href="../../factory/settings/cut.html">Configurações de Corte</a>)</p>
+<a href="../../factory/settings/bend.html">Bend Settings</a> e
+<a href="../../factory/settings/cut.html">Cut Settings</a>)</p>
 </div>
 <div class="paragraph">
-<p>O local de saída é definido separadamente para Dobra, Dobra de Painel e Corte em
-suas respectivas configurações de saída. Todos os ferramentais associados às
-operações de dobra, dobra de painel e corte são exportados para a peça inteira.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput.png" alt="Export Output" width="451">
-</div>
-</div>
-<div class="paragraph">
-<p>Conforme mostrado abaixo, os arquivos exportados são salvos na pasta especificada
-(por exemplo, <code>C:\PraxData\Out\Reports</code>).</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportout.png" alt="Export Output Location" width="451">
-</div>
+<p>O local de saída é definido separadamente para Bend, Fold e Cut em
+suas respectivas configurações de saída. Todos os ferramentais associados às operações de bend,
+fold e cut são exportados para a peça inteira.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -505,9 +440,9 @@ operações de dobra, dobra de painel e corte são exportados para a peça intei
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Os arquivos exportados dependem do tipo de operação. Para operações de Dobra e
-Dobra de Painel, arquivos NC e relatórios são gerados. Para operações de Corte e
-Punção, apenas os arquivos de peça são exportados.
+Os arquivos exportados dependem do tipo de operação. Para operações de Bend e
+Fold, são gerados arquivos NC e relatórios. Para operações de Cut e Punch,
+apenas os arquivos da peça são exportados.
 </td>
 </tr>
 </table>
@@ -518,9 +453,9 @@ Punção, apenas os arquivos de peça são exportados.
 <h2 id="_atribuir_material_à_peça">Atribuir material à peça</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Peças com o status <strong>Material não atribuído</strong> precisam ser
-atualizadas antes do processamento posterior. As etapas abaixo explicam como atribuir
-material.</p>
+<p>As peças com o status <strong>Material não atribuído</strong> precisam ser
+atualizadas antes do processamento adicional. As etapas abaixo explicam como atribuir
+o material.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -528,51 +463,41 @@ material.</p>
 <p>Clique com o botão direito na peça que exibe o status
 <strong>Material não atribuído</strong> e selecione
 <strong>Atribuir material</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/asignmaterial.png" alt="Assign Material" width="442">
-</div>
-</div>
 </li>
 <li>
-<p>A janela <strong>Atribuir material</strong> é aberta.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/dialogue.png" alt="Dialogue" width="600">
-</div>
-</div>
+<p>A janela <strong>Atribuir material</strong> abre.</p>
 </li>
 <li>
-<p>O diálogo possui quatro seções:</p>
+<p>O diálogo tem quatro seções:</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Sugestões</strong> - Sugere automaticamente matérias-primas
-com base na espessura da peça importada.</p>
+<p><strong>Sugestões</strong> - Sugere automaticamente raw
+materials com base na espessura da peça importada.</p>
 </li>
 <li>
 <p><strong>Todos os materiais</strong> - Lista todos os tipos de material definidos no
 TruSmartCAM.</p>
 </li>
 <li>
-<p><strong>Todos os materiais em bruto</strong> - Exibe todas as matérias-primas
+<p><strong>Todos os materiais em bruto</strong> - Exibe todos os raw materials
 disponíveis no sistema.</p>
 </li>
 <li>
-<p><strong>Materiais em bruto usados</strong> - Exibe as matérias-primas usadas
+<p><strong>Materiais em bruto usados</strong> - Exibe os raw materials usados
 mais recentemente para acesso rápido.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Você pode usar o campo <strong>Pesquisar&#8230;&#8203; (Ctrl+F)</strong> no topo para encontrar materiais
-rapidamente. Por exemplo, digite "steel" para exibir todos os materiais correspondentes
-nas três seções.</p>
+<p>Você pode usar o campo <strong>Pesquisar&#8230;&#8203; (Ctrl+F)</strong> na parte superior para encontrar rapidamente
+materiais. Por exemplo, digite "steel" para exibir todos os materiais correspondentes nas
+três seções.</p>
 </li>
 <li>
-<p>Na lista filtrada, selecione o material desejado (por exemplo, Steel-25) da lista de
-Raw-Material.</p>
+<p>Na lista filtrada, selecione o material necessário (por exemplo, Steel-25) na
+lista de Raw-Material.</p>
 </li>
 <li>
 <p>O material selecionado será atribuído à peça.</p>
@@ -585,17 +510,18 @@ Raw-Material.</p>
 <h2 id="_sentido_de_laminação">Sentido de laminação</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Sentido de laminação</strong> refere-se à orientação do grão em uma peça, que
-pode afetar como a peça é cortada e processada. Esta opção permite especificar a
-<strong>Sentido de laminação</strong> para uma peça na Biblioteca de Peças. Com base na
-direção selecionada, a peça será posicionada na orientação correta para corte nas
+<p><strong>Sentido de laminação</strong> refere-se à orientação do
+grão em uma peça, o que pode afetar como a peça é cortada e processada.
+Esta opção permite especificar a
+<strong>Sentido de laminação</strong> para uma peça na Biblioteca de Peças.
+Com base na direção
+selecionada, a peça será posicionada na orientação correta para o corte nas
 máquinas disponíveis.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Clique com o botão direito em qualquer tile de peça na Biblioteca de Peças ou na
-janela de Tarefa.</p>
+<p>Clique com o botão direito em qualquer bloco de peça na Biblioteca de Peças ou na janela Job.</p>
 </li>
 <li>
 <p>Selecione a direção de laminação preferida:</p>
@@ -609,21 +535,16 @@ janela de Tarefa.</p>
 </li>
 <li>
 <p><strong>Vertical</strong></p>
-<div class="imageblock">
-<div class="content">
-<img src="img/rollingdirection1.png" alt="Rolling direction" width="514">
-</div>
-</div>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>A peça é reprocessada automaticamente para todas as máquinas de corte disponíveis com
-base na direção de laminação selecionada.</p>
+<p>A peça é retoolada automaticamente para todas as máquinas de corte disponíveis com base na
+direção de laminação selecionada.</p>
 </li>
 <li>
-<p>O tile da peça exibirá a direção de laminação selecionada conforme mostrado abaixo:</p>
+<p>O bloco da peça exibirá a direção de laminação selecionada, conforme mostrado abaixo:</p>
 <div class="paragraph">
 <p><span class="image"><img src="img/none.png" alt="None" width="270"></span> <span class="image"><img src="img/horizontal.png" alt="Horizontal" width="270"></span>
 <span class="image"><img src="img/vertical.png" alt="Vertical" width="270"></span></p>

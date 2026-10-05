@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>布局视图</title>
+  <title>Layout 视图</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">硬件要求</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">支持的文件格式</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">先决条件</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Server installation</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">服务器安装</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">客户端安装</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">更改许可证</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">配置</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">添加/删除设备</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">设置工具</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">添加/移除机床</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">设置 tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">配置用户</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">语言</a></li>
     <li>
@@ -58,7 +56,7 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">用户界面</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">工作流程</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">工作流</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../library/index.html">库</a>
@@ -69,7 +67,7 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">导入零件</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">导入订单</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">导入作业</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">导入 job</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">导入装配体</a></li>
      </ul>
     </li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">工装状态</a>
+     <a href="../../library/toolingstatus/index.html">tooling 状态</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">工装验证</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">tooling 验证</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">折弯工装验证</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">切割工装验证</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">折边工装验证</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">折弯 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">切割 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">折叠 tooling 验证</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">工装面板</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">保存筛选器</a></li>
@@ -118,20 +116,20 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">作业</a>
+   <a href="../index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">创建作业</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">作业视图</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">作业面板</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">创建job</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Job 视图</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">自动规划</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">交互式排样</a></li>
-    <li><button class="tree blank"></button><a href="../repacking.html">重新打包</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">交互式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="../repacking.html">重新排料</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">排样管理</a>
+     <a href="index.html">Nest 管理</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="nestview.html">布局视图</a></li>
-      <li><button class="tree blank"></button><a href="layoutpanel.html">布局面板</a></li>
+      <li><button class="tree blank"></button><a class="active" href="nestview.html">Layout 视图</a></li>
+      <li><button class="tree blank"></button><a href="layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="reportsender.html">报告发送器</a></li>
      </ul>
     </li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">手动余料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">双线排样</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">过期</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">作业过滤器</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Job 筛选器</a></li>
    </ul>
   </li>
   <li>
@@ -167,31 +165,13 @@
       <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">切割</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">通知</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">监视</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">作业</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">报告</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 扩展</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 插件</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">安装</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">保存零件</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">保存装配体</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">检查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">工厂设置</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">其他增强功能</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">公司信息</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">企业信息</a></li>
  </ul>
 </div>
 
@@ -204,26 +184,26 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">作业</a>
+  <a href="../index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">排样管理</a>
+  <a href="index.html">Nest 管理</a>
  </div>
  <div>/</div>
  <div>
-  <a href="nestview.html">布局视图</a>
+  <a href="nestview.html">Layout 视图</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>布局视图</h1>
+                        <h1>Layout 视图</h1>
 <div class="ulist">
 <ul>
 <li>
-<p>选择 <strong>排样</strong> 选项会显示当前选定作业中的所有排样的列表。</p>
+<p>选择 <strong>nests</strong> 选项会显示当前所选 job 中所有 nest 的列表。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/nest1.png" alt="Layouts window" width="1183">
@@ -231,53 +211,49 @@
 </div>
 </li>
 <li>
-<p>双击排样以查看该排样的详细分解。</p>
+<p>双击 nest 可查看该 nest 的详细分解。</p>
 </li>
 <li>
-<p>排样分解显示：</p>
+<p>nest 分解显示：</p>
 <div class="ulist">
 <ul>
 <li>
-<p>排样中使用的零件。</p>
+<p>nest 中使用的零件。</p>
 </li>
 <li>
-<p>详细信息，如使用的材料、循环时间和其他指标。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/nest2.png" alt="Layout info" width="998">
-</div>
-</div>
+<p>详细信息，例如所用材料、循环时间和其他指标。</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>您可以滚动浏览不同的排样，并单击任何零件以执行零件区域中可用的相同操作。</p>
+<p>您可以滚动浏览不同的 nest，并单击任意零件以执行 Parts 区域中可用的相同操作。</p>
 </li>
 <li>
-<p>右键单击排样将显示 <strong>布局</strong> 面板。</p>
+<p>右键单击 nest 将调出 <strong>Layout</strong> 面板。</p>
 <div class="paragraph">
 <p><span class="image"><img src="img/nest3.png" alt="Layout panel" width="1370"></span></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>发送到机床…</strong> 将释放排样以供机床生产，此时排样选项将更改为从机床召回。</p>
+<p><strong>Send to Machine&#8230;&#8203;</strong> 将释放 nest 以供机床生产，此时 nest 选项将变为 Recall from
+Machine。</p>
 </li>
 <li>
-<p><strong>添加零件…</strong> 将允许向排样添加其他零件。</p>
+<p><strong>Add Parts&#8230;&#8203;</strong> 允许向 nest 添加额外的零件。</p>
 </li>
 <li>
-<p><strong>调整/紧凑…</strong> 将允许批量更改排样中使用的材料或机床。</p>
+<p><strong>Adapt/Compact&#8230;&#8203;</strong> 允许批量更改 nest 中使用的材料或机床。</p>
 </li>
 <li>
-<p><strong>更改关于切割的激光工艺表…</strong> 将允许为排样中选定的材料和厚度应用不同的激光技术。</p>
+<p><strong>Change LTT&#8230;&#8203;</strong> 允许为 nest 中选定的材料和厚度应用不同的激光技术。</p>
 </li>
 <li>
-<p><strong>分割布局…</strong> 将允许将具有多个重复的排样拆分为新排样。</p>
+<p><strong>Split Layouts&#8230;&#8203;</strong> 允许将具有多个重复的 nest 拆分为新的 nest。</p>
 </li>
 <li>
-<p><strong>重命名…</strong> 将允许重命名排样。</p>
+<p><strong>Rename&#8230;&#8203;</strong> 允许重命名 nest。</p>
 </li>
 </ul>
 </div>
@@ -292,8 +268,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">排样管理</a></span>
- <span class="next"><a href="layoutpanel.html">布局面板</a></span>
+ <span class="prev"><a href="index.html">Nest 管理</a></span>
+ <span class="next"><a href="layoutpanel.html">Layout 面板</a></span>
 </nav>
 
         </div>

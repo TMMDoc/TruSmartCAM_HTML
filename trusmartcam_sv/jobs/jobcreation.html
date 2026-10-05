@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Skapa jobb</title>
+  <title>Skapa job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../library/open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Biblioteksvy</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Delstatus</a>
+     <a href="../library/partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Verktygsstatus</a>
+     <a href="../library/toolingstatus/index.html">Tooling-status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Ordrar</a>
+   <a href="../orders/index.html">Order</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Jobb</a>
+   <a href="index.html">Job</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Häckhantering</a>
+     <a href="layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="remnantmanagement/index.html">Resthantering</a>
+     <a href="remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -204,52 +184,48 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Jobb</a>
+  <a href="index.html">Job</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobcreation.html">Skapa jobb</a>
+  <a href="jobcreation.html">Skapa job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Skapa jobb</h1>
+                        <h1>Skapa job</h1>
 <div class="paragraph">
-<p>Jobb används för att registrera och spåra kundorder. Vanligtvis innehåller ett jobb en
-samling delar med varierande kvantiteter, förfallodatum, prioriteringar och
-delordning.</p>
+<p>Job används för att registrera och spåra kundorder. Vanligtvis innehåller ett job en
+samling detaljer med olika antal, förfallodatum, prioriteter och detalj-
+ordning.</p>
 </div>
 <div class="paragraph">
-<p>Nya jobb kan skapas på följande sätt:</p>
+<p>Nya job kan skapas på följande sätt:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Från befintliga delar i delbiblioteket.</p>
+<p>Från befintliga detaljer i detaljbiblioteket.</p>
 </li>
 <li>
-<p>Genom att dra delar direkt till jobbsidan och manuellt ange
-jobbparametrar.</p>
+<p>Genom att dra detaljer direkt till Jobs-sidan och manuellt ange job-
+parametrar.</p>
 </li>
 <li>
-<p>Från sammansättningar.</p>
+<p>Från sammanställningar.</p>
 </li>
 <li>
-<p>Välj några delar från del*biblioteket* och högerklicka för att öppna *del*panelen.</p>
+<p>Välj några detaljer från detalj-<strong>library</strong> och högerklicka för att öppna <strong>part</strong>-
+panelen.</p>
 </li>
 <li>
-<p>Klicka på <strong>Ny&#8230;&#8203;</strong> &#8594; <strong>Jobb</strong>. Detta öppnar
-<strong>Nytt jobb</strong> fönstret.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/createjob1.png" alt="Create job" width="869">
-</div>
-</div>
+<p>Klicka på <strong>New&#8230;&#8203;</strong> &#8594; <strong>Job</strong>. Detta öppnar fönstret
+<strong>New Job</strong>.</p>
 </li>
 <li>
-<p>I New Job-fönstret:</p>
+<p>I fönstret New Job:</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/createjob3.png" alt="Create job window" width="716">
@@ -258,28 +234,28 @@ jobbparametrar.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Ange de obligatoriska jobbfälten: <strong>Job Reference</strong>,
-<strong>Kund</strong> och <strong>Kommentarer</strong>.</p>
+<p>Ange de obligatoriska job-fälten: <strong>Job Reference</strong>,
+<strong>Customer</strong> och <strong>Comments</strong>.</p>
 </li>
 <li>
-<p>Klicka på <strong>Fler&#8230;&#8203;</strong> för att komma åt ytterligare fält som
-<strong>Kund</strong>, <strong>Rotation</strong> och
-<strong>Textmarkering</strong>, om det behövs.</p>
+<p>Klicka på <strong>More</strong> för att komma åt ytterligare fält som
+<strong>Customer</strong>, <strong>Rotation</strong> och
+<strong>Text Marking</strong>, vid behov.</p>
 </li>
 <li>
-<p>Aktivera <strong>Ta upp alla (F5)]</strong> för att uppdatera alla valda delar
-när ni redigerar någon av dem. Använd detta för att ändra delkvantitet, förfallodatum, prioritet,
-etc.</p>
+<p>Aktivera <strong>Pick All <kbd>F5</kbd></strong> för att uppdatera alla valda detaljer
+när du redigerar någon av dem. Använd detta för att ändra detaljantal, förfallodatum, prioritet
+osv.</p>
 </li>
 <li>
-<p>Klicka på <strong>OK</strong> efter att ha angett alla jobbdetaljer.</p>
+<p>Klicka på <strong>OK</strong> när du har angett alla job-detaljer.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Om <strong>Växla till jobben (F6)</strong> är markerat kommer systemet
-att växla till jobbsidan och jobbet kommer att skapas automatiskt.</p>
+<p>Om <strong>Switch to the Jobs (F6)</strong> är markerat växlar systemet
+till Jobs-sidan och jobbet skapas automatiskt.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/createjob2.png" alt="Jobs page" width="479">
@@ -287,7 +263,7 @@ att växla till jobbsidan och jobbet kommer att skapas automatiskt.</p>
 </div>
 </li>
 <li>
-<p>Ni kan också importera ett jobb med någon av följande metoder:</p>
+<p>Du kan också importera ett job med någon av följande metoder:</p>
 <div class="ulist">
 <ul>
 <li>
@@ -304,9 +280,6 @@ att växla till jobbsidan och jobbet kommer att skapas automatiskt.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>För mer information, se kapitlet nedan.</p>
-</div>
 
                     </article>
                 </div>
@@ -315,8 +288,8 @@ att växla till jobbsidan och jobbet kommer att skapas automatiskt.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Jobb</a></span>
- <span class="next"><a href="jobview.html">Jobbvy</a></span>
+ <span class="prev"><a href="index.html">Job</a></span>
+ <span class="next"><a href="jobview.html">Job-vy</a></span>
 </nav>
 
         </div>

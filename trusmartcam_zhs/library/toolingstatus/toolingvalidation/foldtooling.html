@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../../img/praxis-icon.png">
-  <title>折边工装验证</title>
+  <title>折叠 tooling 验证</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../../installation/hardwarerequirement.html">硬件要求</a></li>
     <li><button class="tree blank"></button><a href="../../../installation/importformats.html">支持的文件格式</a></li>
-    <li><button class="tree blank"></button><a href="../../../installation/prerequisites.html">先决条件</a></li>
-    <li><button class="tree blank"></button><a href="../../../installation/serverinstallation.html">Server installation</a></li>
+    <li><button class="tree blank"></button><a href="../../../installation/serverinstallation.html">服务器安装</a></li>
     <li><button class="tree blank"></button><a href="../../../installation/clientinstallation.html">客户端安装</a></li>
-    <li><button class="tree blank"></button><a href="../../../installation/changelic.html">更改许可证</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../../configuration/index.html">配置</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../../configuration/setupmachine.html">添加/删除设备</a></li>
-    <li><button class="tree blank"></button><a href="../../../configuration/setuptooling.html">设置工具</a></li>
+    <li><button class="tree blank"></button><a href="../../../configuration/setupmachine.html">添加/移除机床</a></li>
+    <li><button class="tree blank"></button><a href="../../../configuration/setuptooling.html">设置 tooling</a></li>
     <li><button class="tree blank"></button><a href="../../../configuration/configureusers.html">配置用户</a></li>
     <li><button class="tree blank"></button><a href="../../../configuration/language.html">语言</a></li>
     <li>
@@ -58,7 +56,7 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../../userinterface.html">用户界面</a></li>
-  <li><button class="tree blank"></button><a href="../../../workflow.html">工作流程</a></li>
+  <li><button class="tree blank"></button><a href="../../../workflow.html">工作流</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../../index.html">库</a>
@@ -69,7 +67,7 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../open/partimport.html">导入零件</a></li>
       <li><button class="tree blank"></button><a href="../../open/orderimport.html">导入订单</a></li>
-      <li><button class="tree blank"></button><a href="../../open/jobimport.html">导入作业</a></li>
+      <li><button class="tree blank"></button><a href="../../open/jobimport.html">导入 job</a></li>
       <li><button class="tree blank"></button><a href="../../open/assembliesimport.html">导入装配体</a></li>
      </ul>
     </li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="../index.html">工装状态</a>
+     <a href="../index.html">tooling 状态</a>
      <ul>
       <li>
        <button class="tree open"></button>
-       <a href="index.html">工装验证</a>
+       <a href="index.html">tooling 验证</a>
        <ul>
-        <li><button class="tree blank"></button><a href="bendtooling.html">折弯工装验证</a></li>
-        <li><button class="tree blank"></button><a href="cuttooling.html">切割工装验证</a></li>
-        <li><button class="tree blank"></button><a class="active" href="foldtooling.html">折边工装验证</a></li>
+        <li><button class="tree blank"></button><a href="bendtooling.html">折弯 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a href="cuttooling.html">切割 tooling 验证</a></li>
+        <li><button class="tree blank"></button><a class="active" href="foldtooling.html">折叠 tooling 验证</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingpanel.html">工装面板</a></li>
+      <li><button class="tree blank"></button><a href="../toolingpanel.html">tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../savingfilters.html">保存筛选器</a></li>
@@ -118,20 +116,20 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../../jobs/index.html">作业</a>
+   <a href="../../../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../../jobs/jobcreation.html">创建作业</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobview.html">作业视图</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobpanel.html">作业面板</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobcreation.html">创建job</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobview.html">Job 视图</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="../../../jobs/jobautoplan.html">自动规划</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobinteractplan.html">交互式排样</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/repacking.html">重新打包</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobinteractplan.html">交互式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/repacking.html">重新排料</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../../jobs/layoutcommands/index.html">排样管理</a>
+     <a href="../../../jobs/layoutcommands/index.html">Nest 管理</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/nestview.html">布局视图</a></li>
-      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/layoutpanel.html">布局面板</a></li>
+      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/nestview.html">Layout 视图</a></li>
+      <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="../../../jobs/layoutcommands/reportsender.html">报告发送器</a></li>
      </ul>
     </li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../../../jobs/remnantmanagement/manualremnant.html">手动余料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../../jobs/twinlinenesting.html">双线排样</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../../../jobs/outdate.html">过期</a></li>
-    <li><button class="tree blank"></button><a href="../../../jobs/jobfilters.html">作业过滤器</a></li>
+    <li><button class="tree blank"></button><a href="../../../jobs/jobfilters.html">Job 筛选器</a></li>
    </ul>
   </li>
   <li>
@@ -167,31 +165,13 @@
       <li><button class="tree blank"></button><a href="../../../factory/settings/cut.html">切割</a></li>
       <li><button class="tree blank"></button><a href="../../../factory/settings/notification.html">通知</a></li>
       <li><button class="tree blank"></button><a href="../../../factory/settings/watch.html">监视</a></li>
-      <li><button class="tree blank"></button><a href="../../../factory/settings/job.html">作业</a></li>
+      <li><button class="tree blank"></button><a href="../../../factory/settings/job.html">Job</a></li>
       <li><button class="tree blank"></button><a href="../../../factory/settings/reports.html">报告</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../../cadextensions/index.html">CAD 扩展</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../../cadextensions/solidworksaddin/index.html">SolidWorks 插件</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/installationsteps.html">安装</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/savetopraxis.html">保存零件</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/saveassembly.html">保存装配体</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/partfeasibility.html">检查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/factorysettings.html">工厂设置</a></li>
-      <li><button class="tree blank"></button><a href="../../../cadextensions/solidworksaddin/miscenhancements.html">其他增强功能</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../../impressum.html">公司信息</a></li>
+  <li><button class="tree blank"></button><a href="../../../impressum.html">企业信息</a></li>
  </ul>
 </div>
 
@@ -208,27 +188,29 @@
  </div>
  <div>/</div>
  <div>
-  <a href="../index.html">工装状态</a>
+  <a href="../index.html">tooling 状态</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">工装验证</a>
+  <a href="index.html">tooling 验证</a>
  </div>
  <div>/</div>
  <div>
-  <a href="foldtooling.html">折边工装验证</a>
+  <a href="foldtooling.html">折叠 tooling 验证</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>折边工装验证</h1>
+                        <h1>折叠 tooling 验证</h1>
 <div class="paragraph">
-<p>折边工装验证检查是否可以使用可用的折边工具执行定义的折边操作。它验证工具可访问性、折边顺序可行性以及折边过程中的潜在碰撞。</p>
+<p>折叠 tooling 验证会检查能否使用可用的折叠刀具执行定义的折叠操作。它会验证
+刀具可达性、折叠顺序可行性，以及折叠过程中的潜在碰撞。</p>
 </div>
 <div class="paragraph">
-<p>有关支持的折边工具、折边参数的完整详细信息，请参阅 TecZone 文档中的 <a href="https://fluxbook-test.onrender.com/fold/editing/index.html">Editing Fold Data</a>。</p>
+<p>有关受支持的折叠刀具和折叠参数的完整详细信息，请参阅 TecZone 文档中的
+<strong>Editing Fold Data</strong> 主题。</p>
 </div>
 
                     </article>
@@ -238,8 +220,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="cuttooling.html">切割工装验证</a></span>
- <span class="next"><a href="../toolingpanel.html">工装面板</a></span>
+ <span class="prev"><a href="cuttooling.html">切割 tooling 验证</a></span>
+ <span class="next"><a href="../toolingpanel.html">tooling 面板</a></span>
 </nav>
 
         </div>

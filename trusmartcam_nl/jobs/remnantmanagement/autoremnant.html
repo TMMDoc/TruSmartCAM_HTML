@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Automatisch restmateriaal beheer</title>
+  <title>Automatisch restantbeheer</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardwarevereisten</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Ondersteunde bestandsformaten</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Vereisten</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Serverinstallatie</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Clientinstallatie</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Licentie wijzigen</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../../configuration/index.html">Configuratie</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Machine toevoegen/verwijderen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Gereedschap instellen</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Tooling instellen</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Gebruikers configureren</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Taal</a></li>
     <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaal toewijzen</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-pagina's toewijzen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Velden uit CAD toewijzen (zoeksleutels)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Velden toewijzen vanuit CAD (opzoeksleutels)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">De gebruikersinterface</a></li>
@@ -70,7 +68,7 @@
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Onderdelen importeren</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Orders importeren</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Jobs importeren</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Assemblages importeren</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Samenstellingen importeren</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../../library/libraryview/index.html">Bibliotheekweergave</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Onderdelen</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Samenstelling</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Gereedschapsstatus</a>
+     <a href="../../library/toolingstatus/index.html">Toolingstatus</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Gereedschapsvalidatie</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Toolingvalidatie</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Buiggereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Snijgereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Buigtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Snijtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Gereedschapspaneel</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Toolingpaneel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Filters opslaan</a></li>
@@ -113,7 +111,7 @@
    <button class="tree closed"></button>
    <a href="../../orders/index.html">Orders</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Orders weergave</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordersweergave</a></li>
    </ul>
   </li>
   <li>
@@ -121,72 +119,54 @@
    <a href="../index.html">Jobs</a>
    <ul>
     <li><button class="tree blank"></button><a href="../jobcreation.html">Job aanmaken</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Job weergave</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Job paneel</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Jobweergave</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Jobpaneel</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automatisch plannen</a></li>
     <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interactief nesten</a></li>
-    <li><button class="tree blank"></button><a href="../repacking.html">Opnieuw verpakken</a></li>
+    <li><button class="tree blank"></button><a href="../repacking.html">Herverpakken</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../layoutcommands/index.html">Nestbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Layout weergave</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Layout paneel</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Lay-outweergave</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Lay-outpaneel</a></li>
       <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Rapportverzender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Restmateriaal beheer</a>
+     <a href="index.html">Restantbeheer</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="autoremnant.html">Automatisch restmateriaal beheer</a></li>
-      <li><button class="tree blank"></button><a href="manualremnant.html">Handmatig restmateriaal beheer</a></li>
+      <li><button class="tree blank"></button><a class="active" href="autoremnant.html">Automatisch restantbeheer</a></li>
+      <li><button class="tree blank"></button><a href="manualremnant.html">Handmatig restantbeheer</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline nesten</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Verouderd</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Job filters</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Jobfilters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Fabriek</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Platen</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Gebruikers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Bewerken</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Klanten</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Instellingen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Omgeving</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importeren</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Buigen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Snijden</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Meldingen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Bewaken</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD extensies</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installatie</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Onderdelen opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Assemblage opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Haalbaarheid controleren</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Fabrieksinstellingen</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Diverse verbeteringen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapporten</a></li>
      </ul>
     </li>
    </ul>
@@ -208,40 +188,41 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Restmateriaal beheer</a>
+  <a href="index.html">Restantbeheer</a>
  </div>
  <div>/</div>
  <div>
-  <a href="autoremnant.html">Automatisch restmateriaal beheer</a>
+  <a href="autoremnant.html">Automatisch restantbeheer</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Automatisch restmateriaal beheer</h1>
+                        <h1>Automatisch restantbeheer</h1>
 <div class="sect1">
-<h2 id="_restmateriaal_inschakelen">Restmateriaal inschakelen</h2>
+<h2 id="_restant_inschakelen">Restant inschakelen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM ondersteunt geautomatiseerde restplaat creatie vanuit een layout tijdens het nesten.
-Deze functie is alleen beschikbaar met TecZone Laser machines.</p>
+<p>TruSmartCAM ondersteunt het automatisch aanmaken van restantplaten uit een lay-out
+tijdens het nesten. Deze functie is alleen beschikbaar bij TecZone Laser-machines.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Klik op <strong>fabriek</strong> → <strong>Machines</strong> →
-<strong>Standaard machine-instellingen…</strong> → <strong>Skeleton cuts</strong>.</p>
+<p>Klik op <strong>factory</strong> → <strong>Machines</strong> →
+<strong>Machine Defaults</strong> → <strong>Skeleton cuts</strong>.</p>
 </li>
 <li>
-<p>Selecteer de <strong>Slice Sheet Skeleton</strong> &amp; <strong>Create Remainder Sheet</strong> optie om deze
+<p>Selecteer de optie <strong>Slice Sheet Skeleton</strong> &amp; <strong>Create Remainder Sheet</strong> om deze
 functie in te schakelen.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Wanneer ingeschakeld, wordt het resterende gebied van een geneste plaat opgesplitst in restplaten
-op basis van de toegewezen Minimum Remainder Sheet Value in X &amp; Y.</p>
+<p>Wanneer deze is ingeschakeld, wordt het resterende gebied van een geneste plaat
+opgedeeld in restantplaten op basis van de toegewezen minimale restantplaatwaarde
+in X en Y.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -251,18 +232,18 @@ op basis van de toegewezen Minimum Remainder Sheet Value in X &amp; Y.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_automatisch_restmateriaal_configureren">Automatisch restmateriaal configureren</h2>
+<h2 id="_automatisch_restant_configureren">Automatisch restant configureren</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Klik op <strong>fabriek</strong>
-&#8594; <strong>instellingen</strong>
+<p>Klik op <strong>factory</strong>
+&#8594; <strong>Settings</strong>
  &#8594; <strong>Job</strong>.</p>
 </li>
 <li>
-<p>Selecteer <strong>Plaatvoorraad bijwerken bij (niet) vrijgeven van nest</strong>
-en <strong>Restplaatvoorraadbeheer automatiseren</strong>.</p>
+<p>Selecteer <strong>Update sheet inventory on nest (un)release</strong>
+en <strong>Automate remnant inventory management</strong>.</p>
 </li>
 </ul>
 </div>
@@ -274,17 +255,18 @@ en <strong>Restplaatvoorraadbeheer automatiseren</strong>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_automatisch_restmateriaal">Automatisch restmateriaal</h2>
+<h2 id="_automatisch_restant">Automatisch restant</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wanneer u onderdelen nest, als het overgebleven plaatgebied voldoet aan de Minimum Sheet Value X
-&amp; Y, maakt TruSmartCAM automatisch een Restplaat van de overgebleven ruimte.</p>
+<p>Wanneer u onderdelen nest en het overgebleven plaatgebied voldoet aan de minimale
+plaatwaarde X en Y, maakt TruSmartCAM automatisch een restantplaat van de
+overgebleven ruimte.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>In de Job Nest weergave worden nesten met restplaten getoond met een groene
-randlijn en grijze achtergrond.</p>
+<p>In de weergave Job Nest worden nesten met restantplaten weergegeven met een
+groene randomlijning en een grijze achtergrond.</p>
 </li>
 </ul>
 </div>
@@ -296,39 +278,26 @@ randlijn en grijze achtergrond.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Dubbelklik op het nest om de Nest Detail pagina te openen. Restplaatinformatie
-wordt weergegeven met restplaatgrootte, hoeveelheid en oppervlakte.</p>
+<p>Dubbelklik op het nest om de detailpagina van het nest te openen. De
+restantplaatinformatie wordt weergegeven met restantplaatformaat, aantal en
+oppervlak.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnantsheetnest.png" alt="Remnant sheet info" width="939">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Klik met de rechtermuisknop op het nest en selecteer Edit om het te openen in TecZone. Het nest toont
-snijlijnen tussen onderdelen en skeleton snijlijnen samen met de restmateriaalafmetingen
-gegraveerd. (Materiaal, Dikte en Restmateriaal Grootte).</p>
+<p>Klik met de rechtermuisknop op het nest en selecteer Edit om het in TecZone
+te openen. Het nest toont snijlijnen tussen onderdelen en skeletsnijlijnen samen
+met de gegraveerde restantafmetingen. (Materiaal, dikte en restantformaat).</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>De restmateriaal afmetingsgravering Markering helpt de operator de plaat te pakken zonder
-te meten, waardoor het gemakkelijk te gebruiken is in toekomstige nesten.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnantsheetflux.png" alt="Remnant sheet in Flux" width="694">
-</div>
+<p>De gravering van de restantafmeting helpt de operator de plaat te kiezen zonder
+te meten, waardoor deze eenvoudig in toekomstige nesten kan worden gebruikt.</p>
 </div>
 <div class="paragraph">
-<p>Wanneer u op <strong>Markeren als voltooid…</strong> klikt, wordt de restplaat
-getoond met een groen vinkje, wat aangeeft dat het nest is voltooid. Een
-gedeeltelijk gearceerd vierkant icoon geeft aan dat de restplaat is gemaakt en
-bijgewerkt in de plaatvoorraad.</p>
+<p>Wanneer u op <strong>Mark Complete</strong> klikt, wordt de
+restantplaat weergegeven met een groen vinkje, wat aangeeft dat het nest is
+voltooid. Een gedeeltelijk gearceerd vierkant pictogram geeft aan dat de
+restantplaat is aangemaakt en bijgewerkt in de plaatvoorraad.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -336,9 +305,9 @@ bijgewerkt in de plaatvoorraad.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>De plaatdatabase wordt bijgewerkt met de restplaatgrootte en hoeveelheid, die
-wordt geïdentificeerd met een asterisk (*) symbool aan het einde van de plaatgrootte. Restplaten
-hebben een groene rand.</p>
+<p>De plaatdatabase wordt bijgewerkt met het formaat en het aantal van de
+restantplaat, die wordt herkend aan een asterisk (*) aan het einde van het
+plaatformaat. Restantplaten hebben een groene rand.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -346,9 +315,9 @@ hebben een groene rand.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Automatisch plannen of interactief plannen van een job beschouwt restplaten als hoge
-prioriteit in het nestplan, zodat ze eerst worden gebruikt om de werkvloer
-vrij te houden van ongebruikte restmaterialen.</p>
+<p>Bij het automatisch plannen of interactief plannen van een job worden
+restantplaten als hoge prioriteit in het nestplan beschouwd, zodat ze als eerste
+worden gebruikt om de werkvloer vrij te houden van ongebruikte restanten.</p>
 </div>
 </div>
 </div>
@@ -360,13 +329,13 @@ vrij te houden van ongebruikte restmaterialen.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_restmateriaal_inschakelen">Restmateriaal inschakelen</a>
+   <a href="#_restant_inschakelen">Restant inschakelen</a>
   </li>
   <li level="1">
-   <a href="#_automatisch_restmateriaal_configureren">Automatisch restmateriaal configureren</a>
+   <a href="#_automatisch_restant_configureren">Automatisch restant configureren</a>
   </li>
   <li level="1">
-   <a href="#_automatisch_restmateriaal">Automatisch restmateriaal</a>
+   <a href="#_automatisch_restant">Automatisch restant</a>
   </li>
  </ul>
 </aside>
@@ -374,8 +343,8 @@ vrij te houden van ongebruikte restmaterialen.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Restmateriaal beheer</a></span>
- <span class="next"><a href="manualremnant.html">Handmatig restmateriaal beheer</a></span>
+ <span class="prev"><a href="index.html">Restantbeheer</a></span>
+ <span class="next"><a href="manualremnant.html">Handmatig restantbeheer</a></span>
 </nav>
 
         </div>

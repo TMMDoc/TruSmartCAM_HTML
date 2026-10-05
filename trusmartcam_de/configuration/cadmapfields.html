@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Felder aus CAD zuordnen (Suchschlüssel)</title>
+  <title>Felder aus CAD zuordnen (Nachschlagekennungen)</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwareanforderungen</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Unterstützte Dateiformate</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Voraussetzungen</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Lizenz ändern</a></li>
    </ul>
   </li>
   <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="mapbendpages.html">Material zuordnen</a></li>
     <li><button class="tree blank"></button><a href="mapcampages.html">CAM-Seiten zuordnen</a></li>
-    <li><button class="tree blank"></button><a class="active" href="cadmapfields.html">Felder aus CAD zuordnen (Suchschlüssel)</a></li>
+    <li><button class="tree blank"></button><a class="active" href="cadmapfields.html">Felder aus CAD zuordnen (Nachschlagekennungen)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Die Benutzeroberfläche</a></li>
@@ -100,7 +98,7 @@
        <ul class="hide">
         <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Biegewerkzeugvalidierung</a></li>
         <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Schneidwerkzeugvalidierung</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Falzwerkzeugvalidierung</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Faltwerkzeugvalidierung</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Werkzeugpanel</a></li>
@@ -113,80 +111,62 @@
    <button class="tree closed"></button>
    <a href="../orders/index.html">Aufträge</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Auftragsansichten</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Auftragsansicht</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Auftrag erstellen</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Auftragsansicht</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Auftragspanel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Job erstellen</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobansicht</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobpanel</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatische Planung</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktives Verschachteln</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktives Schachteln</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Umpacken</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Nest-Verwaltung</a>
+     <a href="../jobs/layoutcommands/index.html">Schachtelungsverwaltung</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout-Ansicht</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout-Panel</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Berichtssender</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout-Bereich</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Berichtsversand</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Reststück-Verwaltung</a>
+     <a href="../jobs/remnantmanagement/index.html">Restverwaltung</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatische Reststück-Verwaltung</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuelle Reststück-Verwaltung</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatische Restverwaltung</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuelle Restverwaltung</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline-Verschachtelung</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twin-Line-Schachteln</a></li>
     <li><button class="tree blank"></button><a href="../jobs/outdate.html">Veraltet</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Auftragsfilter</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobfilter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Werk</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routen</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Blechtafeln</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Benutzer</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Bearbeiten</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunden</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Einstellungen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Umgebung</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Biegen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Schneiden</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Benachrichtigungen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Überwachung</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-Erweiterungen</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Teile speichern</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Baugruppe speichern</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Machbarkeit prüfen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Werkseinstellungen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Sonstige Verbesserungen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Berichte</a></li>
      </ul>
     </li>
    </ul>
@@ -208,54 +188,52 @@
  </div>
  <div>/</div>
  <div>
-  <a href="cadmapfields.html">Felder aus CAD zuordnen (Suchschlüssel)</a>
+  <a href="cadmapfields.html">Felder aus CAD zuordnen (Nachschlagekennungen)</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Felder aus CAD zuordnen (Suchschlüssel)</h1>
+                        <h1>Felder aus CAD zuordnen (Nachschlagekennungen)</h1>
 <div class="ulist">
 <ul>
 <li>
-<p>Werk &#8594; Einstellungen &#8594;
-Import, unter dem Abschnitt Importeinstellungen. Klicken Sie auf Antippen&#8230;&#8203;
-Schlüsselwörter für Materialsuche.
-Die Seite _Felder auswählen erscheint.</p>
+<p><strong>Factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Import</strong>, im Abschnitt <strong>Import settings</strong>. Klicken Sie auf <strong>Pick</strong>
+<strong>Material lookup keys</strong>.
+Die Seite <strong>Select Fields</strong> wird angezeigt.</p>
 </li>
 <li>
-<p>Klicken Sie auf Browse&#8230;&#8203;. Wählen Sie die Datei <code>C:\Program
-Files\Metamation{APPNAME}\Samples\Parts\00.04.dxf</code>.</p>
+<p>Klicken Sie auf Browse und wählen Sie die gewünschte DXF-Datei aus.</p>
 </li>
 <li>
-<p>Das Feld Select Field wird mit MAT-, REV- und THK-Informationen gefüllt.</p>
+<p>Das Feld "Select Field" wird mit den Informationen MAT, REV, THK gefüllt.</p>
 </li>
 <li>
-<p>Wählen Sie MAT und klicken Sie auf OK.</p>
+<p>Wählen Sie MAT und klicken Sie auf <strong>OK</strong>.</p>
+</li>
+<li>
+<p>Das Feld <strong>Material lookup keys</strong> wird mit dem Feld MAT aktualisiert. Konfigurieren Sie auf die gleiche Weise die
+Nachschlagekennungen für Revision und Dicke mit den Feldern REV und THK.</p>
+</li>
+<li>
+<p>Gehen Sie zu <strong>File</strong> &#8594; <strong>Open</strong> &#8594; <strong>Import parts</strong> und wählen Sie dieselbe DXF-Datei aus.</p>
+</li>
+<li>
+<p>Das Teil wird mit den Werten für Material, Dicke und Revision importiert, die
+aus den ausgewählten Nachschlagekennungen übernommen wurden.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Das Feld Material lookup keys wurde mit dem MAT-Feld aktualisiert. Verfahren Sie ebenso für die Revisions- und Dickenschlüssel.</p>
-</div>
-<div class="paragraph">
-<p>Datei &#8594; _Öffnen… &#8594; Importiere Teile, wählen Sie
-die Datei - <code>C:\Program Files\Metamation{APPNAME}\Samples\Parts\00.04.dxf</code>.
-Das Teil wird mit Material, Dicke und auch Revision importiert.</p>
-</div>
 <div class="imageblock">
 <div class="content">
-<img src="img/05fieldmap.png" alt="Material" width="Revision and Thickness Map">
+<img src="img/mat.png" alt="Mat">
 </div>
 </div>
 <div class="paragraph">
-<p>Doppelklicken Sie auf Part 00.04 und die Teildetailseite zeigt diese zugeordneten Feldinformationen aus der CAD-Datei unter Sonst. Eigenschaften.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/06mappedfiledfromcad.png" alt="Material" width="Revision and Thickness Map">
-</div>
+<p>Doppelklicken Sie auf Part 00.04. Die Teildetailseite zeigt die zugeordneten
+Feldinformationen aus der CAD-Datei unter Misc Properties an.</p>
 </div>
 
                     </article>

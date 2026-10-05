@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Automatische Reststück-Verwaltung</title>
+  <title>Automatische Restverwaltung</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardwareanforderungen</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Unterstützte Dateiformate</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Voraussetzungen</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Clientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Lizenz ändern</a></li>
    </ul>
   </li>
   <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Material zuordnen</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-Seiten zuordnen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Felder aus CAD zuordnen (Suchschlüssel)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Felder aus CAD zuordnen (Nachschlagekennungen)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Die Benutzeroberfläche</a></li>
@@ -100,7 +98,7 @@
        <ul class="hide">
         <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Biegewerkzeugvalidierung</a></li>
         <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Schneidwerkzeugvalidierung</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Falzwerkzeugvalidierung</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Faltwerkzeugvalidierung</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Werkzeugpanel</a></li>
@@ -113,80 +111,62 @@
    <button class="tree closed"></button>
    <a href="../../orders/index.html">Aufträge</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Auftragsansichten</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Auftragsansicht</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
    <a href="../index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">Auftrag erstellen</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Auftragsansicht</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Auftragspanel</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">Job erstellen</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Jobansicht</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Jobpanel</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automatische Planung</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktives Verschachteln</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktives Schachteln</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Umpacken</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../layoutcommands/index.html">Nest-Verwaltung</a>
+     <a href="../layoutcommands/index.html">Schachtelungsverwaltung</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Layout-Ansicht</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Layout-Panel</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Berichtssender</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Layout-Bereich</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Berichtsversand</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Reststück-Verwaltung</a>
+     <a href="index.html">Restverwaltung</a>
      <ul>
-      <li><button class="tree blank"></button><a class="active" href="autoremnant.html">Automatische Reststück-Verwaltung</a></li>
-      <li><button class="tree blank"></button><a href="manualremnant.html">Manuelle Reststück-Verwaltung</a></li>
+      <li><button class="tree blank"></button><a class="active" href="autoremnant.html">Automatische Restverwaltung</a></li>
+      <li><button class="tree blank"></button><a href="manualremnant.html">Manuelle Restverwaltung</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline-Verschachtelung</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twin-Line-Schachteln</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Veraltet</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Auftragsfilter</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Jobfilter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Werk</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routen</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Blechtafeln</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Benutzer</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Bearbeiten</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Kunden</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Einstellungen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Umgebung</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Biegen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Schneiden</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Benachrichtigungen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Überwachung</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-Erweiterungen</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Teile speichern</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Baugruppe speichern</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Machbarkeit prüfen</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Werkseinstellungen</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Sonstige Verbesserungen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Berichte</a></li>
      </ul>
     </li>
    </ul>
@@ -208,40 +188,41 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Reststück-Verwaltung</a>
+  <a href="index.html">Restverwaltung</a>
  </div>
  <div>/</div>
  <div>
-  <a href="autoremnant.html">Automatische Reststück-Verwaltung</a>
+  <a href="autoremnant.html">Automatische Restverwaltung</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Automatische Reststück-Verwaltung</h1>
+                        <h1>Automatische Restverwaltung</h1>
 <div class="sect1">
 <h2 id="_reststück_aktivieren">Reststück aktivieren</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>TruSmartCAM unterstützt die automatische Erstellung von Reststück-Blechen aus einem Layout während der Verschachtelung.
-Diese Funktion ist nur mit TecZone Laser-Maschinen verfügbar.</p>
+<p>TruSmartCAM unterstützt die automatisierte Erstellung von Reststücktafeln aus einem
+Layout während des Schachtelns. Diese Funktion ist nur mit TecZone Laser-Maschinen verfügbar.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Klicken Sie auf <strong>Werk</strong> → <strong>Maschinen</strong> →
-<strong>Maschinenvoreinstellungen&#8230;&#8203;</strong> → <strong>Skeleton cuts</strong>.</p>
+<p>Klicken Sie auf <strong>factory</strong> → <strong>Machines</strong> →
+<strong>Machine Defaults</strong> → <strong>Skeleton cuts</strong>.</p>
 </li>
 <li>
-<p>Wählen Sie die Option <strong>Slice Sheet Skeleton</strong> &amp; <strong>Create Remainder Sheet</strong> aus, um
+<p>Wählen Sie die Option <strong>Slice Sheet Skeleton</strong> &amp; <strong>Create Remainder Sheet</strong>, um
 diese Funktion zu aktivieren.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Wenn aktiviert, wird der verbleibende Bereich eines verschachtelten Blechs in Restbleche aufgeteilt
-basierend auf dem zugewiesenen Mindest-Restblechtwert in X &amp; Y.</p>
+<p>Wenn aktiviert, wird der verbleibende Bereich einer geschachtelten Tafel
+basierend auf dem zugewiesenen Mindestwert für Reststücktafeln in X &amp; Y in
+Reststücktafeln geschnitten.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -251,18 +232,18 @@ basierend auf dem zugewiesenen Mindest-Restblechtwert in X &amp; Y.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_automatische_reststücke_konfigurieren">Automatische Reststücke konfigurieren</h2>
+<h2 id="_auto_reststück_konfigurieren">Auto-Reststück konfigurieren</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Klicken Sie auf <strong>Werk</strong>
-&#8594; <strong>Einstellungen</strong>
+<p>Klicken Sie auf <strong>factory</strong>
+&#8594; <strong>Settings</strong>
  &#8594; <strong>Job</strong>.</p>
 </li>
 <li>
-<p>Wählen Sie <strong>Tafelbestand bei Schachtelungsfreigabe (Nicht-Freigabe) aktualisieren</strong>
-und <strong>Verwaltung des verbleibenden Bestands automatisieren</strong> aus.</p>
+<p>Wählen Sie <strong>Update sheet inventory on nest (un)release</strong>
+und <strong>Automate remnant inventory management</strong>.</p>
 </li>
 </ul>
 </div>
@@ -274,17 +255,18 @@ und <strong>Verwaltung des verbleibenden Bestands automatisieren</strong> aus.</
 </div>
 </div>
 <div class="sect1">
-<h2 id="_automatisches_reststück">Automatisches Reststück</h2>
+<h2 id="_auto_reststück">Auto-Reststück</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Wenn Sie Teile verschachteln und der übrig gebliebene Blechbereich den Mindestblechtwert X
-&amp; Y erfüllt, erstellt TruSmartCAM automatisch ein Reststück-Blech aus dem übrig gebliebenen Raum.</p>
+<p>Wenn Sie Teile schachteln und der verbleibende Tafelbereich den Mindesttafelwert
+X &amp; Y erfüllt, erstellt TruSmartCAM automatisch eine Reststücktafel aus dem
+verbleibenden Platz.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>In der Auftrags-Verschachtelungsansicht werden Verschachtelungen mit Reststück-Blechen mit einem grünen
-Rand und grauem Hintergrund angezeigt.</p>
+<p>In der Job-Nest-Ansicht werden Schachtelungen, die Reststücktafeln haben, mit
+einem grünen Rahmenumriss und grauem Hintergrund angezeigt.</p>
 </li>
 </ul>
 </div>
@@ -296,38 +278,26 @@ Rand und grauem Hintergrund angezeigt.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Doppelklicken Sie auf die Verschachtelung, um die Detailseite der Verschachtelung zu öffnen. Reststück-Blechinformationen
-werden mit Reststück-Blechgröße, Menge und Fläche angezeigt.</p>
+<p>Doppelklicken Sie auf die Schachtelung, um die Nest-Detailseite zu öffnen. Die
+Reststücktafel-Informationen werden mit Reststücktafelgröße, Menge und Fläche angezeigt.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnantsheetnest.png" alt="Remnant sheet info" width="939">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Klicken Sie mit der rechten Maustaste auf die Verschachtelung und wählen Sie "Bearbeiten", um sie in TecZone zu öffnen. Die Verschachtelung zeigt
-Schnittlinien zwischen Teilen und Skelett-Schnittlinien zusammen mit den gravierten Reststückabmessungen. (Material, Dicke und Reststückgröße).</p>
+<p>Klicken Sie mit der rechten Maustaste auf die Schachtelung und wählen Sie Edit,
+um sie in TecZone zu öffnen. Die Schachtelung zeigt Schnittlinien zwischen
+Teilen und Skelettschnittlinien zusammen mit den eingravierten Reststückabmessungen.
+(Material, Dicke und Reststückgröße).</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Die Reststückdimensionsgravur hilft dem Bediener, das Blech ohne Messung auszuwählen
-und macht es einfach, es in zukünftigen Verschachtelungen zu verwenden.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/remnantsheetflux.png" alt="Remnant sheet in Flux" width="694">
-</div>
+<p>Die Gravurmarkierung der Reststückabmessungen hilft dem Bediener, die Tafel ohne
+Messen auszuwählen, was die Verwendung in zukünftigen Schachtelungen erleichtert.</p>
 </div>
 <div class="paragraph">
-<p>Wenn Sie auf <strong>Als abgeschlossen markieren&#8230;&#8203;</strong> klicken, wird das Reststück-Blech
-mit einem grünen Häkchen angezeigt, was darauf hinweist, dass die Verschachtelung abgeschlossen ist. Ein
-teilweise schattiertes quadratisches Symbol zeigt an, dass das Reststück-Blech erstellt und
-im Blechbestand aktualisiert wurde.</p>
+<p>Wenn Sie auf <strong>Mark Complete</strong> klicken, wird die
+Reststücktafel mit einem grünen Häkchen angezeigt, was anzeigt, dass die
+Schachtelung abgeschlossen ist. Ein teilweise schattiertes Quadratsymbol zeigt
+an, dass die Reststücktafel erstellt und im Tafelbestand aktualisiert wurde.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -335,8 +305,9 @@ im Blechbestand aktualisiert wurde.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Die Blechdatenbank wird mit der Größe und Menge des Reststück-Blechs aktualisiert, das
-mit einem Sternchen (*) am Ende der Blechgröße gekennzeichnet ist. Reststück-Bleche haben einen grünen Rand.</p>
+<p>Die Tafeldatenbank wird mit der Größe und Menge der Reststücktafel aktualisiert,
+die mit einem Sternsymbol (*) am Ende der Tafelgröße gekennzeichnet ist.
+Reststücktafeln haben einen grünen Rahmen.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -344,9 +315,9 @@ mit einem Sternchen (*) am Ende der Blechgröße gekennzeichnet ist. Reststück-
 </div>
 </div>
 <div class="paragraph">
-<p>Die automatische Planung oder interaktive Planung eines Auftrags berücksichtigt Reststück-Bleche als hohe
-Priorität im Verschachtelungsplan und stellt sicher, dass sie zuerst verwendet werden, um die Werkstatt
-frei von ungenutzten Reststücken zu halten.</p>
+<p>Auto Plan oder Interactive Plan eines Jobs betrachtet Reststücktafeln als hohe
+Priorität im Schachtelplan und stellt sicher, dass sie zuerst verwendet werden,
+um die Werkstatt frei von ungenutzten Reststücken zu halten.</p>
 </div>
 </div>
 </div>
@@ -361,10 +332,10 @@ frei von ungenutzten Reststücken zu halten.</p>
    <a href="#_reststück_aktivieren">Reststück aktivieren</a>
   </li>
   <li level="1">
-   <a href="#_automatische_reststücke_konfigurieren">Automatische Reststücke konfigurieren</a>
+   <a href="#_auto_reststück_konfigurieren">Auto-Reststück konfigurieren</a>
   </li>
   <li level="1">
-   <a href="#_automatisches_reststück">Automatisches Reststück</a>
+   <a href="#_auto_reststück">Auto-Reststück</a>
   </li>
  </ul>
 </aside>
@@ -372,8 +343,8 @@ frei von ungenutzten Reststücken zu halten.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Reststück-Verwaltung</a></span>
- <span class="next"><a href="manualremnant.html">Manuelle Reststück-Verwaltung</a></span>
+ <span class="prev"><a href="index.html">Restverwaltung</a></span>
+ <span class="next"><a href="manualremnant.html">Manuelle Restverwaltung</a></span>
 </nav>
 
         </div>

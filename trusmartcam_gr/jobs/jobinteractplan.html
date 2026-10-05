@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Διαδραστική τοποθέτηση</title>
+  <title>Διαδραστική κατανομή</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -22,39 +22,37 @@
         <nav id="site-nav">
             <div class="treesite">
  <ul>
-  <li><button class="tree blank"></button><a href="../index.html">Καλώς ήρθατε στο TruSmartCAM</a></li>
+  <li><button class="tree blank"></button><a href="../index.html">Καλώς ορίσατε στο TruSmartCAM</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../installation/index.html">Εγκατάσταση</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Απαιτήσεις υλικού</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Υποστηριζόμενες μορφές αρχείων</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Προαπαιτούμενα</a></li>
-    <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Εγκατάσταση Server</a></li>
-    <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Εγκατάσταση Client</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Αλλαγή άδειας χρήσης</a></li>
+    <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Εγκατάσταση διακομιστή</a></li>
+    <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Εγκατάσταση πελάτη</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../configuration/index.html">Ρύθμιση Παραμέτρων</a>
+   <a href="../configuration/index.html">Διαμόρφωση</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Προσθήκη/Αφαίρεση μηχανής</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Ρύθμιση εργαλείων</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Διαμόρφωση εξοπλισμού</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Διαμόρφωση χρηστών</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Γλώσσα</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../configuration/addmaterial/index.html">Υλικό</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Προσθήκη νέου υλικού και φύλλου</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Προσθήκη νέου υλικού και μεταλλικής πλάκας</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Εξαγωγή/Εισαγωγή υλικού</a></li>
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Αντικατάσταση υλικού</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Αντιστοίχιση υλικού</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Αντιστοίχιση σελίδων CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Αντιστοίχιση πεδίων από CAD (κλειδιά αναζήτησης)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Χαρτογράφηση υλικού</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Χαρτογράφηση σελίδων CAM</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Χαρτογράφηση πεδίων από CAD (κλειδιά αναζήτησης)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Η διεπαφή χρήστη</a></li>
@@ -65,45 +63,45 @@
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Open</a>
+     <a href="../library/open/index.html">Άνοιγμα</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Εισαγωγή parts</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Εισαγωγή εξαρτημάτων</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Εισαγωγή παραγγελιών</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Εισαγωγή jobs</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Εισαγωγή εργασιών</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Εισαγωγή συγκροτημάτων</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Προβολή βιβλιοθήκης</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Εξαρτήματα</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Συγκρότημα</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Κατάσταση part</a>
+     <a href="../library/partstate/index.html">Κατάσταση εξαρτήματος</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Επικύρωση part</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Πίνακας part</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Φίλτρα part</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Επικύρωση εξαρτήματος</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Πίνακας εξαρτήματος</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Φίλτρα εξαρτημάτων</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Κατάσταση tooling</a>
+     <a href="../library/toolingstatus/index.html">Κατάσταση εξοπλισμού</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Επικύρωση tooling</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Επικύρωση εξοπλισμού</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Επικύρωση bend tooling</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Επικύρωση cut tooling</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Επικύρωση fold tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Επικύρωση εξοπλισμού κάμψης</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Επικύρωση εξοπλισμού κοπής</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Επικύρωση εξοπλισμού δίπλωσης</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Πίνακας tooling</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Πίνακας εξοπλισμού</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Αποθήκευση φίλτρων</a></li>
@@ -121,18 +119,18 @@
    <a href="index.html">Εργασίες</a>
    <ul>
     <li><button class="tree blank"></button><a href="jobcreation.html">Δημιουργία εργασίας</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Προβολή εργασίας</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Πίνακας εργασίας</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Προβολή εργασιών</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Πίνακας εργασιών</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Αυτόματος σχεδιασμός</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobinteractplan.html">Διαδραστική τοποθέτηση</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobinteractplan.html">Διαδραστική κατανομή</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Επανασυσκευασία</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Διαχείριση τοποθέτησης</a>
+     <a href="layoutcommands/index.html">Διαχείριση κατανομών</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Προβολή διάταξης</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Πίνακας διάταξης</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Αποστολέας αναφοράς</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Αποστολή αναφορών</a></li>
      </ul>
     </li>
     <li>
@@ -143,55 +141,37 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Χειροκίνητη διαχείριση υπολειμμάτων</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Τοποθέτηση διπλής γραμμής</a></li>
-    <li><button class="tree blank"></button><a href="outdate.html">Μη ενημερωμένο</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Φίλτρα εργασίας</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Κατανομή διπλής γραμμής</a></li>
+    <li><button class="tree blank"></button><a href="outdate.html">Παρωχημένο</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Φίλτρα εργασιών</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Εργοστάσιο</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Διαδρομές</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Μεταλλικές πλάκες</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Χρήστες</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Επεξεργασία</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Πελάτες</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Ρυθμίσεις</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Περιβάλλον</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Εισαγωγή</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Κάμψη</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Κοπή</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ειδοποιήσεις</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Επιτήρηση</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Εργασία</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Αναφορές</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Επεκτάσεις CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Εγκατάσταση</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Αποθήκευση εξαρτημάτων</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Αποθήκευση συναρμολόγησης</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Έλεγχος σκοπιμότητας</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ρυθμίσεις εργοστασίου</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Διάφορες βελτιώσεις</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Εταιρικές πληροφορίες</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Πληροφορίες εταιρείας</a></li>
  </ul>
 </div>
 
@@ -208,28 +188,28 @@
  </div>
  <div>/</div>
  <div>
-  <a href="jobinteractplan.html">Διαδραστική τοποθέτηση</a>
+  <a href="jobinteractplan.html">Διαδραστική κατανομή</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Διαδραστική τοποθέτηση</h1>
+                        <h1>Διαδραστική κατανομή</h1>
 <div class="paragraph">
-<p>Η διαδραστική τοποθέτηση μπορεί να χρησιμοποιηθεί για να δημιουργήσετε ένα σχέδιο τοποθέτησης για ένα μεμονωμένο εξάρτημα, μερικά
+<p>Η διαδραστική κατανομή μπορεί να χρησιμοποιηθεί για τη δημιουργία σχεδίου κατανομής για ένα μεμονωμένο εξάρτημα, ορισμένα
 εξαρτήματα από μια εργασία, μια μεμονωμένη εργασία ή πολλαπλές εργασίες. Σας επιτρέπει να επιλέξετε
-μηχανήματα και υλικά, να ορίσετε παραμέτρους φύλλου και να ελέγξετε τα αποτελέσματα τοποθέτησης
-διαδραστικά.</p>
+μηχανές και υλικά, να ορίσετε παραμέτρους μεταλλικών πλακών και να εξετάσετε τα αποτελέσματα
+της κατανομής διαδραστικά.</p>
 </div>
 <div class="paragraph">
-<p>Κάντε δεξί κλικ σε ένα εξάρτημα ή μια εργασία και επιλέξτε
-<strong>Σχεδιασμός εξαρτήματος&#8230;&#8203;&#8230;&#8203;/Σχεδιασμός εργασίας&#8230;&#8203;&#8230;&#8203;</strong> &#8594;
-<strong>Εκτέλεση διαδραστικής κατανομής&#8230;&#8203;</strong> επιλογή.</p>
+<p>Κάντε δεξί κλικ σε ένα εξάρτημα ή μια εργασία και επιλέξτε την επιλογή
+<strong>Plan Part&#8230;&#8203;/Plan Job&#8230;&#8203;</strong> &#8594;
+<strong>Run Interactive Nesting&#8230;&#8203;</strong>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/interactive1.png" alt="Interactive nesting" width="1142">
+<img src="img/interactive1.png" alt="Διαδραστική κατανομή" width="1142">
 </div>
 </div>
 <div class="ulist">
@@ -238,48 +218,48 @@
 <p>Ανοίγει το παράθυρο <strong>Interactive Nesting</strong>.</p>
 </li>
 <li>
-<p>Από προεπιλογή, το παράθυρο διαδραστικής τοποθέτησης μεταβαίνει στη
-σελίδα <strong>Επιλογή μηχανής &amp; υλικού</strong>.</p>
+<p>Από προεπιλογή, το παράθυρο διαδραστικής κατανομής μεταβαίνει στη σελίδα
+<strong>Select Machine &amp; Material</strong>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/interactive2.png" alt="Interactive nesting window" width="1908">
+<img src="img/interactive2.png" alt="Παράθυρο διαδραστικής κατανομής" width="1908">
 </div>
 </div>
 </li>
 <li>
-<p>Τα μηχανήματα εμφανίζονται με χρωματιστές γραμμές που υποδεικνύουν το διαθέσιμο φορτίο παραγωγής:</p>
+<p>Οι μηχανές εμφανίζονται με χρωματιστές ράβδους που υποδεικνύουν το διαθέσιμο φορτίο παραγωγής:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Πράσινη γραμμή: Προγραμματισμένες ώρες</p>
+<p>Πράσινη ράβδος: Προγραμματισμένες ώρες</p>
 </li>
 <li>
-<p>Γκρι γραμμή: Διαθέσιμες ώρες (από μια βάρδια 8 ωρών)</p>
+<p>Γκρι ράβδος: Διαθέσιμες ώρες (από βάρδια 8 ωρών)</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Κάτω από κάθε μηχάνημα, τα επιλεγμένα Εξαρτήματα ομαδοποιούνται με το Πρώτο Υλικό τους
-(Εξαρτήματα/Συνολική Ποσότητα).</p>
+<p>Κάτω από κάθε μηχανή, τα επιλεγμένα εξαρτήματα ομαδοποιούνται με την πρώτη ύλη τους
+(Εξαρτήματα/Συνολική ποσότητα).</p>
 </li>
 <li>
-<p>Εάν ένα εξάρτημα δεν έχει έγκυρη λύση εργαλείων για ένα μηχάνημα, αυτό το εξάρτημα και
-το υλικό αγνοούνται για επεξεργασία για ένα δεδομένο μηχάνημα.</p>
+<p>Εάν ένα εξάρτημα δεν έχει έγκυρη λύση εξοπλισμού για μια μηχανή, το συγκεκριμένο εξάρτημα
+και υλικό αγνοούνται κατά την επεξεργασία για τη συγκεκριμένη μηχανή.</p>
 </li>
 <li>
-<p>Εάν ένα πρώτο υλικό επιλεγεί για ένα μηχάνημα, δεν θα είναι διαθέσιμο για άλλα
-μηχανήματα.</p>
+<p>Εάν μια πρώτη ύλη επιλεχθεί για μια μηχανή, δεν θα είναι διαθέσιμη για άλλες
+μηχανές.</p>
 </li>
 <li>
-<p>Μόλις οριστεί το σχέδιο τοποθέτησης μηχανήματος, επιλέξτε το προτιμώμενο φύλλο και παρακάμψτε
-παραμέτρους φύλλου όπως <strong>Priority</strong>,
-<strong>Ποσότητα</strong>, <strong>Margins</strong> κ.λπ.</p>
+<p>Αφού οριστεί το σχέδιο κατανομής της μηχανής, επιλέξτε την προτιμώμενη μεταλλική πλάκα και
+παρακάμψτε παραμέτρους μεταλλικής πλάκας όπως <strong>Priority</strong>,
+<strong>Quantity</strong>, <strong>Margins</strong> κ.λπ.</p>
 </li>
 <li>
-<p>Μπορείτε να φιλτράρετε φύλλα για να εμφανίσετε <strong>All Sheets</strong>,
+<p>Μπορείτε να φιλτράρετε τις μεταλλικές πλάκες για να εμφανίζονται <strong>All Sheets</strong>,
 <strong>Standard Sheets</strong> ή
-<strong>Υπολειμματικές μεταλλικές πλάκες</strong>. Κάντε κλικ στο <strong>Επόμενο</strong>.</p>
+<strong>Remnant Sheets</strong>. Κάντε κλικ στο <strong>Next</strong>.</p>
 </li>
 </ul>
 </div>
@@ -290,8 +270,9 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Δεν είναι δυνατόν να αυξήσετε τις ποσότητες σε αυτό το στάδιο. Μπορείτε
-είτε να κρατήσετε την ίδια ποσότητα με το απόθεμα φύλλων είτε να τη μειώσετε και να ελέγξετε τα αποτελέσματα τοποθέτησης.
+Δεν είναι δυνατή η αύξηση των ποσοτήτων σε αυτό το στάδιο. Μπορείτε είτε
+να τις διατηρήσετε ίδιες με την ποσότητα αποθέματος μεταλλικών πλακών είτε να τις μειώσετε και
+να ελέγξετε τα αποτελέσματα κατανομής.
 </td>
 </tr>
 </table>
@@ -299,61 +280,62 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Εμφανίζεται το <strong>Ενημέρωση ποσότ.</strong> στο παράθυρο σχεδίου διαδραστικής τοποθέτησης.</p>
+<p>Το <strong>Update Qty</strong> εμφανίζεται στο παράθυρο σχεδίου διαδραστικής κατανομής.</p>
 </li>
 <li>
 <p>Από προεπιλογή, το <strong>Pick All (F5)</strong> περιλαμβάνει όλα τα εξαρτήματα για
-τοποθέτηση ή μπορείτε να επιλέξετε χειροκίνητα εξαρτήματα προτεραιότητας και να προσαρμόσετε τις ποσότητες εξαρτημάτων.
-Κάντε κλικ στο <strong>Επόμενο</strong>.</p>
+κατανομή ή μπορείτε να επιλέξετε χειροκίνητα τα εξαρτήματα προτεραιότητας και να προσαρμόσετε
+τις ποσότητες εξαρτημάτων. Κάντε κλικ στο <strong>Next</strong>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/interactive3.png" alt="Update part quantity" width="1908">
+<img src="img/interactive3.png" alt="Ενημέρωση ποσότητας εξαρτήματος" width="1908">
 </div>
 </div>
 </li>
 <li>
-<p>Ξεκινά η τοποθέτηση και τα εξαρτήματα που τοποθετήθηκαν στο φύλλο ενημερώνονται με κατάσταση μπλε χρώματος.</p>
+<p>Η κατανομή ξεκινά και τα κατανεμημένα στη μεταλλική πλάκα εξαρτήματα ενημερώνονται με μπλε
+κατάσταση χρώματος.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/interactive4.png" alt="Review interactive nesting" width="1911">
+<img src="img/interactive4.png" alt="Εξέταση διαδραστικής κατανομής" width="1911">
 </div>
 </div>
 </li>
 <li>
-<p>Το φορτίο παραγωγής του μηχανήματος ενημερώνεται με βάση το αποτέλεσμα τοποθέτησης.</p>
+<p>Το φορτίο παραγωγής της μηχανής ενημερώνεται βάσει του αποτελέσματος κατανομής.</p>
 </li>
 <li>
-<p>Οι διατάξεις τοποθέτησης σχεδιάζονται σε κλίμακα και εμφανίζονται στην καρτέλα Nest
-Results.</p>
+<p>Οι κατανεμημένες διατάξεις σχεδιάζονται υπό κλίμακα και εμφανίζονται στην καρτέλα
+Αποτελέσματα κατανομής.</p>
 </li>
 <li>
-<p>Εάν μερικά εξαρτήματα παραμένουν μη τοποθετημένα, εμφανίζεται το μήνυμα
-<strong>Ορισμένα εξαρτήματα παραμένουν μη κατανεμημένα</strong> — αυτά τα εξαρτήματα παραμένουν
+<p>Εάν ορισμένα εξαρτήματα παραμείνουν μη κατανεμημένα, εμφανίζεται το μήνυμα
+<strong>Some parts remain unnested</strong> — αυτά τα εξαρτήματα παραμένουν
 στην αρχική εργασία.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Ο λόγος για τη μη τοποθέτηση μπορεί να είναι ότι το φύλλο δεν είναι διαθέσιμο για τοποθέτηση</p>
+<p>Ο λόγος μη κατανομής μπορεί να είναι μη διαθέσιμη μεταλλική πλάκα για κατανομή</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Τα αποτελέσματα διαδραστικής τοποθέτησης έχουν πρόθεμα: <strong>εργοστασιακές</strong> &#8594;
-<strong>ρυθμίσεις</strong> &#8594; <strong>Εργασία</strong>&#8594;
-<strong>Ρυθμίσεις κατανομής</strong>,
-<strong>Διαδραστικό πρόθημα ονόματος μεταλλικής πλάκας</strong>.</p>
+<p>Το αποτέλεσμα διαδραστικής κατανομής λαμβάνει πρόθεμα ως εξής: <strong>factory</strong> &#8594;
+<strong>settings</strong> &#8594; <strong>Job</strong>&#8594;
+<strong>Nest settings</strong>,
+<strong>Interactive sheet-name prefix</strong>.</p>
 </li>
 <li>
-<p>Οι διατάξεις διαδραστικής τοποθέτησης έχουν πρόθεμα το γράμμα <strong>L</strong>.</p>
+<p>Οι διατάξεις διαδραστικής κατανομής λαμβάνουν πρόθεμα με το γράμμα <strong>L</strong>.</p>
 <div class="imageblock">
 <div class="content">
-<img src="img/interactive6.png" alt="Factory settings" width="754">
+<img src="img/interactive6.png" alt="Εργοστασιακές ρυθμίσεις" width="754">
 </div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img/interactive5.png" alt="Interactive nest layout" width="857">
+<img src="img/interactive5.png" alt="Διάταξη διαδραστικής κατανομής" width="857">
 </div>
 </div>
 </li>

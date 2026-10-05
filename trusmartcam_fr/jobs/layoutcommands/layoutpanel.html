@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Panneau de mise en page</title>
+  <title>Panneau de configuration</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -27,12 +27,10 @@
    <button class="tree closed"></button>
    <a href="../../installation/index.html">Installation</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Configuration matérielle requise</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Exigences matérielles</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Formats de fichiers pris en charge</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Prérequis</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Installation du serveur</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Installation du client</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Changer de licence</a></li>
    </ul>
   </li>
   <li>
@@ -40,21 +38,21 @@
    <a href="../../configuration/index.html">Configuration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Ajouter/Supprimer une machine</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Configuration de l'outillage</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Configurer l'outillage</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Configurer les utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Langue</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../configuration/addmaterial/index.html">Matériau</a>
+     <a href="../../configuration/addmaterial/index.html">Matière</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Ajouter un nouveau matériau et une feuille</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Exporter/Importer le matériau</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Remplacer le matériau</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Ajouter une nouvelle matière et une tôle</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Exporter/Importer une matière</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Remplacer une matière</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Associer le matériau</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Associer les pages CAM</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Associer les champs depuis CAD (clés de recherche)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Cartographier la matière</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Cartographier les pages CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Cartographier les champs depuis CAD (clés de recherche)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">L'interface utilisateur</a></li>
@@ -68,71 +66,71 @@
      <a href="../../library/open/index.html">Ouvrir</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Importer des pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importer des commandes</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Importer des ordres</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Importer des tâches</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importer des assemblages</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Importer des modules</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/libraryview/index.html">Vue de bibliothèque</a>
+     <a href="../../library/libraryview/index.html">Vue de la bibliothèque</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Module</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/partstate/index.html">Statut de la pièce</a>
+     <a href="../../library/partstate/index.html">État de la pièce</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Validation de pi\u00e8ce</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Panneau de pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Filtres de pièces</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Validation des pièces</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Panneau de la pièce</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Filtres de pièce</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Statut de l'outillage</a>
+     <a href="../../library/toolingstatus/index.html">État de l'outillage</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validation d'outillage</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validation de l'outillage</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validation d'outillage de pliage</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validation d'outillage de découpe</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validation d'outillage de pliure</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validation de l'outillage de pliage</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validation de l'outillage de coupe</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validation de l'outillage de pliage</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panneau d'outillage</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Enregistrer les filtres</a></li>
+    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Enregistrement des filtres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Commandes</a>
+   <a href="../../orders/index.html">Ordres</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Vue des commandes</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Vue des ordres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Travaux</a>
+   <a href="../index.html">Tâches</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">Créer un travail</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Vue du travail</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Panneau de travail</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">Créer une tâche</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Vue des tâches</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Panneau des tâches</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Planification automatique</a></li>
     <li><button class="tree blank"></button><a href="../jobinteractplan.html">Imbrication interactive</a></li>
-    <li><button class="tree blank"></button><a href="../repacking.html">Réemballage</a></li>
+    <li><button class="tree blank"></button><a href="../repacking.html">Réempaquetage</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Gestion de l'imbrication</a>
+     <a href="index.html">Gestion des imbrications</a>
      <ul>
-      <li><button class="tree blank"></button><a href="nestview.html">Vue de mise en page</a></li>
-      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">Panneau de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="reportsender.html">Expéditeur de rapport</a></li>
+      <li><button class="tree blank"></button><a href="nestview.html">Vue de configuration</a></li>
+      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">Panneau de configuration</a></li>
+      <li><button class="tree blank"></button><a href="reportsender.html">Envoi de rapports</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">Gestion manuelle des chutes</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Imbrication en ligne double</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Imbrication Twinline</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">Obsolète</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtres de travail</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtres de tâches</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Usine</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Feuilles</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Tôles</a></li>
     <li><button class="tree blank"></button><a href="../../factory/users.html">Utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../../factory/edit.html">Modifier</a></li>
     <li><button class="tree blank"></button><a href="../../factory/customers.html">Clients</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Paramètres</a>
+     <a href="../../factory/settings/index.html">Réglages</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environnement</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importation</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Pliage</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Découpe</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Coupe</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Surveillance</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Tâche</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">Extensions CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">Extension SolidWorks</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Enregistrer les pièces</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Enregistrer l'assemblage</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Vérifier la faisabilité</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Paramètres de l'usine</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Améliorations diverses</a></li>
      </ul>
     </li>
    </ul>
@@ -204,26 +184,33 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Travaux</a>
+  <a href="../index.html">Tâches</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Gestion de l'imbrication</a>
+  <a href="index.html">Gestion des imbrications</a>
  </div>
  <div>/</div>
  <div>
-  <a href="layoutpanel.html">Panneau de mise en page</a>
+  <a href="layoutpanel.html">Panneau de configuration</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Panneau de mise en page</h1>
+                        <h1>Panneau de configuration</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Cette section explique les actions liées à la mise en page telles que <strong>Envoi vers machine&#8230;&#8203;</strong>, <strong>Rappeler depuis machine&#8230;&#8203;</strong>, <strong>Exporter sorties</strong>, <strong>Marquer comme complet&#8230;&#8203;</strong>, <strong>Ajout de pièces&#8230;&#8203;</strong>, <strong>Adaptation/compactage&#8230;&#8203;</strong>, <strong>Diviser les configurations&#8230;&#8203;</strong> et d&#8217;autres options utilisées pour gérer les instances de mise en page.</p>
+<p>Cette section présente les actions liées aux configurations telles que
+<strong>Send to machine</strong>,
+<strong>Recall from machine</strong>,
+<strong>Export outputs</strong>,
+<strong>Mark complete</strong>, <strong>Add parts&#8230;&#8203;</strong>,
+<strong>Adapt/Compact&#8230;&#8203;</strong>,
+<strong>Split layout</strong>, et d&#8217;autres options utilisées pour gérer les
+instances de configuration.</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -245,63 +232,64 @@
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ouvrir en mode lecture seule pour la visualisation</strong><br>
-Ouvre la mise en page sélectionnée en mode lecture seule.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Ouvre la configuration sélectionnée en mode lecture seule.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Active la modification de la mise en page sélectionnée.</p></td>
+Active la modification de la configuration sélectionnée.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Supprimer</strong><br>
-Supprime la mise en page sélectionnée.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+Supprime la configuration sélectionnée.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Voir rapport</strong><br>
-Ouvre le rapport de mise en page standard et le rapport spécifique à l&#8217;étiquette pour la mise en page sélectionnée.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>View Report</strong><br>
+Ouvre le rapport de configuration standard et le rapport spécifique aux
+étiquettes pour la configuration sélectionnée.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sendui.png" alt="Send" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Envoi vers machine&#8230;&#8203;</strong><br>
-Envoie la mise en page sélectionnée à la machine et exporte les fichiers de sortie (fxlyt, NC, rapport, csv) vers l&#8217;emplacement de sortie du travail.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Send to Machine&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Envoie la configuration sélectionnée à la machine et exporte les fichiers de
+sortie (fxlyt, NC, rapport, csv) vers l&#8217;emplacement de sortie de la tâche.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/addui.png" alt="Add" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ajout de pièces&#8230;&#8203;</strong><br>
-Ajoute plus de pièces à une mise en page mal emballée en utilisant l&#8217;assistant de réemballage de mise en page.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Add Parts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ajoute davantage de pièces à une configuration mal remplie à l&#8217;aide de
+l&#8217;assistant de réempaquetage de configuration.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/adaptui.png" alt="Adapt" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Adaptation/compactage&#8230;&#8203;</strong><br>
-Ré-imbrique la mise en page sélectionnée pour compacter les pièces et libérer de l&#8217;espace utilisable.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Adapt/Compact&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Réimbrique la configuration sélectionnée pour compacter les pièces et libérer de
+l&#8217;espace utilisable.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/changeui.png" alt="Change" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Modifier LTT&#8230;&#8203;</strong><br>
-Modifie la feuille assignée à la mise en page sélectionnée.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Change LTT&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Modifie la tôle assignée à la configuration sélectionnée.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/splitui.png" alt="Split"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Diviser les configurations&#8230;&#8203;</strong><br>
-Divise la mise en page sélectionnée en deux ou plusieurs mises en page séparées.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Split Layouts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Divise la configuration sélectionnée en deux configurations distinctes ou plus.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/renameui.png" alt="RenameUi" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Rename layout&#8230;&#8203;</strong><br>
-Renomme la mise en page sélectionnée.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Rename&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Renomme la configuration sélectionnée.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Tâche</strong> / <strong>Préc</strong> / <strong>Suivant</strong> / <strong>Pièces</strong><br>
-Navigue vers le travail parent, vers la mise en page précédente ou suivante au sein du travail sélectionné, ou vers les pièces contenues dans la mise en page.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Job</strong> / <strong>Prev</strong> / <strong>Next</strong> / <strong>Parts</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navigue vers la tâche parente, vers la configuration précédente ou suivante au
+sein de la tâche sélectionnée, ou vers les pièces contenues dans la
+configuration.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-Utilisez ces filtres pour afficher d&#8217;autres mises en page qui partagent le même attribut que la mise en page sélectionnée : Same Machine, Same Material, Same LTT, Same Priority, Same State, Same Sheet, Same Part, Same Remnant State ou Same Rolling direction.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilisez ces filtres pour afficher d&#8217;autres configurations partageant le même
+attribut que la configuration sélectionnée : <strong>Same Machine</strong>, <strong>Same Material</strong>,
+<strong>Same LTT</strong>, <strong>Same Priority</strong>,
+<strong>Same State</strong>, <strong>Same Sheet</strong>, <strong>Same Part</strong>, <strong>Same Remnant State</strong>, ou <strong>Same Rolling Direction</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -311,29 +299,27 @@ Utilisez ces filtres pour afficher d&#8217;autres mises en page qui partagent le
 </div>
 </div>
 <div class="sect1">
-<h2 id="send-to-machine">Envoi vers machine&#8230;&#8203;</h2>
+<h2 id="send-to-machine">Send to machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Lorsqu&#8217;une imbrication est prête (remplie ou nécessaire de toute urgence), vous pouvez l&#8217;envoyer à la machine.</p>
+<p>Lorsqu&#8217;une imbrication est prête (remplie ou requise d&#8217;urgence), vous pouvez
+l&#8217;envoyer à la machine.</p>
 </li>
 <li>
-<p>Faites un clic droit sur l&#8217;imbrication et sélectionnez <strong>Envoi vers machine&#8230;&#8203;</strong>.</p>
+<p>Effectuez un clic droit sur l&#8217;imbrication et sélectionnez
+<strong>Send to machine&#8230;&#8203;</strong>.</p>
 </li>
 <li>
 <p>Un dossier est créé automatiquement, nommé d&#8217;après l&#8217;imbrication.</p>
 </li>
 <li>
-<p>Les fichiers de sortie (fxlyt, NC, rapport, csv) sont exportés vers l&#8217;emplacement de sortie du TRAVAIL.</p>
+<p>Les fichiers de sortie (fxlyt, NC, rapport, csv) sont exportés vers
+l&#8217;emplacement de sortie de la tâche (JOB).</p>
 </li>
 <li>
 <p>Les imbrications envoyées à la machine sont affichées avec une coche bleue.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/sendtomachine.png" alt="Send to machines" width="1180">
-</div>
-</div>
 </li>
 </ul>
 </div>
@@ -344,7 +330,8 @@ Utilisez ces filtres pour afficher d&#8217;autres mises en page qui partagent le
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Une fois libérées, ces imbrications ne sont plus réessayées pour le réemballage.
+Une fois libérées, ces imbrications ne sont plus retentées pour le
+réempaquetage.
 </td>
 </tr>
 </table>
@@ -352,19 +339,20 @@ Une fois libérées, ces imbrications ne sont plus réessayées pour le réembal
 </div>
 </div>
 <div class="sect1">
-<h2 id="_rappeler_depuis_machine">Rappeler depuis machine&#8230;&#8203;</h2>
+<h2 id="_recall_from_machine">Recall from machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Si la sortie nécessite une validation ou une mise à jour (par exemple, l&#8217;ajout de plus de pièces) :</p>
+<p>Si la sortie nécessite une validation ou une mise à jour (par exemple,
+l&#8217;ajout de pièces supplémentaires) :</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Faites un clic droit sur la mise en page exportée.</p>
+<p>Effectuez un clic droit sur la configuration exportée.</p>
 </li>
 <li>
-<p>Sélectionnez <strong>Rappeler depuis machine&#8230;&#8203;</strong>.</p>
+<p>Sélectionnez <strong>Recall from machine&#8230;&#8203;</strong>.</p>
 </li>
 </ul>
 </div>
@@ -373,42 +361,31 @@ Une fois libérées, ces imbrications ne sont plus réessayées pour le réembal
 <p>Les fichiers de sortie et le dossier (fxlyt, NC, rapport, csv) sont supprimés.</p>
 </li>
 <li>
-<p>L&#8217;imbrication redevient éditable.</p>
+<p>L&#8217;imbrication redevient modifiable.</p>
 </li>
 <li>
-<p>Vous pouvez apporter des modifications et l&#8217;envoyer à la machine à nouveau.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/recallfrommachine.png" alt="Recall from machines" width="1153">
-</div>
-</div>
+<p>Vous pouvez apporter des modifications et l&#8217;envoyer à nouveau à la machine.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_exporter_sorties">Exporter sorties</h2>
+<h2 id="_export_outputs">Export outputs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Faites un clic droit sur n&#8217;importe quelle mise en page (imbrication) qui a été envoyée à la machine et cliquez sur <strong>Exporter sorties</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput1.png" alt="Export outputs" width="447">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>L&#8217;option Export Outputs exporte les fichiers NC, Rapport et Mise en page vers les dossiers de sortie de machine respectifs.</p>
+<p>Effectuez un clic droit sur toute configuration (imbrication) qui a été
+envoyée à la machine et cliquez sur <strong>Export outputs</strong>.</p>
 </li>
 <li>
-<p>Cette option régénère le fichier NC avec les paramètres d&#8217;unité actuels pour la mise en page.</p>
+<p>L&#8217;option Export Outputs exporte les fichiers NC, Report et Layout vers les
+dossiers de sortie machine respectifs.</p>
+</li>
+<li>
+<p>Cette option régénère le fichier NC avec les réglages d&#8217;unités actuels pour la
+configuration.</p>
 </li>
 </ul>
 </div>
@@ -419,7 +396,8 @@ Une fois libérées, ces imbrications ne sont plus réessayées pour le réembal
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Export Outputs n&#8217;est pas disponible pour les mises en page qui sont terminées et les mises en page qui sont en attente dans la file d&#8217;attente pour le réemballage.
+Export Outputs n&#8217;est pas disponible pour les configurations terminées et
+les configurations en attente dans la file de réempaquetage.
 </td>
 </tr>
 </table>
@@ -427,36 +405,36 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </div>
 <div class="sect1">
-<h2 id="mark-complete">Mark complete</h2>
+<h2 id="mark-complete">Marquer comme terminé</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Une fois que l&#8217;imbrication est traitée sur la machine, faites un clic droit sur l&#8217;imbrication et sélectionnez <strong>Marquer comme complet&#8230;&#8203;</strong>.</p>
+<p>Une fois l&#8217;imbrication traitée sur la machine, effectuez un clic droit sur
+l&#8217;imbrication et sélectionnez <strong>Mark complete&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Vous pouvez sélectionner plusieurs imbrications et les marquer comme terminées en même temps.</p>
+<p>Vous pouvez sélectionner plusieurs imbrications et les marquer comme
+terminées en même temps.</p>
 </li>
 <li>
 <p>Lorsqu&#8217;une imbrication est marquée comme terminée :</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Elle est grisée, déplacée à la fin de la liste et affichée avec une coche verte.</p>
+<p>Elle est grisée, déplacée à la fin de la liste et affichée avec une coche
+verte.</p>
 </li>
 <li>
-<p>La mise en page est supprimée de la liste des mises en page actives.</p>
+<p>La configuration est retirée de la liste des configurations actives.</p>
 </li>
 <li>
-<p>Les statuts des pièces et du travail sont mis à jour, et les quantités traitées passent à l&#8217;état terminé.</p>
+<p>Les états des pièces et de la tâche sont mis à jour, et les quantités
+traitées passent à l&#8217;état terminé.</p>
 </li>
 <li>
-<p>Les fichiers de sortie pour cette mise en page sont supprimés de l&#8217;emplacement de sortie de la machine pour éviter une utilisation en double.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/markcomplete1.png" alt="Mark complete" width="1101">
-</div>
-</div>
+<p>Les fichiers de sortie de cette configuration sont retirés de l&#8217;emplacement
+de sortie machine afin d&#8217;éviter toute utilisation en double.</p>
 </li>
 </ul>
 </div>
@@ -466,7 +444,7 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </div>
 <div class="sect1">
-<h2 id="add-parts">Ajout de pièces&#8230;&#8203;</h2>
+<h2 id="add-parts">Add parts&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
@@ -476,10 +454,16 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 <div class="ulist">
 <ul>
 <li>
-<p>Utilisez cette option pour ajouter plus de pièces à une mise en page relativement mal emballée. Comme l&#8217;imbrication interactive, c&#8217;est une option guidée par un assistant et peut être utilisée sur une seule ou plusieurs mises en page en même temps.</p>
+<p>Utilisez cette option pour ajouter davantage de pièces à une configuration
+relativement mal remplie. Comme l&#8217;imbrication interactive, il s&#8217;agit d&#8217;une
+option guidée par un assistant qui peut être utilisée sur une ou plusieurs
+configurations en même temps.</p>
 </li>
 <li>
-<p>TruSmartCAM monte l&#8217;assistant de réemballage de mise en page dans la zone de travail principale lorsque cette option est utilisée. Maintenez la touche <kbd>Ctrl</kbd> enfoncée et sélectionnez une ou plusieurs pièces à emballer sur la ou les mises en page et appuyez sur <strong>Suivant</strong>.</p>
+<p>TruSmartCAM affiche l&#8217;assistant de réempaquetage de configuration dans la zone
+de travail principale lorsque cette option est utilisée. Maintenez la touche
+<kbd>Ctrl</kbd> enfoncée et sélectionnez une ou plusieurs pièces à placer sur la ou
+les configurations, puis appuyez sur <strong>Next</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/addpart2.png" alt="Part selection" width="2200">
@@ -487,32 +471,33 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </li>
 <li>
-<p>Les pièces sélectionnées sont affichées dans l&#8217;étape suivante avec une colonne de quantité modifiable. Mettez à jour les quantités de pièces si nécessaire dans le champ <strong>Update Qty</strong>. Cliquez sur <strong>Suivant</strong> pour procéder à l&#8217;imbrication. Notez que les quantités ne peuvent qu&#8217;être augmentées, pas diminuées.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart3.png" alt="Update quantity" width="2200">
-</div>
-</div>
+<p>Les pièces sélectionnées sont affichées à l&#8217;étape suivante avec une colonne de
+quantité modifiable. Mettez à jour les quantités de pièces si nécessaire dans le
+champ <strong>Update Qty</strong>. Cliquez sur <strong>Next</strong> pour passer à
+l&#8217;imbrication. Notez que les quantités ne peuvent être qu&#8217;augmentées, pas
+réduites.</p>
 </li>
 <li>
-<p>Toutes les mises en page sont imbriquées séparément, et les résultats imbriqués sont affichés avec les pièces nouvellement emballées placées dessus. La sélection de la mise en page affiche toutes les pièces de mise en page existantes. Le résultat est automatiquement rejeté si aucune nouvelle pièce n&#8217;est placée pendant le réemballage. Une mise en page avec plusieurs copies peut donner des motifs différents après le réemballage.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart4.png" alt="Repack result" width="2200">
-</div>
-</div>
+<p>Toutes les configurations sont imbriquées séparément, et les résultats
+imbriqués sont affichés avec les pièces nouvellement placées. La sélection de la
+configuration affiche toutes les pièces existantes de la configuration. Le
+résultat est automatiquement abandonné si aucune nouvelle pièce n&#8217;est placée
+pendant le réempaquetage. Une configuration comportant plusieurs copies peut
+aboutir à des motifs différents après le réempaquetage.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="adapt-compact">Adaptation/compactage&#8230;&#8203;</h2>
+<h2 id="adapt-compact">Adapt/Compact&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Cette commande basée sur un assistant peut être utilisée pour adapter une mise en page d&#8217;une machine à une autre lorsque la machine d&#8217;origine est en panne ou lorsque la charge de travail de la machine doit être équilibrée.</p>
+<p>Cette commande basée sur un assistant peut être utilisée pour adapter une
+configuration d&#8217;une machine à une autre lorsque la machine d&#8217;origine est en
+panne ou lorsque la charge de travail des machines doit être équilibrée.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt1.png" alt="Adapt compact" width="737">
@@ -520,19 +505,25 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </li>
 <li>
-<p>Elle peut être utilisée lorsque la feuille prévue est en rupture de stock et que la mise en page doit être replanifiée sur une autre feuille disponible.</p>
+<p>Elle peut être utilisée lorsque la tôle prévue est en rupture de stock et que
+la configuration doit être replanifiée sur une autre tôle disponible.</p>
 </li>
 <li>
-<p>Vous pouvez fusionner des mises en page emballées sur des feuilles plus petites sur des feuilles plus grandes pour utiliser le matériau plus efficacement.</p>
+<p>Vous pouvez fusionner des configurations empaquetées sur de plus petites tôles
+sur de plus grandes tôles pour utiliser la matière plus efficacement.</p>
 </li>
 <li>
-<p>Vous pouvez diviser des mises en page emballées sur des feuilles plus grandes en feuilles plus petites si les stocks de grandes feuilles ne sont pas disponibles.</p>
+<p>Vous pouvez diviser des configurations empaquetées sur de plus grandes tôles
+en tôles plus petites si les stocks de grandes tôles ne sont pas disponibles.</p>
 </li>
 <li>
-<p>Vous pouvez améliorer l&#8217;efficacité de l&#8217;emballage de plusieurs mises en page (même de différentes machines) en les fusionnant ensemble.</p>
+<p>Vous pouvez améliorer l&#8217;efficacité d&#8217;empaquetage de plusieurs configurations
+(même provenant de machines différentes) en les fusionnant.</p>
 </li>
 <li>
-<p>Pour l&#8217;utiliser, sélectionnez une ou plusieurs mises en page et cliquez sur <strong>Adaptation/compactage&#8230;&#8203;</strong> pour ouvrir l&#8217;assistant dans la zone de travail.</p>
+<p>Pour l&#8217;utiliser, sélectionnez une ou plusieurs configurations et cliquez sur
+<strong>Adapt/Compact&#8230;&#8203;</strong> pour ouvrir l&#8217;assistant dans la zone de
+travail.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt2.png" alt="Layouts window" width="1902">
@@ -540,26 +531,20 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </li>
 <li>
-<p>Le volet gauche affiche toutes les mises en page sélectionnées et le volet Pièces affiche les pièces de mise en page.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt3.png" alt="Layouts window" width="1910">
-</div>
-</div>
+<p>Le volet de gauche affiche toutes les configurations sélectionnées et le
+volet Parts affiche les pièces de la configuration.</p>
 </li>
 <li>
-<p>Sélectionnez la machine cible et le matériau de feuille, puis cliquez sur <strong>Suivant</strong> pour effectuer la ré-imbrication.</p>
+<p>Sélectionnez la machine cible et la matière de la tôle, puis cliquez sur
+<strong>next</strong> pour effectuer la réimbrication.</p>
 </li>
 <li>
-<p>Les nouveaux résultats d&#8217;imbrication sont affichés dans le volet de résultats.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt4.png" alt="Layouts window" width="1901">
-</div>
-</div>
+<p>Les nouveaux résultats d&#8217;imbrication sont affichés dans le volet des
+résultats.</p>
 </li>
 <li>
-<p>Cliquez sur <strong>Suivant</strong> pour enregistrer la mise en page adaptée ou compactée.</p>
+<p>Cliquez sur <strong>next</strong> pour enregistrer la configuration adaptée ou
+compactée.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt5.png" alt="Layouts window" width="1902">
@@ -571,34 +556,40 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </div>
 <div class="sect1">
-<h2 id="_diviser_une_mise_en_page">Diviser une mise en page</h2>
+<h2 id="_diviser_une_configuration">Diviser une configuration</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>L&#8217;option <strong>Diviser les configurations&#8230;&#8203;</strong> vous permet de diviser une mise en page existante en plusieurs mises en page en modifiant les quantités, sans avoir besoin de refaire l&#8217;outillage ou l&#8217;imbrication.</p>
+<p>L&#8217;option <strong>Split layouts&#8230;&#8203;</strong> vous permet de diviser une
+configuration existante en plusieurs configurations en modifiant les quantités,
+sans avoir à refaire l&#8217;outillage ou l&#8217;imbrication.</p>
 </div>
 <div class="paragraph">
-<p>Cette fonction est particulièrement utile dans les scénarios suivants :</p>
+<p>Cette fonctionnalité est particulièrement utile dans les scénarios suivants :</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Lorsque vous devez produire une partie de la quantité totale immédiatement tout en planifiant la quantité restante pour une production ultérieure.</p>
+<p>Lorsque vous devez produire immédiatement une partie de la quantité totale
+tout en planifiant la quantité restante pour une production ultérieure.</p>
 </li>
 <li>
-<p>Lorsque les exigences de production doivent être réparties sur plusieurs quarts de travail ou jours pour optimiser le flux de travail et l&#8217;utilisation des ressources.</p>
+<p>Lorsque les besoins de production doivent être répartis sur plusieurs équipes
+ou jours afin d&#8217;optimiser le flux de travail et l&#8217;utilisation des ressources.</p>
 </li>
 <li>
-<p>Lorsqu&#8217;une machine spécifique est temporairement indisponible ou occupée, et que vous devez ajuster la mise en page pour tenir compte des contraintes de production actuelles.</p>
+<p>Lorsqu&#8217;une machine spécifique est temporairement indisponible ou occupée, et
+que vous devez ajuster la configuration pour tenir compte des contraintes de
+production actuelles.</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>Pour diviser une mise en page, effectuez les étapes suivantes :</p>
+<p>Pour diviser une configuration, procédez comme suit :</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Dans la vue Mises en page, sélectionnez la mise en page requise.</p>
+<p>Dans la vue Layouts, sélectionnez la configuration souhaitée.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/splitlayout.png" alt="Split layout" width="264">
@@ -606,15 +597,10 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </div>
 </li>
 <li>
-<p>Cliquez sur <strong>Diviser les configurations&#8230;&#8203;</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/layoutpanel.png" alt="Layout panel" width="155">
-</div>
-</div>
+<p>Cliquez sur <strong>Split layouts&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Entrez la valeur requise dans <strong>Nouvelles copies</strong>.</p>
+<p>Saisissez la valeur requise dans <strong>New Copies</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/newcopies.png" alt="New copies" width="389">
@@ -632,7 +618,8 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
 </ul>
 </div>
 <div class="paragraph">
-<p>La mise en page sélectionnée est maintenant divisée en deux mises en page avec des quantités ajustées.</p>
+<p>La configuration sélectionnée est maintenant divisée en deux configurations avec
+des quantités ajustées.</p>
 </div>
 </div>
 </div>
@@ -644,25 +631,25 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#send-to-machine">Envoi vers machine&#8230;&#8203;</a>
+   <a href="#send-to-machine">Send to machine</a>
   </li>
   <li level="1">
-   <a href="#_rappeler_depuis_machine">Rappeler depuis machine&#8230;&#8203;</a>
+   <a href="#_recall_from_machine">Recall from machine</a>
   </li>
   <li level="1">
-   <a href="#_exporter_sorties">Exporter sorties</a>
+   <a href="#_export_outputs">Export outputs</a>
   </li>
   <li level="1">
-   <a href="#mark-complete">Mark complete</a>
+   <a href="#mark-complete">Marquer comme terminé</a>
   </li>
   <li level="1">
-   <a href="#add-parts">Ajout de pièces&#8230;&#8203;</a>
+   <a href="#add-parts">Add parts&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#adapt-compact">Adaptation/compactage&#8230;&#8203;</a>
+   <a href="#adapt-compact">Adapt/Compact&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_diviser_une_mise_en_page">Diviser une mise en page</a>
+   <a href="#_diviser_une_configuration">Diviser une configuration</a>
   </li>
  </ul>
 </aside>
@@ -670,8 +657,8 @@ Export Outputs n&#8217;est pas disponible pour les mises en page qui sont termin
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="nestview.html">Vue de mise en page</a></span>
- <span class="next"><a href="reportsender.html">Expéditeur de rapport</a></span>
+ <span class="prev"><a href="nestview.html">Vue de configuration</a></span>
+ <span class="next"><a href="reportsender.html">Envoi de rapports</a></span>
 </nav>
 
         </div>

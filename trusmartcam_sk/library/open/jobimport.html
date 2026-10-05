@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Import úloh</title>
+  <title>Import úloh job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,47 +29,45 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardvérové požiadavky</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Podporované formáty súborov</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Predpoklady</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Inštalácia servera</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Inštalácia klienta</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Zmena licencie</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">Konfigurácia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Pridať/Odstrániť stroj</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Nastavenie náradia</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Pridanie/odstránenie stroja</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Nastavenie tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfigurácia používateľov</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Jazyk</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../configuration/addmaterial/index.html">Materiál</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Pridať nový materiál a hárok</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import materiálu</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Nahradiť materiál</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Pridanie nového materiálu a tabule</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/import materiálu</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Nahradenie materiálu</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mapovanie materiálu</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapovanie CAM stránok</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie klúče)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapovanie strán CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie kľúče)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../userinterface.html">Používateľské rozhranie</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Pracovný postup</a></li>
+  <li><button class="tree blank"></button><a href="../../userinterface.html">PoužívateĻské rozhranie</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../index.html">Knižnica</a>
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Otvoriť</a>
+     <a href="index.html">Otvorenie</a>
      <ul>
       <li><button class="tree blank"></button><a href="partimport.html">Import dielov</a></li>
       <li><button class="tree blank"></button><a href="orderimport.html">Import objednávok</a></li>
-      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Import úloh</a></li>
+      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Import úloh job</a></li>
       <li><button class="tree blank"></button><a href="assembliesimport.html">Import zostáv</a></li>
      </ul>
     </li>
@@ -78,7 +76,7 @@
      <a href="../libraryview/index.html">Zobrazenie knižnice</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../libraryview/partview.html">Diely</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Zostavy</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Zostava</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Stav obrábania</a>
+     <a href="../toolingstatus/index.html">Stav tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Validácia obrábania</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Validácia tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validácia ohýbacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validácia rezacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validácia skladacieho obrábania</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validácia tooling ohýbania</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validácia tooling rezania</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validácia tooling skladania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Panel obrábania</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Ukladanie filtrov</a></li>
@@ -118,80 +116,62 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Práce</a>
+   <a href="../../jobs/index.html">Úlohy job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Vytvorenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Zobrazenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Panel práce</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Vytvorenie úlohy job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Zobrazenie úloh job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Panel úlohy job</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automatické plánovanie</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktívne ukladanie</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktívny nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Prebaľovanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Správa hniezd</a>
+     <a href="../../jobs/layoutcommands/index.html">Správa nestov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Zobrazenie rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Panel rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Odosielateľ správ</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Zobrazenie rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Panel rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Odosielanie reportov</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/remnantmanagement/index.html">Správa zvyškov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatická správa zvyškov</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuálna správa zvyškov</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatické zvyšky</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuálne zvyšky</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Dvojlinové ukladanie</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Zastaralé</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtre prác</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Neaktuálne</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtre úloh job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Továreň</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Trasy</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Tabule</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Používatelia</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Úprava</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Zákazníci</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Nastavenia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Nastavenia prostredia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Nastavenia importu</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Nastavenia ohýbania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Nastavenia rezania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Oznámenia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Nastavenia sledovania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Nastavenia úloh job</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Nastavenia reportov</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD rozšírenia</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Inštalácia</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Uložiť diely</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Uložiť zostavu</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Skontrolovať uskutočniteľnosť</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Nastavenia továrne</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Rôzne vylepšenia</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">Informácie o spoločnosti</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">Firemné informácie</a></li>
  </ul>
 </div>
 
@@ -208,76 +188,60 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Otvoriť</a>
+  <a href="index.html">Otvorenie</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobimport.html">Import úloh</a>
+  <a href="jobimport.html">Import úloh job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Import úloh</h1>
+                        <h1>Import úloh job</h1>
 <div class="sect1">
 <h2 id="_import_z_csv_alebo_xlsx">Import z csv alebo xlsx</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Úlohy môžete tiež importovať v bežných textových formátoch</p>
+<p>Joby môžete importovať aj v bežných textových formátoch</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Kliknite na <strong>File &#8594; Open &#8594; Import zákaziek</strong>, zobrazí sa
-dialógové okno Open Folder. Vyberte <code>C:\Program
-Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv.png" alt="CSV import" width="426">
-</div>
-</div>
+<p>Kliknite na <strong>File &#8594; Open &#8594; Import Jobs</strong>, zobrazí sa
+dialógové okno Open Folder. Vyberte
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
 </li>
 <li>
-<p>Ak všetky diely existujú v umiestnení csv alebo v priečinkoch lookup folder,
-zobrazí sa okno <strong>nová zákazka</strong> so zoznamom všetkých dielov zodpovedajúcich poliam csv.</p>
+<p>Ak všetky diely existujú v umiestnení csv alebo v priečinkoch vyhľadávania,
+zobrazí sa okno <strong>new job</strong> so zoznamom všetkých dielov, ktoré
+zodpovedajú políam csv.</p>
 </li>
 <li>
-<p>Chýbajúce diely sú ignorované a nezobrazia sa v okne <strong>nová zákazka</strong>.</p>
+<p>Chýbajúce diely sú ignorované a nezobrazujú sa v okne <strong>new job</strong>.</p>
 </li>
 <li>
-<p>Pôvodne je stav dielu Nascent.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv2.png" alt="CSV import" width="908">
-</div>
-</div>
+<p>Spočiatku je stav dielu Nascent.</p>
 </li>
 <li>
-<p>Kliknite na <strong>OK</strong>, teraz sú diely importované do knižnice dielov. Validácia CAD,
-obrábanie pre ohyb a rezaciu inštanciu obrábania je dokončené, čo môže byť
-monitorované na obrazovke <strong>Pmonitor</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv3.png" alt="CSV import" width="1438">
-</div>
-</div>
+<p>Kliknite na <strong>OK</strong>, teraz sú diely importované do knižnice dielov.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_vytvoriť_prázdny_dielec_pre_chýbajúce_cad_súbory">Vytvoriť prázdny dielec pre chýbajúce CAD súbory</h3>
+<h3 id="_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</h3>
 <div class="paragraph">
-<p>Pri importovaní úloh pomocou tabuľky (.csv alebo .xlsx) môžete niekedy mať
-riadky odkazujúce na súbory CAD, ktoré nie sú dostupné v systéme.</p>
+<p>Pri importe jobov pomocou tabuľky (.csv alebo .xlsx) môžete niekedy mať riadky,
+ktoré odkazujú na súbory CAD, ktoré nie sú dostupné v systéme.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Na riešenie tohto prejdite do <strong>závod</strong>
- &#8594; <strong>Nastavenia</strong> &#8594; <strong>Zákazka</strong>,
- v časti <strong>Import tabuľky</strong> povoľte
-<strong>Vytvoriť prázdny dielec pre chýbajúce CAD súbory</strong></p>
+<p>Ak to chcete ošetriť, prejdite do <strong>Factory</strong>
+ &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong>,
+ v časti <strong>Spreadsheet import settings</strong> povoľte
+<strong>Create a blank part for the missing CAD files</strong></p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csv6.png" alt="Spreadsheet import" width="801">
@@ -287,57 +251,49 @@ riadky odkazujúce na súbory CAD, ktoré nie sú dostupné v systéme.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Keď je táto možnosť zvolená:</p>
+<p>Keď je táto možnosť vybraná:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Ak chýba súbor CAD pre ľubovoľný riadok počas importu úlohy, systém automaticky
+<p>Ak chýba súbor CAD pre ľubovoľný riadok počas importu jobu, systém automaticky
 vytvorí prázdny diel namiesto chýbajúceho súboru CAD.</p>
 </li>
 <li>
-<p>V okne <strong>nová zákazka</strong> sú tieto chýbajúce diely vizuálne
-zvýraznené žltou farbou, aby indikovali, že priradený súbor CAD chýba.</p>
-<div class="paragraph">
-<p><span class="image"><img src="img/csv4.png" alt="Edit jobs" width="578"></span></p>
-</div>
+<p>V okne <strong>new job</strong> sú tieto chýbajúce diely vizuálne zvýraznené
+nažlto, aby signalizovali, že prislchájúci súbor CAD chýba.</p>
 </li>
 <li>
-<p>Chýbajúci diel bude stále mať svoje namapované polia (ako názov dielu, materiál,
-hrúbka, množstvo atď.) z CSV. Avšak jeho stav dielu bude zobrazený
-ako Nascent, čo znamená, že je to len prázdny zástupný symbol bez skutočnej geometrie
-ešte.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv5.png" alt="Nascent parts" width="1110">
-</div>
-</div>
+<p>Chýbajúci diel bude mať stále svoje priradené polia (ako názov dielu, materiál,
+hrúbku, množstvo atď.) z CSV. Jeho stav dielu sa však zobrazí ako Nascent, čo
+znamená, že ide iba o prázdny zdstupný symbol bez skutočnej geometrie.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>To zabezpečuje, že import úlohy môže stále pokračovať bez chýb kvôli
-chýbajúcim súborom CAD — neskôr môžete aktualizovať alebo nahradiť prázdny diel
+<p>Týmto sa zabezpečí, že import jobu môže pokračovať bez chýb spôsobených
+chýbajúcimi súbormi CAD — prázdny diel môžete neskôr aktualizovať alebo nahradiť
 správnym súborom CAD, keď bude dostupný.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_nezobrazovať_dialógové_okno_nová_zákazka_ak_tabuľka_neobsahuje_chybu">Nezobrazovať dialógové okno Nová zákazka, ak tabuľka neobsahuje chybu</h3>
+<h3 id="_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</h3>
 <div class="paragraph">
-<p><strong>závod</strong> &#8594; <strong>Nastavenia</strong> &#8594;
-<strong>Zákazka</strong> → <strong>Import tabuľky</strong>→
-<strong>Nezobrazovať dialógové okno Nová zákazka, ak tabuľka neobsahuje chybu</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> → <strong>Spreadsheet import settings</strong>→
+<strong>Do not show the New Job dialog if the spreadsheet has no error</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Keď je toto políčko začiarknuté, systém automaticky vytvorí novú úlohu bez
-zobrazenia dialógového okna New Job, ak tabuľka nemá žiadne chyby (žiadne chýbajúce diely,
-chýbajúce dátumy alebo neplatné dáta).</p>
+<p>Keď je toto začiarkavacie políčko vybrané, systém automaticky vytvorí nový job
+bez zobrazenia dialógového okna New Job, ak tabuľka neobsahuje žiadne chyby
+(žiadne chýbajúce diely, chýbajúce dátumy ani neplatné údaje).</p>
 </li>
 <li>
-<p>Keď je toto políčko nezačiarknuté, dialógové okno New Job sa vždy zobrazí na kontrolu
-a potvrdenie používateľa, aj keď tabuľka nemá žiadne chyby.</p>
+<p>Keď je toto začiarkavacie políčko zrušené, dialógové okno New Job sa vždy
+zobrazí na kontrolu a potvrdenie používateľom, aj keď tabuľka neobsahuje žiadne
+chyby.</p>
 </li>
 </ul>
 </div>
@@ -345,20 +301,20 @@ a potvrdenie používateľa, aj keď tabuľka nemá žiadne chyby.</p>
 <div class="sect2">
 <h3 id="_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</h3>
 <div class="paragraph">
-<p><strong>závod</strong> &#8594; <strong>Nastavenia</strong> &#8594;
-<strong>Zákazka</strong>→<strong>Prefer Raw-Material column over Material + Thickness</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong>→<strong>Prefer Raw-Material column over Material + Thickness</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Keď je toto políčko začiarknuté, systém očakáva, že tabuľka použije
-stĺpec Raw-Material (napríklad Steel-20). To znamená, že typ materiálu a
-hrúbka by mali byť kombinované v jednej hodnote v jednom stĺpci.</p>
+<p>Keď je toto začiarkavacie políčko vybrané, systém očakáva, že tabuľka použije
+stĺpec Raw-Material (napríklad Steel-20). To znamená, že typ materiálu a hrúbka
+by mali byť skombinované v jednej hodnote v jednom stĺpci.</p>
 </li>
 <li>
-<p>Keď je toto políčko nezačiarknuté, systém očakáva, že tabuľka bude mať
-oddelené stĺpce pre Material a Thickness (napríklad Steel a 2.00).
-Systém ich kombinuje interne počas importu.</p>
+<p>Keď je toto začiarkavacie políčko zrušené, systém očakáva, že tabuľka bude mať
+samostatné stĺpce pre Material a Thickness (napríklad Steel a 2.00). Systém ich
+počas importu interne skombinuje.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csvmaterial.png" alt="CSV Raw Material and Material+Thickness">
@@ -376,16 +332,16 @@ Systém ich kombinuje interne počas importu.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>V <strong>závod</strong> &#8594; <strong>Nastavenia</strong>&#8594;
-<strong>Sledovanie zmien</strong> začiarknite <strong>Povoliť 'Živý priečinok'</strong>
-a <strong>Náhľad aj podpriečinkov</strong>.</p>
+<p>V <strong>factory</strong> &#8594; <strong>Settings</strong>&#8594;
+<strong>Watch settings</strong> začiarknite <strong>Enable 'Live Folder'</strong>
+a <strong>Watch sub-folders also</strong>.</p>
 </li>
 <li>
-<p>Nastavte cestu sledovaného priečinka (UNC alebo mapovanú jednotku).</p>
+<p>Nastavte cestu k sledovanému priečinku (UNC alebo mapovaný disk).</p>
 </li>
 <li>
-<p>V <strong>Import tabuľky</strong> začiarknite
-<strong>Importovať tabuľky zo 'Živého priečinka'</strong>.</p>
+<p>V <strong>Spreadsheet import settings</strong> začiarknite
+<strong>Import spreadsheet from 'Live Folder'</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/watchfolder.png" alt="Watch folder" width="702">
@@ -393,38 +349,41 @@ a <strong>Náhľad aj podpriečinkov</strong>.</p>
 </div>
 </li>
 <li>
-<p>Vyberte <strong>Import zákaziek</strong> z možností Spreadsheet Import.</p>
+<p>Vyberte <strong>Import Jobs</strong> z možností importu tabuľky.</p>
 </li>
 <li>
-<p>Skopírujte <code>C:\Program Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code> a vložte ho
-do sledovaného priečinka.</p>
+<p>Skopírujte
+<code>C:Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>
+a vložte ho do sledovaného priečinka.</p>
 </li>
 <li>
-<p>Systém skontroluje CSV a pokúsi sa automaticky vytvoriť úlohu.</p>
+<p>Systém skontroluje CSV a pokúsi sa automaticky vytvoriť job.</p>
 </li>
 <li>
-<p>Ak chýba súbor CAD, úloha nie je vytvorená, pretože požadované dáta CAD nie sú nájdené.</p>
+<p>Ak súbor CAD chýba, žiadny job sa nevytvorí, pretože sa nenašli požadované
+údaje CAD.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_cad_lookup_directory_recursive_cad_search_nekonfigurované">CAD lookup directory &amp; recursive CAD search - nekonfigurované</h3>
+<h3 id="_priečinok_vyhľadávania_cad_a_rekurzívne_vyhľadávanie_cad_nenakonfigurované">Priečinok vyhľadávania CAD a rekurzívne vyhľadávanie CAD - nenakonfigurované</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>V <strong>závod</strong> &#8594; <strong>Nastavenia</strong> &#8594;
-<strong>Zákazka</strong> &#8594; <strong>Import tabuľky</strong>,
-ak nie je nastavené <strong>CAD lookup directories</strong> a
-<strong>Použite rekurzívne vyhľadávanie CAD</strong> nie je použité, systém
-nehľadá súbory CAD automaticky.</p>
+<p>V <strong>factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong> &#8594; <strong>Spreadsheet import settings</strong>,
+ak nie je nastavený žiadny <strong>CAD lookup directories</strong>
+a nepoužíva sa <strong>Use recursive CAD search</strong>, systém
+nevyhľadáva súbory CAD automaticky.</p>
 </li>
 <li>
-<p>Ak je začiarknuté políčko <strong>Vytvoriť prázdny dielec pre chýbajúce CAD súbory</strong>,
-úloha bude stále vytvorená aj keď chýbajú súbory CAD.</p>
+<p>Ak je vybrané začiarkavacie políčko
+<strong>Create a blank part for the missing CAD files</strong>, job sa
+vytvorí aj vtedy, keď súbory CAD chýbajú.</p>
 </li>
 <li>
-<p>V tomto prípade budú všetky diely v úlohe vytvorené ako nascent (prázdne) diely —
-čo znamená, že nemajú geometriu, pretože súbory CAD neboli nájdené.</p>
+<p>V tomto prípade sa všetky diely v jobe vytvoria ako nascent (prázdne) diely —
+čo znamená, že nemajú žiadnu geometriu, pretože súbory CAD sa nepodarilo nájsť.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/notconfigured.png" alt="Create blank parts" width="867">
@@ -435,24 +394,24 @@ nehľadá súbory CAD automaticky.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cad_lookup_directory_recursive_cad_search_nakonfigurované">CAD lookup directory &amp; recursive CAD search - nakonfigurované</h3>
+<h3 id="_priečinok_vyhľadávania_cad_a_rekurzívne_vyhľadávanie_cad_nakonfigurované">Priečinok vyhľadávania CAD a rekurzívne vyhľadávanie CAD - nakonfigurované</h3>
 <div class="paragraph">
-<p>Keď je <strong>Vyhľadávacie adresáre CAD</strong> nastavené na
-(C:\Program Files\Metamation\Praxis\Samples) a
-<strong>Použite rekurzívne vyhľadávanie CAD</strong> je povolené v
-<strong>závod</strong> &#8594; <strong>Nastavenia</strong> &#8594; <strong>Zákazka</strong>
-&#8594; <strong>Import tabuľky</strong>:</p>
+<p>Keď je <strong>CAD lookup directories</strong> nastavený na
+(C:\Program Files\TRUMPF\TMM\Praxis\Samples)
+a <strong>Use recursive CAD search</strong> je povolený v časti
+<strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong>
+&#8594; <strong>Spreadsheet import settings</strong>:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Systém automaticky prehľadáva špecifikovaný priečinok a všetky jeho podpriečinky
+<p>Systém automaticky prehľadáva zadaný priečinok a všetky jeho podpriečinky
 pre požadované súbory CAD uvedené v tabuľke.</p>
 </li>
 <li>
-<p><strong>Vytvoriť prázdny dielec pre chýbajúce CAD súbory</strong> je
-tiež povolené, takže ak nie je stále nájdený žiadny súbor CAD, systém vytvorí
-prázdny diel ako zástupný symbol.</p>
+<p><strong>Create a blank part for the missing CAD files</strong> je tiež
+povolený, takže ak sa niektorý súbor CAD stále nenájde, systém vytvorí prázdny
+diel ako zdstupný symbol.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/configured.png" alt="Create blank parts" width="861">
@@ -475,10 +434,10 @@ prázdny diel ako zástupný symbol.</p>
    <a href="#_import_z_csv_alebo_xlsx">Import z csv alebo xlsx</a>
   </li>
   <li level="2">
-   <a href="#_vytvoriť_prázdny_dielec_pre_chýbajúce_cad_súbory">Vytvoriť prázdny dielec pre chýbajúce CAD súbory</a>
+   <a href="#_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</a>
   </li>
   <li level="2">
-   <a href="#_nezobrazovať_dialógové_okno_nová_zákazka_ak_tabuľka_neobsahuje_chybu">Nezobrazovať dialógové okno Nová zákazka, ak tabuľka neobsahuje chybu</a>
+   <a href="#_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</a>
   </li>
   <li level="2">
    <a href="#_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</a>
@@ -487,10 +446,10 @@ prázdny diel ako zástupný symbol.</p>
    <a href="#_sledovaný_priečinok_pomocou_csvxlsx">Sledovaný priečinok pomocou CSV/XLSX</a>
   </li>
   <li level="2">
-   <a href="#_cad_lookup_directory_recursive_cad_search_nekonfigurované">CAD lookup directory &amp; recursive CAD search - nekonfigurované</a>
+   <a href="#_priečinok_vyhľadávania_cad_a_rekurzívne_vyhľadávanie_cad_nenakonfigurované">Priečinok vyhľadávania CAD a rekurzívne vyhľadávanie CAD - nenakonfigurované</a>
   </li>
   <li level="2">
-   <a href="#_cad_lookup_directory_recursive_cad_search_nakonfigurované">CAD lookup directory &amp; recursive CAD search - nakonfigurované</a>
+   <a href="#_priečinok_vyhľadávania_cad_a_rekurzívne_vyhľadávanie_cad_nakonfigurované">Priečinok vyhľadávania CAD a rekurzívne vyhľadávanie CAD - nakonfigurované</a>
   </li>
  </ul>
 </aside>

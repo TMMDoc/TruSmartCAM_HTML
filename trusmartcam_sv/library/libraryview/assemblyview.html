@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Montering</title>
+  <title>Sammanställning</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
      <a href="index.html">Biblioteksvy</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a class="active" href="assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a class="active" href="assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Delstatus</a>
+     <a href="../partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Verktygsstatus</a>
+     <a href="../toolingstatus/index.html">Tooling-status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Ordrar</a>
+   <a href="../../orders/index.html">Order</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Jobb</a>
+   <a href="../../jobs/index.html">Job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Häckhantering</a>
+     <a href="../../jobs/layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Resthantering</a>
+     <a href="../../jobs/remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -212,37 +192,37 @@
  </div>
  <div>/</div>
  <div>
-  <a href="assemblyview.html">Montering</a>
+  <a href="assemblyview.html">Sammanställning</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Montering</h1>
+                        <h1>Sammanställning</h1>
 <div class="sect1">
-<h2 id="_skapa_statiska_nestningar_från_en_montering">Skapa statiska nestningar från en montering</h2>
+<h2 id="_skapa_statiska_nests_från_en_sammanställning">Skapa statiska nests från en sammanställning</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Statiska nestningar kan genereras för en montering med hjälp av den interaktiva
-nestningsguiden.
-Dessa nestningar är fasta layouter associerade endast med den valda monteringen.</p>
+<p>Statiska nests kan genereras för en sammanställning med hjälp av guiden för
+interaktiv nesting.
+Dessa nests är fasta layouter som endast är kopplade till den valda sammanställningen.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Växla till vyn <strong>Moduler</strong>.</p>
+<p>Växla till vyn <strong>assys</strong>.</p>
 </li>
 <li>
-<p>Högerklicka på den önskade monteringen och välj
-<strong>Skapa nesting&#8230;&#8203;</strong>.</p>
+<p>Högerklicka på önskad sammanställning och välj
+<strong>Create Nests&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Den interaktiva nestningsguiden öppnas.</p>
+<p>Guiden för interaktiv nesting öppnas.</p>
 </li>
 <li>
-<p>Som standard växlar den interaktiva nestningsguiden till sidan
-<strong>Välj maskin &amp; material</strong>.</p>
+<p>Som standard växlar guiden för interaktiv nesting till sidan
+<strong>Select Machine &amp; Material</strong>.</p>
 </li>
 </ul>
 </div>
@@ -254,39 +234,39 @@ Dessa nestningar är fasta layouter associerade endast med den valda monteringen
 <div class="ulist">
 <ul>
 <li>
-<p>Maskiner visas med färgfält som indikerar tillgänglig produktionskapacitet:</p>
+<p>Maskiner visas med färgade staplar som anger tillgänglig produktionsbelastning:</p>
 <div class="ulist">
 <ul>
 <li>
 <p>Grön stapel: Schemalagda timmar</p>
 </li>
 <li>
-<p>Grå stapel: Tillgängliga timmar (av ett 8-timmars skift)</p>
+<p>Grå stapel: Tillgängliga timmar (av ett 8-timmarsskift)</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Under varje maskin grupperas valda delar med deras råmaterial
-(Delar/Total kvantitet).</p>
+<p>Under varje maskin grupperas valda detaljer med sitt råmaterial
+(Detaljer/Totalt antal).</p>
 </li>
 <li>
-<p>Om en del inte har en giltig verktygningslösning för en maskin ignoreras den
-delen och materialet för bearbetning för den givna maskinen.</p>
+<p>Om en detalj inte har en giltig tooling-lösning för en maskin ignoreras den detaljen och
+det materialet vid bearbetning för den givna maskinen.</p>
 </li>
 <li>
-<p>Om ett råmaterial väljs för en maskin kommer det inte att vara tillgängligt
-för andra maskiner.</p>
+<p>Om ett råmaterial är valt för en maskin är det inte tillgängligt för andra
+maskiner.</p>
 </li>
 <li>
-<p>När maskinnestningsplanen är inställd, välj önskat ark och åsidosätt
-arkparametrar som <strong>Prioritet</strong>,
-<strong>Antal</strong>, <strong>Plåtmarginaler</strong>, etc.</p>
+<p>När maskinens nest-plan är inställd, välj önskad plåt och
+åsidosätt plåtparametrar som <strong>Priority</strong>,
+<strong>Quantity</strong>, <strong>Margins</strong> osv.</p>
 </li>
 <li>
-<p>Ni kan filtrera ark för att visa <strong>Alla plåtar</strong>,
-<strong>Standardplåtar</strong> eller
-<strong>Restplåtar</strong>. Klicka på <strong>Nästa</strong>.</p>
+<p>Du kan filtrera plåtar för att visa <strong>All Sheets</strong>,
+<strong>Standard Sheets</strong> eller
+<strong>Remnant Sheets</strong>. Klicka på <strong>next</strong>.</p>
 </li>
 </ul>
 </div>
@@ -297,9 +277,9 @@ arkparametrar som <strong>Prioritet</strong>,
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Det är inte möjligt att öka kvantiteterna i detta skede. Ni kan
-antingen behålla samma kvantitet som arklagerkvantiteten eller minska den och
-kontrollera nestningsresultaten.
+Det går inte att öka antalen i detta skede. Du kan
+antingen behålla samma som plåtlagrets antal eller minska det och
+kontrollera nesting-resultaten.
 </td>
 </tr>
 </table>
@@ -307,25 +287,15 @@ kontrollera nestningsresultaten.
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Uppdatera antal</strong> visas i fönstret för interaktiv
-nestningsplan.</p>
+<p><strong>Update Qty</strong> visas i fönstret för interaktiv nesting-plan.</p>
 </li>
 <li>
-<p>Som standard inkluderar <strong>Ta upp alla (F5)</strong> alla delar för
-nestning, eller så kan ni manuellt välja prioriterade delar och justera
-delkvantiteter. Klicka på <strong>Nästa</strong>.</p>
+<p>Som standard inkluderar <strong>Pick All (F5)</strong> alla detaljer för
+nesting, eller så kan du manuellt välja prioriterade detaljer och justera detaljantal.
+Klicka på <strong>next</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/assemblyquantity.png" alt="Update quantity">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Nestning startar och delar som nestats i arket uppdateras med blå färgstatus.</p>
+<p>Nesting startar och detaljer som nestats i plåten uppdateras med blå statusfärg.</p>
 </li>
 </ul>
 </div>
@@ -337,27 +307,27 @@ delkvantiteter. Klicka på <strong>Nästa</strong>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Maskinens produktionskapacitet uppdateras baserat på nestningsresultatet.</p>
+<p>Maskinens produktionsbelastning uppdateras baserat på nest-resultatet.</p>
 </li>
 <li>
-<p>Om vissa delar förblir onestade visas meddelandet
-<strong>Vissa detaljer är fortfarande onestade</strong> - dessa delar stannar kvar
+<p>Om vissa detaljer förblir onestade visas meddelandet
+<strong>Some parts remain unnested</strong> – dessa detaljer stannar kvar
 i det ursprungliga jobbet.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>En del kan förbli onestad om inget lämpligt ark är tillgängligt.</p>
+<p>En detalj kan förbli onestad om ingen lämplig plåt är tillgänglig.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Statiska nestningar kan redigeras för att inkludera onestade delar:</p>
+<p>Statiska nests kan redigeras för att inkludera onestade detaljer:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Välj layouten där ni vill infoga onestade delar och checka ut den för
-redigering.</p>
+<p>Välj den layout där du vill infoga onestade detaljer och checka ut den
+för redigering.</p>
 </li>
 </ul>
 </div>
@@ -372,9 +342,9 @@ redigering.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>TecZone öppnas. Klicka på <strong>_Plocka</strong> eller
-<strong>Plocka _alla</strong> för att välja onestade delar från
-överordnad montering.</p>
+<p>TecZone öppnas. Klicka på <strong>Pick</strong> eller
+<strong>Pick All</strong> för att välja onestade detaljer från den
+överordnade sammanställningen.</p>
 </li>
 </ul>
 </div>
@@ -386,7 +356,7 @@ redigering.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Arrangera delen i layouten efter behov.</p>
+<p>Ordna detaljen i layouten efter behov.</p>
 </li>
 </ul>
 </div>
@@ -398,7 +368,7 @@ redigering.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Genererade nestningar namnges automatiskt efter överordnad montering för enkel
+<p>Genererade nests namnges automatiskt efter den överordnade sammanställningen för enkel
 identifiering.</p>
 </li>
 </ul>
@@ -410,9 +380,9 @@ identifiering.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Statiska nestningar kan inte innehålla delar från andra monteringar. Att
-tillåta blandade monteringsnestningar skulle förhindra frisläppande av en
-montering utan att frisläppa de andra, så blandning är inte tillåtet av design.
+Statiska nests kan inte innehålla detaljer från andra sammanställningar. Att tillåta blandade
+sammanställningsnests skulle förhindra att en sammanställning släpps utan att släppa de
+andra, så blandning är otillåten enligt design.
 </td>
 </tr>
 </table>
@@ -420,30 +390,30 @@ montering utan att frisläppa de andra, så blandning är inte tillåtet av desi
 </div>
 </div>
 <div class="sect1">
-<h2 id="_komponenter_som_inte_är_plåt">Komponenter som inte är plåt</h2>
+<h2 id="_icke_plåtkomponenter">Icke-plåtkomponenter</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>När en montering importeras extraheras plåtdelar och läggs till i
-monteringar i delbiblioteket.</p>
+<p>När en sammanställning importeras extraheras plåtdetaljer och läggs till i
+sammanställningar i detaljbiblioteket.</p>
 </li>
 <li>
-<p>Komponenter som inte är plåt separeras och läggs till i
-<strong>Komponenter</strong>.</p>
+<p>Icke-plåtkomponenter separeras och läggs till i
+<strong>Components</strong>.</p>
 </li>
 <li>
-<p>Monteringen läggs till i monteringsbiblioteket och dess BOM
-(Bill of Materials) innehåller både delar och komponenter.</p>
+<p>Sammanställningen läggs till i sammanställningsbiblioteket och dess BOM
+(Bill of Materials) innehåller både detaljer och komponenter.</p>
 </li>
 <li>
-<p>Om en del redan har importerats som en plåtdel uppdaterar systemet den
-befintliga posten och tar bort dubbletter från delbiblioteket.</p>
+<p>Om en detalj redan har importerats som en plåtdetalj uppdaterar systemet
+den befintliga posten och tar bort dubbletter från detaljbiblioteket.</p>
 </li>
 <li>
-<p>Att välja en montering visar både delar och komponenter, med
-komponentkvantiteter visade under komponentbilden (vald monteringskomponent-
-antal och totalt komponentantal).</p>
+<p>Att välja en sammanställning visar både detaljer och komponenter, med komponent-
+antal visade under komponentbilden (valda sammanställningens komponentantal
+och totalt komponentantal).</p>
 </li>
 </ul>
 </div>
@@ -455,27 +425,27 @@ antal och totalt komponentantal).</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Komponentverktygstips visar namn, material och storlek.
-Komponenter exkluderas under produktion - de nestas inte och inga ark genereras
-för komponenter.</p>
+<p>Komponentens verktygstips visar namn, material och storlek.
+Komponenter utesluts under produktion – de nestas inte, och inga
+plåtar genereras för komponenter.</p>
 </li>
 <li>
-<p>Exempelmonterings och komponenter finns tillgängliga på:
-C:\Program Files\Metamation\Praxis\Samples\Assys\Components, som kan
-användas för att testa komponentimport och monteringsarbetsflöden.</p>
+<p>Exempelsammanställningar och komponenter finns tillgängliga på:
+C:\Program Files\TRUMPF\TMM\Praxis\Samples\Assys\Components,
+som kan användas för att testa komponentimport och arbetsflöden för sammanställningar.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_skapa_jobb_från_montering">Skapa jobb från montering</h2>
+<h2 id="_skapa_job_från_sammanställning">Skapa job från sammanställning</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Högerklicka på monteringen, klicka på <strong>Ny&#8230;&#8203;</strong> och sedan
-<strong>Jobb</strong>.</p>
+<p>Högerklicka på sammanställningen, klicka på <strong>New&#8230;&#8203;</strong> och sedan
+<strong>Job</strong>.</p>
 </li>
 </ul>
 </div>
@@ -487,9 +457,8 @@ användas för att testa komponentimport och monteringsarbetsflöden.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>I dialogrutan Nytt jobb, ange monteringsantalet, klicka på <strong>OK</strong>,
-och uppdatera sedan jobbdetaljer (såsom förfallodatum och prioritet) efter
-behov.</p>
+<p>I dialogrutan New Job, ställ in antalet sammanställningar, klicka på <strong>OK</strong>
+och uppdatera sedan jobbinformation (såsom förfallodatum och prioritet) efter behov.</p>
 </li>
 </ul>
 </div>
@@ -501,9 +470,9 @@ behov.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Systemet skapar ett jobb från monteringen och kopierar statiska nestningar som
-jobbnestningar, vilket uppdaterar arkantal. Kopierade nestningar får jobbID som
-prefix.</p>
+<p>Systemet skapar ett job från sammanställningen och kopierar statiska nests som
+job-nests och uppdaterar plåtantalet. Kopierade nests förses med prefix bestående av
+job-ID.</p>
 </li>
 </ul>
 </div>
@@ -515,12 +484,12 @@ prefix.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Jobbnestningar kan redigeras eller raderas utan att påverka de ursprungliga
-statiska nestningarna.</p>
+<p>Job-nests kan redigeras eller tas bort utan att påverka de ursprungliga
+statiska nests:en.</p>
 </li>
 <li>
-<p>Jobbnestningar kan packas om med hjälp av <strong>Anpassa/kompakt&#8230;&#8203;</strong>
-eller <strong>Lägg till detaljer&#8230;&#8203;</strong>.</p>
+<p>Job-nests kan packas om med <strong>Adapt/Compact&#8230;&#8203;</strong> eller
+<strong>Add parts&#8230;&#8203;</strong>.</p>
 </li>
 <li>
 <p>För detaljerade steg, se
@@ -537,16 +506,15 @@ eller <strong>Lägg till detaljer&#8230;&#8203;</strong>.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Om en del inte visas i en nestning, kontrollera redigeringsdialogen för
-nestning - ni kan infoga onestade delar manuellt.</p>
+<p>Om en detalj inte visas i en nest, kontrollera dialogrutan för nest-redigering – du kan
+infoga onestade detaljer manuellt.</p>
 </div>
 <div class="paragraph">
-<p>Använd sparade sökningar och filter för att snabbt hitta delar över flera
-monteringar.</p>
+<p>Använd sparade sökningar och filter för att snabbt hitta detaljer i flera sammanställningar.</p>
 </div>
 <div class="paragraph">
-<p>Använd tydliga, beskrivande monterings- och nestningsnamn för att undvika
-förvirring när ni kopierar nestningar till jobb.</p>
+<p>Använd tydliga, beskrivande namn på sammanställningar och nests för att undvika förvirring vid
+kopiering av nests till job.</p>
 </div>
 </td>
 </tr>
@@ -562,13 +530,13 @@ förvirring när ni kopierar nestningar till jobb.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_skapa_statiska_nestningar_från_en_montering">Skapa statiska nestningar från en montering</a>
+   <a href="#_skapa_statiska_nests_från_en_sammanställning">Skapa statiska nests från en sammanställning</a>
   </li>
   <li level="1">
-   <a href="#_komponenter_som_inte_är_plåt">Komponenter som inte är plåt</a>
+   <a href="#_icke_plåtkomponenter">Icke-plåtkomponenter</a>
   </li>
   <li level="1">
-   <a href="#_skapa_jobb_från_montering">Skapa jobb från montering</a>
+   <a href="#_skapa_job_från_sammanställning">Skapa job från sammanställning</a>
   </li>
  </ul>
 </aside>
@@ -576,8 +544,8 @@ förvirring när ni kopierar nestningar till jobb.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="partview.html">Delar</a></span>
- <span class="next"><a href="../partstate/index.html">Delstatus</a></span>
+ <span class="prev"><a href="partview.html">Detaljer</a></span>
+ <span class="next"><a href="../partstate/index.html">Detaljstatus</a></span>
 </nav>
 
         </div>

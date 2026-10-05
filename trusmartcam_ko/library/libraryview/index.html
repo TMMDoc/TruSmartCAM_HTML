@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Library view</title>
+  <title>라이브러리 보기</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,17 +29,15 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">하드웨어 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">지원되는 파일 형식</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">사전 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">서버 설치</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">클라이언트 설치</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">라이선스 변경</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">구성</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">기계 추가/제거</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">머신 추가/제거</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">툴링 설정</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">사용자 구성</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">언어</a></li>
@@ -54,85 +52,85 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">재료 매핑</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM 페이지 매핑</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑 (조회 키)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑(조회 키)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">사용자 인터페이스</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로우</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로</a></li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Library</a>
+   <a href="../index.html">라이브러리</a>
    <ul>
     <li>
      <button class="tree closed"></button>
-     <a href="../open/index.html">Open</a>
+     <a href="../open/index.html">열기</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../open/partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a href="../open/orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a href="../open/jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="../open/partimport.html">부품 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../open/orderimport.html">오더 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../open/jobimport.html">작업 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">어셈블리 가져오기</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a class="active" href="index.html">Library view</a>
+     <a class="active" href="index.html">라이브러리 보기</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="partview.html">부품</a></li>
+      <li><button class="tree blank"></button><a href="assemblyview.html">어셈블리</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Part status</a>
+     <a href="../partstate/index.html">부품 상태</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">부품 검증</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">부품 패널</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">부품 필터</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Tooling status</a>
+     <a href="../toolingstatus/index.html">툴링 상태</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">툴링 검증</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">밴딩 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">절단 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">폴딩 툴링 검증</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">툴링 패널</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">필터 저장</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">주문</a>
+   <a href="../../orders/index.html">오더</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">주문 보기</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">오더 보기</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Jobs</a>
+   <a href="../../jobs/index.html">작업</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">작업 생성</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">작업 보기</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">작업 패널</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">자동 계획</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">대화형 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재포장</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재패킹</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/layoutcommands/index.html">네스트 관리</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">레이아웃 보기</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">레이아웃 패널</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">보고서 발신자</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">리포트 전송기</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">수동 잔재 관리</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">트윈라인 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">구식</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline 네스팅</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">오래된 항목</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">작업 필터</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">팩토리</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">루트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">시트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">사용자</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">편집</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">고객</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">설정</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 확장 기능</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 추가 기능</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">설치</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">부품 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">어셈블리 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">실행 가능성 확인</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">공장 설정</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">기타 개선 사항</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">환경</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">밴딩</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">절단</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">알림</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">감시</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">작업</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">리포트</a></li>
      </ul>
     </li>
    </ul>
@@ -204,28 +184,28 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Library</a>
+  <a href="../index.html">라이브러리</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Library view</a>
+  <a href="index.html">라이브러리 보기</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Library view</h1>
+                        <h1>라이브러리 보기</h1>
 <div class="paragraph">
-<p>Library는 데이터를 효율적으로 구성하고 액세스할 수 있는 두 가지 보기 모드를 제공합니다:</p>
+<p>Library 는 데이터를 효율적으로 구성하고 액세스할 수 있는 두 가지 보기 모드를 제공합니다:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="partview.html">Parts</a></p>
+<p><a href="partview.html">부품</a></p>
 </li>
 <li>
-<p><a href="assemblyview.html">Assembly</a></p>
+<p><a href="assemblyview.html">어셈블리</a></p>
 </li>
 </ul>
 </div>
@@ -237,8 +217,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="../open/assembliesimport.html">Import assemblies</a></span>
- <span class="next"><a href="partview.html">Parts</a></span>
+ <span class="prev"><a href="../open/assembliesimport.html">어셈블리 가져오기</a></span>
+ <span class="next"><a href="partview.html">부품</a></span>
 </nav>
 
         </div>

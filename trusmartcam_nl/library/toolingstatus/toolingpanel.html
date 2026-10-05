@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Gereedschapspaneel</title>
+  <title>Toolingpaneel</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardwarevereisten</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Ondersteunde bestandsformaten</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Vereisten</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Serverinstallatie</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Clientinstallatie</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Licentie wijzigen</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../../configuration/index.html">Configuratie</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Machine toevoegen/verwijderen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Gereedschap instellen</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Tooling instellen</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Gebruikers configureren</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Taal</a></li>
     <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Materiaal toewijzen</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM-pagina's toewijzen</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Velden uit CAD toewijzen (zoeksleutels)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Velden toewijzen vanuit CAD (opzoeksleutels)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">De gebruikersinterface</a></li>
@@ -70,7 +68,7 @@
       <li><button class="tree blank"></button><a href="../open/partimport.html">Onderdelen importeren</a></li>
       <li><button class="tree blank"></button><a href="../open/orderimport.html">Orders importeren</a></li>
       <li><button class="tree blank"></button><a href="../open/jobimport.html">Jobs importeren</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Assemblages importeren</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Samenstellingen importeren</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../libraryview/index.html">Bibliotheekweergave</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../libraryview/partview.html">Onderdelen</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Samenstelling</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Gereedschapsstatus</a>
+     <a href="index.html">Toolingstatus</a>
      <ul>
       <li>
        <button class="tree closed"></button>
-       <a href="toolingvalidation/index.html">Gereedschapsvalidatie</a>
+       <a href="toolingvalidation/index.html">Toolingvalidatie</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="toolingvalidation/bendtooling.html">Buiggereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="toolingvalidation/cuttooling.html">Snijgereedschapsvalidatie</a></li>
-        <li><button class="tree blank"></button><a href="toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/bendtooling.html">Buigtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/cuttooling.html">Snijtoolingvalidatie</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a class="active" href="toolingpanel.html">Gereedschapspaneel</a></li>
+      <li><button class="tree blank"></button><a class="active" href="toolingpanel.html">Toolingpaneel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Filters opslaan</a></li>
@@ -113,7 +111,7 @@
    <button class="tree closed"></button>
    <a href="../../orders/index.html">Orders</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Orders weergave</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordersweergave</a></li>
    </ul>
   </li>
   <li>
@@ -121,72 +119,54 @@
    <a href="../../jobs/index.html">Jobs</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Job aanmaken</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Job weergave</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Job paneel</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Jobweergave</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Jobpaneel</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Automatisch plannen</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interactief nesten</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Opnieuw verpakken</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Herverpakken</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/layoutcommands/index.html">Nestbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layout weergave</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layout paneel</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Lay-outweergave</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Lay-outpaneel</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Rapportverzender</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Restmateriaal beheer</a>
+     <a href="../../jobs/remnantmanagement/index.html">Restantbeheer</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatisch restmateriaal beheer</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Handmatig restmateriaal beheer</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatisch restantbeheer</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Handmatig restantbeheer</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesten</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Verouderd</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Job filters</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Jobfilters</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Fabriek</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Platen</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Gebruikers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Bewerken</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Klanten</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Instellingen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Omgeving</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importeren</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Buigen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Snijden</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Meldingen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Bewaken</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD extensies</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installatie</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Onderdelen opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Assemblage opslaan</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Haalbaarheid controleren</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Fabrieksinstellingen</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Diverse verbeteringen</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapporten</a></li>
      </ul>
     </li>
    </ul>
@@ -208,26 +188,26 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Gereedschapsstatus</a>
+  <a href="index.html">Toolingstatus</a>
  </div>
  <div>/</div>
  <div>
-  <a href="toolingpanel.html">Gereedschapspaneel</a>
+  <a href="toolingpanel.html">Toolingpaneel</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Gereedschapspaneel</h1>
+                        <h1>Toolingpaneel</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Dit gedeelte legt gereedschaps-gerelateerde acties uit zoals
-<strong>Uitvoeren exporteren</strong>,
-<strong>Check Tooling</strong>, <strong>Uitrusting deactiveren</strong>,
-<strong>Als basis plat stuk instellen…</strong>, <strong>Uitrusting kopiëren…</strong>,
-en andere opties die worden gebruikt om gereedschapsinstanties te beheren.</p>
+<p>Deze sectie beschrijft toolinggerelateerde acties zoals
+<strong>Export outputs</strong>,
+<strong>Check Tooling</strong>, <strong>Suppress Tooling</strong>,
+<strong>Set as Base-Flat&#8230;&#8203;</strong>, <strong>Copy Tooling</strong>
+en andere opties die worden gebruikt om toolinginstanties te beheren.</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -249,59 +229,51 @@ en andere opties die worden gebruikt om gereedschapsinstanties te beheren.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Openen in de modus alleen lezen voor weergave</strong><br>
-Opent het geselecteerde gereedschap in alleen-lezen modus.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Opent de geselecteerde tooling in de alleen-lezen modus.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Schakelt bewerking van het geselecteerde gereedschap in.</p></td>
+Schakelt bewerking van de geselecteerde tooling in.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/exportui.png" alt="Export" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Uitvoeren exporteren</strong><br>
-Exporteert de geselecteerde gereedschapsuitvoer naar de geconfigureerde bestemming.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Export Outputs</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exporteert de geselecteerde toolinguitvoer naar de geconfigureerde bestemming.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/checkui.png" alt="Check Tooling" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check Tooling</strong><br>
-Valideert het bestaande gereedschap zonder wijzigingen aan te brengen en werkt
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Check Tooling</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valideert de bestaande tooling zonder wijzigingen aan te brengen en werkt
 de status bij als de validatie mislukt.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/copyui.png" alt="Copy Tooling" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Uitrusting kopiëren…</strong><br>
-Kopieert de pons, volgorde en achteraanslag-instelling van het geselecteerde
-referentiegereedschap en past deze toe op andere oplossingen waar mogelijk.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Copy Tooling&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kopieert de stempel-, volgorde- en achteraanslagopstelling van de geselecteerde
+referentietooling en past deze waar mogelijk toe op andere oplossingen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/baseui.png" alt="Set as Base-Flat" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Als basis plat stuk instellen…</strong><br>
-Markeert het geselecteerde buig- of vouwgereedschap als de referentie platte afmeting voor
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Set as Base-Flat&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Markeert de geselecteerde buig- of vouwtooling als het referentie-uitslagformaat voor
 het genereren van snijoplossingen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/retoolui.png" alt="Re-tool" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Re-tool&#8230;&#8203;</strong><br>
-Verwerkt het geselecteerde gereedschap voor het onderdeel opnieuw zonder andere
-gereedschappen te beïnvloeden.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Re-tool&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Verwerkt de geselecteerde tooling voor het onderdeel opnieuw zonder andere
+toolings te beïnvloeden.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/supressui.png" alt="Suppress Tooling" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Uitrusting deactiveren</strong><br>
-Onderdrukt het geselecteerde gereedschap zodat het wordt uitgesloten van verdere
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Suppress Tooling</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Onderdrukt de geselecteerde tooling zodat deze wordt uitgesloten van verdere
 verwerking en uitvoergeneratie.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prevui.png" alt="Prev Next" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Vorige</strong> / <strong>Volgende</strong> / <strong>Stuk</strong><br>
-Navigeert naar het vorige of volgende gereedschap, of terug naar het bovenliggende onderdeel.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Prev</strong> / <strong>Next</strong> / <strong>Part</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navigeert naar de vorige of volgende tooling, of terug naar het bovenliggende onderdeel.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sortui.png" alt="Similar Toolings" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-Toont andere gereedschappen die vergelijkbare kenmerken delen met het
-geselecteerde gereedschap voor snelle referentie.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Toont andere toolings die vergelijkbare kenmerken hebben met de
+geselecteerde tooling voor snelle referentie.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -311,22 +283,17 @@ geselecteerde gereedschap voor snelle referentie.</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_uitvoeren_exporteren">Uitvoeren exporteren</h2>
+<h2 id="_export_outputs">Export Outputs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Deze optie exporteert de onderdeeluitvoer naar de bestemming die is geconfigureerd in
-<strong>Fabrieksinstellingen</strong>. (Zie
-<a href="../../factory/settings/bend.html">Bend Settings</a> en
-<a href="../../factory/settings/cut.html">Cut Settings</a>)</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/toolingoutput.png" alt="Tooling Output" width="431">
-</div>
+<p>Met deze optie wordt de onderdeeluitvoer geëxporteerd naar de bestemming die is geconfigureerd in
+<strong>Factory Settings</strong>. (Zie
+<a href="../../factory/settings/bend.html">Buiginstellingen</a> en
+<a href="../../factory/settings/cut.html">Snij-instellingen</a>)</p>
 </div>
 <div class="paragraph">
-<p>Alleen de gereedschappen die aan de geselecteerde gereedschapsbewerking zijn gekoppeld, worden
-geëxporteerd, niet het gehele onderdeel.</p>
+<p>Alleen de toolings die zijn gekoppeld aan de geselecteerde toolingbewerking worden
+geëxporteerd, niet het hele onderdeel.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -335,9 +302,9 @@ geëxporteerd, niet het gehele onderdeel.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-De geëxporteerde bestanden zijn afhankelijk van het bewerkingstype. Voor Bend- en
-Fold-bewerkingen worden NC-bestanden en rapporten gegenereerd. Voor Cut- en Punch-
-bewerkingen worden alleen de onderdeelbestanden geëxporteerd.
+De geëxporteerde bestanden zijn afhankelijk van het bewerkingstype. Voor buig- en
+vouwbewerkingen worden NC-bestanden en rapporten gegenereerd. Voor snij- en
+ponsbewerkingen worden alleen de onderdeelbestanden geëxporteerd.
 </td>
 </tr>
 </table>
@@ -350,61 +317,56 @@ bewerkingen worden alleen de onderdeelbestanden geëxporteerd.
 <div class="ulist">
 <ul>
 <li>
-<p>Als er een wijziging is in CAM-instellingen of een buiggereedschap verloren is gegaan, hoeft u niet
-het onderdeel opnieuw van gereedschap te voorzien.</p>
+<p>Als er een wijziging is in de CAM-instellingen of als een buiggereedschap verloren gaat, hoeft u het onderdeel
+niet opnieuw te toolen.</p>
 </li>
 <li>
-<p>Gebruik in plaats daarvan Gereedschap Controleren om het bestaande gereedschap te valideren zonder
-wijzigingen aan te brengen.</p>
+<p>Gebruik in plaats daarvan Check Tooling om de bestaande tooling te valideren zonder wijzigingen
+aan te brengen.</p>
 </li>
 <li>
-<p>Als de validatie mislukt, wordt de gereedschapsstatus van die instantie bijgewerkt en
+<p>Als de validatie mislukt, wordt de toolingstatus van die instantie bijgewerkt en
 worden de gerelateerde uitvoerbestanden verwijderd.</p>
 </li>
 <li>
-<p>Gereedschap Controleren detecteert ook onderdelen waar fouten eerder handmatig
-zijn overschreven met behulp van <strong>Fouten negeren</strong>, en werkt hun
-status bij naar fout indien nodig.</p>
+<p>Check Tooling detecteert ook onderdelen waarbij fouten eerder handmatig
+zijn overschreven met <strong>Ignore Errors</strong>, en werkt hun
+status indien nodig bij naar fout.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/checktooling.png" alt="Check Tooling" width="456">
-</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_uitrusting_kopiëren">Uitrusting kopiëren…</h2>
+<h2 id="_copy_tooling">Copy tooling</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Het kopiëren van gereedschap stelt u in staat om snel buiggereedschap van één oplossing toe te passen op
-andere, waardoor tijd en moeite worden bespaard.</p>
+<p>Met copy tooling kunt u snel buigtooling van de ene oplossing op
+andere toepassen, wat tijd en moeite bespaart.</p>
 </div>
 <div class="paragraph">
-<p>Dit kopieert de pons, volgorde en achteraanslag-instelling van een geselecteerd referentie-
-gereedschap (oplossing) en probeert dezelfde instellingen toe te passen op alle andere oplossingen.</p>
+<p>Hiermee wordt de stempel-, volgorde- en achteraanslagopstelling van een geselecteerde referentietooling
+(oplossing) gekopieerd en worden dezelfde instellingen op alle andere oplossingen geprobeerd.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Als de gekopieerde instelling haalbaar is voor een doelmachine, wordt deze opgeslagen en gebruikt.</p>
+<p>Als de gekopieerde opstelling haalbaar is voor een doelmachine, wordt deze opgeslagen en gebruikt.</p>
 </li>
 <li>
-<p>Als de instelling niet haalbaar is, blijft het oorspronkelijke gereedschap voor die machine
+<p>Als de opstelling niet haalbaar is, blijft de oorspronkelijke tooling voor die machine
 ongewijzigd.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Bijvoorbeeld, u kunt verschillende gereedschappen hebben voor verschillende machines:</p>
+<p>U kunt bijvoorbeeld verschillende tooling voor verschillende machines hebben:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Hier gebruikt Machine 5230SX 6A een Gooseneck pons, Machine 5085X 6A B23 gebruikt een
-Pointed pons.</p>
+<p>Hier gebruikt Machine 5230X 4A een Gooseneck-stempel en Machine 5230SX 6A een
+Pointed-stempel.</p>
 </li>
 </ul>
 </div>
@@ -414,8 +376,8 @@ Pointed pons.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Wanneer u de <strong>Uitrusting kopiëren…</strong> gebruikt op Machine 5230SX 6A, probeert het
-de Gooseneck-instelling te kopiëren naar alle andere machines.</p>
+<p>Wanneer u <strong>Copy Tooling&#8230;&#8203;</strong> gebruikt op Machine 5230X 4A, wordt
+geprobeerd de Gooseneck-opstelling naar alle andere machines te kopiëren.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -423,8 +385,8 @@ de Gooseneck-instelling te kopiëren naar alle andere machines.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Dezelfde pons, volgorde en achteraanslag-instellingen worden toegepast waar
-mogelijk. Als de gekopieerde instelling niet kan worden gebruikt, blijft het oorspronkelijke gereedschap
+<p>Dezelfde stempel-, volgorde- en achteraanslaginstellingen worden waar
+mogelijk toegepast. Als de gekopieerde opstelling niet kan worden gebruikt, blijft de oorspronkelijke tooling
 ongewijzigd.</p>
 </div>
 <div class="imageblock">
@@ -433,28 +395,29 @@ ongewijzigd.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Na het toepassen van het kopiëren van gereedschap, is de Gooseneck-instelling succesvol toegepast
-op alle andere machines waar het haalbaar is.</p>
+<p>Na het toepassen van copy tooling is de Gooseneck-opstelling succesvol toegepast
+op alle andere machines waar dit haalbaar is.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_als_basis_plat_stuk_instellen">Als basis plat stuk instellen…</h2>
+<h2 id="_set_as_base_flat">Set as Base-Flat&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>De functie <strong>Als basis plat stuk instellen…</strong> definieert welk buig- of vouw-
-gereedschap wordt gebruikt als de referentie platte afmeting voor het genereren van snijoplossingen.
-Wanneer een gereedschap is gemarkeerd als Base-Flat, werkt TruSmartCAM de platte afmeting van het onderdeel bij
-op basis van die machine en regenereert snijoplossingen dienovereenkomstig. Base-Flat
-gereedschappen worden weergegeven met een blauwe rand in de UI.</p>
+<p>Met de functie <strong>Set as Base-Flat&#8230;&#8203;</strong> wordt gedefinieerd welke buig- of vouwtooling
+wordt gebruikt als het referentie-uitslagformaat voor het genereren van snijoplossingen.
+Wanneer een tooling als Base-Flat wordt gemarkeerd, werkt TruSmartCAM het uitslagformaat van het onderdeel bij
+op basis van die machine en genereert het de snijoplossingen dienovereenkomstig opnieuw. Base-Flat-
+toolings worden weergegeven met een blauwe rand in de UI.</p>
 </div>
 <div class="paragraph">
-<p>Verschillende buigmachines kunnen kleine variaties in platte afmeting produceren voor hetzelfde
-onderdeel. Wanneer u een gereedschap instelt als Base-Flat, gebruikt TruSmartCAM de platte afmeting van die machine
-als de hoofdreferentie en herberekent automatisch de snijoplossingen.</p>
+<p>Verschillende buigmachines kunnen kleine variaties in het uitslagformaat voor hetzelfde
+onderdeel opleveren. Wanneer u een tooling als Base-Flat instelt, gebruikt TruSmartCAM het
+uitslagformaat van die machine als hoofdreferentie en herberekent het automatisch de
+snijoplossingen.</p>
 </div>
 <div class="paragraph">
-<p>Hier kunnen we verschillende platte afmetingen zien voor hetzelfde onderdeel over verschillende
+<p>Hier zien we verschillende uitslagformaten voor hetzelfde onderdeel op verschillende
 machines:</p>
 </div>
 <div class="imageblock">
@@ -463,8 +426,8 @@ machines:</p>
 </div>
 </div>
 <div class="paragraph">
-<p>In dit voorbeeld is het gereedschap <strong>5130X 6A B23</strong> ingesteld als Base-Flat, en de
-bijgewerkte platte afmeting wordt toegepast in de onderdeeleigenschappen:</p>
+<p>In dit voorbeeld wordt de tooling <strong>5230X 4A</strong> ingesteld als de Base-Flat en wordt het
+bijgewerkte uitslagformaat toegepast in de onderdeeleigenschappen:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -472,10 +435,10 @@ bijgewerkte platte afmeting wordt toegepast in de onderdeeleigenschappen:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_automatische_base_flat_selectie">Automatische base flat selectie</h3>
+<h3 id="_automatische_base_flat_selectie">Automatische base-flat-selectie</h3>
 <div class="paragraph">
 <p>Wanneer de fabrieksinstelling
-<strong>Correctie van plat stuk toepassen tijdens buigen</strong> is ingeschakeld:</p>
+<strong>Apply flat correction during bending</strong> is ingeschakeld:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -485,31 +448,31 @@ bijgewerkte platte afmeting wordt toegepast in de onderdeeleigenschappen:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM stelt automatisch het buiggereedschap (dat de max buiglengte-
-tabel bevat) in als Base-Flat tijdens het importeren van onderdelen.</p>
+<p>TruSmartCAM stelt automatisch de buigtooling (die de tabel met maximale buiglengte
+bevat) in als de Base-Flat tijdens het importeren van het onderdeel.</p>
 </li>
 <li>
-<p>Als het geselecteerde buiggereedschap een fout tegenkomt of niet haalbaar is,
-schakelt TruSmartCAM intelligent over en stelt een ander geldig buiggereedschap in als
-Base-Flat. Dit zorgt ervoor dat de referentie voor platte afmeting en snijoplossingen altijd
-consistent en geldig blijven zonder handmatige interventie.</p>
+<p>Als de geselecteerde buigtooling een fout tegenkomt of niet haalbaar is,
+schakelt TruSmartCAM intelligent over en stelt een andere geldige buigtooling in als de
+Base-Flat. Dit zorgt ervoor dat de uitslagformaatreferentie en snijoplossingen altijd
+consistent en geldig blijven zonder handmatige tussenkomst.</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_verbeterd_base_flat_beheer">Verbeterd base flat beheer</h3>
+<h3 id="_verbeterd_base_flat_beheer">Verbeterd base-flat-beheer</h3>
 <div class="paragraph">
-<p>TruSmartCAM biedt Base-Flat opties in het <strong>Opslaan in Praxis</strong>
-dialoogvenster bij het opslaan van buig- of vouwgereedschapsbewerkingen. Deze opties verschijnen alleen voor
-gereedschappen in de OK-status en zorgen ervoor dat platte afmeting en snijoplossingen
+<p>TruSmartCAM biedt Base-Flat-opties in het dialoogvenster <strong>Save to Praxis</strong>
+bij het opslaan van buig- of vouwtoolingbewerkingen. Deze opties verschijnen alleen voor
+toolings in de OK-status en zorgen ervoor dat het uitslagformaat en de snijoplossingen
 nauwkeurig blijven.</p>
 </div>
 <div class="sect3">
-<h4 id="_als_basis_plat_stuk_instellen_en_snijprogramma_berekenen">Als basis plat stuk instellen en snijprogramma berekenen</h4>
+<h4 id="_set_as_base_flat_and_calculate_cutting_solution">Set as Base-Flat and calculate cutting solution</h4>
 <div class="paragraph">
-<p>Deze optie wordt gebruikt om een gereedschap voor de eerste keer te markeren als Base-Flat en
-automatisch de overeenkomstige snijoplossing te genereren.</p>
+<p>Deze optie wordt gebruikt om een tooling voor het eerst als Base-Flat te markeren en
+automatisch de bijbehorende snijoplossing te genereren.</p>
 </div>
 <div class="paragraph">
 <p>Verschijnt wanneer:</p>
@@ -517,10 +480,10 @@ automatisch de overeenkomstige snijoplossing te genereren.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Het gereedschap momenteel niet is gemarkeerd als Base-Flat.</p>
+<p>De tooling momenteel niet als Base-Flat is gemarkeerd.</p>
 </li>
 <li>
-<p>De gebruiker het gereedschap heeft uitgecheckt voor bewerking en de wijzigingen opslaat.</p>
+<p>De gebruiker de tooling heeft uitgecheckt om te bewerken en de wijzigingen opslaat.</p>
 </li>
 </ul>
 </div>
@@ -530,21 +493,21 @@ automatisch de overeenkomstige snijoplossing te genereren.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Om deze optie te gebruiken, checkt u het buig- of vouwgereedschap uit en maakt u de vereiste
-aanpassingen, zoals wijzigingen in buigparameters of platte afmeting. Druk op
-<span class="keyseq"><kbd>Ctrl</kbd>+<kbd>S</kbd></span> om de wijzigingen op te slaan. Kies in het <strong>Opslaan in Praxis</strong>
-dialoogvenster
-<strong>Als basis plat stuk instellen en snijprogramma berekenen</strong> en
+<p>Om deze optie te gebruiken, checkt u de buig- of vouwtooling uit en brengt u de vereiste
+wijzigingen aan, zoals wijzigingen in buigparameters of uitslagformaat. Druk op
+<span class="keyseq"><kbd>Ctrl</kbd>+<kbd>S</kbd></span> om de wijzigingen op te slaan. Kies in het dialoogvenster <strong>Save to Praxis</strong>
+de optie
+<strong>Set as Base-Flat and calculate cutting solution</strong> en
 klik op
-<strong>OK</strong>. TruSmartCAM zal het gereedschap instellen als Base-Flat en de
-snijoplossing genereren met behulp van de bijgewerkte platte afmeting.</p>
+<strong>OK</strong>. TruSmartCAM stelt de tooling in als de Base-Flat en genereert de
+snijoplossing met het bijgewerkte uitslagformaat.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_het_basis_plat_stuk_bijwerken_en_het_snijprogramma_opnieuw_berekenen">Het basis plat stuk bijwerken en het snijprogramma opnieuw berekenen</h4>
+<h4 id="_update_the_base_flat_and_re_calculate_cutting_solution">Update the base-flat and re-calculate cutting solution</h4>
 <div class="paragraph">
-<p>Deze optie wordt gebruikt wanneer het gereedschap al is gemarkeerd als Base-Flat en is
-bewerkt, waardoor de platte afmeting en snijoplossingen opnieuw moeten worden gegenereerd.</p>
+<p>Deze optie wordt gebruikt wanneer de tooling al als Base-Flat is gemarkeerd en is
+bewerkt, waardoor het uitslagformaat en de snijoplossingen opnieuw moeten worden gegenereerd.</p>
 </div>
 <div class="paragraph">
 <p>Verschijnt wanneer:</p>
@@ -552,10 +515,10 @@ bewerkt, waardoor de platte afmeting en snijoplossingen opnieuw moeten worden ge
 <div class="ulist">
 <ul>
 <li>
-<p>Het gereedschap al is gemarkeerd als Base-Flat.</p>
+<p>De tooling al als Base-Flat is gemarkeerd.</p>
 </li>
 <li>
-<p>De gebruiker het heeft uitgecheckt, bewerkt en de wijzigingen opslaat.</p>
+<p>De gebruiker deze heeft uitgecheckt, bewerkt en de wijzigingen opslaat.</p>
 </li>
 </ul>
 </div>
@@ -565,11 +528,12 @@ bewerkt, waardoor de platte afmeting en snijoplossingen opnieuw moeten worden ge
 </div>
 </div>
 <div class="paragraph">
-<p>Bij het bewerken van het bestaande Base-Flat gereedschap, werkt u de buigparameters of
-platte afmeting geometrie bij zoals nodig. Kies in het <strong>Opslaan in Praxis</strong> dialoogvenster
-<strong>Het basis plat stuk bijwerken en het snijprogramma opnieuw berekenen</strong>.
-TruSmartCAM zal dan het Base-Flat gereedschap bijwerken en alle gerelateerde
-snijoplossingen regenereren om de laatste wijzigingen te weerspiegelen.</p>
+<p>Werk bij het bewerken van de bestaande Base-Flat-tooling de buigparameters of
+uitslagformaatgeometrie naar wens bij. Kies in het dialoogvenster <strong>Save to Praxis</strong>
+de optie
+<strong>Update the base-flat and re-calculate cutting solution</strong>.
+TruSmartCAM werkt vervolgens de Base-Flat-tooling bij en genereert alle gerelateerde
+snijoplossingen opnieuw om de laatste wijzigingen weer te geven.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -579,14 +543,14 @@ snijoplossingen regenereren om de laatste wijzigingen te weerspiegelen.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Er kan slechts één buiggereedschap tegelijk worden ingesteld als Base-Flat.</p>
+<p>Er kan slechts één buigtooling tegelijk als Base-Flat worden ingesteld.</p>
 </div>
 <div class="paragraph">
 <p>Wanneer de Base-Flat wordt gewijzigd, worden bestaande snijoplossingen automatisch
 opnieuw verwerkt.</p>
 </div>
 <div class="paragraph">
-<p>Deze functie is beschikbaar voor zowel buig- als vouwgereedschappen binnen TruSmartCAM.</p>
+<p>Deze functie is beschikbaar voor zowel buig- als vouwtoolings binnen TruSmartCAM.</p>
 </div>
 </td>
 </tr>
@@ -597,22 +561,17 @@ opnieuw verwerkt.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_opnieuw_uitrusten">Opnieuw uitrusten…</h2>
+<h2 id="_re_tool">Re-tool</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Deze optie verwerkt het geselecteerde gereedschap voor het onderdeel opnieuw.</p>
+<p>Met deze optie wordt de geselecteerde tooling voor het onderdeel opnieuw verwerkt.</p>
 </div>
 <div class="paragraph">
-<p>Klik met de rechtermuisknop op het vereiste gereedschap in het Gereedschapspaneel en klik op
-<strong>Opnieuw uitrusten…</strong></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/toolingretool.png" alt="ToolingRetool" width="431">
-</div>
+<p>Klik met de rechtermuisknop op de gewenste tooling in het toolingpaneel en klik op
+<strong>Re-tool&#8230;&#8203;</strong></p>
 </div>
 <div class="paragraph">
-<p>Een bevestigingsdialoogvenster wordt weergegeven voordat wordt doorgegaan.</p>
+<p>Er wordt een bevestigingsdialoogvenster weergegeven voordat u doorgaat.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -620,42 +579,33 @@ opnieuw verwerkt.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Klik op <strong>Ja</strong> om door te gaan met opnieuw voorzien van gereedschap, of op <strong>Nee</strong> om
+<p>Klik op <strong>Yes</strong> om door te gaan met het opnieuw toolen, of op <strong>No</strong> om
 de bewerking te annuleren.</p>
 </div>
 <div class="paragraph">
-<p>Alleen het geselecteerde gereedschap wordt opnieuw van gereedschap voorzien. Andere gereedschappen die aan
-het onderdeel zijn gekoppeld, worden niet beïnvloed. De bestaande uitvoer gerelateerd aan het geselecteerde
-gereedschap wordt verwijderd en opnieuw gegenereerd tijdens het opnieuw voorzien van gereedschap.</p>
+<p>Alleen de geselecteerde tooling wordt opnieuw getoold. Andere toolings die aan
+het onderdeel zijn gekoppeld, worden niet beïnvloed. De bestaande uitvoer met betrekking tot de geselecteerde
+tooling wordt verwijderd en tijdens het opnieuw toolen opnieuw gegenereerd.</p>
 </div>
 <div class="paragraph">
-<p>Gebruik deze optie wanneer gereedschapsgegevens verouderd of onjuist zijn, of wanneer
-wijzigingen worden aangebracht in machine- of gereedschapsconfiguraties.</p>
+<p>Gebruik deze optie wanneer toolinggegevens verouderd of onjuist zijn, of wanneer er
+wijzigingen worden aangebracht in machine- of toolingconfiguraties.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_fouten_negeren">Fouten negeren</h2>
+<h2 id="_ignore_errors">Ignore errors</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Als een voorziene instantie van gereedschap een waarschuwing toont en u toch wilt doorgaan,
-kunt u de waarschuwing overschrijven door te klikken op
-<strong>Fouten negeren</strong>.</p>
+<p>Als een getoolde instantie een waarschuwing toont en u er toch mee wilt doorgaan,
+kunt u de waarschuwing overschrijven door op
+<strong>Ignore errors</strong> te klikken.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/ignore.png" alt="Ignore errors" width="456">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Hierdoor kan het systeem uitvoerbestanden exporteren voor die
-instantie, zelfs als er gereedschapsproblemen waren.</p>
+<p>Hiermee kan het systeem uitvoerbestanden voor die
+instantie exporteren, zelfs als er toolingproblemen waren.</p>
 </li>
 </ul>
 </div>
@@ -666,8 +616,8 @@ instantie, zelfs als er gereedschapsproblemen waren.</p>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-Gebruik <strong>Ignore Errors</strong> alleen wanneer u zeker weet dat de waarschuwing veilig kan worden
-genegeerd. Het overschrijven van daadwerkelijke fouten kan leiden tot machineschade of veiligheidsrisico&#8217;s.
+Gebruik <strong>Ignore Errors</strong> alleen wanneer u zeker weet dat de waarschuwing veilig kan
+worden genegeerd. Het overschrijven van daadwerkelijke fouten kan leiden tot machineschade of veiligheidsrisico&#8217;s.
 </td>
 </tr>
 </table>
@@ -675,47 +625,29 @@ genegeerd. Het overschrijven van daadwerkelijke fouten kan leiden tot machinesch
 </div>
 </div>
 <div class="sect1">
-<h2 id="_suppressunsuppress_tooling">Suppress/Unsuppress tooling</h2>
+<h2 id="_tooling_onderdrukkenonderdrukking_opheffen">Tooling onderdrukken/onderdrukking opheffen</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>When a machine is inactive or you do not want a specific part to be
-processed by a
-particular machine, use <strong>Uitrusting deactiveren</strong> to exclude
-that part from nesting on that machine.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/supress.png" alt="Supress Tooling" width="456">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>After suppressing, hovering the mouse over the tooled instance shows a
-message like: “Tooling suppressed by &lt;User name&gt; on &lt;Date Time&gt;”.</p>
+<p>Wanneer een machine inactief is of u niet wilt dat een specifiek onderdeel wordt
+verwerkt door een
+bepaalde machine, gebruikt u <strong>Suppress Tooling</strong> om
+dat onderdeel uit te sluiten van nesten op die machine.</p>
 </li>
 <li>
-<p>Suppress tooling removes the output file for that machine and part.</p>
+<p>Na het onderdrukken toont het bewegen van de muisaanwijzer over de getoolde instantie een
+bericht als: “Tooling suppressed by &lt;User name&gt; on &lt;Date Time&gt;”.</p>
 </li>
 <li>
-<p>Use <strong>Deactiveren van uitrusting ongedaan maken</strong> to restore the tooling
-status for the part on that machine.</p>
+<p>Suppress tooling verwijdert het uitvoerbestand voor die machine en dat onderdeel.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/unsupress.png" alt="Unsupress Tooling" width="495">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>When unsuppressed, the respective output file is generated again.</p>
+<p>Gebruik <strong>Unsuppress tooling</strong> om de toolingstatus
+voor het onderdeel op die machine te herstellen.</p>
+</li>
+<li>
+<p>Wanneer de onderdrukking wordt opgeheven, wordt het betreffende uitvoerbestand opnieuw gegenereerd.</p>
 </li>
 </ul>
 </div>
@@ -729,31 +661,31 @@ status for the part on that machine.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_uitvoeren_exporteren">Uitvoeren exporteren</a>
+   <a href="#_export_outputs">Export Outputs</a>
   </li>
   <li level="1">
    <a href="#_check_tooling">Check Tooling</a>
   </li>
   <li level="1">
-   <a href="#_uitrusting_kopiëren">Uitrusting kopiëren…</a>
+   <a href="#_copy_tooling">Copy tooling</a>
   </li>
   <li level="1">
-   <a href="#_als_basis_plat_stuk_instellen">Als basis plat stuk instellen…</a>
+   <a href="#_set_as_base_flat">Set as Base-Flat&#8230;&#8203;</a>
   </li>
   <li level="2">
-   <a href="#_automatische_base_flat_selectie">Automatische base flat selectie</a>
+   <a href="#_automatische_base_flat_selectie">Automatische base-flat-selectie</a>
   </li>
   <li level="2">
-   <a href="#_verbeterd_base_flat_beheer">Verbeterd base flat beheer</a>
+   <a href="#_verbeterd_base_flat_beheer">Verbeterd base-flat-beheer</a>
   </li>
   <li level="1">
-   <a href="#_opnieuw_uitrusten">Opnieuw uitrusten…</a>
+   <a href="#_re_tool">Re-tool</a>
   </li>
   <li level="1">
-   <a href="#_fouten_negeren">Fouten negeren</a>
+   <a href="#_ignore_errors">Ignore errors</a>
   </li>
   <li level="1">
-   <a href="#_suppressunsuppress_tooling">Suppress/Unsuppress tooling</a>
+   <a href="#_tooling_onderdrukkenonderdrukking_opheffen">Tooling onderdrukken/onderdrukking opheffen</a>
   </li>
  </ul>
 </aside>
@@ -761,7 +693,7 @@ status for the part on that machine.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="toolingvalidation/foldtooling.html">Vouwgereedschapsvalidatie</a></span>
+ <span class="prev"><a href="toolingvalidation/foldtooling.html">Vouwtoolingvalidatie</a></span>
  <span class="next"><a href="../savingfilters.html">Filters opslaan</a></span>
 </nav>
 

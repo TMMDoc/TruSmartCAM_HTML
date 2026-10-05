@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Vue du travail</title>
+  <title>Vue des tâches</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -27,12 +27,10 @@
    <button class="tree closed"></button>
    <a href="../installation/index.html">Installation</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Configuration matérielle requise</a></li>
+    <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Exigences matérielles</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Formats de fichiers pris en charge</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Prérequis</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Installation du serveur</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Installation du client</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Changer de licence</a></li>
    </ul>
   </li>
   <li>
@@ -40,21 +38,21 @@
    <a href="../configuration/index.html">Configuration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Ajouter/Supprimer une machine</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Configuration de l'outillage</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Configurer l'outillage</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Configurer les utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Langue</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../configuration/addmaterial/index.html">Matériau</a>
+     <a href="../configuration/addmaterial/index.html">Matière</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Ajouter un nouveau matériau et une feuille</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Exporter/Importer le matériau</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Remplacer le matériau</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Ajouter une nouvelle matière et une tôle</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Exporter/Importer une matière</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Remplacer une matière</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Associer le matériau</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Associer les pages CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Associer les champs depuis CAD (clés de recherche)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Cartographier la matière</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Cartographier les pages CAM</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Cartographier les champs depuis CAD (clés de recherche)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">L'interface utilisateur</a></li>
@@ -68,71 +66,71 @@
      <a href="../library/open/index.html">Ouvrir</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importer des pièces</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importer des commandes</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importer des ordres</a></li>
       <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importer des tâches</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importer des assemblages</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importer des modules</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/libraryview/index.html">Vue de bibliothèque</a>
+     <a href="../library/libraryview/index.html">Vue de la bibliothèque</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Pièces</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assemblage</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Module</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Statut de la pièce</a>
+     <a href="../library/partstate/index.html">État de la pièce</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Validation de pi\u00e8ce</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Panneau de pièces</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Filtres de pièces</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Validation des pièces</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Panneau de la pièce</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Filtres de pièce</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Statut de l'outillage</a>
+     <a href="../library/toolingstatus/index.html">État de l'outillage</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Validation d'outillage</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Validation de l'outillage</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validation d'outillage de pliage</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validation d'outillage de découpe</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validation d'outillage de pliure</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validation de l'outillage de pliage</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validation de l'outillage de coupe</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validation de l'outillage de pliage</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panneau d'outillage</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Enregistrer les filtres</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Enregistrement des filtres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Commandes</a>
+   <a href="../orders/index.html">Ordres</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Vue des commandes</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Vue des ordres</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Travaux</a>
+   <a href="index.html">Tâches</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Créer un travail</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobview.html">Vue du travail</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Panneau de travail</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Créer une tâche</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobview.html">Vue des tâches</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Panneau des tâches</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Planification automatique</a></li>
     <li><button class="tree blank"></button><a href="jobinteractplan.html">Imbrication interactive</a></li>
-    <li><button class="tree blank"></button><a href="repacking.html">Réemballage</a></li>
+    <li><button class="tree blank"></button><a href="repacking.html">Réempaquetage</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Gestion de l'imbrication</a>
+     <a href="layoutcommands/index.html">Gestion des imbrications</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Vue de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Panneau de mise en page</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Expéditeur de rapport</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Vue de configuration</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Panneau de configuration</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Envoi de rapports</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Gestion manuelle des chutes</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Imbrication en ligne double</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Imbrication Twinline</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Obsolète</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Filtres de travail</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Filtres de tâches</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Usine</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Feuilles</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Tôles</a></li>
     <li><button class="tree blank"></button><a href="../factory/users.html">Utilisateurs</a></li>
     <li><button class="tree blank"></button><a href="../factory/edit.html">Modifier</a></li>
     <li><button class="tree blank"></button><a href="../factory/customers.html">Clients</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Paramètres</a>
+     <a href="../factory/settings/index.html">Réglages</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environnement</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importation</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Pliage</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Découpe</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Coupe</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Surveillance</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Tâche</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Extensions CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">Extension SolidWorks</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Enregistrer les pièces</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Enregistrer l'assemblage</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Vérifier la faisabilité</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Paramètres de l'usine</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Améliorations diverses</a></li>
      </ul>
     </li>
    </ul>
@@ -204,38 +184,47 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Travaux</a>
+  <a href="index.html">Tâches</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobview.html">Vue du travail</a>
+  <a href="jobview.html">Vue des tâches</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Vue du travail</h1>
+                        <h1>Vue des tâches</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Cette section explique les différentes vues disponibles dans la vue Travail, y compris Travaux, Pièces, Imbrications, Édition, Simulation et Exportation.</p>
+<p>Cette section présente les différentes vues disponibles dans la vue des tâches,
+y compris Jobs, Parts, Nests, Edit, Simulate et Export.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_travaux">Travaux</h2>
+<h2 id="_tâches">Tâches</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>La sélection de l&#8217;option <strong>tâches</strong> affiche une liste de tous les travaux actuellement configurés dans le logiciel. Vous pouvez double-cliquer sur un travail pour afficher ses détails ou faire un clic droit pour accéder à des options supplémentaires.</p>
+<p>La sélection de l&#8217;option <strong>jobs</strong> affiche la liste de toutes les
+tâches actuellement configurées dans le logiciel. Vous pouvez double-cliquer sur
+une tâche pour afficher ses détails ou effectuer un clic droit pour accéder à
+des options supplémentaires.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Les travaux sont affichés en vue mosaïque, où chaque travail est affiché avec des propriétés de base telles que l&#8217;ID du travail, la référence du travail, le nom du client, le total des pièces, la date d&#8217;échéance, la barre d&#8217;état du travail, etc.</p>
+<p>Les tâches sont affichées en vue mosaïque, où chaque tâche est présentée avec
+ses propriétés de base telles que l&#8217;identifiant de la tâche, la référence, le
+nom du client, le nombre total de pièces, l&#8217;échéance, la barre d&#8217;état de la
+tâche, etc.</p>
 </li>
 <li>
-<p>Chaque mosaïque de travail affiche également les images des pièces dans un format de carte empilée. Vous pouvez faire défiler toutes les pièces d&#8217;un travail à l&#8217;aide de la molette de la souris.<br></p>
+<p>Chaque mosaïque de tâche affiche également les images des pièces sous forme de
+cartes empilées. Vous pouvez parcourir toutes les pièces d&#8217;une tâche à l&#8217;aide de
+la molette de la souris.<br></p>
 </li>
 </ul>
 </div>
@@ -245,23 +234,29 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="_détails_du_travail">Détails du travail</h3>
+<h3 id="_détails_de_la_tâche">Détails de la tâche</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Double-cliquer sur une mosaïque ou appuyer sur la touche <kbd>Enter</kbd> après avoir sélectionné une mosaïque fait basculer la vue en mode Détail.</p>
+<p>Un double-clic sur une mosaïque ou l&#8217;appui sur la touche <kbd>Enter</kbd> après
+avoir sélectionné une mosaïque bascule la vue en mode Détail.</p>
 </li>
 <li>
-<p>La page de détails affiche la liste des pièces ainsi que les feuilles imbriquées (mises en page), le cas échéant.</p>
+<p>La page de détails affiche la liste des pièces ainsi que les tôles imbriquées
+(configurations), le cas échéant.</p>
 </li>
 <li>
-<p>Utilisez les touches fléchées Haut/Bas pour basculer entre les travaux dans la page de détails.</p>
+<p>Utilisez les touches fléchées Haut/Bas pour passer d&#8217;une tâche à l&#8217;autre dans
+la page de détails.</p>
 </li>
 <li>
-<p>Faire défiler la molette de la souris sur la pile de pièces met en évidence la pièce à la fois dans la liste des pièces et dans les mises en page.</p>
+<p>Le défilement de la molette de la souris sur la pile de pièces met en
+évidence la pièce à la fois dans la liste des pièces et dans les configurations.</p>
 </li>
 <li>
-<p>La sélection d&#8217;une mise en page met en évidence la mise en page et toutes les pièces imbriquées dessus dans la liste des pièces. Les mises en évidence s&#8217;éteignent automatiquement après une minute.</p>
+<p>La sélection d&#8217;une configuration met en évidence la configuration et toutes
+les pièces qui y sont imbriquées dans la liste des pièces. Les surbrillances
+s&#8217;éteignent automatiquement après une minute.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/jobview2.png" alt="Job Details" width="1908">
@@ -269,27 +264,31 @@
 </div>
 </li>
 <li>
-<p><strong>Synthèse de l&#8217;imbrication</strong> :</p>
+<p><strong>Nest summary</strong> :</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Pièces</strong> : Affiche le nombre total d&#8217;éléments de commande et la quantité totale dans le travail.</p>
+<p><strong>Parts</strong> : affiche le nombre total d&#8217;articles commandés et la
+quantité totale de la tâche.</p>
 </li>
 <li>
-<p><strong>tôles</strong> : Affiche le nombre total de feuilles imbriquées ainsi que la quantité totale de feuilles.</p>
+<p><strong>Sheets</strong> : affiche le nombre total de tôles imbriquées ainsi
+que la quantité totale de tôles.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Séquences de travail</strong> :</p>
+<p><strong>Work Steps</strong> :</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Pliage</strong> : Affiche la machine assignée et sa quantité de commande à traiter.</p>
+<p><strong>Bending</strong> : indique la machine assignée et la quantité à
+traiter.</p>
 </li>
 <li>
-<p><strong>Coupe</strong> : Affiche la machine assignée et sa quantité de commande à traiter.</p>
+<p><strong>Cutting</strong> : indique la machine assignée et la quantité à
+traiter.</p>
 </li>
 </ul>
 </div>
@@ -302,13 +301,18 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Tout d&#8217;abord, cliquez sur l&#8217;icône <strong>Jobs</strong> sur le côté gauche de l&#8217;écran, sélectionnez le travail que vous souhaitez modifier, puis cliquez sur <strong>edit</strong> sur le côté droit de l&#8217;écran (assurez-vous que l&#8217;option Travaux est sélectionnée).</p>
+<p>Cliquez d&#8217;abord sur l&#8217;icône <strong>Jobs</strong> à gauche de l&#8217;écran, sélectionnez la tâche
+que vous souhaitez modifier, puis cliquez sur <strong>edit</strong> à droite de l&#8217;écran
+(assurez-vous que l&#8217;option Jobs est sélectionnée).</p>
 </li>
 <li>
-<p>Alternativement, faites un clic droit sur le travail sélectionné et cliquez sur l&#8217;icône <strong>Vérifier le document pour l&#8217;édition</strong>.</p>
+<p>Vous pouvez également effectuer un clic droit sur la tâche sélectionnée et
+cliquer sur l&#8217;icône <strong>Check-out the document for editing</strong>.</p>
 </li>
 <li>
-<p>Lorsque vous cliquez sur <strong>edit</strong>, la fenêtre de modification du travail apparaît. Dans cette fenêtre, vous pouvez définir ou modifier la priorité du travail.</p>
+<p>Lorsque vous cliquez sur <strong>edit</strong>, la fenêtre de modification de la tâche
+apparaît. Dans cette fenêtre, vous pouvez définir ou modifier la priorité de la
+tâche.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/priority1.png" alt="Priority1" width="1207">
@@ -316,16 +320,20 @@
 </div>
 </li>
 <li>
-<p>En fonction de la priorité des pièces du travail, la référence du travail dans la mosaïque du travail est ombrée en couleur en conséquence.</p>
+<p>Selon la priorité des pièces de la tâche, la référence de la tâche dans la
+mosaïque est colorée en conséquence.</p>
 </li>
 <li>
-<p>Les pièces du travail sont triées d&#8217;abord par priorité, puis par date d&#8217;échéance. Elles sont également ombrées en couleur selon leur priorité.</p>
+<p>Les pièces de la tâche sont triées d&#8217;abord par priorité, puis par échéance.
+Elles sont également colorées selon leur priorité.</p>
 </li>
 <li>
-<p>Lors de l&#8217;imbrication, les pièces <strong>Urgent</strong> sont considérées en premier, suivies par <strong>High</strong>, puis <strong>Normal</strong>, et enfin les pièces de priorité <strong>Low</strong> sont placées dans l&#8217;espace restant sur les feuilles d&#8217;imbrication.</p>
+<p>Lors de l&#8217;imbrication, les pièces <strong>Urgent</strong> sont traitées en premier, suivies
+des pièces <strong>High</strong>, puis <strong>Normal</strong>, et enfin les pièces de priorité <strong>Low</strong> sont
+placées dans l&#8217;espace restant sur les tôles d&#8217;imbrication.</p>
 </li>
 <li>
-<p>Les feuilles d&#8217;imbrication sont également triées et ombrées en couleur selon la priorité.</p>
+<p>Les tôles d&#8217;imbrication sont également triées et colorées selon la priorité.</p>
 </li>
 </ul>
 </div>
@@ -336,7 +344,7 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Priorité du travail</th>
+<th class="tableblock halign-left valign-top">Priorité de la tâche</th>
 <th class="tableblock halign-left valign-top">Description de la couleur</th>
 </tr>
 </thead>
@@ -346,16 +354,16 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Urgent</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span> (Pas de couleur)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span> (Sans couleur)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Normal</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/high.png" alt="High" width="50"></span> (Jaune)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">High</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Élevée</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/low.png" alt="Low" width="50"></span> (Gris foncé)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Low</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Faible</p></td>
 </tr>
 </tbody>
 </table>
@@ -366,27 +374,22 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="_statut">Statut</h3>
+<h3 id="_état">État</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>La barre d&#8217;état du travail utilise des codes de couleur pour indiquer la progression ou l&#8217;état du travail en fonction de la quantité traitée ou restante.</p>
+<p>La barre d&#8217;état de la tâche utilise des codes couleur pour indiquer la
+progression ou l&#8217;état de la tâche en fonction de la quantité traitée ou
+restante.</p>
 </li>
 <li>
-<p>Les pièces au sein du travail et les feuilles d&#8217;imbrication sont également mises en évidence avec des couleurs correspondantes pour refléter leur statut individuel au sein du TRAVAIL global.</p>
+<p>Les pièces de la tâche et les tôles d&#8217;imbrication sont également mises en
+évidence avec des couleurs correspondantes pour refléter leur état individuel
+au sein de la tâche globale.</p>
 </li>
 <li>
-<p>Le codage couleur améliore le suivi et garantit que les opérateurs peuvent facilement voir l&#8217;état de production d&#8217;un coup d&#8217;œil.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/status1.png" alt="Job status" width="1114">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/status2.png" alt="Job status" width="1360">
-</div>
-</div>
+<p>Le codage couleur améliore le suivi et permet aux opérateurs de visualiser
+facilement l&#8217;état de production en un coup d&#8217;œil.</p>
 </li>
 </ul>
 </div>
@@ -397,42 +400,42 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Statut du travail</th>
+<th class="tableblock halign-left valign-top">État de la tâche</th>
 <th class="tableblock halign-left valign-top">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Gris clair)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Non prêt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not ready</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/nesting.png" alt="Nesting" width="100"></span> (Magenta)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Imbrication</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nesting</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ready.png" alt="Ready" width="100"></span> (Blanc)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prêt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ready</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Jaune clair)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pliage planifié</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Gris foncé)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tôle manquante</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sheet missing</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Jaune foncé)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">File d&#8217;attente pliage</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bending queue</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Jaune)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">File d&#8217;attente coupe</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cutting Queue</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Vert foncé)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Effectué</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Done(Completed)</p></td>
 </tr>
 </tbody>
 </table>
@@ -443,18 +446,17 @@
 <h2 id="_pièces">Pièces</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>La vue Pièces actives affiche toutes les pièces qui sont actuellement en cours de traitement dans les travaux actifs.</p>
+<p>La vue Active Parts affiche toutes les pièces actuellement en cours de
+traitement dans les tâches actives.</p>
 </div>
 <div class="paragraph">
-<p>Chaque pièce est représentée sous forme de mosaïque affichant des détails clés tels que le nom de la pièce, les dimensions, le matériau, l&#8217;épaisseur, la quantité et la date d&#8217;échéance. Un aperçu visuel de la pièce est également affiché.</p>
+<p>Chaque pièce est représentée sous forme de mosaïque affichant des détails clés
+tels que le nom de la pièce, les dimensions, la matière, l&#8217;épaisseur, la
+quantité et l&#8217;échéance. Un aperçu visuel de la pièce est également affiché.</p>
 </div>
 <div class="paragraph">
-<p>Cette vue aide les utilisateurs à surveiller l&#8217;état de traitement des pièces individuelles et à suivre leur progression dans les travaux en cours.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activeparts.png" alt="Active">
-</div>
+<p>Cette vue aide les utilisateurs à surveiller l&#8217;état de traitement de chaque
+pièce et à suivre leur progression dans les tâches en cours.</p>
 </div>
 </div>
 </div>
@@ -462,55 +464,51 @@
 <h2 id="_imbrications">Imbrications</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>La vue Imbrications actives affiche toutes les imbrications qui sont actuellement en cours de traitement dans les travaux actifs.</p>
+<p>La vue Active Nests affiche toutes les imbrications actuellement en cours dans
+les tâches actives.</p>
 </div>
 <div class="paragraph">
-<p>Chaque imbrication est représentée avec des détails pertinents tels que le nombre de pièces et l&#8217;état de traitement. Une mise en page visuelle des pièces imbriquées est également affichée.</p>
+<p>Chaque imbrication est représentée avec des détails pertinents tels que le
+nombre de pièces et l&#8217;état de traitement. Une configuration visuelle des pièces
+imbriquées est également affichée.</p>
 </div>
 <div class="paragraph">
-<p>Cette vue aide les utilisateurs à surveiller la progression de l&#8217;imbrication et à suivre comment les pièces sont disposées et traitées sur les feuilles.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activenest.png" alt="Nest">
-</div>
+<p>Cette vue aide les utilisateurs à surveiller la progression de l&#8217;imbrication et
+à suivre la manière dont les pièces sont disposées et traitées sur les tôles.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_édition">Édition</h2>
+<h2 id="_éditer">Éditer</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>L&#8217;option Édition vous permet de modifier l&#8217;élément sélectionné.</p>
+<p>L&#8217;option Edit permet de modifier l&#8217;élément sélectionné.</p>
 </div>
 <div class="paragraph">
-<p>En fonction de la vue actuelle, l&#8217;instance sélectionnée est ouverte pour modification :</p>
+<p>Selon la vue active, l&#8217;instance sélectionnée est ouverte pour modification :</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Dans la vue Travaux, le travail sélectionné est ouvert pour modification.</p>
+<p>Dans la vue Jobs, la tâche sélectionnée est ouverte pour modification.</p>
 </li>
 <li>
-<p>Dans la vue Pièces actives, la pièce sélectionnée est ouverte pour modification.</p>
+<p>Dans la vue Active Parts, la pièce sélectionnée est ouverte pour modification.</p>
 </li>
 <li>
-<p>Dans la vue Imbrications actives, l&#8217;imbrication sélectionnée est ouverte pour modification.</p>
+<p>Dans la vue Active Nests, l&#8217;imbrication sélectionnée est ouverte pour
+modification.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/jobviewedit.png" alt="Edit" width="980">
-</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_export_csv">Export csv</h2>
+<h2 id="_exporter_csv">Exporter csv</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>L&#8217;option Exportation vous permet de sélectionner les informations du travail et de les exporter dans un fichier CSV.</p>
+<p>L&#8217;option Export permet de sélectionner des informations de tâche et de les
+exporter vers un fichier CSV.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -518,26 +516,17 @@
 <p>Cliquez sur l&#8217;icône <strong>jobs</strong>.</p>
 </li>
 <li>
-<p>Cliquez sur l&#8217;option <strong>export</strong> sur le côté droit de l&#8217;écran.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport1.png" alt="Export" width="700">
-</div>
-</div>
+<p>Cliquez sur l&#8217;option <strong>export</strong> à droite de l&#8217;écran.</p>
 </li>
 <li>
-<p>Une boîte de dialogue apparaît affichant les champs disponibles :</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport2.png" alt="Export CSV" width="174">
-</div>
-</div>
+<p>Une boîte de dialogue apparaît, affichant les champs disponibles :</p>
 </li>
 <li>
-<p>Sélectionnez les cases à cocher pour les champs que vous souhaitez exporter.</p>
+<p>Cochez les cases des champs que vous souhaitez exporter.</p>
 </li>
 <li>
-<p>Utilisez l&#8217;option <strong>Group By</strong> si vous souhaitez regrouper les données par un champ sélectionné.</p>
+<p>Utilisez l&#8217;option <strong>Group By</strong> si vous souhaitez regrouper les
+données selon un champ sélectionné.</p>
 </li>
 <li>
 <p>Cliquez sur Export pour générer le fichier CSV.</p>
@@ -547,21 +536,26 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_informations_supplémentaires">Informations supplémentaires</h2>
+<h2 id="_informations_complémentaires">Informations complémentaires</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Il y a également trois icônes supplémentaires sur le côté droit de l&#8217;écran qui sont <strong>simuler</strong>, <strong>Goto</strong> et <strong>retour</strong>.</p>
+<p>Trois icônes supplémentaires se trouvent également à droite de l&#8217;écran :
+<strong>Simulate</strong>, <strong>Goto</strong> et <strong>Back</strong>.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Simulate ouvrira l&#8217;élément sélectionné pour une vue plus détaillée.</p>
+<p>Simulate ouvre l&#8217;élément sélectionné pour une vue plus détaillée.</p>
 </li>
 <li>
-<p>Goto basculera le focus et l&#8217;affichage sur la pièce ou l&#8217;imbrication qui est sélectionnée.</p>
+<p>Goto déplace le focus et l&#8217;affichage sur la pièce ou l&#8217;imbrication
+sélectionnée.</p>
 </li>
 <li>
-<p>Back reviendra un niveau en arrière par rapport à votre position actuelle, par exemple cliquer sur <strong>retour</strong> pendant la simulation vous ramènera au travail principal et depuis un travail vous ramènera à l&#8217;affichage principal des travaux.</p>
+<p>Back revient d&#8217;un niveau par rapport à votre position actuelle ; par exemple,
+cliquer sur <strong>Back</strong> pendant une simulation vous ramène à la
+tâche principale, et depuis une tâche vous ramène à l&#8217;affichage principal des
+tâches.</p>
 </li>
 </ul>
 </div>
@@ -575,16 +569,16 @@
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_travaux">Travaux</a>
+   <a href="#_tâches">Tâches</a>
   </li>
   <li level="2">
-   <a href="#_détails_du_travail">Détails du travail</a>
+   <a href="#_détails_de_la_tâche">Détails de la tâche</a>
   </li>
   <li level="2">
    <a href="#_priorité">Priorité</a>
   </li>
   <li level="2">
-   <a href="#_statut">Statut</a>
+   <a href="#_état">État</a>
   </li>
   <li level="1">
    <a href="#_pièces">Pièces</a>
@@ -593,13 +587,13 @@
    <a href="#_imbrications">Imbrications</a>
   </li>
   <li level="1">
-   <a href="#_édition">Édition</a>
+   <a href="#_éditer">Éditer</a>
   </li>
   <li level="1">
-   <a href="#_export_csv">Export csv</a>
+   <a href="#_exporter_csv">Exporter csv</a>
   </li>
   <li level="1">
-   <a href="#_informations_supplémentaires">Informations supplémentaires</a>
+   <a href="#_informations_complémentaires">Informations complémentaires</a>
   </li>
  </ul>
 </aside>
@@ -607,8 +601,8 @@
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobcreation.html">Créer un travail</a></span>
- <span class="next"><a href="jobpanel.html">Panneau de travail</a></span>
+ <span class="prev"><a href="jobcreation.html">Créer une tâche</a></span>
+ <span class="next"><a href="jobpanel.html">Panneau des tâches</a></span>
 </nav>
 
         </div>

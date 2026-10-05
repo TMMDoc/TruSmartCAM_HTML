@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Importar tarefas</title>
+  <title>Importar jobs</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Requisitos de hardware</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Formatos de arquivo suportados</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Pré-requisitos</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Instalação do servidor</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Instalação do cliente</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Alterar licença</a></li>
    </ul>
   </li>
   <li>
@@ -54,22 +52,22 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mapear material</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapear páginas CAM</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapear campos do CAD (chaves de consulta)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapear campos do CAD (chaves de pesquisa)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">A interface do usuário</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Fluxo de trabalho</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../index.html">Biblioteca</a>
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Abrir</a>
+     <a href="index.html">Open</a>
      <ul>
       <li><button class="tree blank"></button><a href="partimport.html">Importar peças</a></li>
       <li><button class="tree blank"></button><a href="orderimport.html">Importar pedidos</a></li>
-      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Importar tarefas</a></li>
+      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Importar jobs</a></li>
       <li><button class="tree blank"></button><a href="assembliesimport.html">Importar montagens</a></li>
      </ul>
     </li>
@@ -77,8 +75,8 @@
      <button class="tree closed"></button>
      <a href="../libraryview/index.html">Visualização da biblioteca</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Peças</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Montagem</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,7 +84,7 @@
      <a href="../partstate/index.html">Status da peça</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Validação de peça</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Painel de peça</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Painel da peça</a></li>
       <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Filtros de peça</a></li>
      </ul>
     </li>
@@ -96,17 +94,17 @@
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Validação de ferramental</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">Validação do ferramental</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validação de ferramental de dobra</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validação de ferramental de corte</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validação de ferramental de dobra de painel</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Validação do ferramental de dobra</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Validação do ferramental de corte</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Validação do ferramental de fold</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Painel de ferramental</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Salvando filtros</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">Salvar filtros</a></li>
    </ul>
   </li>
   <li>
@@ -118,21 +116,21 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Tarefas</a>
+   <a href="../../jobs/index.html">Jobs</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Criar tarefa</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Visualização de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Painel de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Plano automático</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Criar job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Visualização de job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Painel de job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Auto plan</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Nesting interativo</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Reempacotamento</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Gerenciamento de nesting</a>
+     <a href="../../jobs/layoutcommands/index.html">Gerenciamento de nest</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Visualização de layout</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Painel de layout</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Envio de relatório</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
@@ -143,32 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Gerenciamento manual de retalhos</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Nesting twin-line</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Desatualizado</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtros de tarefa</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Filtros de job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Fábrica</a>
+   <a href="../../factory/index.html">Factory</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Rotas</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Chapas</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
     <li><button class="tree blank"></button><a href="../../factory/users.html">Usuários</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Editar</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
     <li><button class="tree blank"></button><a href="../../factory/customers.html">Clientes</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Configurações</a>
+     <a href="../../factory/settings/index.html">Settings</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Ambiente</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Importação</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Dobra</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Corte</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notificações</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Relatórios</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
      </ul>
     </li>
    </ul>
@@ -181,17 +179,17 @@
      <button class="tree closed"></button>
      <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Instalação</a></li>
+      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
       <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Salvar peças</a></li>
       <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Salvar montagem</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Verificar viabilidade</a></li>
+      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
       <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Melhorias diversas</a></li>
+      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">Informações Corporativas</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">Informações corporativas</a></li>
  </ul>
 </div>
 
@@ -208,74 +206,57 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Abrir</a>
+  <a href="index.html">Open</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobimport.html">Importar tarefas</a>
+  <a href="jobimport.html">Importar jobs</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Importar tarefas</h1>
+                        <h1>Importar jobs</h1>
 <div class="sect1">
 <h2 id="_importar_de_csv_ou_xlsx">Importar de csv ou xlsx</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Você também pode importar tarefas em formatos de texto comuns</p>
+<p>Você também pode importar jobs em formatos de texto comuns</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
 <p>Clique em <strong>File &#8594; Open &#8594; Importar tarefas</strong>, o diálogo Open Folder
-é exibido. Selecione <code>C:\Program
-Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv.png" alt="CSV import" width="426">
-</div>
-</div>
+aparece. Selecione
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>.</p>
 </li>
 <li>
-<p>Se todas as peças existirem no local do csv ou nas pastas de diretórios de consulta,
-a janela <strong>nova tarefa</strong> aparece listando todas as peças que correspondem aos
-campos do csv.</p>
+<p>Se todas as peças existirem no local do csv ou nos diretórios da pasta de pesquisa,
+a janela <strong>nova tarefa</strong> aparece listando todas as peças que correspondem aos campos
+do csv.</p>
 </li>
 <li>
-<p>Peças ausentes são ignoradas e não aparecem na janela <strong>nova tarefa</strong>.</p>
+<p>As peças ausentes são ignoradas e não aparecem na janela <strong>nova tarefa</strong>.</p>
 </li>
 <li>
-<p>Inicialmente o status da peça é Nascent.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv2.png" alt="CSV import" width="908">
-</div>
-</div>
+<p>Inicialmente, o status da peça é Nascent.</p>
 </li>
 <li>
-<p>Clique em <strong>OK</strong>, agora as peças são importadas na Biblioteca de Peças.
-A validação CAD, ferramental para instâncias de dobra e corte são realizados, o que
-pode ser monitorado na tela do <strong>Pmonitor</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv3.png" alt="CSV import" width="1438">
-</div>
-</div>
+<p>Clique em <strong>OK</strong>, agora as peças são importadas para a Biblioteca de Peças.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="_criar_uma_peça_em_branco_para_os_arquivos_cad_em_falta">Criar uma peça em branco para os arquivos CAD em falta</h3>
 <div class="paragraph">
-<p>Ao importar tarefas usando uma planilha (.csv ou .xlsx), você pode às vezes ter
-linhas referenciando arquivos CAD que não estão disponíveis no sistema.</p>
+<p>Ao importar jobs usando uma planilha (.csv ou .xlsx), às vezes você pode ter
+linhas que fazem referência a arquivos CAD que não estão disponíveis no sistema.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Para lidar com isso, vá em <strong>fábrica</strong>
+<p>Para lidar com isso, vá para <strong>fábrica</strong>
  &#8594; <strong>Ajustes</strong> &#8594; <strong>Tarefa</strong>,
  em <strong>Importar planilha</strong> habilite
 <strong>Criar uma peça em branco para os arquivos CAD em falta</strong></p>
@@ -288,37 +269,30 @@ linhas referenciando arquivos CAD que não estão disponíveis no sistema.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Quando esta opção está selecionada:</p>
+<p>Quando esta opção é selecionada:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Se um arquivo CAD estiver ausente para qualquer linha durante a importação da tarefa,
-o sistema criará automaticamente uma peça em branco no lugar do arquivo CAD ausente.</p>
+<p>Se um arquivo CAD estiver ausente em qualquer linha durante a importação do job, o sistema
+criará automaticamente uma peça em branco no lugar do arquivo CAD ausente.</p>
 </li>
 <li>
 <p>Na janela <strong>nova tarefa</strong>, essas peças ausentes são visualmente
 destacadas em amarelo para indicar que o arquivo CAD associado está ausente.</p>
-<div class="paragraph">
-<p><span class="image"><img src="img/csv4.png" alt="Edit jobs" width="578"></span></p>
-</div>
 </li>
 <li>
 <p>A peça ausente ainda terá seus campos mapeados (como nome da peça, material,
-espessura, quantidade, etc.) do CSV. No entanto, o estado da peça será mostrado como
-Nascent, significando que é apenas um espaço reservado vazio sem geometria real ainda.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv5.png" alt="Nascent parts" width="1110">
-</div>
-</div>
+espessura, quantidade etc.) do CSV. No entanto, seu estado de peça será exibido
+como Nascent, o que significa que é apenas um espaço reservado vazio, sem geometria
+real ainda.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Isso garante que a importação da tarefa ainda possa prosseguir sem erros devido a
-arquivos CAD ausentes — você pode posteriormente atualizar ou substituir a peça em
-branco pelo arquivo CAD correto quando estiver disponível.</p>
+<p>Isso garante que a importação do job ainda possa prosseguir sem erros devido a
+arquivos CAD ausentes — você pode atualizar ou substituir a peça em branco pelo
+arquivo CAD correto posteriormente, quando ele estiver disponível.</p>
 </div>
 </div>
 <div class="sect2">
@@ -331,13 +305,13 @@ branco pelo arquivo CAD correto quando estiver disponível.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Quando esta caixa de seleção está marcada, o sistema cria automaticamente a nova
-tarefa sem mostrar o diálogo New Job se a planilha não tiver erros (sem peças
-ausentes, datas ausentes ou dados inválidos).</p>
+<p>Quando esta caixa de seleção é selecionada, o sistema cria automaticamente o novo job sem
+exibir o diálogo New Job se a planilha não tiver erros (sem peças ausentes,
+datas ausentes ou dados inválidos).</p>
 </li>
 <li>
-<p>Quando esta caixa de seleção está desmarcada, o diálogo New Job sempre aparece para
-revisão e confirmação do usuário, mesmo que a planilha não tenha erros.</p>
+<p>Quando esta caixa de seleção é desmarcada, o diálogo New Job sempre aparece para a revisão
+e confirmação do usuário, mesmo que a planilha não tenha erros.</p>
 </li>
 </ul>
 </div>
@@ -351,14 +325,14 @@ revisão e confirmação do usuário, mesmo que a planilha não tenha erros.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Quando esta caixa de seleção está marcada, o sistema espera que a planilha use a
+<p>Quando esta caixa de seleção é selecionada, o sistema espera que a planilha use a
 coluna Raw-Material (por exemplo, Steel-20). Isso significa que o tipo de material e a
 espessura devem ser combinados em um único valor em uma coluna.</p>
 </li>
 <li>
-<p>Quando esta caixa de seleção está desmarcada, o sistema espera que a planilha tenha
-colunas separadas para Material e Thickness (por exemplo, Steel e 2.00). O sistema os
-combina internamente durante a importação.</p>
+<p>Quando esta caixa de seleção é desmarcada, o sistema espera que a planilha tenha
+colunas separadas para Material e Thickness (por exemplo, Steel e 2.00). O
+sistema os combina internamente durante a importação.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csvmaterial.png" alt="CSV Raw Material and Material+Thickness">
@@ -396,20 +370,20 @@ e <strong>Monitorar também subpastas</strong>.</p>
 <p>Selecione <strong>Importar tarefas</strong> nas opções de Spreadsheet Import.</p>
 </li>
 <li>
-<p>Copie <code>C:\Program Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv</code> e cole na
-pasta monitorada.</p>
+<p>Copie
+<code>C:Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>
+e cole-o na pasta monitorada.</p>
 </li>
 <li>
-<p>O sistema verifica o CSV e tenta criar a tarefa automaticamente.</p>
+<p>O sistema verifica o CSV e tenta criar o job automaticamente.</p>
 </li>
 <li>
-<p>Se o arquivo CAD estiver ausente, nenhuma tarefa é criada porque os dados CAD
-necessários não foram encontrados.</p>
+<p>Se o arquivo CAD estiver ausente, nenhum job é criado porque os dados CAD necessários não são encontrados.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_diretório_de_consulta_cad_e_pesquisa_cad_recursiva_não_configurado">Diretório de consulta CAD e pesquisa CAD recursiva - não configurado</h3>
+<h3 id="_diretório_de_pesquisa_de_cad_e_pesquisa_recursiva_de_cad_não_configurados">Diretório de pesquisa de CAD e pesquisa recursiva de CAD - não configurados</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -417,15 +391,15 @@ necessários não foram encontrados.</p>
 <strong>Tarefa</strong> &#8594; <strong>Importar planilha</strong>,
 se nenhum <strong>CAD lookup directories</strong> estiver definido e
 <strong>Usar pesquisa recursiva em CAD</strong> não for usado, o sistema
-não pesquisa arquivos CAD automaticamente.</p>
+não procura arquivos CAD automaticamente.</p>
 </li>
 <li>
 <p>Se a caixa de seleção <strong>Criar uma peça em branco para os arquivos CAD em falta</strong> estiver
-marcada, a tarefa ainda será criada mesmo quando arquivos CAD estiverem ausentes.</p>
+selecionada, o job ainda será criado mesmo quando os arquivos CAD estiverem ausentes.</p>
 </li>
 <li>
-<p>Neste caso, todas as peças na tarefa serão criadas como peças nascent (em branco) —
-significando que não possuem geometria porque os arquivos CAD não foram encontrados.</p>
+<p>Neste caso, todas as peças no job serão criadas como peças nascent (em branco) —
+ou seja, elas não têm geometria porque os arquivos CAD não puderam ser encontrados.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/notconfigured.png" alt="Create blank parts" width="867">
@@ -436,24 +410,24 @@ significando que não possuem geometria porque os arquivos CAD não foram encont
 </div>
 </div>
 <div class="sect2">
-<h3 id="_diretório_de_consulta_cad_e_pesquisa_cad_recursiva_configurado">Diretório de consulta CAD e pesquisa CAD recursiva - configurado</h3>
+<h3 id="_diretório_de_pesquisa_de_cad_e_pesquisa_recursiva_de_cad_configurados">Diretório de pesquisa de CAD e pesquisa recursiva de CAD - configurados</h3>
 <div class="paragraph">
-<p>Quando <strong>Diretórios de pesquisa CAD</strong> está definido para
-(C:\Program Files\Metamation\Praxis\Samples) e
-<strong>Usar pesquisa recursiva em CAD</strong> está habilitado em
+<p>Quando <strong>Diretórios de pesquisa CAD</strong> está definido como
+(C:\Program Files\TRUMPF\TMM\Praxis\Samples)
+e <strong>Usar pesquisa recursiva em CAD</strong> está habilitado em
 <strong>fábrica</strong> &#8594; <strong>Ajustes</strong> &#8594; <strong>Tarefa</strong>
 &#8594; <strong>Importar planilha</strong>:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>O sistema pesquisa automaticamente a pasta especificada e todas as suas subpastas
-para os arquivos CAD necessários mencionados na planilha.</p>
+<p>O sistema procura automaticamente na pasta especificada e em todas as suas subpastas
+pelos arquivos CAD necessários mencionados na planilha.</p>
 </li>
 <li>
-<p><strong>Criar uma peça em branco para os arquivos CAD em falta</strong> também
-está habilitado, então se algum arquivo CAD ainda não for encontrado, o sistema criará
-uma peça em branco como espaço reservado.</p>
+<p><strong>Criar uma peça em branco para os arquivos CAD em falta</strong> também está
+habilitado, portanto, se algum arquivo CAD ainda não for encontrado, o sistema criará uma
+peça em branco como espaço reservado.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/configured.png" alt="Create blank parts" width="861">
@@ -488,10 +462,10 @@ uma peça em branco como espaço reservado.</p>
    <a href="#_pasta_monitorada_usando_csvxlsx">Pasta monitorada usando CSV/XLSX</a>
   </li>
   <li level="2">
-   <a href="#_diretório_de_consulta_cad_e_pesquisa_cad_recursiva_não_configurado">Diretório de consulta CAD e pesquisa CAD recursiva - não configurado</a>
+   <a href="#_diretório_de_pesquisa_de_cad_e_pesquisa_recursiva_de_cad_não_configurados">Diretório de pesquisa de CAD e pesquisa recursiva de CAD - não configurados</a>
   </li>
   <li level="2">
-   <a href="#_diretório_de_consulta_cad_e_pesquisa_cad_recursiva_configurado">Diretório de consulta CAD e pesquisa CAD recursiva - configurado</a>
+   <a href="#_diretório_de_pesquisa_de_cad_e_pesquisa_recursiva_de_cad_configurados">Diretório de pesquisa de CAD e pesquisa recursiva de CAD - configurados</a>
   </li>
  </ul>
 </aside>

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Routes</title>
+  <title>Trasy</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,47 +29,45 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardvérové požiadavky</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Podporované formáty súborov</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Predpoklady</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Inštalácia servera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Inštalácia klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmena licencie</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">Konfigurácia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Pridať/Odstrániť stroj</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Nastavenie náradia</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Pridanie/odstránenie stroja</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Nastavenie tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurácia používateľov</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Jazyk</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../configuration/addmaterial/index.html">Materiál</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Pridať nový materiál a hárok</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Export/Import materiálu</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Nahradiť materiál</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Pridanie nového materiálu a tabule</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Export/import materiálu</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Nahradenie materiálu</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapovanie materiálu</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mapovanie CAM stránok</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie klúče)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mapovanie strán CAM</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie kľúče)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../userinterface.html">Používateľské rozhranie</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Pracovný postup</a></li>
+  <li><button class="tree blank"></button><a href="../userinterface.html">PoužívateĻské rozhranie</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Knižnica</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otvoriť</a>
+     <a href="../library/open/index.html">Otvorenie</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Import dielov</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Import objednávok</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import úloh</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import úloh job</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Import zostáv</a></li>
      </ul>
     </li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Zobrazenie knižnice</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Diely</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zostavy</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zostava</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Stav obrábania</a>
+     <a href="../library/toolingstatus/index.html">Stav tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Validácia obrábania</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Validácia tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validácia ohýbacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validácia rezacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validácia skladacieho obrábania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validácia tooling ohýbania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validácia tooling rezania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validácia tooling skladania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel obrábania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Ukladanie filtrov</a></li>
@@ -118,80 +116,62 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Práce</a>
+   <a href="../jobs/index.html">Úlohy job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Vytvorenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Zobrazenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel práce</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Vytvorenie úlohy job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Zobrazenie úloh job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel úlohy job</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatické plánovanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktívne ukladanie</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktívny nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Prebaľovanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Správa hniezd</a>
+     <a href="../jobs/layoutcommands/index.html">Správa nestov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Zobrazenie rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Panel rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Odosielateľ správ</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Zobrazenie rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Panel rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Odosielanie reportov</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../jobs/remnantmanagement/index.html">Správa zvyškov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatická správa zvyškov</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuálna správa zvyškov</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatické zvyšky</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuálne zvyšky</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Dvojlinové ukladanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Zastaralé</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtre prác</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Neaktuálne</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtre úloh job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Factory</a>
+   <a href="index.html">Továreň</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a class="active" href="routes.html">Trasy</a></li>
+    <li><button class="tree blank"></button><a href="sheets.html">Tabule</a></li>
+    <li><button class="tree blank"></button><a href="users.html">Používatelia</a></li>
+    <li><button class="tree blank"></button><a href="edit.html">Úprava</a></li>
+    <li><button class="tree blank"></button><a href="customers.html">Zákazníci</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="settings/index.html">Settings</a>
+     <a href="settings/index.html">Nastavenia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="settings/environment.html">Nastavenia prostredia</a></li>
+      <li><button class="tree blank"></button><a href="settings/import.html">Nastavenia importu</a></li>
+      <li><button class="tree blank"></button><a href="settings/bend.html">Nastavenia ohýbania</a></li>
+      <li><button class="tree blank"></button><a href="settings/cut.html">Nastavenia rezania</a></li>
+      <li><button class="tree blank"></button><a href="settings/notification.html">Oznámenia</a></li>
+      <li><button class="tree blank"></button><a href="settings/watch.html">Nastavenia sledovania</a></li>
+      <li><button class="tree blank"></button><a href="settings/job.html">Nastavenia úloh job</a></li>
+      <li><button class="tree blank"></button><a href="settings/reports.html">Nastavenia reportov</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD rozšírenia</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Inštalácia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Uložiť diely</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Uložiť zostavu</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Skontrolovať uskutočniteľnosť</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Nastavenia továrne</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Rôzne vylepšenia</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Informácie o spoločnosti</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Firemné informácie</a></li>
  </ul>
 </div>
 
@@ -204,24 +184,24 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Factory</a>
+  <a href="index.html">Továreň</a>
  </div>
  <div>/</div>
  <div>
-  <a href="routes.html">Routes</a>
+  <a href="routes.html">Trasy</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Routes</h1>
+                        <h1>Trasy</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Na základe vašej licencie bude mať TruSmartCAM predvolenú sadu CAM strojov a
-konfigurácií smerovania. Tieto konfigurácie môžete prispôsobiť tak, aby vyhovovali vašim
-špecifickým výrobným postupom.</p>
+<p>V závislosti od vašej licencie bude mať TruSmartCAM predvolenú sadu CAM strojov
+a konfigurácií trás. Tieto konfigurácie môžete prispôsobiť tak, aby vyhovovali
+vašim špecifickým výrobným workflow.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -229,44 +209,40 @@ konfigurácií smerovania. Tieto konfigurácie môžete prispôsobiť tak, aby v
 </div>
 </div>
 <div class="paragraph">
-<p>Na stránke routes sú stroje reprezentované ako spracovateľské stanice, každá
-identifikovaná obrázkom a názvom.</p>
+<p>Na stránke trás sú stroje reprezentované ako spracovateľské stanice, z ktorých
+každá je identifikovaná obrázkom a názvom.</p>
 </div>
 <div class="paragraph">
-<p>Routes spájajú stanice a zobrazujú možné cesty pracovného postupu, ktorými môže časť
-prechádzať od začiatku do konca. Vlastnosti stanice môžete zobraziť prejdením myšou
-nad stanicou.</p>
+<p>Trasy prepájajú stanice a zobrazujú možné cesty workflow, ktorými môže diel
+prejsť od začiatku po koniec. Vlastnosti stanice si môžete zobraziť podržaním
+kurzora myši nad stanicou.</p>
 </div>
 <div class="paragraph">
-<p>Kliknutím na stanicu sa otvorí panel s podrobnými informáciami o danej
-stanici vrátane jej názvu, typu a stavu dostupnosti.</p>
+<p>Kliknutím na stanicu sa otvorí panel s podrobnými informáciami o danej stanici
+vrátane jej názvu, typu a stavu dostupnosti.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Ak chcete upraviť dostupnosť stanice, kliknite na stanicu a
-prepnite začiarkavacie políčko <strong>_Povolené</strong> na paneli.</p>
+<p>Ak chcete upraviť dostupnosť stanice, kliknite na stanicu a prepnite
+začiarkavacie políčko <strong>Enabled</strong> v paneli.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_exportimport_routing_configurations">Export/Import routing configurations</h2>
+<h2 id="_exportimport_konfigurácií_trás">Export/Import konfigurácií trás</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Funkcia <strong>Export/Import</strong> umožňuje používateľom uložiť svoje aktuálne konfigurácie
-smerovania a aplikovať ich na iné projekty alebo inštancie.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/export.png" alt="Export" width="335">
-</div>
+<p>Funkcia <strong>Export/Import</strong> umožňuje používateľom uložiť aktuálne konfigurácie trás
+a použiť ich v iných projektoch alebo inštanciách.</p>
 </div>
 <div class="sect2">
-<h3 id="_export_cad_routes">Export CAD routes</h3>
+<h3 id="_export_cad_trás">Export CAD trás</h3>
 <div class="paragraph">
-<p>Kliknite na <strong>Export CAD routes&#8230;&#8203;</strong>, aby ste uložili všetky aktuálne pravidlá podmienok ciest do súboru CSV.</p>
+<p>Kliknite na <strong>Export CAD routes&#8230;&#8203;</strong>, čím uložíte všetky aktuálne pravidlá
+podmienok trás do súboru CSV.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -274,18 +250,18 @@ smerovania a aplikovať ich na iné projekty alebo inštancie.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>CSV uvádza materiály a ich podmienky smerovania.
+<p>Súbor CSV obsahuje zoznam materiálov a ich podmienok trás.
 Stĺpce reprezentujú názvy strojov a podmienky (napr. Material, SpecialTool, HasBend, MaxBendLength).
-Hodnota 1 označuje smerovanie do stroja; prázdna bunka znamená žiadne smerovanie.</p>
+Hodnota 1 označuje smerovanie na stroj; prázdna bunka znamená žiadne smerovanie.</p>
 </div>
 <div class="paragraph">
-<p>Tento CSV môžete upraviť a znovu importovať do systému.</p>
+<p>Tento súbor CSV môžete upraviť a znova importovať do systému.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_import_cad_routes">Import CAD routes</h3>
+<h3 id="_import_cad_trás">Import CAD trás</h3>
 <div class="paragraph">
-<p>Použite <strong>Import CAD routes&#8230;&#8203;</strong> na aplikáciu upraveného súboru CSV.</p>
+<p>Použite <strong>Import CAD routes&#8230;&#8203;</strong> na použitie upraveného súboru CSV.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -294,13 +270,13 @@ Hodnota 1 označuje smerovanie do stroja; prázdna bunka znamená žiadne smerov
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Pred importom spustite <strong>Reset CAD routes</strong>, aby ste vymazali existujúce konfigurácie.
+Pred importom spustite <strong>Reset CAD routes</strong>, čím vymažete existujúce konfigurácie.
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Systém načíta súbor a aktualizuje podmienky ciest. Pravidlá môžu zahŕňať
+<p>Systém prečíta súbor a aktualizuje podmienky trás. Pravidlá môžu obsahovať
 podmienky ako HasBend a MaxBendLength.</p>
 </div>
 <div class="imageblock">
@@ -309,32 +285,23 @@ podmienky ako HasBend a MaxBendLength.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Ak <code>HasBend = 1</code>, pravidlo sa vzťahuje na časti s ohybmi.<br>
-Ak <code>MaxBendLength =1</code>, pravidlo ďalej obmedzuje na základe najdlhšej dĺžky ohybu časti.</p>
+<p>Ak <code>HasBend = 1</code>, pravidlo sa vzťahuje na diely s ohybmi.<br>
+Ak <code>MaxBendLength =1</code>, pravidlo ďalej obmedzuje na základe dĺžky najdlhšieho ohybu dielu.</p>
 </div>
 <div class="paragraph">
-<div class="title">Example 1</div>
-<p>Časť 00.13 má najdlhší ohyb 500 mm. Zodpovedá prvému pravidlu, takže TBC-5030-V2 je vylúčený.</p>
+<div class="title">Príklad 1</div>
+<p>Diel 00.13 má najdlhší ohyb 500 mm. Zodpovedá prvému pravidlu, takže TBC-5030-V2 je vylúčený.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="img/supressed.png" alt="Suppressed" width="580">
 </div>
 </div>
-<div class="paragraph">
-<div class="title">Example 2</div>
-<p>Časť 00.20 má najdlhší ohyb 600 mm. Nezodpovedá prvému pravidlu a nasleduje druhé pravidlo, smeruje do všetkých strojov.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/notsupressed.png" alt="Not Suppressed" width="573">
-</div>
-</div>
 </div>
 <div class="sect2">
-<h3 id="_reset_cad_routes">Reset CAD routes</h3>
+<h3 id="_reset_cad_trás">Reset CAD trás</h3>
 <div class="paragraph">
-<p>Použite <strong>Reset CAD routes</strong> na vymazanie všetkých existujúcich konfigurácií pred importom nového CSV.</p>
+<p>Použite <strong>Reset CAD routes</strong> na vymazanie všetkých existujúcich konfigurácií pred importom nového súboru CSV.</p>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -359,16 +326,16 @@ Ak importujete bez resetovania, staré pravidlá môžu byť v konflikte s nový
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_exportimport_routing_configurations">Export/Import routing configurations</a>
+   <a href="#_exportimport_konfigurácií_trás">Export/Import konfigurácií trás</a>
   </li>
   <li level="2">
-   <a href="#_export_cad_routes">Export CAD routes</a>
+   <a href="#_export_cad_trás">Export CAD trás</a>
   </li>
   <li level="2">
-   <a href="#_import_cad_routes">Import CAD routes</a>
+   <a href="#_import_cad_trás">Import CAD trás</a>
   </li>
   <li level="2">
-   <a href="#_reset_cad_routes">Reset CAD routes</a>
+   <a href="#_reset_cad_trás">Reset CAD trás</a>
   </li>
  </ul>
 </aside>
@@ -376,8 +343,8 @@ Ak importujete bez resetovania, staré pravidlá môžu byť v konflikte s nový
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Factory</a></span>
- <span class="next"><a href="sheets.html">Sheets</a></span>
+ <span class="prev"><a href="index.html">Továreň</a></span>
+ <span class="next"><a href="sheets.html">Tabule</a></span>
 </nav>
 
         </div>

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Verktygspanel</title>
+  <title>Tooling-panel</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree open"></button>
    <a href="../index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../libraryview/index.html">Biblioteksvy</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Delstatus</a>
+     <a href="../partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Verktygsstatus</a>
+     <a href="index.html">Tooling-status</a>
      <ul>
       <li>
        <button class="tree closed"></button>
-       <a href="toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a class="active" href="toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a class="active" href="toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">Ordrar</a>
+   <a href="../../orders/index.html">Order</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Jobb</a>
+   <a href="../../jobs/index.html">Job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/layoutcommands/index.html">Häckhantering</a>
+     <a href="../../jobs/layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../jobs/remnantmanagement/index.html">Resthantering</a>
+     <a href="../../jobs/remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -208,26 +188,26 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Verktygsstatus</a>
+  <a href="index.html">Tooling-status</a>
  </div>
  <div>/</div>
  <div>
-  <a href="toolingpanel.html">Verktygspanel</a>
+  <a href="toolingpanel.html">Tooling-panel</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Verktygspanel</h1>
+                        <h1>Tooling-panel</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Detta avsnitt förklarar verktygningsrelaterade åtgärder såsom
-<strong>Exportera utdata</strong>,
-<strong>Check Tooling</strong>, <strong>Undertryck riggning</strong>,
-<strong>Ställ in som bas plan&#8230;&#8203;</strong>, <strong>Kopiera riggning&#8230;&#8203;</strong>,
-och andra alternativ som används för att hantera verktygningsinstanser.</p>
+<p>Detta avsnitt beskriver tooling-relaterade åtgärder såsom
+<strong>Export outputs</strong>,
+<strong>Check Tooling</strong>, <strong>Suppress Tooling</strong>,
+<strong>Set as Base-Flat&#8230;&#8203;</strong>, <strong>Copy Tooling</strong>,
+och andra alternativ som används för att hantera tooling-instanser.</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -249,60 +229,52 @@ och andra alternativ som används för att hantera verktygningsinstanser.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Öppna i skrivskyddat läge för visning</strong><br>
-Öppnar den valda verktygningen i skrivskyddat läge.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Öppnar den valda toolingen i skrivskyddat läge.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Aktiverar redigering av den valda verktygningen.</p></td>
+Aktiverar redigering av den valda toolingen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/exportui.png" alt="Export" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Exportera utdata</strong><br>
-Exporterar den valda verktygningsutmatningen till konfigurerad destination.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Export Outputs</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exporterar den valda tooling-utdatan till den konfigurerade destinationen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/checkui.png" alt="Check Tooling" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check Tooling</strong><br>
-Validerar befintlig verktygning utan att göra några ändringar och uppdaterar
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Check Tooling</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validerar den befintliga toolingen utan att göra några ändringar och uppdaterar
 dess status om valideringen misslyckas.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/copyui.png" alt="Copy Tooling" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kopiera riggning&#8230;&#8203;</strong><br>
-Kopierar stans-, sekvens- och bakstoppsinställningen från den valda
-referensverktygningen och tillämpar den på andra lösningar där det är möjligt.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Copy Tooling&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kopierar uppsättningen för stans, sekvens och bakanslag från den valda
+referens-toolingen och tillämpar den på andra lösningar där det är genomförbart.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/baseui.png" alt="Set as Base-Flat" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ställ in som bas plan&#8230;&#8203;</strong><br>
-Markerar den valda böj- eller vikverktygningen som referensplattlägsstorlek för
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Set as Base-Flat&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Markerar den valda bocknings- eller viknings-toolingen som referensutbredd för
 att generera skärlösningar.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/retoolui.png" alt="Re-tool" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Re-tool&#8230;&#8203;</strong><br>
-Ombearbetar den valda verktygningen för delen utan att påverka andra
-verktygningar.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Re-tool&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bearbetar den valda toolingen för detaljen på nytt utan att påverka andra
+toolingar.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/supressui.png" alt="Suppress Tooling" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Undertryck riggning</strong><br>
-Undertrycker den valda verktygningen så att den exkluderas från vidare
-bearbetning och utmatningsgenerering.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Suppress Tooling</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Undertrycker den valda toolingen så att den utesluts från vidare bearbetning
+och utdatagenerering.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prevui.png" alt="Prev Next" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Föreg</strong> / <strong>Nästa</strong> / <strong>Detalj</strong><br>
-Navigerar till föregående eller nästa verktygning, eller tillbaka till
-överordnad del.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Prev</strong> / <strong>Next</strong> / <strong>Part</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navigerar till föregående eller nästa tooling, eller tillbaka till
+föräldradetaljen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sortui.png" alt="Similar Toolings" width="140"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sortera och filtrera</strong><br>
-Visar andra verktygningar som delar liknande egenskaper med den valda
-verktygningen för snabb referens.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visar andra toolingar som har liknande egenskaper som den valda toolingen för
+snabb referens.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -312,22 +284,17 @@ verktygningen för snabb referens.</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_exportera_utdata">Exportera utdata</h2>
+<h2 id="_export_outputs">Export Outputs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Detta alternativ exporterar delutmatningen till destinationen konfigurerad i
-<strong>Fabriksinställningar</strong>. (Se
+<p>Detta alternativ exporterar detaljutdatan till den destination som
+konfigurerats i <strong>Factory Settings</strong>. (Se
 <a href="../../factory/settings/bend.html">Bend Settings</a> och
 <a href="../../factory/settings/cut.html">Cut Settings</a>)</p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="img/toolingoutput.png" alt="Tooling Output" width="431">
-</div>
-</div>
 <div class="paragraph">
-<p>Endast verktygningar associerade med den valda verktygningsoperationen
-exporteras, inte hela delen.</p>
+<p>Endast de toolingar som är associerade med den valda tooling-operationen
+exporteras, inte hela detaljen.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -336,9 +303,9 @@ exporteras, inte hela delen.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-De exporterade filerna beror på operationstypen. För böj- och
-vikoperationer genereras NC-filer och rapporter. För skär- och stansoperationer
-exporteras endast delfilerna.
+De exporterade filerna beror på operationstypen. För bocknings- och
+vikningsoperationer genereras NC-filer och rapporter. För skär- och
+stansoperationer exporteras endast detaljfilerna.
 </td>
 </tr>
 </table>
@@ -351,63 +318,58 @@ exporteras endast delfilerna.
 <div class="ulist">
 <ul>
 <li>
-<p>Om det finns en ändring i CAM-inställningar eller ett böjverktyg försvinner
-behöver ni inte verktygsföra delen om.</p>
+<p>Om det sker en ändring i CAM Settings eller ett bockningsverktyg går förlorat
+behöver du inte toola om detaljen.</p>
 </li>
 <li>
-<p>Använd istället Kontrollera verktygning för att validera befintlig verktygning
-utan att göra några ändringar.</p>
+<p>Använd i stället Check Tooling för att validera den befintliga toolingen utan
+att göra några ändringar.</p>
 </li>
 <li>
-<p>Om valideringen misslyckas uppdateras verktygsstatus för den instansen och
-relaterade utdatafiler tas bort.</p>
+<p>Om valideringen misslyckas uppdateras tooling-statusen för den instansen, och
+de relaterade utdatafilerna tas bort.</p>
 </li>
 <li>
-<p>Kontrollera verktygning upptäcker också delar där fel tidigare manuellt
-åsidosattes med hjälp av <strong>Ignorera fel</strong>, och
-uppdaterar deras status till fel om det behövs.</p>
+<p>Check Tooling upptäcker även detaljer där fel tidigare åsidosatts manuellt med
+<strong>Ignore Errors</strong>, och uppdaterar deras status till fel
+om det behövs.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/checktooling.png" alt="Check Tooling" width="456">
-</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_kopiera_riggning">Kopiera riggning&#8230;&#8203;</h2>
+<h2 id="_copy_tooling">Copy tooling</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Kopiera verktygning låter er snabbt tillämpa böjverktygning från en lösning
-till andra, vilket sparar tid och ansträngning.</p>
+<p>Copy tooling låter dig snabbt tillämpa bockningstooling från en lösning till
+andra, vilket sparar tid och arbete.</p>
 </div>
 <div class="paragraph">
-<p>Detta kopierar stans-, sekvens- och bakstoppsinställningen från en vald
-referensverktygning (lösning) och försöker tillämpa samma inställningar på alla
+<p>Detta kopierar uppsättningen för stans, sekvens och bakanslag från en vald
+referens-tooling (lösning) och försöker tillämpa samma inställningar på alla
 andra lösningar.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Om den kopierade inställningen är möjlig för en målmaskin, sparas den och
-används.</p>
+<p>Om den kopierade uppsättningen är genomförbar för en målmaskin sparas och
+används den.</p>
 </li>
 <li>
-<p>Om inställningen inte är möjlig förblir den ursprungliga verktygningen för den
-maskinen oförändrad.</p>
+<p>Om uppsättningen inte är genomförbar förblir den ursprungliga toolingen för
+den maskinen oförändrad.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Till exempel kan ni ha olika verktygning för olika maskiner:</p>
+<p>Du kan till exempel ha olika tooling för olika maskiner:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Här använder maskin 5230SX 6A en gåsnacksstans, maskin 5085X 6A B23 använder
-en spetsstans.</p>
+<p>Här använder maskin 5230X 4A en Gooseneck-stans och maskin 5230SX 6A en
+Pointed-stans.</p>
 </li>
 </ul>
 </div>
@@ -417,8 +379,8 @@ en spetsstans.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>När ni använder <strong>Kopiera riggning&#8230;&#8203;</strong> på maskin 5230SX 6A
-försöker den kopiera gåsnacksinställningen till alla andra maskiner.</p>
+<p>När du använder <strong>Copy Tooling&#8230;&#8203;</strong> på maskin 5230X 4A försöker
+den kopiera Gooseneck-uppsättningen till alla andra maskiner.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -426,9 +388,9 @@ försöker den kopiera gåsnacksinställningen till alla andra maskiner.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Samma stans-, sekvens- och bakstoppsinställningar tillämpas där det är möjligt.
-Om den kopierade inställningen inte kan användas förblir den ursprungliga
-verktygningen oförändrad.</p>
+<p>Samma inställningar för stans, sekvens och bakanslag tillämpas där det är
+möjligt. Om den kopierade uppsättningen inte kan användas förblir den
+ursprungliga toolingen oförändrad.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -436,30 +398,29 @@ verktygningen oförändrad.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Efter att ha tillämpat kopiera verktygning har gåsnacksinställningen framgångsrikt
-tillämpats på alla andra maskiner där det är möjligt.</p>
+<p>Efter att copy tooling tillämpats har Gooseneck-uppsättningen framgångsrikt
+tillämpats på alla andra maskiner där det är genomförbart.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_ställ_in_som_bas_plan">Ställ in som bas plan&#8230;&#8203;</h2>
+<h2 id="_set_as_base_flat">Set as Base-Flat&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Funktionen <strong>Ställ in som bas plan&#8230;&#8203;</strong> definierar vilken böj- eller
-vikverktygning som används som referensplattlägsstorlek för att generera
-skärlösningar. När en verktygning markeras som basplattlägg uppdaterar
-TruSmartCAM delens plattlägsstorlek baserat på den maskinen och regenererar
-skärlösningar därefter. Basplattläggs-verktygningar visas med en blå ram i
+<p>Funktionen <strong>Set as Base-Flat&#8230;&#8203;</strong> definierar vilken bocknings-
+eller viknings-tooling som används som referensutbredd för att generera
+skärlösningar. När en tooling markeras som Base-Flat uppdaterar TruSmartCAM
+detaljens utbredda storlek baserat på den maskinen och regenererar
+skärlösningarna därefter. Base-Flat-toolingar visas med en blå ram i
 användargränssnittet.</p>
 </div>
 <div class="paragraph">
-<p>Olika böjmaskiner kan producera små variationer i plattlägsstorlek för samma
-del. När ni ställer in en verktygning som basplattlägg använder TruSmartCAM den
-maskinens plattlägsstorlek som huvudreferens och omberäknar automatiskt
-skärlösningarna.</p>
+<p>Olika bockningsmaskiner kan ge små variationer i utbredd storlek för samma
+detalj. När du sätter en tooling som Base-Flat använder TruSmartCAM den maskinens
+utbredda storlek som huvudreferens och räknar automatiskt om skärlösningarna.</p>
 </div>
 <div class="paragraph">
-<p>Här kan vi se olika plattläggsstorlekar för samma del över olika maskiner:</p>
+<p>Här kan vi se olika utbredda storlekar för samma detalj för olika maskiner:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -467,8 +428,8 @@ skärlösningarna.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>I detta exempel är verktygningen <strong>5130X 6A B23</strong> inställd som basplattlägg, och
-den uppdaterade plattläggsstorleken tillämpas i delegenskaperna:</p>
+<p>I det här exemplet är toolingen <strong>5230X 4A</strong> satt som Base-Flat, och den
+uppdaterade utbredda storleken tillämpas i detaljegenskaperna:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -476,10 +437,10 @@ den uppdaterade plattläggsstorleken tillämpas i delegenskaperna:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_automatiskt_basplattläggs_val">Automatiskt basplattläggs-val</h3>
+<h3 id="_automatic_base_flat_selection">Automatic base flat selection</h3>
 <div class="paragraph">
 <p>När fabriksinställningen
-<strong>Använd plan korrigering vid bockning</strong> är aktiverad:</p>
+<strong>Apply flat correction during bending</strong> är aktiverad:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -489,31 +450,31 @@ den uppdaterade plattläggsstorleken tillämpas i delegenskaperna:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>TruSmartCAM ställer automatiskt in böjverktygningen (som innehåller max
-böjlängdstabell) som basplattlägg under delimport.</p>
+<p>TruSmartCAM sätter automatiskt bockningstoolingen (som innehåller tabellen för
+max bockningslängd) som Base-Flat under detaljimporten.</p>
 </li>
 <li>
-<p>Om den valda böjverktygningen stöter på ett fel eller inte är möjlig växlar
-TruSmartCAM intelligent och ställer in en annan giltig böjverktygning som
-basplattlägg. Detta säkerställer att plattläggs-referensen och skärlösningarna
-alltid förblir konsekventa och giltiga utan manuellt ingripande.</p>
+<p>Om den valda bockningstoolingen stöter på ett fel eller inte är genomförbar
+växlar TruSmartCAM intelligent och sätter en annan giltig bockningstooling som
+Base-Flat. Detta säkerställer att referensen för utbredd storlek och
+skärlösningarna alltid förblir konsekventa och giltiga utan manuellt ingripande.</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_förbättrad_basplattläggs_hantering">Förbättrad basplattläggs-hantering</h3>
+<h3 id="_enhanced_base_flat_management">Enhanced base flat management</h3>
 <div class="paragraph">
-<p>TruSmartCAM tillhandahåller basplattläggs-alternativ i dialogrutan
-<strong>Spara till Praxis</strong> när böj- eller vikverktygningsredigeringar
-sparas. Dessa alternativ visas endast för verktygningar i OK-tillstånd och
-säkerställer att plattläggsstorlek och skärlösningar förblir korrekta.</p>
+<p>TruSmartCAM tillhandahåller Base-Flat-alternativ i dialogrutan
+<strong>Save to Praxis</strong> när du sparar redigeringar av bocknings- eller
+viknings-tooling. Dessa alternativ visas endast för toolingar i OK-tillstånd och
+säkerställer att utbredd storlek och skärlösningar förblir korrekta.</p>
 </div>
 <div class="sect3">
-<h4 id="_ställ_in_som_bas_plan_och_beräkna_skärningslösning">Ställ in som bas plan och beräkna skärningslösning</h4>
+<h4 id="_set_as_base_flat_and_calculate_cutting_solution">Set as Base-Flat and calculate cutting solution</h4>
 <div class="paragraph">
-<p>Detta alternativ används för att markera en verktygning som basplattlägg för
-första gången och automatiskt generera motsvarande skärlösning.</p>
+<p>Detta alternativ används för att markera en tooling som Base-Flat för första
+gången och automatiskt generera motsvarande skärlösning.</p>
 </div>
 <div class="paragraph">
 <p>Visas när:</p>
@@ -521,10 +482,10 @@ första gången och automatiskt generera motsvarande skärlösning.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Verktygningen inte för närvarande är markerad som basplattlägg.</p>
+<p>Toolingen är för närvarande inte markerad som Base-Flat.</p>
 </li>
 <li>
-<p>Användaren har checkat ut verktygningen för redigering och sparar ändringarna.</p>
+<p>Användaren har checkat ut toolingen för redigering och sparar ändringarna.</p>
 </li>
 </ul>
 </div>
@@ -534,21 +495,21 @@ första gången och automatiskt generera motsvarande skärlösning.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>För att använda detta alternativ, checka ut böj- eller vikverktygningen och gör
-de nödvändiga modifieringarna, såsom ändringar av böjparametrar eller
-plattlägsstorlek. Tryck på <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>S</kbd></span> för att spara ändringarna. I
-dialogrutan <strong>Spara till Praxis</strong>, välj
-<strong>Ställ in som bas plan och beräkna skärningslösning</strong> och
-klicka på <strong>OK</strong>. TruSmartCAM kommer att ställa in verktygningen som
-basplattlägg och generera skärlösningen med den uppdaterade plattläggsstorleken.</p>
+<p>För att använda detta alternativ, checka ut bocknings- eller viknings-toolingen
+och gör de nödvändiga ändringarna, såsom ändringar av bockningsparametrar eller
+utbredd storlek. Tryck på <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>S</kbd></span> för att spara ändringarna. I dialogrutan
+<strong>Save to Praxis</strong>, välj
+<strong>Set as Base-Flat and calculate cutting solution</strong> och
+klicka på
+<strong>OK</strong>. TruSmartCAM sätter toolingen som Base-Flat och genererar
+skärlösningen med den uppdaterade utbredda storleken.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_uppdatera_bas_plan_och_räkna_om_skärlösning">Uppdatera bas plan och räkna om skärlösning</h4>
+<h4 id="_update_the_base_flat_and_re_calculate_cutting_solution">Update the base-flat and re-calculate cutting solution</h4>
 <div class="paragraph">
-<p>Detta alternativ används när verktygningen redan är markerad som basplattlägg
-och har redigerats, vilket kräver att plattläggstorleken och skärlösningarna
-regenereras.</p>
+<p>Detta alternativ används när toolingen redan är markerad som Base-Flat och har
+redigerats, vilket kräver att utbredd storlek och skärlösningar regenereras.</p>
 </div>
 <div class="paragraph">
 <p>Visas när:</p>
@@ -556,7 +517,7 @@ regenereras.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Verktygningen redan är markerad som basplattlägg.</p>
+<p>Toolingen är redan markerad som Base-Flat.</p>
 </li>
 <li>
 <p>Användaren har checkat ut den, redigerat den och sparar ändringarna.</p>
@@ -569,12 +530,12 @@ regenereras.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>När ni redigerar den befintliga basplattläggs-verktygningen, uppdatera
-böjparametrarna eller plattläggs-geometrin efter behov. I dialogrutan
-<strong>Spara till Praxis</strong>, välj
-<strong>Uppdatera bas plan och räkna om skärlösning</strong>.
-TruSmartCAM kommer sedan att uppdatera basplattläggs-verktygningen och regenerera
-alla relaterade skärlösningar för att återspegla de senaste ändringarna.</p>
+<p>När du redigerar den befintliga Base-Flat-toolingen, uppdatera
+bockningsparametrarna eller geometrin för utbredd storlek efter behov. I
+dialogrutan <strong>Save to Praxis</strong>, välj
+<strong>Update the base-flat and re-calculate cutting solution</strong>.
+TruSmartCAM uppdaterar sedan Base-Flat-toolingen och regenererar alla relaterade
+skärlösningar för att återspegla de senaste ändringarna.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -584,13 +545,14 @@ alla relaterade skärlösningar för att återspegla de senaste ändringarna.</p
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Endast en böjverktygning kan ställas in som basplattlägg åt gången.</p>
+<p>Endast en bockningstooling kan vara satt som Base-Flat åt gången.</p>
 </div>
 <div class="paragraph">
-<p>När basplattlägget ändras ombearbetas befintliga skärlösningar automatiskt.</p>
+<p>När Base-Flat ändras bearbetas befintliga skärlösningar automatiskt på nytt.</p>
 </div>
 <div class="paragraph">
-<p>Denna funktion är tillgänglig för både böj- och vikverktygningar inom TruSmartCAM.</p>
+<p>Denna funktion är tillgänglig för både bocknings- och viknings-toolingar inom
+TruSmartCAM.</p>
 </div>
 </td>
 </tr>
@@ -601,22 +563,17 @@ alla relaterade skärlösningar för att återspegla de senaste ändringarna.</p
 </div>
 </div>
 <div class="sect1">
-<h2 id="_rigga_om">Rigga om&#8230;&#8203;</h2>
+<h2 id="_re_tool">Re-tool</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Detta alternativ ombearbetar den valda verktygningen för delen.</p>
+<p>Detta alternativ bearbetar den valda toolingen för detaljen på nytt.</p>
 </div>
 <div class="paragraph">
-<p>Högerklicka på den önskade verktygningen i verktygspanelen och klicka på
-<strong>Rigga om&#8230;&#8203;</strong></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/toolingretool.png" alt="ToolingRetool" width="431">
-</div>
+<p>Högerklicka på den önskade toolingen i Tooling-panelen och klicka på
+<strong>Re-tool&#8230;&#8203;</strong></p>
 </div>
 <div class="paragraph">
-<p>En bekräftelsedialog visas innan ni fortsätter.</p>
+<p>En bekräftelsedialog visas innan du fortsätter.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -624,42 +581,33 @@ alla relaterade skärlösningar för att återspegla de senaste ändringarna.</p
 </div>
 </div>
 <div class="paragraph">
-<p>Click <strong>Ja</strong> to continue with re-tooling, or <strong>Nej</strong> to
-cancel the operation.</p>
+<p>Klicka på <strong>Yes</strong> för att fortsätta med omtoolning, eller <strong>No</strong>
+för att avbryta åtgärden.</p>
 </div>
 <div class="paragraph">
-<p>Only the selected tooling is re-tooled. Other toolings associated with
-the part are not affected. The existing outputs related to the selected
-tooling are removed and regenerated during the re-tooling process.</p>
+<p>Endast den valda toolingen toolas om. Andra toolingar som är associerade med
+detaljen påverkas inte. De befintliga utdata som är relaterade till den valda
+toolingen tas bort och regenereras under omtoolningsprocessen.</p>
 </div>
 <div class="paragraph">
-<p>Use this option when tooling data is outdated, incorrect, or when
-changes are made to machine or tooling configurations.</p>
+<p>Använd detta alternativ när tooling-data är inaktuell, felaktig, eller när
+ändringar görs i maskin- eller tooling-konfigurationer.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_ignorera_fel">Ignorera fel</h2>
+<h2 id="_ignore_errors">Ignore errors</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>If a tooled instance shows a warning, and you still want to proceed with it,
-you can override the warning by clicking
-<strong>Ignorera fel</strong>.</p>
+<p>Om en toolad instans visar en varning och du ändå vill fortsätta med den, kan
+du åsidosätta varningen genom att klicka på
+<strong>Ignore errors</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/ignore.png" alt="Ignore errors" width="456">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>This will allow the system to export output files for that
-instance, even if there were tooling issues.</p>
+<p>Detta gör att systemet kan exportera utdatafiler för den instansen, även om
+det fanns tooling-problem.</p>
 </li>
 </ul>
 </div>
@@ -670,8 +618,9 @@ instance, even if there were tooling issues.</p>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-Use <strong>Ignore Errors</strong> only when you are sure the warning can be safely
-ignored. Overriding actual errors may lead to machine damage or safety risks.
+Använd <strong>Ignore Errors</strong> endast när du är säker på att varningen kan
+ignoreras säkert. Att åsidosätta faktiska fel kan leda till maskinskador eller
+säkerhetsrisker.
 </td>
 </tr>
 </table>
@@ -679,47 +628,28 @@ ignored. Overriding actual errors may lead to machine damage or safety risks.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_suppressunsuppress_tooling">Suppress/Unsuppress tooling</h2>
+<h2 id="_undertryckåterställ_tooling">Undertryck/återställ tooling</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>When a machine is inactive or you do not want a specific part to be
-processed by a
-particular machine, use <strong>Undertryck riggning</strong> to exclude
-that part from nesting on that machine.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/supress.png" alt="Supress Tooling" width="456">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>After suppressing, hovering the mouse over the tooled instance shows a
-message like: “Tooling suppressed by &lt;User name&gt; on &lt;Date Time&gt;”.</p>
+<p>När en maskin är inaktiv eller när du inte vill att en specifik detalj ska
+bearbetas av en viss maskin, använd <strong>Suppress Tooling</strong> för
+att utesluta den detaljen från nesting på den maskinen.</p>
 </li>
 <li>
-<p>Suppress tooling removes the output file for that machine and part.</p>
+<p>Efter undertryckning visas ett meddelande när du håller muspekaren över den
+toolade instansen, t.ex.: “Tooling suppressed by &lt;User name&gt; on &lt;Date Time&gt;”.</p>
 </li>
 <li>
-<p>Use <strong>Ta bort undertryck riggning</strong> to restore the tooling
-status for the part on that machine.</p>
+<p>Suppress tooling tar bort utdatafilen för den maskinen och detaljen.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/unsupress.png" alt="Unsupress Tooling" width="495">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>When unsuppressed, the respective output file is generated again.</p>
+<p>Använd <strong>Unsuppress tooling</strong> för att återställa
+tooling-statusen för detaljen på den maskinen.</p>
+</li>
+<li>
+<p>När undertryckningen hävs genereras respektive utdatafil igen.</p>
 </li>
 </ul>
 </div>
@@ -733,31 +663,31 @@ status for the part on that machine.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_exportera_utdata">Exportera utdata</a>
+   <a href="#_export_outputs">Export Outputs</a>
   </li>
   <li level="1">
    <a href="#_check_tooling">Check Tooling</a>
   </li>
   <li level="1">
-   <a href="#_kopiera_riggning">Kopiera riggning&#8230;&#8203;</a>
+   <a href="#_copy_tooling">Copy tooling</a>
   </li>
   <li level="1">
-   <a href="#_ställ_in_som_bas_plan">Ställ in som bas plan&#8230;&#8203;</a>
+   <a href="#_set_as_base_flat">Set as Base-Flat&#8230;&#8203;</a>
   </li>
   <li level="2">
-   <a href="#_automatiskt_basplattläggs_val">Automatiskt basplattläggs-val</a>
+   <a href="#_automatic_base_flat_selection">Automatic base flat selection</a>
   </li>
   <li level="2">
-   <a href="#_förbättrad_basplattläggs_hantering">Förbättrad basplattläggs-hantering</a>
+   <a href="#_enhanced_base_flat_management">Enhanced base flat management</a>
   </li>
   <li level="1">
-   <a href="#_rigga_om">Rigga om&#8230;&#8203;</a>
+   <a href="#_re_tool">Re-tool</a>
   </li>
   <li level="1">
-   <a href="#_ignorera_fel">Ignorera fel</a>
+   <a href="#_ignore_errors">Ignore errors</a>
   </li>
   <li level="1">
-   <a href="#_suppressunsuppress_tooling">Suppress/Unsuppress tooling</a>
+   <a href="#_undertryckåterställ_tooling">Undertryck/återställ tooling</a>
   </li>
  </ul>
 </aside>
@@ -765,7 +695,7 @@ status for the part on that machine.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></span>
+ <span class="prev"><a href="toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></span>
  <span class="next"><a href="../savingfilters.html">Spara filter</a></span>
 </nav>
 

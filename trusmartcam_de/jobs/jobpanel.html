@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Auftragspanel</title>
+  <title>Jobpanel</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwareanforderungen</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Unterstützte Dateiformate</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Voraussetzungen</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Lizenz ändern</a></li>
    </ul>
   </li>
   <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Material zuordnen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM-Seiten zuordnen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Felder aus CAD zuordnen (Suchschlüssel)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Felder aus CAD zuordnen (Nachschlagekennungen)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Die Benutzeroberfläche</a></li>
@@ -100,7 +98,7 @@
        <ul class="hide">
         <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Biegewerkzeugvalidierung</a></li>
         <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Schneidwerkzeugvalidierung</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Falzwerkzeugvalidierung</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Faltwerkzeugvalidierung</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Werkzeugpanel</a></li>
@@ -113,80 +111,62 @@
    <button class="tree closed"></button>
    <a href="../orders/index.html">Aufträge</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Auftragsansichten</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Auftragsansicht</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
    <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Auftrag erstellen</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Auftragsansicht</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobpanel.html">Auftragspanel</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Job erstellen</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Jobansicht</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobpanel.html">Jobpanel</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Automatische Planung</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktives Verschachteln</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktives Schachteln</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Umpacken</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Nest-Verwaltung</a>
+     <a href="layoutcommands/index.html">Schachtelungsverwaltung</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout-Ansicht</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout-Panel</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Berichtssender</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout-Bereich</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Berichtsversand</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="remnantmanagement/index.html">Reststück-Verwaltung</a>
+     <a href="remnantmanagement/index.html">Restverwaltung</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatische Reststück-Verwaltung</a></li>
-      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuelle Reststück-Verwaltung</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatische Restverwaltung</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuelle Restverwaltung</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline-Verschachtelung</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twin-Line-Schachteln</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Veraltet</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Auftragsfilter</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Jobfilter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Werk</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routen</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Blechtafeln</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Benutzer</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Bearbeiten</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunden</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Einstellungen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Umgebung</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Biegen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Schneiden</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Benachrichtigungen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Überwachung</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-Erweiterungen</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Teile speichern</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Baugruppe speichern</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Machbarkeit prüfen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Werkseinstellungen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Sonstige Verbesserungen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Berichte</a></li>
      </ul>
     </li>
    </ul>
@@ -208,21 +188,21 @@
  </div>
  <div>/</div>
  <div>
-  <a href="jobpanel.html">Auftragspanel</a>
+  <a href="jobpanel.html">Jobpanel</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Auftragspanel</h1>
+                        <h1>Jobpanel</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Dieser Abschnitt erl\u00e4utert auftragsbezogene Aktionen wie
-<strong>Export outputs</strong>, <strong>Job zurücksetzen&#8230;&#8203;</strong>,
-<strong>Als abgeschlossen markieren&#8230;&#8203;</strong>, <strong>Job exportieren&#8230;&#8203;</strong>
-und andere Optionen zur Verwaltung von Auftragsinstanzen.</p>
+<p>Dieser Abschnitt erläutert jobbezogene Aktionen wie
+<strong>Export outputs</strong>, <strong>Reset job&#8230;&#8203;</strong>,
+<strong>Mark complete&#8230;&#8203;</strong>, <strong>Export job&#8230;&#8203;</strong>
+und andere Optionen zur Verwaltung von Jobinstanzen.</p>
 </div>
 <table class="tableblock frame-none grid-none fit-content">
 <colgroup>
@@ -244,62 +224,56 @@ und andere Optionen zur Verwaltung von Auftragsinstanzen.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Zur Anzeige im Lesemodus öffnen</strong><br>
-Öffnet den ausgewählten Auftrag im schreibgeschützten Modus.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Öffnet den ausgewählten Job im schreibgeschützten Modus.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Aktiviert die Bearbeitung des ausgewählten Auftrags.</p></td>
+Ermöglicht die Bearbeitung des ausgewählten Jobs.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Löschen</strong><br>
-Löscht den ausgewählten Auftrag.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+Löscht den ausgewählten Job.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Bericht anzeigen</strong><br>
-Öffnet den Produktionsbericht für den ausgewählten Auftrag.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>View Report</strong><br>
+Öffnet den Produktionsbericht für den ausgewählten Job.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/exportui.png" alt="Export" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ausgänge exportieren</strong><br>
-Exportiert die maschinenfähigen Ausgabedateien (NC-Dateien und Berichte), die
-für den ausgewählten Auftrag generiert wurden.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Export Outputs</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exportiert die maschinenfertigen Ausgabedateien (NC-Dateien und Berichte), die
+für den ausgewählten Job generiert wurden.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/planui.png" alt="Plan" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Plan job</strong><br>
-Generiert verschachtelte Layouts für die Teile im ausgewählten Auftrag.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Plan Job&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generiert geschachtelte Layouts für die Teile im ausgewählten Job.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/resetui.png" alt="Reset" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Job zurücksetzen&#8230;&#8203;</strong><br>
-Entfernt alle generierten Layouts für den Auftrag und setzt seine Teile in den
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Reset Job&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Entfernt alle generierten Layouts für den Job und setzt seine Teile in den
 planbaren Zustand zurück.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/markui.png" alt="Mark" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Als abgeschlossen markieren&#8230;&#8203;</strong><br>
-Markiert den Auftrag und alle seine Verschachtelungen nach der Produktion als abgeschlossen.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Mark Complete&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Markiert den Job und alle seine Schachtelungen nach der Produktion als abgeschlossen.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/jobui.png" alt="Job" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Job exportieren&#8230;&#8203;</strong><br>
-Exportiert den vollständigen Auftrag als Paket, das wiederverwendet oder in ein
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Export Job&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exportiert den vollständigen Job als Paket, das wiederverwendet oder in ein
 anderes System importiert werden kann.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Zurück</strong> / <strong>Weiter</strong> / <strong>Layout</strong><br>
-Navigiert zum vorherigen oder nächsten Layout innerhalb des ausgewählten Auftrags.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Prev</strong> / <strong>Next</strong> / <strong>Layout</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navigiert zum vorherigen oder nächsten Layout innerhalb des ausgewählten Jobs.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-Verwenden Sie diese Filter, um andere Aufträge anzuzeigen, die dasselbe Material, denselben Kunden,
-dasselbe Fälligkeitsdatum oder dieselbe Priorität haben.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sortieren und filtern</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Verwenden Sie diese Filter, um andere Jobs anzuzeigen, die
+<strong>Same Customer</strong>,
+<strong>Same Part</strong> gemeinsam haben.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -309,38 +283,28 @@ dasselbe Fälligkeitsdatum oder dieselbe Priorität haben.</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_ausgänge_exportieren">Ausgänge exportieren</h2>
+<h2 id="_export_outputs">Export outputs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Wählen Sie den erforderlichen Auftrag aus.</p>
+<p>Wählen Sie den erforderlichen Job aus.</p>
 </li>
 <li>
-<p>Klicken Sie auf <strong>Ausgänge exportieren</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput.png" alt="Export outputs dialog" width="585">
-</div>
-</div>
+<p>Klicken Sie auf <strong>Export outputs</strong>.</p>
 </li>
 <li>
-<p>Dies exportiert die maschinenfähigen Ausgabedateien, die für den ausgewählten
-Auftrag generiert wurden.</p>
+<p>Dadurch werden die maschinenfertigen Ausgabedateien exportiert, die für den
+ausgewählten Job generiert wurden.</p>
 </li>
 <li>
-<p>Export-Ausgaben können entweder am Standardspeicherort gespeichert werden, der in
-<strong>Werkseinstellungen</strong> konfiguriert ist, oder an einem benutzerdefinierten Speicherort unter Verwendung von
-<strong>Browse&#8230;&#8203;</strong>.</p>
+<p>Export Outputs können entweder am in <strong>Factory Settings</strong>
+konfigurierten Standardspeicherort oder mithilfe von <strong>Browse&#8230;&#8203;</strong>
+an einem benutzerdefinierten Speicherort gespeichert werden.</p>
 </li>
 <li>
-<p>Es werden nur Maschinenausgabedateien (wie NC und Berichte) für den
-Auftrag exportiert.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/output.png" alt="Exported output files" width="725">
-</div>
-</div>
+<p>Es werden nur Maschinenausgabedateien (wie NC und Berichte) für den Job
+exportiert.</p>
 </li>
 <li>
 <p>Diese Dateien werden direkt für die Produktion verwendet und können an die
@@ -351,126 +315,98 @@ Maschine gesendet werden.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_job_zurücksetzen">Job zurücksetzen&#8230;&#8203;</h2>
+<h2 id="_reset_job">Reset job&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Setzt den ausgewählten Auftrag zurück, indem alle generierten Layouts entfernt und die Teile
-wieder für die Planung verfügbar gemacht werden.</p>
+<p>Setzt den ausgewählten Job zurück, indem alle generierten Layouts entfernt und
+die Teile wieder für die Planung verfügbar gemacht werden.</p>
 </div>
 <div class="paragraph">
-<p>So setzen Sie einen Auftrag zurück:</p>
+<p>So setzen Sie einen Job zurück:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Klicken Sie mit der rechten Maustaste auf den Auftrag und wählen Sie <strong>Job zurücksetzen&#8230;&#8203;</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/resetjob1.png" alt="Reset job" width="820">
-</div>
-</div>
+<p>Klicken Sie mit der rechten Maustaste auf den Job und wählen Sie <strong>Reset job&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Dies löscht alle vorhandenen verschachtelten Layouts für den ausgewählten Auftrag und setzt
-alle seine Teile in den planbaren Zustand zurück.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/resetjob2.png" alt="Reset job" width="820">
-</div>
-</div>
+<p>Dadurch werden alle vorhandenen geschachtelten Layouts für den ausgewählten
+Job gelöscht und alle seine Teile in den planbaren Zustand zurückgesetzt.</p>
 </li>
 <li>
-<p>Wenn die Layouts Teile aus anderen Aufträgen enthalten, werden auch diese Teile zurückgesetzt.</p>
+<p>Wenn die Layouts Teile aus anderen Jobs enthalten, werden auch diese Teile zurückgesetzt.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_job_exportieren">Job exportieren&#8230;&#8203;</h2>
+<h2 id="_export_job">Export job&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Wählen Sie den erforderlichen Auftrag aus.</p>
+<p>Wählen Sie den erforderlichen Job aus.</p>
 </li>
 <li>
-<p>Klicken Sie auf <strong>Job exportieren&#8230;&#8203;</strong>.</p>
+<p>Klicken Sie auf <strong>Export job&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Diese Option exportiert den vollständigen Auftrag als Paket, das wiederverwendet oder
-in ein anderes System importiert werden kann.</p>
+<p>Diese Option exportiert den vollständigen Job als Paket, das wiederverwendet
+oder in ein anderes System importiert werden kann.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/outputview.png" alt="Output view" width="785">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Die exportierten Daten umfassen alle Informationen, die zum Neuerstellen des Auftrags erforderlich sind:</p>
+<p>Die exportierten Daten enthalten alle Informationen, die zum Neuerstellen des Jobs erforderlich sind:</p>
 <div class="ulist">
 <ul>
 <li>
 <p>Teiledetails und Mengen (CSV-Dateien).</p>
 </li>
 <li>
-<p>Layout- und Verschachtelungsdaten (CSV / FXYLT-Dateien).</p>
+<p>Layout- und Schachteldaten (CSV-/FXYLT-Dateien).</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Die exportierten Dateien werden als Auftragsordner am konfigurierten Exportspeicherort gespeichert.</p>
+<p>Die exportierten Dateien werden als Jobordner am konfigurierten Exportspeicherort gespeichert.</p>
 </li>
 <li>
-<p>Diese Option wird zum Übertragen, Teilen oder Sichern des gesamten Auftrags verwendet.</p>
+<p>Diese Option wird zum Übertragen, Teilen oder Sichern des gesamten Jobs verwendet.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_als_abgeschlossen_markieren">Als abgeschlossen markieren&#8230;&#8203;</h2>
+<h2 id="_mark_complete">Mark complete&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Sobald der Auftrag auf der Maschine verarbeitet wurde, öffnen Sie das Auftragspanel und wählen Sie
-<strong>Als abgeschlossen markieren&#8230;&#8203;</strong> aus.</p>
+<p>Sobald der Job auf der Maschine verarbeitet wurde, öffnen Sie das Jobpanel und wählen Sie
+<strong>Mark complete&#8230;&#8203;</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/mark.png" alt="Mark complete dialog" width="845">
-</div>
-</div>
+<li>
+<p>Wenn ein Job als abgeschlossen markiert wird:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Wenn ein Auftrag als abgeschlossen markiert wird:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Alle Verschachtelungen unter dem Auftrag werden als abgeschlossen markiert.</p>
+<p>Werden alle Schachtelungen unter dem Job als abgeschlossen markiert.</p>
 </li>
 <li>
-<p>Der Auftrag wird ausgegraut, an das Ende der Liste verschoben und mit einem
-grünen Häkchen angezeigt.</p>
+<p>Wird der Job ausgegraut, ans Ende der Liste verschoben und mit einem grünen
+Häkchen angezeigt.</p>
 </li>
 <li>
-<p>Alle Layouts unter dem Auftrag werden aus der Liste der aktiven Layouts entfernt.</p>
+<p>Werden alle Layouts unter dem Job aus der Liste der aktiven Layouts entfernt.</p>
 </li>
 <li>
-<p>Teil- und Auftragsstatus werden aktualisiert, und verarbeitete Mengen wechseln in den
-abgeschlossenen Zustand.</p>
+<p>Werden Teile- und Jobstatus aktualisiert, und verarbeitete Mengen wechseln in
+den abgeschlossenen Zustand.</p>
 </li>
 <li>
-<p>Ausgabedateien für alle Layouts im Auftrag werden vom Maschinenausgabespeicherort
+<p>Werden Ausgabedateien für alle Layouts im Job vom Maschinenausgabespeicherort
 entfernt, um eine doppelte Verwendung zu vermeiden.</p>
 </li>
 </ul>
@@ -488,16 +424,16 @@ entfernt, um eine doppelte Verwendung zu vermeiden.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_ausgänge_exportieren">Ausgänge exportieren</a>
+   <a href="#_export_outputs">Export outputs</a>
   </li>
   <li level="1">
-   <a href="#_job_zurücksetzen">Job zurücksetzen&#8230;&#8203;</a>
+   <a href="#_reset_job">Reset job&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_job_exportieren">Job exportieren&#8230;&#8203;</a>
+   <a href="#_export_job">Export job&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_als_abgeschlossen_markieren">Als abgeschlossen markieren&#8230;&#8203;</a>
+   <a href="#_mark_complete">Mark complete&#8230;&#8203;</a>
   </li>
  </ul>
 </aside>
@@ -505,7 +441,7 @@ entfernt, um eine doppelte Verwendung zu vermeiden.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobview.html">Auftragsansicht</a></span>
+ <span class="prev"><a href="jobview.html">Jobansicht</a></span>
  <span class="next"><a href="jobautoplan.html">Automatische Planung</a></span>
 </nav>
 

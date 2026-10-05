@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>佈局面板</title>
+  <title>Layout 面板</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,19 +29,17 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">硬體需求</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">支援的檔案格式</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">先決條件</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">伺服器安裝</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">用戶端安裝</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">變更授權</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../configuration/index.html">配置</a>
+   <a href="../../configuration/index.html">組態</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">新增/移除機器</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">設定工具</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">配置使用者</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">新增/移除機床</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">設定 tooling</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">設定使用者</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">語言</a></li>
     <li>
      <button class="tree closed"></button>
@@ -54,14 +52,14 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">對應材料</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">對應 CAM 頁面</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">對應 CAD 欄位（查詢鍵）</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">從 CAD 對應欄位（查詢鍵）</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">使用者介面</a></li>
   <li><button class="tree blank"></button><a href="../../workflow.html">工作流程</a></li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../library/index.html">資料庫</a>
+   <a href="../../library/index.html">庫</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
@@ -69,13 +67,13 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">匯入零件</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">匯入訂單</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">匯入工作</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">匯入 job</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">匯入組件</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/libraryview/index.html">資料庫視圖</a>
+     <a href="../../library/libraryview/index.html">庫檢視</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">零件</a></li>
       <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">組件</a></li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">工具狀態</a>
+     <a href="../../library/toolingstatus/index.html">tooling 狀態</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">工具驗證</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">tooling 驗證</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">折彎工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">切割工具驗證</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">折邊工具驗證</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">折彎 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">切割 tooling 驗證</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">折疊 tooling 驗證</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">工具面板</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Tooling 面板</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">儲存篩選器</a></li>
@@ -120,18 +118,18 @@
    <button class="tree open"></button>
    <a href="../index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">建立工作</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">工作檢視</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">工作面板</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">建立 job</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Job 檢視</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Job 面板</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">自動規劃</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">互動式排版</a></li>
-    <li><button class="tree blank"></button><a href="../repacking.html">重新包裝</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">互動式 nesting</a></li>
+    <li><button class="tree blank"></button><a href="../repacking.html">重新排料</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">排版管理</a>
+     <a href="index.html">Nest 管理</a>
      <ul>
-      <li><button class="tree blank"></button><a href="nestview.html">佈局檢視</a></li>
-      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">佈局面板</a></li>
+      <li><button class="tree blank"></button><a href="nestview.html">Layout 檢視</a></li>
+      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">Layout 面板</a></li>
       <li><button class="tree blank"></button><a href="reportsender.html">報告傳送器</a></li>
      </ul>
     </li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">手動餘料管理</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">雙線排版</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="../outdate.html">過期</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">工作篩選器</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Job 篩選器</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">工廠</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">路線</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">板材</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">使用者</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">編輯</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">客戶</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">設定</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">環境</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">匯入</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">折彎</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">切割</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">通知</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">監視</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 擴充功能</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 增益集</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">安裝</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">儲存零件</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">儲存組件</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">檢查可行性</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">工廠設定</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">其他增強功能</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">報告</a></li>
      </ul>
     </li>
    </ul>
@@ -208,29 +188,29 @@
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">排版管理</a>
+  <a href="index.html">Nest 管理</a>
  </div>
  <div>/</div>
  <div>
-  <a href="layoutpanel.html">佈局面板</a>
+  <a href="layoutpanel.html">Layout 面板</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>佈局面板</h1>
+                        <h1>Layout 面板</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>本節說明與佈局相關的動作，如
-<strong>發送到機台…</strong>、
-<strong>從機台召回&#8230;&#8203;</strong>、
-<strong>匯出輸出</strong>、
-<strong>標記完成&#8230;&#8203;</strong>、<strong>新增零件…</strong>、
-<strong>適應/緊湊…</strong>、
-<strong>分割展開圖…</strong>，以及其他用於管理
-佈局實例的選項。</p>
+<p>本節說明與 layout 相關的動作，例如
+<strong>Send to machine</strong>、
+<strong>Recall from machine</strong>、
+<strong>Export outputs</strong>、
+<strong>Mark complete</strong>、<strong>Add parts&#8230;&#8203;</strong>、
+<strong>Adapt/Compact&#8230;&#8203;</strong>、
+<strong>Split layout</strong>，以及用於管理
+layout 實例的其他選項。</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -252,68 +232,60 @@
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>以唯讀模式打開進行查看</strong><br>
-以唯讀模式開啟選定的佈局。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+以唯讀模式開啟所選 layout 以供檢視。</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-啟用選定佈局的編輯功能。</p></td>
+啟用所選 layout 的編輯。</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>刪除</strong><br>
-刪除選定的佈局。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+刪除所選 layout。</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>查看報告</strong><br>
-開啟選定佈局的標準佈局報告和標籤特定報告。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>View Report</strong><br>
+開啟所選 layout 的標準 layout 報告和標籤專屬報告。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sendui.png" alt="Send" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>發送到機台…</strong><br>
-將選定的佈局傳送到機器，並將輸出檔案
-（fxlyt、NC、report、csv）匯出到工作輸出位置。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Send to Machine&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">將所選 layout 送到機床，並將輸出檔案
+（fxlyt、NC、report、csv）匯出到 job 輸出位置。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/addui.png" alt="Add" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>新增零件…</strong><br>
-使用佈局重新包裝精靈將更多零件新增到包裝不佳的佈局。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Add Parts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">使用 layout 重新排料精靈，將更多零件新增到排料不佳的 layout。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/adaptui.png" alt="Adapt" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>適應/緊湊…</strong><br>
-重新排版選定的佈局以壓縮零件並釋放可用區域。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Adapt/Compact&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">重新 nest 所選 layout，以壓縮零件並釋放可用面積。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/changeui.png" alt="Change" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>更改 LTT…</strong><br>
-變更分配給選定佈局的板材。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Change LTT&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">變更指派給所選 layout 的板材。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/splitui.png" alt="Split"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>分割展開圖…</strong><br>
-將選定的佈局拆分為兩個或多個單獨的佈局。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Split Layouts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">將所選 layout 分割為兩個或更多個別的 layout。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/renameui.png" alt="RenameUi" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Rename layout&#8230;&#8203;</strong><br>
-重新命名選定的佈局。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Rename&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">重新命名所選 layout。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>套裁</strong> / <strong>上一個</strong> / <strong>下一個</strong> / <strong>零件</strong><br>
-導覽至父工作、選定工作中的上一個或下一個佈局，或向下導覽至
-佈局中包含的零件。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Job</strong> / <strong>Prev</strong> / <strong>Next</strong> / <strong>Parts</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">向上導覽至父 job、至所選 job 內的上一個或下一個 layout，
+或向下至 layout 中包含的零件。</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-使用這些篩選器查看與選定佈局共用相同屬性的
-其他佈局：Same Machine、Same Material、Same LTT、Same Priority、
-Same State、Same Sheet、Same Part、Same Remnant State 或 Same Rolling
-direction。</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">使用這些篩選器可檢視與所選 layout 共用相同屬性的其他
+layout：<strong>Same Machine</strong>、<strong>Same Material</strong>、
+<strong>Same LTT</strong>、<strong>Same Priority</strong>、
+<strong>Same State</strong>、<strong>Same Sheet</strong>、<strong>Same Part</strong>、<strong>Same Remnant State</strong> 或 <strong>Same Rolling Direction</strong>。</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -323,31 +295,26 @@ direction。</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="send-to-machine">發送到機台…</h2>
+<h2 id="send-to-machine">Send to machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>當排版就緒（已填滿或緊急需要）時，您可以將其傳送到
-機器。</p>
+<p>當 nest 準備就緒（已填滿或急需）時，您可以將其送到
+機床。</p>
 </li>
 <li>
-<p>右鍵點擊排版並選擇 <strong>發送到機台…</strong>。</p>
+<p>在 nest 上按一下滑鼠右鍵，然後選取 <strong>Send to machine&#8230;&#8203;</strong>。</p>
 </li>
 <li>
-<p>會自動建立一個資料夾，以排版命名。</p>
+<p>系統會自動建立一個以 nest 命名的資料夾。</p>
 </li>
 <li>
 <p>輸出檔案（fxlyt、NC、report、csv）會匯出到 JOB
 輸出位置。</p>
 </li>
 <li>
-<p>傳送到機器的排版會顯示藍色勾選標記。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/sendtomachine.png" alt="Send to machines" width="1180">
-</div>
-</div>
+<p>已送到機床的 nest 會以藍色勾選標記顯示。</p>
 </li>
 </ul>
 </div>
@@ -358,7 +325,7 @@ direction。</p></td>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-一旦釋放，這些排版就不會再被重試進行重新包裝。
+一旦釋放，這些 nest 就不會再重試重新排料。
 </td>
 </tr>
 </table>
@@ -366,19 +333,19 @@ direction。</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_從機台召回">從機台召回&#8230;&#8203;</h2>
+<h2 id="_recall_from_machine">Recall from machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>如果輸出需要驗證或更新（例如，新增更多零件）：</p>
+<p>如果輸出需要驗證或更新（例如新增更多零件）：</p>
 <div class="ulist">
 <ul>
 <li>
-<p>右鍵點擊已匯出的佈局。</p>
+<p>在匯出的 layout 上按一下滑鼠右鍵。</p>
 </li>
 <li>
-<p>選擇 <strong>從機台召回&#8230;&#8203;</strong>。</p>
+<p>選取 <strong>Recall from machine&#8230;&#8203;</strong>。</p>
 </li>
 </ul>
 </div>
@@ -387,44 +354,30 @@ direction。</p></td>
 <p>輸出檔案和資料夾（fxlyt、NC、report、csv）會被刪除。</p>
 </li>
 <li>
-<p>排版再次變為可編輯。</p>
+<p>nest 再次變為可編輯。</p>
 </li>
 <li>
-<p>您可以進行變更，然後再次將其傳送到機器。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/recallfrommachine.png" alt="Recall from machines" width="1153">
-</div>
-</div>
+<p>您可以進行變更並再次將其送到機床。</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_匯出輸出">匯出輸出</h2>
+<h2 id="_export_outputs">Export outputs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>右鍵點擊任何已傳送到機器的佈局（排版）並點擊
-<strong>匯出輸出</strong>。</p>
+<p>在任何已送到機床的 layout（nest）上按一下滑鼠右鍵，然後按一下
+<strong>Export outputs</strong>。</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput1.png" alt="Export outputs" width="447">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
 <p>Export Outputs 選項會將 NC、Report 和 Layout 檔案匯出到
-各自的機器輸出資料夾。</p>
+各自的機床輸出資料夾。</p>
 </li>
 <li>
-<p>此選項會使用佈局的目前單位設定重新產生 NC 檔案。</p>
+<p>此選項會使用 layout 的目前單位設定重新產生 NC 檔案。</p>
 </li>
 </ul>
 </div>
@@ -435,8 +388,8 @@ direction。</p></td>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Export Outputs 不適用於已完成的佈局和
-正在等待重新包裝佇列中的佈局。
+Export Outputs 不適用於已完成的 Layout 以及
+等待重新排料佇列中的 Layout。
 </td>
 </tr>
 </table>
@@ -444,40 +397,35 @@ Export Outputs 不適用於已完成的佈局和
 </div>
 </div>
 <div class="sect1">
-<h2 id="mark-complete">Mark complete</h2>
+<h2 id="mark-complete">標記完成</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>一旦在機器上處理完排版，右鍵點擊排版並
-選擇 <strong>標記完成&#8230;&#8203;</strong>。</p>
+<p>nest 在機床上處理完成後，在 nest 上按一下滑鼠右鍵，然後
+選取 <strong>Mark complete&#8230;&#8203;</strong>。</p>
 </li>
 <li>
-<p>您可以選擇多個排版並同時將它們標記為完成。</p>
+<p>您可以選取多個 nest，並同時將它們標記為完成。</p>
 </li>
 <li>
-<p>當排版被標記為完成時：</p>
+<p>當 nest 標記為完成時：</p>
 <div class="ulist">
 <ul>
 <li>
-<p>它會變灰、移至清單末尾，並顯示綠色勾選
-標記。</p>
+<p>它會變為灰色、移到清單末尾，並以綠色勾選
+標記顯示。</p>
 </li>
 <li>
-<p>佈局會從活動佈局清單中移除。</p>
+<p>layout 會從作用中的 layout 清單中移除。</p>
 </li>
 <li>
-<p>零件和工作狀態會更新，已處理的數量移至
+<p>零件和 job 狀態會更新，已處理的數量會移至
 完成狀態。</p>
 </li>
 <li>
-<p>該佈局的輸出檔案會從機器輸出
+<p>該 layout 的輸出檔案會從機床輸出
 位置移除，以避免重複使用。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/markcomplete1.png" alt="Mark complete" width="1101">
-</div>
-</div>
 </li>
 </ul>
 </div>
@@ -487,7 +435,7 @@ Export Outputs 不適用於已完成的佈局和
 </div>
 </div>
 <div class="sect1">
-<h2 id="add-parts">新增零件…</h2>
+<h2 id="add-parts">Add parts&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
@@ -497,14 +445,14 @@ Export Outputs 不適用於已完成的佈局和
 <div class="ulist">
 <ul>
 <li>
-<p>使用此選項將更多零件新增到相對包裝不佳的佈局。像
-互動式排版一樣，這是一個精靈驅動的選項，可以同時用於
-單個或多個佈局。</p>
+<p>使用此選項可將更多零件新增到排料相對不佳的 layout。與
+互動式 Nesting 一樣，這是一個精靈導向的選項，可同時用於
+單一或多個 layout。</p>
 </li>
 <li>
-<p>當使用此選項時，TruSmartCAM 會在主工作區域中
-裝載佈局重新包裝精靈。按住 <kbd>Ctrl</kbd> 鍵並選擇一個或多個
-要包裝到佈局上的零件，然後按 <strong>下一個</strong>。</p>
+<p>使用此選項時，TruSmartCAM 會在主要工作區域裝載 Layout 重新排料精靈。
+按住 <kbd>Ctrl</kbd> 鍵並選取一個或多個
+要排料到 layout 上的零件，然後按 <strong>Next</strong>。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/addpart2.png" alt="Part selection" width="2200">
@@ -512,40 +460,29 @@ Export Outputs 不適用於已完成的佈局和
 </div>
 </li>
 <li>
-<p>選定的零件會在下一步驟中顯示，帶有可編輯的
-數量欄位。如需要，請在
-<strong>Update Qty</strong> 欄位中更新零件數量。點擊 <strong>下一個</strong> 繼續進行排版。請注意，
+<p>所選零件會在下一個步驟中顯示，並帶有可編輯的
+數量欄。如有需要，在 <strong>Update Qty</strong> 欄位中更新零件
+數量。按一下 <strong>Next</strong> 繼續進行 nesting。請注意，
 數量只能增加，不能減少。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart3.png" alt="Update quantity" width="2200">
-</div>
-</div>
 </li>
 <li>
-<p>所有佈局都會單獨排版，排版結果顯示新包裝的零件放置在其上。
-選擇佈局會顯示所有現有的佈局零件。
-如果在重新包裝期間沒有放置新零件，結果會自動棄置。具有多個副本的佈局在
-重新包裝後可能會產生不同的模式。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart4.png" alt="Repack result" width="2200">
-</div>
-</div>
+<p>所有 layout 會分別 nest，nested 結果會顯示
+新排料的零件放置在其上。選取 layout 會顯示所有
+現有的 layout 零件。如果重新排料期間沒有放置新零件，結果會自動捨棄。具有多個複本的
+layout 在重新排料後可能會產生不同的圖案。</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="adapt-compact">適應/緊湊…</h2>
+<h2 id="adapt-compact">Adapt/Compact&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>This wizard-based command can be used to adapt a layout from one
-machine to another when the original machine is down or when machine
-workload needs to be balanced.</p>
+<p>當原始機床停機或需要平衡機床工作負載時，此精靈式命令可用於將 layout 從一台機床
+調整到另一台機床。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt1.png" alt="Adapt compact" width="737">
@@ -553,24 +490,23 @@ workload needs to be balanced.</p>
 </div>
 </li>
 <li>
-<p>It can be used when the sheet planned for is out of stock and the layout
-needs to be replanned on another available sheet.</p>
+<p>當計畫使用的板材缺貨且 layout 需要在另一個可用板材上重新
+規劃時，可以使用它。</p>
 </li>
 <li>
-<p>You can merge layouts packed on smaller sheets onto larger sheets to use
-material more efficiently.</p>
+<p>您可以將排料在較小板材上的 layout 合併到較大板材上，以更有效率地使用
+材料。</p>
 </li>
 <li>
-<p>You can split layouts packed on larger sheets into smaller sheets if large
-sheet stocks are not available.</p>
+<p>如果沒有大板材庫存，您可以將排料在較大板材上的 layout 分割到較小板材上。</p>
 </li>
 <li>
-<p>You can enhance the packing efficiency of multiple layouts (even from
-different machines) by merging them together.</p>
+<p>您可以透過將多個 layout（甚至來自
+不同機床）合併在一起，來提升它們的排料效率。</p>
 </li>
 <li>
-<p>To use it, select one or more layouts and click
-<strong>適應/緊湊…</strong> to open the wizard in the work area.</p>
+<p>若要使用它，選取一個或多個 layout，然後按一下
+<strong>Adapt/Compact&#8230;&#8203;</strong> 以在工作區域中開啟精靈。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt2.png" alt="Layouts window" width="1902">
@@ -578,28 +514,18 @@ different machines) by merging them together.</p>
 </div>
 </li>
 <li>
-<p>The left pane shows all selected layouts and the Parts pane shows the layout
-parts.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt3.png" alt="Layouts window" width="1910">
-</div>
-</div>
+<p>左窗格顯示所有選取的 layout，Parts 窗格顯示 layout
+零件。</p>
 </li>
 <li>
-<p>Select the target machine and sheet material, then click
-<strong>下一個</strong> to perform the renesting.</p>
+<p>選取目標機床和板材材料，然後按一下
+<strong>next</strong> 執行重新 nesting。</p>
 </li>
 <li>
-<p>The new nest results are shown in the results pane.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt4.png" alt="Layouts window" width="1901">
-</div>
-</div>
+<p>新的 nest 結果會顯示在結果窗格中。</p>
 </li>
 <li>
-<p>Click <strong>下一個</strong> to save the adapted or compacted layout.</p>
+<p>按一下 <strong>next</strong> 以儲存調整或壓縮後的 layout。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt5.png" alt="Layouts window" width="1902">
@@ -611,40 +537,40 @@ parts.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_拆分佈局">拆分佈局</h2>
+<h2 id="_分割_layout">分割 layout</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>分割展開圖…</strong> 選項讓您透過修改數量
-將現有佈局拆分為多個佈局，
-而無需重做刀具或排版。</p>
+<p><strong>Split layouts&#8230;&#8203;</strong> 選項可讓您透過修改數量，
+將現有的 layout 分割為多個 layout，
+而無需重做 tooling 或 nesting。</p>
 </div>
 <div class="paragraph">
-<p>此功能在以下
-情境中特別有用：</p>
+<p>此功能在以下情況特別
+有用：</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>當您需要立即生產總數量的一部分，同時
-將剩餘數量安排在後續生產中。</p>
+<p>當您需要立即生產部分總數量，同時
+排程剩餘數量以供稍後生產時。</p>
 </li>
 <li>
 <p>當生產需求需要分配到多個班次或
-天數以最佳化工作流程和資源利用率。</p>
+天數以最佳化工作流程和資源利用率時。</p>
 </li>
 <li>
-<p>當特定機器暫時不可用或被佔用，且您需要
-調整佈局以適應目前的生產約束。</p>
+<p>當特定機床暫時無法使用或被佔用，且您需要
+調整 layout 以配合目前的生產限制時。</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>要拆分佈局，請執行以下步驟：</p>
+<p>若要分割 layout，請執行以下步驟：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>在佈局檢視中，選擇所需的佈局。</p>
+<p>在 Layouts 檢視中，選取所需的 layout。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/splitlayout.png" alt="Split layout" width="264">
@@ -652,15 +578,10 @@ parts.</p>
 </div>
 </li>
 <li>
-<p>點擊 <strong>分割展開圖…</strong>。</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/layoutpanel.png" alt="Layout panel" width="155">
-</div>
-</div>
+<p>按一下 <strong>Split layouts&#8230;&#8203;</strong>。</p>
 </li>
 <li>
-<p>在 <strong>新副本</strong> 中輸入所需的值。</p>
+<p>在 <strong>New Copies</strong> 中輸入所需的值。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/newcopies.png" alt="New copies" width="389">
@@ -668,7 +589,7 @@ parts.</p>
 </div>
 </li>
 <li>
-<p>點擊 <strong>確定</strong>。</p>
+<p>按一下 <strong>OK</strong>。</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/twolayout.png" alt="Two layouts" width="547">
@@ -678,7 +599,7 @@ parts.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>選定的佈局現在被拆分為兩個佈局，數量已調整。</p>
+<p>所選 layout 現在已分割為兩個具有調整數量的 layout。</p>
 </div>
 </div>
 </div>
@@ -690,25 +611,25 @@ parts.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#send-to-machine">發送到機台…</a>
+   <a href="#send-to-machine">Send to machine</a>
   </li>
   <li level="1">
-   <a href="#_從機台召回">從機台召回&#8230;&#8203;</a>
+   <a href="#_recall_from_machine">Recall from machine</a>
   </li>
   <li level="1">
-   <a href="#_匯出輸出">匯出輸出</a>
+   <a href="#_export_outputs">Export outputs</a>
   </li>
   <li level="1">
-   <a href="#mark-complete">Mark complete</a>
+   <a href="#mark-complete">標記完成</a>
   </li>
   <li level="1">
-   <a href="#add-parts">新增零件…</a>
+   <a href="#add-parts">Add parts&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#adapt-compact">適應/緊湊…</a>
+   <a href="#adapt-compact">Adapt/Compact&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_拆分佈局">拆分佈局</a>
+   <a href="#_分割_layout">分割 layout</a>
   </li>
  </ul>
 </aside>
@@ -716,7 +637,7 @@ parts.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="nestview.html">佈局檢視</a></span>
+ <span class="prev"><a href="nestview.html">Layout 檢視</a></span>
  <span class="next"><a href="reportsender.html">報告傳送器</a></span>
 </nav>
 

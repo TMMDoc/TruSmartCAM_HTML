@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Auftragsansicht</title>
+  <title>Jobansicht</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hardwareanforderungen</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Unterstützte Dateiformate</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Voraussetzungen</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Clientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Lizenz ändern</a></li>
    </ul>
   </li>
   <li>
@@ -54,7 +52,7 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Material zuordnen</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">CAM-Seiten zuordnen</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Felder aus CAD zuordnen (Suchschlüssel)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Felder aus CAD zuordnen (Nachschlagekennungen)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Die Benutzeroberfläche</a></li>
@@ -100,7 +98,7 @@
        <ul class="hide">
         <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Biegewerkzeugvalidierung</a></li>
         <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Schneidwerkzeugvalidierung</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Falzwerkzeugvalidierung</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Faltwerkzeugvalidierung</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Werkzeugpanel</a></li>
@@ -113,80 +111,62 @@
    <button class="tree closed"></button>
    <a href="../orders/index.html">Aufträge</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Auftragsansichten</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Auftragsansicht</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
    <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Auftrag erstellen</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobview.html">Auftragsansicht</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Auftragspanel</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Job erstellen</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobview.html">Jobansicht</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Jobpanel</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Automatische Planung</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktives Verschachteln</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktives Schachteln</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Umpacken</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Nest-Verwaltung</a>
+     <a href="layoutcommands/index.html">Schachtelungsverwaltung</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Layout-Ansicht</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout-Panel</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Berichtssender</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Layout-Bereich</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Berichtsversand</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="remnantmanagement/index.html">Reststück-Verwaltung</a>
+     <a href="remnantmanagement/index.html">Restverwaltung</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatische Reststück-Verwaltung</a></li>
-      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuelle Reststück-Verwaltung</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/autoremnant.html">Automatische Restverwaltung</a></li>
+      <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Manuelle Restverwaltung</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline-Verschachtelung</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twin-Line-Schachteln</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Veraltet</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Auftragsfilter</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Jobfilter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Werk</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routen</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Blechtafeln</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Benutzer</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Bearbeiten</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunden</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Einstellungen</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Umgebung</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Biegen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Schneiden</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Benachrichtigungen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Überwachung</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-Erweiterungen</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Teile speichern</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Baugruppe speichern</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Machbarkeit prüfen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Werkseinstellungen</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Sonstige Verbesserungen</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Berichte</a></li>
      </ul>
     </li>
    </ul>
@@ -208,38 +188,41 @@
  </div>
  <div>/</div>
  <div>
-  <a href="jobview.html">Auftragsansicht</a>
+  <a href="jobview.html">Jobansicht</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Auftragsansicht</h1>
+                        <h1>Jobansicht</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Dieser Abschnitt erläutert die verschiedenen Ansichten, die in der Auftragsansicht verfügbar sind, einschließlich
-Aufträge, Teile, Verschachtelungen, Bearbeiten, Simulieren und Exportieren.</p>
+<p>Dieser Abschnitt erläutert die verschiedenen Ansichten, die in der Jobansicht
+verfügbar sind, einschließlich Jobs, Parts, Nests, Edit, Simulate und Export.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_aufträge">Aufträge</h2>
+<h2 id="_jobs">Jobs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Durch Auswählen der Option <strong>Jobs</strong> wird eine Liste aller Aufträge angezeigt, die derzeit
-im System eingerichtet sind. Sie können auf einen Auftrag doppelklicken, um seine Details anzuzeigen, oder mit der rechten Maustaste klicken, um auf zusätzliche Optionen zuzugreifen.</p>
+<p>Die Auswahl der Option <strong>jobs</strong> zeigt eine Liste aller derzeit in
+der Software eingerichteten Jobs an. Sie können auf einen Job doppelklicken, um
+seine Details anzuzeigen, oder mit der rechten Maustaste klicken, um auf
+zusätzliche Optionen zuzugreifen.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Aufträge werden in der Kachelansicht angezeigt, wobei jeder Auftrag mit grundlegenden
-Eigenschaften wie Auftrags-ID, Auftragsreferenz, Kundenname, Gesamtteile, Fälligkeitsdatum, Auftragsstatusleiste usw. angezeigt wird.</p>
+<p>Jobs werden in der Kachelansicht angezeigt, wobei jeder Job mit grundlegenden
+Eigenschaften wie Job-ID, Job-Ref, Kundenname, Gesamtteile, Fälligkeitsdatum,
+Jobstatusleiste usw. angezeigt wird.</p>
 </li>
 <li>
-<p>Jede Auftragskachel zeigt auch Teilebilder in einem gestapelten Kartenformat an. Sie können
-mit dem Mausrad durch alle Teile in einem Auftrag scrollen.<br></p>
+<p>Jede Jobkachel zeigt außerdem Teilebilder in einem gestapelten Kartenformat an.
+Sie können mit dem Mausrad durch alle Teile eines Jobs blättern.<br></p>
 </li>
 </ul>
 </div>
@@ -249,27 +232,27 @@ mit dem Mausrad durch alle Teile in einem Auftrag scrollen.<br></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_auftragsdetails">Auftragsdetails</h3>
+<h3 id="_jobdetails">Jobdetails</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Ein Doppelklick auf eine Kachel oder das Drücken der Taste <kbd>Enter</kbd> nach Auswahl einer Kachel
-wechselt die Ansicht in den Detailmodus.</p>
+<p>Durch Doppelklicken auf eine Kachel oder Drücken der <kbd>Enter</kbd>-Taste nach
+Auswahl einer Kachel wechselt die Ansicht in den Detailmodus.</p>
 </li>
 <li>
-<p>Die Detailseite zeigt die Teileliste zusammen mit den verschachtelten Blechen
-(Layouts), falls vorhanden.</p>
+<p>Die Detailseite zeigt die Teileliste zusammen mit den geschachtelten Tafeln
+(Layouts) an, falls vorhanden.</p>
 </li>
 <li>
-<p>Verwenden Sie die Pfeiltasten nach oben/unten, um zwischen Aufträgen auf der Detailseite zu wechseln.</p>
+<p>Verwenden Sie die Pfeiltasten Auf/Ab, um auf der Detailseite zwischen Jobs zu wechseln.</p>
 </li>
 <li>
 <p>Das Scrollen mit dem Mausrad über den Teilestapel hebt das Teil sowohl in der
 Teileliste als auch in den Layouts hervor.</p>
 </li>
 <li>
-<p>Durch Auswählen eines Layouts werden das Layout und alle darauf verschachtelten Teile in der
-Teileliste hervorgehoben. Die Hervorhebungen werden nach einer Minute automatisch deaktiviert.</p>
+<p>Die Auswahl eines Layouts hebt das Layout und alle darauf geschachtelten Teile
+in der Teileliste hervor. Die Hervorhebungen werden nach einer Minute automatisch deaktiviert.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/jobview2.png" alt="Job Details" width="1908">
@@ -277,29 +260,31 @@ Teileliste hervorgehoben. Die Hervorhebungen werden nach einer Minute automatisc
 </div>
 </li>
 <li>
-<p><strong>Zusammenfassung der Schachtelung</strong>:</p>
+<p><strong>Nest summary</strong>:</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Teile</strong>: Zeigt die Gesamtzahl der Bestellpositionen und die
-Gesamtmenge im Auftrag an.</p>
+<p><strong>Parts</strong>: Zeigt die Gesamtzahl der Auftragspositionen und die
+Gesamtmenge im Job an.</p>
 </li>
 <li>
-<p><strong>Tafeln</strong>: Zeigt die Gesamtzahl der verschachtelten Bleche zusammen
-mit der Gesamtblechmenge an.</p>
+<p><strong>Sheets</strong>: Zeigt die Gesamtzahl der geschachtelten Tafeln
+zusammen mit der Gesamttafelmenge an.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Arbeitsschritte</strong>:</p>
+<p><strong>Work Steps</strong>:</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Biegen</strong>: Zeigt die zugewiesene Maschine und ihre zu verarbeitende Bestellmenge an.</p>
+<p><strong>Bending</strong>: Zeigt die zugewiesene Maschine und ihre zu
+verarbeitende Auftragsmenge an.</p>
 </li>
 <li>
-<p><strong>Schneiden</strong>: Zeigt die zugewiesene Maschine und ihre zu verarbeitende Bestellmenge an.</p>
+<p><strong>Cutting</strong>: Zeigt die zugewiesene Maschine und ihre zu
+verarbeitende Auftragsmenge an.</p>
 </li>
 </ul>
 </div>
@@ -312,16 +297,19 @@ mit der Gesamtblechmenge an.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Klicken Sie zuerst auf das Symbol <strong>Jobs</strong> auf der linken Seite des Bildschirms, wählen Sie den Auftrag aus, den Sie
-bearbeiten möchten, und klicken Sie dann auf <strong>edit</strong> auf der rechten Seite des Bildschirms (stellen Sie sicher,
-dass die Option "Jobs" ausgewählt ist).</p>
+<p>Klicken Sie zuerst auf das Symbol <strong>Jobs</strong> auf der linken Seite des Bildschirms,
+wählen Sie den Job aus, den Sie bearbeiten möchten, und klicken Sie dann auf
+<strong>edit</strong> auf der rechten Seite des Bildschirms (stellen Sie sicher, dass die
+Option Jobs ausgewählt ist).</p>
 </li>
 <li>
-<p>Alternativ können Sie mit der rechten Maustaste auf den ausgewählten Auftrag klicken und auf das
-Symbol <strong>Dokument zur Bearbeitung auschecken</strong> klicken.</p>
+<p>Alternativ klicken Sie mit der rechten Maustaste auf den ausgewählten Job und
+klicken Sie auf das Symbol
+<strong>Check-out the document for editing</strong>.</p>
 </li>
 <li>
-<p>Wenn Sie auf <strong>edit</strong> klicken, wird das Fenster "Auftrag bearbeiten" angezeigt. In diesem Fenster können Sie die Priorität für den Auftrag festlegen oder ändern.</p>
+<p>Wenn Sie auf <strong>edit</strong> klicken, erscheint das Fenster zum Bearbeiten des Jobs. In
+diesem Fenster können Sie die Priorität für den Job festlegen oder ändern.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/priority1.png" alt="Priority1" width="1207">
@@ -329,20 +317,20 @@ Symbol <strong>Dokument zur Bearbeitung auschecken</strong> klicken.</p>
 </div>
 </li>
 <li>
-<p>Basierend auf der Auftragsteilpriorität wird die Auftragsreferenz in der Auftragskachel
-entsprechend farblich schattiert.</p>
+<p>Basierend auf der Teilepriorität des Jobs wird die Job-Referenz in der
+Jobkachel entsprechend farblich hinterlegt.</p>
 </li>
 <li>
-<p>Auftragsteile werden zuerst nach Priorität und dann nach Fälligkeitstermin sortiert. Sie sind ebenfalls
-entsprechend ihrer Priorität farblich schattiert.</p>
+<p>Jobteile werden zuerst nach Priorität und dann nach Fälligkeitsdatum sortiert.
+Sie werden außerdem entsprechend ihrer Priorität farblich hinterlegt.</p>
 </li>
 <li>
-<p>Beim Verschachteln werden <strong>Dringliche</strong> Teile zuerst berücksichtigt, gefolgt von <strong>Hohen</strong>, dann
-<strong>Normalen</strong>, und schließlich werden <strong>Niedrige</strong> Prioritätsteile im verbleibenden Platz auf den
-Verschachtelungsblechen platziert.</p>
+<p>Beim Schachteln werden <strong>Urgent</strong>-Teile zuerst berücksichtigt, gefolgt von
+<strong>High</strong>, dann <strong>Normal</strong> und schließlich werden <strong>Low</strong>-Prioritätsteile im
+verbleibenden Platz auf den Schachteltafeln platziert.</p>
 </li>
 <li>
-<p>Verschachtelungsbleche werden ebenfalls nach Priorität sortiert und farblich schattiert.</p>
+<p>Schachteltafeln werden ebenfalls nach Priorität sortiert und farblich hinterlegt.</p>
 </li>
 </ul>
 </div>
@@ -353,14 +341,14 @@ Verschachtelungsblechen platziert.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Auftragspriorität</th>
+<th class="tableblock halign-left valign-top">Jobpriorität</th>
 <th class="tableblock halign-left valign-top">Farbbeschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/urgent.png" alt="Urgent" width="50"></span> (Orange)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Dringlich</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Urgent</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/normal1.png" alt="Normal" width="50"></span> (Keine Farbe)</p></td>
@@ -368,11 +356,11 @@ Verschachtelungsblechen platziert.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/high.png" alt="High" width="50"></span> (Gelb)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hoch</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">High</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/low.png" alt="Low" width="50"></span> (Dunkelgrau)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Niedrig</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Low</p></td>
 </tr>
 </tbody>
 </table>
@@ -387,26 +375,17 @@ Verschachtelungsblechen platziert.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Die Auftragsstatusleiste verwendet Farbcodes, um den Fortschritt oder Zustand
-des Auftrags basierend auf der verarbeiteten oder verbleibenden Menge anzuzeigen.</p>
+<p>Die Jobstatusleiste verwendet Farbcodes, um den Fortschritt oder Zustand des
+Jobs basierend auf der verarbeiteten oder verbleibenden Menge anzuzeigen.</p>
 </li>
 <li>
-<p>Die Teile innerhalb des Auftrags und die Verschachtelungsbleche werden ebenfalls mit
-übereinstimmenden Farben hervorgehoben, um ihren individuellen Status innerhalb des Gesamtauftrags zu reflektieren.</p>
+<p>Die Teile innerhalb des Jobs und die Schachteltafeln werden ebenfalls mit
+passenden Farben hervorgehoben, um ihren individuellen Status innerhalb des
+gesamten JOBs widerzuspiegeln.</p>
 </li>
 <li>
-<p>Die Farbcodierung verbessert die Nachverfolgung und stellt sicher, dass Bediener den
-Produktionsstatus auf einen Blick leicht erkennen können.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/status1.png" alt="Job status" width="1114">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/status2.png" alt="Job status" width="1360">
-</div>
-</div>
+<p>Die Farbcodierung verbessert die Nachverfolgung und stellt sicher, dass
+Bediener den Produktionsstatus auf einen Blick leicht erkennen können.</p>
 </li>
 </ul>
 </div>
@@ -417,42 +396,42 @@ Produktionsstatus auf einen Blick leicht erkennen können.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Auftragsstatus</th>
+<th class="tableblock halign-left valign-top">Jobstatus</th>
 <th class="tableblock halign-left valign-top">Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/notready.png" alt="Not Ready" width="100"></span> (Hellgrau)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Nicht bereit</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not ready</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/nesting.png" alt="Nesting" width="100"></span> (Magenta)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Schachteln</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nesting</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ready.png" alt="Ready" width="100"></span> (Weiß)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Bereit</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ready</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/cuttingqueue.png" alt="Bend planned" width="100"></span> (Hellgelb)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Biegen geplant</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bend Planned</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/sheetmissing.png" alt="Sheet Missing" width="100"></span> (Dunkelgrau)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Blechtafel fehlt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sheet missing</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendingqueue.png" alt="Bending Queue" width="100"></span> (Dunkelgelb)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Biege-Warteschlange</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bending queue</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/bendplanned.png" alt="Bend Planned" width="100"></span> (Gelb)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Schneide-Warteschlange</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cutting Queue</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/completed.png" alt="Completed" width="100"></span> (Dunkelgrün)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Erledigt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Done(Completed)</p></td>
 </tr>
 </tbody>
 </table>
@@ -463,44 +442,35 @@ Produktionsstatus auf einen Blick leicht erkennen können.</p>
 <h2 id="_teile">Teile</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Die Ansicht "Aktive Teile" zeigt alle Teile an, die sich derzeit in Bearbeitung innerhalb
-aktiver Aufträge befinden.</p>
+<p>Die Ansicht Active Parts zeigt alle Teile an, die sich derzeit innerhalb aktiver
+Jobs in Bearbeitung befinden.</p>
 </div>
 <div class="paragraph">
 <p>Jedes Teil wird als Kachel dargestellt, die wichtige Details wie Teilename,
-Abmessungen, Material, Dicke, Menge und Fälligkeitsdatum zeigt. Eine visuelle Vorschau des
-Teils wird ebenfalls angezeigt.</p>
+Abmessungen, Material, Dicke, Menge und Fälligkeitsdatum anzeigt. Eine visuelle
+Vorschau des Teils wird ebenfalls angezeigt.</p>
 </div>
 <div class="paragraph">
-<p>Diese Ansicht hilft Benutzern, den Verarbeitungsstatus einzelner Teile zu überwachen und
-ihren Fortschritt über laufende Aufträge hinweg zu verfolgen.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activeparts.png" alt="Active">
-</div>
+<p>Diese Ansicht hilft Benutzern, den Verarbeitungsstatus einzelner Teile zu
+überwachen und ihren Fortschritt über laufende Jobs hinweg zu verfolgen.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_verschachtelungen">Verschachtelungen</h2>
+<h2 id="_schachtelungen">Schachtelungen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Die Ansicht "Aktive Verschachtelungen" zeigt alle Verschachtelungen an, die sich derzeit in Bearbeitung innerhalb
-aktiver Aufträge befinden.</p>
+<p>Die Ansicht Active Nests zeigt alle Schachtelungen an, die sich derzeit
+innerhalb aktiver Jobs in Bearbeitung befinden.</p>
 </div>
 <div class="paragraph">
-<p>Jede Verschachtelung wird mit relevanten Details wie Anzahl der Teile und
-Verarbeitungsstatus dargestellt. Ein visuelles Layout der verschachtelten Teile wird ebenfalls angezeigt.</p>
+<p>Jede Schachtelung wird mit relevanten Details wie Anzahl der Teile und
+Verarbeitungsstatus dargestellt. Ein visuelles Layout der geschachtelten Teile
+wird ebenfalls angezeigt.</p>
 </div>
 <div class="paragraph">
-<p>Diese Ansicht hilft Benutzern, den Verschachtelungsfortschritt zu überwachen und zu verfolgen, wie Teile angeordnet
-und auf Blechen verarbeitet werden.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/activenest.png" alt="Nest">
-</div>
+<p>Diese Ansicht hilft Benutzern, den Schachtelfortschritt zu überwachen und zu
+verfolgen, wie Teile auf Tafeln angeordnet und verarbeitet werden.</p>
 </div>
 </div>
 </div>
@@ -508,7 +478,7 @@ und auf Blechen verarbeitet werden.</p>
 <h2 id="_bearbeiten">Bearbeiten</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Die Option "Bearbeiten" ermöglicht es Ihnen, das ausgewählte Element zu ändern.</p>
+<p>Mit der Option Edit können Sie das ausgewählte Element ändern.</p>
 </div>
 <div class="paragraph">
 <p>Basierend auf der aktuellen Ansicht wird die ausgewählte Instanz zur Bearbeitung geöffnet:</p>
@@ -516,28 +486,24 @@ und auf Blechen verarbeitet werden.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>In der Auftragsansicht wird der ausgewählte Auftrag zur Bearbeitung geöffnet.</p>
+<p>In der Jobs-Ansicht wird der ausgewählte Job zur Bearbeitung geöffnet.</p>
 </li>
 <li>
-<p>In der Ansicht "Aktive Teile" wird das ausgewählte Teil zur Bearbeitung geöffnet.</p>
+<p>In der Ansicht Active Parts wird das ausgewählte Teil zur Bearbeitung geöffnet.</p>
 </li>
 <li>
-<p>In der Ansicht "Aktive Verschachtelungen" wird die ausgewählte Verschachtelung zur Bearbeitung geöffnet.</p>
+<p>In der Ansicht Active Nests wird die ausgewählte Schachtelung zur Bearbeitung geöffnet.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/jobviewedit.png" alt="Edit" width="980">
-</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_export_csv">Export csv</h2>
+<h2 id="_csv_exportieren">CSV exportieren</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Die Option "Export" ermöglicht es Ihnen, Auftragsinformationen auszuwählen und in eine CSV-Datei zu exportieren.</p>
+<p>Mit der Option Export können Sie Jobinformationen auswählen und in eine
+CSV-Datei exportieren.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -546,29 +512,19 @@ und auf Blechen verarbeitet werden.</p>
 </li>
 <li>
 <p>Klicken Sie auf die Option <strong>export</strong> auf der rechten Seite des Bildschirms.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport1.png" alt="Export" width="700">
-</div>
-</div>
 </li>
 <li>
-<p>Ein Dialogfeld erscheint, das verfügbare Felder zeigt:</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/importexport2.png" alt="Export CSV" width="174">
-</div>
-</div>
+<p>Ein Dialogfeld erscheint, das die verfügbaren Felder anzeigt:</p>
 </li>
 <li>
-<p>Wählen Sie die Kontrollkästchen für die Felder aus, die Sie exportieren möchten.</p>
+<p>Aktivieren Sie die Kontrollkästchen für die Felder, die Sie exportieren möchten.</p>
 </li>
 <li>
-<p>Verwenden Sie die Option <strong>Group By</strong>, wenn Sie die Daten nach einem
-ausgewählten Feld gruppieren möchten.</p>
+<p>Verwenden Sie die Option <strong>Group By</strong>, wenn Sie die Daten nach
+einem ausgewählten Feld gruppieren möchten.</p>
 </li>
 <li>
-<p>Klicken Sie auf "Export", um die CSV-Datei zu generieren.</p>
+<p>Klicken Sie auf Export, um die CSV-Datei zu generieren.</p>
 </li>
 </ul>
 </div>
@@ -578,21 +534,23 @@ ausgewählten Feld gruppieren möchten.</p>
 <h2 id="_zusätzliche_informationen">Zusätzliche Informationen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Auf der rechten Seite des Bildschirms befinden sich auch drei zusätzliche Symbole:
-<strong>simulieren</strong>, <strong>Goto</strong> und <strong>zurück</strong>.</p>
+<p>Es gibt außerdem drei zusätzliche Symbole auf der rechten Seite des Bildschirms:
+<strong>Simulate</strong>, <strong>Goto</strong> und <strong>Back</strong>.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>"Simulate" öffnet das ausgewählte Element für eine detailliertere Ansicht.</p>
+<p>Simulate öffnet das ausgewählte Element für eine detailliertere Ansicht.</p>
 </li>
 <li>
-<p>"Goto" wechselt den Fokus und die Anzeige auf das ausgewählte Teil oder die ausgewählte Verschachtelung.</p>
+<p>Goto verschiebt den Fokus und die Anzeige auf das ausgewählte Teil oder die
+ausgewählte Schachtelung.</p>
 </li>
 <li>
-<p>"Back" geht eine Ebene zurück von dort, wo Sie sich gerade befinden, zum Beispiel
-durch Klicken auf <strong>zurück</strong> während der Simulation gelangen Sie zurück zum
-Hauptauftrag, und von einem Auftrag zurück zur Hauptauftragsanzeige.</p>
+<p>Back geht von Ihrer aktuellen Position eine Ebene zurück; wenn Sie
+beispielsweise während der Simulation auf <strong>Back</strong> klicken,
+gelangen Sie zurück zum Haupt-Job, und von einem Job gelangen Sie zurück zur
+Haupt-Jobanzeige.</p>
 </li>
 </ul>
 </div>
@@ -606,10 +564,10 @@ Hauptauftrag, und von einem Auftrag zurück zur Hauptauftragsanzeige.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_aufträge">Aufträge</a>
+   <a href="#_jobs">Jobs</a>
   </li>
   <li level="2">
-   <a href="#_auftragsdetails">Auftragsdetails</a>
+   <a href="#_jobdetails">Jobdetails</a>
   </li>
   <li level="2">
    <a href="#_priorität">Priorität</a>
@@ -621,13 +579,13 @@ Hauptauftrag, und von einem Auftrag zurück zur Hauptauftragsanzeige.</p>
    <a href="#_teile">Teile</a>
   </li>
   <li level="1">
-   <a href="#_verschachtelungen">Verschachtelungen</a>
+   <a href="#_schachtelungen">Schachtelungen</a>
   </li>
   <li level="1">
    <a href="#_bearbeiten">Bearbeiten</a>
   </li>
   <li level="1">
-   <a href="#_export_csv">Export csv</a>
+   <a href="#_csv_exportieren">CSV exportieren</a>
   </li>
   <li level="1">
    <a href="#_zusätzliche_informationen">Zusätzliche Informationen</a>
@@ -638,8 +596,8 @@ Hauptauftrag, und von einem Auftrag zurück zur Hauptauftragsanzeige.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobcreation.html">Auftrag erstellen</a></span>
- <span class="next"><a href="jobpanel.html">Auftragspanel</a></span>
+ <span class="prev"><a href="jobcreation.html">Job erstellen</a></span>
+ <span class="next"><a href="jobpanel.html">Jobpanel</a></span>
 </nav>
 
         </div>

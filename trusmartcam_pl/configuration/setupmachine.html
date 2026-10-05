@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Dodaj/Usuń maszynę</title>
+  <title>Dodawanie/usuwanie maszyny</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
    <a href="index.html">Konfiguracja</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a class="active" href="setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otwórz</a>
+     <a href="../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Zamówienia</a>
+   <a href="../orders/index.html">Zlecenia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Zadania</a>
+   <a href="../jobs/index.html">Zadania job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="../jobs/layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -208,16 +188,16 @@
  </div>
  <div>/</div>
  <div>
-  <a href="setupmachine.html">Dodaj/Usuń maszynę</a>
+  <a href="setupmachine.html">Dodawanie/usuwanie maszyny</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Dodaj/Usuń maszynę</h1>
+                        <h1>Dodawanie/usuwanie maszyny</h1>
 <div class="paragraph">
-<p>Użyj polecenia edytuj, aby uruchomić okno dialogowe wyboru maszyny. Wyświetla
+<p>Użyj polecenia <strong>Edit</strong>, aby otworzyć okno wyboru maszyny. Wyświetla
 ono hierarchiczną listę wszystkich maszyn do cięcia i gięcia wraz z bieżącymi
 wyborami.</p>
 </div>
@@ -229,27 +209,25 @@ wyborami.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>W hierarchicznym widoku drzewa wyświetlana jest uproszczona nazwa maszyny jako
-etykieta maszyny, a pełna nazwa jest wyświetlana w podpowiedzi. Podpowiedź folderu
-wyświetla ścieżkę (np.: Trumpf • C Series • C60)</p>
+<p>W hierarchicznym widoku drzewa uproszczona nazwa maszyny jest wyświetlana jako
+etykieta maszyny, a pełna nazwa w podpowiedzi. Podpowiedź folderu wyświetla
+ścieżkę.</p>
 </li>
 <li>
-<p>Ikona specyficzna dla marki jest wyświetlana dla pras krawędziowych innych niż Trumpf. Podpowiedź
-maszyny wyświetla również markę maszyny (np. - Brand: Bystronic).</p>
+<p>Pole wyszukiwania umożliwia wyszukiwanie maszyn według nazwy, pełnej nazwy,
+marki itp. Wybór maszyny jest zachowywany podczas wyszukiwania, dzięki czemu
+można jednocześnie wybierać i wyszukiwać.</p>
 </li>
 <li>
-<p>Pole wyszukiwania może być używane do wyszukiwania maszyn według nazwy, pełnej nazwy, marki itp.
-Wybór maszyny jest zachowywany podczas wyszukiwania, dzięki czemu można wybierać i wyszukiwać jednocześnie.</p>
+<p>Wyszukiwanie może być również używane do wyszukiwania według technologii i
+rozmiaru maszyny. Wpisanie 'fold' w polu wyszukiwania wyświetla wszystkie
+maszyny do składania (giętarki panelowe). Podobnie wpisanie 10ft wyświetla
+wszystkie prasy krawędziowe o długości stołu 10ft (rozróżniane są jednostki. W
+układzie metrycznym użyj m dla metra). Jeśli jest dostępna w nazwie, do
+wyszukiwania można również użyć liczby osi (np. 2A, 5A itp.).</p>
 </li>
 <li>
-<p>Wyszukiwanie może być również używane do wyszukiwania według technologii maszyny, rozmiaru. Zatem wpisanie
-'fold' w polu wyszukiwania pokazuje wszystkie maszyny składające (prasy krawędziowe). Podobnie,
-wpisanie 10ft wyświetla wszystkie prasy krawędziowe o długości stołu 10ft (jest to wrażliwe
-na jednostki. Użyj m dla metrów w jednostce metrycznej). Tam gdzie jest dostępne w nazwie,
-liczba osi może być również używana do wyszukiwania (np.: 2A, 5A itp.)</p>
-</li>
-<li>
-<p>Polecenie Resetuj wszystko resetuje wybór maszyny do konfiguracji
+<p>Polecenie Reset All resetuje wybór maszyny do konfiguracji
 demonstracyjnej.</p>
 </li>
 </ul>
@@ -263,7 +241,7 @@ demonstracyjnej.</p>
             </div>
             <nav class="pagination">
  <span class="prev"><a href="index.html">Konfiguracja</a></span>
- <span class="next"><a href="setuptooling.html">Konfiguracja oprzyrządowania</a></span>
+ <span class="next"><a href="setuptooling.html">Konfiguracja tooling</a></span>
 </nav>
 
         </div>

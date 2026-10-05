@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Part status</title>
+  <title>부품 상태</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,17 +29,15 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">하드웨어 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">지원되는 파일 형식</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">사전 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">서버 설치</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">클라이언트 설치</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">라이선스 변경</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">구성</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">기계 추가/제거</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">머신 추가/제거</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">툴링 설정</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">사용자 구성</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">언어</a></li>
@@ -54,85 +52,85 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">재료 매핑</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM 페이지 매핑</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑 (조회 키)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑(조회 키)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">사용자 인터페이스</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로우</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로</a></li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Library</a>
+   <a href="../index.html">라이브러리</a>
    <ul>
     <li>
      <button class="tree closed"></button>
-     <a href="../open/index.html">Open</a>
+     <a href="../open/index.html">열기</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../open/partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a href="../open/orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a href="../open/jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="../open/partimport.html">부품 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../open/orderimport.html">오더 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../open/jobimport.html">작업 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../open/assembliesimport.html">어셈블리 가져오기</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../libraryview/index.html">Library view</a>
+     <a href="../libraryview/index.html">라이브러리 보기</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">부품</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">어셈블리</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
-     <a class="active" href="index.html">Part status</a>
+     <a class="active" href="index.html">부품 상태</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="partpanel.html">Part panel</a></li>
-      <li><button class="tree blank"></button><a href="partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="partvalidation.html">부품 검증</a></li>
+      <li><button class="tree blank"></button><a href="partpanel.html">부품 패널</a></li>
+      <li><button class="tree blank"></button><a href="partfilters.html">부품 필터</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Tooling status</a>
+     <a href="../toolingstatus/index.html">툴링 상태</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">툴링 검증</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">밴딩 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">절단 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">폴딩 툴링 검증</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">툴링 패널</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">필터 저장</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">주문</a>
+   <a href="../../orders/index.html">오더</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">주문 보기</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">오더 보기</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Jobs</a>
+   <a href="../../jobs/index.html">작업</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">작업 생성</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">작업 보기</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">작업 패널</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">자동 계획</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">대화형 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재포장</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재패킹</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/layoutcommands/index.html">네스트 관리</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">레이아웃 보기</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">레이아웃 패널</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">보고서 발신자</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">리포트 전송기</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">수동 잔재 관리</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">트윈라인 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">구식</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline 네스팅</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">오래된 항목</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">작업 필터</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">팩토리</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">루트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">시트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">사용자</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">편집</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">고객</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">설정</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 확장 기능</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 추가 기능</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">설치</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">부품 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">어셈블리 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">실행 가능성 확인</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">공장 설정</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">기타 개선 사항</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">환경</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">밴딩</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">절단</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">알림</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">감시</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">작업</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">리포트</a></li>
      </ul>
     </li>
    </ul>
@@ -204,111 +184,88 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Library</a>
+  <a href="../index.html">라이브러리</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Part status</a>
+  <a href="index.html">부품 상태</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Part status</h1>
+                        <h1>부품 상태</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>부품이 TruSmartCAM으로 가져오기되면 관련 판금 기술이 자동으로 부품에 처리됩니다. 이 프로세스의 일부로 TruSmartCAM는</p>
+<p>부품을 TruSmartCAM 으로 가져오면 해당 판금 기술이 부품에 대해 자동으로 처리됩니다. 이 프로세스 중에 TruSmartCAM 은(는) 부품의 형상, 재료 및 제조 가능성을 검증하여 부품이 툴링 준비가 되었는지 확인합니다.</p>
 </div>
 <div class="paragraph">
-<p>부품 상태는 부품 타일에 부품 이름 아래에 직접 표시되어 부품의 현재 검증 조건을 나타냅니다.</p>
+<p>부품 상태는 부품 타일의 부품 이름 아래에 표시되어 부품의 현재 검증 상태를 나타냅니다.</p>
 </div>
 <div class="paragraph">
-<p>부품 상태 유형은 부품 수준 검증 검사의 결과로 부품이 가질 수 있는 다양한 조건을 설명합니다. 이러한 상태는 부품의 설계, 재료 또는 형상과 관련된 문제를 나타내며 툴링을 진행하기 전에 해결해야 합니다.</p>
+<p>부품 상태 유형은 부품에 할당된 다양한 검증 결과를 나타냅니다. 이러한 상태는 툴링을 진행하기 전에 해결해야 하는 부품의 설계, 재료 또는 형상과 관련된 문제를 나타냅니다.</p>
+</div>
+<div class="paragraph">
+<p>다음 이미지는 검증 후 부품 타일에 표시될 수 있는 부품 상태의 예를 보여줍니다. 각 부품 상태는 특정 검증 결과를 나타냅니다. 각 부품 상태의 원인은 다음 섹션에서 설명합니다.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/material.png" alt="material" width="256"></span> <span class="image"><img src="img/bendin.png" alt="Bend Infesible" width="259"></span></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_part_errors">Part errors</h2>
+<h2 id="_부품_오류">부품 오류</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A CAD (Computer-Aided Design) error occurs when there is an issue in the parts
-design or geometry, such as open contours, missing geometry, or unassigned
-material. These errors originate from the CAD model and prevent the part from
-being processed further.</p>
+<p>CAD(Computer-Aided Design) 오류는 열린 윤곽선, 누락된 형상 또는 할당되지 않은 재료와 같이 부품 설계 또는 형상에 문제가 있을 때 발생합니다. 이러한 오류는 CAD 모델에서 발생하며 부품이 추가로 처리되는 것을 방지합니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>벤딩 실행 불가</strong> :  TruSmartCAM automatically tries to
-find a valid bending method for the part. If it cannot find any suitable bend
-solution, the part is marked as bend infeasible.</p>
+<p><strong>Bend infeasible</strong> :  TruSmartCAM 은(는) 부품에 대한 유효한 밴딩 방법을 자동으로 찾으려고 시도합니다. 적합한 밴드 솔루션을 찾을 수 없으면 부품이 밴드 불가능으로 표시됩니다.</p>
 </li>
 <li>
-<p><strong>Cut infeasible</strong> : If bend warnings are ignored,
-TruSmartCAM then attempts to find a cutting method. If no valid cutting solution
-is found, the part is marked as cut infeasible.</p>
+<p><strong>Cut infeasible</strong> : 밴드 경고를 무시하면 TruSmartCAM 은(는) 절단 방법을 찾으려고 시도합니다. 유효한 절단 솔루션을 찾을 수 없으면 부품이 절단 불가능으로 표시됩니다.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/bendinfesible.png" alt="Bend Infesible" width="259"></span> <span class="image"><img src="img/cutinfesible.png" alt="Cut Infesible" width="254"></span></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_material_errors">Material errors</h2>
+<h2 id="_재료_오류">재료 오류</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>재료가 존재하지 않습니다</strong> : The part&#8217;s thickness is read
-from the CAD model and matched with materials in the TruSmartCAM Raw Material
-database. If no matching material is found, the part is marked with a
-<strong>재료가 존재하지 않습니다</strong> error.</p>
+<p><strong>Material Missing</strong> : 부품의 두께는 CAD 모델에서 읽어와 TruSmartCAM Raw Material 데이터베이스의 재료와 일치시킵니다. 일치하는 재료를 찾을 수 없으면 부품에 <strong>Material Missing</strong> 오류가 표시됩니다.</p>
 </li>
 <li>
-<p><strong>재료가 할당되지 않음</strong> : If the CAD model does not
-have a material mapping field or if the field is empty, TruSmartCAM cannot assign
-a material. In this case, the part is marked with a
-<strong>재료가 할당되지 않음</strong> error.</p>
+<p><strong>Material not assigned</strong> : CAD 모델에 재료 매핑 필드가 없거나 필드가 비어 있으면 TruSmartCAM 은(는) 재료를 할당할 수 없습니다. 이 경우 부품에 <strong>Material not assigned</strong> 오류가 표시됩니다.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/materialmissing.png" alt="Material Missing" width="256"></span> <span class="image"><img src="img/materialnot.png" alt="Matertial Not Assigned" width="256"></span></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_geometry_errors">Geometry errors</h2>
+<h2 id="_지오메트리_오류">지오메트리 오류</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>열린 컨투어 인식됨</strong> : The CAD file has one or more
-open (incomplete) shapes, which prevents proper tooling.</p>
+<p><strong>Open contours detected</strong> : CAD 파일에 하나 이상의 열린(불완전한) 형상이 있어 적절한 툴링을 방해합니다.</p>
 </li>
 <li>
-<p><strong>다중 외측 컨투어 인식됨</strong> : The CAD file
-has more than one outer closed loop, which creates confusion during processing.</p>
+<p><strong>Multiple outer contours detected</strong> : CAD 파일에 두 개 이상의 외부 닫힌 루프가 있어 처리 중에 혼란을 야기합니다.</p>
 </li>
 <li>
-<p><strong>Nascent error</strong> :  When a part is loaded from a spreadsheet (CSV or XLSX),
-but the actual CAD file is missing, it is marked as a nascent part.</p>
+<p><strong>Nascent error</strong> :  부품이 스프레드시트(CSV 또는 XLSX)에서 로드되었지만 실제 CAD 파일이 누락된 경우 nascent 부품으로 표시됩니다.</p>
 </li>
 <li>
-<p><strong>형상 누락</strong> : The CAD model has no valid
-geometry or the geometry is unreadable, making it unusable for tooling.</p>
+<p><strong>Geometry missing</strong> : CAD 모델에 유효한 형상이 없거나 형상을 읽을 수 없어 툴링에 사용할 수 없습니다.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/opencontours.png" alt="Open Contours" width="256"></span> <span class="image"><img src="img/multiple.png" alt="Multiple Outer Contours" width="256"></span><br></p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="img/nascent.png" alt="Nascent" width="257"></span>  <span class="image"><img src="img/geometrymissing.png" alt="Geometry Missing" width="250"></span></p>
 </div>
 </div>
 </div>
@@ -320,13 +277,13 @@ geometry or the geometry is unreadable, making it unusable for tooling.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_part_errors">Part errors</a>
+   <a href="#_부품_오류">부품 오류</a>
   </li>
   <li level="1">
-   <a href="#_material_errors">Material errors</a>
+   <a href="#_재료_오류">재료 오류</a>
   </li>
   <li level="1">
-   <a href="#_geometry_errors">Geometry errors</a>
+   <a href="#_지오메트리_오류">지오메트리 오류</a>
   </li>
  </ul>
 </aside>
@@ -334,8 +291,8 @@ geometry or the geometry is unreadable, making it unusable for tooling.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="../libraryview/assemblyview.html">Assembly</a></span>
- <span class="next"><a href="partvalidation.html">Part validation</a></span>
+ <span class="prev"><a href="../libraryview/assemblyview.html">어셈블리</a></span>
+ <span class="next"><a href="partvalidation.html">부품 검증</a></span>
 </nav>
 
         </div>

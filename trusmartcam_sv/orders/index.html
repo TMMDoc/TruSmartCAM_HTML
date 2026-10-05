@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Ordrar</title>
+  <title>Order</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -28,11 +28,9 @@
    <a href="../installation/index.html">Installation</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Hårdvarukrav</a></li>
-    <li><button class="tree blank"></button><a href="../installation/importformats.html">Format som stöds</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Förutsättningar</a></li>
+    <li><button class="tree blank"></button><a href="../installation/importformats.html">Filformat som stöds</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Serverinstallation</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Klientinstallation</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Ändra licens</a></li>
    </ul>
   </li>
   <li>
@@ -40,7 +38,7 @@
    <a href="../configuration/index.html">Konfiguration</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Lägg till/ta bort maskin</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Ställ in verktyg</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfigurera tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfigurera användare</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Språk</a></li>
     <li>
@@ -54,11 +52,11 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mappa material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mappa CAM-sidor</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagningsnycklar)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mappa fält från CAD (uppslagsnycklar)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Användargränssnittet</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Arbetsflöde</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Bibliotek</a>
@@ -67,43 +65,43 @@
      <button class="tree closed"></button>
      <a href="../library/open/index.html">Öppna</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera delar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importera detaljer</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importera order</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera jobb</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera monteringar</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importera job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importera sammanställningar</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Biblioteksvy</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Delar</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montering</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Detaljer</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Sammanställning</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/partstate/index.html">Delstatus</a>
+     <a href="../library/partstate/index.html">Detaljstatus</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Delvalidering</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Delpanel</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Delfilter</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Detaljvalidering</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Detaljpanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Detaljfilter</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Verktygsstatus</a>
+     <a href="../library/toolingstatus/index.html">Tooling-status</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Verktygningsvalidering</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Tooling-validering</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Böjverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Skärverktygningsvalidering</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Vikverktygningsvalidering</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validering av bocknings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validering av skärnings-tooling</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validering av viknings-tooling</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Verktygspanel</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Tooling-panel</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Spara filter</a></li>
@@ -111,82 +109,64 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a class="active" href="index.html">Ordrar</a>
+   <a class="active" href="index.html">Order</a>
    <ul>
-    <li><button class="tree blank"></button><a href="ordersview.html">Ordervyer</a></li>
+    <li><button class="tree blank"></button><a href="ordersview.html">Ordervy</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../jobs/index.html">Jobb</a>
+   <a href="../jobs/index.html">Job</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa jobb</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Jobbvy</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Jobbpanel</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplan</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv häckning</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobcreation.html">Skapa job</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobview.html">Job-vy</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobpanel.html">Job-panel</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobautoplan.html">Autoplanering</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobinteractplan.html">Interaktiv nesting</a></li>
     <li><button class="tree blank"></button><a href="../jobs/repacking.html">Ompackning</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/layoutcommands/index.html">Häckhantering</a>
+     <a href="../jobs/layoutcommands/index.html">Nesthantering</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layoutvy</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layoutpanel</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/nestview.html">Layout-vy</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/layoutcommands/layoutpanel.html">Layout-panel</a></li>
       <li><button class="tree blank"></button><a href="../jobs/layoutcommands/reportsender.html">Rapportavsändare</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../jobs/remnantmanagement/index.html">Resthantering</a>
+     <a href="../jobs/remnantmanagement/index.html">Hantering av restbitar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Automatisk resthantering</a></li>
-      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Manuell resthantering</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/autoremnant.html">Hantering av automatiska restbitar</a></li>
+      <li><button class="tree blank"></button><a href="../jobs/remnantmanagement/manualremnant.html">Hantering av manuella restbitar</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline-häckning</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Inaktuell</a></li>
-    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Jobbfilter</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/outdate.html">Föråldrad</a></li>
+    <li><button class="tree blank"></button><a href="../jobs/jobfilters.html">Job-filter</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Factory</a>
+   <a href="../factory/index.html">Fabrik</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Rutter</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Plåtar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/users.html">Användare</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Redigera</a></li>
+    <li><button class="tree blank"></button><a href="../factory/customers.html">Kunder</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Settings</a>
+     <a href="../factory/settings/index.html">Inställningar</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Miljö</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bockning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Skärning</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Aviseringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Bevaka</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">CAD-tillägg</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Spara delar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Spara sammansättning</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Kontrollera genomförbarhet</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Fabriksinställningar</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Diverse förbättringar</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Rapporter</a></li>
      </ul>
     </li>
    </ul>
@@ -204,21 +184,21 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Ordrar</a>
+  <a href="index.html">Order</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Ordrar</h1>
+                        <h1>Order</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>En order definierar vilka delar som behöver tillverkas, i vilken kvantitet och
-till vilket datum. Den styr produktionsplanering och genomförande i TruSmartCAM.
-Ordrar kan skapas eller importeras med olika metoder och de kan konverteras till
-jobb för produktionsplanering.</p>
+<p>En order definierar vilka detaljer som behöver tillverkas, i vilket antal och
+när. Den styr produktionsplanering och genomförande i TruSmartCAM. Order kan
+skapas eller importeras med olika metoder, och de kan konverteras till job för
+produktionsplanering.</p>
 </div>
 </div>
 </div>
@@ -245,59 +225,51 @@ jobb för produktionsplanering.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="22"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Öppna i skrivskyddat läge för visning</strong><br>
-Opens the selected order in read-only mode.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+Öppnar den valda ordern i skrivskyddat läge.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="22"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Enables editing of the selected order.</p></td>
+Aktiverar redigering av den valda ordern.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="22"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Radera</strong><br>
-Deletes the selected order.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+Tar bort den valda ordern.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/new.png" alt="New" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ny&#8230;&#8203;</strong><br>
-Converts the order into a job, assembly, or another order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>New&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Konverterar ordern till ett job, en sammanställning eller en annan order.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/assigncustomer.png" alt="Assign Customer" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Koppla kund</strong><br>
-Assigns a customer to the order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Assign Customer&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tilldelar en kund till ordern.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/setdue.png" alt="Due Date" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ställ in förfallodag&#8230;&#8203;</strong><br>
-Sets the due date for the order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Set Due Date&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anger förfallodatum för ordern.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/priority.png" alt="Priority" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Prioritet</strong><br>
-Specifies the priority level of the order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Priority</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anger orderns prioritetsnivå. Tillgängliga alternativ är
+<strong>Normal</strong>, <strong>Low</strong>, <strong>High</strong> och <strong>Urgent</strong>.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/partorder.png" alt="Part Order" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Detaljbeställning</strong><br>
-Specifies the reference ID assigned to a part within the order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Part Order</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anger det referens-ID som tilldelats en detalj inom ordern.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/quantity.png" alt="Quantity" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Antal</strong><br>
-Specifies the number of parts or instances in the order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Quantity</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anger antalet detaljer eller instanser i ordern.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Föreg</strong> / <strong>Nästa</strong> / <strong>Detalj</strong><br>
-Navigates to the previous or next part within the order.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Prev</strong> / <strong>Next</strong> / <strong>Part</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navigerar till föregående eller nästa detalj inom ordern.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/filters.png" alt="Filters" width="120"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-Use these filters to view other orders that share the same material, customer,
-due date, or priority.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sortera och filtrera</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Använd dessa filter för att visa andra order som delar <strong>Same Material</strong>, <strong>Same Customer</strong>, <strong>Same Due Date</strong> eller <strong>Same Priority</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -307,22 +279,17 @@ due date, or priority.</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_redigera_ordrar">Redigera ordrar</h2>
+<h2 id="_redigera_order">Redigera order</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Välj en eller flera ordrar och högerklicka för att
-ändra gemensamma orderdetaljer såsom kvantitet, förfallodatum, prioritet och
+<p>Markera en eller flera order och högerklicka för att
+ändra gemensamma orderuppgifter såsom antal, förfallodatum, prioritet och
 kundinformation.</p>
 </div>
 <div class="paragraph">
-<p>Om flera valda ordrar kräver olika värden, använd alternativet
+<p>Om flera markerade order kräver olika värden använder du alternativet
 <strong>Check-out for Editing</strong> för att redigera varje order individuellt
-baserat på kravet.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/editorder.png" alt="Edit" width="618">
-</div>
+utifrån behovet.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -330,9 +297,8 @@ baserat på kravet.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Alla uppdateringar som görs på ordrarna tillämpas omedelbart på databasen.
-Använd kommandot <strong>Radera</strong> för att ta bort ordrar från
-orderbiblioteket.</p>
+<p>Alla uppdateringar som görs på orderna tillämpas omedelbart på databasen. Använd
+kommandot <strong>Delete</strong> för att ta bort order från orderbiblioteket.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -341,8 +307,8 @@ orderbiblioteket.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Kommandot Delete tar bara bort ordrarna. Delar som är länkade till de
-respektive ordrarna tas inte bort från delbiblioteket.
+Kommandot Delete tar bort endast orderna. Detaljer som är kopplade till
+respektive order tas inte bort från detaljbiblioteket.
 </td>
 </tr>
 </table>
@@ -350,13 +316,13 @@ respektive ordrarna tas inte bort från delbiblioteket.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_planera_ordrar">Planera ordrar</h2>
+<h2 id="_planera_order">Planera order</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Välj en eller flera ordrar, högerklicka och klicka på <strong>Ny&#8230;&#8203;</strong> &#8594;
-<strong>Jobb</strong> för att konvertera de valda ordrarna till jobb. Använd
-alternativen Sortera och Filtrera för att gruppera relevanta ordrar innan
-jobbet skapas.</p>
+<p>Markera en eller flera order, högerklicka och klicka på <strong>New&#8230;&#8203;</strong> &#8594;
+<strong>Job</strong> för att konvertera de markerade orderna till job. Använd
+alternativen Sortera och Filtrera för att gruppera relevanta order tillsammans
+innan job skapas.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -364,29 +330,24 @@ jobbet skapas.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>När ordrarna har konverterats till ett jobb:</p>
+<p>När orderna har konverterats till ett job:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Jobbet flyttas till sidan Jobb</p>
+<p>Jobbet flyttas till sidan Jobs</p>
 </li>
 <li>
-<p>Ordrarna tas bort från orderlistan</p>
+<p>Orderna tas bort från orderlistan</p>
 </li>
 <li>
-<p>Det standardiserade arbetsflödet för jobbplanering kan sedan användas för
-produktionsplanering och nästling</p>
+<p>Det vanliga arbetsflödet för jobbplanering kan sedan användas för
+produktionsplanering och nesting</p>
 </li>
 </ul>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="img/orderplan.png" alt="Order Plan" width="884">
-</div>
-</div>
 <div class="paragraph">
-<p>För mer information om arbetsflöde för jobbplanering, se
+<p>För mer information om arbetsflödet för jobbplanering, se
 <a href="../jobs/jobautoplan.html">Auto Plan</a></p>
 </div>
 </div>
@@ -397,22 +358,13 @@ produktionsplanering och nästling</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Om ett jobb som innehåller ordrar tas bort, flyttas de associerade ordrarna
-automatiskt tillbaka till sidan Ordrar klara, såvida inte jobbet eller delen är
-markerad som Slutförd.</p>
+<p>Om ett job som innehåller order tas bort, flyttas de tillhörande orderna
+automatiskt tillbaka till sidan Orders Ready, såvida inte jobbet eller detaljen
+är markerad som Completed.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/addinfo.png" alt="Add" width="999">
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Ordrar kan läggas till eller tas bort från ett befintligt jobb via fönstret
-<strong>Redigera jobb</strong> baserat på produktionskraven.</p>
+<p>Order kan läggas till i eller tas bort från ett befintligt job via fönstret
+<strong>Edit Job</strong> utifrån produktionskraven.</p>
 </li>
 </ul>
 </div>
@@ -429,10 +381,10 @@ markerad som Slutförd.</p>
    <a href="#_orderpanel">Orderpanel</a>
   </li>
   <li level="1">
-   <a href="#_redigera_ordrar">Redigera ordrar</a>
+   <a href="#_redigera_order">Redigera order</a>
   </li>
   <li level="1">
-   <a href="#_planera_ordrar">Planera ordrar</a>
+   <a href="#_planera_order">Planera order</a>
   </li>
   <li level="1">
    <a href="#_ytterligare_information">Ytterligare information</a>
@@ -444,7 +396,7 @@ markerad som Slutförd.</p>
             </div>
             <nav class="pagination">
  <span class="prev"><a href="../library/savingfilters.html">Spara filter</a></span>
- <span class="next"><a href="ordersview.html">Ordervyer</a></span>
+ <span class="next"><a href="ordersview.html">Ordervy</a></span>
 </nav>
 
         </div>

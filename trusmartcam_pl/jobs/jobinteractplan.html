@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Interaktywne zagnieżdżanie</title>
+  <title>Interaktywny nesting</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="../configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otwórz</a>
+     <a href="../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Zamówienia</a>
+   <a href="../orders/index.html">Zlecenia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Zadania</a>
+   <a href="index.html">Zadania job</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,27 +184,28 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Zadania</a>
+  <a href="index.html">Zadania job</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobinteractplan.html">Interaktywne zagnieżdżanie</a>
+  <a href="jobinteractplan.html">Interaktywny nesting</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Interaktywne zagnieżdżanie</h1>
+                        <h1>Interaktywny nesting</h1>
 <div class="paragraph">
-<p>Interaktywne zagnieżdżanie może być używane do tworzenia planu zagnieżdżenia dla pojedynczej części, kilku
-części z zadania, pojedynczego zadania lub wielu zadań. Pozwala wybierać maszyny i materiały, ustawiać parametry arkusza
-i interaktywnie sprawdzać wyniki zagnieżdżenia.</p>
+<p>Interaktywny nesting może służyć do utworzenia planu nestingu dla pojedynczej części, kilku
+części z zadania job, pojedynczego zadania job lub wielu zadań job. Umożliwia wybór
+maszyn i materiałów, ustawienie parametrów arkusza oraz interaktywne przeglądanie wyników
+nestingu.</p>
 </div>
 <div class="paragraph">
-<p>Kliknij prawym przyciskiem myszy na część lub zadanie i wybierz
-<strong>Zaplanuj detal…&#8230;&#8203;/Zaplanuj zadanie…&#8230;&#8203;</strong> &#8594;
-<strong>Uruchom interaktywne układanie…</strong> opcję.</p>
+<p>Kliknij prawym przyciskiem myszy część lub zadanie job i wybierz
+<strong>Plan Part&#8230;&#8203;/Plan Job&#8230;&#8203;</strong> &#8594;
+<strong>Run Interactive Nesting&#8230;&#8203;</strong>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -237,8 +218,8 @@ i interaktywnie sprawdzać wyniki zagnieżdżenia.</p>
 <p>Otwiera się okno <strong>Interactive Nesting</strong>.</p>
 </li>
 <li>
-<p>Domyślnie okno interaktywnego zagnieżdżania przełącza się na
-stronę <strong>Wybierz maszynę i tworzywo</strong>.</p>
+<p>Domyślnie okno interaktywnego nestingu przełącza się na stronę
+<strong>Select Machine &amp; Material</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/interactive2.png" alt="Interactive nesting window" width="1908">
@@ -246,7 +227,7 @@ stronę <strong>Wybierz maszynę i tworzywo</strong>.</p>
 </div>
 </li>
 <li>
-<p>Maszyny są wyświetlane z kolorowymi paskami wskazującymi dostępne obciążenie produkcyjne:</p>
+<p>Maszyny są pokazywane z paskami kolorów wskazującymi dostępne obciążenie produkcyjne:</p>
 <div class="ulist">
 <ul>
 <li>
@@ -259,26 +240,26 @@ stronę <strong>Wybierz maszynę i tworzywo</strong>.</p>
 </div>
 </li>
 <li>
-<p>Pod każdą maszyną wybrane części są grupowane według ich surowego materiału
-(Części/Całkowita ilość).</p>
+<p>Pod każdą maszyną wybrane części są grupowane z ich surowcem
+(części/całkowita ilość).</p>
 </li>
 <li>
-<p>Jeśli część nie ma ważnego rozwiązania narzędziowego dla maszyny, ta część i
-materiał są ignorowane podczas przetwarzania dla danej maszyny.</p>
+<p>Jeśli część nie ma prawidłowego rozwiązania toolingowego dla maszyny, ta część i
+materiał są pomijane w przetwarzaniu dla danej maszyny.</p>
 </li>
 <li>
-<p>Jeśli surowy materiał jest wybrany dla jednej maszyny, nie jest dostępny dla innych
+<p>Jeśli surowiec jest wybrany dla jednej maszyny, nie będzie dostępny dla innych
 maszyn.</p>
 </li>
 <li>
-<p>Po ustawieniu planu zagnieżdżenia maszyny wybierz żądany arkusz i nadpisz
+<p>Po ustawieniu planu nestingu maszyny wybierz preferowany arkusz i nadpisz
 parametry arkusza, takie jak <strong>Priority</strong>,
-<strong>Liczba</strong>, <strong>Margins</strong> itp.</p>
+<strong>Quantity</strong>, <strong>Margins</strong> itp.</p>
 </li>
 <li>
-<p>Możesz filtrować arkusze, aby wyświetlić <strong>All Sheets</strong>,
+<p>Możesz filtrować arkusze, aby pokazać <strong>All Sheets</strong>,
 <strong>Standard Sheets</strong> lub
-<strong>Arkusze resztkowe</strong>. Kliknij <strong>Dalej</strong>.</p>
+<strong>Remnant Sheets</strong>. Kliknij <strong>Next</strong>.</p>
 </li>
 </ul>
 </div>
@@ -289,8 +270,9 @@ parametry arkusza, takie jak <strong>Priority</strong>,
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Nie jest możliwe zwiększenie ilości na tym etapie. Możesz
-albo zachować tę samą ilość co w zapasach arkuszy, albo zmniejszyć ją i sprawdzić wyniki zagnieżdżenia.
+Na tym etapie nie jest możliwe zwiększenie ilości. Możesz
+zachować tę samą ilość co w magazynie arkuszy lub ją zmniejszyć i sprawdzić wyniki
+nestingu.
 </td>
 </tr>
 </table>
@@ -298,12 +280,12 @@ albo zachować tę samą ilość co w zapasach arkuszy, albo zmniejszyć ją i s
 <div class="ulist">
 <ul>
 <li>
-<p>Pojawia się <strong>Aktualizuj ilość</strong> w oknie interaktywnego planu zagnieśdżenia.</p>
+<p>W oknie planu interaktywnego nestingu pojawia się <strong>Update Qty</strong>.</p>
 </li>
 <li>
-<p>Domyślnie <strong>Pick All (F5)</strong> obejmuje wszystkie części do
-zagnieżdżenia lub możesz ręcznie wybrać części priorytetowe i dostosować ilości części.
-Kliknij <strong>Dalej</strong>.</p>
+<p>Domyślnie <strong>Pick All (F5)</strong> uwzględnia wszystkie części do
+nestingu, lub możesz ręcznie wybrać części priorytetowe i dostosować ilości części.
+Kliknij <strong>Next</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/interactive3.png" alt="Update part quantity" width="1908">
@@ -311,7 +293,7 @@ Kliknij <strong>Dalej</strong>.</p>
 </div>
 </li>
 <li>
-<p>Rozpoczyna się zagnieżdżanie, a części zagnieżdżone na arkuszu są aktualizowane niebieskim statusem.</p>
+<p>Nesting rozpoczyna się, a części umieszczone w arkuszu są aktualizowane statusem w kolorze niebieskim.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/interactive4.png" alt="Review interactive nesting" width="1911">
@@ -319,32 +301,32 @@ Kliknij <strong>Dalej</strong>.</p>
 </div>
 </li>
 <li>
-<p>Obciążenie produkcyjne maszyny jest aktualizowane na podstawie wyniku zagnieżdżenia.</p>
+<p>Obciążenie produkcyjne maszyny aktualizuje się na podstawie wyniku nestingu.</p>
 </li>
 <li>
-<p>Zagnieżdżone układy są rysowane w skali i wyświetlane na karcie Nest
+<p>Układy nestingu są rysowane w skali i wyświetlane na karcie Nest
 Results.</p>
 </li>
 <li>
-<p>Jeśli niektóre części pozostaną niezagnieżdżone, pojawia się komunikat
-<strong>Niektóre detale pozostają nieułożone</strong> — te części pozostaną
-w oryginalnym zadaniu.</p>
+<p>Jeśli niektóre części pozostają poza nestem, pojawia się komunikat
+<strong>Some parts remain unnested</strong> — części te pozostają
+w oryginalnym zadaniu job.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Powodem braku zagnieżdżenia może być niedostępność arkusza do zagnieżdżenia</p>
+<p>Powodem braku nestingu może być brak dostępnego arkusza do nestingu</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Wyniki interaktywnego zagnieżdżenia otrzymują prefiks: <strong>fabryka</strong> &#8594;
-<strong>ustawienia</strong> &#8594; <strong>Zadanie</strong>&#8594;
-<strong>Ustawienia układania</strong>,
-<strong>Prefiks nazwy interaktywnego arkusza</strong>.</p>
+<p>Wyniki interaktywnego nestingu są poprzedzane prefiksem: <strong>factory</strong> &#8594;
+<strong>settings</strong> &#8594; <strong>Job</strong>&#8594;
+<strong>Nest settings</strong>,
+<strong>Interactive sheet-name prefix</strong>.</p>
 </li>
 <li>
-<p>Układy interaktywnego zagnieżdżenia otrzymują prefiks litery <strong>L</strong>.</p>
+<p>Układy interaktywnego nestingu są poprzedzane literą <strong>L</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/interactive6.png" alt="Factory settings" width="754">

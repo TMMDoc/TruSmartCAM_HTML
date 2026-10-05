@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Manuálna správa zvyškov</title>
+  <title>Manuálne zvyšky</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,47 +29,45 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">Hardvérové požiadavky</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">Podporované formáty súborov</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">Predpoklady</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">Inštalácia servera</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">Inštalácia klienta</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">Zmena licencie</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">Konfigurácia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Pridať/Odstrániť stroj</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Nastavenie náradia</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">Pridanie/odstránenie stroja</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">Nastavenie tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">Konfigurácia používateľov</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">Jazyk</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../configuration/addmaterial/index.html">Materiál</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Pridať nový materiál a hárok</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/Import materiálu</a></li>
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Nahradiť materiál</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">Pridanie nového materiálu a tabule</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">Export/import materiálu</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">Nahradenie materiálu</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">Mapovanie materiálu</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapovanie CAM stránok</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie klúče)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">Mapovanie strán CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">Mapovanie polí z CAD (vyhľadávacie kľúče)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../userinterface.html">Používateľské rozhranie</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">Pracovný postup</a></li>
+  <li><button class="tree blank"></button><a href="../../userinterface.html">PoužívateĻské rozhranie</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../../library/index.html">Knižnica</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Otvoriť</a>
+     <a href="../../library/open/index.html">Otvorenie</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Import dielov</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Import objednávok</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import úloh</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import úloh job</a></li>
       <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Import zostáv</a></li>
      </ul>
     </li>
@@ -78,7 +76,7 @@
      <a href="../../library/libraryview/index.html">Zobrazenie knižnice</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Diely</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Zostavy</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Zostava</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Stav obrábania</a>
+     <a href="../../library/toolingstatus/index.html">Stav tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validácia obrábania</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">Validácia tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validácia ohýbacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validácia rezacieho obrábania</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validácia skladacieho obrábania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Validácia tooling ohýbania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Validácia tooling rezania</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Validácia tooling skladania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panel obrábania</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Ukladanie filtrov</a></li>
@@ -118,80 +116,62 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Práce</a>
+   <a href="../index.html">Úlohy job</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">Vytvorenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">Zobrazenie práce</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">Panel práce</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">Vytvorenie úlohy job</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">Zobrazenie úloh job</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">Panel úlohy job</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">Automatické plánovanie</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktívne ukladanie</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">Interaktívny nesting</a></li>
     <li><button class="tree blank"></button><a href="../repacking.html">Prebaľovanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../layoutcommands/index.html">Správa hniezd</a>
+     <a href="../layoutcommands/index.html">Správa nestov</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Zobrazenie rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Panel rozvrhnutia</a></li>
-      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Odosielateľ správ</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/nestview.html">Zobrazenie rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/layoutpanel.html">Panel rozloženia</a></li>
+      <li><button class="tree blank"></button><a href="../layoutcommands/reportsender.html">Odosielanie reportov</a></li>
      </ul>
     </li>
     <li>
      <button class="tree open"></button>
      <a href="index.html">Správa zvyškov</a>
      <ul>
-      <li><button class="tree blank"></button><a href="autoremnant.html">Automatická správa zvyškov</a></li>
-      <li><button class="tree blank"></button><a class="active" href="manualremnant.html">Manuálna správa zvyškov</a></li>
+      <li><button class="tree blank"></button><a href="autoremnant.html">Automatické zvyšky</a></li>
+      <li><button class="tree blank"></button><a class="active" href="manualremnant.html">Manuálne zvyšky</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Dvojlinové ukladanie</a></li>
-    <li><button class="tree blank"></button><a href="../outdate.html">Zastaralé</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtre prác</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="../outdate.html">Neaktuálne</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">Filtre úloh job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">Továreň</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">Trasy</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Tabule</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">Používatelia</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">Úprava</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">Zákazníci</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">Nastavenia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Nastavenia prostredia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Nastavenia importu</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Nastavenia ohýbania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Nastavenia rezania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Oznámenia</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Nastavenia sledovania</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Nastavenia úloh job</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Nastavenia reportov</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD rozšírenia</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">Inštalácia</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">Uložiť diely</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">Uložiť zostavu</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">Skontrolovať uskutočniteľnosť</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">Nastavenia továrne</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">Rôzne vylepšenia</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">Informácie o spoločnosti</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">Firemné informácie</a></li>
  </ul>
 </div>
 
@@ -204,7 +184,7 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Práce</a>
+  <a href="../index.html">Úlohy job</a>
  </div>
  <div>/</div>
  <div>
@@ -212,25 +192,25 @@
  </div>
  <div>/</div>
  <div>
-  <a href="manualremnant.html">Manuálna správa zvyškov</a>
+  <a href="manualremnant.html">Manuálne zvyšky</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Manuálna správa zvyškov</h1>
+                        <h1>Manuálne zvyšky</h1>
 <div class="sect1">
-<h2 id="_konfigurovať_manuálny_zvyšok">Konfigurovať manuálny zvyšok</h2>
+<h2 id="_konfigurácia_manuálnych_zvyškov">Konfigurácia manuálnych zvyškov</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Kliknite na  <strong>závod</strong> &#8594; <strong>nastavenia</strong> &#8594;
-<strong>Zákazka</strong>.</p>
+<p>Kliknite na <strong>Factory</strong> &#8594; <strong>Settings</strong> &#8594;
+<strong>Job</strong>.</p>
 </li>
 <li>
-<p>Vyberte <strong>Aktualizácia inventára tabúľ pri (ne)povolení rozmiestnenia</strong>.</p>
+<p>Vyberte <strong>Update sheet inventory on nest (un)release</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/manualremnant.png" alt="Update sheet inventory" width="736">
@@ -240,24 +220,25 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>Tým sa zabezpečí, že zvyšky budú sledované a aktualizované v inventári hárkov
-vždy, keď je hniezdo dokončené alebo uvolnené.</p>
+<p>Týmto sa zabezpečí, že zvyšky sú sledované a aktualizované v zásobe tabúľ vždy,
+keď je nest dokončený alebo uvoľnený.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_manuálny_zvyškový_hárok_z_práce">Manuálny zvyškový hárok z práce</h2>
+<h2 id="_manuálna_zvyšková_tabuľa_z_úlohy_job">Manuálna zvyšková tabuľa z úlohy job</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Kliknite pravým tlačidlom na rozvrhnutie označené ako dokončené (rozvrhnutie so zelenou fajočkou).</p>
+<p>Kliknite pravým tlačidlom na rozloženie označené ako dokončené (rozloženie so
+zelenou značkou).</p>
 </li>
 <li>
-<p>Kliknite na možnosť <strong>Pridať k zvyškom&#8230;&#8203;</strong>.</p>
+<p>Kliknite na možnosť <strong>Adds to Remnants</strong>.</p>
 </li>
 <li>
-<p>Teraz je zvyškový hárok manuálne pridaný do databázy hárkov.</p>
+<p>Teraz je zvyšková tabuľa manuálne pridaná do databázy tabúľ.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/manualremnantjob.png" alt="Add to remnant" width="725">
@@ -269,20 +250,20 @@ vždy, keď je hniezdo dokončené alebo uvolnené.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_manuálny_zvyškový_hárok_z_hniezda_práce">Manuálny zvyškový hárok z hniezda práce</h2>
+<h2 id="_manuálna_zvyšková_tabuľa_z_nestu_úlohy_job">Manuálna zvyšková tabuľa z nestu úlohy job</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Prepnite na <strong>Zákazka</strong> &#8594; Nests Page. Použite <strong>Filtre</strong>
-a vyberte <strong>Stav</strong>.</p>
+<p>Prepnite na <strong>JOB</strong> &#8594; stránku Nests. Použite <strong>Filters</strong>
+a vyberte <strong>State</strong>.</p>
 </li>
 <li>
-<p>Vyberte Completed na zobrazenie všetkých dokončených rozvrhnutí.</p>
+<p>Vyberte Completed na zobrazenie všetkých dokončených rozložení.</p>
 </li>
 <li>
-<p>Kliknite pravým tlačidlom na rozvrhnutie, pre ktoré je potrebné vytvoriť manuálny zvyšok, a kliknite na
-<strong>Pridať k zvyškom&#8230;&#8203;</strong>.</p>
+<p>Kliknite pravým tlačidlom na rozloženie, pre ktoré je potrebné vytvoriť
+manuálny zvyšok, a kliknite na <strong>Adds to Remnants</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/manualremnest.png" alt="Search by state" width="1137">
@@ -294,31 +275,26 @@ a vyberte <strong>Stav</strong>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_odstrániť_zvyšky">Odstrániť zvyšky</h2>
+<h2 id="_odstránenie_zvyškov">Odstránenie zvyškov</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ak je manuálne vytvorený zvyškový hárok poškodený alebo stratený, môžete ho odstrániť z
-inventára hárkov bez jeho priameho vymazania.</p>
+<p>Ak je manuálne vytvorená zvyšková tabuľa poškodená alebo stratená, môžete ju
+odstrániť zo zásoby tabúľ bez jej priameho odstránenia.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Kliknite pravým tlačidlom na zvyškový hárok, ktorý chcete odstrániť.</p>
+<p>Kliknite pravým tlačidlom na zvyškovú tabuľu, ktorú chcete odstrániť.</p>
 </li>
 <li>
-<p>Kliknite na možnosť <strong>Odstrániť zo zvyškov&#8230;&#8203;</strong>.</p>
+<p>Kliknite na možnosť <strong>Remove from Remnants&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Zvyškový hárok je odstránený z databázy hárkov.</p>
+<p>Zvyšková tabuľa sa odstráni z databázy tabúľ.</p>
 </li>
 <li>
-<p>Čiastočne tónovaná štvorcová ikona, ktorá označuje, že zvyškový hárok bol
-vytvorený, je tiež vymazaná, keď je zvyšok odstránený.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/removeremnant.png" alt="Remove from Remnants" width="743">
-</div>
-</div>
+<p>Čiastočne odtieňovaná štvorcová ikona, ktorá indikuje, že zvyšková tabuľa bola
+vytvorená, sa tiež vymaže pri odstránení zvyšku.</p>
 </li>
 </ul>
 </div>
@@ -329,8 +305,8 @@ vytvorený, je tiež vymazaná, keď je zvyšok odstránený.</p>
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Zvyškové hárky (vytvorené automaticky/manuálne) sa využívajú s vysokou prioritou
-počas plánu automatického hniezda alebo interaktívneho plánu hniezda.
+Zvyškové tabule (vytvorené automaticky/manuálne) sa využívajú s vysokou
+prioritou počas automatického alebo interaktívneho nestingového plánu.
 </td>
 </tr>
 </table>
@@ -345,16 +321,16 @@ počas plánu automatického hniezda alebo interaktívneho plánu hniezda.
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_konfigurovať_manuálny_zvyšok">Konfigurovať manuálny zvyšok</a>
+   <a href="#_konfigurácia_manuálnych_zvyškov">Konfigurácia manuálnych zvyškov</a>
   </li>
   <li level="1">
-   <a href="#_manuálny_zvyškový_hárok_z_práce">Manuálny zvyškový hárok z práce</a>
+   <a href="#_manuálna_zvyšková_tabuľa_z_úlohy_job">Manuálna zvyšková tabuľa z úlohy job</a>
   </li>
   <li level="1">
-   <a href="#_manuálny_zvyškový_hárok_z_hniezda_práce">Manuálny zvyškový hárok z hniezda práce</a>
+   <a href="#_manuálna_zvyšková_tabuľa_z_nestu_úlohy_job">Manuálna zvyšková tabuľa z nestu úlohy job</a>
   </li>
   <li level="1">
-   <a href="#_odstrániť_zvyšky">Odstrániť zvyšky</a>
+   <a href="#_odstránenie_zvyškov">Odstránenie zvyškov</a>
   </li>
  </ul>
 </aside>
@@ -362,8 +338,8 @@ počas plánu automatického hniezda alebo interaktívneho plánu hniezda.
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="autoremnant.html">Automatická správa zvyškov</a></span>
- <span class="next"><a href="../twinlinenesting.html">Dvojlinové ukladanie</a></span>
+ <span class="prev"><a href="autoremnant.html">Automatické zvyšky</a></span>
+ <span class="next"><a href="../twinlinenesting.html">Nesting Twinline</a></span>
 </nav>
 
         </div>

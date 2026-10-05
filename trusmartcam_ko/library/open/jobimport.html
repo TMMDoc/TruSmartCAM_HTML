@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>Import jobs</title>
+  <title>작업 가져오기</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,17 +29,15 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">하드웨어 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">지원되는 파일 형식</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">사전 요구 사항</a></li>
     <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">서버 설치</a></li>
     <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">클라이언트 설치</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">라이선스 변경</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../../configuration/index.html">구성</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">기계 추가/제거</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">머신 추가/제거</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">툴링 설정</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">사용자 구성</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">언어</a></li>
@@ -54,85 +52,85 @@
     </li>
     <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">재료 매핑</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">CAM 페이지 매핑</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑 (조회 키)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">CAD에서 필드 매핑(조회 키)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../../userinterface.html">사용자 인터페이스</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로우</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">워크플로</a></li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">Library</a>
+   <a href="../index.html">라이브러리</a>
    <ul>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">Open</a>
+     <a href="index.html">열기</a>
      <ul>
-      <li><button class="tree blank"></button><a href="partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a href="orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a class="active" href="jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="partimport.html">부품 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="orderimport.html">오더 가져오기</a></li>
+      <li><button class="tree blank"></button><a class="active" href="jobimport.html">작업 가져오기</a></li>
+      <li><button class="tree blank"></button><a href="assembliesimport.html">어셈블리 가져오기</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../libraryview/index.html">Library view</a>
+     <a href="../libraryview/index.html">라이브러리 보기</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/partview.html">부품</a></li>
+      <li><button class="tree blank"></button><a href="../libraryview/assemblyview.html">어셈블리</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../partstate/index.html">Part status</a>
+     <a href="../partstate/index.html">부품 상태</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">Part panel</a></li>
-      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partvalidation.html">부품 검증</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partpanel.html">부품 패널</a></li>
+      <li><button class="tree blank"></button><a href="../partstate/partfilters.html">부품 필터</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../toolingstatus/index.html">Tooling status</a>
+     <a href="../toolingstatus/index.html">툴링 상태</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="../toolingstatus/toolingvalidation/index.html">툴링 검증</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/bendtooling.html">밴딩 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/cuttooling.html">절단 툴링 검증</a></li>
+        <li><button class="tree blank"></button><a href="../toolingstatus/toolingvalidation/foldtooling.html">폴딩 툴링 검증</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">Tooling panel</a></li>
+      <li><button class="tree blank"></button><a href="../toolingstatus/toolingpanel.html">툴링 패널</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="../savingfilters.html">필터 저장</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">주문</a>
+   <a href="../../orders/index.html">오더</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">주문 보기</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">오더 보기</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../jobs/index.html">Jobs</a>
+   <a href="../../jobs/index.html">작업</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../jobs/jobcreation.html">작업 생성</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobview.html">작업 보기</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobpanel.html">작업 패널</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobautoplan.html">자동 계획</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobinteractplan.html">대화형 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재포장</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/repacking.html">재패킹</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../jobs/layoutcommands/index.html">네스트 관리</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/nestview.html">레이아웃 보기</a></li>
       <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/layoutpanel.html">레이아웃 패널</a></li>
-      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">보고서 발신자</a></li>
+      <li><button class="tree blank"></button><a href="../../jobs/layoutcommands/reportsender.html">리포트 전송기</a></li>
      </ul>
     </li>
     <li>
@@ -143,50 +141,32 @@
       <li><button class="tree blank"></button><a href="../../jobs/remnantmanagement/manualremnant.html">수동 잔재 관리</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">트윈라인 네스팅</a></li>
-    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">구식</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/twinlinenesting.html">Twinline 네스팅</a></li>
+    <li><button class="tree blank"></button><a href="../../jobs/outdate.html">오래된 항목</a></li>
     <li><button class="tree blank"></button><a href="../../jobs/jobfilters.html">작업 필터</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../factory/index.html">Factory</a>
+   <a href="../../factory/index.html">팩토리</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../factory/routes.html">Routes</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">Sheets</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/users.html">Users</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/edit.html">Edit</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/customers.html">Customers</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/routes.html">루트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">시트</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/users.html">사용자</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/edit.html">편집</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/customers.html">고객</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../factory/settings/index.html">Settings</a>
+     <a href="../../factory/settings/index.html">설정</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">Notifications</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">Reports</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">CAD 확장 기능</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks 추가 기능</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">설치</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">부품 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">어셈블리 저장</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">실행 가능성 확인</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">공장 설정</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">기타 개선 사항</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">환경</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/import.html">가져오기</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">밴딩</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">절단</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">알림</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">감시</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">작업</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">리포트</a></li>
      </ul>
     </li>
    </ul>
@@ -204,78 +184,57 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">Library</a>
+  <a href="../index.html">라이브러리</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">Open</a>
+  <a href="index.html">열기</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobimport.html">Import jobs</a>
+  <a href="jobimport.html">작업 가져오기</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Import jobs</h1>
+                        <h1>작업 가져오기</h1>
 <div class="sect1">
-<h2 id="_csv_또는_xlsx에서_가져오기">csv 또는 xlsx에서 가져오기</h2>
+<h2 id="_csv_또는_xlsx에서_가져오기">CSV 또는 XLSX에서 가져오기</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>일반 텍스트 형식으로 작업을 가져올 수도 있습니다</p>
+<p>일반적인 텍스트 형식으로 작업을 가져올 수도 있습니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>File &#8594; Open &#8594; 통합 작업들 가져오기</strong> 를 클릭하면 Open Folder
-대화 상자가 나타납니다. `C:\Program
-Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv`를 선택합니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv.png" alt="CSV import" width="426">
-</div>
-</div>
+<p><strong>File &#8594; Open &#8594; Import Jobs</strong> 를 클릭하면 Open Folder 대화 상자가 나타납니다.
+<code>C:\Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code> 를 선택합니다.</p>
 </li>
 <li>
-<p>csv 위치 또는 조회 폴더 디렉터리에 모든 부품이 존재하면
-csv 필드와 일치하는 모든 부품을 나열하는 <strong>새 통합 작업</strong> 창이 나타납니다.</p>
+<p>모든 부품이 csv 위치 또는 lookup 폴더 디렉터리에 있으면 csv 필드와 일치하는 모든 부품을 나열하여 <strong>new job</strong> 창이 나타납니다.</p>
 </li>
 <li>
-<p>누락된 부품은 무시되며 <strong>새 통합 작업</strong> 창에 표시되지 않습니다.</p>
+<p>누락된 부품은 무시되며 <strong>new job</strong> 창에 나타나지 않습니다.</p>
 </li>
 <li>
-<p>처음에 Part 상태는 Nascent입니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv2.png" alt="CSV import" width="908">
-</div>
-</div>
+<p>처음에 Part 상태는 Nascent 입니다.</p>
 </li>
 <li>
-<p><strong>OK</strong> 를 클릭하면 부품이 Part Library로 가져옵니다. CAD
-검증, bend 및 cut 툴링 인스턴스에 대한 툴링이 수행되며 <strong>Pmonitor</strong> 화면에서 모니터링할 수 있습니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv3.png" alt="CSV import" width="1438">
-</div>
-</div>
+<p><strong>OK</strong> 를 클릭하면 이제 부품이 Part Library 로 가져와집니다.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_누락된_cad_파일들에_대한_빈_파트_생성">누락된 CAD 파일들에 대한 빈 파트 생성</h3>
+<h3 id="_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</h3>
 <div class="paragraph">
 <p>스프레드시트(.csv 또는 .xlsx)를 사용하여 작업을 가져올 때 시스템에서 사용할 수 없는 CAD 파일을 참조하는 행이 있을 수 있습니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>이를 처리하려면 <strong>공장</strong>
- &#8594; <strong>설정</strong> &#8594; <strong>통합 작업*로 이동하고
-*스프레드시트 가져오기</strong> 에서
-<strong>누락된 CAD 파일들에 대한 빈 파트 생성</strong> 를 활성화합니다</p>
+<p>이를 처리하려면 <strong>Factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong> 로 이동하여 <strong>Spreadsheet import settings</strong> 아래에서 <strong>Create a blank part for the missing CAD files</strong> 를 활성화합니다.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csv6.png" alt="Spreadsheet import" width="801">
@@ -290,42 +249,32 @@ csv 필드와 일치하는 모든 부품을 나열하는 <strong>새 통합 작�
 <div class="ulist">
 <ul>
 <li>
-<p>작업 가져오기 중에 CAD 파일이 누락된 경우 시스템은 누락된 CAD 파일 대신 빈 부품을 자동으로 생성합니다.</p>
+<p>작업 가져오기 중 특정 행에 CAD 파일이 누락된 경우 시스템은 누락된 CAD 파일 대신 자동으로 blank 부품을 생성합니다.</p>
 </li>
 <li>
-<p><strong>새 통합 작업</strong> 창에서 이러한 누락된 부품은 관련 CAD 파일이 누락되었음을 나타내기 위해 노란색으로 시각적으로 강조 표시됩니다.</p>
-<div class="paragraph">
-<p><span class="image"><img src="img/csv4.png" alt="Edit jobs" width="578"></span></p>
-</div>
+<p><strong>new job</strong> 창에서 이러한 누락된 부품은 관련 CAD 파일이 누락되었음을 나타내기 위해 노란색으로 시각적으로 강조 표시됩니다.</p>
 </li>
 <li>
-<p>누락된 부품에는 CSV의 매핑된 필드(예: 부품 이름, 재료, 두께, 수량 등)가 여전히 있습니다. 그러나 부품 상태는 Nascent로 표시되며 이는 실제 형상이 없는 빈 자리 표시자임을 의미합니다.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/csv5.png" alt="Nascent parts" width="1110">
-</div>
-</div>
+<p>누락된 부품은 CSV 의 매핑된 필드(부품 이름, 재료, 두께, 수량 등)를 계속 갖습니다. 그러나 part 상태는 Nascent 로 표시되며, 이는 아직 실제 형상이 없는 빈 자리 표시자일 뿐임을 의미합니다.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>이렇게 하면 CAD 파일 누락으로 인한 오류 없이 작업 가져오기를 계속 진행할 수 있습니다 — 나중에 올바른 CAD 파일을 사용할 수 있게 되면 빈 부품을 업데이트하거나 교체할 수 있습니다.</p>
+<p>이렇게 하면 누락된 CAD 파일로 인한 오류 없이 작업 가져오기를 계속 진행할 수 있습니다 — 나중에 올바른 CAD 파일이 제공되면 blank 부품을 업데이트하거나 교체할 수 있습니다.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_스프레드시트에_오류가_없는_경우_새_통합_작업_대화상자_표시_안_함">스프레드시트에 오류가 없는 경우 새 통합 작업 대화상자 표시 안 함</h3>
+<h3 id="_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</h3>
 <div class="paragraph">
-<p><strong>공장</strong> &#8594; <strong>설정</strong> &#8594;
-<strong>통합 작업</strong> → <strong>스프레드시트 가져오기</strong>→
-<strong>스프레드시트에 오류가 없는 경우 새 통합 작업 대화상자 표시 안 함</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong> → <strong>Spreadsheet import settings</strong> → <strong>Do not show the New Job dialog if the spreadsheet has no error</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>이 확인란을 선택하면 스프레드시트에 오류가 없는 경우(누락된 부품, 누락된 날짜 또는 잘못된 데이터 없음) 시스템이 New Job 대화 상자를 표시하지 않고 자동으로 새 작업을 생성합니다.</p>
+<p>이 확인란을 선택하면 스프레드시트에 오류(누락된 부품, 누락된 날짜 또는 잘못된 데이터)가 없는 경우 시스템이 New Job 대화 상자를 표시하지 않고 자동으로 새 작업을 생성합니다.</p>
 </li>
 <li>
-<p>이 확인란의 선택을 취소하면 스프레드시트에 오류가 없는 경우에도 사용자 검토 및 확인을 위해 New Job 대화 상자가 항상 나타납니다.</p>
+<p>이 확인란을 지우면 스프레드시트에 오류가 없더라도 사용자 검토 및 확인을 위해 New Job 대화 상자가 항상 나타납니다.</p>
 </li>
 </ul>
 </div>
@@ -333,16 +282,15 @@ csv 필드와 일치하는 모든 부품을 나열하는 <strong>새 통합 작�
 <div class="sect2">
 <h3 id="_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</h3>
 <div class="paragraph">
-<p><strong>공장</strong> &#8594; <strong>설정</strong> &#8594;
-<strong>통합 작업</strong>→<strong>Prefer Raw-Material column over Material + Thickness</strong></p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong> → <strong>Prefer Raw-Material column over Material + Thickness</strong></p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>이 확인란을 선택하면 시스템은 스프레드시트가 Raw-Material 열을 사용할 것으로 예상합니다(예: Steel-20). 이는 재료 유형과 두께를 하나의 열에 하나의 값으로 결합해야 함을 의미합니다.</p>
+<p>이 확인란을 선택하면 시스템은 스프레드시트가 Raw-Material 열(예: Steel-20)을 사용할 것으로 예상합니다. 즉, 재료 유형과 두께가 한 열의 단일 값으로 결합되어야 합니다.</p>
 </li>
 <li>
-<p>이 확인란의 선택을 취소하면 시스템은 스프레드시트에 Material 및 Thickness에 대한 별도의 열이 있을 것으로 예상합니다(예: Steel 및 2.00). 시스템은 가져오기 중에 내부적으로 결합합니다.</p>
+<p>이 확인란을 지우면 시스템은 스프레드시트에 Material 및 Thickness 에 대한 별도의 열(예: Steel 및 2.00)이 있을 것으로 예상합니다. 시스템은 가져오는 동안 내부적으로 이들을 결합합니다.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/csvmaterial.png" alt="CSV Raw Material and Material+Thickness">
@@ -355,20 +303,18 @@ csv 필드와 일치하는 모든 부품을 나열하는 <strong>새 통합 작�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_csvxlsx를_사용한_watch_folder">CSV/XLSX를 사용한 Watch folder</h2>
+<h2 id="_csvxlsx를_사용하는_감시_폴더">CSV/XLSX를 사용하는 감시 폴더</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><strong>공장</strong> &#8594; <strong>설정</strong>&#8594;
-<strong>감시</strong> 에서 <strong>'라이브 폴더' 활성화</strong> 및 <strong>하위 폴더들도 감시</strong> 를 확인합니다.</p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Watch settings</strong> 에서 <strong>Enable 'Live Folder'</strong> 및 <strong>Watch sub-folders also</strong> 를 선택합니다.</p>
 </li>
 <li>
-<p>watch folder 경로(UNC 또는 매핑된 드라이브)를 설정합니다.</p>
+<p>watch 폴더 경로(UNC 또는 매핑된 드라이브)를 설정합니다.</p>
 </li>
 <li>
-<p><strong>스프레드시트 가져오기</strong> 에서
-<strong>'라이브 폴더&#8217;에서 스프레드시트 가져오기</strong> 를 확인합니다.</p>
+<p><strong>Spreadsheet import settings</strong> 에서 <strong>Import spreadsheet from 'Live Folder'</strong> 를 선택합니다.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/watchfolder.png" alt="Watch folder" width="702">
@@ -376,13 +322,19 @@ csv 필드와 일치하는 모든 부품을 나열하는 <strong>새 통합 작�
 </div>
 </li>
 <li>
-<p>Spreadsheet Import 옵션에서 <strong>통합 작업들 가져오기</strong> 를 선택합니다.</p>
+<p>Spreadsheet Import 옵션에서 <strong>Import Jobs</strong> 를 선택합니다.</p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p>*
+<code>C:Program Files\TRUMPF\TMM\Praxis\Samples\Jobs\C0\C0.csv</code>
+를 복사하여 Watch Folder 에 붙여넣습니다.</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
-<p>`C:\Program Files\Metamation\Praxis\Samples\Jobs\C0\C0.csv`를 복사하여 Watch Folder에 붙여넣습니다.</p>
-</li>
-<li>
-<p>시스템은 CSV를 확인하고 자동으로 작업을 생성하려고 시도합니다.</p>
+<p>시스템은 CSV 를 확인하고 자동으로 작업을 생성하려고 시도합니다.</p>
 </li>
 <li>
 <p>CAD 파일이 누락된 경우 필요한 CAD 데이터를 찾을 수 없으므로 작업이 생성되지 않습니다.</p>
@@ -390,21 +342,17 @@ csv 필드와 일치하는 모든 부품을 나열하는 <strong>새 통합 작�
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_cad_lookup_directory_및_recursive_cad_search_구성되지_않음">CAD lookup directory 및 recursive CAD search - 구성되지 않음</h3>
+<h3 id="_cad_조회_디렉터리_및_재귀_cad_검색_구성되지_않음">CAD 조회 디렉터리 및 재귀 CAD 검색 - 구성되지 않음</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>공장</strong> &#8594; <strong>설정</strong> &#8594;
-<strong>통합 작업</strong> &#8594; <strong>스프레드시트 가져오기*에서
-*CAD lookup directories</strong> 가 설정되지 않고
-<strong>재귀적 CAD 검색 사용</strong> 가 사용되지 않으면 시스템은 CAD 파일을 자동으로 검색하지 않습니다.</p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong> &#8594; <strong>Spreadsheet import settings</strong> 에서 <strong>CAD lookup directories</strong> 가 설정되지 않고 <strong>Use recursive CAD search</strong> 가 사용되지 않으면 시스템은 CAD 파일을 자동으로 검색하지 않습니다.</p>
 </li>
 <li>
-<p><strong>누락된 CAD 파일들에 대한 빈 파트 생성</strong> 확인란이 선택되어 있으면 CAD 파일이 누락되어도 작업이 생성됩니다.</p>
+<p><strong>Create a blank part for the missing CAD files</strong> 확인란을 선택하면 CAD 파일이 누락된 경우에도 작업이 생성됩니다.</p>
 </li>
 <li>
-<p>이 경우 작업의 모든 부품은 nascent(빈) 부품으로 생성됩니다 —
-CAD 파일을 찾을 수 없어서 형상이 없음을 의미합니다.</p>
+<p>이 경우 작업의 모든 부품이 nascent(blank) 부품으로 생성됩니다 — 즉, CAD 파일을 찾을 수 없어 형상이 없음을 의미합니다.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/notconfigured.png" alt="Create blank parts" width="867">
@@ -415,21 +363,19 @@ CAD 파일을 찾을 수 없어서 형상이 없음을 의미합니다.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cad_lookup_directory_및_recursive_cad_search_구성됨">CAD lookup directory 및 recursive CAD search - 구성됨</h3>
+<h3 id="_cad_조회_디렉터리_및_재귀_cad_검색_구성됨">CAD 조회 디렉터리 및 재귀 CAD 검색 - 구성됨</h3>
 <div class="paragraph">
-<p><strong>CAD 조회 디렉터리</strong> 가
-(C:\Program Files\Metamation\Praxis\Samples)로 설정되고
-<strong>재귀적 CAD 검색 사용</strong> 가
-<strong>공장</strong> &#8594; <strong>설정</strong> &#8594; <strong>통합 작업</strong>
-&#8594; *스프레드시트 가져오기*에서 활성화된 경우:</p>
+<p><strong>factory</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Job</strong> &#8594; <strong>Spreadsheet import settings</strong> 아래에서 <strong>CAD lookup directories</strong> 가
+(C:\Program Files\TRUMPF\TMM\Praxis\Samples)
+로 설정되고 <strong>Use recursive CAD search</strong> 가 활성화되면:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>시스템은 스프레드시트에 언급된 필요한 CAD 파일에 대해 지정된 폴더 및 모든 하위 폴더를 자동으로 검색합니다.</p>
+<p>시스템은 지정된 폴더와 모든 하위 폴더에서 스프레드시트에 언급된 필요한 CAD 파일을 자동으로 검색합니다.</p>
 </li>
 <li>
-<p><strong>누락된 CAD 파일들에 대한 빈 파트 생성</strong> 도 활성화되어 있으므로 CAD 파일을 찾을 수 없는 경우 시스템은 자리 표시자로 빈 부품을 생성합니다.</p>
+<p><strong>Create a blank part for the missing CAD files</strong> 도 활성화되어 있으므로 CAD 파일을 여전히 찾을 수 없으면 시스템은 자리 표시자로 blank 부품을 생성합니다.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/configured.png" alt="Create blank parts" width="861">
@@ -449,25 +395,25 @@ CAD 파일을 찾을 수 없어서 형상이 없음을 의미합니다.</p>
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#_csv_또는_xlsx에서_가져오기">csv 또는 xlsx에서 가져오기</a>
+   <a href="#_csv_또는_xlsx에서_가져오기">CSV 또는 XLSX에서 가져오기</a>
   </li>
   <li level="2">
-   <a href="#_누락된_cad_파일들에_대한_빈_파트_생성">누락된 CAD 파일들에 대한 빈 파트 생성</a>
+   <a href="#_create_a_blank_part_for_the_missing_cad_files">Create a blank part for the missing CAD files</a>
   </li>
   <li level="2">
-   <a href="#_스프레드시트에_오류가_없는_경우_새_통합_작업_대화상자_표시_안_함">스프레드시트에 오류가 없는 경우 새 통합 작업 대화상자 표시 안 함</a>
+   <a href="#_do_not_show_the_new_job_dialog_if_the_spreadsheet_has_no_error">Do not show the new job dialog if the spreadsheet has no error</a>
   </li>
   <li level="2">
    <a href="#_prefer_raw_material_column_over_material_thickness">Prefer raw-material column over material + thickness</a>
   </li>
   <li level="1">
-   <a href="#_csvxlsx를_사용한_watch_folder">CSV/XLSX를 사용한 Watch folder</a>
+   <a href="#_csvxlsx를_사용하는_감시_폴더">CSV/XLSX를 사용하는 감시 폴더</a>
   </li>
   <li level="2">
-   <a href="#_cad_lookup_directory_및_recursive_cad_search_구성되지_않음">CAD lookup directory 및 recursive CAD search - 구성되지 않음</a>
+   <a href="#_cad_조회_디렉터리_및_재귀_cad_검색_구성되지_않음">CAD 조회 디렉터리 및 재귀 CAD 검색 - 구성되지 않음</a>
   </li>
   <li level="2">
-   <a href="#_cad_lookup_directory_및_recursive_cad_search_구성됨">CAD lookup directory 및 recursive CAD search - 구성됨</a>
+   <a href="#_cad_조회_디렉터리_및_재귀_cad_검색_구성됨">CAD 조회 디렉터리 및 재귀 CAD 검색 - 구성됨</a>
   </li>
  </ul>
 </aside>
@@ -475,8 +421,8 @@ CAD 파일을 찾을 수 없어서 형상이 없음을 의미합니다.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="orderimport.html">Import orders</a></span>
- <span class="next"><a href="assembliesimport.html">Import assemblies</a></span>
+ <span class="prev"><a href="orderimport.html">오더 가져오기</a></span>
+ <span class="next"><a href="assembliesimport.html">어셈블리 가져오기</a></span>
 </nav>
 
         </div>

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Criar tarefa</title>
+  <title>Criar job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Requisitos de hardware</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Formatos de arquivo suportados</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Pré-requisitos</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalação do servidor</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalação do cliente</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Alterar licença</a></li>
    </ul>
   </li>
   <li>
@@ -54,22 +52,22 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapear material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mapear páginas CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de consulta)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de pesquisa)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">A interface do usuário</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Fluxo de trabalho</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteca</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Abrir</a>
+     <a href="../library/open/index.html">Open</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importar peças</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importar pedidos</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar tarefas</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar jobs</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importar montagens</a></li>
      </ul>
     </li>
@@ -77,8 +75,8 @@
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Visualização da biblioteca</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Peças</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montagem</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,7 +84,7 @@
      <a href="../library/partstate/index.html">Status da peça</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Validação de peça</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel de peça</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel da peça</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Filtros de peça</a></li>
      </ul>
     </li>
@@ -96,17 +94,17 @@
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação de ferramental</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação do ferramental</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação de ferramental de dobra</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação de ferramental de corte</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação de ferramental de dobra de painel</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação do ferramental de dobra</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação do ferramental de corte</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação do ferramental de fold</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Painel de ferramental</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvando filtros</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvar filtros</a></li>
    </ul>
   </li>
   <li>
@@ -118,21 +116,21 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Tarefas</a>
+   <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a class="active" href="jobcreation.html">Criar tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Visualização de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Painel de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobautoplan.html">Plano automático</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobcreation.html">Criar job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Visualização de job</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Painel de job</a></li>
+    <li><button class="tree blank"></button><a href="jobautoplan.html">Auto plan</a></li>
     <li><button class="tree blank"></button><a href="jobinteractplan.html">Nesting interativo</a></li>
-    <li><button class="tree blank"></button><a href="repacking.html">Reempacotamento</a></li>
+    <li><button class="tree blank"></button><a href="repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Gerenciamento de nesting</a>
+     <a href="layoutcommands/index.html">Gerenciamento de nest</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Visualização de layout</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Painel de layout</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Envio de relatório</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
@@ -143,32 +141,32 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Gerenciamento manual de retalhos</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Nesting twin-line</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Desatualizado</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Filtros de tarefa</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Filtros de job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Fábrica</a>
+   <a href="../factory/index.html">Factory</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Rotas</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Chapas</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
     <li><button class="tree blank"></button><a href="../factory/users.html">Usuários</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Editar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
     <li><button class="tree blank"></button><a href="../factory/customers.html">Clientes</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Configurações</a>
+     <a href="../factory/settings/index.html">Settings</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ambiente</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importação</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Dobra</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Corte</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notificações</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Relatórios</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
      </ul>
     </li>
    </ul>
@@ -181,17 +179,17 @@
      <button class="tree closed"></button>
      <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalação</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Salvar peças</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Salvar montagem</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Verificar viabilidade</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Melhorias diversas</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Informações Corporativas</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Informações corporativas</a></li>
  </ul>
 </div>
 
@@ -204,25 +202,25 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Tarefas</a>
+  <a href="index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobcreation.html">Criar tarefa</a>
+  <a href="jobcreation.html">Criar job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Criar tarefa</h1>
+                        <h1>Criar job</h1>
 <div class="paragraph">
-<p>Tarefas são usadas para capturar e rastrear pedidos de clientes. Normalmente, uma tarefa
-contém uma coleção de peças com quantidades, datas de entrega, prioridades e ordem de
-peças variadas.</p>
+<p>Os jobs são usados para capturar e rastrear os pedidos dos clientes. Normalmente, um job contém uma
+coleção de peças com quantidades, datas de vencimento, prioridades e ordem de peças
+variadas.</p>
 </div>
 <div class="paragraph">
-<p>Novas tarefas podem ser criadas das seguintes formas:</p>
+<p>Novos jobs podem ser criados das seguintes maneiras:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -230,24 +228,19 @@ peças variadas.</p>
 <p>A partir de peças existentes na biblioteca de peças.</p>
 </li>
 <li>
-<p>Arrastando peças diretamente para a página Jobs e fornecendo manualmente os
-parâmetros da tarefa.</p>
+<p>Arrastando peças diretamente para a página Jobs e fornecendo manualmente os parâmetros
+do job.</p>
 </li>
 <li>
 <p>A partir de montagens.</p>
 </li>
 <li>
-<p>Selecione algumas peças da <strong>library</strong> de peças e clique com o botão direito para abrir
-o painel <strong>part</strong>.</p>
+<p>Selecione algumas peças da <strong>biblioteca</strong> de peças e clique com o botão direito para abrir o
+painel da <strong>peça</strong>.</p>
 </li>
 <li>
 <p>Clique em <strong>Novo&#8230;&#8203;</strong> &#8594; <strong>Tarefa</strong>. Isso abre a janela
 <strong>nova tarefa</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/createjob1.png" alt="Create job" width="869">
-</div>
-</div>
 </li>
 <li>
 <p>Na janela New Job:</p>
@@ -259,7 +252,7 @@ o painel <strong>part</strong>.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Insira os campos obrigatórios da tarefa: <strong>Job Reference</strong>,
+<p>Insira os campos de job necessários: <strong>Job Reference</strong>,
 <strong>Cliente</strong> e <strong>Comentários</strong>.</p>
 </li>
 <li>
@@ -268,19 +261,19 @@ o painel <strong>part</strong>.</p>
 <strong>Marcação de texto</strong>, se necessário.</p>
 </li>
 <li>
-<p>Habilite <strong>Escolher tudo (F5)]</strong> para atualizar todas as peças
-selecionadas ao editar qualquer uma. Use isso para alterar quantidade de peças, data
-de entrega, prioridade, etc.</p>
+<p>Habilite <strong>Escolher tudo (F5)]</strong> para atualizar todas as peças selecionadas
+ao editar qualquer uma. Use isso para alterar a quantidade da peça, a data de vencimento, a prioridade,
+etc.</p>
 </li>
 <li>
-<p>Clique em <strong>OK</strong> após inserir todos os detalhes da tarefa.</p>
+<p>Clique em <strong>OK</strong> após inserir todos os detalhes do job.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
 <p>Se <strong>Alternar para as tarefas (F6)</strong> estiver marcado, o sistema
-alternará para a página Jobs e a tarefa será criada automaticamente.</p>
+alternará para a página Jobs e o job será criado automaticamente.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/createjob2.png" alt="Jobs page" width="479">
@@ -288,7 +281,7 @@ alternará para a página Jobs e a tarefa será criada automaticamente.</p>
 </div>
 </li>
 <li>
-<p>Você também pode importar uma tarefa usando um dos seguintes métodos:</p>
+<p>Você também pode importar um job usando um dos seguintes métodos:</p>
 <div class="ulist">
 <ul>
 <li>
@@ -298,15 +291,12 @@ alternará para a página Jobs e a tarefa será criada automaticamente.</p>
 <p>Importar de planilhas (formato CSV ou XLSX).</p>
 </li>
 <li>
-<p>Usar uma pasta monitorada.</p>
+<p>Usar uma pasta de monitoramento.</p>
 </li>
 </ul>
 </div>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>Para mais informações, consulte o capítulo abaixo.</p>
 </div>
 
                     </article>
@@ -316,8 +306,8 @@ alternará para a página Jobs e a tarefa será criada automaticamente.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="index.html">Tarefas</a></span>
- <span class="next"><a href="jobview.html">Visualização de tarefa</a></span>
+ <span class="prev"><a href="index.html">Jobs</a></span>
+ <span class="next"><a href="jobview.html">Visualização de job</a></span>
 </nav>
 
         </div>

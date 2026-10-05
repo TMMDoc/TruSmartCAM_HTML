@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Painel de tarefa</title>
+  <title>Painel de job</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,10 +29,8 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Requisitos de hardware</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Formatos de arquivo suportados</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Pré-requisitos</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalação do servidor</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalação do cliente</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Alterar licença</a></li>
    </ul>
   </li>
   <li>
@@ -54,22 +52,22 @@
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapear material</a></li>
     <li><button class="tree blank"></button><a href="../configuration/mapcampages.html">Mapear páginas CAM</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de consulta)</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/cadmapfields.html">Mapear campos do CAD (chaves de pesquisa)</a></li>
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">A interface do usuário</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Fluxo de trabalho</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteca</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Abrir</a>
+     <a href="../library/open/index.html">Open</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importar peças</a></li>
       <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importar pedidos</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar tarefas</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importar jobs</a></li>
       <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importar montagens</a></li>
      </ul>
     </li>
@@ -77,8 +75,8 @@
      <button class="tree closed"></button>
      <a href="../library/libraryview/index.html">Visualização da biblioteca</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Peças</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Montagem</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Parts</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Assembly</a></li>
      </ul>
     </li>
     <li>
@@ -86,7 +84,7 @@
      <a href="../library/partstate/index.html">Status da peça</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/partstate/partvalidation.html">Validação de peça</a></li>
-      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel de peça</a></li>
+      <li><button class="tree blank"></button><a href="../library/partstate/partpanel.html">Painel da peça</a></li>
       <li><button class="tree blank"></button><a href="../library/partstate/partfilters.html">Filtros de peça</a></li>
      </ul>
     </li>
@@ -96,17 +94,17 @@
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação de ferramental</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Validação do ferramental</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação de ferramental de dobra</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação de ferramental de corte</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação de ferramental de dobra de painel</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Validação do ferramental de dobra</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Validação do ferramental de corte</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Validação do ferramental de fold</a></li>
        </ul>
       </li>
       <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Painel de ferramental</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvando filtros</a></li>
+    <li><button class="tree blank"></button><a href="../library/savingfilters.html">Salvar filtros</a></li>
    </ul>
   </li>
   <li>
@@ -118,21 +116,21 @@
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Tarefas</a>
+   <a href="index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Criar tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Visualização de tarefa</a></li>
-    <li><button class="tree blank"></button><a class="active" href="jobpanel.html">Painel de tarefa</a></li>
-    <li><button class="tree blank"></button><a href="jobautoplan.html">Plano automático</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Criar job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Visualização de job</a></li>
+    <li><button class="tree blank"></button><a class="active" href="jobpanel.html">Painel de job</a></li>
+    <li><button class="tree blank"></button><a href="jobautoplan.html">Auto plan</a></li>
     <li><button class="tree blank"></button><a href="jobinteractplan.html">Nesting interativo</a></li>
-    <li><button class="tree blank"></button><a href="repacking.html">Reempacotamento</a></li>
+    <li><button class="tree blank"></button><a href="repacking.html">Repacking</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Gerenciamento de nesting</a>
+     <a href="layoutcommands/index.html">Gerenciamento de nest</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Visualização de layout</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Painel de layout</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Envio de relatório</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Report sender</a></li>
      </ul>
     </li>
     <li>
@@ -143,32 +141,32 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Gerenciamento manual de retalhos</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="twinlinenesting.html">Nesting twin-line</a></li>
+    <li><button class="tree blank"></button><a href="twinlinenesting.html">Twinline nesting</a></li>
     <li><button class="tree blank"></button><a href="outdate.html">Desatualizado</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Filtros de tarefa</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Filtros de job</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../factory/index.html">Fábrica</a>
+   <a href="../factory/index.html">Factory</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../factory/routes.html">Rotas</a></li>
-    <li><button class="tree blank"></button><a href="../factory/sheets.html">Chapas</a></li>
+    <li><button class="tree blank"></button><a href="../factory/routes.html">Routes</a></li>
+    <li><button class="tree blank"></button><a href="../factory/sheets.html">Sheets</a></li>
     <li><button class="tree blank"></button><a href="../factory/users.html">Usuários</a></li>
-    <li><button class="tree blank"></button><a href="../factory/edit.html">Editar</a></li>
+    <li><button class="tree blank"></button><a href="../factory/edit.html">Edit</a></li>
     <li><button class="tree blank"></button><a href="../factory/customers.html">Clientes</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="../factory/settings/index.html">Configurações</a>
+     <a href="../factory/settings/index.html">Settings</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ambiente</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Importação</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Dobra</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Corte</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notificações</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Notifications</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
       <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Relatórios</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Reports</a></li>
      </ul>
     </li>
    </ul>
@@ -181,17 +179,17 @@
      <button class="tree closed"></button>
      <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalação</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Installation</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Salvar peças</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Salvar montagem</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Verificar viabilidade</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Check feasibility</a></li>
       <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Factory settings</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Melhorias diversas</a></li>
+      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Misc enhancements</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../impressum.html">Informações Corporativas</a></li>
+  <li><button class="tree blank"></button><a href="../impressum.html">Informações corporativas</a></li>
  </ul>
 </div>
 
@@ -204,25 +202,25 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Tarefas</a>
+  <a href="index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="jobpanel.html">Painel de tarefa</a>
+  <a href="jobpanel.html">Painel de job</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Painel de tarefa</h1>
+                        <h1>Painel de job</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Esta seção explica ações relacionadas a tarefa como
+<p>Esta seção explica as ações relacionadas a jobs, como
 <strong>Export outputs</strong>, <strong>Redefinir tarefa&#8230;&#8203;</strong>,
-<strong>Marcar como concluído&#8230;&#8203;</strong>, <strong>Exportar tarefa&#8230;&#8203;</strong>
-e outras opções usadas para gerenciar instâncias de tarefa.</p>
+<strong>Marcar como concluído&#8230;&#8203;</strong>, <strong>Exportar tarefa&#8230;&#8203;</strong>,
+e outras opções usadas para gerenciar instâncias de job.</p>
 </div>
 <table class="tableblock frame-none grid-none fit-content">
 <colgroup>
@@ -245,61 +243,55 @@ e outras opções usadas para gerenciar instâncias de tarefa.</p>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Abrir em modo somente leitura para visualização</strong><br>
-Abre a tarefa selecionada em modo somente leitura.</p></td>
+Abre o job selecionado no modo somente leitura.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-Habilita a edição da tarefa selecionada.</p></td>
+Habilita a edição do job selecionado.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Excluir</strong><br>
-Exclui a tarefa selecionada.</p></td>
+Exclui o job selecionado.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ver relatório</strong><br>
-Abre o relatório de produção para a tarefa selecionada.</p></td>
+Abre o relatório de produção do job selecionado.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/exportui.png" alt="Export" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Exportar saídas</strong><br>
-Exporta os arquivos de saída prontos para máquina (arquivos NC e relatórios)
-gerados para a tarefa selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Exportar saídas</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exporta os arquivos de saída prontos para a máquina (arquivos NC e relatórios) gerados
+para o job selecionado.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/planui.png" alt="Plan" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Plan job</strong><br>
-Gera layouts aninhados para as peças na tarefa selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Planejar tarefa&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gera layouts aninhados para as peças no job selecionado.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/resetui.png" alt="Reset" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Redefinir tarefa&#8230;&#8203;</strong><br>
-Remove todos os layouts gerados para a tarefa e redefine suas peças para o
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Redefinir tarefa&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Remove todos os layouts gerados para o job e redefine suas peças para o
 estado planejável.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/markui.png" alt="Mark" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Marcar como concluído&#8230;&#8203;</strong><br>
-Marca a tarefa e todos os seus nestings como completos após a produção.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Marcar como concluído&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Marca o job e todos os seus nests como concluídos após a produção.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/jobui.png" alt="Job" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Exportar tarefa&#8230;&#8203;</strong><br>
-Exporta a tarefa completa como um pacote que pode ser reutilizado ou importado
-em outro sistema.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Exportar tarefa&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exporta o job completo como um pacote que pode ser reutilizado ou importado para
+outro sistema.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anterior</strong> / <strong>Próximo</strong> / <strong>Layout</strong><br>
-Navega para o layout anterior ou próximo dentro da tarefa selecionada.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Anterior</strong> / <strong>Próximo</strong> / <strong>Layout</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navega para o layout anterior ou seguinte dentro do job selecionado.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="180"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Classificar e filtrar</strong><br>
-Use estes filtros para visualizar outras tarefas que compartilham o mesmo material,
-cliente, data de entrega ou prioridade.</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Use esses filtros para ver outros jobs que compartilham o
+<strong>Mesmo cliente</strong>,
+<strong>Mesma peça</strong>.</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -314,35 +306,26 @@ cliente, data de entrega ou prioridade.</p></td>
 <div class="ulist">
 <ul>
 <li>
-<p>Selecione a tarefa desejada.</p>
+<p>Selecione o job necessário.</p>
 </li>
 <li>
 <p>Clique em <strong>Exportar saídas</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput.png" alt="Export outputs dialog" width="585">
-</div>
-</div>
 </li>
 <li>
-<p>Isso exporta os arquivos de saída prontos para máquina gerados para a tarefa
-selecionada.</p>
+<p>Isso exporta os arquivos de saída prontos para a máquina gerados para o job
+selecionado.</p>
 </li>
 <li>
-<p>Export Outputs pode ser salvo no local padrão configurado em
+<p>As Export Outputs podem ser salvas no local padrão configurado em
 <strong>Ajustes de fábrica</strong> ou em um local personalizado usando
 <strong>Navegar&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Exporta apenas arquivos de saída de máquina (como NC e relatórios) para a tarefa.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/output.png" alt="Exported output files" width="725">
-</div>
-</div>
+<p>Ele exporta apenas os arquivos de saída da máquina (como NC e relatórios) do
+job.</p>
 </li>
 <li>
-<p>Esses arquivos são usados diretamente para produção e podem ser enviados para a
+<p>Esses arquivos são usados diretamente para a produção e podem ser enviados para a
 máquina.</p>
 </li>
 </ul>
@@ -353,33 +336,23 @@ máquina.</p>
 <h2 id="_redefinir_tarefa">Redefinir tarefa&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Redefine a tarefa selecionada removendo todos os layouts gerados e tornando as peças
-disponíveis para planejamento novamente.</p>
+<p>Redefine o job selecionado removendo todos os layouts gerados e tornando as peças
+disponíveis para o planejamento novamente.</p>
 </div>
 <div class="paragraph">
-<p>Para redefinir uma tarefa:</p>
+<p>Para redefinir um job:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Clique com o botão direito na tarefa e selecione <strong>Redefinir tarefa&#8230;&#8203;</strong>.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/resetjob1.png" alt="Reset job" width="820">
-</div>
-</div>
+<p>Clique com o botão direito no job e selecione <strong>Redefinir tarefa&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Isso exclui todos os layouts aninhados existentes para a tarefa selecionada e redefine
+<p>Isso exclui todos os layouts aninhados existentes do job selecionado e redefine
 todas as suas peças para o estado planejável.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/resetjob2.png" alt="Reset job" width="820">
-</div>
-</div>
 </li>
 <li>
-<p>Se os layouts contiverem peças de outras tarefas, essas peças também serão redefinidas.</p>
+<p>Se os layouts contiverem peças de outros jobs, essas peças também são redefinidas.</p>
 </li>
 </ul>
 </div>
@@ -391,30 +364,21 @@ todas as suas peças para o estado planejável.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Selecione a tarefa desejada.</p>
+<p>Selecione o job necessário.</p>
 </li>
 <li>
 <p>Clique em <strong>Exportar tarefa&#8230;&#8203;</strong>.</p>
 </li>
 <li>
-<p>Esta opção exporta a tarefa completa como um pacote que pode ser reutilizado ou
-importado em outro sistema.</p>
+<p>Esta opção exporta o job completo como um pacote que pode ser reutilizado ou
+importado para outro sistema.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/outputview.png" alt="Output view" width="785">
-</div>
-</div>
+<li>
+<p>Os dados exportados incluem todas as informações necessárias para recriar o job:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Os dados exportados incluem todas as informações necessárias para recriar a tarefa:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Detalhes de peças e quantidades (arquivos CSV).</p>
+<p>Detalhes e quantidades das peças (arquivos CSV).</p>
 </li>
 <li>
 <p>Dados de layout e nesting (arquivos CSV / FXYLT).</p>
@@ -423,11 +387,11 @@ importado em outro sistema.</p>
 </div>
 </li>
 <li>
-<p>Os arquivos exportados são salvos como uma pasta de tarefa no local de exportação
+<p>Os arquivos exportados são salvos como uma pasta de job no local de exportação
 configurado.</p>
 </li>
 <li>
-<p>Esta opção é usada para transferir, compartilhar ou fazer backup de toda a tarefa.</p>
+<p>Esta opção é usada para transferir, compartilhar ou fazer backup de todo o job.</p>
 </li>
 </ul>
 </div>
@@ -439,39 +403,30 @@ configurado.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Após a tarefa ser processada na máquina, abra o painel Tarefa e selecione
+<p>Depois que o job é processado na máquina, abra o painel de job e selecione
 <strong>Marcar como concluído&#8230;&#8203;</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/mark.png" alt="Mark complete dialog" width="845">
-</div>
-</div>
+<li>
+<p>Quando um job é marcado como concluído:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Quando uma tarefa é marcada como completa:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Todos os nestings sob a tarefa são marcados como completos.</p>
+<p>Todos os nests do job são marcados como concluídos.</p>
 </li>
 <li>
-<p>A tarefa fica acinzentada, movida para o final da lista e exibida com uma
+<p>O job fica esmaecido, é movido para o final da lista e exibido com uma
 marca de verificação verde.</p>
 </li>
 <li>
-<p>Todos os layouts sob a tarefa são removidos da lista de layouts ativos.</p>
+<p>Todos os layouts do job são removidos da lista de layouts ativos.</p>
 </li>
 <li>
-<p>Os status de peça e tarefa são atualizados, e as quantidades processadas passam para
-o estado concluído.</p>
+<p>Os status da peça e do job são atualizados, e as quantidades processadas passam para o
+estado concluído.</p>
 </li>
 <li>
-<p>Os arquivos de saída para todos os layouts na tarefa são removidos do local de saída
-da máquina para evitar uso duplicado.</p>
+<p>Os arquivos de saída de todos os layouts do job são removidos do local de saída
+da máquina para evitar o uso duplicado.</p>
 </li>
 </ul>
 </div>
@@ -505,8 +460,8 @@ da máquina para evitar uso duplicado.</p>
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="jobview.html">Visualização de tarefa</a></span>
- <span class="next"><a href="jobautoplan.html">Plano automático</a></span>
+ <span class="prev"><a href="jobview.html">Visualização de job</a></span>
+ <span class="next"><a href="jobautoplan.html">Auto plan</a></span>
 </nav>
 
         </div>

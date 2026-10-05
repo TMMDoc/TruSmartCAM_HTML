@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../../img/praxis-icon.png">
-  <title>แผงเลย์เอาต์</title>
+  <title>แผง layout</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -27,12 +27,10 @@
    <button class="tree closed"></button>
    <a href="../../installation/index.html">การติดตั้ง</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">ข้อกำหนดฮาร์ดแวร์</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/hardwarerequirement.html">ข้อกำหนดด้านฮาร์ดแวร์</a></li>
     <li><button class="tree blank"></button><a href="../../installation/importformats.html">รูปแบบไฟล์ที่รองรับ</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/prerequisites.html">ข้อกำหนดเบื้องต้น</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">การติดตั้ง Server</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">การติดตั้ง Client</a></li>
-    <li><button class="tree blank"></button><a href="../../installation/changelic.html">เปลี่ยนใบอนุญาต</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/serverinstallation.html">การติดตั้งเซิร์ฟเวอร์</a></li>
+    <li><button class="tree blank"></button><a href="../../installation/clientinstallation.html">การติดตั้งไคลเอนต์</a></li>
    </ul>
   </li>
   <li>
@@ -40,112 +38,112 @@
    <a href="../../configuration/index.html">การกำหนดค่า</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../configuration/setupmachine.html">เพิ่ม/ลบเครื่องจักร</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">ตั้งค่าเครื่องมือ</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/setuptooling.html">ตั้งค่า tooling</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/configureusers.html">กำหนดค่าผู้ใช้</a></li>
     <li><button class="tree blank"></button><a href="../../configuration/language.html">ภาษา</a></li>
     <li>
      <button class="tree closed"></button>
      <a href="../../configuration/addmaterial/index.html">วัสดุ</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">เพิ่มวัสดุและแผ่นวัสดุใหม่</a></li>
+      <li><button class="tree blank"></button><a href="../../configuration/addmaterial/addnew.html">เพิ่มวัสดุและแผ่นใหม่</a></li>
       <li><button class="tree blank"></button><a href="../../configuration/addmaterial/exportimport.html">ส่งออก/นำเข้าวัสดุ</a></li>
       <li><button class="tree blank"></button><a href="../../configuration/addmaterial/replacematerial.html">แทนที่วัสดุ</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">จับคู่วัสดุ</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">จับคู่หน้า CAM</a></li>
-    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">จับคู่ฟิลด์จาก CAD (คีย์การค้นหา)</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapbendpages.html">แมปวัสดุ</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/mapcampages.html">แมปหน้า CAM</a></li>
+    <li><button class="tree blank"></button><a href="../../configuration/cadmapfields.html">แมปฟิลด์จาก CAD (lookup keys)</a></li>
    </ul>
   </li>
-  <li><button class="tree blank"></button><a href="../../userinterface.html">อินเทอร์เฟซผู้ใช้งาน</a></li>
-  <li><button class="tree blank"></button><a href="../../workflow.html">ขั้นตอนการทำงาน</a></li>
+  <li><button class="tree blank"></button><a href="../../userinterface.html">อินเทอร์เฟซผู้ใช้</a></li>
+  <li><button class="tree blank"></button><a href="../../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../library/index.html">Library</a>
+   <a href="../../library/index.html">ไลบรารี</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/open/index.html">Open</a>
+     <a href="../../library/open/index.html">เปิด</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">Import parts</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">Import orders</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">Import jobs</a></li>
-      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">Import assemblies</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/partimport.html">นำเข้าชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/orderimport.html">นำเข้าออเดอร์</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/jobimport.html">นำเข้า job</a></li>
+      <li><button class="tree blank"></button><a href="../../library/open/assembliesimport.html">นำเข้าชุดประกอบ</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/libraryview/index.html">Library view</a>
+     <a href="../../library/libraryview/index.html">มุมมองไลบรารี</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">Parts</a></li>
-      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">Assembly</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/partview.html">ชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="../../library/libraryview/assemblyview.html">ชุดประกอบ</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/partstate/index.html">Part status</a>
+     <a href="../../library/partstate/index.html">สถานะชิ้นงาน</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">Part validation</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">Part panel</a></li>
-      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">Part filters</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partvalidation.html">การตรวจสอบความถูกต้องชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partpanel.html">แผงชิ้นงาน</a></li>
+      <li><button class="tree blank"></button><a href="../../library/partstate/partfilters.html">ตัวกรองชิ้นงาน</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../../library/toolingstatus/index.html">Tooling status</a>
+     <a href="../../library/toolingstatus/index.html">สถานะ tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../../library/toolingstatus/toolingvalidation/index.html">Tooling validation</a>
+       <a href="../../library/toolingstatus/toolingvalidation/index.html">การตรวจสอบความถูกต้อง tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">Bend tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">Cut tooling validation</a></li>
-        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">Fold tooling validation</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/bendtooling.html">การตรวจสอบความถูกต้อง tooling การดัด</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/cuttooling.html">การตรวจสอบความถูกต้อง tooling การตัด</a></li>
+        <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingvalidation/foldtooling.html">การตรวจสอบความถูกต้อง tooling การพับ</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">แผงเครื่องมือ</a></li>
+      <li><button class="tree blank"></button><a href="../../library/toolingstatus/toolingpanel.html">แผง tooling</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">Saving filters</a></li>
+    <li><button class="tree blank"></button><a href="../../library/savingfilters.html">การบันทึกตัวกรอง</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../../orders/index.html">คำสั่งซื้อ</a>
+   <a href="../../orders/index.html">ออเดอร์</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">มุมมองคำสั่งซื้อ</a></li>
+    <li><button class="tree blank"></button><a href="../../orders/ordersview.html">มุมมองออเดอร์</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="../index.html">งาน</a>
+   <a href="../index.html">Jobs</a>
    <ul>
-    <li><button class="tree blank"></button><a href="../jobcreation.html">สร้างงาน</a></li>
-    <li><button class="tree blank"></button><a href="../jobview.html">มุมมองงาน</a></li>
-    <li><button class="tree blank"></button><a href="../jobpanel.html">แผงงาน</a></li>
+    <li><button class="tree blank"></button><a href="../jobcreation.html">สร้าง job</a></li>
+    <li><button class="tree blank"></button><a href="../jobview.html">มุมมอง job</a></li>
+    <li><button class="tree blank"></button><a href="../jobpanel.html">แผง job</a></li>
     <li><button class="tree blank"></button><a href="../jobautoplan.html">วางแผนอัตโนมัติ</a></li>
-    <li><button class="tree blank"></button><a href="../jobinteractplan.html">การจัดเรียงแบบโต้ตอบ</a></li>
-    <li><button class="tree blank"></button><a href="../repacking.html">การบรรจุใหม่</a></li>
+    <li><button class="tree blank"></button><a href="../jobinteractplan.html">nesting แบบโต้ตอบ</a></li>
+    <li><button class="tree blank"></button><a href="../repacking.html">การจัดเรียงใหม่</a></li>
     <li>
      <button class="tree open"></button>
-     <a href="index.html">การจัดการการจัดเรียง</a>
+     <a href="index.html">การจัดการ nest</a>
      <ul>
-      <li><button class="tree blank"></button><a href="nestview.html">มุมมองเลย์เอาต์</a></li>
-      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">แผงเลย์เอาต์</a></li>
-      <li><button class="tree blank"></button><a href="reportsender.html">ผู้ส่งรายงาน</a></li>
+      <li><button class="tree blank"></button><a href="nestview.html">มุมมอง layout</a></li>
+      <li><button class="tree blank"></button><a class="active" href="layoutpanel.html">แผง layout</a></li>
+      <li><button class="tree blank"></button><a href="reportsender.html">ตัวส่งรายงาน</a></li>
      </ul>
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../remnantmanagement/index.html">การจัดการวัสดุเหลือใช้</a>
+     <a href="../remnantmanagement/index.html">การจัดการเศษวัสดุ</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../remnantmanagement/autoremnant.html">การจัดการวัสดุเหลือใช้อัตโนมัติ</a></li>
-      <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">การจัดการวัสดุเหลือใช้ด้วยตนเอง</a></li>
+      <li><button class="tree blank"></button><a href="../remnantmanagement/autoremnant.html">การจัดการเศษวัสดุอัตโนมัติ</a></li>
+      <li><button class="tree blank"></button><a href="../remnantmanagement/manualremnant.html">การจัดการเศษวัสดุด้วยตนเอง</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a href="../twinlinenesting.html">การจัดเรียงแบบเส้นคู่</a></li>
-    <li><button class="tree blank"></button><a href="../outdate.html">ล้าสมัย</a></li>
-    <li><button class="tree blank"></button><a href="../jobfilters.html">ตัวกรองงาน</a></li>
+    <li><button class="tree blank"></button><a href="../twinlinenesting.html">Twinline nesting</a></li>
+    <li><button class="tree blank"></button><a href="../outdate.html">เกินกำหนด</a></li>
+    <li><button class="tree blank"></button><a href="../jobfilters.html">ตัวกรอง job</a></li>
    </ul>
   </li>
   <li>
@@ -153,7 +151,7 @@
    <a href="../../factory/index.html">โรงงาน</a>
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../../factory/routes.html">เส้นทาง</a></li>
-    <li><button class="tree blank"></button><a href="../../factory/sheets.html">แผ่นวัสดุ</a></li>
+    <li><button class="tree blank"></button><a href="../../factory/sheets.html">แผ่น</a></li>
     <li><button class="tree blank"></button><a href="../../factory/users.html">ผู้ใช้</a></li>
     <li><button class="tree blank"></button><a href="../../factory/edit.html">แก้ไข</a></li>
     <li><button class="tree blank"></button><a href="../../factory/customers.html">ลูกค้า</a></li>
@@ -163,35 +161,17 @@
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../../factory/settings/environment.html">สภาพแวดล้อม</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/import.html">นำเข้า</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">การงอ</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/bend.html">การดัด</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/cut.html">การตัด</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/notification.html">การแจ้งเตือน</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/watch.html">เฝ้าดู</a></li>
-      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">งาน</a></li>
+      <li><button class="tree blank"></button><a href="../../factory/settings/job.html">Job</a></li>
       <li><button class="tree blank"></button><a href="../../factory/settings/reports.html">รายงาน</a></li>
      </ul>
     </li>
    </ul>
   </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../../cadextensions/index.html">ส่วนขยาย CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/installationsteps.html">การติดตั้ง</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/savetopraxis.html">บันทึกชิ้นส่วน</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/saveassembly.html">บันทึกแอสเซมบลี</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/partfeasibility.html">ตรวจสอบความเป็นไปได้</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/factorysettings.html">การตั้งค่าโรงงาน</a></li>
-      <li><button class="tree blank"></button><a href="../../cadextensions/solidworksaddin/miscenhancements.html">การปรับปรุงอื่นๆ</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li><button class="tree blank"></button><a href="../../impressum.html">ข้อมูลองค์กร</a></li>
+  <li><button class="tree blank"></button><a href="../../impressum.html">ข้อมูลบริษัท</a></li>
  </ul>
 </div>
 
@@ -204,33 +184,33 @@
   </button>
  </div>
  <div>
-  <a href="../index.html">งาน</a>
+  <a href="../index.html">Jobs</a>
  </div>
  <div>/</div>
  <div>
-  <a href="index.html">การจัดการการจัดเรียง</a>
+  <a href="index.html">การจัดการ nest</a>
  </div>
  <div>/</div>
  <div>
-  <a href="layoutpanel.html">แผงเลย์เอาต์</a>
+  <a href="layoutpanel.html">แผง layout</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>แผงเลย์เอาต์</h1>
+                        <h1>แผง layout</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>ส่วนนี้อธิบายการดำเนินการที่เกี่ยวข้องกับเลย์เอาต์ เช่น
-<strong>ส่งไปยังเครื่องจักร&#8230;&#8203;</strong>,
-<strong>เรียกกลับจากเครื่องจักร&#8230;&#8203;</strong>,
-<strong>ส่งออกเอาต์พุต</strong>,
-<strong>ทำเครื่องหมายว่าเสร็จสิ้น&#8230;&#8203;</strong>, <strong>เพิ่มชิ้นส่วน&#8230;&#8203;</strong>,
-<strong>ปรับ/จัดให้กระชับ&#8230;&#8203;</strong>,
-<strong>แยกเลย์เอาต์&#8230;&#8203;</strong>, และตัวเลือกอื่นๆ ที่ใช้สำหรับการจัดการ
-อินสแตนซ์เลย์เอาต์</p>
+<p>ส่วนนี้อธิบายการกระทำที่เกี่ยวกับ layout เช่น
+<strong>Send to machine</strong>,
+<strong>Recall from machine</strong>,
+<strong>Export outputs</strong>,
+<strong>Mark complete</strong>, <strong>Add parts&#8230;&#8203;</strong>,
+<strong>Adapt/Compact&#8230;&#8203;</strong>,
+<strong>Split layout</strong> และตัวเลือกอื่น ๆ ที่ใช้จัดการ
+อินสแตนซ์ของ layout</p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -252,69 +232,60 @@
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/document.png" alt="Read-only" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>เปิดในโหมดอ่านอย่างเดียวสำหรับดู</strong><br>
-เปิดเลย์เอาต์ที่เลือกในโหมดอ่านอย่างเดียว</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open in read-only mode for viewing</strong><br>
+เปิด layout ที่เลือกในโหมดอ่านอย่างเดียว</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/editicon.png" alt="Edit" width="24"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Check-out the document for editing</strong><br>
-เปิดใช้งานการแก้ไขเลย์เอาต์ที่เลือก</p></td>
+เปิดให้แก้ไข layout ที่เลือกได้</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/trash.png" alt="Delete" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ลบ</strong><br>
-ลบเลย์เอาต์ที่เลือก</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Delete</strong><br>
+ลบ layout ที่เลือก</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/openreport.png" alt="Report" width="24"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ดูรายงาน</strong><br>
-เปิดรายงานเลย์เอาต์มาตรฐานและรายงานเฉพาะฉลากสำหรับ
-เลย์เอาต์ที่เลือก</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>View Report</strong><br>
+เปิดรายงาน layout มาตรฐานและรายงานเฉพาะของฉลากสำหรับ layout ที่เลือก</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sendui.png" alt="Send" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ส่งไปยังเครื่องจักร&#8230;&#8203;</strong><br>
-ส่งเลย์เอาต์ที่เลือกไปยังเครื่องจักรและส่งออกไฟล์เอาต์พุต
-(fxlyt, NC, report, csv) ไปยังตำแหน่งเอาต์พุตงาน</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Send to Machine&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ส่ง layout ที่เลือกไปยังเครื่องจักรและส่งออกไฟล์ผลลัพธ์
+(fxlyt, NC, report, csv) ไปยังตำแหน่งไฟล์ผลลัพธ์ของ job</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/addui.png" alt="Add" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>เพิ่มชิ้นส่วน&#8230;&#8203;</strong><br>
-เพิ่มชิ้นส่วนเพิ่มเติมในเลย์เอาต์ที่บรรจุไม่เต็มโดยใช้ตัวช่วยเลย์เอาต์บรรจุใหม่</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Add Parts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">เพิ่มชิ้นงานเข้าไปใน layout ที่จัดเรียงได้ไม่ดีโดยใช้ตัวช่วยสร้าง layout repack</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/adaptui.png" alt="Adapt" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ปรับ/จัดให้กระชับ&#8230;&#8203;</strong><br>
-จัดเรียงเลย์เอาต์ที่เลือกใหม่เพื่ออัดชิ้นส่วนและเพิ่มพื้นที่ใช้งานได้</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Adapt/Compact&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ทำ nesting ซ้ำให้กับ layout ที่เลือกเพื่อจัดเรียงชิ้นงานให้กระชับและเพิ่มพื้นที่ใช้งาน</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/changeui.png" alt="Change" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>เปลี่ยน LTT&#8230;&#8203;</strong><br>
-เปลี่ยนแผ่นที่กำหนดให้กับเลย์เอาต์ที่เลือก</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Change LTT&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">เปลี่ยนแผ่นที่กำหนดให้กับ layout ที่เลือก</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/splitui.png" alt="Split"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>แยกเลย์เอาต์&#8230;&#8203;</strong><br>
-แบ่งเลย์เอาต์ที่เลือกออกเป็นสองเลย์เอาต์แยกหรือมากกว่า</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Split Layouts&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">แบ่ง layout ที่เลือกออกเป็น layout แยกตั้งแต่สองรายการขึ้นไป</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/renameui.png" alt="RenameUi" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Rename layout&#8230;&#8203;</strong><br>
-เปลี่ยนชื่อเลย์เอาต์ที่เลือก</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Rename&#8230;&#8203;</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">เปลี่ยนชื่อ layout ที่เลือก</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/prev.png" alt="Prev Next" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>งาน</strong> / <strong>ก่อนหน้า</strong> / <strong>ถัดไป</strong> / <strong>ชิ้นส่วน</strong><br>
-นำทางขึ้นไปยังงานหลัก ไปยังเลย์เอาต์ก่อนหน้าหรือถัดไปภายใน
-งานที่เลือก หรือลงไปยังชิ้นส่วนที่มีอยู่ในเลย์เอาต์</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Job</strong> / <strong>Prev</strong> / <strong>Next</strong> / <strong>Parts</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">เลื่อนขึ้นไปยัง job แม่ ไปยัง layout ก่อนหน้าภายใน job ที่เลือก
+หรือลงไปยังชิ้นงานที่อยู่ใน layout</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="img/sort.png" alt="Filters" width="200"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sort and filter</strong><br>
-ใช้ตัวกรองเหล่านี้เพื่อดูเลย์เอาต์อื่นๆ ที่มีคุณลักษณะเดียวกันกับ
-เลย์เอาต์ที่เลือก: เครื่องจักรเดียวกัน, วัสดุเดียวกัน, LTT เดียวกัน, ลำดับความสำคัญ
-เดียวกัน, สถานะเดียวกัน, แผ่นเดียวกัน, ชิ้นส่วนเดียวกัน, สถานะวัสดุเหลือใช้เดียวกัน หรือ
-ทิศทางการม้วนเดียวกัน</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sort and filter</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ใช้ตัวกรองเหล่านี้เพื่อดู layout อื่น ๆ ที่มีแอตทริบิวต์เดียวกันกับ
+layout ที่เลือก คือ <strong>Same Machine</strong>, <strong>Same Material</strong>,
+<strong>Same LTT</strong>, <strong>Same Priority</strong>,
+<strong>Same State</strong>, <strong>Same Sheet</strong>, <strong>Same Part</strong>, <strong>Same Remnant State</strong>, หรือ <strong>Same Rolling Direction</strong></p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -324,30 +295,24 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="send-to-machine">ส่งไปยังเครื่องจักร&#8230;&#8203;</h2>
+<h2 id="send-to-machine">Send to machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>เมื่อการจัดเรียงพร้อม (เต็มหรือต้องการอย่างเร่งด่วน) คุณสามารถส่งไปยังเครื่องจักรได้</p>
+<p>เมื่อ nest พร้อม (เต็มหรือจำเป็นเร่งด่วน) คุณสามารถส่งไปยังเครื่องจักรได้</p>
 </li>
 <li>
-<p>คลิกขวาที่การจัดเรียงและเลือก <strong>ส่งไปยังเครื่องจักร&#8230;&#8203;</strong></p>
+<p>คลิกขวาที่ nest แล้วเลือก <strong>Send to machine&#8230;&#8203;</strong></p>
 </li>
 <li>
-<p>โฟลเดอร์จะถูกสร้างโดยอัตโนมัติ ตั้งชื่อตามการจัดเรียง</p>
+<p>ระบบจะสร้างโฟลเดอร์โดยอัตโนมัติ โดยตั้งชื่อตาม nest</p>
 </li>
 <li>
-<p>ไฟล์เอาต์พุต (fxlyt, NC, report, csv) จะถูกส่งออกไปยัง JOB
-ตำแหน่งเอาต์พุต</p>
+<p>ไฟล์ผลลัพธ์ (fxlyt, NC, report, csv) จะถูกส่งออกไปยังตำแหน่งไฟล์ผลลัพธ์ของ JOB</p>
 </li>
 <li>
-<p>การจัดเรียงที่ส่งไปยังเครื่องจักรจะถูกแสดงด้วยเครื่องหมายถูกสีน้ำเงิน</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/sendtomachine.png" alt="Send to machines" width="1180">
-</div>
-</div>
+<p>nest ที่ส่งไปยังเครื่องจักรแล้วจะแสดงด้วยเครื่องหมายถูกสีน้ำเงิน</p>
 </li>
 </ul>
 </div>
@@ -358,7 +323,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-เมื่อส่งออกแล้ว การจัดเรียงเหล่านั้นจะไม่ถูกลองใหม่อีกสำหรับการบรรจุใหม่
+เมื่อปล่อยออกไปแล้ว nest เหล่านั้นจะไม่ถูกนำไปจัดเรียงใหม่อีก
 </td>
 </tr>
 </table>
@@ -366,65 +331,51 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_เรียกกลับจากเครื่องจักร">เรียกกลับจากเครื่องจักร&#8230;&#8203;</h2>
+<h2 id="_recall_from_machine">Recall from machine</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>หากเอาต์พุตต้องการการตรวจสอบหรือการอัปเดต (ตัวอย่างเช่น การเพิ่มชิ้นส่วนเพิ่มเติม):</p>
+<p>หากผลลัพธ์ต้องการการตรวจสอบหรืออัปเดต (เช่น การเพิ่มชิ้นงาน)</p>
 <div class="ulist">
 <ul>
 <li>
-<p>คลิกขวาที่เลย์เอาต์ที่ส่งออก</p>
+<p>คลิกขวาที่ layout ที่ส่งออกไปแล้ว</p>
 </li>
 <li>
-<p>เลือก <strong>เรียกกลับจากเครื่องจักร&#8230;&#8203;</strong></p>
+<p>เลือก <strong>Recall from machine&#8230;&#8203;</strong></p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>ไฟล์เอาต์พุตและโฟลเดอร์ (fxlyt, NC, report, csv) จะถูกลบ</p>
+<p>ไฟล์ผลลัพธ์และโฟลเดอร์ (fxlyt, NC, report, csv) จะถูกลบ</p>
 </li>
 <li>
-<p>การจัดเรียงจะสามารถแก้ไขได้อีกครั้ง</p>
+<p>nest จะกลับมาแก้ไขได้อีกครั้ง</p>
 </li>
 <li>
-<p>คุณสามารถทำการเปลี่ยนแปลงและส่งไปยังเครื่องจักรอีกครั้ง</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/recallfrommachine.png" alt="Recall from machines" width="1153">
-</div>
-</div>
+<p>คุณสามารถแก้ไขแล้วส่งไปยังเครื่องจักรอีกครั้ง</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_ส่งออกเอาต์พุต">ส่งออกเอาต์พุต</h2>
+<h2 id="_export_outputs">Export outputs</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>คลิกขวาที่เลย์เอาต์ (การจัดเรียง) ที่ถูกส่งไปยังเครื่องจักรแล้วและคลิก
-<strong>ส่งออกเอาต์พุต</strong></p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img/exportoutput1.png" alt="Export outputs" width="447">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>ตัวเลือก Export Outputs จะส่งออกไฟล์ NC, Report และ Layout ไปยัง
-โฟลเดอร์เอาต์พุตของเครื่องจักรที่เกี่ยวข้อง</p>
+<p>คลิกขวาที่ layout (nest) ที่ส่งไปยังเครื่องจักรแล้วคลิก
+<strong>Export outputs</strong></p>
 </li>
 <li>
-<p>ตัวเลือกนี้จะสร้างไฟล์ NC ใหม่ด้วยการตั้งค่าหน่วยปัจจุบันสำหรับเลย์เอาต์</p>
+<p>ตัวเลือก Export Outputs จะส่งออกไฟล์ NC, Report และ Layout
+ไปยังโฟลเดอร์ผลลัพธ์ของเครื่องจักรที่เกี่ยวข้อง</p>
+</li>
+<li>
+<p>ตัวเลือกนี้จะสร้างไฟล์ NC ขึ้นใหม่ด้วยการตั้งค่าหน่วยปัจจุบันสำหรับ layout</p>
 </li>
 </ul>
 </div>
@@ -435,8 +386,8 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Export Outputs จะไม่มีสำหรับเลย์เอาต์ที่เสร็จสมบูรณ์แล้วและ
-เลย์เอาต์ที่รอในคิวเพื่อการบรรจุใหม่
+Export Outputs ไม่สามารถใช้ได้กับ layout ที่เสร็จสมบูรณ์แล้วและ
+layout ที่รอคิวเพื่อการจัดเรียงใหม่
 </td>
 </tr>
 </table>
@@ -444,39 +395,32 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </div>
 <div class="sect1">
-<h2 id="mark-complete">Mark complete</h2>
+<h2 id="mark-complete">ทำเครื่องหมายเสร็จสมบูรณ์</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>เมื่อการจัดเรียงได้รับการประมวลผลบนเครื่องจักรแล้ว ให้คลิกขวาที่การจัดเรียงและ
-เลือก <strong>ทำเครื่องหมายว่าเสร็จสิ้น&#8230;&#8203;</strong></p>
+<p>เมื่อ nest ถูกประมวลผลบนเครื่องจักรแล้ว ให้คลิกขวาที่ nest แล้ว
+เลือก <strong>Mark complete&#8230;&#8203;</strong></p>
 </li>
 <li>
-<p>คุณสามารถเลือกการจัดเรียงหลายรายการและทำเครื่องหมายว่าเสร็จสมบูรณ์พร้อมกันได้</p>
+<p>คุณสามารถเลือก nest หลายรายการและทำเครื่องหมายเสร็จสมบูรณ์พร้อมกันได้</p>
 </li>
 <li>
-<p>เมื่อการจัดเรียงถูกทำเครื่องหมายว่าเสร็จสมบูรณ์:</p>
+<p>เมื่อ nest ถูกทำเครื่องหมายเสร็จสมบูรณ์</p>
 <div class="ulist">
 <ul>
 <li>
-<p>จะเป็นสีเทา ถูกย้ายไปท้ายรายการ และแสดงด้วยเครื่องหมายถูกสีเขียว</p>
+<p>nest จะถูกทำเป็นสีเทา ย้ายไปท้ายรายการ และแสดงด้วยเครื่องหมายถูกสีเขียว</p>
 </li>
 <li>
-<p>เลย์เอาต์จะถูกลบออกจากรายการเลย์เอาต์ที่ใช้งานอยู่</p>
+<p>layout จะถูกนำออกจากรายการ layout ที่ใช้งานอยู่</p>
 </li>
 <li>
-<p>สถานะชิ้นส่วนและงานจะได้รับการอัปเดต และปริมาณที่ประมวลผลจะถูกย้ายไปยัง
-สถานะที่เสร็จสมบูรณ์</p>
+<p>สถานะของชิ้นงานและ job จะถูกอัปเดต และจำนวนที่ผลิตแล้วจะย้ายไปสู่สถานะเสร็จสมบูรณ์</p>
 </li>
 <li>
-<p>ไฟล์เอาต์พุตสำหรับเลย์เอาต์นั้นจะถูกลบออกจาก
-ตำแหน่งเอาต์พุตของเครื่องจักรเพื่อหลีกเลี่ยงการใช้ซ้ำ</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/markcomplete1.png" alt="Mark complete" width="1101">
-</div>
-</div>
+<p>ไฟล์ผลลัพธ์สำหรับ layout นั้นจะถูกนำออกจากตำแหน่งไฟล์ผลลัพธ์ของเครื่องจักรเพื่อหลีกเลี่ยงการใช้ซ้ำ</p>
 </li>
 </ul>
 </div>
@@ -486,7 +430,7 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </div>
 <div class="sect1">
-<h2 id="add-parts">เพิ่มชิ้นส่วน&#8230;&#8203;</h2>
+<h2 id="add-parts">Add parts&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
@@ -496,14 +440,14 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 <div class="ulist">
 <ul>
 <li>
-<p>ใช้ตัวเลือกนี้เพื่อเพิ่มชิ้นส่วนเพิ่มเติมในเลย์เอาต์ที่บรรจุไม่เต็มค่อยดีนัก เหมือนกับ
-การจัดเรียงแบบโต้ตอบ ตัวเลือกนี้เป็นตัวเลือกที่ขับเคลื่อนด้วยตัวช่วยและสามารถใช้
-กับเลย์เอาต์เดี่ยวหรือหลายเลย์เอาต์พร้อมกันได้</p>
+<p>ใช้ตัวเลือกนี้เพื่อเพิ่มชิ้นงานเข้าไปใน layout ที่จัดเรียงได้ค่อนข้างไม่ดี
+เช่นเดียวกับ Interactive Nesting ตัวเลือกนี้ทำงานแบบตัวช่วยสร้าง
+และใช้กับ layout เดียวหรือหลาย layout พร้อมกันได้</p>
 </li>
 <li>
-<p>TruSmartCAM จะเปิดตัวช่วยเลย์เอาต์บรรจุใหม่ในพื้นที่ทำงานหลัก
-เมื่อใช้ตัวเลือกนี้ กดปุ่ม <kbd>Ctrl</kbd> ค้างไว้และเลือกชิ้นส่วนหนึ่งรายการหรือมากกว่า
-ที่จะบรรจุลงในเลย์เอาต์และกด <strong>ถัดไป</strong></p>
+<p>TruSmartCAM จะเปิดตัวช่วยสร้าง Layout repack ในพื้นที่ทำงานหลัก
+เมื่อใช้ตัวเลือกนี้ กดค้างปุ่ม <kbd>Ctrl</kbd> ค้างไว้และเลือกชิ้นงาน
+หนึ่งชิ้นหรือมากกว่าที่จะจัดลงบน layout แล้วกด <strong>Next</strong></p>
 <div class="imageblock">
 <div class="content">
 <img src="img/addpart2.png" alt="Part selection" width="2200">
@@ -511,40 +455,28 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </li>
 <li>
-<p>ชิ้นส่วนที่เลือกจะถูกแสดงในขั้นตอนถัดไปด้วยคอลัมน์ปริมาณที่แก้ไขได้ อัปเดตปริมาณชิ้นส่วนตามต้องการใน
-ฟิลด์ <strong>Update Qty</strong> คลิก <strong>ถัดไป</strong> เพื่อดำเนินการไปยังการจัดเรียง หมายเหตุว่า
-สามารถเพิ่มปริมาณได้เท่านั้น ไม่สามารถลดได้</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart3.png" alt="Update quantity" width="2200">
-</div>
-</div>
+<p>ชิ้นงานที่เลือกจะแสดงในขั้นตอนถัดไปพร้อมคอลัมน์จำนวนที่แก้ไขได้
+อัปเดตจำนวนชิ้นงานหากจำเป็นในช่อง <strong>Update Qty</strong> คลิก <strong>Next</strong> เพื่อดำเนินการไปยัง nesting
+โปรดทราบว่าจำนวนสามารถเพิ่มได้เท่านั้น ไม่สามารถลดได้</p>
 </li>
 <li>
-<p>เลย์เอาต์ทั้งหมดจะถูกจัดเรียงแยกต่างหาก และผลการจัดเรียงจะถูกแสดง
-ด้วยชิ้นส่วนที่บรรจุใหม่ที่วางไว้ การเลือกเลย์เอาต์จะแสดง
-ชิ้นส่วนเลย์เอาต์ที่มีอยู่ทั้งหมด ผลลัพธ์จะถูกยกเลิกโดยอัตโนมัติหากไม่มีการวาง
-ชิ้นส่วนใหม่ระหว่างการบรรจุใหม่ เลย์เอาต์ที่มีหลายสำเนาอาจส่งผล
-ให้รูปแบบที่แตกต่างกันหลังจากการบรรจุใหม่</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/addpart4.png" alt="Repack result" width="2200">
-</div>
-</div>
+<p>layout ทั้งหมดจะถูก nest แยกกัน และผลลัพธ์ nesting จะแสดงพร้อมชิ้นงานที่จัดวางใหม่
+การเลือก layout จะแสดงชิ้นงานทั้งหมดที่มีอยู่ใน layout นั้น ผลลัพธ์จะถูกยกเลิกโดยอัตโนมัติ
+หากไม่มีการวางชิ้นงานใหม่ระหว่างการจัดเรียงใหม่ layout ที่มีหลายสำเนาอาจให้รูปแบบ
+ที่แตกต่างกันหลังการจัดเรียงใหม่</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="adapt-compact">ปรับ/จัดให้กระชับ&#8230;&#8203;</h2>
+<h2 id="adapt-compact">Adapt/Compact&#8230;&#8203;</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>คำสั่งที่ขับเคลื่อนด้วยตัวช่วยนี้สามารถใช้เพื่อปรับเลย์เอาต์จากเครื่องจักรหนึ่ง
-ไปยังอีกเครื่องหนึ่งเมื่อเครื่องจักรเดิมขัดข้องหรือเมื่อภาระงานของเครื่องจักร
-ต้องการสมดุล</p>
+<p>คำสั่งแบบตัวช่วยสร้างนี้ใช้เพื่อปรับ layout จากเครื่องจักรหนึ่งไปอีก
+เครื่องหนึ่งเมื่อเครื่องจักรเดิมหยุดทำงาน หรือเมื่อต้องการกระจายโหลดงานเครื่องจักรให้สมดุล</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt1.png" alt="Adapt compact" width="737">
@@ -552,24 +484,21 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </li>
 <li>
-<p>สามารถใช้ได้เมื่อแผ่นที่วางแผนไว้หมดสต็อกและเลย์เอาต์
-ต้องการวางแผนใหม่บนแผ่นที่มีอยู่อีกแผ่นหนึ่ง</p>
+<p>ใช้ได้เมื่อแผ่นที่วางแผนไว้หมดสต็อก และต้องวางแผน layout ใหม่บนแผ่นอื่นที่มีอยู่</p>
 </li>
 <li>
-<p>คุณสามารถรวมเลย์เอาต์ที่บรรจุบนแผ่นขนาดเล็กไปยังแผ่นขนาดใหญ่เพื่อใช้
-วัสดุอย่างมีประสิทธิภาพมากขึ้น</p>
+<p>คุณสามารถรวม layout ที่จัดวางบนแผ่นเล็กเข้าด้วยกันบนแผ่นใหญ่เพื่อใช้วัสดุอย่างมีประสิทธิภาพมากขึ้น</p>
 </li>
 <li>
-<p>คุณสามารถแบ่งเลย์เอาต์ที่บรรจุบนแผ่นขนาดใหญ่ออกเป็นแผ่นขนาดเล็กหากไม่มี
-แผ่นขนาดใหญ่สต็อก</p>
+<p>คุณสามารถแบ่ง layout ที่จัดวางบนแผ่นใหญ่ออกเป็นแผ่นเล็ก หากไม่มีสต็อกแผ่นใหญ่</p>
 </li>
 <li>
-<p>คุณสามารถเพิ่มประสิทธิภาพการบรรจุของเลย์เอาต์หลายรายการ (แม้จาก
-เครื่องจักรที่แตกต่างกัน) โดยการรวมพวกเขาเข้าด้วยกัน</p>
+<p>คุณสามารถเพิ่มประสิทธิภาพการจัดวางของ layout หลายรายการ (แม้จะมาจากเครื่องจักร
+ต่างกัน) โดยการรวมเข้าด้วยกัน</p>
 </li>
 <li>
-<p>เพื่อใช้ ให้เลือกเลย์เอาต์หนึ่งรายการหรือมากกว่าและคลิก
-<strong>ปรับ/จัดให้กระชับ&#8230;&#8203;</strong> เพื่อเปิดตัวช่วยในพื้นที่ทำงาน</p>
+<p>หากต้องการใช้งาน ให้เลือก layout หนึ่งหรือหลายรายการแล้วคลิก
+<strong>Adapt/Compact&#8230;&#8203;</strong> เพื่อเปิดตัวช่วยสร้างในพื้นที่ทำงาน</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt2.png" alt="Layouts window" width="1902">
@@ -577,27 +506,16 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </li>
 <li>
-<p>บานแผงซ้ายแสดงเลย์เอาต์ที่เลือกทั้งหมดและบานแผงชิ้นส่วนแสดงชิ้นส่วนเลย์เอาต์</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt3.png" alt="Layouts window" width="1910">
-</div>
-</div>
+<p>บานซ้ายแสดง layout ทั้งหมดที่เลือก และบาน Parts แสดงชิ้นงานของ layout</p>
 </li>
 <li>
-<p>เลือกเครื่องจักรและวัสดุแผ่นเป้าหมาย จากนั้นคลิก
-<strong>ถัดไป</strong> เพื่อทำการจัดเรียงใหม่</p>
+<p>เลือกเครื่องจักรเป้าหมายและวัสดุแผ่น จากนั้นคลิก <strong>next</strong> เพื่อทำ nesting ซ้ำ</p>
 </li>
 <li>
-<p>ผลการจัดเรียงใหม่จะถูกแสดงในบานแผงผลลัพธ์</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/adapt4.png" alt="Layouts window" width="1901">
-</div>
-</div>
+<p>ผลลัพธ์ nest ใหม่จะแสดงในบานผลลัพธ์</p>
 </li>
 <li>
-<p>คลิก <strong>ถัดไป</strong> เพื่อบันทึกเลย์เอาต์ที่ปรับหรืออัดแน่น</p>
+<p>คลิก <strong>next</strong> เพื่อบันทึก layout ที่ปรับหรือทำให้กระชับ</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/adapt5.png" alt="Layouts window" width="1902">
@@ -609,40 +527,38 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </div>
 <div class="sect1">
-<h2 id="_การแบ่งเลย์เอาต์">การแบ่งเลย์เอาต์</h2>
+<h2 id="_การแบ่ง_layout">การแบ่ง layout</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>ตัวเลือก <strong>แยกเลย์เอาต์&#8230;&#8203;</strong> ช่วยให้คุณแบ่ง
-เลย์เอาต์ที่มีอยู่ออกเป็นหลายเลย์เอาต์โดยการแก้ไขปริมาณ
-โดยไม่ต้องทำเครื่องมือหรือการจัดเรียงใหม่</p>
+<p>ตัวเลือก <strong>Split layouts&#8230;&#8203;</strong> ช่วยให้คุณแบ่ง
+layout ที่มีอยู่ออกเป็นหลาย layout โดยการปรับจำนวน
+โดยไม่ต้องทำ tooling หรือ nesting ใหม่</p>
 </div>
 <div class="paragraph">
-<p>ฟีเจอร์นี้มีประโยชน์โดยเฉพาะใน
-สถานการณ์ต่อไปนี้:</p>
+<p>คุณสมบัตินี้มีประโยชน์อย่างยิ่งในกรณีต่อไปนี้</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>เมื่อคุณต้องการผลิตบางส่วนของปริมาณทั้งหมดทันทีในขณะที่กำหนด
-การผลิตที่เหลือไว้สำหรับภายหลัง</p>
+<p>เมื่อคุณต้องการผลิตบางส่วนของจำนวนทั้งหมดทันที และจัดตารางการผลิตจำนวนที่เหลือไว้ภายหลัง</p>
 </li>
 <li>
-<p>เมื่อต้องการกระจายความต้องการการผลิตไปยังหลายกะหรือหลายวันเพื่อเพิ่ม
-ประสิทธิภาพเวิร์กโฟลว์และการใช้ทรัพยากร</p>
+<p>เมื่อต้องกระจายความต้องการการผลิตออกเป็นหลายกะติหรือหลายวันเพื่อเพิ่ม
+ประสิทธิภาพ workflow และการใช้ทรัพยากร</p>
 </li>
 <li>
-<p>เมื่อเครื่องจักรเฉพาะไม่สามารถใช้งานได้ชั่วคราวหรือหมดไป และคุณต้อง
-ปรับเลย์เอาต์เพื่อรองรับข้อจำกัดการผลิตในปัจจุบัน</p>
+<p>เมื่อเครื่องจักรเฉพาะไม่ว่างหรือไม่สามารถใช้งานได้ชั่วคราว และคุณต้องปรับ layout
+ให้สอดคล้องกับข้อจำกัดการผลิตในขณะนั้น</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>เพื่อแบ่งเลย์เอาต์ ให้ทำตามขั้นตอนต่อไปนี้:</p>
+<p>การแบ่ง layout ทำได้ตามขั้นตอนต่อไปนี้</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>ในมุมมองเลย์เอาต์ ให้เลือกเลย์เอาต์ที่ต้องการ</p>
+<p>ในมุมมอง Layouts เลือก layout ที่ต้องการ</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/splitlayout.png" alt="Split layout" width="264">
@@ -650,15 +566,10 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </li>
 <li>
-<p>คลิก <strong>แยกเลย์เอาต์&#8230;&#8203;</strong></p>
-<div class="imageblock">
-<div class="content">
-<img src="img/layoutpanel.png" alt="Layout panel" width="155">
-</div>
-</div>
+<p>คลิก <strong>Split layouts&#8230;&#8203;</strong></p>
 </li>
 <li>
-<p>ป้อนค่าที่ต้องการใน <strong>สำเนาใหม่</strong></p>
+<p>ป้อนค่าที่ต้องการใน <strong>New Copies</strong></p>
 <div class="imageblock">
 <div class="content">
 <img src="img/newcopies.png" alt="New copies" width="389">
@@ -666,7 +577,7 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </div>
 </li>
 <li>
-<p>คลิก <strong>ตกลง</strong></p>
+<p>คลิก <strong>OK</strong></p>
 <div class="imageblock">
 <div class="content">
 <img src="img/twolayout.png" alt="Two layouts" width="547">
@@ -676,7 +587,7 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
 </ul>
 </div>
 <div class="paragraph">
-<p>เลย์เอาต์ที่เลือกจะถูกแบ่งออกเป็นสองเลย์เอาต์ด้วยปริมาณที่ปรับแล้ว</p>
+<p>layout ที่เลือกจะถูกแบ่งออกเป็นสอง layout โดยมีการปรับจำนวนให้เหมาะสม</p>
 </div>
 </div>
 </div>
@@ -688,25 +599,25 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
  <h3>Contents</h3>
  <ul>
   <li level="1">
-   <a href="#send-to-machine">ส่งไปยังเครื่องจักร&#8230;&#8203;</a>
+   <a href="#send-to-machine">Send to machine</a>
   </li>
   <li level="1">
-   <a href="#_เรียกกลับจากเครื่องจักร">เรียกกลับจากเครื่องจักร&#8230;&#8203;</a>
+   <a href="#_recall_from_machine">Recall from machine</a>
   </li>
   <li level="1">
-   <a href="#_ส่งออกเอาต์พุต">ส่งออกเอาต์พุต</a>
+   <a href="#_export_outputs">Export outputs</a>
   </li>
   <li level="1">
-   <a href="#mark-complete">Mark complete</a>
+   <a href="#mark-complete">ทำเครื่องหมายเสร็จสมบูรณ์</a>
   </li>
   <li level="1">
-   <a href="#add-parts">เพิ่มชิ้นส่วน&#8230;&#8203;</a>
+   <a href="#add-parts">Add parts&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#adapt-compact">ปรับ/จัดให้กระชับ&#8230;&#8203;</a>
+   <a href="#adapt-compact">Adapt/Compact&#8230;&#8203;</a>
   </li>
   <li level="1">
-   <a href="#_การแบ่งเลย์เอาต์">การแบ่งเลย์เอาต์</a>
+   <a href="#_การแบ่ง_layout">การแบ่ง layout</a>
   </li>
  </ul>
 </aside>
@@ -714,8 +625,8 @@ Export Outputs จะไม่มีสำหรับเลย์เอาต�
                 </div>
             </div>
             <nav class="pagination">
- <span class="prev"><a href="nestview.html">มุมมองเลย์เอาต์</a></span>
- <span class="next"><a href="reportsender.html">ผู้ส่งรายงาน</a></span>
+ <span class="prev"><a href="nestview.html">มุมมอง layout</a></span>
+ <span class="next"><a href="reportsender.html">ตัวส่งรายงาน</a></span>
 </nav>
 
         </div>

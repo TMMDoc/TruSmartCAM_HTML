@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../res/sibling.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../img/praxis-icon.png">
-  <title>Zagnieżdżanie dwuliniowe</title>
+  <title>Nesting Twinline</title>
 </head>
 <body id="site-body" onload="sLoaded()">
     <header id="site-header">
@@ -29,18 +29,16 @@
    <ul class="hide">
     <li><button class="tree blank"></button><a href="../installation/hardwarerequirement.html">Wymagania sprzętowe</a></li>
     <li><button class="tree blank"></button><a href="../installation/importformats.html">Obsługiwane formaty plików</a></li>
-    <li><button class="tree blank"></button><a href="../installation/prerequisites.html">Wymagania wstępne</a></li>
     <li><button class="tree blank"></button><a href="../installation/serverinstallation.html">Instalacja serwera</a></li>
     <li><button class="tree blank"></button><a href="../installation/clientinstallation.html">Instalacja klienta</a></li>
-    <li><button class="tree blank"></button><a href="../installation/changelic.html">Zmiana licencji</a></li>
    </ul>
   </li>
   <li>
    <button class="tree closed"></button>
    <a href="../configuration/index.html">Konfiguracja</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodaj/Usuń maszynę</a></li>
-    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja oprzyrządowania</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setupmachine.html">Dodawanie/usuwanie maszyny</a></li>
+    <li><button class="tree blank"></button><a href="../configuration/setuptooling.html">Konfiguracja tooling</a></li>
     <li><button class="tree blank"></button><a href="../configuration/configureusers.html">Konfiguracja użytkowników</a></li>
     <li><button class="tree blank"></button><a href="../configuration/language.html">Język</a></li>
     <li>
@@ -48,8 +46,8 @@
      <a href="../configuration/addmaterial/index.html">Materiał</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../configuration/addmaterial/addnew.html">Dodawanie nowego materiału i arkusza</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/Import materiału</a></li>
-      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zamiana materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/exportimport.html">Eksport/import materiału</a></li>
+      <li><button class="tree blank"></button><a href="../configuration/addmaterial/replacematerial.html">Zastępowanie materiału</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../configuration/mapbendpages.html">Mapowanie materiału</a></li>
@@ -58,19 +56,19 @@
    </ul>
   </li>
   <li><button class="tree blank"></button><a href="../userinterface.html">Interfejs użytkownika</a></li>
-  <li><button class="tree blank"></button><a href="../workflow.html">Przepływ pracy</a></li>
+  <li><button class="tree blank"></button><a href="../workflow.html">Workflow</a></li>
   <li>
    <button class="tree closed"></button>
    <a href="../library/index.html">Biblioteka</a>
    <ul class="hide">
     <li>
      <button class="tree closed"></button>
-     <a href="../library/open/index.html">Otwórz</a>
+     <a href="../library/open/index.html">Otwieranie</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importuj części</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importuj zamówienia</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Import zadań</a></li>
-      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importuj zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/partimport.html">Importowanie części</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/orderimport.html">Importowanie zleceń</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/jobimport.html">Importowanie zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../library/open/assembliesimport.html">Importowanie zespołów</a></li>
      </ul>
     </li>
     <li>
@@ -78,7 +76,7 @@
      <a href="../library/libraryview/index.html">Widok biblioteki</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="../library/libraryview/partview.html">Części</a></li>
-      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespoły</a></li>
+      <li><button class="tree blank"></button><a href="../library/libraryview/assemblyview.html">Zespół</a></li>
      </ul>
     </li>
     <li>
@@ -92,18 +90,18 @@
     </li>
     <li>
      <button class="tree closed"></button>
-     <a href="../library/toolingstatus/index.html">Status narzędzi</a>
+     <a href="../library/toolingstatus/index.html">Status tooling</a>
      <ul class="hide">
       <li>
        <button class="tree closed"></button>
-       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja narzędzi</a>
+       <a href="../library/toolingstatus/toolingvalidation/index.html">Walidacja tooling</a>
        <ul class="hide">
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja narzędzi do gięcia</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja narzędzi tnących</a></li>
-        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja narzędzi do składania</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/bendtooling.html">Walidacja tooling gięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/cuttooling.html">Walidacja tooling cięcia</a></li>
+        <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingvalidation/foldtooling.html">Walidacja tooling składania</a></li>
        </ul>
       </li>
-      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel narzędziowania</a></li>
+      <li><button class="tree blank"></button><a href="../library/toolingstatus/toolingpanel.html">Panel tooling</a></li>
      </ul>
     </li>
     <li><button class="tree blank"></button><a href="../library/savingfilters.html">Zapisywanie filtrów</a></li>
@@ -111,28 +109,28 @@
   </li>
   <li>
    <button class="tree closed"></button>
-   <a href="../orders/index.html">Zamówienia</a>
+   <a href="../orders/index.html">Zlecenia</a>
    <ul class="hide">
-    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zamówień</a></li>
+    <li><button class="tree blank"></button><a href="../orders/ordersview.html">Widok zleceń</a></li>
    </ul>
   </li>
   <li>
    <button class="tree open"></button>
-   <a href="index.html">Zadania</a>
+   <a href="index.html">Zadania job</a>
    <ul>
-    <li><button class="tree blank"></button><a href="jobcreation.html">Tworzenie zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobview.html">Widok zadania</a></li>
-    <li><button class="tree blank"></button><a href="jobpanel.html">Panel zadania</a></li>
+    <li><button class="tree blank"></button><a href="jobcreation.html">Tworzenie zadania job</a></li>
+    <li><button class="tree blank"></button><a href="jobview.html">Widok zadań job</a></li>
+    <li><button class="tree blank"></button><a href="jobpanel.html">Panel zadania job</a></li>
     <li><button class="tree blank"></button><a href="jobautoplan.html">Automatyczne planowanie</a></li>
-    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktywne zagnieżdżanie</a></li>
+    <li><button class="tree blank"></button><a href="jobinteractplan.html">Interaktywny nesting</a></li>
     <li><button class="tree blank"></button><a href="repacking.html">Przepakowywanie</a></li>
     <li>
      <button class="tree closed"></button>
-     <a href="layoutcommands/index.html">Zarządzanie układem</a>
+     <a href="layoutcommands/index.html">Zarządzanie nestami</a>
      <ul class="hide">
       <li><button class="tree blank"></button><a href="layoutcommands/nestview.html">Widok układu</a></li>
       <li><button class="tree blank"></button><a href="layoutcommands/layoutpanel.html">Panel układu</a></li>
-      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Nadawca raportów</a></li>
+      <li><button class="tree blank"></button><a href="layoutcommands/reportsender.html">Wysyłanie raportów</a></li>
      </ul>
     </li>
     <li>
@@ -143,9 +141,9 @@
       <li><button class="tree blank"></button><a href="remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></li>
      </ul>
     </li>
-    <li><button class="tree blank"></button><a class="active" href="twinlinenesting.html">Zagnieżdżanie dwuliniowe</a></li>
-    <li><button class="tree blank"></button><a href="outdate.html">Przestarzałe</a></li>
-    <li><button class="tree blank"></button><a href="jobfilters.html">Filtry zadań</a></li>
+    <li><button class="tree blank"></button><a class="active" href="twinlinenesting.html">Nesting Twinline</a></li>
+    <li><button class="tree blank"></button><a href="outdate.html">Nieaktualne</a></li>
+    <li><button class="tree blank"></button><a href="jobfilters.html">Filtry zadań job</a></li>
    </ul>
   </li>
   <li>
@@ -161,32 +159,14 @@
      <button class="tree closed"></button>
      <a href="../factory/settings/index.html">Ustawienia</a>
      <ul class="hide">
-      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Environment</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Import</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Bend</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Cut</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Powiadomienia</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Watch</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Job</a></li>
-      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Raporty</a></li>
-     </ul>
-    </li>
-   </ul>
-  </li>
-  <li>
-   <button class="tree closed"></button>
-   <a href="../cadextensions/index.html">Rozszerzenia CAD</a>
-   <ul class="hide">
-    <li>
-     <button class="tree closed"></button>
-     <a href="../cadextensions/solidworksaddin/index.html">SolidWorks addin</a>
-     <ul class="hide">
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/installationsteps.html">Instalacja</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/savetopraxis.html">Zapisywanie części</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/saveassembly.html">Zapisywanie złożenia</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/partfeasibility.html">Sprawdzanie wykonalności</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/factorysettings.html">Ustawienia fabryki</a></li>
-      <li><button class="tree blank"></button><a href="../cadextensions/solidworksaddin/miscenhancements.html">Różne ulepszenia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/environment.html">Ustawienia środowiska</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/import.html">Ustawienia importu</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/bend.html">Ustawienia gięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/cut.html">Ustawienia cięcia</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/notification.html">Ustawienia powiadomień</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/watch.html">Ustawienia monitorowania</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/job.html">Ustawienia zadań job</a></li>
+      <li><button class="tree blank"></button><a href="../factory/settings/reports.html">Ustawienia raportów</a></li>
      </ul>
     </li>
    </ul>
@@ -204,29 +184,29 @@
   </button>
  </div>
  <div>
-  <a href="index.html">Zadania</a>
+  <a href="index.html">Zadania job</a>
  </div>
  <div>/</div>
  <div>
-  <a href="twinlinenesting.html">Zagnieżdżanie dwuliniowe</a>
+  <a href="twinlinenesting.html">Nesting Twinline</a>
  </div>
 </nav>
 
             <div id="site-crumb-below">
                 <div id="site-toc-left">
                     <article id="article">
-                        <h1>Zagnieżdżanie dwuliniowe</h1>
+                        <h1>Nesting Twinline</h1>
 <div class="paragraph">
-<p>Zagnieżdżanie dwuliniowe umożliwia cięcie części o wspólnych krawędziach za pomocą pojedynczej linii
-zamiast dwóch. Oszczędza to materiał, zmniejsza czas cięcia i poprawia ogólną
+<p>Nesting Twinline umożliwia cięcie części ze wspólnymi krawędziami za pomocą pojedynczej linii
+zamiast dwóch. Oszczędza to materiał, skraca czas cięcia i poprawia ogólną
 wydajność produkcji.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Aby włączyć tę funkcję, kliknij <strong>fabryka</strong> &#8594;
-<strong>Zadanie</strong> &#8594; <strong>Ustawienia układania</strong>&#8594;
-<strong>Zautomatyzuj układanie podwójnej linii</strong>.</p>
+<p>Aby włączyć tę funkcję, kliknij <strong>factory</strong> &#8594;
+<strong>Job</strong> &#8594; <strong>Nest settings</strong>&#8594;
+<strong>Automate twin-line nesting</strong>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/twinlinenest.png" alt="Twinline Nest" width="748">
@@ -234,12 +214,12 @@ wydajność produkcji.</p>
 </div>
 </li>
 <li>
-<p>Gdy ta opcja jest włączona, system automatycznie sprawdza każdą importowaną
-część pod kątem możliwości zastosowania dwuliniowości.</p>
+<p>Gdy ta opcja jest włączona, system automatycznie sprawdza każdą zaimportowaną
+część pod kątem wykonalności twin-line.</p>
 </li>
 <li>
-<p>Możliwe do zastosowania części są automatycznie oznaczane jako <strong>TwinLine CAN</strong>
-<strong>Tak</strong> podczas importowania.</p>
+<p>Wykonalne części są automatycznie oznaczane jako <strong>Can Twinline</strong>
+z wartością <strong>Yes</strong> podczas importu.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/cantwinline.png" alt="Can Twinline" width="559">
@@ -247,9 +227,9 @@ część pod kątem możliwości zastosowania dwuliniowości.</p>
 </div>
 </li>
 <li>
-<p>W oknie dialogowym zadania możesz
-włączyć <strong>Włącz układanie podwójnej linii</strong>, jeśli zadanie wymaga zagnieżdżania
-dwuliniowego.</p>
+<p>W oknie dialogowym zadania job możesz włączyć
+<strong>Enable Twin-line Nesting</strong>, jeśli zadanie job wymaga nestingu
+twin-line.</p>
 <div class="imageblock">
 <div class="content">
 <img src="img/twinlinejob.png" alt="Twinline Job" width="730">
@@ -266,7 +246,7 @@ dwuliniowego.</p>
 </td>
 <td class="content">
 Ta opcja pojawia się tylko wtedy, gdy
-<strong>Zautomatyzuj układanie podwójnej linii</strong> jest włączone w ustawieniach fabrycznych.
+<strong>Automate twin-line nesting</strong> jest włączone w ustawieniach fabryki.
 </td>
 </tr>
 </table>
@@ -274,21 +254,10 @@ Ta opcja pojawia się tylko wtedy, gdy
 <div class="ulist">
 <ul>
 <li>
-<p>Po planowaniu wszystkie zagnieżdżenia z częściami dzielącymi wspólne krawędzie
-są automatycznie dwuliniowe.</p>
-<div class="imageblock">
-<div class="content">
-<img src="img/istwinlined.png" alt="Is Twinlined" width="741">
-</div>
-</div>
-</li>
-<li>
-<p>Układ jest uważany za dwuliniowy, gdy pole</p>
+<p>Po zaplanowaniu wszelkie nesty zawierające części, które mają wspólne krawędzie, są
+automatycznie łączone liniią twin-line.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><strong>Jest TwinLine</strong> układu jest oznaczone jako <strong>Tak</strong>.</p>
 </div>
 
                     </article>
@@ -299,7 +268,7 @@ są automatycznie dwuliniowe.</p>
             </div>
             <nav class="pagination">
  <span class="prev"><a href="remnantmanagement/manualremnant.html">Ręczne zarządzanie resztkami</a></span>
- <span class="next"><a href="outdate.html">Przestarzałe</a></span>
+ <span class="next"><a href="outdate.html">Nieaktualne</a></span>
 </nav>
 
         </div>
